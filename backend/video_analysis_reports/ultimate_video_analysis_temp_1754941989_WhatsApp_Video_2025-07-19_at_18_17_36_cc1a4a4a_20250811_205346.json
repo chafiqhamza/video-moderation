@@ -1,0 +1,1193 @@
+{
+  "video_info": {
+    "path": "C:\\Users\\PC\\AppData\\Local\\Temp\\video_analysis\\temp_1754941989_WhatsApp Video 2025-07-19 at 18.17.36_cc1a4a4a.mp4",
+    "name": "temp_1754941989_WhatsApp Video 2025-07-19 at 18.17.36_cc1a4a4a.mp4",
+    "analysis_time": 11.331280708312988,
+    "timestamp": "2025-08-11T20:53:35.263234"
+  },
+  "frame_analysis": {
+    "total_frames": 18,
+    "violation_frames": 17,
+    "average_confidence": 0.7547612206803428,
+    "violation_categories": [
+      "misinformation",
+      "suggestive_content",
+      "artistic_adult_content"
+    ]
+  },
+  "audio_analysis": {
+    "transcript": " Oh hey, how's it going guys? How are things going in life? I just want to say have a great time.",
+    "language": "en",
+    "policy_flags": {},
+    "whisper_available": true,
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 3.0,
+        "text": " Oh hey, how's it going guys?",
+        "tokens": [
+          50364,
+          876,
+          4177,
+          11,
+          577,
+          311,
+          309,
+          516,
+          1074,
+          30,
+          50514
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.30816529013893823,
+        "compression_ratio": 1.0909090909090908,
+        "no_speech_prob": 0.12217290699481964
+      },
+      {
+        "id": 1,
+        "seek": 0,
+        "start": 3.0,
+        "end": 5.0,
+        "text": " How are things going in life?",
+        "tokens": [
+          50514,
+          1012,
+          366,
+          721,
+          516,
+          294,
+          993,
+          30,
+          50614
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.30816529013893823,
+        "compression_ratio": 1.0909090909090908,
+        "no_speech_prob": 0.12217290699481964
+      },
+      {
+        "id": 2,
+        "seek": 0,
+        "start": 5.0,
+        "end": 8.0,
+        "text": " I just want to say have a great time.",
+        "tokens": [
+          50614,
+          286,
+          445,
+          528,
+          281,
+          584,
+          362,
+          257,
+          869,
+          565,
+          13,
+          50764
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.30816529013893823,
+        "compression_ratio": 1.0909090909090908,
+        "no_speech_prob": 0.12217290699481964
+      }
+    ]
+  },
+  "overall_assessment": {
+    "overall_compliance": 47.77777777777778,
+    "visual_compliance": 5.555555555555555,
+    "audio_compliance": 90,
+    "status": "major_violations",
+    "total_violations": 17,
+    "violation_categories": [
+      "misinformation",
+      "suggestive_content",
+      "artistic_adult_content"
+    ]
+  },
+  "detailed_frames": [
+    {
+      "timestamp": 0.0,
+      "frame_index": 0,
+      "visual_analysis": {
+        "category": "suggestive_content",
+        "confidence": 0.5754826068878174,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.010803692042827606,
+          "suggestive_content": 0.5754826068878174,
+          "artistic_adult_content": 0.21462872624397278,
+          "misinformation": 0.17781133949756622,
+          "violence": 0.009277199395000935,
+          "hate_speech": 0.005429799668490887,
+          "dangerous_activities": 0.006566610187292099
+        }
+      },
+      "blip_description": {
+        "description": "a person is holding a cell phone",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "",
+        "extracted_items": [],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1754941989_WhatsApp Video 2025-07-19 at 18.17.36_cc1a4a4a_frame_1.jpg"
+    },
+    {
+      "timestamp": 0.5,
+      "frame_index": 1,
+      "visual_analysis": {
+        "category": "suggestive_content",
+        "confidence": 0.9722157716751099,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.0014075288781896234,
+          "suggestive_content": 0.9722157716751099,
+          "artistic_adult_content": 0.01630583591759205,
+          "misinformation": 0.009121292270720005,
+          "violence": 0.00033223163336515427,
+          "hate_speech": 0.0002268766547786072,
+          "dangerous_activities": 0.00039038521936163306
+        }
+      },
+      "blip_description": {
+        "description": "a person is walking down a ramp on a train",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "",
+        "extracted_items": [],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1754941989_WhatsApp Video 2025-07-19 at 18.17.36_cc1a4a4a_frame_2.jpg"
+    },
+    {
+      "timestamp": 1.0,
+      "frame_index": 2,
+      "visual_analysis": {
+        "category": "suggestive_content",
+        "confidence": 0.97730553150177,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.001301434589549899,
+          "suggestive_content": 0.97730553150177,
+          "artistic_adult_content": 0.01369654294103384,
+          "misinformation": 0.006924956571310759,
+          "violence": 0.0002648297231644392,
+          "hate_speech": 0.00018223536608275026,
+          "dangerous_activities": 0.00032448110869154334
+        }
+      },
+      "blip_description": {
+        "description": "a white table",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "",
+        "extracted_items": [],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1754941989_WhatsApp Video 2025-07-19 at 18.17.36_cc1a4a4a_frame_3.jpg"
+    },
+    {
+      "timestamp": 1.5,
+      "frame_index": 3,
+      "visual_analysis": {
+        "category": "suggestive_content",
+        "confidence": 0.9477317929267883,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.004010259173810482,
+          "suggestive_content": 0.9477317929267883,
+          "artistic_adult_content": 0.031405434012413025,
+          "misinformation": 0.015011196956038475,
+          "violence": 0.0005959299742244184,
+          "hate_speech": 0.00047061534132808447,
+          "dangerous_activities": 0.0007746840128675103
+        }
+      },
+      "blip_description": {
+        "description": "a room with a bed and a television",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "",
+        "extracted_items": [],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1754941989_WhatsApp Video 2025-07-19 at 18.17.36_cc1a4a4a_frame_4.jpg"
+    },
+    {
+      "timestamp": 2.0,
+      "frame_index": 4,
+      "visual_analysis": {
+        "category": "suggestive_content",
+        "confidence": 0.6142507195472717,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.07412993907928467,
+          "suggestive_content": 0.6142507195472717,
+          "artistic_adult_content": 0.18077164888381958,
+          "misinformation": 0.1132163405418396,
+          "violence": 0.005282314959913492,
+          "hate_speech": 0.005114793311804533,
+          "dangerous_activities": 0.007234308868646622
+        }
+      },
+      "blip_description": {
+        "description": "a room with a white floor and a white wall",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "",
+        "extracted_items": [],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1754941989_WhatsApp Video 2025-07-19 at 18.17.36_cc1a4a4a_frame_5.jpg"
+    },
+    {
+      "timestamp": 2.5,
+      "frame_index": 5,
+      "visual_analysis": {
+        "category": "suggestive_content",
+        "confidence": 0.8638600707054138,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.027337636798620224,
+          "suggestive_content": 0.8638600707054138,
+          "artistic_adult_content": 0.06264950335025787,
+          "misinformation": 0.03936171531677246,
+          "violence": 0.00208399910479784,
+          "hate_speech": 0.0018972413381561637,
+          "dangerous_activities": 0.002809937344864011
+        }
+      },
+      "blip_description": {
+        "description": "a man is standing in a room with a laptop",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "",
+        "extracted_items": [],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1754941989_WhatsApp Video 2025-07-19 at 18.17.36_cc1a4a4a_frame_6.jpg"
+    },
+    {
+      "timestamp": 3.0,
+      "frame_index": 6,
+      "visual_analysis": {
+        "category": "suggestive_content",
+        "confidence": 0.8132673501968384,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.028368765488266945,
+          "suggestive_content": 0.8132673501968384,
+          "artistic_adult_content": 0.06783401221036911,
+          "misinformation": 0.07617473602294922,
+          "violence": 0.005686082411557436,
+          "hate_speech": 0.0036924220621585846,
+          "dangerous_activities": 0.00497656874358654
+        }
+      },
+      "blip_description": {
+        "description": "a mirror with a reflection",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "",
+        "extracted_items": [],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1754941989_WhatsApp Video 2025-07-19 at 18.17.36_cc1a4a4a_frame_7.jpg"
+    },
+    {
+      "timestamp": 3.5,
+      "frame_index": 7,
+      "visual_analysis": {
+        "category": "suggestive_content",
+        "confidence": 0.8732372522354126,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.01618260145187378,
+          "suggestive_content": 0.8732372522354126,
+          "artistic_adult_content": 0.07112061232328415,
+          "misinformation": 0.03413106128573418,
+          "violence": 0.0016341367736458778,
+          "hate_speech": 0.0014409967698156834,
+          "dangerous_activities": 0.0022533670999109745
+        }
+      },
+      "blip_description": {
+        "description": "a room with a bed and a mirror",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "",
+        "extracted_items": [],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1754941989_WhatsApp Video 2025-07-19 at 18.17.36_cc1a4a4a_frame_8.jpg"
+    },
+    {
+      "timestamp": 4.0,
+      "frame_index": 8,
+      "visual_analysis": {
+        "category": "suggestive_content",
+        "confidence": 0.9728592038154602,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.0014404330868273973,
+          "suggestive_content": 0.9728592038154602,
+          "artistic_adult_content": 0.016818614676594734,
+          "misinformation": 0.007975075393915176,
+          "violence": 0.0003156410239171237,
+          "hate_speech": 0.0002154156391043216,
+          "dangerous_activities": 0.000375724135665223
+        }
+      },
+      "blip_description": {
+        "description": "a wooden door",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "",
+        "extracted_items": [],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1754941989_WhatsApp Video 2025-07-19 at 18.17.36_cc1a4a4a_frame_9.jpg"
+    },
+    {
+      "timestamp": 4.5,
+      "frame_index": 9,
+      "visual_analysis": {
+        "category": "suggestive_content",
+        "confidence": 0.7038047313690186,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.03613266721367836,
+          "suggestive_content": 0.7038047313690186,
+          "artistic_adult_content": 0.13523370027542114,
+          "misinformation": 0.10662192106246948,
+          "violence": 0.006664665415883064,
+          "hate_speech": 0.0048500848934054375,
+          "dangerous_activities": 0.006692210678011179
+        }
+      },
+      "blip_description": {
+        "description": "a blur of a person walking in a room",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "",
+        "extracted_items": [],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1754941989_WhatsApp Video 2025-07-19 at 18.17.36_cc1a4a4a_frame_10.jpg"
+    },
+    {
+      "timestamp": 5.0,
+      "frame_index": 10,
+      "visual_analysis": {
+        "category": "misinformation",
+        "confidence": 0.3694709837436676,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.0027954475954174995,
+          "suggestive_content": 0.2638578712940216,
+          "artistic_adult_content": 0.3489581346511841,
+          "misinformation": 0.3694709837436676,
+          "violence": 0.006465638987720013,
+          "hate_speech": 0.0034239389933645725,
+          "dangerous_activities": 0.005028006620705128
+        }
+      },
+      "blip_description": {
+        "description": "a man is holding a cell phone",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "",
+        "extracted_items": [],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1754941989_WhatsApp Video 2025-07-19 at 18.17.36_cc1a4a4a_frame_11.jpg"
+    },
+    {
+      "timestamp": 5.5,
+      "frame_index": 11,
+      "visual_analysis": {
+        "category": "suggestive_content",
+        "confidence": 0.9548132419586182,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.001773434691131115,
+          "suggestive_content": 0.9548132419586182,
+          "artistic_adult_content": 0.02808464504778385,
+          "misinformation": 0.014005082659423351,
+          "violence": 0.0004408065287861973,
+          "hate_speech": 0.000324049819028005,
+          "dangerous_activities": 0.0005587690393440425
+        }
+      },
+      "blip_description": {
+        "description": "a blur of a car",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "",
+        "extracted_items": [],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1754941989_WhatsApp Video 2025-07-19 at 18.17.36_cc1a4a4a_frame_12.jpg"
+    },
+    {
+      "timestamp": 6.0,
+      "frame_index": 12,
+      "visual_analysis": {
+        "category": "suggestive_content",
+        "confidence": 0.465101957321167,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.11660823225975037,
+          "suggestive_content": 0.465101957321167,
+          "artistic_adult_content": 0.11724410951137543,
+          "misinformation": 0.2729562819004059,
+          "violence": 0.008783862926065922,
+          "hate_speech": 0.008378556929528713,
+          "dangerous_activities": 0.010926999151706696
+        }
+      },
+      "blip_description": {
+        "description": "a bed with a wooden headboard",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "",
+        "extracted_items": [],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1754941989_WhatsApp Video 2025-07-19 at 18.17.36_cc1a4a4a_frame_13.jpg"
+    },
+    {
+      "timestamp": 6.5,
+      "frame_index": 13,
+      "visual_analysis": {
+        "category": "safe_content",
+        "confidence": 0.797956109046936,
+        "violation_detected": false,
+        "all_probabilities": {
+          "safe_content": 0.797956109046936,
+          "suggestive_content": 0.0964164212346077,
+          "artistic_adult_content": 0.014078873209655285,
+          "misinformation": 0.0727258175611496,
+          "violence": 0.005782637745141983,
+          "hate_speech": 0.006554362364113331,
+          "dangerous_activities": 0.0064857350662350655
+        }
+      },
+      "blip_description": {
+        "description": "a room with a book shelf and a computer",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "",
+        "extracted_items": [],
+        "ocr_available": true
+      },
+      "combined_violation": false,
+      "preview_path": "/static/frames/temp_1754941989_WhatsApp Video 2025-07-19 at 18.17.36_cc1a4a4a_frame_14.jpg"
+    },
+    {
+      "timestamp": 7.0,
+      "frame_index": 14,
+      "visual_analysis": {
+        "category": "suggestive_content",
+        "confidence": 0.9539439082145691,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.0017828518757596612,
+          "suggestive_content": 0.9539439082145691,
+          "artistic_adult_content": 0.03042592480778694,
+          "misinformation": 0.012458514422178268,
+          "violence": 0.0005263357306830585,
+          "hate_speech": 0.00032243109308183193,
+          "dangerous_activities": 0.000540051085408777
+        }
+      },
+      "blip_description": {
+        "description": "a cat is walking around a room with a chair",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "",
+        "extracted_items": [],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1754941989_WhatsApp Video 2025-07-19 at 18.17.36_cc1a4a4a_frame_15.jpg"
+    },
+    {
+      "timestamp": 7.5,
+      "frame_index": 15,
+      "visual_analysis": {
+        "category": "artistic_adult_content",
+        "confidence": 0.42679834365844727,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.003464894136413932,
+          "suggestive_content": 0.3843391537666321,
+          "artistic_adult_content": 0.42679834365844727,
+          "misinformation": 0.1609237790107727,
+          "violence": 0.011971898376941681,
+          "hate_speech": 0.006302142050117254,
+          "dangerous_activities": 0.006199775263667107
+        }
+      },
+      "blip_description": {
+        "description": "a man is standing in a room with a white wall",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "",
+        "extracted_items": [],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1754941989_WhatsApp Video 2025-07-19 at 18.17.36_cc1a4a4a_frame_16.jpg"
+    },
+    {
+      "timestamp": 8.0,
+      "frame_index": 16,
+      "visual_analysis": {
+        "category": "suggestive_content",
+        "confidence": 0.5916018486022949,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.0027554549742490053,
+          "suggestive_content": 0.5916018486022949,
+          "artistic_adult_content": 0.21290963888168335,
+          "misinformation": 0.16075347363948822,
+          "violence": 0.021984636783599854,
+          "hate_speech": 0.004849688615649939,
+          "dangerous_activities": 0.0051453253254294395
+        }
+      },
+      "blip_description": {
+        "description": "a white refrigerator",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "",
+        "extracted_items": [],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1754941989_WhatsApp Video 2025-07-19 at 18.17.36_cc1a4a4a_frame_17.jpg"
+    },
+    {
+      "timestamp": 8.5,
+      "frame_index": 17,
+      "visual_analysis": {
+        "category": "suggestive_content",
+        "confidence": 0.7120005488395691,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.004016420338302851,
+          "suggestive_content": 0.7120005488395691,
+          "artistic_adult_content": 0.14717639982700348,
+          "misinformation": 0.11538484692573547,
+          "violence": 0.013248822651803493,
+          "hate_speech": 0.0039039049297571182,
+          "dangerous_activities": 0.004269052296876907
+        }
+      },
+      "blip_description": {
+        "description": "a white refrigerator sitting in a kitchen next to a sink",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "",
+        "extracted_items": [],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1754941989_WhatsApp Video 2025-07-19 at 18.17.36_cc1a4a4a_frame_18.jpg"
+    }
+  ],
+  "recommendations": [
+    "⚠️ Visual policy violations detected: misinformation, suggestive_content, artistic_adult_content",
+    "🔍 Consider reviewing flagged video segments",
+    "🚨 Multiple violations detected - content may need significant editing"
+  ],
+  "multi_modal_capabilities": {
+    "visual_model_accuracy": 97.48,
+    "blip_available": true,
+    "whisper_available": true,
+    "ocr_available": true
+  },
+  "text_issues": "",
+  "image": {
+    "details": {
+      "frame_preview_paths": [
+        "/static/frames/temp_1754941989_WhatsApp Video 2025-07-19 at 18.17.36_cc1a4a4a_frame_1.jpg",
+        "/static/frames/temp_1754941989_WhatsApp Video 2025-07-19 at 18.17.36_cc1a4a4a_frame_2.jpg",
+        "/static/frames/temp_1754941989_WhatsApp Video 2025-07-19 at 18.17.36_cc1a4a4a_frame_3.jpg",
+        "/static/frames/temp_1754941989_WhatsApp Video 2025-07-19 at 18.17.36_cc1a4a4a_frame_4.jpg",
+        "/static/frames/temp_1754941989_WhatsApp Video 2025-07-19 at 18.17.36_cc1a4a4a_frame_5.jpg",
+        "/static/frames/temp_1754941989_WhatsApp Video 2025-07-19 at 18.17.36_cc1a4a4a_frame_6.jpg",
+        "/static/frames/temp_1754941989_WhatsApp Video 2025-07-19 at 18.17.36_cc1a4a4a_frame_7.jpg",
+        "/static/frames/temp_1754941989_WhatsApp Video 2025-07-19 at 18.17.36_cc1a4a4a_frame_8.jpg",
+        "/static/frames/temp_1754941989_WhatsApp Video 2025-07-19 at 18.17.36_cc1a4a4a_frame_9.jpg",
+        "/static/frames/temp_1754941989_WhatsApp Video 2025-07-19 at 18.17.36_cc1a4a4a_frame_10.jpg",
+        "/static/frames/temp_1754941989_WhatsApp Video 2025-07-19 at 18.17.36_cc1a4a4a_frame_11.jpg",
+        "/static/frames/temp_1754941989_WhatsApp Video 2025-07-19 at 18.17.36_cc1a4a4a_frame_12.jpg",
+        "/static/frames/temp_1754941989_WhatsApp Video 2025-07-19 at 18.17.36_cc1a4a4a_frame_13.jpg",
+        "/static/frames/temp_1754941989_WhatsApp Video 2025-07-19 at 18.17.36_cc1a4a4a_frame_14.jpg",
+        "/static/frames/temp_1754941989_WhatsApp Video 2025-07-19 at 18.17.36_cc1a4a4a_frame_15.jpg",
+        "/static/frames/temp_1754941989_WhatsApp Video 2025-07-19 at 18.17.36_cc1a4a4a_frame_16.jpg",
+        "/static/frames/temp_1754941989_WhatsApp Video 2025-07-19 at 18.17.36_cc1a4a4a_frame_17.jpg",
+        "/static/frames/temp_1754941989_WhatsApp Video 2025-07-19 at 18.17.36_cc1a4a4a_frame_18.jpg"
+      ],
+      "frame_analysis": [
+        {
+          "timestamp": 0.0,
+          "frame_index": 0,
+          "visual_analysis": {
+            "category": "suggestive_content",
+            "confidence": 0.5754826068878174,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.010803692042827606,
+              "suggestive_content": 0.5754826068878174,
+              "artistic_adult_content": 0.21462872624397278,
+              "misinformation": 0.17781133949756622,
+              "violence": 0.009277199395000935,
+              "hate_speech": 0.005429799668490887,
+              "dangerous_activities": 0.006566610187292099
+            }
+          },
+          "blip_description": {
+            "description": "a person is holding a cell phone",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "",
+            "extracted_items": [],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1754941989_WhatsApp Video 2025-07-19 at 18.17.36_cc1a4a4a_frame_1.jpg"
+        },
+        {
+          "timestamp": 0.5,
+          "frame_index": 1,
+          "visual_analysis": {
+            "category": "suggestive_content",
+            "confidence": 0.9722157716751099,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.0014075288781896234,
+              "suggestive_content": 0.9722157716751099,
+              "artistic_adult_content": 0.01630583591759205,
+              "misinformation": 0.009121292270720005,
+              "violence": 0.00033223163336515427,
+              "hate_speech": 0.0002268766547786072,
+              "dangerous_activities": 0.00039038521936163306
+            }
+          },
+          "blip_description": {
+            "description": "a person is walking down a ramp on a train",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "",
+            "extracted_items": [],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1754941989_WhatsApp Video 2025-07-19 at 18.17.36_cc1a4a4a_frame_2.jpg"
+        },
+        {
+          "timestamp": 1.0,
+          "frame_index": 2,
+          "visual_analysis": {
+            "category": "suggestive_content",
+            "confidence": 0.97730553150177,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.001301434589549899,
+              "suggestive_content": 0.97730553150177,
+              "artistic_adult_content": 0.01369654294103384,
+              "misinformation": 0.006924956571310759,
+              "violence": 0.0002648297231644392,
+              "hate_speech": 0.00018223536608275026,
+              "dangerous_activities": 0.00032448110869154334
+            }
+          },
+          "blip_description": {
+            "description": "a white table",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "",
+            "extracted_items": [],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1754941989_WhatsApp Video 2025-07-19 at 18.17.36_cc1a4a4a_frame_3.jpg"
+        },
+        {
+          "timestamp": 1.5,
+          "frame_index": 3,
+          "visual_analysis": {
+            "category": "suggestive_content",
+            "confidence": 0.9477317929267883,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.004010259173810482,
+              "suggestive_content": 0.9477317929267883,
+              "artistic_adult_content": 0.031405434012413025,
+              "misinformation": 0.015011196956038475,
+              "violence": 0.0005959299742244184,
+              "hate_speech": 0.00047061534132808447,
+              "dangerous_activities": 0.0007746840128675103
+            }
+          },
+          "blip_description": {
+            "description": "a room with a bed and a television",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "",
+            "extracted_items": [],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1754941989_WhatsApp Video 2025-07-19 at 18.17.36_cc1a4a4a_frame_4.jpg"
+        },
+        {
+          "timestamp": 2.0,
+          "frame_index": 4,
+          "visual_analysis": {
+            "category": "suggestive_content",
+            "confidence": 0.6142507195472717,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.07412993907928467,
+              "suggestive_content": 0.6142507195472717,
+              "artistic_adult_content": 0.18077164888381958,
+              "misinformation": 0.1132163405418396,
+              "violence": 0.005282314959913492,
+              "hate_speech": 0.005114793311804533,
+              "dangerous_activities": 0.007234308868646622
+            }
+          },
+          "blip_description": {
+            "description": "a room with a white floor and a white wall",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "",
+            "extracted_items": [],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1754941989_WhatsApp Video 2025-07-19 at 18.17.36_cc1a4a4a_frame_5.jpg"
+        },
+        {
+          "timestamp": 2.5,
+          "frame_index": 5,
+          "visual_analysis": {
+            "category": "suggestive_content",
+            "confidence": 0.8638600707054138,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.027337636798620224,
+              "suggestive_content": 0.8638600707054138,
+              "artistic_adult_content": 0.06264950335025787,
+              "misinformation": 0.03936171531677246,
+              "violence": 0.00208399910479784,
+              "hate_speech": 0.0018972413381561637,
+              "dangerous_activities": 0.002809937344864011
+            }
+          },
+          "blip_description": {
+            "description": "a man is standing in a room with a laptop",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "",
+            "extracted_items": [],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1754941989_WhatsApp Video 2025-07-19 at 18.17.36_cc1a4a4a_frame_6.jpg"
+        },
+        {
+          "timestamp": 3.0,
+          "frame_index": 6,
+          "visual_analysis": {
+            "category": "suggestive_content",
+            "confidence": 0.8132673501968384,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.028368765488266945,
+              "suggestive_content": 0.8132673501968384,
+              "artistic_adult_content": 0.06783401221036911,
+              "misinformation": 0.07617473602294922,
+              "violence": 0.005686082411557436,
+              "hate_speech": 0.0036924220621585846,
+              "dangerous_activities": 0.00497656874358654
+            }
+          },
+          "blip_description": {
+            "description": "a mirror with a reflection",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "",
+            "extracted_items": [],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1754941989_WhatsApp Video 2025-07-19 at 18.17.36_cc1a4a4a_frame_7.jpg"
+        },
+        {
+          "timestamp": 3.5,
+          "frame_index": 7,
+          "visual_analysis": {
+            "category": "suggestive_content",
+            "confidence": 0.8732372522354126,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.01618260145187378,
+              "suggestive_content": 0.8732372522354126,
+              "artistic_adult_content": 0.07112061232328415,
+              "misinformation": 0.03413106128573418,
+              "violence": 0.0016341367736458778,
+              "hate_speech": 0.0014409967698156834,
+              "dangerous_activities": 0.0022533670999109745
+            }
+          },
+          "blip_description": {
+            "description": "a room with a bed and a mirror",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "",
+            "extracted_items": [],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1754941989_WhatsApp Video 2025-07-19 at 18.17.36_cc1a4a4a_frame_8.jpg"
+        },
+        {
+          "timestamp": 4.0,
+          "frame_index": 8,
+          "visual_analysis": {
+            "category": "suggestive_content",
+            "confidence": 0.9728592038154602,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.0014404330868273973,
+              "suggestive_content": 0.9728592038154602,
+              "artistic_adult_content": 0.016818614676594734,
+              "misinformation": 0.007975075393915176,
+              "violence": 0.0003156410239171237,
+              "hate_speech": 0.0002154156391043216,
+              "dangerous_activities": 0.000375724135665223
+            }
+          },
+          "blip_description": {
+            "description": "a wooden door",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "",
+            "extracted_items": [],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1754941989_WhatsApp Video 2025-07-19 at 18.17.36_cc1a4a4a_frame_9.jpg"
+        },
+        {
+          "timestamp": 4.5,
+          "frame_index": 9,
+          "visual_analysis": {
+            "category": "suggestive_content",
+            "confidence": 0.7038047313690186,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.03613266721367836,
+              "suggestive_content": 0.7038047313690186,
+              "artistic_adult_content": 0.13523370027542114,
+              "misinformation": 0.10662192106246948,
+              "violence": 0.006664665415883064,
+              "hate_speech": 0.0048500848934054375,
+              "dangerous_activities": 0.006692210678011179
+            }
+          },
+          "blip_description": {
+            "description": "a blur of a person walking in a room",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "",
+            "extracted_items": [],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1754941989_WhatsApp Video 2025-07-19 at 18.17.36_cc1a4a4a_frame_10.jpg"
+        },
+        {
+          "timestamp": 5.0,
+          "frame_index": 10,
+          "visual_analysis": {
+            "category": "misinformation",
+            "confidence": 0.3694709837436676,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.0027954475954174995,
+              "suggestive_content": 0.2638578712940216,
+              "artistic_adult_content": 0.3489581346511841,
+              "misinformation": 0.3694709837436676,
+              "violence": 0.006465638987720013,
+              "hate_speech": 0.0034239389933645725,
+              "dangerous_activities": 0.005028006620705128
+            }
+          },
+          "blip_description": {
+            "description": "a man is holding a cell phone",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "",
+            "extracted_items": [],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1754941989_WhatsApp Video 2025-07-19 at 18.17.36_cc1a4a4a_frame_11.jpg"
+        },
+        {
+          "timestamp": 5.5,
+          "frame_index": 11,
+          "visual_analysis": {
+            "category": "suggestive_content",
+            "confidence": 0.9548132419586182,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.001773434691131115,
+              "suggestive_content": 0.9548132419586182,
+              "artistic_adult_content": 0.02808464504778385,
+              "misinformation": 0.014005082659423351,
+              "violence": 0.0004408065287861973,
+              "hate_speech": 0.000324049819028005,
+              "dangerous_activities": 0.0005587690393440425
+            }
+          },
+          "blip_description": {
+            "description": "a blur of a car",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "",
+            "extracted_items": [],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1754941989_WhatsApp Video 2025-07-19 at 18.17.36_cc1a4a4a_frame_12.jpg"
+        },
+        {
+          "timestamp": 6.0,
+          "frame_index": 12,
+          "visual_analysis": {
+            "category": "suggestive_content",
+            "confidence": 0.465101957321167,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.11660823225975037,
+              "suggestive_content": 0.465101957321167,
+              "artistic_adult_content": 0.11724410951137543,
+              "misinformation": 0.2729562819004059,
+              "violence": 0.008783862926065922,
+              "hate_speech": 0.008378556929528713,
+              "dangerous_activities": 0.010926999151706696
+            }
+          },
+          "blip_description": {
+            "description": "a bed with a wooden headboard",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "",
+            "extracted_items": [],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1754941989_WhatsApp Video 2025-07-19 at 18.17.36_cc1a4a4a_frame_13.jpg"
+        },
+        {
+          "timestamp": 6.5,
+          "frame_index": 13,
+          "visual_analysis": {
+            "category": "safe_content",
+            "confidence": 0.797956109046936,
+            "violation_detected": false,
+            "all_probabilities": {
+              "safe_content": 0.797956109046936,
+              "suggestive_content": 0.0964164212346077,
+              "artistic_adult_content": 0.014078873209655285,
+              "misinformation": 0.0727258175611496,
+              "violence": 0.005782637745141983,
+              "hate_speech": 0.006554362364113331,
+              "dangerous_activities": 0.0064857350662350655
+            }
+          },
+          "blip_description": {
+            "description": "a room with a book shelf and a computer",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "",
+            "extracted_items": [],
+            "ocr_available": true
+          },
+          "combined_violation": false,
+          "preview_path": "/static/frames/temp_1754941989_WhatsApp Video 2025-07-19 at 18.17.36_cc1a4a4a_frame_14.jpg"
+        },
+        {
+          "timestamp": 7.0,
+          "frame_index": 14,
+          "visual_analysis": {
+            "category": "suggestive_content",
+            "confidence": 0.9539439082145691,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.0017828518757596612,
+              "suggestive_content": 0.9539439082145691,
+              "artistic_adult_content": 0.03042592480778694,
+              "misinformation": 0.012458514422178268,
+              "violence": 0.0005263357306830585,
+              "hate_speech": 0.00032243109308183193,
+              "dangerous_activities": 0.000540051085408777
+            }
+          },
+          "blip_description": {
+            "description": "a cat is walking around a room with a chair",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "",
+            "extracted_items": [],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1754941989_WhatsApp Video 2025-07-19 at 18.17.36_cc1a4a4a_frame_15.jpg"
+        },
+        {
+          "timestamp": 7.5,
+          "frame_index": 15,
+          "visual_analysis": {
+            "category": "artistic_adult_content",
+            "confidence": 0.42679834365844727,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.003464894136413932,
+              "suggestive_content": 0.3843391537666321,
+              "artistic_adult_content": 0.42679834365844727,
+              "misinformation": 0.1609237790107727,
+              "violence": 0.011971898376941681,
+              "hate_speech": 0.006302142050117254,
+              "dangerous_activities": 0.006199775263667107
+            }
+          },
+          "blip_description": {
+            "description": "a man is standing in a room with a white wall",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "",
+            "extracted_items": [],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1754941989_WhatsApp Video 2025-07-19 at 18.17.36_cc1a4a4a_frame_16.jpg"
+        },
+        {
+          "timestamp": 8.0,
+          "frame_index": 16,
+          "visual_analysis": {
+            "category": "suggestive_content",
+            "confidence": 0.5916018486022949,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.0027554549742490053,
+              "suggestive_content": 0.5916018486022949,
+              "artistic_adult_content": 0.21290963888168335,
+              "misinformation": 0.16075347363948822,
+              "violence": 0.021984636783599854,
+              "hate_speech": 0.004849688615649939,
+              "dangerous_activities": 0.0051453253254294395
+            }
+          },
+          "blip_description": {
+            "description": "a white refrigerator",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "",
+            "extracted_items": [],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1754941989_WhatsApp Video 2025-07-19 at 18.17.36_cc1a4a4a_frame_17.jpg"
+        },
+        {
+          "timestamp": 8.5,
+          "frame_index": 17,
+          "visual_analysis": {
+            "category": "suggestive_content",
+            "confidence": 0.7120005488395691,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.004016420338302851,
+              "suggestive_content": 0.7120005488395691,
+              "artistic_adult_content": 0.14717639982700348,
+              "misinformation": 0.11538484692573547,
+              "violence": 0.013248822651803493,
+              "hate_speech": 0.0039039049297571182,
+              "dangerous_activities": 0.004269052296876907
+            }
+          },
+          "blip_description": {
+            "description": "a white refrigerator sitting in a kitchen next to a sink",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "",
+            "extracted_items": [],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1754941989_WhatsApp Video 2025-07-19 at 18.17.36_cc1a4a4a_frame_18.jpg"
+        }
+      ]
+    }
+  }
+}

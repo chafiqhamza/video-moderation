@@ -1,0 +1,82 @@
+{
+  "gaming_content_analysis": {
+    "god_of_war": {
+      "keywords": [
+        "god of war",
+        "kratos",
+        "leviathan axe",
+        "ragnarok"
+      ],
+      "compliance_score": 70,
+      "reasoning": "M-rated gaming content - Age verification recommended",
+      "context": "mature_gaming"
+    },
+    "rick_and_morty": {
+      "keywords": [
+        "rick and morty",
+        "rick",
+        "morty",
+        "cartoon",
+        "animation"
+      ],
+      "compliance_score": 75,
+      "reasoning": "Adult animation content - Age-appropriate context",
+      "context": "adult_animation"
+    },
+    "general_gaming": {
+      "keywords": [
+        "game",
+        "gaming",
+        "character",
+        "weapon",
+        "sword",
+        "axe"
+      ],
+      "context_boost": 15,
+      "reasoning": "Gaming context detected - Fictional content"
+    }
+  },
+  "content_severity_levels": {
+    "weapons_in_gaming": {
+      "base_score": 65,
+      "with_gaming_context": 80,
+      "reasoning": "Weapons acceptable in gaming context"
+    },
+    "violence_in_gaming": {
+      "base_score": 60,
+      "with_gaming_context": 75,
+      "reasoning": "Gaming violence is fictional"
+    },
+    "educational_content": {
+      "base_score": 85,
+      "keywords": [
+        "tutorial",
+        "learn",
+        "education"
+      ],
+      "reasoning": "Educational content is generally compliant"
+    }
+  },
+  "transcript_analysis": {
+    "language_severity": {
+      "mild": {
+        "impact": -5,
+        "words": [
+          "damn",
+          "hell"
+        ]
+      },
+      "moderate": {
+        "impact": -10,
+        "detected": "inappropriate language detected"
+      },
+      "severe": {
+        "impact": -20,
+        "words": [
+          "hate",
+          "extreme"
+        ]
+      }
+    }
+  }
+}

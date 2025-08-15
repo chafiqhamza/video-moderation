@@ -1,0 +1,50 @@
+.app {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.analysis-card {
+  transition: transform 0.2s ease-in-out;
+}
+
+.analysis-card:hover {
+  transform: translateY(-4px);
+}
+
+.upload-area {
+  border: 2px dashed #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  transition: border-color 0.3s ease;
+}
+
+.upload-area:hover {
+  border-color: #666;
+}
+
+.score-circle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.score-high {
+  background-color: #4caf50;
+  color: white;
+}
+
+.score-medium {
+  background-color: #ff9800;
+  color: white;
+}
+
+.score-low {
+  background-color: #f44336;
+  color: white;
+}

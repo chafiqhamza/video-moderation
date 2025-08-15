@@ -1,0 +1,18 @@
+{
+    "python.defaultInterpreterPath": "./backend/venv/Scripts/python.exe",
+    "python.terminal.activateEnvironment": true,
+    "python.analysis.extraPaths": [
+        "./backend",
+        "./backend/ai_models"
+    ],
+    "python.analysis.autoImportCompletions": true,
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/*.pyc": true,
+        "**/node_modules": true,
+        "**/.git": true,
+        "**/.DS_Store": true
+    },
+    "editor.formatOnSave": true,
+    "python.formatting.provider": "black"
+}
