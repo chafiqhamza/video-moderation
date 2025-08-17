@@ -183,10 +183,14 @@ class UltimateVideoAnalyzer:
             logger.info(f"🎬 Extracting frames: method={sampling_method}, interval={interval_seconds}s, max={max_frames}, resolution={resolution}, format={frame_format}, start={start_time}, end={end_time}")
             frames = []
             # Parse resolution
-            try:
-                width, height = map(int, resolution.lower().split('x'))
-            except Exception:
-                width, height = 1280, 720
+            if resolution.lower() == 'auto':
+                width = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
+                height = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
+            else:
+                try:
+                    width, height = map(int, resolution.lower().split('x'))
+                except Exception:
+                    width, height = 1280, 720
             # Sampling logic
             if sampling_method == "interval":
                 timestamps = np.arange(start_time, duration if end_time < 0 else end_time, interval_seconds)
@@ -643,13 +647,13 @@ def safe_print(text):
 def get_args_and_vars():
     parser = argparse.ArgumentParser(description="Ultimate Video Analyzer")
     parser.add_argument('--analyze', type=str, help='Path to video file to analyze')
-    parser.add_argument('--max-frames', type=int, default=15, help='Maximum number of frames to analyze')
-    parser.add_argument('--interval-seconds', type=float, default=0.5, help='Interval between frames in seconds')
-    parser.add_argument('--resolution', type=str, default="1280x720", help='Frame resolution (e.g., 1280x720)')
-    parser.add_argument('--format', type=str, default="jpg", help='Frame image format (e.g., jpg, png)')
-    parser.add_argument('--start-time', type=float, default=0.0, help='Start time for frame extraction (seconds)')
-    parser.add_argument('--end-time', type=float, default=-1.0, help='End time for frame extraction (seconds, -1 for end of video)')
-    parser.add_argument('--sampling-method', type=str, default="interval", help='Frame sampling method (interval, random, etc.)')
+    parser.add_argument('--max-frames', type=int, required=True, help='Maximum number of frames to analyze')
+    parser.add_argument('--interval-seconds', type=float, required=True, help='Interval between frames in seconds')
+    parser.add_argument('--resolution', type=str, required=True, help='Frame resolution (e.g., 1280x720, auto)')
+    parser.add_argument('--format', type=str, required=True, help='Frame image format (e.g., jpg, png)')
+    parser.add_argument('--start-time', type=float, required=True, help='Start time for frame extraction (seconds)')
+    parser.add_argument('--end-time', type=float, required=True, help='End time for frame extraction (seconds, -1 for end of video)')
+    parser.add_argument('--sampling-method', type=str, required=True, help='Frame sampling method (interval, random, etc.)')
     args = parser.parse_args()
 
     analyzer = UltimateVideoAnalyzer()
