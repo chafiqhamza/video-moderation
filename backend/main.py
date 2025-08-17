@@ -223,9 +223,20 @@ async def health_check():
 
 
 from fastapi.responses import PlainTextResponse
+from fastapi import Query
 
+# Accept all frame extraction settings from frontend
 @app.post("/upload-video", response_class=PlainTextResponse)
-async def analyze_video(file: UploadFile = File(...)):
+async def analyze_video(
+    file: UploadFile = File(...),
+    frame_count: int = Query(20, alias="frame_count"),
+    frame_interval: float = Query(0.5, alias="frame_interval"),
+    resolution: str = Query("1280x720", alias="resolution"),
+    format: str = Query("jpg", alias="format"),
+    start_time: float = Query(0.0, alias="start_time"),
+    end_time: float = Query(-1.0, alias="end_time"),
+    sampling_method: str = Query("interval", alias="sampling_method")
+):
     """Analyze uploaded video file using UltimateVideoAnalyzer and return raw model output as plain text"""
     import subprocess
     import sys
@@ -248,7 +259,18 @@ async def analyze_video(file: UploadFile = File(...)):
 
         # Run the model script as a subprocess and stream output in real time
         model_script = os.path.abspath(os.path.join(os.path.dirname(__file__), 'ultimate_video_analyzer.py'))
-        cmd = [sys.executable, model_script, '--analyze', temp_file_path]
+        cmd = [
+            sys.executable,
+            model_script,
+            '--analyze', temp_file_path,
+            '--max-frames', str(frame_count),
+            '--interval-seconds', str(frame_interval),
+            '--resolution', str(resolution),
+            '--format', str(format),
+            '--start-time', str(start_time),
+            '--end-time', str(end_time),
+            '--sampling-method', str(sampling_method)
+        ]
         print(f"\n[MODEL SUBPROCESS] Running: {' '.join(cmd)}\n")
         process = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True, bufsize=1)
         output_lines = []

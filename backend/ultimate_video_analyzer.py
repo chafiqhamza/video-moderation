@@ -1,5 +1,5 @@
-from rag_content_supervision import ContentModerationRAG
 #!/usr/bin/env python3
+from rag_content_supervision import ContentModerationRAG
 """
 🎬 ULTIMATE VIDEO POLICY ANALYZER
 Complete multi-modal video analysis using your 97.48% accuracy model + BLIP + Whisper + OCR + RAG
@@ -21,13 +21,15 @@ from concurrent.futures import ThreadPoolExecutor
 import time
 
 
-# Multi-modal imports
 try:
     import whisper
     WHISPER_AVAILABLE = True
 except ImportError:
     WHISPER_AVAILABLE = False
     print("⚠️ Whisper not available - audio analysis disabled")
+    # Removed the invalid line that caused errors
+    # results = await analyzer.analyze_video_comprehensive(video_path, frames_per_second=args.interval_seconds, max_frames=args.max_frames)
+
 
 try:
     from transformers import BlipProcessor, BlipForConditionalGeneration
@@ -166,26 +168,67 @@ class UltimateVideoAnalyzer:
         for cap in capabilities:
             logger.info(f"   {cap}")
     
-    def extract_video_frames(self, video_path: str, interval_seconds: float = 1.0, max_frames: int = 1000) -> List[Tuple[float, np.ndarray]]:
-        """Extract frames from video at regular time intervals (e.g., every 1 second)"""
+    def extract_video_frames(self, video_path: str, interval_seconds: float = 1.0, max_frames: int = 1000,
+                            resolution: str = "1280x720", frame_format: str = "jpg",
+                            start_time: float = 0.0, end_time: float = -1.0, sampling_method: str = "interval") -> List[Tuple[float, np.ndarray]]:
+        """Extract frames from video using all user settings"""
         try:
             cap = cv2.VideoCapture(video_path)
             fps = cap.get(cv2.CAP_PROP_FPS)
             total_frames = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))
             duration = total_frames / fps if fps > 0 else 0
-            
-            logger.info(f"🎬 Extracting frames every {interval_seconds}s, max {max_frames}")
+            # Calculate start/end frames
+            start_frame = int(start_time * fps) if start_time > 0 else 0
+            end_frame = int(end_time * fps) if end_time > 0 else total_frames
+            logger.info(f"🎬 Extracting frames: method={sampling_method}, interval={interval_seconds}s, max={max_frames}, resolution={resolution}, format={frame_format}, start={start_time}, end={end_time}")
             frames = []
-            timestamps = np.arange(0, duration, interval_seconds)
-            for ts in timestamps:
-                frame_idx = int(ts * fps)
-                cap.set(cv2.CAP_PROP_POS_FRAMES, frame_idx)
-                ret, frame = cap.read()
-                if not ret:
-                    continue
-                frames.append((ts, frame))
-                if len(frames) >= max_frames:
-                    break
+            # Parse resolution
+            try:
+                width, height = map(int, resolution.lower().split('x'))
+            except Exception:
+                width, height = 1280, 720
+            # Sampling logic
+            if sampling_method == "interval":
+                timestamps = np.arange(start_time, duration if end_time < 0 else end_time, interval_seconds)
+                for ts in timestamps:
+                    frame_idx = int(ts * fps)
+                    if frame_idx < start_frame or frame_idx >= end_frame:
+                        continue
+                    cap.set(cv2.CAP_PROP_POS_FRAMES, frame_idx)
+                    ret, frame = cap.read()
+                    if not ret:
+                        continue
+                    frame = cv2.resize(frame, (width, height))
+                    frames.append((ts, frame))
+                    if len(frames) >= max_frames:
+                        break
+            elif sampling_method == "random":
+                np.random.seed(42)
+                possible_frames = range(start_frame, end_frame)
+                chosen_frames = np.random.choice(possible_frames, min(max_frames, len(possible_frames)), replace=False)
+                for frame_idx in sorted(chosen_frames):
+                    ts = frame_idx / fps
+                    cap.set(cv2.CAP_PROP_POS_FRAMES, frame_idx)
+                    ret, frame = cap.read()
+                    if not ret:
+                        continue
+                    frame = cv2.resize(frame, (width, height))
+                    frames.append((ts, frame))
+            else:
+                # Default to interval
+                timestamps = np.arange(start_time, duration if end_time < 0 else end_time, interval_seconds)
+                for ts in timestamps:
+                    frame_idx = int(ts * fps)
+                    if frame_idx < start_frame or frame_idx >= end_frame:
+                        continue
+                    cap.set(cv2.CAP_PROP_POS_FRAMES, frame_idx)
+                    ret, frame = cap.read()
+                    if not ret:
+                        continue
+                    frame = cv2.resize(frame, (width, height))
+                    frames.append((ts, frame))
+                    if len(frames) >= max_frames:
+                        break
             cap.release()
             logger.info(f"✅ Extracted {len(frames)} frames")
             return frames
@@ -341,14 +384,23 @@ class UltimateVideoAnalyzer:
         
         return violations
     
-    async def analyze_video_comprehensive(self, video_path: str, frames_per_second: float = 1.0, max_frames: int = 20) -> Dict:
+    async def analyze_video_comprehensive(self, video_path: str, frames_per_second: float = 1.0, max_frames: int = 20,
+                                         resolution: str = "1280x720", frame_format: str = "jpg",
+                                         start_time: float = 0.0, end_time: float = -1.0, sampling_method: str = "interval") -> Dict:
         """Comprehensive multi-modal video analysis"""
-        start_time = time.time()
-        
+        analysis_start_time = time.time()
         logger.info(f"🎬 Starting comprehensive analysis: {Path(video_path).name}")
-        
-        # Extract frames (sample every 0.5s, up to 1000 frames)
-        frames = self.extract_video_frames(video_path, interval_seconds=0.5, max_frames=1000)
+        # Use the correct start_time and end_time from arguments, not analysis_start_time
+        frames = self.extract_video_frames(
+            video_path,
+            interval_seconds=frames_per_second,
+            max_frames=max_frames,
+            resolution=resolution,
+            frame_format=frame_format,
+            start_time=start_time,
+            end_time=end_time,
+            sampling_method=sampling_method
+        )
 
         if not frames:
             return {"error": "No frames extracted"}
@@ -414,7 +466,7 @@ class UltimateVideoAnalyzer:
             audio_result = {"transcript": "", "whisper_available": False, "policy_flags": {}}
 
         # Comprehensive analysis
-        analysis_time = time.time() - start_time
+        analysis_time = time.time() - analysis_start_time
         comprehensive_result = self._generate_comprehensive_assessment(
             frame_analyses, audio_result, video_path, analysis_time
         )
@@ -560,10 +612,16 @@ class UltimateVideoAnalyzer:
             if isinstance(obj, np.ndarray):
                 return obj.tolist()
             return str(obj)
+        report_path = None
         try:
-            video_name = Path(analysis_result["video_info"]["name"]).stem
-            # Sanitize video_name to be safe for Windows filenames
-            video_name_safe = re.sub(r'[^A-Za-z0-9_-]', '_', video_name)
+            # Defensive: handle missing video_info or name
+            video_name = None
+            if "video_info" in analysis_result and "name" in analysis_result["video_info"]:
+                video_name = Path(analysis_result["video_info"]["name"]).stem
+            else:
+                # Fallback: use timestamp only
+                video_name = "unknown_video"
+            video_name_safe = re.sub(r'[^A-Za-z0-9_-]', '_', str(video_name))
             timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
             reports_dir = Path(__file__).parent / "video_analysis_reports"
             reports_dir.mkdir(exist_ok=True)
@@ -577,36 +635,42 @@ class UltimateVideoAnalyzer:
             logger.error(f"❌ Error saving report to {report_path}: {e}")
             return ""
 
-async def main():
-    """Demo of ultimate video analysis"""
-    import sys
-    import argparse
-    def safe_print(text):
-        print(text.encode('ascii', 'ignore').decode('ascii'))
-    safe_print("🎬 ULTIMATE VIDEO POLICY ANALYZER")
-    safe_print("="*70)
-    safe_print("🚀 Multi-modal analysis with 97.48% accuracy model + BLIP + Whisper + OCR")
-    safe_print("="*70)
+import sys
+import argparse
+def safe_print(text):
+    print(text.encode('ascii', 'ignore').decode('ascii'))
 
+def get_args_and_vars():
     parser = argparse.ArgumentParser(description="Ultimate Video Analyzer")
     parser.add_argument('--analyze', type=str, help='Path to video file to analyze')
+    parser.add_argument('--max-frames', type=int, default=15, help='Maximum number of frames to analyze')
+    parser.add_argument('--interval-seconds', type=float, default=0.5, help='Interval between frames in seconds')
+    parser.add_argument('--resolution', type=str, default="1280x720", help='Frame resolution (e.g., 1280x720)')
+    parser.add_argument('--format', type=str, default="jpg", help='Frame image format (e.g., jpg, png)')
+    parser.add_argument('--start-time', type=float, default=0.0, help='Start time for frame extraction (seconds)')
+    parser.add_argument('--end-time', type=float, default=-1.0, help='End time for frame extraction (seconds, -1 for end of video)')
+    parser.add_argument('--sampling-method', type=str, default="interval", help='Frame sampling method (interval, random, etc.)')
     args = parser.parse_args()
 
-    # Initialize analyzer
     analyzer = UltimateVideoAnalyzer()
-
     if not analyzer.visual_model:
         safe_print("❌ Visual model not loaded. Please check your model file.")
-        return
-
+        sys.exit(1)
     if args.analyze:
         video_path = args.analyze
     else:
         video_path = input("\nEnter video path to analyze: ").strip()
-
     if not video_path or not Path(video_path).exists():
         safe_print("❌ Video file not found!")
-        return
+        sys.exit(1)
+    return analyzer, video_path, args
+
+async def main(analyzer, video_path, args):
+    """Demo of ultimate video analysis"""
+    safe_print("🎬 ULTIMATE VIDEO POLICY ANALYZER")
+    safe_print("="*70)
+    safe_print("🚀 Multi-modal analysis with 97.48% accuracy model + BLIP + Whisper + OCR")
+    safe_print("="*70)
 
     safe_print(f"\n🎬 Starting ultimate analysis of: {Path(video_path).name}")
     safe_print("📊 This will analyze:")
@@ -618,10 +682,17 @@ async def main():
     
     # Perform analysis
     start_time = time.time()
-    results = await analyzer.analyze_video_comprehensive(video_path, frames_per_second=0.5, max_frames=15)
+    results = await analyzer.analyze_video_comprehensive(
+        video_path,
+        frames_per_second=args.interval_seconds,
+        max_frames=args.max_frames,
+        resolution=args.resolution,
+        frame_format=args.format,
+        start_time=args.start_time,
+        end_time=args.end_time,
+        sampling_method=args.sampling_method
+    )
     total_time = time.time() - start_time
-
-    safe_print(f"\n📊 ULTIMATE ANALYSIS RESULTS ({total_time:.1f}s)")
     safe_print("="*50)
 
     overall = results.get("overall_assessment", {})
@@ -675,26 +746,28 @@ async def main():
         safe_print(f"   Category: {visual.get('category', 'N/A')} (Conf: {visual.get('confidence', 0):.2f})")
         safe_print(f"   BLIP: {blip.get('description', 'N/A')}")
         safe_print(f"   OCR: {ocr.get('text', '')}")
-        if visual.get('violation_detected', False):
-            safe_print(f"   🚨 Policy Violation Detected!")
-            # Use RAG to get policy explanation
-            content_desc = f"Visual: {visual.get('category', 'N/A')}, BLIP: {blip.get('description', '')}, OCR: {ocr.get('text', '')}" 
-            policies = rag.retrieve_relevant_policies(content_desc, top_k=1)
-            policy_info = policies[0]["policy_info"] if policies else {}
-            violation_explanations.append({
-                "type": "visual",
-                "frame": idx+1,
-                "timestamp": ts,
-                "category": visual.get('category', 'N/A'),
-                "confidence": visual.get('confidence', 0),
-                "blip": blip.get('description', ''),
-                "ocr": ocr.get('text', ''),
-                "policy": policy_info,
-                "action_required": policy_info.get('action_required', ''),
-                "examples": policy_info.get('examples', []),
-                "severity_indicators": policy_info.get('severity_indicators', []),
-                "context_factors": policy_info.get('context_matters', [])
-            })
+        # Build a rich content description for RAG using all available frame details
+        content_desc = f"Frame {idx+1} | Time: {ts:.1f}s | Category: {visual.get('category', 'N/A')} | Confidence: {visual.get('confidence', 0):.2f} | BLIP: {blip.get('description', '')} | OCR: {ocr.get('text', '')}"
+        # Always run RAG for every frame, not just violations
+        policies = rag.retrieve_relevant_policies(content_desc, top_k=1)
+        policy_info = policies[0]["policy_info"] if policies else {}
+        explanation = {
+            "type": "visual",
+            "frame": idx+1,
+            "timestamp": ts,
+            "category": visual.get('category', 'N/A'),
+            "confidence": visual.get('confidence', 0),
+            "blip": blip.get('description', ''),
+            "ocr": ocr.get('text', ''),
+            "policy": policy_info,
+            "action_required": policy_info.get('action_required', ''),
+            "examples": policy_info.get('examples', []),
+            "severity_indicators": policy_info.get('severity_indicators', []),
+            "context_factors": policy_info.get('context_matters', [])
+        }
+        # Mark if violation detected
+        explanation["violation_detected"] = visual.get('violation_detected', False)
+        violation_explanations.append(explanation)
 
     # Audio violation explanations
     audio = results.get("audio_analysis", {})
@@ -756,4 +829,6 @@ async def main():
     safe_print("\n🎉 Ultimate video analysis complete!")
 
 if __name__ == "__main__":
-    asyncio.run(main())
+    import asyncio
+    analyzer, video_path, args = get_args_and_vars()
+    asyncio.run(main(analyzer, video_path, args))

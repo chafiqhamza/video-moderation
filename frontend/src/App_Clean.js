@@ -1,5 +1,9 @@
+
 import React, { useState, useEffect } from 'react';
 import RagAnalysisPage from './RagAnalysisPage';
+import SettingsPage from './SettingsPage';
+import UploadHistoryPage from './UploadHistoryPage';
+import FrameDetailsPage from './FrameDetailsPage';
 import {
   Container,
   AppBar,
@@ -9,149 +13,42 @@ import {
   Card,
   CardContent,
   Button,
-  Grid,
   CircularProgress,
   Alert,
-  Chip,
   LinearProgress,
-  Paper
+  Paper,
+  Grid
 } from '@mui/material';
 import CloudUpload from '@mui/icons-material/CloudUpload';
 import VideoLibrary from '@mui/icons-material/VideoLibrary';
 import CheckCircle from '@mui/icons-material/CheckCircle';
-import Warning from '@mui/icons-material/Warning';
-import ErrorIcon from '@mui/icons-material/Error';
 import Analytics from '@mui/icons-material/Analytics';
-import Image from '@mui/icons-material/Image';
-import RecordVoiceOver from '@mui/icons-material/RecordVoiceOver';
-import TextFields from '@mui/icons-material/TextFields';
 
 const API_BASE_URL = 'http://localhost:8000';
 
-// Helper component to parse and display the comprehensive report interactively
-function ComprehensiveReportDisplay({ report }) {
-  const [expandedSections, setExpandedSections] = useState({});
-
-  if (!report) return null;
-
-  // Split report into sections by headers (e.g., '====', '----', etc.)
-  const sectionRegex = /(^|\n)(={4,}|-{4,}|\*{4,})\s*(.+?)\s*(={4,}|-{4,}|\*{4,})/g;
-  let sections = [];
-  let sectionHeaders = [];
-  let match;
-  let lastIndex = 0;
-
-  // Reset regex lastIndex for multiple executions
-  sectionRegex.lastIndex = 0;
-
-  while ((match = sectionRegex.exec(report)) !== null) {
-    const header = match[3].trim();
-    sectionHeaders.push({ header, start: match.index });
-  }
-
-  for (let i = 0; i < sectionHeaders.length; i++) {
-    const start = sectionHeaders[i].start;
-    const end = i + 1 < sectionHeaders.length ? sectionHeaders[i + 1].start : report.length;
-    const header = sectionHeaders[i].header;
-    const content = report.slice(start, end).trim();
-    sections.push({ header, content });
-  }
-
-  // If no sections found, fallback to whole report
-  if (sections.length === 0) {
-    sections = [{ header: 'Full Report', content: report }];
-  }
-
-  // Helper to color-code section headers
-  const getSectionColor = (header) => {
-    if (/violation|non[-_ ]?conforme|policy violation/i.test(header)) return 'error';
-    if (/safe|conforme|approved/i.test(header)) return 'success';
-    if (/suggestive|attention|warning/i.test(header)) return 'warning';
-    return 'default';
-  };
-
-  // Helper to get icon
-  const getSectionIcon = (header) => {
-    if (/violation|non[-_ ]?conforme|policy violation/i.test(header)) return <ErrorIcon />;
-    if (/safe|conforme|approved/i.test(header)) return <CheckCircle />;
-    if (/suggestive|attention|warning/i.test(header)) return <Warning />;
-    return <Analytics />;
-  };
-
-  return (
-    <Box>
-      {sections.map((section, idx) => {
-        const expanded = expandedSections[idx] || false;
-        const color = getSectionColor(section.header);
-        const icon = getSectionIcon(section.header);
-        return (
-          <Card key={idx} sx={{ mb: 2, backgroundColor: color === 'error' ? '#ffebee' : color === 'success' ? '#e8f5e9' : color === 'warning' ? '#fffde7' : '#f5f5f5', boxShadow: 1 }}>
-            <CardContent>
-              <Box display="flex" alignItems="center" justifyContent="space-between">
-                <Box display="flex" alignItems="center">
-                  <Chip icon={icon} label={section.header} color={color} variant="filled" sx={{ fontWeight: 'bold', fontSize: '1rem', mr: 2 }} />
-                </Box>
-                <Button size="small" onClick={() => setExpandedSections(prev => ({ ...prev, [idx]: !expanded }))}>
-                  {expanded ? 'Hide Details' : 'Show Details'}
-                </Button>
-              </Box>
-              <Box sx={{ mt: 1, p: 1, background: '#fff', borderRadius: 1, fontFamily: 'monospace', whiteSpace: 'pre-wrap', fontSize: '0.95rem', color: '#333', maxHeight: expanded ? 600 : 120, overflow: 'auto' }}>
-                {expanded ? section.content : section.content.slice(0, 300) + (section.content.length > 300 ? '... (truncated)' : '')}
-              </Box>
-            </CardContent>
-          </Card>
-        );
-      })}
-    </Box>
-  );
-}
-
 function App() {
-  // Progress bar state
   const [progress, setProgress] = useState(0);
-  // RAG analysis state
   const [showRagPage, setShowRagPage] = useState(false);
+  const [showSettings, setShowSettings] = useState(false);
   const [ragAnalysis, setRagAnalysis] = useState(null);
-  // Helper to extract main status/category from report text
-  function extractCategory(report) {
-    if (!report) return 'Unknown';
-    if (report.includes('Policy Violation Detected')) return 'Violation';
-    if (report.includes('safe_content')) return 'Safe';
-    if (report.includes('suggestive_content')) return 'Suggestive';
-    return 'Other';
-  }
-
-  const [history, setHistory] = useState([]);
-  const [historyLoading, setHistoryLoading] = useState(false);
   const [showHistory, setShowHistory] = useState(false);
-  // Track expanded state for each history item by id
-  const [expandedHistory, setExpandedHistory] = useState({});
-
-  const fetchHistory = async () => {
-    setHistoryLoading(true);
-    try {
-      const response = await fetch(`${API_BASE_URL}/videos`);
-      if (!response.ok) throw new Error('Failed to fetch history');
-      const data = await response.json();
-      setHistory(data);
-      // Reset expanded state when history is fetched
-      setExpandedHistory({});
-    } catch (err) {
-      setError('Could not load history');
-    } finally {
-      setHistoryLoading(false);
-    }
-  };
-
+  const [showFrameDetails, setShowFrameDetails] = useState(false);
   const [selectedFile, setSelectedFile] = useState(null);
   const [analysis, setAnalysis] = useState(null);
-  // Parsed fields from the raw report
   const [parsedReport, setParsedReport] = useState({});
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
   const [connectionStatus, setConnectionStatus] = useState('testing');
+  const [frameSettings, setFrameSettings] = useState({
+    frameCount: 20,
+    frameInterval: 0.5,
+    frameResolution: 'auto',
+    frameFormat: 'jpg',
+    frameStart: 0,
+    frameEnd: null,
+    frameSampling: 'interval',
+  });
 
-  // Test connection on startup
   useEffect(() => {
     testConnection();
   }, []);
@@ -175,7 +72,7 @@ function App() {
       if (file.type.startsWith('video/')) {
         setSelectedFile(file);
         setError('');
-        setAnalysis(null); // Clear previous results
+        setAnalysis(null);
       } else {
         setError('Please select a valid video file');
         setSelectedFile(null);
@@ -183,98 +80,31 @@ function App() {
     }
   };
 
-  useEffect(() => {
-    let timer;
-    if (loading) {
-      setProgress(0);
-      timer = setInterval(() => {
-        setProgress((old) => (old < 95 ? old + 5 : old));
-      }, 500);
-    } else {
-      setProgress(100);
-    }
-    return () => clearInterval(timer);
-  }, [loading]);
-
   const handleAnalyze = async () => {
     if (!selectedFile) {
       setError('Please select a video file');
       return;
     }
-
     setLoading(true);
     setError('');
     setAnalysis(null);
-
-    // Helper to robustly parse the raw report string into structured fields
-    function parseReportFields(report) {
-      if (!report) return {};
-      // Helper to extract a block by header (case-insensitive, flexible)
-      const extractBlock = (header) => {
-        const regex = new RegExp(`${header}[\s\S]*?(?=\n\n|$|Text Analysis|Audio Analysis|Video Frame Analysis|Overall YouTube Compliance Report)`, 'i');
-        const match = report.match(regex);
-        return match ? match[0] : '';
-      };
-      // Helper to extract a value by regex from a block
-      const get = (block, regex) => {
-        const m = block.match(regex);
-        return m ? m[1].trim() : undefined;
-      };
-      // Helper to extract issues/results (multi-line, after 'Results:')
-      const getIssues = (block) => {
-        const m = block.match(/Results:\s*([\s\S]*?)(?=\n\w|\n$|$)/i);
-        if (m) {
-          // Remove any trailing section headers or extra whitespace
-          let issues = m[1].replace(/(={2,}|-{2,}|\*{2,}|Text Analysis|Audio Analysis|Video Frame Analysis|Overall YouTube Compliance Report)[\s\S]*$/i, '').trim();
-          // Split by bullet or newline, filter empty
-          return issues.split(/\n|•/).map(i => i.trim()).filter(i => i);
-        }
-        return [];
-      };
-      // Extract blocks
-      const textBlock = extractBlock('Text Analysis');
-      const audioBlock = extractBlock('Audio Analysis');
-      const imageBlock = extractBlock('Video Frame Analysis');
-      const overallBlock = extractBlock('Overall YouTube Compliance Report');
-      // Main fields
-      return {
-        duration: get(report, /Duration\s*:?\s*([\d\.]+)/i),
-        resolution: get(report, /Resolution\s*:?\s*([\dx]+)/i),
-        fps: get(report, /FPS\s*:?\s*([\d\.]+)/i),
-        processing_time: get(report, /Processing Time\s*:?\s*([\d\.]+)/i),
-        text_score: get(textBlock, /Score\s*:?\s*(\d+\.?\d*)%/i) || get(textBlock, /(\d+\.?\d*)%/i),
-        text_status: get(textBlock, /Status\s*:?\s*(conforme|attention|non_conforme|N\/A|MINOR_VIOLATIONS)/i) || get(textBlock, /(conforme|attention|non_conforme|N\/A|MINOR_VIOLATIONS)/i),
-        text_issues: getIssues(textBlock),
-        audio_score: get(audioBlock, /Score\s*:?\s*(\d+\.?\d*)%/i) || get(audioBlock, /(\d+\.?\d*)%/i),
-        audio_status: get(audioBlock, /Status\s*:?\s*(conforme|attention|non_conforme|N\/A|MINOR_VIOLATIONS)/i) || get(audioBlock, /(conforme|attention|non_conforme|N\/A|MINOR_VIOLATIONS)/i),
-        audio_issues: getIssues(audioBlock),
-        image_score: get(imageBlock, /Score\s*:?\s*(\d+\.?\d*)%/i) || get(imageBlock, /(\d+\.?\d*)%/i),
-        image_status: get(imageBlock, /Status\s*:?\s*(conforme|attention|non_conforme|N\/A|MINOR_VIOLATIONS)/i) || get(imageBlock, /(conforme|attention|non_conforme|N\/A|MINOR_VIOLATIONS)/i),
-        image_issues: getIssues(imageBlock),
-        frames_analyzed: get(imageBlock, /Frames analyzed\s*:?\s*(\d+)/i),
-        overall: get(overallBlock, /Overall Status\s*:?\s*(conforme|attention|non_conforme|N\/A|MINOR_VIOLATIONS)/i) || get(overallBlock, /(conforme|attention|non_conforme|N\/A|MINOR_VIOLATIONS)/i),
-        overall_scores: {
-          text: get(overallBlock, /Text Content \(20%\)\s*(\d+\.?\d*)%/i),
-          audio: get(overallBlock, /Audio Content \(35%\)\s*(\d+\.?\d*)%/i),
-          image: get(overallBlock, /Video Frames \(45%\)\s*(\d+\.?\d*)%/i)
-        }
-      };
-    }
-
     try {
       const formData = new FormData();
       formData.append('file', selectedFile);
-      console.log('Uploading file:', selectedFile.name);
-
-      const response = await fetch(`${API_BASE_URL}/upload-video`, {
+      Object.entries(frameSettings).forEach(([key, value]) => {
+        if (value !== null && value !== undefined) formData.append(key, value);
+      });
+      const params = new URLSearchParams();
+      Object.entries(frameSettings).forEach(([key, value]) => {
+        if (value !== null && value !== undefined) params.append(key, value);
+      });
+      const response = await fetch(`${API_BASE_URL}/upload-video?${params.toString()}`, {
         method: 'POST',
         body: formData,
       });
-
       if (!response.ok) {
         throw new Error(`HTTP ${response.status}: ${response.statusText}`);
       }
-
       const analysisRaw = await response.text();
       let analysisObj = {};
       try {
@@ -283,11 +113,8 @@ function App() {
         analysisObj = { full_report: analysisRaw };
       }
       setAnalysis(analysisObj);
-
-      // Use structured JSON if available, else fallback to raw parsing
       if (analysisObj.analysis_json && Object.keys(analysisObj.analysis_json).length > 0) {
         const aj = analysisObj.analysis_json;
-        // Map backend JSON to frontend fields
         setParsedReport({
           duration: aj.video_info?.duration || aj.video_info?.duration_formatted || 'N/A',
           resolution: aj.video_info?.resolution || 'N/A',
@@ -311,125 +138,131 @@ function App() {
           }
         });
       } else {
-        // Fallback to raw report parsing
         setParsedReport(parseReportFields(analysisObj.full_report));
       }
-
     } catch (err) {
-      console.error('Analysis error:', err);
       setError(`Analysis failed: ${err.message}`);
     } finally {
       setLoading(false);
     }
   };
 
-  const getStatusColor = (status) => {
-    switch (status) {
-      case 'conforme': return 'success';
-      case 'attention': return 'warning';
-      case 'non_conforme': return 'error';
-      default: return 'default';
-    }
-  };
+  // Utility function for parsing report fields (restored to previous working version)
+  function parseReportFields(report) {
+    if (!report) return {};
+    const get = (block, regex) => {
+      const m = block.match(regex);
+      return m ? m[1].trim() : undefined;
+    };
+    const getIssues = (block) => {
+      const m = block.match(/Results:\s*([\s\S]*?)(?=\n\w|\n$|$)/i);
+      if (!m) return [];
+      const issues = m[1];
+      return issues.split(/\n|•/).map(i => i.trim()).filter(i => i);
+    };
+    const extractBlock = (title) => {
+      const regex = new RegExp(`${title}[\s\S]*?(?=(?:\n[A-Z][a-zA-Z ]+:|\n$|$))`, 'i');
+      const m = report.match(regex);
+      return m ? m[0] : '';
+    };
+    const textBlock = extractBlock('Text Analysis');
+    const audioBlock = extractBlock('Audio Analysis');
+    const imageBlock = extractBlock('Video Frame Analysis');
+    const overallBlock = extractBlock('Overall YouTube Compliance Report');
+    return {
+      duration: get(report, /Duration\s*:?\s*([\d\.]+)/i),
+      resolution: get(report, /Resolution\s*:?\s*([\dx]+)/i),
+      fps: get(report, /FPS\s*:?\s*([\d\.]+)/i),
+      processing_time: get(report, /Processing Time\s*:?\s*([\d\.]+)/i),
+      text_score: get(textBlock, /Score\s*:?\s*(\d+\.?\d*)%/i) || get(textBlock, /(\d+\.?\d*)%/i),
+      text_status: get(textBlock, /Status\s*:?\s*(conforme|attention|non_conforme|N\/A|MINOR_VIOLATIONS)/i) || get(textBlock, /(conforme|attention|non_conforme|N\/A|MINOR_VIOLATIONS)/i),
+      text_issues: getIssues(textBlock),
+      audio_score: get(audioBlock, /Score\s*:?\s*(\d+\.?\d*)%/i) || get(audioBlock, /(\d+\.?\d*)%/i),
+      audio_status: get(audioBlock, /Status\s*:?\s*(conforme|attention|non_conforme|N\/A|MINOR_VIOLATIONS)/i) || get(audioBlock, /(conforme|attention|non_conforme|N\/A|MINOR_VIOLATIONS)/i),
+      audio_issues: getIssues(audioBlock),
+      image_score: get(imageBlock, /Score\s*:?\s*(\d+\.?\d*)%/i) || get(imageBlock, /(\d+\.?\d*)%/i),
+      image_status: get(imageBlock, /Status\s*:?\s*(conforme|attention|non_conforme|N\/A|MINOR_VIOLATIONS)/i) || get(imageBlock, /(conforme|attention|non_conforme|N\/A|MINOR_VIOLATIONS)/i),
+      image_issues: getIssues(imageBlock),
+      frames_analyzed: get(imageBlock, /Frames analyzed\s*:?\s*(\d+)/i),
+      overall: get(overallBlock, /Overall Status\s*:?\s*(conforme|attention|non_conforme|N\/A|MINOR_VIOLATIONS)/i) || get(overallBlock, /(conforme|attention|non_conforme|N\/A|MINOR_VIOLATIONS)/i),
+      overall_scores: {
+        text: get(overallBlock, /Text Content \(20%\)\s*(\d+\.?\d*)%/i),
+        audio: get(overallBlock, /Audio Content \(35%\)\s*(\d+\.?\d*)%/i),
+        image: get(overallBlock, /Video Frames \(45%\)\s*(\d+\.?\d*)%/i)
+      }
+    };
+  }
 
-  const getStatusIcon = (status) => {
-    switch (status) {
-      case 'conforme': return <CheckCircle />;
-      case 'attention': return <Warning />;
-      case 'non_conforme': return <ErrorIcon />;
-      default: return null;
-    }
-  };
-
-  const formatFileSize = (bytes) => {
-    if (bytes === 0) return '0 Bytes';
-    const k = 1024;
-    const sizes = ['Bytes', 'KB', 'MB', 'GB'];
-    const i = Math.floor(Math.log(bytes) / Math.log(k));
-    return parseFloat((bytes / Math.pow(k, i)).toFixed(2) + ' ' + sizes[i]);
-  };
-
-  // Parse RAG analysis from backend report JSON
   useEffect(() => {
+    // Always use frameSettings for RAG and frame analysis
     if (analysis && (analysis.rag_explanations || (analysis.analysis_json && analysis.analysis_json.rag_explanations))) {
-      // Prefer top-level rag_explanations, fallback to analysis_json
       let ragFrames = analysis.rag_explanations || analysis.analysis_json.rag_explanations;
-      // Fallback: if no violation detected, mark as safe_content
       ragFrames = ragFrames.map((frame) => {
         if (!frame.category || frame.category === '' || frame.category === 'N/A') {
           return { ...frame, category: 'safe_content', reasoning: 'No violation detected. Content is safe.' };
         }
         return frame;
       });
+      if (frameSettings && frameSettings.frameCount && ragFrames.length > frameSettings.frameCount) {
+        ragFrames = ragFrames.slice(0, frameSettings.frameCount);
+      }
       setRagAnalysis({
         decision: analysis.analysis_json?.overall_assessment?.status || 'N/A',
         confidence: analysis.analysis_json?.frame_analysis?.average_confidence || 'N/A',
         reasoning: 'Detailed frame-level policy violation explanations below.',
-        retrieved_docs: ragFrames.map((frame, idx) => ({
+        retrieved_docs: ragFrames.map((frame) => ({
           title: frame.type === 'visual'
             ? `Frame ${frame.frame} (t=${frame.timestamp}s): ${frame.category} detected by model (confidence ${frame.confidence})`
             : `Audio: ${frame.category} detected in transcript (severity: ${frame.severity})`,
           category: frame.category,
           confidence: frame.confidence,
-          blip: frame.blip,
-          ocr: frame.ocr,
-          policy: frame.policy,
-          examples: frame.examples,
-          action_required: frame.action_required,
-          severity_indicators: frame.severity_indicators,
-          context_factors: frame.context_factors,
-          reasoning: frame.reasoning,
-          transcript: frame.transcript,
-          keywords: frame.keywords
+          reasoning: frame.reasoning
         }))
       });
     } else if (analysis && analysis.full_report) {
-      // Fallback: parse DETAILED POLICY VIOLATION EXPLANATIONS (RAG) from raw report text
       const ragSectionMatch = analysis.full_report.match(/DETAILED POLICY VIOLATION EXPLANATIONS \(RAG\):([\s\S]*?)(?=\n\s*\n|$)/i);
       if (ragSectionMatch) {
         const ragText = ragSectionMatch[1];
-        // Split by frame
         const frameRegex = /- Frame (\d+) \(t=([\d\.]+)s\): ([^\n]+)\n([\s\S]*?)(?=(?:- Frame \d+ \(t=|$))/g;
-        let frames = [];
+        const frames = [];
         let match;
         while ((match = frameRegex.exec(ragText)) !== null) {
           const frameIdx = match[1];
           const timestamp = match[2];
-          const category = match[3] && match[3] !== '' ? match[3] : 'safe_content';
-          const details = match[4];
+          const category = match[3] && match[3].trim() !== '' ? match[3].trim() : 'safe_content';
           frames.push({
             title: `Frame ${frameIdx} (t=${timestamp}s): ${category}`,
             category,
-            confidence: undefined,
-            blip: undefined,
-            ocr: undefined,
-            policy: undefined,
-            examples: undefined,
-            action_required: undefined,
-            severity_indicators: undefined,
-            context_factors: undefined,
-            reasoning: category === 'safe_content' ? 'No violation detected. Content is safe.' : undefined,
-            transcript: undefined,
-            keywords: undefined
+            reasoning: category === 'safe_content' ? 'No violation detected. Content is safe.' : undefined
           });
         }
+        const limitedFrames = frameSettings && frameSettings.frameCount && frames.length > frameSettings.frameCount
+          ? frames.slice(0, frameSettings.frameCount)
+          : frames;
         setRagAnalysis({
           decision: parsedReport?.overall || 'N/A',
           confidence: parsedReport?.image_score || 'N/A',
           reasoning: 'Detailed frame-level policy violation explanations below.',
-          retrieved_docs: frames
+          retrieved_docs: limitedFrames
         });
       } else {
         setRagAnalysis(null);
       }
     }
-  }, [analysis, parsedReport]);
+  }, [analysis, parsedReport, frameSettings]);
 
-  // Count safe_content frames for summary
   const safeCount = ragAnalysis && ragAnalysis.retrieved_docs
     ? ragAnalysis.retrieved_docs.filter(doc => doc.category === 'safe_content').length
     : 0;
   const totalFrames = ragAnalysis && ragAnalysis.retrieved_docs ? ragAnalysis.retrieved_docs.length : 0;
+
+  const sidebarOptions = [
+    { label: 'SETTINGS', color: 'secondary', onClick: () => { setShowSettings(true); setShowHistory(false); setShowFrameDetails(false); setShowRagPage(false); } },
+    { label: 'RAG ANALYSIS', color: 'info', onClick: () => { setShowRagPage(true); setShowSettings(false); setShowHistory(false); setShowFrameDetails(false); } },
+    { label: 'UPLOAD HISTORY', color: 'primary', onClick: () => { setShowHistory(true); setShowFrameDetails(false); setShowRagPage(false); setShowSettings(false); } },
+    { label: 'FRAME DETAILS', color: 'info', onClick: () => { setShowFrameDetails(true); setShowHistory(false); setShowRagPage(false); setShowSettings(false); } },
+    { label: 'CUSTOMIZE', color: 'warning', onClick: () => alert('Customize feature coming soon!') },
+  ];
 
   if (showRagPage) {
     return (
@@ -444,444 +277,225 @@ function App() {
       </>
     );
   }
+  if (showSettings) {
+    return <SettingsPage settings={frameSettings} onSave={settings => { setFrameSettings(settings); setShowSettings(false); }} />;
+  }
+  if (showHistory) {
+    return <UploadHistoryPage />;
+  }
+  if (showFrameDetails) {
+    return <FrameDetailsPage frames={ragAnalysis?.retrieved_docs || []} />;
+  }
+  // Main page: preserve analysis and ragAnalysis state
+
+  const formatFileSize = (bytes) => {
+    if (bytes === 0) return '0 Bytes';
+    const k = 1024;
+    const sizes = ['Bytes', 'KB', 'MB', 'GB'];
+    const i = Math.floor(Math.log(bytes) / Math.log(k));
+    return parseFloat((bytes / Math.pow(k, i)).toFixed(2) + ' ' + sizes[i]);
+  };
 
   return (
-    <div style={{ minHeight: '100vh', backgroundColor: '#f5f5f5' }}>
-      <Box sx={{ position: 'fixed', top: 16, right: 16, zIndex: 1000 }}>
-        <Button variant="contained" color="secondary" onClick={() => { setShowHistory(!showHistory); if (!showHistory) fetchHistory(); }}>
-          {showHistory ? 'Hide Upload History' : 'Show Upload History'}
-        </Button>
+    <Box sx={{ display: 'flex', minHeight: '100vh', backgroundColor: '#f5f5f5' }}>
+      {/* Sidebar */}
+      <Box sx={{ width: 160, background: 'linear-gradient(180deg,#1976d2 0%,#21cbf3 100%)', color: '#fff', display: { xs: 'none', md: 'flex' }, flexDirection: 'column', alignItems: 'center', py: 2, boxShadow: 2 }}>
+        <Box sx={{ mb: 3 }}>
+          <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="Menu" style={{ width: 56, borderRadius: '50%' }} />
+        </Box>
+        <Typography variant="subtitle1" sx={{ fontWeight: 'bold', mb: 1, letterSpacing: 1 }}>
+          Menu
+        </Typography>
+        {sidebarOptions.map(opt => (
+          <Button key={opt.label} variant="contained" color={opt.color} sx={{ mb: 1, width: '95%', fontWeight: 'bold', fontSize: '0.95rem', borderRadius: 2, boxShadow: 1, textTransform: 'none', py: 1 }} onClick={opt.onClick}>
+            {opt.label}
+          </Button>
+        ))}
       </Box>
-      <AppBar position="static" sx={{ backgroundColor: '#1976d2' }}>
-        <Toolbar>
-          <VideoLibrary sx={{ mr: 2 }} />
-          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            AI Video Content Analyzer
-          </Typography>
-          <Chip
-            icon={connectionStatus === 'connected' ? <CheckCircle /> : <ErrorIcon />}
-            label={connectionStatus === 'connected' ? 'Connected' : 'Disconnected'}
-            color={connectionStatus === 'connected' ? 'success' : 'error'}
-            variant="filled"
-            size="small"
-          />
-        </Toolbar>
-      </AppBar>
-
-      <Container maxWidth="lg" sx={{ mt: 4, pb: 4 }}>
-        <Box sx={{ display: 'flex', justifyContent: 'flex-end', mb: 2 }}>
-          <Button variant="contained" color="secondary" onClick={() => setShowRagPage(true)}>
-            View RAG Analysis
-          </Button>
-        </Box>
-        {/* Enhanced Welcome Banner */}
-        <Box sx={{
-          minHeight: 320,
-          display: 'flex',
-          flexDirection: 'column',
-          alignItems: 'center',
-          justifyContent: 'center',
-          background: 'linear-gradient(120deg, #1976d2 60%, #21cbf3 100%)',
-          borderRadius: 4,
-          boxShadow: 4,
-          mb: 5,
-          px: 4,
-          py: 5
-        }}>
-          <Box display="flex" alignItems="center" justifyContent="center" mb={2}>
-            <VideoLibrary sx={{ fontSize: 64, mr: 2, color: '#fff' }} />
-            <Analytics sx={{ fontSize: 48, mr: 2, color: '#fffde7' }} />
-            <CheckCircle sx={{ fontSize: 48, color: '#e8f5e9' }} />
-          </Box>
-          <Typography variant="h3" sx={{ fontWeight: 'bold', color: '#fff', mb: 1, textShadow: '1px 1px 4px #1976d2' }}>
-            Welcome to AI Video Content Analyzer
-          </Typography>
-          <Typography variant="h5" sx={{ color: '#e3f2fd', mb: 2 }}>
-            Analyze your videos for YouTube policy compliance in seconds!
-          </Typography>
-          <Typography variant="body1" sx={{ color: '#fff', mb: 2, maxWidth: 600, textAlign: 'center' }}>
-            <b>How it works:</b> Upload a video file and get instant feedback on compliance, violations, and recommendations.<br />
-            Powered by advanced AI models for text, audio, and image analysis.
-          </Typography>
-          <Typography variant="body2" sx={{ color: '#fffde7', mb: 3 }}>
-            <b>Supported formats:</b> MP4, AVI, MOV, MKV
-          </Typography>
-          <Button
-            variant="contained"
-            color="secondary"
-            size="large"
-            sx={{ fontWeight: 'bold', px: 4, py: 1, fontSize: '1.2rem', boxShadow: 2 }}
-            onClick={() => document.getElementById('video-upload').click()}
-          >
-            <CloudUpload sx={{ mr: 1 }} /> Start Analysis
-          </Button>
-        </Box>
-        {showHistory && (
-          <Card sx={{ mb: 4 }}>
-            <CardContent>
-              <Typography variant="h5" gutterBottom color="secondary">
-                📜 Upload History
-              </Typography>
-              {historyLoading ? (
-                <CircularProgress />
-              ) : history.length === 0 ? (
-                <Typography>No uploads found.</Typography>
-              ) : (
-                <Box sx={{ maxHeight: 400, overflow: 'auto' }}>
-                  {history.map((item) => {
-                    const category = extractCategory(item.report);
-                    let color = 'default';
-                    let icon = null;
-                    if (category === 'Safe') { color = 'success'; icon = <CheckCircle />; }
-                    else if (category === 'Violation') { color = 'error'; icon = <ErrorIcon />; }
-                    else if (category === 'Suggestive') { color = 'warning'; icon = <Warning />; }
-                    const expanded = expandedHistory[item.id] || false;
-                    return (
-                      <Card key={item.id} sx={{ mb: 2, backgroundColor: '#f9fbe7', boxShadow: 2 }}>
-                        <CardContent>
-                          <Box display="flex" alignItems="center" justifyContent="space-between">
-                            <Box>
-                              <Typography variant="subtitle1"><b>Filename:</b> {item.filename}</Typography>
-                              <Typography variant="body2" color="text.secondary"><b>Uploaded:</b> {item.upload_time}</Typography>
-                            </Box>
-                            <Chip icon={icon} label={category} color={color} variant="filled" sx={{ fontWeight: 'bold', fontSize: '1rem' }} />
-                          </Box>
-                          <Box sx={{ mt: 1, p: 1, background: '#fffde7', borderRadius: 1, fontFamily: 'monospace', whiteSpace: 'pre-wrap', fontSize: '0.95rem', color: '#333' }}>
-                            {expanded ? item.report : item.report.slice(0, 300) + (item.report.length > 300 ? '... (truncated)' : '')}
-                          </Box>
-                          <Button size="small" sx={{ mt: 1 }} onClick={() => setExpandedHistory(prev => ({ ...prev, [item.id]: !expanded }))}>
-                            {expanded ? 'Hide Details' : 'Show Full Report'}
-                          </Button>
-                        </CardContent>
-                      </Card>
-                    );
-                  })}
+      {/* Main content */}
+      <Box sx={{ flex: 1, display: 'flex', flexDirection: 'column', minHeight: '100vh', background: '#f5f5f5', px: 1 }}>
+        <AppBar position="static" sx={{ background: 'linear-gradient(90deg,#1976d2 60%,#21cbf3 100%)', boxShadow: 2 }}>
+          <Toolbar>
+            <Typography variant="h4" sx={{ fontWeight: 'bold', flexGrow: 1, letterSpacing: 1, color: '#fff' }}>
+              AI Video Content Analyzer
+            </Typography>
+          </Toolbar>
+        </AppBar>
+        <Container maxWidth="md" sx={{ mt: 2, pb: 2 }}>
+          <Grid container spacing={2} alignItems="stretch" justifyContent="center">
+            {/* Welcome/Info Section */}
+            <Grid item xs={12} md={6} lg={6}>
+              <Box sx={{
+                minHeight: 180,
+                width: '100%',
+                display: 'flex',
+                flexDirection: 'column',
+                alignItems: 'center',
+                justifyContent: 'center',
+                background: 'linear-gradient(120deg, #1976d2 60%, #21cbf3 100%)',
+                borderRadius: 4,
+                boxShadow: '0 4px 16px rgba(33,203,243,0.10)',
+                px: 3,
+                py: 3,
+                mt: 1,
+              }}>
+                <Box display="flex" alignItems="center" justifyContent="center" mb={2}>
+                  <VideoLibrary sx={{ fontSize: 72, mr: 2, color: '#fff' }} />
+                  <Analytics sx={{ fontSize: 56, mr: 2, color: '#fffde7' }} />
+                  <CheckCircle sx={{ fontSize: 56, color: '#e8f5e9' }} />
                 </Box>
-              )}
-            </CardContent>
-          </Card>
-        )}
-        {/* Connection Status */}
-        {connectionStatus === 'disconnected' && (
-          <Alert severity="error" sx={{ mb: 4 }} action={
-            <Button color="inherit" size="small" onClick={testConnection}>
-              Retry
-            </Button>
-          }>
-            Cannot connect to backend server. Make sure the server is running on http://localhost:8000
-          </Alert>
-        )}
-
-        {connectionStatus === 'connected' && (
-          <Alert severity="success" sx={{ mb: 4 }}>
-            ✅ AI Video Analyzer ready! Upload and analyze your video files.
-          </Alert>
-        )}
-
-        {/* Upload Section */}
-        <Card sx={{ mb: 4 }}>
-          <CardContent>
-            <Typography variant="h5" gutterBottom color="primary">
-              📹 Upload Video for Analysis
-            </Typography>
-            <Typography variant="body2" color="text.secondary" gutterBottom>
-              Upload your video file to analyze content for YouTube policy compliance
-            </Typography>
-
-            <Box sx={{ mt: 3 }}>
-              <input
-                accept="video/*"
-                style={{ display: 'none' }}
-                id="video-upload"
-                type="file"
-                onChange={handleFileChange}
-              />
-              <label htmlFor="video-upload">
-                <Button
-                  variant="outlined"
-                  component="span"
-                  startIcon={<CloudUpload />}
-                  sx={{ mr: 2 }}
-                  disabled={connectionStatus !== 'connected'}
-                >
-                  Choose Video File
-                </Button>
-              </label>
-
-              {selectedFile && (
-                <Chip
-                  label={`${selectedFile.name} (${formatFileSize(selectedFile.size)})`}
-                  color="primary"
-                  variant="outlined"
-                  sx={{ ml: 1 }}
-                />
-              )}
-
-              <Box sx={{ mt: 2 }}>
+                <Typography variant="h4" sx={{ fontWeight: 'bold', color: '#fff', mb: 1, textShadow: '1px 1px 8px #1976d2', letterSpacing: 1 }}>
+                  Welcome to AI Video Content Analyzer
+                </Typography>
+                <Typography variant="subtitle1" sx={{ color: '#e3f2fd', mb: 1, fontWeight: 500 }}>
+                  Analyze your videos for YouTube policy compliance in seconds!
+                </Typography>
+                <Typography variant="body2" sx={{ color: '#fff', mb: 2, maxWidth: 400, textAlign: 'center', fontSize: '1rem' }}>
+                  <b>How it works:</b> Upload a video file and get instant feedback on compliance, violations, and recommendations.<br />
+                  Powered by advanced AI models for text, audio, and image analysis.
+                </Typography>
+                <Typography variant="body2" sx={{ color: '#fffde7', mb: 2, fontSize: '0.95rem' }}>
+                  <b>Supported formats:</b> MP4, AVI, MOV, MKV
+                </Typography>
                 <Button
                   variant="contained"
-                  startIcon={loading ? <CircularProgress size={20} color="inherit" /> : <Analytics />}
-                  onClick={handleAnalyze}
-                  disabled={loading || !selectedFile || connectionStatus !== 'connected'}
-                  size="large"
-                  sx={{
-                    background: 'linear-gradient(45deg, #2196F3 30%, #21CBF3 90%)',
-                    color: 'white'
-                  }}
+                  color="secondary"
+                  size="medium"
+                  sx={{ fontWeight: 'bold', px: 3, py: 1, fontSize: '1rem', boxShadow: 2, borderRadius: 2, background: 'linear-gradient(90deg,#8e24aa 60%,#d1c4e9 100%)', ':hover': { background: 'linear-gradient(90deg,#6a1b9a 60%,#b39ddb 100%)', transform: 'scale(1.03)' } }}
+                  onClick={() => document.getElementById('video-upload').click()}
                 >
-                  {loading ? 'Analyzing...' : 'Analyze Video'}
+                  <CloudUpload sx={{ mr: 1, fontSize: 24 }} /> START ANALYSIS
                 </Button>
               </Box>
-
-              {error && (
-                <Alert severity="error" sx={{ mt: 2 }}>
-                  {error}
-                </Alert>
-              )}
-            </Box>
-          </CardContent>
-        </Card>
-
-        {/* Progress Bar with Percentage */}
-        {loading && (
-          <Paper sx={{ p: 2, mb: 4 }}>
-            <Typography variant="h6" gutterBottom>
-              Analyzing video content...
-            </Typography>
-            <Box sx={{ display: 'flex', alignItems: 'center', mb: 1 }}>
-              <Box sx={{ width: '100%', mr: 2 }}>
-                <LinearProgress variant="determinate" value={progress} />
-              </Box>
-              <Typography variant="body2" color="text.secondary" sx={{ minWidth: 40 }}>
-                {`${progress}%`}
-              </Typography>
-            </Box>
-            <Typography variant="body2" color="text.secondary">
-              Processing video frames, audio, and text content with AI...
-            </Typography>
-          </Paper>
-        )}
-
-        {/* Analysis Results */}
-        {analysis && (
-          <>
-            {/* Raw Model Output */}
-            {analysis.full_report && (
-              <Card sx={{ mb: 3, backgroundColor: '#fffbe6', border: '1px solid #ffe082' }}>
-                <CardContent>
-                  <Typography variant="h6" gutterBottom color="warning.main">
-                    📝 Comprehensive Model Report
-                  </Typography>
-                  <ComprehensiveReportDisplay report={analysis.full_report} />
-                </CardContent>
-              </Card>
-            )}
-
-            {/* Analysis Summary Cards */}
-            <Grid container spacing={3}>
-              {/* Text Analysis */}
-              <Grid item xs={12} md={4}>
-                <Card sx={{ height: '100%' }}>
-                  <CardContent>
-                    <Box display="flex" alignItems="center" mb={2}>
-                      <TextFields color="primary" sx={{ mr: 1 }} />
-                      <Typography variant="h6">Text Analysis</Typography>
-                    </Box>
-                    <Box display="flex" alignItems="center" mb={2}>
-                      <Chip
-                        icon={getStatusIcon(parsedReport.text_status)}
-                        label={(parsedReport.text_status || 'N/A').toUpperCase()}
-                        color={getStatusColor(parsedReport.text_status)}
-                        variant="filled"
-                      />
-                      <Typography variant="h4" sx={{ ml: 2 }}>
-                        {parsedReport.text_score || 'N/A'}%
-                      </Typography>
-                    </Box>
-                    <Typography variant="body2" color="text.secondary" sx={{ mb: 1 }}>
-                      Results:
-                    </Typography>
-                    {parsedReport.text_issues
-                      ? parsedReport.text_issues.split('\n').map((issue, index) => (
-                        <Typography key={index} variant="body2" sx={{ mt: 0.5 }}>
-                          {issue.trim().startsWith('•') ? issue.trim() : `• ${issue.trim()}`}
-                        </Typography>
-                      ))
-                      : <Typography variant="body2">No issues found.</Typography>
-                    }
-                  </CardContent>
-                </Card>
-              </Grid>
-
-              {/* Audio Analysis */}
-              <Grid item xs={12} md={4}>
-                <Card sx={{ height: '100%' }}>
-                  <CardContent>
-                    <Box display="flex" alignItems="center" mb={2}>
-                      <RecordVoiceOver color="primary" sx={{ mr: 1 }} />
-                      <Typography variant="h6">Audio Analysis</Typography>
-                    </Box>
-                    <Box display="flex" alignItems="center" mb={2}>
-                      <Chip
-                        icon={getStatusIcon(parsedReport.audio_status)}
-                        label={(parsedReport.audio_status || 'N/A').toUpperCase()}
-                        color={getStatusColor(parsedReport.audio_status)}
-                        variant="filled"
-                      />
-                      <Typography variant="h4" sx={{ ml: 2 }}>
-                        {parsedReport.audio_score || 'N/A'}%
-                      </Typography>
-                    </Box>
-                    <Typography variant="body2" color="text.secondary" sx={{ mb: 1 }}>
-                      Results:
-                    </Typography>
-                    {parsedReport.audio_issues
-                      ? parsedReport.audio_issues.split('\n').map((issue, index) => (
-                        <Typography key={index} variant="body2" sx={{ mt: 0.5 }}>
-                          {issue.trim().startsWith('•') ? issue.trim() : `• ${issue.trim()}`}
-                        </Typography>
-                      ))
-                      : <Typography variant="body2">No issues found.</Typography>
-                    }
-                  </CardContent>
-                </Card>
-              </Grid>
-
-              {/* Video/Image Analysis */}
-              <Grid item xs={12} md={4}>
-                <Card sx={{ height: '100%' }}>
-                  <CardContent>
-                    <Box display="flex" alignItems="center" mb={2}>
-                      <Image color="primary" sx={{ mr: 1 }} />
-                      <Typography variant="h6">Video Frame Analysis</Typography>
-                    </Box>
-
-                    <Box display="flex" alignItems="center" mb={2}>
-                      <Chip
-                        icon={getStatusIcon(parsedReport.image_status)}
-                        label={(parsedReport.image_status || 'N/A').toUpperCase()}
-                        color={getStatusColor(parsedReport.image_status)}
-                        variant="filled"
-                      />
-                      <Typography variant="h4" sx={{ ml: 2 }}>
-                        {parsedReport.image_score || 'N/A'}%
-                        <Typography variant="body2" color="text.secondary" sx={{ ml: 2 }}>
-                          Image compliance score (higher is better)
-                        </Typography>
-                      </Typography>
-                    </Box>
-
-                    <Typography variant="body2" color="text.secondary" sx={{ mb: 1 }}>
-                      Frames analyzed: {parsedReport.frames_analyzed || 0} (more frames = more accurate)
-                    </Typography>
-                    <Typography variant="body2" color="text.secondary" sx={{ mb: 1 }}>
-                      Results (issues detected):
-                    </Typography>
-                    {parsedReport.image_issues
-                      ? parsedReport.image_issues.split('\n').map((issue, index) => (
-                        <Typography key={index} variant="body2" sx={{ mt: 0.5, color: '#d32f2f' }}>
-                          • {issue.trim()}
-                        </Typography>
-                      ))
-                      : <Typography variant="body2" color="success.main">No issues found. Content is compliant.</Typography>
-                    }
-                  </CardContent>
-                </Card>
-              </Grid>
-
-              {/* Overall Results */}
-              <Grid item xs={12}>
-                {/* Large summary verdict card */}
-                <Card sx={{ mb: 4, p: 3, backgroundColor: parsedReport.overall === 'conforme' ? '#e8f5e9' : parsedReport.overall === 'attention' ? '#fffde7' : parsedReport.overall === 'non_conforme' ? '#ffebee' : '#f5f5f5', borderRadius: 3, boxShadow: 3 }}>
-                  <CardContent>
-                    <Box display="flex" alignItems="center" justifyContent="center" mb={2}>
-                      <Typography variant="h2" sx={{ mr: 2 }}>
-                        {parsedReport.overall === 'conforme' && '✅'}
-                        {parsedReport.overall === 'attention' && '⚠️'}
-                        {parsedReport.overall === 'non_conforme' && '❌'}
-                        {!["conforme","attention","non_conforme"].includes(parsedReport.overall) && '❓'}
-                      </Typography>
-                      <Box>
-                        <Typography variant="h3" sx={{ mr: 2, fontWeight: 'bold', color: '#1976d2' }}>
-                          {parsedReport.overall?.toUpperCase() || 'N/A'}
-                        </Typography>
-                        <Typography variant="h6" color="text.secondary" sx={{ mb: 1 }}>
-                          Overall Compliance: {parsedReport.overall_scores?.image || parsedReport.image_score || 'N/A'}%
-                        </Typography>
-                        <Typography variant="body2" color="text.secondary" sx={{ mb: 1 }}>
-                          Status: {parsedReport.overall || 'N/A'}
-                        </Typography>
-                        <Typography variant="body2" color="text.secondary" sx={{ mb: 1 }}>
-                          Total Violations: {Array.isArray(parsedReport.image_issues) ? parsedReport.image_issues.length : typeof parsedReport.image_issues === 'string' ? parsedReport.image_issues.split('\n').length : 'N/A'}
-                        </Typography>
-                        <Typography variant="body2" color="text.secondary" sx={{ mb: 2 }}>
-                          Violation Categories: {Array.isArray(parsedReport.image_issues) ? parsedReport.image_issues.join(', ') : typeof parsedReport.image_issues === 'string' ? parsedReport.image_issues : 'N/A'}
-                        </Typography>
-                        <Typography variant="body2" color="text.secondary" sx={{ mb: 2 }}>
-                          📊 Analysis completed in {parsedReport.processing_time || 'N/A'}s • {parsedReport.frames_analyzed || 0} frames analyzed • AI-powered content detection
-                        </Typography>
-                      </Box>
-                    </Box>
-                  </CardContent>
-                </Card>
-                {/* Content type cards */}
-                <Grid container spacing={3} sx={{ mb: 2 }}>
-                  <Grid item xs={12} sm={4}>
-                    <Card sx={{ p: 3, borderRadius: 3, boxShadow: 3, backgroundColor: '#e3f2fd' }}>
-                      <CardContent>
-                        <Box display="flex" alignItems="center" mb={1}>
-                          <TextFields color="primary" sx={{ mr: 1 }} />
-                          <Typography variant="h5" color="primary" sx={{ fontWeight: 'bold' }}>Text Content</Typography>
-                        </Box>
-                        <Typography variant="h3" color="primary" sx={{ fontWeight: 'bold' }}>{parsedReport.overall_scores?.text || 'N/A'}%</Typography>
-                        <Typography variant="body2" color="text.secondary" title="Text detected in video (higher = more compliant)">Text detected in video (higher = more compliant)</Typography>
-                      </CardContent>
-                    </Card>
-                  </Grid>
-                  <Grid item xs={12} sm={4}>
-                    <Card sx={{ p: 3, borderRadius: 3, boxShadow: 3, backgroundColor: '#fffde7' }}>
-                      <CardContent>
-                        <Box display="flex" alignItems="center" mb={1}>
-                          <RecordVoiceOver color="warning" sx={{ mr: 1 }} />
-                          <Typography variant="h5" color="warning.main" sx={{ fontWeight: 'bold' }}>Audio Content</Typography>
-                        </Box>
-                        <Typography variant="h3" color="warning.main" sx={{ fontWeight: 'bold' }}>{parsedReport.overall_scores?.audio || 'N/A'}%</Typography>
-                        <Typography variant="body2" color="text.secondary" title="Speech and sound compliance (higher = better)">Speech and sound compliance (higher = better)</Typography>
-                      </CardContent>
-                    </Card>
-                  </Grid>
-                  <Grid item xs={12} sm={4}>
-                    <Card sx={{ p: 3, borderRadius: 3, boxShadow: 3, backgroundColor: '#fce4ec' }}>
-                      <CardContent>
-                        <Box display="flex" alignItems="center" mb={1}>
-                          <Image color="error" sx={{ mr: 1 }} />
-                          <Typography variant="h5" color="error" sx={{ fontWeight: 'bold' }}>Video Frames</Typography>
-                        </Box>
-                        <Typography variant="h3" color="error" sx={{ fontWeight: 'bold' }}>{parsedReport.overall_scores?.image || 'N/A'}%</Typography>
-                        <Typography variant="body2" color="text.secondary" title="Visual content compliance (higher = better)">Visual content compliance (higher = better)</Typography>
-                      </CardContent>
-                    </Card>
-                  </Grid>
-                </Grid>
-                {/* What does this mean section */}
-                <Card sx={{ p: 2, backgroundColor: '#f5f5f5', borderRadius: 2, boxShadow: 1 }}>
-                  <CardContent>
-                    <Typography variant="subtitle2" color="primary">What does this mean?</Typography>
-                    <ul style={{ margin: 0, paddingLeft: 20 }}>
-                      <li><b>Compliance:</b> Percentage of content following policy. Higher is better.</li>
-                      <li><b>Status:</b> Final decision for YouTube upload. See verdict above.</li>
-                      <li><b>Violations:</b> Issues detected in video. Lower is better.</li>
-                      <li><b>Categories:</b> Types of violations (e.g., violence, nudity, copyright).</li>
-                    </ul>
-                  </CardContent>
-                </Card>
-              </Grid>
             </Grid>
-          </>
-        )}
-      </Container>
-    </div>
+            {/* Upload Section */}
+            <Grid item xs={12} md={6} lg={6}>
+              <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', width: '100%' }}>
+                <Card sx={{ width: '100%', maxWidth: 320, mx: 'auto', p: 2, boxShadow: '0 2px 8px rgba(33,203,243,0.08)', borderRadius: 3, background: '#fff' }}>
+                  <CardContent>
+                    <Typography variant="subtitle1" align="center" sx={{ mb: 2, fontWeight: 'bold', color: '#1976d2', letterSpacing: 1 }}>
+                      Full Video Moderation (Upload)
+                    </Typography>
+                    {/* Display chosen frame settings */}
+                    <Box sx={{ mb: 1, p: 1, background: '#e3f2fd', borderRadius: 1, fontSize: '0.95rem', color: '#1976d2' }}>
+                      <Typography variant="subtitle2" sx={{ fontWeight: 'bold', mb: 1 }}>Current Frame Extraction Settings:</Typography>
+                      <ul style={{ margin: 0, paddingLeft: 20 }}>
+                        <li>Frames: <b>{frameSettings.frameCount}</b></li>
+                        <li>Interval: <b>{frameSettings.frameInterval}</b> sec</li>
+                        <li>Resolution: <b>{frameSettings.frameResolution}</b></li>
+                        <li>Format: <b>{frameSettings.frameFormat}</b></li>
+                        <li>Start: <b>{frameSettings.frameStart}</b> sec</li>
+                        <li>End: <b>{frameSettings.frameEnd !== null ? frameSettings.frameEnd : 'Full video'}</b></li>
+                        <li>Sampling: <b>{frameSettings.frameSampling}</b></li>
+                      </ul>
+                    </Box>
+                    <Box
+                      sx={{
+                        border: '2px dashed #1976d2',
+                        borderRadius: 2,
+                        p: 2,
+                        mb: 2,
+                        textAlign: 'center',
+                        background: '#e3f2fd',
+                        cursor: 'pointer',
+                        transition: '0.2s',
+                        ':hover': { background: '#bbdefb', borderColor: '#1565c0' },
+                      }}
+                      onClick={() => document.getElementById('video-upload').click()}
+                      onDragOver={e => e.preventDefault()}
+                      onDrop={e => {
+                        e.preventDefault();
+                        if (e.dataTransfer.files && e.dataTransfer.files[0]) {
+                          handleFileChange({ target: { files: e.dataTransfer.files } });
+                        }
+                      }}
+                    >
+                      <input
+                        accept="video/*"
+                        style={{ display: 'none' }}
+                        id="video-upload"
+                        type="file"
+                        onChange={handleFileChange}
+                      />
+                      {selectedFile ? (
+                        <Typography variant="body2" color="primary" sx={{ fontWeight: 'bold', fontSize: '1rem' }}>
+                          {selectedFile.name} ({formatFileSize(selectedFile.size)})
+                        </Typography>
+                      ) : (
+                        <Typography variant="body2" color="text.secondary" sx={{ fontSize: '1rem' }}>
+                          Drag & Drop a video here, or click to upload
+                        </Typography>
+                      )}
+                    </Box>
+                    <Button
+                      variant="contained"
+                      color="primary"
+                      fullWidth
+                      sx={{ fontWeight: 'bold', py: 1, fontSize: '1rem', borderRadius: 2, boxShadow: 1, background: 'linear-gradient(90deg,#1976d2 60%,#21cbf3 100%)', ':hover': { background: 'linear-gradient(90deg,#1565c0 60%,#039be5 100%)', transform: 'scale(1.01)' } }}
+                      onClick={handleAnalyze}
+                      disabled={loading || !selectedFile || connectionStatus !== 'connected'}
+                    >
+                      {loading ? 'Uploading...' : 'UPLOAD VIDEO'}
+                    </Button>
+                    {error && (
+                      <Alert severity="error" sx={{ mt: 3 }}>
+                        {error}
+                      </Alert>
+                    )}
+                  </CardContent>
+                </Card>
+                {/* Progress Bar with Percentage */}
+                {loading && (
+                  <Paper sx={{ p: 1, mb: 2, width: '100%' }}>
+                    <Typography variant="body2" gutterBottom>
+                      Analyzing video content...
+                    </Typography>
+                    <Box sx={{ display: 'flex', alignItems: 'center', mb: 1 }}>
+                      <Box sx={{ width: '100%', mr: 1 }}>
+                        <LinearProgress variant="determinate" value={progress} />
+                      </Box>
+                      <Typography variant="caption" sx={{ minWidth: 30 }}>{progress}%</Typography>
+                    </Box>
+                  </Paper>
+                )}
+                {/* Simple Model Report (Analysis Results) */}
+                {analysis && (
+                  <Card sx={{ mt: 2, boxShadow: 2, borderRadius: 2 }}>
+                    <CardContent>
+                      <Typography variant="subtitle1" sx={{ fontWeight: 'bold', mb: 1 }} color="primary">
+                        Model Analysis Summary
+                      </Typography>
+                      <Typography variant="body2">Score: <b>{parsedReport?.image_score || 'N/A'}%</b></Typography>
+                      <Typography variant="body2">Status: <b>{parsedReport?.overall || 'N/A'}</b></Typography>
+                      <Typography variant="body2">Frames Analyzed: <b>{parsedReport?.frames_analyzed || 'N/A'}</b></Typography>
+                      <Button variant="outlined" color="info" sx={{ mt: 1, fontSize: '0.95rem', py: 0.5 }} onClick={() => setShowFrameDetails(true)}>
+                        View Detailed Frame Report
+                      </Button>
+                    </CardContent>
+                  </Card>
+                )}
+              </Box>
+            </Grid>
+          </Grid>
+          {connectionStatus === 'disconnected' && (
+            <Alert severity="error" sx={{ mb: 4 }} action={
+              <Button color="inherit" size="small" onClick={testConnection}>
+                Retry
+              </Button>
+            }>
+              Cannot connect to backend server. Make sure the server is running on http://localhost:8000
+            </Alert>
+          )}
+          {connectionStatus === 'connected' && (
+            <Alert severity="success" sx={{ mb: 4 }}>
+              ✅ AI Video Analyzer ready! Upload and analyze your video files.
+            </Alert>
+          )}
+        </Container>
+      </Box>
+    </Box>
   );
+
 }
 
 export default App;
