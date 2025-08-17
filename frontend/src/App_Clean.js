@@ -40,7 +40,7 @@ function App() {
   const [error, setError] = useState('');
   const [connectionStatus, setConnectionStatus] = useState('testing');
   const [frameSettings, setFrameSettings] = useState({
-    frameCount: 20,
+    frameCount: 1,
     frameInterval: 0.5,
     frameResolution: 'auto',
     frameFormat: 'jpg',
