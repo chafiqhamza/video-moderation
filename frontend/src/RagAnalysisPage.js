@@ -14,7 +14,11 @@ function RagAnalysisPage({ ragAnalysis, onBack }) {
     );
   }
 
-  const { decision, confidence, reasoning, retrieved_docs } = ragAnalysis;
+  const { decision, confidence, reasoning, retrieved_docs, frames_analyzed } = ragAnalysis;
+
+  // Compute total frames analyzed and displayed
+  const totalAnalyzed = frames_analyzed || (retrieved_docs ? retrieved_docs.length : 0);
+  const totalDisplayed = retrieved_docs ? retrieved_docs.length : 0;
 
   return (
     <Box sx={{ p: 5, background: 'linear-gradient(120deg, #e3f2fd 60%, #fffde7 100%)', minHeight: '100vh' }}>
@@ -37,6 +41,19 @@ function RagAnalysisPage({ ragAnalysis, onBack }) {
             <Chip label={`Confidence: ${confidence !== undefined ? confidence : 'N/A'}`} color="success" sx={{ fontSize: '1.1rem' }} />
           </Box>
           <Typography variant="body1"><b>Reasoning:</b> {reasoning || 'N/A'}</Typography>
+          <Box sx={{ mt: 2 }}>
+            <Typography variant="body2" color="info.main">
+              <b>Total Frames Analyzed by Model:</b> {totalAnalyzed}
+            </Typography>
+            <Typography variant="body2" color="info.main">
+              <b>Frames Displayed:</b> {totalDisplayed}
+            </Typography>
+            {totalAnalyzed !== totalDisplayed && (
+              <Typography variant="body2" color="warning.main">
+                (Only the first {totalDisplayed} frames are shown based on your settings)
+              </Typography>
+            )}
+          </Box>
         </CardContent>
       </Card>
       {/* Documents Section */}
@@ -47,11 +64,22 @@ function RagAnalysisPage({ ragAnalysis, onBack }) {
         {retrieved_docs && retrieved_docs.length > 0 ? (
           <Box sx={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(420px, 1fr))', gap: 3 }}>
             {retrieved_docs.map((doc, idx) => (
-              <Card key={idx} sx={{ background: doc.title.startsWith('Audio') ? '#e3f2fd' : '#f9fbe7', borderRadius: 3, boxShadow: 2 }}>
+              <Card key={idx} sx={{ background: typeof doc.title === 'string' && doc.title.startsWith('Audio') ? '#e3f2fd' : '#f9fbe7', borderRadius: 3, boxShadow: 2 }}>
                 <CardContent>
-                  <Typography variant="subtitle1" sx={{ fontWeight: 'bold', mb: 1, color: doc.title.startsWith('Audio') ? '#1976d2' : 'success.main' }}>
+                  <Typography variant="subtitle1" sx={{ fontWeight: 'bold', mb: 1, color: typeof doc.title === 'string' && doc.title.startsWith('Audio') ? '#1976d2' : 'success.main' }}>
                     {doc.title || 'N/A'}
                   </Typography>
+                  {/* Context: frame number, timestamp, etc. */}
+                  {doc.frame !== undefined && (
+                    <Typography variant="body2" sx={{ mb: 0.5 }}>
+                      <b>Frame #:</b> {doc.frame}
+                    </Typography>
+                  )}
+                  {doc.timestamp !== undefined && (
+                    <Typography variant="body2" sx={{ mb: 0.5 }}>
+                      <b>Timestamp:</b> {doc.timestamp}s
+                    </Typography>
+                  )}
                   <Box sx={{ display: 'flex', gap: 1, flexWrap: 'wrap', mb: 1 }}>
                     {doc.category && (
                       <Chip label={`Category: ${doc.category}`} color={doc.category === 'safe_content' ? 'success' : 'primary'} />

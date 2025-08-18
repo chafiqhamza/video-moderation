@@ -379,9 +379,30 @@ async def analyze_video(
                 json_report['image']['details'] = {}
             json_report['image']['details']['frame_preview_paths'] = frame_preview_paths
             json_report['image']['details']['frame_analysis'] = frame_analysis
+        # Try to load RAG explanations from the latest JSON report if present
+        rag_explanations = None
+        if json_report and 'rag_explanations' in json_report:
+            rag_explanations = json_report['rag_explanations']
+        elif json_report and 'rag_explanations' in json_report.get('analysis_json', {}):
+            rag_explanations = json_report['analysis_json']['rag_explanations']
+        # Build full model analysis for each frame for frontend
+        frame_details = []
+        if json_report and 'detailed_frames' in json_report:
+            for frame in json_report['detailed_frames']:
+                frame_details.append({
+                    "frame_index": frame.get("frame_index"),
+                    "timestamp": frame.get("timestamp"),
+                    "visual_analysis": frame.get("visual_analysis", {}),
+                    "blip_description": frame.get("blip_description", {}),
+                    "ocr_text": frame.get("ocr_text", {}),
+                    "combined_violation": frame.get("combined_violation", False),
+                    "preview_path": frame.get("preview_path", "")
+                })
         response = {
             "full_report": output,
-            "analysis_json": json_report if json_report else {}
+            "analysis_json": json_report if json_report else {},
+            "rag_explanations": rag_explanations if rag_explanations else [],
+            "frame_details": frame_details
         }
         return PlainTextResponse(json.dumps(response, ensure_ascii=False, indent=2), media_type="application/json")
     except Exception as e:

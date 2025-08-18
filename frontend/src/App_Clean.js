@@ -146,6 +146,16 @@ function App() {
       } else {
         setParsedReport(parseReportFields(analysisObj.full_report));
       }
+      // Show RAG explanations if present
+      if (analysisObj.rag_explanations && analysisObj.rag_explanations.length > 0) {
+        setRagAnalysis({
+          decision: analysisObj.analysis_json?.overall_assessment?.status || '',
+          confidence: analysisObj.analysis_json?.overall_assessment?.overall_compliance || '',
+          reasoning: analysisObj.analysis_json?.recommendations?.join('\n') || '',
+          retrieved_docs: analysisObj.rag_explanations
+        });
+        setShowRagPage(true);
+      }
     } catch (err) {
       setError(`Analysis failed: ${err.message}`);
     } finally {
@@ -202,28 +212,14 @@ function App() {
   useEffect(() => {
     // Always use frameSettings for RAG and frame analysis
     if (analysis && (analysis.rag_explanations || (analysis.analysis_json && analysis.analysis_json.rag_explanations))) {
-      let ragFrames = analysis.rag_explanations || analysis.analysis_json.rag_explanations;
-      ragFrames = ragFrames.map((frame) => {
-        if (!frame.category || frame.category === '' || frame.category === 'N/A') {
-          return { ...frame, category: 'safe_content', reasoning: 'No violation detected. Content is safe.' };
-        }
-        return frame;
-      });
-      if (frameSettings && frameSettings.frameCount && ragFrames.length > frameSettings.frameCount) {
-        ragFrames = ragFrames.slice(0, frameSettings.frameCount);
-      }
+      // Use backend's rag_explanations array directly for full details
+      const ragFrames = analysis.rag_explanations || analysis.analysis_json.rag_explanations;
       setRagAnalysis({
         decision: analysis.analysis_json?.overall_assessment?.status || 'N/A',
         confidence: analysis.analysis_json?.frame_analysis?.average_confidence || 'N/A',
         reasoning: 'Detailed frame-level policy violation explanations below.',
-        retrieved_docs: ragFrames.map((frame) => ({
-          title: frame.type === 'visual'
-            ? `Frame ${frame.frame} (t=${frame.timestamp}s): ${frame.category} detected by model (confidence ${frame.confidence})`
-            : `Audio: ${frame.category} detected in transcript (severity: ${frame.severity})`,
-          category: frame.category,
-          confidence: frame.confidence,
-          reasoning: frame.reasoning
-        }))
+        retrieved_docs: ragFrames,
+        frames_analyzed: analysis.analysis_json?.frame_analysis?.total_frames || ragFrames.length
       });
     } else if (analysis && analysis.full_report) {
       const ragSectionMatch = analysis.full_report.match(/DETAILED POLICY VIOLATION EXPLANATIONS \(RAG\):([\s\S]*?)(?=\n\s*\n|$)/i);
@@ -262,12 +258,13 @@ function App() {
     : 0;
   const totalFrames = ragAnalysis && ragAnalysis.retrieved_docs ? ragAnalysis.retrieved_docs.length : 0;
 
+  const [sidebarOpen, setSidebarOpen] = useState(true);
   const sidebarOptions = [
-    { label: 'SETTINGS', color: 'secondary', onClick: () => { setShowSettings(true); setShowHistory(false); setShowFrameDetails(false); setShowRagPage(false); } },
-    { label: 'RAG ANALYSIS', color: 'info', onClick: () => { setShowRagPage(true); setShowSettings(false); setShowHistory(false); setShowFrameDetails(false); } },
-    { label: 'UPLOAD HISTORY', color: 'primary', onClick: () => { setShowHistory(true); setShowFrameDetails(false); setShowRagPage(false); setShowSettings(false); } },
-    { label: 'FRAME DETAILS', color: 'info', onClick: () => { setShowFrameDetails(true); setShowHistory(false); setShowRagPage(false); setShowSettings(false); } },
-    { label: 'CUSTOMIZE', color: 'warning', onClick: () => alert('Customize feature coming soon!') },
+    { label: 'SETTINGS', color: 'secondary', icon: <Analytics />, tooltip: 'Configure frame extraction and analysis settings', onClick: () => { setShowSettings(true); setShowHistory(false); setShowFrameDetails(false); setShowRagPage(false); } },
+    { label: 'RAG ANALYSIS', color: 'info', icon: <CheckCircle />, tooltip: 'View policy violation explanations', onClick: () => { setShowRagPage(true); setShowSettings(false); setShowHistory(false); setShowFrameDetails(false); } },
+    { label: 'UPLOAD HISTORY', color: 'primary', icon: <VideoLibrary />, tooltip: 'See previous uploads and results', onClick: () => { setShowHistory(true); setShowFrameDetails(false); setShowRagPage(false); setShowSettings(false); } },
+    { label: 'FRAME DETAILS', color: 'info', icon: <CloudUpload />, tooltip: 'Detailed report of analyzed frames', onClick: () => { setShowFrameDetails(true); setShowHistory(false); setShowRagPage(false); setShowSettings(false); } },
+    { label: 'CUSTOMIZE', color: 'warning', icon: <Analytics />, tooltip: 'Customize moderation options', onClick: () => alert('Customize feature coming soon!') },
   ];
 
   // Instead of returning early, render all pages conditionally inside main JSX so state is always preserved
@@ -291,12 +288,25 @@ function App() {
         Safe Content Frames: {safeCount} / {totalFrames}
       </Typography>
       <LinearProgress variant="determinate" value={totalFrames ? (safeCount / totalFrames) * 100 : 0} sx={{ height: 10, borderRadius: 5, mt: 1 }} color="success" />
+      {/* Always show model analysis summary above RAG */}
+      {parsedReport && (
+        <Card sx={{ mt: 2, boxShadow: 2, borderRadius: 2 }}>
+          <CardContent>
+            <Typography variant="subtitle1" sx={{ fontWeight: 'bold', mb: 1 }} color="primary">
+              Model Analysis Summary
+            </Typography>
+            <Typography variant="body2">Score: <b>{parsedReport?.image_score || 'N/A'}%</b></Typography>
+            <Typography variant="body2">Status: <b>{parsedReport?.overall || 'N/A'}</b></Typography>
+            <Typography variant="body2">Frames Analyzed: <b>{parsedReport?.frames_analyzed || 'N/A'}</b></Typography>
+          </CardContent>
+        </Card>
+      )}
     </Box>
       <RagAnalysisPage ragAnalysis={ragAnalysis} onBack={() => setShowRagPage(false)} /></>;
   } else if (showHistory) {
     mainContent = <UploadHistoryPage />;
   } else if (showFrameDetails) {
-    mainContent = <FrameDetailsPage frames={ragAnalysis?.retrieved_docs || []} />;
+    mainContent = <FrameDetailsPage frames={ragAnalysis?.retrieved_docs || []} onBack={() => setShowFrameDetails(false)} />;
   } else {
     mainContent = (
       <Container maxWidth="md" sx={{ mt: 2, pb: 2 }}>
@@ -476,17 +486,30 @@ function App() {
   return (
     <Box sx={{ display: 'flex', minHeight: '100vh', backgroundColor: '#f5f5f5' }}>
       {/* Sidebar */}
-      <Box sx={{ width: 160, background: 'linear-gradient(180deg,#1976d2 0%,#21cbf3 100%)', color: '#fff', display: { xs: 'none', md: 'flex' }, flexDirection: 'column', alignItems: 'center', py: 2, boxShadow: 2 }}>
+      <Box sx={{ width: sidebarOpen ? 180 : 60, transition: 'width 0.2s', background: 'linear-gradient(180deg,#1976d2 0%,#21cbf3 100%)', color: '#fff', display: { xs: 'none', md: 'flex' }, flexDirection: 'column', alignItems: 'center', py: 2, boxShadow: 2, position: 'relative' }}>
         <Box sx={{ mb: 3 }}>
           <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="Menu" style={{ width: 56, borderRadius: '50%' }} />
         </Box>
-        <Typography variant="subtitle1" sx={{ fontWeight: 'bold', mb: 1, letterSpacing: 1 }}>
+        <Button variant="text" color="inherit" sx={{ mb: 2, minWidth: 0, p: 0, fontSize: '1.5rem', borderRadius: 2 }} onClick={() => setSidebarOpen(!sidebarOpen)} aria-label={sidebarOpen ? 'Collapse sidebar' : 'Expand sidebar'}>
+          {sidebarOpen ? '<' : '>'}
+        </Button>
+        <Typography variant="subtitle1" sx={{ fontWeight: 'bold', mb: 1, letterSpacing: 1, display: sidebarOpen ? 'block' : 'none' }}>
           Menu
         </Typography>
         {sidebarOptions.map(opt => (
-          <Button key={opt.label} variant="contained" color={opt.color} sx={{ mb: 1, width: '95%', fontWeight: 'bold', fontSize: '0.95rem', borderRadius: 2, boxShadow: 1, textTransform: 'none', py: 1 }} onClick={opt.onClick}>
-            {opt.label}
-          </Button>
+          <Box key={opt.label} sx={{ width: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', mb: 1 }}>
+            <Button
+              variant="contained"
+              color={opt.color}
+              sx={{ width: sidebarOpen ? '90%' : 48, fontWeight: 'bold', fontSize: '0.95rem', borderRadius: 2, boxShadow: 1, textTransform: 'none', py: 1, px: sidebarOpen ? 2 : 0, minWidth: 0, display: 'flex', alignItems: 'center', justifyContent: 'center' }}
+              onClick={opt.onClick}
+              aria-label={opt.label}
+              title={opt.tooltip}
+            >
+              {opt.icon}
+              {sidebarOpen && <span style={{ marginLeft: 8 }}>{opt.label}</span>}
+            </Button>
+          </Box>
         ))}
       </Box>
       {/* Main content */}
@@ -496,6 +519,20 @@ function App() {
             <Typography variant="h4" sx={{ fontWeight: 'bold', flexGrow: 1, letterSpacing: 1, color: '#fff' }}>
               AI Video Content Analyzer
             </Typography>
+            {/* Summary widgets */}
+            {ragAnalysis && (
+              <Box sx={{ display: 'flex', alignItems: 'center', gap: 2, ml: 4 }}>
+                <Typography variant="body1" sx={{ color: '#fff', fontWeight: 'bold' }}>
+                  Videos Analyzed: <span style={{ color: '#e3f2fd' }}>{totalFrames}</span>
+                </Typography>
+                <Typography variant="body1" sx={{ color: '#fff', fontWeight: 'bold' }}>
+                  Safe Frames: <span style={{ color: '#a5d6a7' }}>{safeCount}</span>
+                </Typography>
+                <Typography variant="body1" sx={{ color: '#fff', fontWeight: 'bold' }}>
+                  Compliance Rate: <span style={{ color: '#ffd54f' }}>{totalFrames ? ((safeCount / totalFrames) * 100).toFixed(1) : '0'}%</span>
+                </Typography>
+              </Box>
+            )}
           </Toolbar>
         </AppBar>
         {mainContent}
