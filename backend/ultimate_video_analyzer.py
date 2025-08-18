@@ -168,7 +168,7 @@ class UltimateVideoAnalyzer:
         for cap in capabilities:
             logger.info(f"   {cap}")
     
-    def extract_video_frames(self, video_path: str, interval_seconds: float = 1.0, max_frames: int = 1000,
+    def extract_video_frames(self, video_path: str, interval_seconds: float = 1.0, max_frames: int = None,
                             resolution: str = "1280x720", frame_format: str = "jpg",
                             start_time: float = 0.0, end_time: float = -1.0, sampling_method: str = "interval") -> List[Tuple[float, np.ndarray]]:
         """Extract frames from video using all user settings"""
@@ -191,27 +191,19 @@ class UltimateVideoAnalyzer:
                     width, height = map(int, resolution.lower().split('x'))
                 except Exception:
                     width, height = 1280, 720
-            # Sampling logic
-            if sampling_method == "interval":
-                timestamps = np.arange(start_time, duration if end_time < 0 else end_time, interval_seconds)
+            # Support both interval and count extraction modes
+            frames = []
+            actual_end = duration if end_time < 0 else end_time
+            if sampling_method == "count" and max_frames is not None and max_frames > 0:
+                # Evenly spaced timestamps for exactly max_frames
+                if max_frames == 1:
+                    timestamps = [start_time]
+                else:
+                    timestamps = [start_time + i * (actual_end - start_time) / (max_frames - 1) for i in range(max_frames)]
                 for ts in timestamps:
                     frame_idx = int(ts * fps)
                     if frame_idx < start_frame or frame_idx >= end_frame:
                         continue
-                    cap.set(cv2.CAP_PROP_POS_FRAMES, frame_idx)
-                    ret, frame = cap.read()
-                    if not ret:
-                        continue
-                    frame = cv2.resize(frame, (width, height))
-                    frames.append((ts, frame))
-                    if len(frames) >= max_frames:
-                        break
-            elif sampling_method == "random":
-                np.random.seed(42)
-                possible_frames = range(start_frame, end_frame)
-                chosen_frames = np.random.choice(possible_frames, min(max_frames, len(possible_frames)), replace=False)
-                for frame_idx in sorted(chosen_frames):
-                    ts = frame_idx / fps
                     cap.set(cv2.CAP_PROP_POS_FRAMES, frame_idx)
                     ret, frame = cap.read()
                     if not ret:
@@ -219,8 +211,8 @@ class UltimateVideoAnalyzer:
                     frame = cv2.resize(frame, (width, height))
                     frames.append((ts, frame))
             else:
-                # Default to interval
-                timestamps = np.arange(start_time, duration if end_time < 0 else end_time, interval_seconds)
+                # Interval mode (default)
+                timestamps = np.arange(start_time, actual_end, interval_seconds)
                 for ts in timestamps:
                     frame_idx = int(ts * fps)
                     if frame_idx < start_frame or frame_idx >= end_frame:
@@ -231,8 +223,6 @@ class UltimateVideoAnalyzer:
                         continue
                     frame = cv2.resize(frame, (width, height))
                     frames.append((ts, frame))
-                    if len(frames) >= max_frames:
-                        break
             cap.release()
             logger.info(f"✅ Extracted {len(frames)} frames")
             return frames
@@ -388,9 +378,9 @@ class UltimateVideoAnalyzer:
         
         return violations
     
-    async def analyze_video_comprehensive(self, video_path: str, frames_per_second: float = 1.0, max_frames: int = 20,
-                                         resolution: str = "1280x720", frame_format: str = "jpg",
-                                         start_time: float = 0.0, end_time: float = -1.0, sampling_method: str = "interval") -> Dict:
+    async def analyze_video_comprehensive(self, video_path: str, frames_per_second: float = 1.0, max_frames: int = None,
+                                         resolution: str = None, frame_format: str = None,
+                                         start_time: float = None, end_time: float = None, sampling_method: str = None) -> Dict:
         """Comprehensive multi-modal video analysis"""
         analysis_start_time = time.time()
         logger.info(f"🎬 Starting comprehensive analysis: {Path(video_path).name}")
@@ -647,7 +637,7 @@ def safe_print(text):
 def get_args_and_vars():
     parser = argparse.ArgumentParser(description="Ultimate Video Analyzer")
     parser.add_argument('--analyze', type=str, help='Path to video file to analyze')
-    parser.add_argument('--max-frames', type=int, required=True, help='Maximum number of frames to analyze')
+    parser.add_argument('--max-frames', type=int, required=False, help='Maximum number of frames to analyze (required for count mode, optional for interval mode)')
     parser.add_argument('--interval-seconds', type=float, required=True, help='Interval between frames in seconds')
     parser.add_argument('--resolution', type=str, required=True, help='Frame resolution (e.g., 1280x720, auto)')
     parser.add_argument('--format', type=str, required=True, help='Frame image format (e.g., jpg, png)')

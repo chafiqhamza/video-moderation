@@ -263,7 +263,6 @@ async def analyze_video(
             sys.executable,
             model_script,
             '--analyze', temp_file_path,
-            '--max-frames', str(frame_count),
             '--interval-seconds', str(frame_interval),
             '--resolution', str(resolution),
             '--format', str(format),
@@ -271,6 +270,9 @@ async def analyze_video(
             '--end-time', str(end_time),
             '--sampling-method', str(sampling_method)
         ]
+        if sampling_method == 'count':
+            cmd.insert(4, '--max-frames')
+            cmd.insert(5, str(frame_count))
         print(f"\n[MODEL SUBPROCESS] Running: {' '.join(cmd)}\n")
         process = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True, bufsize=1)
         output_lines = []

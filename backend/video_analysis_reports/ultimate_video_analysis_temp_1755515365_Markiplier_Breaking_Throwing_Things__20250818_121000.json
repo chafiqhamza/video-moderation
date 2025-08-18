@@ -1,0 +1,2299 @@
+{
+  "video_info": {
+    "path": "C:\\Users\\PC\\AppData\\Local\\Temp\\video_analysis\\temp_1755515365_Markiplier Breaking_Throwing Things..mp4",
+    "name": "temp_1755515365_Markiplier Breaking_Throwing Things..mp4",
+    "analysis_time": 14.444157361984253,
+    "timestamp": "2025-08-18T12:09:52.860645"
+  },
+  "frame_analysis": {
+    "total_frames": 18,
+    "violation_frames": 12,
+    "average_confidence": 0.6703630056646135,
+    "violation_categories": [
+      "suggestive_content"
+    ]
+  },
+  "audio_analysis": {
+    "transcript": " It's just still I don't want to play this any- I f- UGH Ooooooh OH MY GOD! I'M DUDNED! OH GOD! FUUUUUUUUUK! NO! MY GOD! Uhh, I kept it to work... AFF, FUCK! Do you want to traditionally start? UGH UGH UGH I'm gonna have a rush What is going on with my fucking mouse?! Fuck you! Do you work still? Do you fucking work? Oh wow, it's still fucking works great.",
+    "language": "en",
+    "policy_flags": {},
+    "whisper_available": true,
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 2.24,
+        "text": " It's just still I don't want to play this any-",
+        "tokens": [
+          50364,
+          467,
+          311,
+          445,
+          920,
+          286,
+          500,
+          380,
+          528,
+          281,
+          862,
+          341,
+          604,
+          12,
+          50476
+        ],
+        "temperature": 0.4,
+        "avg_logprob": -0.9763377612789735,
+        "compression_ratio": 1.5521739130434782,
+        "no_speech_prob": 0.0006647288682870567
+      },
+      {
+        "id": 1,
+        "seek": 0,
+        "start": 2.24,
+        "end": 2.84,
+        "text": " I f-",
+        "tokens": [
+          50476,
+          286,
+          283,
+          12,
+          50506
+        ],
+        "temperature": 0.4,
+        "avg_logprob": -0.9763377612789735,
+        "compression_ratio": 1.5521739130434782,
+        "no_speech_prob": 0.0006647288682870567
+      },
+      {
+        "id": 2,
+        "seek": 0,
+        "start": 4.84,
+        "end": 5.64,
+        "text": " UGH",
+        "tokens": [
+          50606,
+          624,
+          4269,
+          50646
+        ],
+        "temperature": 0.4,
+        "avg_logprob": -0.9763377612789735,
+        "compression_ratio": 1.5521739130434782,
+        "no_speech_prob": 0.0006647288682870567
+      },
+      {
+        "id": 3,
+        "seek": 0,
+        "start": 6.84,
+        "end": 7.82,
+        "text": " Ooooooh",
+        "tokens": [
+          50706,
+          422,
+          12506,
+          1445,
+          50755
+        ],
+        "temperature": 0.4,
+        "avg_logprob": -0.9763377612789735,
+        "compression_ratio": 1.5521739130434782,
+        "no_speech_prob": 0.0006647288682870567
+      },
+      {
+        "id": 4,
+        "seek": 0,
+        "start": 8.040000000000001,
+        "end": 9.48,
+        "text": " OH MY GOD! I'M DUDNED!",
+        "tokens": [
+          50766,
+          13931,
+          16322,
+          26831,
+          0,
+          286,
+          25310,
+          413,
+          9438,
+          45,
+          4731,
+          0,
+          50838
+        ],
+        "temperature": 0.4,
+        "avg_logprob": -0.9763377612789735,
+        "compression_ratio": 1.5521739130434782,
+        "no_speech_prob": 0.0006647288682870567
+      },
+      {
+        "id": 5,
+        "seek": 0,
+        "start": 9.48,
+        "end": 11.18,
+        "text": " OH GOD! FUUUUUUUUUK!",
+        "tokens": [
+          50838,
+          13931,
+          26831,
+          0,
+          479,
+          23687,
+          23687,
+          23687,
+          23687,
+          52,
+          42,
+          0,
+          50923
+        ],
+        "temperature": 0.4,
+        "avg_logprob": -0.9763377612789735,
+        "compression_ratio": 1.5521739130434782,
+        "no_speech_prob": 0.0006647288682870567
+      },
+      {
+        "id": 6,
+        "seek": 0,
+        "start": 11.18,
+        "end": 12.68,
+        "text": " NO! MY GOD!",
+        "tokens": [
+          50923,
+          9146,
+          0,
+          16322,
+          26831,
+          0,
+          50998
+        ],
+        "temperature": 0.4,
+        "avg_logprob": -0.9763377612789735,
+        "compression_ratio": 1.5521739130434782,
+        "no_speech_prob": 0.0006647288682870567
+      },
+      {
+        "id": 7,
+        "seek": 0,
+        "start": 12.68,
+        "end": 13.780000000000001,
+        "text": " Uhh, I kept it to work...",
+        "tokens": [
+          50998,
+          29365,
+          11,
+          286,
+          4305,
+          309,
+          281,
+          589,
+          485,
+          51053
+        ],
+        "temperature": 0.4,
+        "avg_logprob": -0.9763377612789735,
+        "compression_ratio": 1.5521739130434782,
+        "no_speech_prob": 0.0006647288682870567
+      },
+      {
+        "id": 8,
+        "seek": 0,
+        "start": 13.780000000000001,
+        "end": 14.38,
+        "text": " AFF, FUCK!",
+        "tokens": [
+          51053,
+          316,
+          6345,
+          11,
+          26154,
+          0,
+          51083
+        ],
+        "temperature": 0.4,
+        "avg_logprob": -0.9763377612789735,
+        "compression_ratio": 1.5521739130434782,
+        "no_speech_prob": 0.0006647288682870567
+      },
+      {
+        "id": 9,
+        "seek": 0,
+        "start": 14.38,
+        "end": 15.72,
+        "text": " Do you want to traditionally start?",
+        "tokens": [
+          51083,
+          1144,
+          291,
+          528,
+          281,
+          19067,
+          722,
+          30,
+          51150
+        ],
+        "temperature": 0.4,
+        "avg_logprob": -0.9763377612789735,
+        "compression_ratio": 1.5521739130434782,
+        "no_speech_prob": 0.0006647288682870567
+      },
+      {
+        "id": 10,
+        "seek": 0,
+        "start": 15.72,
+        "end": 16.22,
+        "text": " UGH",
+        "tokens": [
+          51150,
+          624,
+          4269,
+          51175
+        ],
+        "temperature": 0.4,
+        "avg_logprob": -0.9763377612789735,
+        "compression_ratio": 1.5521739130434782,
+        "no_speech_prob": 0.0006647288682870567
+      },
+      {
+        "id": 11,
+        "seek": 0,
+        "start": 16.22,
+        "end": 16.8,
+        "text": " UGH",
+        "tokens": [
+          51175,
+          624,
+          4269,
+          51204
+        ],
+        "temperature": 0.4,
+        "avg_logprob": -0.9763377612789735,
+        "compression_ratio": 1.5521739130434782,
+        "no_speech_prob": 0.0006647288682870567
+      },
+      {
+        "id": 12,
+        "seek": 0,
+        "start": 16.8,
+        "end": 17.400000000000002,
+        "text": " UGH",
+        "tokens": [
+          51204,
+          624,
+          4269,
+          51234
+        ],
+        "temperature": 0.4,
+        "avg_logprob": -0.9763377612789735,
+        "compression_ratio": 1.5521739130434782,
+        "no_speech_prob": 0.0006647288682870567
+      },
+      {
+        "id": 13,
+        "seek": 0,
+        "start": 17.400000000000002,
+        "end": 19.26,
+        "text": " I'm gonna have a rush",
+        "tokens": [
+          51234,
+          286,
+          478,
+          799,
+          362,
+          257,
+          9300,
+          51327
+        ],
+        "temperature": 0.4,
+        "avg_logprob": -0.9763377612789735,
+        "compression_ratio": 1.5521739130434782,
+        "no_speech_prob": 0.0006647288682870567
+      },
+      {
+        "id": 14,
+        "seek": 0,
+        "start": 19.26,
+        "end": 22.7,
+        "text": " What is going on with my fucking mouse?!",
+        "tokens": [
+          51327,
+          708,
+          307,
+          516,
+          322,
+          365,
+          452,
+          5546,
+          9719,
+          3529,
+          51499
+        ],
+        "temperature": 0.4,
+        "avg_logprob": -0.9763377612789735,
+        "compression_ratio": 1.5521739130434782,
+        "no_speech_prob": 0.0006647288682870567
+      },
+      {
+        "id": 15,
+        "seek": 0,
+        "start": 22.7,
+        "end": 23.92,
+        "text": " Fuck you!",
+        "tokens": [
+          51499,
+          10965,
+          291,
+          0,
+          51560
+        ],
+        "temperature": 0.4,
+        "avg_logprob": -0.9763377612789735,
+        "compression_ratio": 1.5521739130434782,
+        "no_speech_prob": 0.0006647288682870567
+      },
+      {
+        "id": 16,
+        "seek": 0,
+        "start": 23.92,
+        "end": 25.1,
+        "text": " Do you work still?",
+        "tokens": [
+          51560,
+          1144,
+          291,
+          589,
+          920,
+          30,
+          51619
+        ],
+        "temperature": 0.4,
+        "avg_logprob": -0.9763377612789735,
+        "compression_ratio": 1.5521739130434782,
+        "no_speech_prob": 0.0006647288682870567
+      },
+      {
+        "id": 17,
+        "seek": 0,
+        "start": 25.1,
+        "end": 26.1,
+        "text": " Do you fucking work?",
+        "tokens": [
+          51619,
+          1144,
+          291,
+          5546,
+          589,
+          30,
+          51669
+        ],
+        "temperature": 0.4,
+        "avg_logprob": -0.9763377612789735,
+        "compression_ratio": 1.5521739130434782,
+        "no_speech_prob": 0.0006647288682870567
+      },
+      {
+        "id": 18,
+        "seek": 0,
+        "start": 26.1,
+        "end": 29.0,
+        "text": " Oh wow, it's still fucking works great.",
+        "tokens": [
+          51669,
+          876,
+          6076,
+          11,
+          309,
+          311,
+          920,
+          5546,
+          1985,
+          869,
+          13,
+          51814
+        ],
+        "temperature": 0.4,
+        "avg_logprob": -0.9763377612789735,
+        "compression_ratio": 1.5521739130434782,
+        "no_speech_prob": 0.0006647288682870567
+      }
+    ]
+  },
+  "overall_assessment": {
+    "overall_compliance": 61.666666666666664,
+    "visual_compliance": 33.33333333333333,
+    "audio_compliance": 90,
+    "status": "moderate_violations",
+    "total_violations": 12,
+    "violation_categories": [
+      "suggestive_content"
+    ]
+  },
+  "detailed_frames": [
+    {
+      "timestamp": 0.0,
+      "frame_index": 0,
+      "visual_analysis": {
+        "category": "suggestive_content",
+        "confidence": 0.8301490545272827,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.051812220364809036,
+          "suggestive_content": 0.8301490545272827,
+          "artistic_adult_content": 0.05260256677865982,
+          "misinformation": 0.0561499260365963,
+          "violence": 0.002804571995511651,
+          "hate_speech": 0.0027159496676176786,
+          "dangerous_activities": 0.003765688044950366
+        }
+      },
+      "blip_description": {
+        "description": "a man in a room with a bed and a video camera",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "",
+        "extracted_items": [],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1755515365_Markiplier Breaking_Throwing Things._frame_1.jpg"
+    },
+    {
+      "timestamp": 1.6108685185185185,
+      "frame_index": 1,
+      "visual_analysis": {
+        "category": "suggestive_content",
+        "confidence": 0.7410708069801331,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.11604379117488861,
+          "suggestive_content": 0.7410708069801331,
+          "artistic_adult_content": 0.0565953254699707,
+          "misinformation": 0.07253190875053406,
+          "violence": 0.003987889736890793,
+          "hate_speech": 0.0042210849933326244,
+          "dangerous_activities": 0.0055491728708148
+        }
+      },
+      "blip_description": {
+        "description": "a man is playing a video game on his bed",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "",
+        "extracted_items": [],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1755515365_Markiplier Breaking_Throwing Things._frame_2.jpg"
+    },
+    {
+      "timestamp": 3.221737037037037,
+      "frame_index": 2,
+      "visual_analysis": {
+        "category": "suggestive_content",
+        "confidence": 0.6405706405639648,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.1056337058544159,
+          "suggestive_content": 0.6405706405639648,
+          "artistic_adult_content": 0.1070953905582428,
+          "misinformation": 0.1280592679977417,
+          "violence": 0.006011480465531349,
+          "hate_speech": 0.005284477956593037,
+          "dangerous_activities": 0.007345032878220081
+        }
+      },
+      "blip_description": {
+        "description": "a video game with a person playing a video game",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "",
+        "extracted_items": [],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1755515365_Markiplier Breaking_Throwing Things._frame_3.jpg"
+    },
+    {
+      "timestamp": 4.832605555555556,
+      "frame_index": 3,
+      "visual_analysis": {
+        "category": "suggestive_content",
+        "confidence": 0.9041635394096375,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.021709255874156952,
+          "suggestive_content": 0.9041635394096375,
+          "artistic_adult_content": 0.0392700619995594,
+          "misinformation": 0.030191723257303238,
+          "violence": 0.0014199509751051664,
+          "hate_speech": 0.001305743120610714,
+          "dangerous_activities": 0.0019398285076022148
+        }
+      },
+      "blip_description": {
+        "description": "watch and share gi gi gi gi gi gi gi gi gi gi gi gi gi gi gi gi gi gi gi gi gi gi gi gi gi",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "",
+        "extracted_items": [],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1755515365_Markiplier Breaking_Throwing Things._frame_4.jpg"
+    },
+    {
+      "timestamp": 6.443474074074074,
+      "frame_index": 4,
+      "visual_analysis": {
+        "category": "suggestive_content",
+        "confidence": 0.8130030035972595,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.06531494855880737,
+          "suggestive_content": 0.8130030035972595,
+          "artistic_adult_content": 0.056218456476926804,
+          "misinformation": 0.055622369050979614,
+          "violence": 0.0029753628186881542,
+          "hate_speech": 0.00288596423342824,
+          "dangerous_activities": 0.003979820758104324
+        }
+      },
+      "blip_description": {
+        "description": "a person is playing a video game on a bed",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "",
+        "extracted_items": [],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1755515365_Markiplier Breaking_Throwing Things._frame_5.jpg"
+    },
+    {
+      "timestamp": 8.054342592592594,
+      "frame_index": 5,
+      "visual_analysis": {
+        "category": "safe_content",
+        "confidence": 0.8743777871131897,
+        "violation_detected": false,
+        "all_probabilities": {
+          "safe_content": 0.8743777871131897,
+          "suggestive_content": 0.05657653510570526,
+          "artistic_adult_content": 0.006769453175365925,
+          "misinformation": 0.050839804112911224,
+          "violence": 0.0032294238917529583,
+          "hate_speech": 0.004209087695926428,
+          "dangerous_activities": 0.003998034633696079
+        }
+      },
+      "blip_description": {
+        "description": "a man in a recording room with headphones on",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "",
+        "extracted_items": [],
+        "ocr_available": true
+      },
+      "combined_violation": false,
+      "preview_path": "/static/frames/temp_1755515365_Markiplier Breaking_Throwing Things._frame_6.jpg"
+    },
+    {
+      "timestamp": 9.665211111111113,
+      "frame_index": 6,
+      "visual_analysis": {
+        "category": "safe_content",
+        "confidence": 0.44233933091163635,
+        "violation_detected": false,
+        "all_probabilities": {
+          "safe_content": 0.44233933091163635,
+          "suggestive_content": 0.3439679443836212,
+          "artistic_adult_content": 0.058155402541160583,
+          "misinformation": 0.12362576276063919,
+          "violence": 0.009649869985878468,
+          "hate_speech": 0.010273774154484272,
+          "dangerous_activities": 0.011987877078354359
+        }
+      },
+      "blip_description": {
+        "description": "a man in a blue shirt is holding a microphone",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "",
+        "extracted_items": [],
+        "ocr_available": true
+      },
+      "combined_violation": false,
+      "preview_path": "/static/frames/temp_1755515365_Markiplier Breaking_Throwing Things._frame_7.jpg"
+    },
+    {
+      "timestamp": 11.27607962962963,
+      "frame_index": 7,
+      "visual_analysis": {
+        "category": "suggestive_content",
+        "confidence": 0.8149721026420593,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.033016569912433624,
+          "suggestive_content": 0.8149721026420593,
+          "artistic_adult_content": 0.0781734362244606,
+          "misinformation": 0.059833038598299026,
+          "violence": 0.006294445134699345,
+          "hate_speech": 0.00324060651473701,
+          "dangerous_activities": 0.004469762090593576
+        }
+      },
+      "blip_description": {
+        "description": "a man is sitting in a chair in front of a wall",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "",
+        "extracted_items": [],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1755515365_Markiplier Breaking_Throwing Things._frame_8.jpg"
+    },
+    {
+      "timestamp": 12.886948148148148,
+      "frame_index": 8,
+      "visual_analysis": {
+        "category": "safe_content",
+        "confidence": 0.7926373481750488,
+        "violation_detected": false,
+        "all_probabilities": {
+          "safe_content": 0.7926373481750488,
+          "suggestive_content": 0.11522984504699707,
+          "artistic_adult_content": 0.016768652945756912,
+          "misinformation": 0.061571720987558365,
+          "violence": 0.003960991278290749,
+          "hate_speech": 0.004848909564316273,
+          "dangerous_activities": 0.0049824947491288185
+        }
+      },
+      "blip_description": {
+        "description": "a man standing in a room with boxes",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "",
+        "extracted_items": [],
+        "ocr_available": true
+      },
+      "combined_violation": false,
+      "preview_path": "/static/frames/temp_1755515365_Markiplier Breaking_Throwing Things._frame_9.jpg"
+    },
+    {
+      "timestamp": 14.497816666666669,
+      "frame_index": 9,
+      "visual_analysis": {
+        "category": "safe_content",
+        "confidence": 0.35817715525627136,
+        "violation_detected": false,
+        "all_probabilities": {
+          "safe_content": 0.35817715525627136,
+          "suggestive_content": 0.29901376366615295,
+          "artistic_adult_content": 0.09606147557497025,
+          "misinformation": 0.2079959511756897,
+          "violence": 0.013188203796744347,
+          "hate_speech": 0.011199921369552612,
+          "dangerous_activities": 0.01436354499310255
+        }
+      },
+      "blip_description": {
+        "description": "a man is playing a game on a computer",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "",
+        "extracted_items": [],
+        "ocr_available": true
+      },
+      "combined_violation": false,
+      "preview_path": "/static/frames/temp_1755515365_Markiplier Breaking_Throwing Things._frame_10.jpg"
+    },
+    {
+      "timestamp": 16.108685185185188,
+      "frame_index": 10,
+      "visual_analysis": {
+        "category": "suggestive_content",
+        "confidence": 0.43955522775650024,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.025319356471300125,
+          "suggestive_content": 0.43955522775650024,
+          "artistic_adult_content": 0.38885465264320374,
+          "misinformation": 0.12760084867477417,
+          "violence": 0.005287205334752798,
+          "hate_speech": 0.005283888429403305,
+          "dangerous_activities": 0.008098901249468327
+        }
+      },
+      "blip_description": {
+        "description": "a man standing in a room with a video game controller",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "",
+        "extracted_items": [],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1755515365_Markiplier Breaking_Throwing Things._frame_11.jpg"
+    },
+    {
+      "timestamp": 17.719553703703706,
+      "frame_index": 11,
+      "visual_analysis": {
+        "category": "suggestive_content",
+        "confidence": 0.5057957768440247,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.18219667673110962,
+          "suggestive_content": 0.5057957768440247,
+          "artistic_adult_content": 0.13388623297214508,
+          "misinformation": 0.14670883119106293,
+          "violence": 0.01000414788722992,
+          "hate_speech": 0.009586259722709656,
+          "dangerous_activities": 0.011822059750556946
+        }
+      },
+      "blip_description": {
+        "description": "a man wearing headphones",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "",
+        "extracted_items": [],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1755515365_Markiplier Breaking_Throwing Things._frame_12.jpg"
+    },
+    {
+      "timestamp": 19.330422222222225,
+      "frame_index": 12,
+      "visual_analysis": {
+        "category": "suggestive_content",
+        "confidence": 0.8799084424972534,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.03074083849787712,
+          "suggestive_content": 0.8799084424972534,
+          "artistic_adult_content": 0.045149046927690506,
+          "misinformation": 0.03802977502346039,
+          "violence": 0.0019587581045925617,
+          "hate_speech": 0.001719235791824758,
+          "dangerous_activities": 0.002493905834853649
+        }
+      },
+      "blip_description": {
+        "description": "a man is holding a knife and a knife",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "",
+        "extracted_items": [],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1755515365_Markiplier Breaking_Throwing Things._frame_13.jpg"
+    },
+    {
+      "timestamp": 20.94129074074074,
+      "frame_index": 13,
+      "visual_analysis": {
+        "category": "suggestive_content",
+        "confidence": 0.7325527667999268,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.09730568528175354,
+          "suggestive_content": 0.7325527667999268,
+          "artistic_adult_content": 0.07062925398349762,
+          "misinformation": 0.08318550884723663,
+          "violence": 0.005244745407253504,
+          "hate_speech": 0.0048267715610563755,
+          "dangerous_activities": 0.006255269516259432
+        }
+      },
+      "blip_description": {
+        "description": "a man in a white shirt is on a computer",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "",
+        "extracted_items": [],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1755515365_Markiplier Breaking_Throwing Things._frame_14.jpg"
+    },
+    {
+      "timestamp": 22.55215925925926,
+      "frame_index": 14,
+      "visual_analysis": {
+        "category": "safe_content",
+        "confidence": 0.42296892404556274,
+        "violation_detected": false,
+        "all_probabilities": {
+          "safe_content": 0.42296892404556274,
+          "suggestive_content": 0.3849594295024872,
+          "artistic_adult_content": 0.05233365669846535,
+          "misinformation": 0.11331699788570404,
+          "violence": 0.008315806277096272,
+          "hate_speech": 0.008422228507697582,
+          "dangerous_activities": 0.009682944044470787
+        }
+      },
+      "blip_description": {
+        "description": "a man is sitting in front of a computer",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "",
+        "extracted_items": [],
+        "ocr_available": true
+      },
+      "combined_violation": false,
+      "preview_path": "/static/frames/temp_1755515365_Markiplier Breaking_Throwing Things._frame_15.jpg"
+    },
+    {
+      "timestamp": 24.163027777777778,
+      "frame_index": 15,
+      "visual_analysis": {
+        "category": "suggestive_content",
+        "confidence": 0.7897734642028809,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.04416705295443535,
+          "suggestive_content": 0.7897734642028809,
+          "artistic_adult_content": 0.09028114378452301,
+          "misinformation": 0.06438422948122025,
+          "violence": 0.003550572320818901,
+          "hate_speech": 0.003165772184729576,
+          "dangerous_activities": 0.004677887074649334
+        }
+      },
+      "blip_description": {
+        "description": "a computer screen with a picture of a man on it",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "",
+        "extracted_items": [],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1755515365_Markiplier Breaking_Throwing Things._frame_16.jpg"
+    },
+    {
+      "timestamp": 25.773896296296297,
+      "frame_index": 16,
+      "visual_analysis": {
+        "category": "suggestive_content",
+        "confidence": 0.6690097451210022,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.12658219039440155,
+          "suggestive_content": 0.6690097451210022,
+          "artistic_adult_content": 0.08926809579133987,
+          "misinformation": 0.09509073942899704,
+          "violence": 0.006606296170502901,
+          "hate_speech": 0.005672275088727474,
+          "dangerous_activities": 0.00777062401175499
+        }
+      },
+      "blip_description": {
+        "description": "a man is standing in front of a computer",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "",
+        "extracted_items": [],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1755515365_Markiplier Breaking_Throwing Things._frame_17.jpg"
+    },
+    {
+      "timestamp": 27.384764814814815,
+      "frame_index": 17,
+      "visual_analysis": {
+        "category": "safe_content",
+        "confidence": 0.4155089855194092,
+        "violation_detected": false,
+        "all_probabilities": {
+          "safe_content": 0.4155089855194092,
+          "suggestive_content": 0.40369725227355957,
+          "artistic_adult_content": 0.048481423407793045,
+          "misinformation": 0.10746169090270996,
+          "violence": 0.0077338144183158875,
+          "hate_speech": 0.007879197597503662,
+          "dangerous_activities": 0.009237628430128098
+        }
+      },
+      "blip_description": {
+        "description": "a man in a white shirt is on a computer",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "",
+        "extracted_items": [],
+        "ocr_available": true
+      },
+      "combined_violation": false,
+      "preview_path": "/static/frames/temp_1755515365_Markiplier Breaking_Throwing Things._frame_18.jpg"
+    }
+  ],
+  "recommendations": [
+    "⚠️ Visual policy violations detected: suggestive_content",
+    "🔍 Consider reviewing flagged video segments",
+    "🚨 Multiple violations detected - content may need significant editing"
+  ],
+  "multi_modal_capabilities": {
+    "visual_model_accuracy": 97.48,
+    "blip_available": true,
+    "whisper_available": true,
+    "ocr_available": true
+  },
+  "text_issues": "",
+  "image": {
+    "details": {
+      "frame_preview_paths": [
+        "/static/frames/temp_1755515365_Markiplier Breaking_Throwing Things._frame_1.jpg",
+        "/static/frames/temp_1755515365_Markiplier Breaking_Throwing Things._frame_2.jpg",
+        "/static/frames/temp_1755515365_Markiplier Breaking_Throwing Things._frame_3.jpg",
+        "/static/frames/temp_1755515365_Markiplier Breaking_Throwing Things._frame_4.jpg",
+        "/static/frames/temp_1755515365_Markiplier Breaking_Throwing Things._frame_5.jpg",
+        "/static/frames/temp_1755515365_Markiplier Breaking_Throwing Things._frame_6.jpg",
+        "/static/frames/temp_1755515365_Markiplier Breaking_Throwing Things._frame_7.jpg",
+        "/static/frames/temp_1755515365_Markiplier Breaking_Throwing Things._frame_8.jpg",
+        "/static/frames/temp_1755515365_Markiplier Breaking_Throwing Things._frame_9.jpg",
+        "/static/frames/temp_1755515365_Markiplier Breaking_Throwing Things._frame_10.jpg",
+        "/static/frames/temp_1755515365_Markiplier Breaking_Throwing Things._frame_11.jpg",
+        "/static/frames/temp_1755515365_Markiplier Breaking_Throwing Things._frame_12.jpg",
+        "/static/frames/temp_1755515365_Markiplier Breaking_Throwing Things._frame_13.jpg",
+        "/static/frames/temp_1755515365_Markiplier Breaking_Throwing Things._frame_14.jpg",
+        "/static/frames/temp_1755515365_Markiplier Breaking_Throwing Things._frame_15.jpg",
+        "/static/frames/temp_1755515365_Markiplier Breaking_Throwing Things._frame_16.jpg",
+        "/static/frames/temp_1755515365_Markiplier Breaking_Throwing Things._frame_17.jpg",
+        "/static/frames/temp_1755515365_Markiplier Breaking_Throwing Things._frame_18.jpg"
+      ],
+      "frame_analysis": [
+        {
+          "timestamp": 0.0,
+          "frame_index": 0,
+          "visual_analysis": {
+            "category": "suggestive_content",
+            "confidence": 0.8301490545272827,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.051812220364809036,
+              "suggestive_content": 0.8301490545272827,
+              "artistic_adult_content": 0.05260256677865982,
+              "misinformation": 0.0561499260365963,
+              "violence": 0.002804571995511651,
+              "hate_speech": 0.0027159496676176786,
+              "dangerous_activities": 0.003765688044950366
+            }
+          },
+          "blip_description": {
+            "description": "a man in a room with a bed and a video camera",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "",
+            "extracted_items": [],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1755515365_Markiplier Breaking_Throwing Things._frame_1.jpg"
+        },
+        {
+          "timestamp": 1.6108685185185185,
+          "frame_index": 1,
+          "visual_analysis": {
+            "category": "suggestive_content",
+            "confidence": 0.7410708069801331,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.11604379117488861,
+              "suggestive_content": 0.7410708069801331,
+              "artistic_adult_content": 0.0565953254699707,
+              "misinformation": 0.07253190875053406,
+              "violence": 0.003987889736890793,
+              "hate_speech": 0.0042210849933326244,
+              "dangerous_activities": 0.0055491728708148
+            }
+          },
+          "blip_description": {
+            "description": "a man is playing a video game on his bed",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "",
+            "extracted_items": [],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1755515365_Markiplier Breaking_Throwing Things._frame_2.jpg"
+        },
+        {
+          "timestamp": 3.221737037037037,
+          "frame_index": 2,
+          "visual_analysis": {
+            "category": "suggestive_content",
+            "confidence": 0.6405706405639648,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.1056337058544159,
+              "suggestive_content": 0.6405706405639648,
+              "artistic_adult_content": 0.1070953905582428,
+              "misinformation": 0.1280592679977417,
+              "violence": 0.006011480465531349,
+              "hate_speech": 0.005284477956593037,
+              "dangerous_activities": 0.007345032878220081
+            }
+          },
+          "blip_description": {
+            "description": "a video game with a person playing a video game",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "",
+            "extracted_items": [],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1755515365_Markiplier Breaking_Throwing Things._frame_3.jpg"
+        },
+        {
+          "timestamp": 4.832605555555556,
+          "frame_index": 3,
+          "visual_analysis": {
+            "category": "suggestive_content",
+            "confidence": 0.9041635394096375,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.021709255874156952,
+              "suggestive_content": 0.9041635394096375,
+              "artistic_adult_content": 0.0392700619995594,
+              "misinformation": 0.030191723257303238,
+              "violence": 0.0014199509751051664,
+              "hate_speech": 0.001305743120610714,
+              "dangerous_activities": 0.0019398285076022148
+            }
+          },
+          "blip_description": {
+            "description": "watch and share gi gi gi gi gi gi gi gi gi gi gi gi gi gi gi gi gi gi gi gi gi gi gi gi gi",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "",
+            "extracted_items": [],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1755515365_Markiplier Breaking_Throwing Things._frame_4.jpg"
+        },
+        {
+          "timestamp": 6.443474074074074,
+          "frame_index": 4,
+          "visual_analysis": {
+            "category": "suggestive_content",
+            "confidence": 0.8130030035972595,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.06531494855880737,
+              "suggestive_content": 0.8130030035972595,
+              "artistic_adult_content": 0.056218456476926804,
+              "misinformation": 0.055622369050979614,
+              "violence": 0.0029753628186881542,
+              "hate_speech": 0.00288596423342824,
+              "dangerous_activities": 0.003979820758104324
+            }
+          },
+          "blip_description": {
+            "description": "a person is playing a video game on a bed",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "",
+            "extracted_items": [],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1755515365_Markiplier Breaking_Throwing Things._frame_5.jpg"
+        },
+        {
+          "timestamp": 8.054342592592594,
+          "frame_index": 5,
+          "visual_analysis": {
+            "category": "safe_content",
+            "confidence": 0.8743777871131897,
+            "violation_detected": false,
+            "all_probabilities": {
+              "safe_content": 0.8743777871131897,
+              "suggestive_content": 0.05657653510570526,
+              "artistic_adult_content": 0.006769453175365925,
+              "misinformation": 0.050839804112911224,
+              "violence": 0.0032294238917529583,
+              "hate_speech": 0.004209087695926428,
+              "dangerous_activities": 0.003998034633696079
+            }
+          },
+          "blip_description": {
+            "description": "a man in a recording room with headphones on",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "",
+            "extracted_items": [],
+            "ocr_available": true
+          },
+          "combined_violation": false,
+          "preview_path": "/static/frames/temp_1755515365_Markiplier Breaking_Throwing Things._frame_6.jpg"
+        },
+        {
+          "timestamp": 9.665211111111113,
+          "frame_index": 6,
+          "visual_analysis": {
+            "category": "safe_content",
+            "confidence": 0.44233933091163635,
+            "violation_detected": false,
+            "all_probabilities": {
+              "safe_content": 0.44233933091163635,
+              "suggestive_content": 0.3439679443836212,
+              "artistic_adult_content": 0.058155402541160583,
+              "misinformation": 0.12362576276063919,
+              "violence": 0.009649869985878468,
+              "hate_speech": 0.010273774154484272,
+              "dangerous_activities": 0.011987877078354359
+            }
+          },
+          "blip_description": {
+            "description": "a man in a blue shirt is holding a microphone",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "",
+            "extracted_items": [],
+            "ocr_available": true
+          },
+          "combined_violation": false,
+          "preview_path": "/static/frames/temp_1755515365_Markiplier Breaking_Throwing Things._frame_7.jpg"
+        },
+        {
+          "timestamp": 11.27607962962963,
+          "frame_index": 7,
+          "visual_analysis": {
+            "category": "suggestive_content",
+            "confidence": 0.8149721026420593,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.033016569912433624,
+              "suggestive_content": 0.8149721026420593,
+              "artistic_adult_content": 0.0781734362244606,
+              "misinformation": 0.059833038598299026,
+              "violence": 0.006294445134699345,
+              "hate_speech": 0.00324060651473701,
+              "dangerous_activities": 0.004469762090593576
+            }
+          },
+          "blip_description": {
+            "description": "a man is sitting in a chair in front of a wall",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "",
+            "extracted_items": [],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1755515365_Markiplier Breaking_Throwing Things._frame_8.jpg"
+        },
+        {
+          "timestamp": 12.886948148148148,
+          "frame_index": 8,
+          "visual_analysis": {
+            "category": "safe_content",
+            "confidence": 0.7926373481750488,
+            "violation_detected": false,
+            "all_probabilities": {
+              "safe_content": 0.7926373481750488,
+              "suggestive_content": 0.11522984504699707,
+              "artistic_adult_content": 0.016768652945756912,
+              "misinformation": 0.061571720987558365,
+              "violence": 0.003960991278290749,
+              "hate_speech": 0.004848909564316273,
+              "dangerous_activities": 0.0049824947491288185
+            }
+          },
+          "blip_description": {
+            "description": "a man standing in a room with boxes",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "",
+            "extracted_items": [],
+            "ocr_available": true
+          },
+          "combined_violation": false,
+          "preview_path": "/static/frames/temp_1755515365_Markiplier Breaking_Throwing Things._frame_9.jpg"
+        },
+        {
+          "timestamp": 14.497816666666669,
+          "frame_index": 9,
+          "visual_analysis": {
+            "category": "safe_content",
+            "confidence": 0.35817715525627136,
+            "violation_detected": false,
+            "all_probabilities": {
+              "safe_content": 0.35817715525627136,
+              "suggestive_content": 0.29901376366615295,
+              "artistic_adult_content": 0.09606147557497025,
+              "misinformation": 0.2079959511756897,
+              "violence": 0.013188203796744347,
+              "hate_speech": 0.011199921369552612,
+              "dangerous_activities": 0.01436354499310255
+            }
+          },
+          "blip_description": {
+            "description": "a man is playing a game on a computer",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "",
+            "extracted_items": [],
+            "ocr_available": true
+          },
+          "combined_violation": false,
+          "preview_path": "/static/frames/temp_1755515365_Markiplier Breaking_Throwing Things._frame_10.jpg"
+        },
+        {
+          "timestamp": 16.108685185185188,
+          "frame_index": 10,
+          "visual_analysis": {
+            "category": "suggestive_content",
+            "confidence": 0.43955522775650024,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.025319356471300125,
+              "suggestive_content": 0.43955522775650024,
+              "artistic_adult_content": 0.38885465264320374,
+              "misinformation": 0.12760084867477417,
+              "violence": 0.005287205334752798,
+              "hate_speech": 0.005283888429403305,
+              "dangerous_activities": 0.008098901249468327
+            }
+          },
+          "blip_description": {
+            "description": "a man standing in a room with a video game controller",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "",
+            "extracted_items": [],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1755515365_Markiplier Breaking_Throwing Things._frame_11.jpg"
+        },
+        {
+          "timestamp": 17.719553703703706,
+          "frame_index": 11,
+          "visual_analysis": {
+            "category": "suggestive_content",
+            "confidence": 0.5057957768440247,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.18219667673110962,
+              "suggestive_content": 0.5057957768440247,
+              "artistic_adult_content": 0.13388623297214508,
+              "misinformation": 0.14670883119106293,
+              "violence": 0.01000414788722992,
+              "hate_speech": 0.009586259722709656,
+              "dangerous_activities": 0.011822059750556946
+            }
+          },
+          "blip_description": {
+            "description": "a man wearing headphones",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "",
+            "extracted_items": [],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1755515365_Markiplier Breaking_Throwing Things._frame_12.jpg"
+        },
+        {
+          "timestamp": 19.330422222222225,
+          "frame_index": 12,
+          "visual_analysis": {
+            "category": "suggestive_content",
+            "confidence": 0.8799084424972534,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.03074083849787712,
+              "suggestive_content": 0.8799084424972534,
+              "artistic_adult_content": 0.045149046927690506,
+              "misinformation": 0.03802977502346039,
+              "violence": 0.0019587581045925617,
+              "hate_speech": 0.001719235791824758,
+              "dangerous_activities": 0.002493905834853649
+            }
+          },
+          "blip_description": {
+            "description": "a man is holding a knife and a knife",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "",
+            "extracted_items": [],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1755515365_Markiplier Breaking_Throwing Things._frame_13.jpg"
+        },
+        {
+          "timestamp": 20.94129074074074,
+          "frame_index": 13,
+          "visual_analysis": {
+            "category": "suggestive_content",
+            "confidence": 0.7325527667999268,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.09730568528175354,
+              "suggestive_content": 0.7325527667999268,
+              "artistic_adult_content": 0.07062925398349762,
+              "misinformation": 0.08318550884723663,
+              "violence": 0.005244745407253504,
+              "hate_speech": 0.0048267715610563755,
+              "dangerous_activities": 0.006255269516259432
+            }
+          },
+          "blip_description": {
+            "description": "a man in a white shirt is on a computer",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "",
+            "extracted_items": [],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1755515365_Markiplier Breaking_Throwing Things._frame_14.jpg"
+        },
+        {
+          "timestamp": 22.55215925925926,
+          "frame_index": 14,
+          "visual_analysis": {
+            "category": "safe_content",
+            "confidence": 0.42296892404556274,
+            "violation_detected": false,
+            "all_probabilities": {
+              "safe_content": 0.42296892404556274,
+              "suggestive_content": 0.3849594295024872,
+              "artistic_adult_content": 0.05233365669846535,
+              "misinformation": 0.11331699788570404,
+              "violence": 0.008315806277096272,
+              "hate_speech": 0.008422228507697582,
+              "dangerous_activities": 0.009682944044470787
+            }
+          },
+          "blip_description": {
+            "description": "a man is sitting in front of a computer",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "",
+            "extracted_items": [],
+            "ocr_available": true
+          },
+          "combined_violation": false,
+          "preview_path": "/static/frames/temp_1755515365_Markiplier Breaking_Throwing Things._frame_15.jpg"
+        },
+        {
+          "timestamp": 24.163027777777778,
+          "frame_index": 15,
+          "visual_analysis": {
+            "category": "suggestive_content",
+            "confidence": 0.7897734642028809,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.04416705295443535,
+              "suggestive_content": 0.7897734642028809,
+              "artistic_adult_content": 0.09028114378452301,
+              "misinformation": 0.06438422948122025,
+              "violence": 0.003550572320818901,
+              "hate_speech": 0.003165772184729576,
+              "dangerous_activities": 0.004677887074649334
+            }
+          },
+          "blip_description": {
+            "description": "a computer screen with a picture of a man on it",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "",
+            "extracted_items": [],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1755515365_Markiplier Breaking_Throwing Things._frame_16.jpg"
+        },
+        {
+          "timestamp": 25.773896296296297,
+          "frame_index": 16,
+          "visual_analysis": {
+            "category": "suggestive_content",
+            "confidence": 0.6690097451210022,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.12658219039440155,
+              "suggestive_content": 0.6690097451210022,
+              "artistic_adult_content": 0.08926809579133987,
+              "misinformation": 0.09509073942899704,
+              "violence": 0.006606296170502901,
+              "hate_speech": 0.005672275088727474,
+              "dangerous_activities": 0.00777062401175499
+            }
+          },
+          "blip_description": {
+            "description": "a man is standing in front of a computer",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "",
+            "extracted_items": [],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1755515365_Markiplier Breaking_Throwing Things._frame_17.jpg"
+        },
+        {
+          "timestamp": 27.384764814814815,
+          "frame_index": 17,
+          "visual_analysis": {
+            "category": "safe_content",
+            "confidence": 0.4155089855194092,
+            "violation_detected": false,
+            "all_probabilities": {
+              "safe_content": 0.4155089855194092,
+              "suggestive_content": 0.40369725227355957,
+              "artistic_adult_content": 0.048481423407793045,
+              "misinformation": 0.10746169090270996,
+              "violence": 0.0077338144183158875,
+              "hate_speech": 0.007879197597503662,
+              "dangerous_activities": 0.009237628430128098
+            }
+          },
+          "blip_description": {
+            "description": "a man in a white shirt is on a computer",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "",
+            "extracted_items": [],
+            "ocr_available": true
+          },
+          "combined_violation": false,
+          "preview_path": "/static/frames/temp_1755515365_Markiplier Breaking_Throwing Things._frame_18.jpg"
+        }
+      ]
+    }
+  },
+  "rag_explanations": [
+    {
+      "type": "visual",
+      "frame": 1,
+      "timestamp": 0.0,
+      "category": "suggestive_content",
+      "confidence": 0.8301490545272827,
+      "blip": "a man in a room with a bed and a video camera",
+      "ocr": "",
+      "policy": {
+        "description": "Sexually suggestive content",
+        "examples": [
+          "provocative poses",
+          "sexual themes",
+          "suggestive clothing"
+        ],
+        "severity_indicators": [
+          "sexual focus",
+          "provocative dancing",
+          "sexual scenarios"
+        ],
+        "context_matters": [
+          "artistic vs explicit",
+          "age appropriateness"
+        ],
+        "action_required": "age_restriction"
+      },
+      "action_required": "age_restriction",
+      "examples": [
+        "provocative poses",
+        "sexual themes",
+        "suggestive clothing"
+      ],
+      "severity_indicators": [
+        "sexual focus",
+        "provocative dancing",
+        "sexual scenarios"
+      ],
+      "context_factors": [
+        "artistic vs explicit",
+        "age appropriateness"
+      ],
+      "violation_detected": true
+    },
+    {
+      "type": "visual",
+      "frame": 2,
+      "timestamp": 1.6108685185185185,
+      "category": "suggestive_content",
+      "confidence": 0.7410708069801331,
+      "blip": "a man is playing a video game on his bed",
+      "ocr": "",
+      "policy": {
+        "description": "Content showing dangerous or harmful activities",
+        "examples": [
+          "extreme stunts",
+          "self-harm",
+          "dangerous challenges"
+        ],
+        "severity_indicators": [
+          "life-threatening",
+          "copyable dangers",
+          "no safety warnings"
+        ],
+        "context_matters": [
+          "professional vs amateur",
+          "safety precautions shown"
+        ],
+        "action_required": "age_restriction_or_removal"
+      },
+      "action_required": "age_restriction_or_removal",
+      "examples": [
+        "extreme stunts",
+        "self-harm",
+        "dangerous challenges"
+      ],
+      "severity_indicators": [
+        "life-threatening",
+        "copyable dangers",
+        "no safety warnings"
+      ],
+      "context_factors": [
+        "professional vs amateur",
+        "safety precautions shown"
+      ],
+      "violation_detected": true
+    },
+    {
+      "type": "visual",
+      "frame": 3,
+      "timestamp": 3.221737037037037,
+      "category": "suggestive_content",
+      "confidence": 0.6405706405639648,
+      "blip": "a video game with a person playing a video game",
+      "ocr": "",
+      "policy": {
+        "description": "Content showing dangerous or harmful activities",
+        "examples": [
+          "extreme stunts",
+          "self-harm",
+          "dangerous challenges"
+        ],
+        "severity_indicators": [
+          "life-threatening",
+          "copyable dangers",
+          "no safety warnings"
+        ],
+        "context_matters": [
+          "professional vs amateur",
+          "safety precautions shown"
+        ],
+        "action_required": "age_restriction_or_removal"
+      },
+      "action_required": "age_restriction_or_removal",
+      "examples": [
+        "extreme stunts",
+        "self-harm",
+        "dangerous challenges"
+      ],
+      "severity_indicators": [
+        "life-threatening",
+        "copyable dangers",
+        "no safety warnings"
+      ],
+      "context_factors": [
+        "professional vs amateur",
+        "safety precautions shown"
+      ],
+      "violation_detected": true
+    },
+    {
+      "type": "visual",
+      "frame": 4,
+      "timestamp": 4.832605555555556,
+      "category": "suggestive_content",
+      "confidence": 0.9041635394096375,
+      "blip": "watch and share gi gi gi gi gi gi gi gi gi gi gi gi gi gi gi gi gi gi gi gi gi gi gi gi gi",
+      "ocr": "",
+      "policy": {
+        "description": "Content depicting violence, weapons, or graphic imagery",
+        "examples": [
+          "fighting",
+          "weapons",
+          "blood",
+          "gore",
+          "combat"
+        ],
+        "severity_indicators": [
+          "realistic weapons",
+          "explicit violence",
+          "gore"
+        ],
+        "context_matters": [
+          "gaming violence vs real violence",
+          "educational vs gratuitous"
+        ],
+        "action_required": "human_review_required"
+      },
+      "action_required": "human_review_required",
+      "examples": [
+        "fighting",
+        "weapons",
+        "blood",
+        "gore",
+        "combat"
+      ],
+      "severity_indicators": [
+        "realistic weapons",
+        "explicit violence",
+        "gore"
+      ],
+      "context_factors": [
+        "gaming violence vs real violence",
+        "educational vs gratuitous"
+      ],
+      "violation_detected": true
+    },
+    {
+      "type": "visual",
+      "frame": 5,
+      "timestamp": 6.443474074074074,
+      "category": "suggestive_content",
+      "confidence": 0.8130030035972595,
+      "blip": "a person is playing a video game on a bed",
+      "ocr": "",
+      "policy": {
+        "description": "Content showing dangerous or harmful activities",
+        "examples": [
+          "extreme stunts",
+          "self-harm",
+          "dangerous challenges"
+        ],
+        "severity_indicators": [
+          "life-threatening",
+          "copyable dangers",
+          "no safety warnings"
+        ],
+        "context_matters": [
+          "professional vs amateur",
+          "safety precautions shown"
+        ],
+        "action_required": "age_restriction_or_removal"
+      },
+      "action_required": "age_restriction_or_removal",
+      "examples": [
+        "extreme stunts",
+        "self-harm",
+        "dangerous challenges"
+      ],
+      "severity_indicators": [
+        "life-threatening",
+        "copyable dangers",
+        "no safety warnings"
+      ],
+      "context_factors": [
+        "professional vs amateur",
+        "safety precautions shown"
+      ],
+      "violation_detected": true
+    },
+    {
+      "type": "visual",
+      "frame": 6,
+      "timestamp": 8.054342592592594,
+      "category": "safe_content",
+      "confidence": 0.8743777871131897,
+      "blip": "a man in a recording room with headphones on",
+      "ocr": "",
+      "policy": {
+        "description": "Content showing dangerous or harmful activities",
+        "examples": [
+          "extreme stunts",
+          "self-harm",
+          "dangerous challenges"
+        ],
+        "severity_indicators": [
+          "life-threatening",
+          "copyable dangers",
+          "no safety warnings"
+        ],
+        "context_matters": [
+          "professional vs amateur",
+          "safety precautions shown"
+        ],
+        "action_required": "age_restriction_or_removal"
+      },
+      "action_required": "age_restriction_or_removal",
+      "examples": [
+        "extreme stunts",
+        "self-harm",
+        "dangerous challenges"
+      ],
+      "severity_indicators": [
+        "life-threatening",
+        "copyable dangers",
+        "no safety warnings"
+      ],
+      "context_factors": [
+        "professional vs amateur",
+        "safety precautions shown"
+      ],
+      "violation_detected": false
+    },
+    {
+      "type": "visual",
+      "frame": 7,
+      "timestamp": 9.665211111111113,
+      "category": "safe_content",
+      "confidence": 0.44233933091163635,
+      "blip": "a man in a blue shirt is holding a microphone",
+      "ocr": "",
+      "policy": {
+        "description": "Content showing dangerous or harmful activities",
+        "examples": [
+          "extreme stunts",
+          "self-harm",
+          "dangerous challenges"
+        ],
+        "severity_indicators": [
+          "life-threatening",
+          "copyable dangers",
+          "no safety warnings"
+        ],
+        "context_matters": [
+          "professional vs amateur",
+          "safety precautions shown"
+        ],
+        "action_required": "age_restriction_or_removal"
+      },
+      "action_required": "age_restriction_or_removal",
+      "examples": [
+        "extreme stunts",
+        "self-harm",
+        "dangerous challenges"
+      ],
+      "severity_indicators": [
+        "life-threatening",
+        "copyable dangers",
+        "no safety warnings"
+      ],
+      "context_factors": [
+        "professional vs amateur",
+        "safety precautions shown"
+      ],
+      "violation_detected": false
+    },
+    {
+      "type": "visual",
+      "frame": 8,
+      "timestamp": 11.27607962962963,
+      "category": "suggestive_content",
+      "confidence": 0.8149721026420593,
+      "blip": "a man is sitting in a chair in front of a wall",
+      "ocr": "",
+      "policy": {
+        "description": "Sexually suggestive content",
+        "examples": [
+          "provocative poses",
+          "sexual themes",
+          "suggestive clothing"
+        ],
+        "severity_indicators": [
+          "sexual focus",
+          "provocative dancing",
+          "sexual scenarios"
+        ],
+        "context_matters": [
+          "artistic vs explicit",
+          "age appropriateness"
+        ],
+        "action_required": "age_restriction"
+      },
+      "action_required": "age_restriction",
+      "examples": [
+        "provocative poses",
+        "sexual themes",
+        "suggestive clothing"
+      ],
+      "severity_indicators": [
+        "sexual focus",
+        "provocative dancing",
+        "sexual scenarios"
+      ],
+      "context_factors": [
+        "artistic vs explicit",
+        "age appropriateness"
+      ],
+      "violation_detected": true
+    },
+    {
+      "type": "visual",
+      "frame": 9,
+      "timestamp": 12.886948148148148,
+      "category": "safe_content",
+      "confidence": 0.7926373481750488,
+      "blip": "a man standing in a room with boxes",
+      "ocr": "",
+      "policy": {
+        "description": "Content showing dangerous or harmful activities",
+        "examples": [
+          "extreme stunts",
+          "self-harm",
+          "dangerous challenges"
+        ],
+        "severity_indicators": [
+          "life-threatening",
+          "copyable dangers",
+          "no safety warnings"
+        ],
+        "context_matters": [
+          "professional vs amateur",
+          "safety precautions shown"
+        ],
+        "action_required": "age_restriction_or_removal"
+      },
+      "action_required": "age_restriction_or_removal",
+      "examples": [
+        "extreme stunts",
+        "self-harm",
+        "dangerous challenges"
+      ],
+      "severity_indicators": [
+        "life-threatening",
+        "copyable dangers",
+        "no safety warnings"
+      ],
+      "context_factors": [
+        "professional vs amateur",
+        "safety precautions shown"
+      ],
+      "violation_detected": false
+    },
+    {
+      "type": "visual",
+      "frame": 10,
+      "timestamp": 14.497816666666669,
+      "category": "safe_content",
+      "confidence": 0.35817715525627136,
+      "blip": "a man is playing a game on a computer",
+      "ocr": "",
+      "policy": {
+        "description": "Content showing dangerous or harmful activities",
+        "examples": [
+          "extreme stunts",
+          "self-harm",
+          "dangerous challenges"
+        ],
+        "severity_indicators": [
+          "life-threatening",
+          "copyable dangers",
+          "no safety warnings"
+        ],
+        "context_matters": [
+          "professional vs amateur",
+          "safety precautions shown"
+        ],
+        "action_required": "age_restriction_or_removal"
+      },
+      "action_required": "age_restriction_or_removal",
+      "examples": [
+        "extreme stunts",
+        "self-harm",
+        "dangerous challenges"
+      ],
+      "severity_indicators": [
+        "life-threatening",
+        "copyable dangers",
+        "no safety warnings"
+      ],
+      "context_factors": [
+        "professional vs amateur",
+        "safety precautions shown"
+      ],
+      "violation_detected": false
+    },
+    {
+      "type": "visual",
+      "frame": 11,
+      "timestamp": 16.108685185185188,
+      "category": "suggestive_content",
+      "confidence": 0.43955522775650024,
+      "blip": "a man standing in a room with a video game controller",
+      "ocr": "",
+      "policy": {
+        "description": "Sexually suggestive content",
+        "examples": [
+          "provocative poses",
+          "sexual themes",
+          "suggestive clothing"
+        ],
+        "severity_indicators": [
+          "sexual focus",
+          "provocative dancing",
+          "sexual scenarios"
+        ],
+        "context_matters": [
+          "artistic vs explicit",
+          "age appropriateness"
+        ],
+        "action_required": "age_restriction"
+      },
+      "action_required": "age_restriction",
+      "examples": [
+        "provocative poses",
+        "sexual themes",
+        "suggestive clothing"
+      ],
+      "severity_indicators": [
+        "sexual focus",
+        "provocative dancing",
+        "sexual scenarios"
+      ],
+      "context_factors": [
+        "artistic vs explicit",
+        "age appropriateness"
+      ],
+      "violation_detected": true
+    },
+    {
+      "type": "visual",
+      "frame": 12,
+      "timestamp": 17.719553703703706,
+      "category": "suggestive_content",
+      "confidence": 0.5057957768440247,
+      "blip": "a man wearing headphones",
+      "ocr": "",
+      "policy": {
+        "description": "Sexually suggestive content",
+        "examples": [
+          "provocative poses",
+          "sexual themes",
+          "suggestive clothing"
+        ],
+        "severity_indicators": [
+          "sexual focus",
+          "provocative dancing",
+          "sexual scenarios"
+        ],
+        "context_matters": [
+          "artistic vs explicit",
+          "age appropriateness"
+        ],
+        "action_required": "age_restriction"
+      },
+      "action_required": "age_restriction",
+      "examples": [
+        "provocative poses",
+        "sexual themes",
+        "suggestive clothing"
+      ],
+      "severity_indicators": [
+        "sexual focus",
+        "provocative dancing",
+        "sexual scenarios"
+      ],
+      "context_factors": [
+        "artistic vs explicit",
+        "age appropriateness"
+      ],
+      "violation_detected": true
+    },
+    {
+      "type": "visual",
+      "frame": 13,
+      "timestamp": 19.330422222222225,
+      "category": "suggestive_content",
+      "confidence": 0.8799084424972534,
+      "blip": "a man is holding a knife and a knife",
+      "ocr": "",
+      "policy": {
+        "description": "Content depicting violence, weapons, or graphic imagery",
+        "examples": [
+          "fighting",
+          "weapons",
+          "blood",
+          "gore",
+          "combat"
+        ],
+        "severity_indicators": [
+          "realistic weapons",
+          "explicit violence",
+          "gore"
+        ],
+        "context_matters": [
+          "gaming violence vs real violence",
+          "educational vs gratuitous"
+        ],
+        "action_required": "human_review_required"
+      },
+      "action_required": "human_review_required",
+      "examples": [
+        "fighting",
+        "weapons",
+        "blood",
+        "gore",
+        "combat"
+      ],
+      "severity_indicators": [
+        "realistic weapons",
+        "explicit violence",
+        "gore"
+      ],
+      "context_factors": [
+        "gaming violence vs real violence",
+        "educational vs gratuitous"
+      ],
+      "violation_detected": true
+    },
+    {
+      "type": "visual",
+      "frame": 14,
+      "timestamp": 20.94129074074074,
+      "category": "suggestive_content",
+      "confidence": 0.7325527667999268,
+      "blip": "a man in a white shirt is on a computer",
+      "ocr": "",
+      "policy": {
+        "description": "Sexually suggestive content",
+        "examples": [
+          "provocative poses",
+          "sexual themes",
+          "suggestive clothing"
+        ],
+        "severity_indicators": [
+          "sexual focus",
+          "provocative dancing",
+          "sexual scenarios"
+        ],
+        "context_matters": [
+          "artistic vs explicit",
+          "age appropriateness"
+        ],
+        "action_required": "age_restriction"
+      },
+      "action_required": "age_restriction",
+      "examples": [
+        "provocative poses",
+        "sexual themes",
+        "suggestive clothing"
+      ],
+      "severity_indicators": [
+        "sexual focus",
+        "provocative dancing",
+        "sexual scenarios"
+      ],
+      "context_factors": [
+        "artistic vs explicit",
+        "age appropriateness"
+      ],
+      "violation_detected": true
+    },
+    {
+      "type": "visual",
+      "frame": 15,
+      "timestamp": 22.55215925925926,
+      "category": "safe_content",
+      "confidence": 0.42296892404556274,
+      "blip": "a man is sitting in front of a computer",
+      "ocr": "",
+      "policy": {
+        "description": "Content showing dangerous or harmful activities",
+        "examples": [
+          "extreme stunts",
+          "self-harm",
+          "dangerous challenges"
+        ],
+        "severity_indicators": [
+          "life-threatening",
+          "copyable dangers",
+          "no safety warnings"
+        ],
+        "context_matters": [
+          "professional vs amateur",
+          "safety precautions shown"
+        ],
+        "action_required": "age_restriction_or_removal"
+      },
+      "action_required": "age_restriction_or_removal",
+      "examples": [
+        "extreme stunts",
+        "self-harm",
+        "dangerous challenges"
+      ],
+      "severity_indicators": [
+        "life-threatening",
+        "copyable dangers",
+        "no safety warnings"
+      ],
+      "context_factors": [
+        "professional vs amateur",
+        "safety precautions shown"
+      ],
+      "violation_detected": false
+    },
+    {
+      "type": "visual",
+      "frame": 16,
+      "timestamp": 24.163027777777778,
+      "category": "suggestive_content",
+      "confidence": 0.7897734642028809,
+      "blip": "a computer screen with a picture of a man on it",
+      "ocr": "",
+      "policy": {
+        "description": "Sexually suggestive content",
+        "examples": [
+          "provocative poses",
+          "sexual themes",
+          "suggestive clothing"
+        ],
+        "severity_indicators": [
+          "sexual focus",
+          "provocative dancing",
+          "sexual scenarios"
+        ],
+        "context_matters": [
+          "artistic vs explicit",
+          "age appropriateness"
+        ],
+        "action_required": "age_restriction"
+      },
+      "action_required": "age_restriction",
+      "examples": [
+        "provocative poses",
+        "sexual themes",
+        "suggestive clothing"
+      ],
+      "severity_indicators": [
+        "sexual focus",
+        "provocative dancing",
+        "sexual scenarios"
+      ],
+      "context_factors": [
+        "artistic vs explicit",
+        "age appropriateness"
+      ],
+      "violation_detected": true
+    },
+    {
+      "type": "visual",
+      "frame": 17,
+      "timestamp": 25.773896296296297,
+      "category": "suggestive_content",
+      "confidence": 0.6690097451210022,
+      "blip": "a man is standing in front of a computer",
+      "ocr": "",
+      "policy": {
+        "description": "Sexually suggestive content",
+        "examples": [
+          "provocative poses",
+          "sexual themes",
+          "suggestive clothing"
+        ],
+        "severity_indicators": [
+          "sexual focus",
+          "provocative dancing",
+          "sexual scenarios"
+        ],
+        "context_matters": [
+          "artistic vs explicit",
+          "age appropriateness"
+        ],
+        "action_required": "age_restriction"
+      },
+      "action_required": "age_restriction",
+      "examples": [
+        "provocative poses",
+        "sexual themes",
+        "suggestive clothing"
+      ],
+      "severity_indicators": [
+        "sexual focus",
+        "provocative dancing",
+        "sexual scenarios"
+      ],
+      "context_factors": [
+        "artistic vs explicit",
+        "age appropriateness"
+      ],
+      "violation_detected": true
+    },
+    {
+      "type": "visual",
+      "frame": 18,
+      "timestamp": 27.384764814814815,
+      "category": "safe_content",
+      "confidence": 0.4155089855194092,
+      "blip": "a man in a white shirt is on a computer",
+      "ocr": "",
+      "policy": {
+        "description": "Content showing dangerous or harmful activities",
+        "examples": [
+          "extreme stunts",
+          "self-harm",
+          "dangerous challenges"
+        ],
+        "severity_indicators": [
+          "life-threatening",
+          "copyable dangers",
+          "no safety warnings"
+        ],
+        "context_matters": [
+          "professional vs amateur",
+          "safety precautions shown"
+        ],
+        "action_required": "age_restriction_or_removal"
+      },
+      "action_required": "age_restriction_or_removal",
+      "examples": [
+        "extreme stunts",
+        "self-harm",
+        "dangerous challenges"
+      ],
+      "severity_indicators": [
+        "life-threatening",
+        "copyable dangers",
+        "no safety warnings"
+      ],
+      "context_factors": [
+        "professional vs amateur",
+        "safety precautions shown"
+      ],
+      "violation_detected": false
+    }
+  ]
+}

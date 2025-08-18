@@ -43,13 +43,27 @@ function SettingsPage({ settings, onSave }) {
                         Use Normal Analysis (1 frame every 0.5 seconds)
                     </Button>
                     <TextField
+                        label="Frame Extraction Mode"
+                        select
+                        SelectProps={{ native: true }}
+                        value={localSettings.frameSampling}
+                        onChange={e => handleChange('frameSampling', e.target.value)}
+                        fullWidth
+                        helperText="Choose 'Interval' to extract every N seconds, or 'Count' to extract a fixed number of frames."
+                    >
+                        <option value="interval">Interval (every N seconds)</option>
+                        <option value="count">Count (fixed number of frames)</option>
+                        <option value="random">Random</option>
+                        <option value="keyframes">Keyframes</option>
+                    </TextField>
+                    <TextField
                         label="Number of Frames to Analyze"
                         type="number"
                         value={localSettings.frameCount}
                         onChange={e => setLocalSettings({ ...localSettings, frameCount: Number(e.target.value) })}
                         sx={{ mb: 2 }}
                         fullWidth
-                        helperText="How many frames to extract and analyze from the video."
+                        helperText="If mode is 'Count', this is the number of frames to extract."
                     />
                     <TextField
                         label="Interval Between Frames (seconds)"
@@ -58,7 +72,7 @@ function SettingsPage({ settings, onSave }) {
                         onChange={e => setLocalSettings({ ...localSettings, frameInterval: Number(e.target.value) })}
                         sx={{ mb: 2 }}
                         fullWidth
-                        helperText="Time gap between each extracted frame."
+                        helperText="If mode is 'Interval', this is the time gap between each extracted frame."
                     />
                     <TextField
                         label="Frame Resolution (e.g. 720p, 1080p, auto)"

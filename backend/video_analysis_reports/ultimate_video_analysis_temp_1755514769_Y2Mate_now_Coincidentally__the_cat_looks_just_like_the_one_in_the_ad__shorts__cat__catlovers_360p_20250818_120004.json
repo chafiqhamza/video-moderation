@@ -1,0 +1,4770 @@
+{
+  "video_info": {
+    "path": "C:\\Users\\PC\\AppData\\Local\\Temp\\video_analysis\\temp_1755514769_Y2Mate.now_Coincidentally, the cat looks just like the one in the ad #shorts #cat #catlovers_360p.mp4",
+    "name": "temp_1755514769_Y2Mate.now_Coincidentally, the cat looks just like the one in the ad #shorts #cat #catlovers_360p.mp4",
+    "analysis_time": 14.197048902511597,
+    "timestamp": "2025-08-18T11:59:56.630269"
+  },
+  "frame_analysis": {
+    "total_frames": 16,
+    "violation_frames": 0,
+    "average_confidence": 0.8877421505749226,
+    "violation_categories": []
+  },
+  "audio_analysis": {
+    "transcript": " translation by",
+    "language": "en",
+    "policy_flags": {},
+    "whisper_available": true,
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 8.34,
+        "text": " translation by",
+        "tokens": [
+          50364,
+          12853,
+          538,
+          50781
+        ],
+        "temperature": 1.0,
+        "avg_logprob": -3.5383941650390627,
+        "compression_ratio": 0.6363636363636364,
+        "no_speech_prob": 0.25461116433143616
+      }
+    ]
+  },
+  "overall_assessment": {
+    "overall_compliance": 95.0,
+    "visual_compliance": 100.0,
+    "audio_compliance": 90,
+    "status": "compliant",
+    "total_violations": 0,
+    "violation_categories": []
+  },
+  "detailed_frames": [
+    {
+      "timestamp": 0.0,
+      "frame_index": 0,
+      "visual_analysis": {
+        "category": "safe_content",
+        "confidence": 0.8961830735206604,
+        "violation_detected": false,
+        "all_probabilities": {
+          "safe_content": 0.8961830735206604,
+          "suggestive_content": 0.04317622259259224,
+          "artistic_adult_content": 0.00502754608169198,
+          "misinformation": 0.04646378010511398,
+          "violence": 0.002653734292834997,
+          "hate_speech": 0.003439383814111352,
+          "dangerous_activities": 0.0030561864841729403
+        }
+      },
+      "blip_description": {
+        "description": "a person holding a bag of kittens in their hands",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "Pov: foura je star",
+        "extracted_items": [
+          {
+            "text": "Pov:",
+            "confidence": 0.8394343256950378,
+            "bbox": [
+              [
+                86,
+                72
+              ],
+              [
+                251,
+                72
+              ],
+              [
+                251,
+                108
+              ],
+              [
+                86,
+                108
+              ]
+            ]
+          },
+          {
+            "text": "foura",
+            "confidence": 0.5098913881879384,
+            "bbox": [
+              [
+                319,
+                73
+              ],
+              [
+                552,
+                73
+              ],
+              [
+                552,
+                106
+              ],
+              [
+                319,
+                106
+              ]
+            ]
+          },
+          {
+            "text": "je",
+            "confidence": 0.7430754403398389,
+            "bbox": [
+              [
+                475,
+                107
+              ],
+              [
+                603,
+                107
+              ],
+              [
+                603,
+                145
+              ],
+              [
+                475,
+                145
+              ]
+            ]
+          },
+          {
+            "text": "star",
+            "confidence": 0.8060200810432434,
+            "bbox": [
+              [
+                972,
+                112
+              ],
+              [
+                1124,
+                112
+              ],
+              [
+                1124,
+                138
+              ],
+              [
+                972,
+                138
+              ]
+            ]
+          }
+        ],
+        "ocr_available": true
+      },
+      "combined_violation": false,
+      "preview_path": "/static/frames/temp_1755514769_Y2Mate.now_Coincidentally, the cat looks just like the one in the ad #shorts #cat #catlovers_360p_frame_1.jpg"
+    },
+    {
+      "timestamp": 0.5,
+      "frame_index": 1,
+      "visual_analysis": {
+        "category": "safe_content",
+        "confidence": 0.8959524035453796,
+        "violation_detected": false,
+        "all_probabilities": {
+          "safe_content": 0.8959524035453796,
+          "suggestive_content": 0.04302684962749481,
+          "artistic_adult_content": 0.005164902191609144,
+          "misinformation": 0.04674500599503517,
+          "violence": 0.00270278612151742,
+          "hate_speech": 0.003396310145035386,
+          "dangerous_activities": 0.0030117386486381292
+        }
+      },
+      "blip_description": {
+        "description": "a person holding a cat in their hand",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "Pov: foura Jek star 0",
+        "extracted_items": [
+          {
+            "text": "Pov:",
+            "confidence": 0.8410711884498596,
+            "bbox": [
+              [
+                86,
+                72
+              ],
+              [
+                251,
+                72
+              ],
+              [
+                251,
+                108
+              ],
+              [
+                86,
+                108
+              ]
+            ]
+          },
+          {
+            "text": "foura",
+            "confidence": 0.511094669159225,
+            "bbox": [
+              [
+                319,
+                73
+              ],
+              [
+                552,
+                73
+              ],
+              [
+                552,
+                106
+              ],
+              [
+                319,
+                106
+              ]
+            ]
+          },
+          {
+            "text": "Jek",
+            "confidence": 0.5465129761376911,
+            "bbox": [
+              [
+                475,
+                109
+              ],
+              [
+                603,
+                109
+              ],
+              [
+                603,
+                145
+              ],
+              [
+                475,
+                145
+              ]
+            ]
+          },
+          {
+            "text": "star",
+            "confidence": 0.8060200810432434,
+            "bbox": [
+              [
+                972,
+                112
+              ],
+              [
+                1124,
+                112
+              ],
+              [
+                1124,
+                138
+              ],
+              [
+                972,
+                138
+              ]
+            ]
+          },
+          {
+            "text": "0",
+            "confidence": 0.5553309140569951,
+            "bbox": [
+              [
+                755,
+                513
+              ],
+              [
+                791,
+                513
+              ],
+              [
+                791,
+                527
+              ],
+              [
+                755,
+                527
+              ]
+            ]
+          }
+        ],
+        "ocr_available": true
+      },
+      "combined_violation": false,
+      "preview_path": "/static/frames/temp_1755514769_Y2Mate.now_Coincidentally, the cat looks just like the one in the ad #shorts #cat #catlovers_360p_frame_2.jpg"
+    },
+    {
+      "timestamp": 1.0,
+      "frame_index": 2,
+      "visual_analysis": {
+        "category": "safe_content",
+        "confidence": 0.8970086574554443,
+        "violation_detected": false,
+        "all_probabilities": {
+          "safe_content": 0.8970086574554443,
+          "suggestive_content": 0.043304964900016785,
+          "artistic_adult_content": 0.005146753508597612,
+          "misinformation": 0.04575398564338684,
+          "violence": 0.002544405171647668,
+          "hate_speech": 0.0033296665642410517,
+          "dangerous_activities": 0.0029115495271980762
+        }
+      },
+      "blip_description": {
+        "description": "a man is holding a cat in his hand",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "Pov: foura star",
+        "extracted_items": [
+          {
+            "text": "Pov:",
+            "confidence": 0.8408481478691101,
+            "bbox": [
+              [
+                86,
+                72
+              ],
+              [
+                251,
+                72
+              ],
+              [
+                251,
+                108
+              ],
+              [
+                86,
+                108
+              ]
+            ]
+          },
+          {
+            "text": "foura",
+            "confidence": 0.51216760624927,
+            "bbox": [
+              [
+                319,
+                73
+              ],
+              [
+                552,
+                73
+              ],
+              [
+                552,
+                106
+              ],
+              [
+                319,
+                106
+              ]
+            ]
+          },
+          {
+            "text": "star",
+            "confidence": 0.822686493396759,
+            "bbox": [
+              [
+                972,
+                112
+              ],
+              [
+                1126,
+                112
+              ],
+              [
+                1126,
+                138
+              ],
+              [
+                972,
+                138
+              ]
+            ]
+          }
+        ],
+        "ocr_available": true
+      },
+      "combined_violation": false,
+      "preview_path": "/static/frames/temp_1755514769_Y2Mate.now_Coincidentally, the cat looks just like the one in the ad #shorts #cat #catlovers_360p_frame_3.jpg"
+    },
+    {
+      "timestamp": 1.5,
+      "frame_index": 3,
+      "visual_analysis": {
+        "category": "safe_content",
+        "confidence": 0.8838865160942078,
+        "violation_detected": false,
+        "all_probabilities": {
+          "safe_content": 0.8838865160942078,
+          "suggestive_content": 0.05001502484083176,
+          "artistic_adult_content": 0.006161601282656193,
+          "misinformation": 0.04974362254142761,
+          "violence": 0.0029588029719889164,
+          "hate_speech": 0.0037593788001686335,
+          "dangerous_activities": 0.003474999452009797
+        }
+      },
+      "blip_description": {
+        "description": "a person is holding a cat in their hand",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "Pov: foura Je star",
+        "extracted_items": [
+          {
+            "text": "Pov:",
+            "confidence": 0.8373985886573792,
+            "bbox": [
+              [
+                86,
+                72
+              ],
+              [
+                251,
+                72
+              ],
+              [
+                251,
+                108
+              ],
+              [
+                86,
+                108
+              ]
+            ]
+          },
+          {
+            "text": "foura",
+            "confidence": 0.5260470966310169,
+            "bbox": [
+              [
+                319,
+                73
+              ],
+              [
+                550,
+                73
+              ],
+              [
+                550,
+                106
+              ],
+              [
+                319,
+                106
+              ]
+            ]
+          },
+          {
+            "text": "Je",
+            "confidence": 0.5644528798806296,
+            "bbox": [
+              [
+                475,
+                107
+              ],
+              [
+                605,
+                107
+              ],
+              [
+                605,
+                143
+              ],
+              [
+                475,
+                143
+              ]
+            ]
+          },
+          {
+            "text": "star",
+            "confidence": 0.8060200810432434,
+            "bbox": [
+              [
+                972,
+                112
+              ],
+              [
+                1124,
+                112
+              ],
+              [
+                1124,
+                138
+              ],
+              [
+                972,
+                138
+              ]
+            ]
+          }
+        ],
+        "ocr_available": true
+      },
+      "combined_violation": false,
+      "preview_path": "/static/frames/temp_1755514769_Y2Mate.now_Coincidentally, the cat looks just like the one in the ad #shorts #cat #catlovers_360p_frame_4.jpg"
+    },
+    {
+      "timestamp": 2.0,
+      "frame_index": 4,
+      "visual_analysis": {
+        "category": "safe_content",
+        "confidence": 0.8854771256446838,
+        "violation_detected": false,
+        "all_probabilities": {
+          "safe_content": 0.8854771256446838,
+          "suggestive_content": 0.04964955896139145,
+          "artistic_adult_content": 0.006037133280187845,
+          "misinformation": 0.04884717985987663,
+          "violence": 0.0028922592755407095,
+          "hate_speech": 0.003704323433339596,
+          "dangerous_activities": 0.003392537124454975
+        }
+      },
+      "blip_description": {
+        "description": "a person is holding a cat in their hand",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "Pov: foura Je",
+        "extracted_items": [
+          {
+            "text": "Pov:",
+            "confidence": 0.8373985886573792,
+            "bbox": [
+              [
+                86,
+                72
+              ],
+              [
+                251,
+                72
+              ],
+              [
+                251,
+                108
+              ],
+              [
+                86,
+                108
+              ]
+            ]
+          },
+          {
+            "text": "foura",
+            "confidence": 0.5262445575279685,
+            "bbox": [
+              [
+                319,
+                73
+              ],
+              [
+                550,
+                73
+              ],
+              [
+                550,
+                106
+              ],
+              [
+                319,
+                106
+              ]
+            ]
+          },
+          {
+            "text": "Je",
+            "confidence": 0.5677223753282085,
+            "bbox": [
+              [
+                475,
+                107
+              ],
+              [
+                605,
+                107
+              ],
+              [
+                605,
+                143
+              ],
+              [
+                475,
+                143
+              ]
+            ]
+          }
+        ],
+        "ocr_available": true
+      },
+      "combined_violation": false,
+      "preview_path": "/static/frames/temp_1755514769_Y2Mate.now_Coincidentally, the cat looks just like the one in the ad #shorts #cat #catlovers_360p_frame_5.jpg"
+    },
+    {
+      "timestamp": 2.5,
+      "frame_index": 5,
+      "visual_analysis": {
+        "category": "safe_content",
+        "confidence": 0.8785443902015686,
+        "violation_detected": false,
+        "all_probabilities": {
+          "safe_content": 0.8785443902015686,
+          "suggestive_content": 0.0533042848110199,
+          "artistic_adult_content": 0.006633928511291742,
+          "misinformation": 0.05090051516890526,
+          "violence": 0.003064466640353203,
+          "hate_speech": 0.003908970393240452,
+          "dangerous_activities": 0.0036435506772249937
+        }
+      },
+      "blip_description": {
+        "description": "a person is holding a cat in their hand",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "Pov: foura Je",
+        "extracted_items": [
+          {
+            "text": "Pov:",
+            "confidence": 0.8419255614280701,
+            "bbox": [
+              [
+                86,
+                72
+              ],
+              [
+                251,
+                72
+              ],
+              [
+                251,
+                108
+              ],
+              [
+                86,
+                108
+              ]
+            ]
+          },
+          {
+            "text": "foura",
+            "confidence": 0.5262021158188821,
+            "bbox": [
+              [
+                319,
+                73
+              ],
+              [
+                550,
+                73
+              ],
+              [
+                550,
+                106
+              ],
+              [
+                319,
+                106
+              ]
+            ]
+          },
+          {
+            "text": "Je",
+            "confidence": 0.5550927249389138,
+            "bbox": [
+              [
+                475,
+                107
+              ],
+              [
+                605,
+                107
+              ],
+              [
+                605,
+                143
+              ],
+              [
+                475,
+                143
+              ]
+            ]
+          }
+        ],
+        "ocr_available": true
+      },
+      "combined_violation": false,
+      "preview_path": "/static/frames/temp_1755514769_Y2Mate.now_Coincidentally, the cat looks just like the one in the ad #shorts #cat #catlovers_360p_frame_6.jpg"
+    },
+    {
+      "timestamp": 3.0,
+      "frame_index": 6,
+      "visual_analysis": {
+        "category": "safe_content",
+        "confidence": 0.886017382144928,
+        "violation_detected": false,
+        "all_probabilities": {
+          "safe_content": 0.886017382144928,
+          "suggestive_content": 0.04965672641992569,
+          "artistic_adult_content": 0.005944520700722933,
+          "misinformation": 0.04848301410675049,
+          "violence": 0.0028278320096433163,
+          "hate_speech": 0.0036904066801071167,
+          "dangerous_activities": 0.003380164038389921
+        }
+      },
+      "blip_description": {
+        "description": "a person is holding a cat in their hand",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "Pov: foura star",
+        "extracted_items": [
+          {
+            "text": "Pov:",
+            "confidence": 0.8417962789535522,
+            "bbox": [
+              [
+                86,
+                72
+              ],
+              [
+                251,
+                72
+              ],
+              [
+                251,
+                108
+              ],
+              [
+                86,
+                108
+              ]
+            ]
+          },
+          {
+            "text": "foura",
+            "confidence": 0.5099685060988073,
+            "bbox": [
+              [
+                319,
+                73
+              ],
+              [
+                552,
+                73
+              ],
+              [
+                552,
+                106
+              ],
+              [
+                319,
+                106
+              ]
+            ]
+          },
+          {
+            "text": "star",
+            "confidence": 0.8047770261764526,
+            "bbox": [
+              [
+                972,
+                112
+              ],
+              [
+                1124,
+                112
+              ],
+              [
+                1124,
+                138
+              ],
+              [
+                972,
+                138
+              ]
+            ]
+          }
+        ],
+        "ocr_available": true
+      },
+      "combined_violation": false,
+      "preview_path": "/static/frames/temp_1755514769_Y2Mate.now_Coincidentally, the cat looks just like the one in the ad #shorts #cat #catlovers_360p_frame_7.jpg"
+    },
+    {
+      "timestamp": 3.5,
+      "frame_index": 7,
+      "visual_analysis": {
+        "category": "safe_content",
+        "confidence": 0.890396773815155,
+        "violation_detected": false,
+        "all_probabilities": {
+          "safe_content": 0.890396773815155,
+          "suggestive_content": 0.04547348991036415,
+          "artistic_adult_content": 0.005520401522517204,
+          "misinformation": 0.04863647744059563,
+          "violence": 0.0029330572579056025,
+          "hate_speech": 0.003702765330672264,
+          "dangerous_activities": 0.0033370363526046276
+        }
+      },
+      "blip_description": {
+        "description": "a person is holding a cat in their hand",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "Pov: foura 22 star",
+        "extracted_items": [
+          {
+            "text": "Pov:",
+            "confidence": 0.8491979241371155,
+            "bbox": [
+              [
+                86,
+                72
+              ],
+              [
+                251,
+                72
+              ],
+              [
+                251,
+                108
+              ],
+              [
+                86,
+                108
+              ]
+            ]
+          },
+          {
+            "text": "foura",
+            "confidence": 0.5103685331764833,
+            "bbox": [
+              [
+                319,
+                73
+              ],
+              [
+                552,
+                73
+              ],
+              [
+                552,
+                106
+              ],
+              [
+                319,
+                106
+              ]
+            ]
+          },
+          {
+            "text": "22",
+            "confidence": 0.5301041615118123,
+            "bbox": [
+              [
+                628,
+                114
+              ],
+              [
+                710,
+                114
+              ],
+              [
+                710,
+                138
+              ],
+              [
+                628,
+                138
+              ]
+            ]
+          },
+          {
+            "text": "star",
+            "confidence": 0.8021185398101807,
+            "bbox": [
+              [
+                972,
+                112
+              ],
+              [
+                1124,
+                112
+              ],
+              [
+                1124,
+                138
+              ],
+              [
+                972,
+                138
+              ]
+            ]
+          }
+        ],
+        "ocr_available": true
+      },
+      "combined_violation": false,
+      "preview_path": "/static/frames/temp_1755514769_Y2Mate.now_Coincidentally, the cat looks just like the one in the ad #shorts #cat #catlovers_360p_frame_8.jpg"
+    },
+    {
+      "timestamp": 4.0,
+      "frame_index": 8,
+      "visual_analysis": {
+        "category": "safe_content",
+        "confidence": 0.8942817449569702,
+        "violation_detected": false,
+        "all_probabilities": {
+          "safe_content": 0.8942817449569702,
+          "suggestive_content": 0.04435303434729576,
+          "artistic_adult_content": 0.005223141051828861,
+          "misinformation": 0.04671481251716614,
+          "violence": 0.002705860184505582,
+          "hate_speech": 0.0035576510708779097,
+          "dangerous_activities": 0.003163733519613743
+        }
+      },
+      "blip_description": {
+        "description": "a person holding a bag of cat food",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "Pov: 2 22 star",
+        "extracted_items": [
+          {
+            "text": "Pov:",
+            "confidence": 0.849159836769104,
+            "bbox": [
+              [
+                86,
+                72
+              ],
+              [
+                251,
+                72
+              ],
+              [
+                251,
+                108
+              ],
+              [
+                86,
+                108
+              ]
+            ]
+          },
+          {
+            "text": "2",
+            "confidence": 0.5162263214086554,
+            "bbox": [
+              [
+                149,
+                115
+              ],
+              [
+                195,
+                115
+              ],
+              [
+                195,
+                135
+              ],
+              [
+                149,
+                135
+              ]
+            ]
+          },
+          {
+            "text": "22",
+            "confidence": 0.518796336500107,
+            "bbox": [
+              [
+                628,
+                114
+              ],
+              [
+                710,
+                114
+              ],
+              [
+                710,
+                138
+              ],
+              [
+                628,
+                138
+              ]
+            ]
+          },
+          {
+            "text": "star",
+            "confidence": 0.8070282936096191,
+            "bbox": [
+              [
+                972,
+                112
+              ],
+              [
+                1124,
+                112
+              ],
+              [
+                1124,
+                138
+              ],
+              [
+                972,
+                138
+              ]
+            ]
+          }
+        ],
+        "ocr_available": true
+      },
+      "combined_violation": false,
+      "preview_path": "/static/frames/temp_1755514769_Y2Mate.now_Coincidentally, the cat looks just like the one in the ad #shorts #cat #catlovers_360p_frame_9.jpg"
+    },
+    {
+      "timestamp": 4.5,
+      "frame_index": 9,
+      "visual_analysis": {
+        "category": "safe_content",
+        "confidence": 0.8873918056488037,
+        "violation_detected": false,
+        "all_probabilities": {
+          "safe_content": 0.8873918056488037,
+          "suggestive_content": 0.04765736684203148,
+          "artistic_adult_content": 0.005838026292622089,
+          "misinformation": 0.04893656075000763,
+          "violence": 0.0029681778978556395,
+          "hate_speech": 0.0037807112094014883,
+          "dangerous_activities": 0.0034273916389793158
+        }
+      },
+      "blip_description": {
+        "description": "a person is holding a cat in their hand",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "Pov: foura 2 22 24 star",
+        "extracted_items": [
+          {
+            "text": "Pov:",
+            "confidence": 0.8490636944770813,
+            "bbox": [
+              [
+                86,
+                72
+              ],
+              [
+                251,
+                72
+              ],
+              [
+                251,
+                108
+              ],
+              [
+                86,
+                108
+              ]
+            ]
+          },
+          {
+            "text": "foura",
+            "confidence": 0.5103049572904343,
+            "bbox": [
+              [
+                319,
+                73
+              ],
+              [
+                552,
+                73
+              ],
+              [
+                552,
+                106
+              ],
+              [
+                319,
+                106
+              ]
+            ]
+          },
+          {
+            "text": "2",
+            "confidence": 0.5162263214086554,
+            "bbox": [
+              [
+                149,
+                115
+              ],
+              [
+                195,
+                115
+              ],
+              [
+                195,
+                135
+              ],
+              [
+                149,
+                135
+              ]
+            ]
+          },
+          {
+            "text": "22",
+            "confidence": 0.522530838181226,
+            "bbox": [
+              [
+                628,
+                114
+              ],
+              [
+                710,
+                114
+              ],
+              [
+                710,
+                138
+              ],
+              [
+                628,
+                138
+              ]
+            ]
+          },
+          {
+            "text": "24",
+            "confidence": 0.8192858964619594,
+            "bbox": [
+              [
+                851,
+                108
+              ],
+              [
+                946,
+                108
+              ],
+              [
+                946,
+                139
+              ],
+              [
+                851,
+                139
+              ]
+            ]
+          },
+          {
+            "text": "star",
+            "confidence": 0.807523250579834,
+            "bbox": [
+              [
+                972,
+                112
+              ],
+              [
+                1124,
+                112
+              ],
+              [
+                1124,
+                138
+              ],
+              [
+                972,
+                138
+              ]
+            ]
+          }
+        ],
+        "ocr_available": true
+      },
+      "combined_violation": false,
+      "preview_path": "/static/frames/temp_1755514769_Y2Mate.now_Coincidentally, the cat looks just like the one in the ad #shorts #cat #catlovers_360p_frame_10.jpg"
+    },
+    {
+      "timestamp": 5.0,
+      "frame_index": 10,
+      "visual_analysis": {
+        "category": "safe_content",
+        "confidence": 0.8731474876403809,
+        "violation_detected": false,
+        "all_probabilities": {
+          "safe_content": 0.8731474876403809,
+          "suggestive_content": 0.056886039674282074,
+          "artistic_adult_content": 0.0070928591303527355,
+          "misinformation": 0.05189194902777672,
+          "violence": 0.0031477073207497597,
+          "hate_speech": 0.004047495312988758,
+          "dangerous_activities": 0.0037864348851144314
+        }
+      },
+      "blip_description": {
+        "description": "a person is holding a cat in their hand",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "Pov: foura 22 star",
+        "extracted_items": [
+          {
+            "text": "Pov:",
+            "confidence": 0.849364697933197,
+            "bbox": [
+              [
+                86,
+                72
+              ],
+              [
+                251,
+                72
+              ],
+              [
+                251,
+                108
+              ],
+              [
+                86,
+                108
+              ]
+            ]
+          },
+          {
+            "text": "foura",
+            "confidence": 0.5113766762608479,
+            "bbox": [
+              [
+                319,
+                73
+              ],
+              [
+                552,
+                73
+              ],
+              [
+                552,
+                106
+              ],
+              [
+                319,
+                106
+              ]
+            ]
+          },
+          {
+            "text": "22",
+            "confidence": 0.5043212412669474,
+            "bbox": [
+              [
+                628,
+                114
+              ],
+              [
+                710,
+                114
+              ],
+              [
+                710,
+                138
+              ],
+              [
+                628,
+                138
+              ]
+            ]
+          },
+          {
+            "text": "star",
+            "confidence": 0.8073739409446716,
+            "bbox": [
+              [
+                972,
+                112
+              ],
+              [
+                1124,
+                112
+              ],
+              [
+                1124,
+                138
+              ],
+              [
+                972,
+                138
+              ]
+            ]
+          }
+        ],
+        "ocr_available": true
+      },
+      "combined_violation": false,
+      "preview_path": "/static/frames/temp_1755514769_Y2Mate.now_Coincidentally, the cat looks just like the one in the ad #shorts #cat #catlovers_360p_frame_11.jpg"
+    },
+    {
+      "timestamp": 5.5,
+      "frame_index": 11,
+      "visual_analysis": {
+        "category": "safe_content",
+        "confidence": 0.871807336807251,
+        "violation_detected": false,
+        "all_probabilities": {
+          "safe_content": 0.871807336807251,
+          "suggestive_content": 0.05674169212579727,
+          "artistic_adult_content": 0.007225624285638332,
+          "misinformation": 0.05297474563121796,
+          "violence": 0.003256604541093111,
+          "hate_speech": 0.0041183107532560825,
+          "dangerous_activities": 0.003875704249367118
+        }
+      },
+      "blip_description": {
+        "description": "a person is holding a cat in their hand",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "Pov: foura 2 Jeb 22",
+        "extracted_items": [
+          {
+            "text": "Pov:",
+            "confidence": 0.8493601083755493,
+            "bbox": [
+              [
+                86,
+                72
+              ],
+              [
+                251,
+                72
+              ],
+              [
+                251,
+                108
+              ],
+              [
+                86,
+                108
+              ]
+            ]
+          },
+          {
+            "text": "foura",
+            "confidence": 0.5257738517594812,
+            "bbox": [
+              [
+                319,
+                73
+              ],
+              [
+                550,
+                73
+              ],
+              [
+                550,
+                106
+              ],
+              [
+                319,
+                106
+              ]
+            ]
+          },
+          {
+            "text": "2",
+            "confidence": 0.5162263214086554,
+            "bbox": [
+              [
+                149,
+                115
+              ],
+              [
+                195,
+                115
+              ],
+              [
+                195,
+                135
+              ],
+              [
+                149,
+                135
+              ]
+            ]
+          },
+          {
+            "text": "Jeb",
+            "confidence": 0.6431828329983736,
+            "bbox": [
+              [
+                476,
+                110
+              ],
+              [
+                604,
+                110
+              ],
+              [
+                604,
+                142
+              ],
+              [
+                476,
+                142
+              ]
+            ]
+          },
+          {
+            "text": "22",
+            "confidence": 0.5032778977378296,
+            "bbox": [
+              [
+                628,
+                114
+              ],
+              [
+                710,
+                114
+              ],
+              [
+                710,
+                138
+              ],
+              [
+                628,
+                138
+              ]
+            ]
+          }
+        ],
+        "ocr_available": true
+      },
+      "combined_violation": false,
+      "preview_path": "/static/frames/temp_1755514769_Y2Mate.now_Coincidentally, the cat looks just like the one in the ad #shorts #cat #catlovers_360p_frame_12.jpg"
+    },
+    {
+      "timestamp": 6.0,
+      "frame_index": 12,
+      "visual_analysis": {
+        "category": "safe_content",
+        "confidence": 0.8850479125976562,
+        "violation_detected": false,
+        "all_probabilities": {
+          "safe_content": 0.8850479125976562,
+          "suggestive_content": 0.05011427775025368,
+          "artistic_adult_content": 0.006165127269923687,
+          "misinformation": 0.048691410571336746,
+          "violence": 0.0029056170023977757,
+          "hate_speech": 0.0036955978721380234,
+          "dangerous_activities": 0.0033799430821090937
+        }
+      },
+      "blip_description": {
+        "description": "a person is holding a cat in their hand",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "Pov: foura 2 Jeb 22",
+        "extracted_items": [
+          {
+            "text": "Pov:",
+            "confidence": 0.8489304184913635,
+            "bbox": [
+              [
+                86,
+                72
+              ],
+              [
+                251,
+                72
+              ],
+              [
+                251,
+                108
+              ],
+              [
+                86,
+                108
+              ]
+            ]
+          },
+          {
+            "text": "foura",
+            "confidence": 0.5260729766700085,
+            "bbox": [
+              [
+                319,
+                73
+              ],
+              [
+                550,
+                73
+              ],
+              [
+                550,
+                106
+              ],
+              [
+                319,
+                106
+              ]
+            ]
+          },
+          {
+            "text": "2",
+            "confidence": 0.5162263214086554,
+            "bbox": [
+              [
+                149,
+                115
+              ],
+              [
+                195,
+                115
+              ],
+              [
+                195,
+                135
+              ],
+              [
+                149,
+                135
+              ]
+            ]
+          },
+          {
+            "text": "Jeb",
+            "confidence": 0.6426367541298542,
+            "bbox": [
+              [
+                476,
+                110
+              ],
+              [
+                604,
+                110
+              ],
+              [
+                604,
+                142
+              ],
+              [
+                476,
+                142
+              ]
+            ]
+          },
+          {
+            "text": "22",
+            "confidence": 0.5032778977378296,
+            "bbox": [
+              [
+                628,
+                114
+              ],
+              [
+                710,
+                114
+              ],
+              [
+                710,
+                138
+              ],
+              [
+                628,
+                138
+              ]
+            ]
+          }
+        ],
+        "ocr_available": true
+      },
+      "combined_violation": false,
+      "preview_path": "/static/frames/temp_1755514769_Y2Mate.now_Coincidentally, the cat looks just like the one in the ad #shorts #cat #catlovers_360p_frame_13.jpg"
+    },
+    {
+      "timestamp": 6.5,
+      "frame_index": 13,
+      "visual_analysis": {
+        "category": "safe_content",
+        "confidence": 0.8875832557678223,
+        "violation_detected": false,
+        "all_probabilities": {
+          "safe_content": 0.8875832557678223,
+          "suggestive_content": 0.04821889102458954,
+          "artistic_adult_content": 0.005883790552616119,
+          "misinformation": 0.04851319640874863,
+          "violence": 0.00284494087100029,
+          "hate_speech": 0.003632646519690752,
+          "dangerous_activities": 0.003323187818750739
+        }
+      },
+      "blip_description": {
+        "description": "a person is holding a cat in their hand",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "Pov: foura 2 Jeb 22 star",
+        "extracted_items": [
+          {
+            "text": "Pov:",
+            "confidence": 0.8490904569625854,
+            "bbox": [
+              [
+                86,
+                72
+              ],
+              [
+                251,
+                72
+              ],
+              [
+                251,
+                108
+              ],
+              [
+                86,
+                108
+              ]
+            ]
+          },
+          {
+            "text": "foura",
+            "confidence": 0.5271357976498471,
+            "bbox": [
+              [
+                319,
+                73
+              ],
+              [
+                550,
+                73
+              ],
+              [
+                550,
+                106
+              ],
+              [
+                319,
+                106
+              ]
+            ]
+          },
+          {
+            "text": "2",
+            "confidence": 0.5162263214086554,
+            "bbox": [
+              [
+                149,
+                115
+              ],
+              [
+                195,
+                115
+              ],
+              [
+                195,
+                135
+              ],
+              [
+                149,
+                135
+              ]
+            ]
+          },
+          {
+            "text": "Jeb",
+            "confidence": 0.6436702566365636,
+            "bbox": [
+              [
+                476,
+                110
+              ],
+              [
+                604,
+                110
+              ],
+              [
+                604,
+                142
+              ],
+              [
+                476,
+                142
+              ]
+            ]
+          },
+          {
+            "text": "22",
+            "confidence": 0.5034428045735273,
+            "bbox": [
+              [
+                628,
+                114
+              ],
+              [
+                710,
+                114
+              ],
+              [
+                710,
+                138
+              ],
+              [
+                628,
+                138
+              ]
+            ]
+          },
+          {
+            "text": "star",
+            "confidence": 0.8073164820671082,
+            "bbox": [
+              [
+                972,
+                112
+              ],
+              [
+                1124,
+                112
+              ],
+              [
+                1124,
+                138
+              ],
+              [
+                972,
+                138
+              ]
+            ]
+          }
+        ],
+        "ocr_available": true
+      },
+      "combined_violation": false,
+      "preview_path": "/static/frames/temp_1755514769_Y2Mate.now_Coincidentally, the cat looks just like the one in the ad #shorts #cat #catlovers_360p_frame_14.jpg"
+    },
+    {
+      "timestamp": 7.0,
+      "frame_index": 14,
+      "visual_analysis": {
+        "category": "safe_content",
+        "confidence": 0.8949018716812134,
+        "violation_detected": false,
+        "all_probabilities": {
+          "safe_content": 0.8949018716812134,
+          "suggestive_content": 0.04464172571897507,
+          "artistic_adult_content": 0.005337219685316086,
+          "misinformation": 0.046051863580942154,
+          "violence": 0.0026312372647225857,
+          "hate_speech": 0.0034205843694508076,
+          "dangerous_activities": 0.003015427151694894
+        }
+      },
+      "blip_description": {
+        "description": "a cat is sitting on the floor and eating a bag of chips",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "Pov: foura 2 22 star",
+        "extracted_items": [
+          {
+            "text": "Pov:",
+            "confidence": 0.8491462469100952,
+            "bbox": [
+              [
+                86,
+                72
+              ],
+              [
+                251,
+                72
+              ],
+              [
+                251,
+                108
+              ],
+              [
+                86,
+                108
+              ]
+            ]
+          },
+          {
+            "text": "foura",
+            "confidence": 0.5123926037503234,
+            "bbox": [
+              [
+                319,
+                73
+              ],
+              [
+                552,
+                73
+              ],
+              [
+                552,
+                106
+              ],
+              [
+                319,
+                106
+              ]
+            ]
+          },
+          {
+            "text": "2",
+            "confidence": 0.5162263214086554,
+            "bbox": [
+              [
+                149,
+                115
+              ],
+              [
+                195,
+                115
+              ],
+              [
+                195,
+                135
+              ],
+              [
+                149,
+                135
+              ]
+            ]
+          },
+          {
+            "text": "22",
+            "confidence": 0.5026213918485775,
+            "bbox": [
+              [
+                628,
+                114
+              ],
+              [
+                710,
+                114
+              ],
+              [
+                710,
+                138
+              ],
+              [
+                628,
+                138
+              ]
+            ]
+          },
+          {
+            "text": "star",
+            "confidence": 0.8073164820671082,
+            "bbox": [
+              [
+                972,
+                112
+              ],
+              [
+                1124,
+                112
+              ],
+              [
+                1124,
+                138
+              ],
+              [
+                972,
+                138
+              ]
+            ]
+          }
+        ],
+        "ocr_available": true
+      },
+      "combined_violation": false,
+      "preview_path": "/static/frames/temp_1755514769_Y2Mate.now_Coincidentally, the cat looks just like the one in the ad #shorts #cat #catlovers_360p_frame_15.jpg"
+    },
+    {
+      "timestamp": 7.5,
+      "frame_index": 15,
+      "visual_analysis": {
+        "category": "safe_content",
+        "confidence": 0.8962466716766357,
+        "violation_detected": false,
+        "all_probabilities": {
+          "safe_content": 0.8962466716766357,
+          "suggestive_content": 0.04261450469493866,
+          "artistic_adult_content": 0.005068324971944094,
+          "misinformation": 0.04693007096648216,
+          "violence": 0.002702734200283885,
+          "hate_speech": 0.00340332742780447,
+          "dangerous_activities": 0.0030343972612172365
+        }
+      },
+      "blip_description": {
+        "description": "a person holding a cat in their hand",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "Pov: foura 2 22 star",
+        "extracted_items": [
+          {
+            "text": "Pov:",
+            "confidence": 0.8493227362632751,
+            "bbox": [
+              [
+                86,
+                72
+              ],
+              [
+                251,
+                72
+              ],
+              [
+                251,
+                108
+              ],
+              [
+                86,
+                108
+              ]
+            ]
+          },
+          {
+            "text": "foura",
+            "confidence": 0.5123926037503234,
+            "bbox": [
+              [
+                319,
+                73
+              ],
+              [
+                552,
+                73
+              ],
+              [
+                552,
+                106
+              ],
+              [
+                319,
+                106
+              ]
+            ]
+          },
+          {
+            "text": "2",
+            "confidence": 0.5162263214086554,
+            "bbox": [
+              [
+                149,
+                115
+              ],
+              [
+                195,
+                115
+              ],
+              [
+                195,
+                135
+              ],
+              [
+                149,
+                135
+              ]
+            ]
+          },
+          {
+            "text": "22",
+            "confidence": 0.5153837862087888,
+            "bbox": [
+              [
+                628,
+                114
+              ],
+              [
+                710,
+                114
+              ],
+              [
+                710,
+                138
+              ],
+              [
+                628,
+                138
+              ]
+            ]
+          },
+          {
+            "text": "star",
+            "confidence": 0.8073164820671082,
+            "bbox": [
+              [
+                972,
+                112
+              ],
+              [
+                1124,
+                112
+              ],
+              [
+                1124,
+                138
+              ],
+              [
+                972,
+                138
+              ]
+            ]
+          }
+        ],
+        "ocr_available": true
+      },
+      "combined_violation": false,
+      "preview_path": "/static/frames/temp_1755514769_Y2Mate.now_Coincidentally, the cat looks just like the one in the ad #shorts #cat #catlovers_360p_frame_16.jpg"
+    }
+  ],
+  "recommendations": [
+    "✅ Content is compliant with YouTube policies",
+    "🎉 No violations detected - content ready for upload"
+  ],
+  "multi_modal_capabilities": {
+    "visual_model_accuracy": 97.48,
+    "blip_available": true,
+    "whisper_available": true,
+    "ocr_available": true
+  },
+  "text_issues": "Pov: foura je star, Pov: foura Jek star 0, Pov: foura star, Pov: foura Je star, Pov: foura Je, Pov: foura Je, Pov: foura star, Pov: foura 22 star, Pov: 2 22 star, Pov: foura 2 22 24 star, Pov: foura 22 star, Pov: foura 2 Jeb 22, Pov: foura 2 Jeb 22, Pov: foura 2 Jeb 22 star, Pov: foura 2 22 star, Pov: foura 2 22 star",
+  "image": {
+    "details": {
+      "frame_preview_paths": [
+        "/static/frames/temp_1755514769_Y2Mate.now_Coincidentally, the cat looks just like the one in the ad #shorts #cat #catlovers_360p_frame_1.jpg",
+        "/static/frames/temp_1755514769_Y2Mate.now_Coincidentally, the cat looks just like the one in the ad #shorts #cat #catlovers_360p_frame_2.jpg",
+        "/static/frames/temp_1755514769_Y2Mate.now_Coincidentally, the cat looks just like the one in the ad #shorts #cat #catlovers_360p_frame_3.jpg",
+        "/static/frames/temp_1755514769_Y2Mate.now_Coincidentally, the cat looks just like the one in the ad #shorts #cat #catlovers_360p_frame_4.jpg",
+        "/static/frames/temp_1755514769_Y2Mate.now_Coincidentally, the cat looks just like the one in the ad #shorts #cat #catlovers_360p_frame_5.jpg",
+        "/static/frames/temp_1755514769_Y2Mate.now_Coincidentally, the cat looks just like the one in the ad #shorts #cat #catlovers_360p_frame_6.jpg",
+        "/static/frames/temp_1755514769_Y2Mate.now_Coincidentally, the cat looks just like the one in the ad #shorts #cat #catlovers_360p_frame_7.jpg",
+        "/static/frames/temp_1755514769_Y2Mate.now_Coincidentally, the cat looks just like the one in the ad #shorts #cat #catlovers_360p_frame_8.jpg",
+        "/static/frames/temp_1755514769_Y2Mate.now_Coincidentally, the cat looks just like the one in the ad #shorts #cat #catlovers_360p_frame_9.jpg",
+        "/static/frames/temp_1755514769_Y2Mate.now_Coincidentally, the cat looks just like the one in the ad #shorts #cat #catlovers_360p_frame_10.jpg",
+        "/static/frames/temp_1755514769_Y2Mate.now_Coincidentally, the cat looks just like the one in the ad #shorts #cat #catlovers_360p_frame_11.jpg",
+        "/static/frames/temp_1755514769_Y2Mate.now_Coincidentally, the cat looks just like the one in the ad #shorts #cat #catlovers_360p_frame_12.jpg",
+        "/static/frames/temp_1755514769_Y2Mate.now_Coincidentally, the cat looks just like the one in the ad #shorts #cat #catlovers_360p_frame_13.jpg",
+        "/static/frames/temp_1755514769_Y2Mate.now_Coincidentally, the cat looks just like the one in the ad #shorts #cat #catlovers_360p_frame_14.jpg",
+        "/static/frames/temp_1755514769_Y2Mate.now_Coincidentally, the cat looks just like the one in the ad #shorts #cat #catlovers_360p_frame_15.jpg",
+        "/static/frames/temp_1755514769_Y2Mate.now_Coincidentally, the cat looks just like the one in the ad #shorts #cat #catlovers_360p_frame_16.jpg"
+      ],
+      "frame_analysis": [
+        {
+          "timestamp": 0.0,
+          "frame_index": 0,
+          "visual_analysis": {
+            "category": "safe_content",
+            "confidence": 0.8961830735206604,
+            "violation_detected": false,
+            "all_probabilities": {
+              "safe_content": 0.8961830735206604,
+              "suggestive_content": 0.04317622259259224,
+              "artistic_adult_content": 0.00502754608169198,
+              "misinformation": 0.04646378010511398,
+              "violence": 0.002653734292834997,
+              "hate_speech": 0.003439383814111352,
+              "dangerous_activities": 0.0030561864841729403
+            }
+          },
+          "blip_description": {
+            "description": "a person holding a bag of kittens in their hands",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "Pov: foura je star",
+            "extracted_items": [
+              {
+                "text": "Pov:",
+                "confidence": 0.8394343256950378,
+                "bbox": [
+                  [
+                    86,
+                    72
+                  ],
+                  [
+                    251,
+                    72
+                  ],
+                  [
+                    251,
+                    108
+                  ],
+                  [
+                    86,
+                    108
+                  ]
+                ]
+              },
+              {
+                "text": "foura",
+                "confidence": 0.5098913881879384,
+                "bbox": [
+                  [
+                    319,
+                    73
+                  ],
+                  [
+                    552,
+                    73
+                  ],
+                  [
+                    552,
+                    106
+                  ],
+                  [
+                    319,
+                    106
+                  ]
+                ]
+              },
+              {
+                "text": "je",
+                "confidence": 0.7430754403398389,
+                "bbox": [
+                  [
+                    475,
+                    107
+                  ],
+                  [
+                    603,
+                    107
+                  ],
+                  [
+                    603,
+                    145
+                  ],
+                  [
+                    475,
+                    145
+                  ]
+                ]
+              },
+              {
+                "text": "star",
+                "confidence": 0.8060200810432434,
+                "bbox": [
+                  [
+                    972,
+                    112
+                  ],
+                  [
+                    1124,
+                    112
+                  ],
+                  [
+                    1124,
+                    138
+                  ],
+                  [
+                    972,
+                    138
+                  ]
+                ]
+              }
+            ],
+            "ocr_available": true
+          },
+          "combined_violation": false,
+          "preview_path": "/static/frames/temp_1755514769_Y2Mate.now_Coincidentally, the cat looks just like the one in the ad #shorts #cat #catlovers_360p_frame_1.jpg"
+        },
+        {
+          "timestamp": 0.5,
+          "frame_index": 1,
+          "visual_analysis": {
+            "category": "safe_content",
+            "confidence": 0.8959524035453796,
+            "violation_detected": false,
+            "all_probabilities": {
+              "safe_content": 0.8959524035453796,
+              "suggestive_content": 0.04302684962749481,
+              "artistic_adult_content": 0.005164902191609144,
+              "misinformation": 0.04674500599503517,
+              "violence": 0.00270278612151742,
+              "hate_speech": 0.003396310145035386,
+              "dangerous_activities": 0.0030117386486381292
+            }
+          },
+          "blip_description": {
+            "description": "a person holding a cat in their hand",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "Pov: foura Jek star 0",
+            "extracted_items": [
+              {
+                "text": "Pov:",
+                "confidence": 0.8410711884498596,
+                "bbox": [
+                  [
+                    86,
+                    72
+                  ],
+                  [
+                    251,
+                    72
+                  ],
+                  [
+                    251,
+                    108
+                  ],
+                  [
+                    86,
+                    108
+                  ]
+                ]
+              },
+              {
+                "text": "foura",
+                "confidence": 0.511094669159225,
+                "bbox": [
+                  [
+                    319,
+                    73
+                  ],
+                  [
+                    552,
+                    73
+                  ],
+                  [
+                    552,
+                    106
+                  ],
+                  [
+                    319,
+                    106
+                  ]
+                ]
+              },
+              {
+                "text": "Jek",
+                "confidence": 0.5465129761376911,
+                "bbox": [
+                  [
+                    475,
+                    109
+                  ],
+                  [
+                    603,
+                    109
+                  ],
+                  [
+                    603,
+                    145
+                  ],
+                  [
+                    475,
+                    145
+                  ]
+                ]
+              },
+              {
+                "text": "star",
+                "confidence": 0.8060200810432434,
+                "bbox": [
+                  [
+                    972,
+                    112
+                  ],
+                  [
+                    1124,
+                    112
+                  ],
+                  [
+                    1124,
+                    138
+                  ],
+                  [
+                    972,
+                    138
+                  ]
+                ]
+              },
+              {
+                "text": "0",
+                "confidence": 0.5553309140569951,
+                "bbox": [
+                  [
+                    755,
+                    513
+                  ],
+                  [
+                    791,
+                    513
+                  ],
+                  [
+                    791,
+                    527
+                  ],
+                  [
+                    755,
+                    527
+                  ]
+                ]
+              }
+            ],
+            "ocr_available": true
+          },
+          "combined_violation": false,
+          "preview_path": "/static/frames/temp_1755514769_Y2Mate.now_Coincidentally, the cat looks just like the one in the ad #shorts #cat #catlovers_360p_frame_2.jpg"
+        },
+        {
+          "timestamp": 1.0,
+          "frame_index": 2,
+          "visual_analysis": {
+            "category": "safe_content",
+            "confidence": 0.8970086574554443,
+            "violation_detected": false,
+            "all_probabilities": {
+              "safe_content": 0.8970086574554443,
+              "suggestive_content": 0.043304964900016785,
+              "artistic_adult_content": 0.005146753508597612,
+              "misinformation": 0.04575398564338684,
+              "violence": 0.002544405171647668,
+              "hate_speech": 0.0033296665642410517,
+              "dangerous_activities": 0.0029115495271980762
+            }
+          },
+          "blip_description": {
+            "description": "a man is holding a cat in his hand",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "Pov: foura star",
+            "extracted_items": [
+              {
+                "text": "Pov:",
+                "confidence": 0.8408481478691101,
+                "bbox": [
+                  [
+                    86,
+                    72
+                  ],
+                  [
+                    251,
+                    72
+                  ],
+                  [
+                    251,
+                    108
+                  ],
+                  [
+                    86,
+                    108
+                  ]
+                ]
+              },
+              {
+                "text": "foura",
+                "confidence": 0.51216760624927,
+                "bbox": [
+                  [
+                    319,
+                    73
+                  ],
+                  [
+                    552,
+                    73
+                  ],
+                  [
+                    552,
+                    106
+                  ],
+                  [
+                    319,
+                    106
+                  ]
+                ]
+              },
+              {
+                "text": "star",
+                "confidence": 0.822686493396759,
+                "bbox": [
+                  [
+                    972,
+                    112
+                  ],
+                  [
+                    1126,
+                    112
+                  ],
+                  [
+                    1126,
+                    138
+                  ],
+                  [
+                    972,
+                    138
+                  ]
+                ]
+              }
+            ],
+            "ocr_available": true
+          },
+          "combined_violation": false,
+          "preview_path": "/static/frames/temp_1755514769_Y2Mate.now_Coincidentally, the cat looks just like the one in the ad #shorts #cat #catlovers_360p_frame_3.jpg"
+        },
+        {
+          "timestamp": 1.5,
+          "frame_index": 3,
+          "visual_analysis": {
+            "category": "safe_content",
+            "confidence": 0.8838865160942078,
+            "violation_detected": false,
+            "all_probabilities": {
+              "safe_content": 0.8838865160942078,
+              "suggestive_content": 0.05001502484083176,
+              "artistic_adult_content": 0.006161601282656193,
+              "misinformation": 0.04974362254142761,
+              "violence": 0.0029588029719889164,
+              "hate_speech": 0.0037593788001686335,
+              "dangerous_activities": 0.003474999452009797
+            }
+          },
+          "blip_description": {
+            "description": "a person is holding a cat in their hand",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "Pov: foura Je star",
+            "extracted_items": [
+              {
+                "text": "Pov:",
+                "confidence": 0.8373985886573792,
+                "bbox": [
+                  [
+                    86,
+                    72
+                  ],
+                  [
+                    251,
+                    72
+                  ],
+                  [
+                    251,
+                    108
+                  ],
+                  [
+                    86,
+                    108
+                  ]
+                ]
+              },
+              {
+                "text": "foura",
+                "confidence": 0.5260470966310169,
+                "bbox": [
+                  [
+                    319,
+                    73
+                  ],
+                  [
+                    550,
+                    73
+                  ],
+                  [
+                    550,
+                    106
+                  ],
+                  [
+                    319,
+                    106
+                  ]
+                ]
+              },
+              {
+                "text": "Je",
+                "confidence": 0.5644528798806296,
+                "bbox": [
+                  [
+                    475,
+                    107
+                  ],
+                  [
+                    605,
+                    107
+                  ],
+                  [
+                    605,
+                    143
+                  ],
+                  [
+                    475,
+                    143
+                  ]
+                ]
+              },
+              {
+                "text": "star",
+                "confidence": 0.8060200810432434,
+                "bbox": [
+                  [
+                    972,
+                    112
+                  ],
+                  [
+                    1124,
+                    112
+                  ],
+                  [
+                    1124,
+                    138
+                  ],
+                  [
+                    972,
+                    138
+                  ]
+                ]
+              }
+            ],
+            "ocr_available": true
+          },
+          "combined_violation": false,
+          "preview_path": "/static/frames/temp_1755514769_Y2Mate.now_Coincidentally, the cat looks just like the one in the ad #shorts #cat #catlovers_360p_frame_4.jpg"
+        },
+        {
+          "timestamp": 2.0,
+          "frame_index": 4,
+          "visual_analysis": {
+            "category": "safe_content",
+            "confidence": 0.8854771256446838,
+            "violation_detected": false,
+            "all_probabilities": {
+              "safe_content": 0.8854771256446838,
+              "suggestive_content": 0.04964955896139145,
+              "artistic_adult_content": 0.006037133280187845,
+              "misinformation": 0.04884717985987663,
+              "violence": 0.0028922592755407095,
+              "hate_speech": 0.003704323433339596,
+              "dangerous_activities": 0.003392537124454975
+            }
+          },
+          "blip_description": {
+            "description": "a person is holding a cat in their hand",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "Pov: foura Je",
+            "extracted_items": [
+              {
+                "text": "Pov:",
+                "confidence": 0.8373985886573792,
+                "bbox": [
+                  [
+                    86,
+                    72
+                  ],
+                  [
+                    251,
+                    72
+                  ],
+                  [
+                    251,
+                    108
+                  ],
+                  [
+                    86,
+                    108
+                  ]
+                ]
+              },
+              {
+                "text": "foura",
+                "confidence": 0.5262445575279685,
+                "bbox": [
+                  [
+                    319,
+                    73
+                  ],
+                  [
+                    550,
+                    73
+                  ],
+                  [
+                    550,
+                    106
+                  ],
+                  [
+                    319,
+                    106
+                  ]
+                ]
+              },
+              {
+                "text": "Je",
+                "confidence": 0.5677223753282085,
+                "bbox": [
+                  [
+                    475,
+                    107
+                  ],
+                  [
+                    605,
+                    107
+                  ],
+                  [
+                    605,
+                    143
+                  ],
+                  [
+                    475,
+                    143
+                  ]
+                ]
+              }
+            ],
+            "ocr_available": true
+          },
+          "combined_violation": false,
+          "preview_path": "/static/frames/temp_1755514769_Y2Mate.now_Coincidentally, the cat looks just like the one in the ad #shorts #cat #catlovers_360p_frame_5.jpg"
+        },
+        {
+          "timestamp": 2.5,
+          "frame_index": 5,
+          "visual_analysis": {
+            "category": "safe_content",
+            "confidence": 0.8785443902015686,
+            "violation_detected": false,
+            "all_probabilities": {
+              "safe_content": 0.8785443902015686,
+              "suggestive_content": 0.0533042848110199,
+              "artistic_adult_content": 0.006633928511291742,
+              "misinformation": 0.05090051516890526,
+              "violence": 0.003064466640353203,
+              "hate_speech": 0.003908970393240452,
+              "dangerous_activities": 0.0036435506772249937
+            }
+          },
+          "blip_description": {
+            "description": "a person is holding a cat in their hand",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "Pov: foura Je",
+            "extracted_items": [
+              {
+                "text": "Pov:",
+                "confidence": 0.8419255614280701,
+                "bbox": [
+                  [
+                    86,
+                    72
+                  ],
+                  [
+                    251,
+                    72
+                  ],
+                  [
+                    251,
+                    108
+                  ],
+                  [
+                    86,
+                    108
+                  ]
+                ]
+              },
+              {
+                "text": "foura",
+                "confidence": 0.5262021158188821,
+                "bbox": [
+                  [
+                    319,
+                    73
+                  ],
+                  [
+                    550,
+                    73
+                  ],
+                  [
+                    550,
+                    106
+                  ],
+                  [
+                    319,
+                    106
+                  ]
+                ]
+              },
+              {
+                "text": "Je",
+                "confidence": 0.5550927249389138,
+                "bbox": [
+                  [
+                    475,
+                    107
+                  ],
+                  [
+                    605,
+                    107
+                  ],
+                  [
+                    605,
+                    143
+                  ],
+                  [
+                    475,
+                    143
+                  ]
+                ]
+              }
+            ],
+            "ocr_available": true
+          },
+          "combined_violation": false,
+          "preview_path": "/static/frames/temp_1755514769_Y2Mate.now_Coincidentally, the cat looks just like the one in the ad #shorts #cat #catlovers_360p_frame_6.jpg"
+        },
+        {
+          "timestamp": 3.0,
+          "frame_index": 6,
+          "visual_analysis": {
+            "category": "safe_content",
+            "confidence": 0.886017382144928,
+            "violation_detected": false,
+            "all_probabilities": {
+              "safe_content": 0.886017382144928,
+              "suggestive_content": 0.04965672641992569,
+              "artistic_adult_content": 0.005944520700722933,
+              "misinformation": 0.04848301410675049,
+              "violence": 0.0028278320096433163,
+              "hate_speech": 0.0036904066801071167,
+              "dangerous_activities": 0.003380164038389921
+            }
+          },
+          "blip_description": {
+            "description": "a person is holding a cat in their hand",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "Pov: foura star",
+            "extracted_items": [
+              {
+                "text": "Pov:",
+                "confidence": 0.8417962789535522,
+                "bbox": [
+                  [
+                    86,
+                    72
+                  ],
+                  [
+                    251,
+                    72
+                  ],
+                  [
+                    251,
+                    108
+                  ],
+                  [
+                    86,
+                    108
+                  ]
+                ]
+              },
+              {
+                "text": "foura",
+                "confidence": 0.5099685060988073,
+                "bbox": [
+                  [
+                    319,
+                    73
+                  ],
+                  [
+                    552,
+                    73
+                  ],
+                  [
+                    552,
+                    106
+                  ],
+                  [
+                    319,
+                    106
+                  ]
+                ]
+              },
+              {
+                "text": "star",
+                "confidence": 0.8047770261764526,
+                "bbox": [
+                  [
+                    972,
+                    112
+                  ],
+                  [
+                    1124,
+                    112
+                  ],
+                  [
+                    1124,
+                    138
+                  ],
+                  [
+                    972,
+                    138
+                  ]
+                ]
+              }
+            ],
+            "ocr_available": true
+          },
+          "combined_violation": false,
+          "preview_path": "/static/frames/temp_1755514769_Y2Mate.now_Coincidentally, the cat looks just like the one in the ad #shorts #cat #catlovers_360p_frame_7.jpg"
+        },
+        {
+          "timestamp": 3.5,
+          "frame_index": 7,
+          "visual_analysis": {
+            "category": "safe_content",
+            "confidence": 0.890396773815155,
+            "violation_detected": false,
+            "all_probabilities": {
+              "safe_content": 0.890396773815155,
+              "suggestive_content": 0.04547348991036415,
+              "artistic_adult_content": 0.005520401522517204,
+              "misinformation": 0.04863647744059563,
+              "violence": 0.0029330572579056025,
+              "hate_speech": 0.003702765330672264,
+              "dangerous_activities": 0.0033370363526046276
+            }
+          },
+          "blip_description": {
+            "description": "a person is holding a cat in their hand",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "Pov: foura 22 star",
+            "extracted_items": [
+              {
+                "text": "Pov:",
+                "confidence": 0.8491979241371155,
+                "bbox": [
+                  [
+                    86,
+                    72
+                  ],
+                  [
+                    251,
+                    72
+                  ],
+                  [
+                    251,
+                    108
+                  ],
+                  [
+                    86,
+                    108
+                  ]
+                ]
+              },
+              {
+                "text": "foura",
+                "confidence": 0.5103685331764833,
+                "bbox": [
+                  [
+                    319,
+                    73
+                  ],
+                  [
+                    552,
+                    73
+                  ],
+                  [
+                    552,
+                    106
+                  ],
+                  [
+                    319,
+                    106
+                  ]
+                ]
+              },
+              {
+                "text": "22",
+                "confidence": 0.5301041615118123,
+                "bbox": [
+                  [
+                    628,
+                    114
+                  ],
+                  [
+                    710,
+                    114
+                  ],
+                  [
+                    710,
+                    138
+                  ],
+                  [
+                    628,
+                    138
+                  ]
+                ]
+              },
+              {
+                "text": "star",
+                "confidence": 0.8021185398101807,
+                "bbox": [
+                  [
+                    972,
+                    112
+                  ],
+                  [
+                    1124,
+                    112
+                  ],
+                  [
+                    1124,
+                    138
+                  ],
+                  [
+                    972,
+                    138
+                  ]
+                ]
+              }
+            ],
+            "ocr_available": true
+          },
+          "combined_violation": false,
+          "preview_path": "/static/frames/temp_1755514769_Y2Mate.now_Coincidentally, the cat looks just like the one in the ad #shorts #cat #catlovers_360p_frame_8.jpg"
+        },
+        {
+          "timestamp": 4.0,
+          "frame_index": 8,
+          "visual_analysis": {
+            "category": "safe_content",
+            "confidence": 0.8942817449569702,
+            "violation_detected": false,
+            "all_probabilities": {
+              "safe_content": 0.8942817449569702,
+              "suggestive_content": 0.04435303434729576,
+              "artistic_adult_content": 0.005223141051828861,
+              "misinformation": 0.04671481251716614,
+              "violence": 0.002705860184505582,
+              "hate_speech": 0.0035576510708779097,
+              "dangerous_activities": 0.003163733519613743
+            }
+          },
+          "blip_description": {
+            "description": "a person holding a bag of cat food",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "Pov: 2 22 star",
+            "extracted_items": [
+              {
+                "text": "Pov:",
+                "confidence": 0.849159836769104,
+                "bbox": [
+                  [
+                    86,
+                    72
+                  ],
+                  [
+                    251,
+                    72
+                  ],
+                  [
+                    251,
+                    108
+                  ],
+                  [
+                    86,
+                    108
+                  ]
+                ]
+              },
+              {
+                "text": "2",
+                "confidence": 0.5162263214086554,
+                "bbox": [
+                  [
+                    149,
+                    115
+                  ],
+                  [
+                    195,
+                    115
+                  ],
+                  [
+                    195,
+                    135
+                  ],
+                  [
+                    149,
+                    135
+                  ]
+                ]
+              },
+              {
+                "text": "22",
+                "confidence": 0.518796336500107,
+                "bbox": [
+                  [
+                    628,
+                    114
+                  ],
+                  [
+                    710,
+                    114
+                  ],
+                  [
+                    710,
+                    138
+                  ],
+                  [
+                    628,
+                    138
+                  ]
+                ]
+              },
+              {
+                "text": "star",
+                "confidence": 0.8070282936096191,
+                "bbox": [
+                  [
+                    972,
+                    112
+                  ],
+                  [
+                    1124,
+                    112
+                  ],
+                  [
+                    1124,
+                    138
+                  ],
+                  [
+                    972,
+                    138
+                  ]
+                ]
+              }
+            ],
+            "ocr_available": true
+          },
+          "combined_violation": false,
+          "preview_path": "/static/frames/temp_1755514769_Y2Mate.now_Coincidentally, the cat looks just like the one in the ad #shorts #cat #catlovers_360p_frame_9.jpg"
+        },
+        {
+          "timestamp": 4.5,
+          "frame_index": 9,
+          "visual_analysis": {
+            "category": "safe_content",
+            "confidence": 0.8873918056488037,
+            "violation_detected": false,
+            "all_probabilities": {
+              "safe_content": 0.8873918056488037,
+              "suggestive_content": 0.04765736684203148,
+              "artistic_adult_content": 0.005838026292622089,
+              "misinformation": 0.04893656075000763,
+              "violence": 0.0029681778978556395,
+              "hate_speech": 0.0037807112094014883,
+              "dangerous_activities": 0.0034273916389793158
+            }
+          },
+          "blip_description": {
+            "description": "a person is holding a cat in their hand",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "Pov: foura 2 22 24 star",
+            "extracted_items": [
+              {
+                "text": "Pov:",
+                "confidence": 0.8490636944770813,
+                "bbox": [
+                  [
+                    86,
+                    72
+                  ],
+                  [
+                    251,
+                    72
+                  ],
+                  [
+                    251,
+                    108
+                  ],
+                  [
+                    86,
+                    108
+                  ]
+                ]
+              },
+              {
+                "text": "foura",
+                "confidence": 0.5103049572904343,
+                "bbox": [
+                  [
+                    319,
+                    73
+                  ],
+                  [
+                    552,
+                    73
+                  ],
+                  [
+                    552,
+                    106
+                  ],
+                  [
+                    319,
+                    106
+                  ]
+                ]
+              },
+              {
+                "text": "2",
+                "confidence": 0.5162263214086554,
+                "bbox": [
+                  [
+                    149,
+                    115
+                  ],
+                  [
+                    195,
+                    115
+                  ],
+                  [
+                    195,
+                    135
+                  ],
+                  [
+                    149,
+                    135
+                  ]
+                ]
+              },
+              {
+                "text": "22",
+                "confidence": 0.522530838181226,
+                "bbox": [
+                  [
+                    628,
+                    114
+                  ],
+                  [
+                    710,
+                    114
+                  ],
+                  [
+                    710,
+                    138
+                  ],
+                  [
+                    628,
+                    138
+                  ]
+                ]
+              },
+              {
+                "text": "24",
+                "confidence": 0.8192858964619594,
+                "bbox": [
+                  [
+                    851,
+                    108
+                  ],
+                  [
+                    946,
+                    108
+                  ],
+                  [
+                    946,
+                    139
+                  ],
+                  [
+                    851,
+                    139
+                  ]
+                ]
+              },
+              {
+                "text": "star",
+                "confidence": 0.807523250579834,
+                "bbox": [
+                  [
+                    972,
+                    112
+                  ],
+                  [
+                    1124,
+                    112
+                  ],
+                  [
+                    1124,
+                    138
+                  ],
+                  [
+                    972,
+                    138
+                  ]
+                ]
+              }
+            ],
+            "ocr_available": true
+          },
+          "combined_violation": false,
+          "preview_path": "/static/frames/temp_1755514769_Y2Mate.now_Coincidentally, the cat looks just like the one in the ad #shorts #cat #catlovers_360p_frame_10.jpg"
+        },
+        {
+          "timestamp": 5.0,
+          "frame_index": 10,
+          "visual_analysis": {
+            "category": "safe_content",
+            "confidence": 0.8731474876403809,
+            "violation_detected": false,
+            "all_probabilities": {
+              "safe_content": 0.8731474876403809,
+              "suggestive_content": 0.056886039674282074,
+              "artistic_adult_content": 0.0070928591303527355,
+              "misinformation": 0.05189194902777672,
+              "violence": 0.0031477073207497597,
+              "hate_speech": 0.004047495312988758,
+              "dangerous_activities": 0.0037864348851144314
+            }
+          },
+          "blip_description": {
+            "description": "a person is holding a cat in their hand",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "Pov: foura 22 star",
+            "extracted_items": [
+              {
+                "text": "Pov:",
+                "confidence": 0.849364697933197,
+                "bbox": [
+                  [
+                    86,
+                    72
+                  ],
+                  [
+                    251,
+                    72
+                  ],
+                  [
+                    251,
+                    108
+                  ],
+                  [
+                    86,
+                    108
+                  ]
+                ]
+              },
+              {
+                "text": "foura",
+                "confidence": 0.5113766762608479,
+                "bbox": [
+                  [
+                    319,
+                    73
+                  ],
+                  [
+                    552,
+                    73
+                  ],
+                  [
+                    552,
+                    106
+                  ],
+                  [
+                    319,
+                    106
+                  ]
+                ]
+              },
+              {
+                "text": "22",
+                "confidence": 0.5043212412669474,
+                "bbox": [
+                  [
+                    628,
+                    114
+                  ],
+                  [
+                    710,
+                    114
+                  ],
+                  [
+                    710,
+                    138
+                  ],
+                  [
+                    628,
+                    138
+                  ]
+                ]
+              },
+              {
+                "text": "star",
+                "confidence": 0.8073739409446716,
+                "bbox": [
+                  [
+                    972,
+                    112
+                  ],
+                  [
+                    1124,
+                    112
+                  ],
+                  [
+                    1124,
+                    138
+                  ],
+                  [
+                    972,
+                    138
+                  ]
+                ]
+              }
+            ],
+            "ocr_available": true
+          },
+          "combined_violation": false,
+          "preview_path": "/static/frames/temp_1755514769_Y2Mate.now_Coincidentally, the cat looks just like the one in the ad #shorts #cat #catlovers_360p_frame_11.jpg"
+        },
+        {
+          "timestamp": 5.5,
+          "frame_index": 11,
+          "visual_analysis": {
+            "category": "safe_content",
+            "confidence": 0.871807336807251,
+            "violation_detected": false,
+            "all_probabilities": {
+              "safe_content": 0.871807336807251,
+              "suggestive_content": 0.05674169212579727,
+              "artistic_adult_content": 0.007225624285638332,
+              "misinformation": 0.05297474563121796,
+              "violence": 0.003256604541093111,
+              "hate_speech": 0.0041183107532560825,
+              "dangerous_activities": 0.003875704249367118
+            }
+          },
+          "blip_description": {
+            "description": "a person is holding a cat in their hand",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "Pov: foura 2 Jeb 22",
+            "extracted_items": [
+              {
+                "text": "Pov:",
+                "confidence": 0.8493601083755493,
+                "bbox": [
+                  [
+                    86,
+                    72
+                  ],
+                  [
+                    251,
+                    72
+                  ],
+                  [
+                    251,
+                    108
+                  ],
+                  [
+                    86,
+                    108
+                  ]
+                ]
+              },
+              {
+                "text": "foura",
+                "confidence": 0.5257738517594812,
+                "bbox": [
+                  [
+                    319,
+                    73
+                  ],
+                  [
+                    550,
+                    73
+                  ],
+                  [
+                    550,
+                    106
+                  ],
+                  [
+                    319,
+                    106
+                  ]
+                ]
+              },
+              {
+                "text": "2",
+                "confidence": 0.5162263214086554,
+                "bbox": [
+                  [
+                    149,
+                    115
+                  ],
+                  [
+                    195,
+                    115
+                  ],
+                  [
+                    195,
+                    135
+                  ],
+                  [
+                    149,
+                    135
+                  ]
+                ]
+              },
+              {
+                "text": "Jeb",
+                "confidence": 0.6431828329983736,
+                "bbox": [
+                  [
+                    476,
+                    110
+                  ],
+                  [
+                    604,
+                    110
+                  ],
+                  [
+                    604,
+                    142
+                  ],
+                  [
+                    476,
+                    142
+                  ]
+                ]
+              },
+              {
+                "text": "22",
+                "confidence": 0.5032778977378296,
+                "bbox": [
+                  [
+                    628,
+                    114
+                  ],
+                  [
+                    710,
+                    114
+                  ],
+                  [
+                    710,
+                    138
+                  ],
+                  [
+                    628,
+                    138
+                  ]
+                ]
+              }
+            ],
+            "ocr_available": true
+          },
+          "combined_violation": false,
+          "preview_path": "/static/frames/temp_1755514769_Y2Mate.now_Coincidentally, the cat looks just like the one in the ad #shorts #cat #catlovers_360p_frame_12.jpg"
+        },
+        {
+          "timestamp": 6.0,
+          "frame_index": 12,
+          "visual_analysis": {
+            "category": "safe_content",
+            "confidence": 0.8850479125976562,
+            "violation_detected": false,
+            "all_probabilities": {
+              "safe_content": 0.8850479125976562,
+              "suggestive_content": 0.05011427775025368,
+              "artistic_adult_content": 0.006165127269923687,
+              "misinformation": 0.048691410571336746,
+              "violence": 0.0029056170023977757,
+              "hate_speech": 0.0036955978721380234,
+              "dangerous_activities": 0.0033799430821090937
+            }
+          },
+          "blip_description": {
+            "description": "a person is holding a cat in their hand",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "Pov: foura 2 Jeb 22",
+            "extracted_items": [
+              {
+                "text": "Pov:",
+                "confidence": 0.8489304184913635,
+                "bbox": [
+                  [
+                    86,
+                    72
+                  ],
+                  [
+                    251,
+                    72
+                  ],
+                  [
+                    251,
+                    108
+                  ],
+                  [
+                    86,
+                    108
+                  ]
+                ]
+              },
+              {
+                "text": "foura",
+                "confidence": 0.5260729766700085,
+                "bbox": [
+                  [
+                    319,
+                    73
+                  ],
+                  [
+                    550,
+                    73
+                  ],
+                  [
+                    550,
+                    106
+                  ],
+                  [
+                    319,
+                    106
+                  ]
+                ]
+              },
+              {
+                "text": "2",
+                "confidence": 0.5162263214086554,
+                "bbox": [
+                  [
+                    149,
+                    115
+                  ],
+                  [
+                    195,
+                    115
+                  ],
+                  [
+                    195,
+                    135
+                  ],
+                  [
+                    149,
+                    135
+                  ]
+                ]
+              },
+              {
+                "text": "Jeb",
+                "confidence": 0.6426367541298542,
+                "bbox": [
+                  [
+                    476,
+                    110
+                  ],
+                  [
+                    604,
+                    110
+                  ],
+                  [
+                    604,
+                    142
+                  ],
+                  [
+                    476,
+                    142
+                  ]
+                ]
+              },
+              {
+                "text": "22",
+                "confidence": 0.5032778977378296,
+                "bbox": [
+                  [
+                    628,
+                    114
+                  ],
+                  [
+                    710,
+                    114
+                  ],
+                  [
+                    710,
+                    138
+                  ],
+                  [
+                    628,
+                    138
+                  ]
+                ]
+              }
+            ],
+            "ocr_available": true
+          },
+          "combined_violation": false,
+          "preview_path": "/static/frames/temp_1755514769_Y2Mate.now_Coincidentally, the cat looks just like the one in the ad #shorts #cat #catlovers_360p_frame_13.jpg"
+        },
+        {
+          "timestamp": 6.5,
+          "frame_index": 13,
+          "visual_analysis": {
+            "category": "safe_content",
+            "confidence": 0.8875832557678223,
+            "violation_detected": false,
+            "all_probabilities": {
+              "safe_content": 0.8875832557678223,
+              "suggestive_content": 0.04821889102458954,
+              "artistic_adult_content": 0.005883790552616119,
+              "misinformation": 0.04851319640874863,
+              "violence": 0.00284494087100029,
+              "hate_speech": 0.003632646519690752,
+              "dangerous_activities": 0.003323187818750739
+            }
+          },
+          "blip_description": {
+            "description": "a person is holding a cat in their hand",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "Pov: foura 2 Jeb 22 star",
+            "extracted_items": [
+              {
+                "text": "Pov:",
+                "confidence": 0.8490904569625854,
+                "bbox": [
+                  [
+                    86,
+                    72
+                  ],
+                  [
+                    251,
+                    72
+                  ],
+                  [
+                    251,
+                    108
+                  ],
+                  [
+                    86,
+                    108
+                  ]
+                ]
+              },
+              {
+                "text": "foura",
+                "confidence": 0.5271357976498471,
+                "bbox": [
+                  [
+                    319,
+                    73
+                  ],
+                  [
+                    550,
+                    73
+                  ],
+                  [
+                    550,
+                    106
+                  ],
+                  [
+                    319,
+                    106
+                  ]
+                ]
+              },
+              {
+                "text": "2",
+                "confidence": 0.5162263214086554,
+                "bbox": [
+                  [
+                    149,
+                    115
+                  ],
+                  [
+                    195,
+                    115
+                  ],
+                  [
+                    195,
+                    135
+                  ],
+                  [
+                    149,
+                    135
+                  ]
+                ]
+              },
+              {
+                "text": "Jeb",
+                "confidence": 0.6436702566365636,
+                "bbox": [
+                  [
+                    476,
+                    110
+                  ],
+                  [
+                    604,
+                    110
+                  ],
+                  [
+                    604,
+                    142
+                  ],
+                  [
+                    476,
+                    142
+                  ]
+                ]
+              },
+              {
+                "text": "22",
+                "confidence": 0.5034428045735273,
+                "bbox": [
+                  [
+                    628,
+                    114
+                  ],
+                  [
+                    710,
+                    114
+                  ],
+                  [
+                    710,
+                    138
+                  ],
+                  [
+                    628,
+                    138
+                  ]
+                ]
+              },
+              {
+                "text": "star",
+                "confidence": 0.8073164820671082,
+                "bbox": [
+                  [
+                    972,
+                    112
+                  ],
+                  [
+                    1124,
+                    112
+                  ],
+                  [
+                    1124,
+                    138
+                  ],
+                  [
+                    972,
+                    138
+                  ]
+                ]
+              }
+            ],
+            "ocr_available": true
+          },
+          "combined_violation": false,
+          "preview_path": "/static/frames/temp_1755514769_Y2Mate.now_Coincidentally, the cat looks just like the one in the ad #shorts #cat #catlovers_360p_frame_14.jpg"
+        },
+        {
+          "timestamp": 7.0,
+          "frame_index": 14,
+          "visual_analysis": {
+            "category": "safe_content",
+            "confidence": 0.8949018716812134,
+            "violation_detected": false,
+            "all_probabilities": {
+              "safe_content": 0.8949018716812134,
+              "suggestive_content": 0.04464172571897507,
+              "artistic_adult_content": 0.005337219685316086,
+              "misinformation": 0.046051863580942154,
+              "violence": 0.0026312372647225857,
+              "hate_speech": 0.0034205843694508076,
+              "dangerous_activities": 0.003015427151694894
+            }
+          },
+          "blip_description": {
+            "description": "a cat is sitting on the floor and eating a bag of chips",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "Pov: foura 2 22 star",
+            "extracted_items": [
+              {
+                "text": "Pov:",
+                "confidence": 0.8491462469100952,
+                "bbox": [
+                  [
+                    86,
+                    72
+                  ],
+                  [
+                    251,
+                    72
+                  ],
+                  [
+                    251,
+                    108
+                  ],
+                  [
+                    86,
+                    108
+                  ]
+                ]
+              },
+              {
+                "text": "foura",
+                "confidence": 0.5123926037503234,
+                "bbox": [
+                  [
+                    319,
+                    73
+                  ],
+                  [
+                    552,
+                    73
+                  ],
+                  [
+                    552,
+                    106
+                  ],
+                  [
+                    319,
+                    106
+                  ]
+                ]
+              },
+              {
+                "text": "2",
+                "confidence": 0.5162263214086554,
+                "bbox": [
+                  [
+                    149,
+                    115
+                  ],
+                  [
+                    195,
+                    115
+                  ],
+                  [
+                    195,
+                    135
+                  ],
+                  [
+                    149,
+                    135
+                  ]
+                ]
+              },
+              {
+                "text": "22",
+                "confidence": 0.5026213918485775,
+                "bbox": [
+                  [
+                    628,
+                    114
+                  ],
+                  [
+                    710,
+                    114
+                  ],
+                  [
+                    710,
+                    138
+                  ],
+                  [
+                    628,
+                    138
+                  ]
+                ]
+              },
+              {
+                "text": "star",
+                "confidence": 0.8073164820671082,
+                "bbox": [
+                  [
+                    972,
+                    112
+                  ],
+                  [
+                    1124,
+                    112
+                  ],
+                  [
+                    1124,
+                    138
+                  ],
+                  [
+                    972,
+                    138
+                  ]
+                ]
+              }
+            ],
+            "ocr_available": true
+          },
+          "combined_violation": false,
+          "preview_path": "/static/frames/temp_1755514769_Y2Mate.now_Coincidentally, the cat looks just like the one in the ad #shorts #cat #catlovers_360p_frame_15.jpg"
+        },
+        {
+          "timestamp": 7.5,
+          "frame_index": 15,
+          "visual_analysis": {
+            "category": "safe_content",
+            "confidence": 0.8962466716766357,
+            "violation_detected": false,
+            "all_probabilities": {
+              "safe_content": 0.8962466716766357,
+              "suggestive_content": 0.04261450469493866,
+              "artistic_adult_content": 0.005068324971944094,
+              "misinformation": 0.04693007096648216,
+              "violence": 0.002702734200283885,
+              "hate_speech": 0.00340332742780447,
+              "dangerous_activities": 0.0030343972612172365
+            }
+          },
+          "blip_description": {
+            "description": "a person holding a cat in their hand",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "Pov: foura 2 22 star",
+            "extracted_items": [
+              {
+                "text": "Pov:",
+                "confidence": 0.8493227362632751,
+                "bbox": [
+                  [
+                    86,
+                    72
+                  ],
+                  [
+                    251,
+                    72
+                  ],
+                  [
+                    251,
+                    108
+                  ],
+                  [
+                    86,
+                    108
+                  ]
+                ]
+              },
+              {
+                "text": "foura",
+                "confidence": 0.5123926037503234,
+                "bbox": [
+                  [
+                    319,
+                    73
+                  ],
+                  [
+                    552,
+                    73
+                  ],
+                  [
+                    552,
+                    106
+                  ],
+                  [
+                    319,
+                    106
+                  ]
+                ]
+              },
+              {
+                "text": "2",
+                "confidence": 0.5162263214086554,
+                "bbox": [
+                  [
+                    149,
+                    115
+                  ],
+                  [
+                    195,
+                    115
+                  ],
+                  [
+                    195,
+                    135
+                  ],
+                  [
+                    149,
+                    135
+                  ]
+                ]
+              },
+              {
+                "text": "22",
+                "confidence": 0.5153837862087888,
+                "bbox": [
+                  [
+                    628,
+                    114
+                  ],
+                  [
+                    710,
+                    114
+                  ],
+                  [
+                    710,
+                    138
+                  ],
+                  [
+                    628,
+                    138
+                  ]
+                ]
+              },
+              {
+                "text": "star",
+                "confidence": 0.8073164820671082,
+                "bbox": [
+                  [
+                    972,
+                    112
+                  ],
+                  [
+                    1124,
+                    112
+                  ],
+                  [
+                    1124,
+                    138
+                  ],
+                  [
+                    972,
+                    138
+                  ]
+                ]
+              }
+            ],
+            "ocr_available": true
+          },
+          "combined_violation": false,
+          "preview_path": "/static/frames/temp_1755514769_Y2Mate.now_Coincidentally, the cat looks just like the one in the ad #shorts #cat #catlovers_360p_frame_16.jpg"
+        }
+      ]
+    }
+  },
+  "rag_explanations": [
+    {
+      "type": "visual",
+      "frame": 1,
+      "timestamp": 0.0,
+      "category": "safe_content",
+      "confidence": 0.8961830735206604,
+      "blip": "a person holding a bag of kittens in their hands",
+      "ocr": "Pov: foura je star",
+      "policy": {
+        "description": "Content showing dangerous or harmful activities",
+        "examples": [
+          "extreme stunts",
+          "self-harm",
+          "dangerous challenges"
+        ],
+        "severity_indicators": [
+          "life-threatening",
+          "copyable dangers",
+          "no safety warnings"
+        ],
+        "context_matters": [
+          "professional vs amateur",
+          "safety precautions shown"
+        ],
+        "action_required": "age_restriction_or_removal"
+      },
+      "action_required": "age_restriction_or_removal",
+      "examples": [
+        "extreme stunts",
+        "self-harm",
+        "dangerous challenges"
+      ],
+      "severity_indicators": [
+        "life-threatening",
+        "copyable dangers",
+        "no safety warnings"
+      ],
+      "context_factors": [
+        "professional vs amateur",
+        "safety precautions shown"
+      ],
+      "violation_detected": false
+    },
+    {
+      "type": "visual",
+      "frame": 2,
+      "timestamp": 0.5,
+      "category": "safe_content",
+      "confidence": 0.8959524035453796,
+      "blip": "a person holding a cat in their hand",
+      "ocr": "Pov: foura Jek star 0",
+      "policy": {
+        "description": "Content showing dangerous or harmful activities",
+        "examples": [
+          "extreme stunts",
+          "self-harm",
+          "dangerous challenges"
+        ],
+        "severity_indicators": [
+          "life-threatening",
+          "copyable dangers",
+          "no safety warnings"
+        ],
+        "context_matters": [
+          "professional vs amateur",
+          "safety precautions shown"
+        ],
+        "action_required": "age_restriction_or_removal"
+      },
+      "action_required": "age_restriction_or_removal",
+      "examples": [
+        "extreme stunts",
+        "self-harm",
+        "dangerous challenges"
+      ],
+      "severity_indicators": [
+        "life-threatening",
+        "copyable dangers",
+        "no safety warnings"
+      ],
+      "context_factors": [
+        "professional vs amateur",
+        "safety precautions shown"
+      ],
+      "violation_detected": false
+    },
+    {
+      "type": "visual",
+      "frame": 3,
+      "timestamp": 1.0,
+      "category": "safe_content",
+      "confidence": 0.8970086574554443,
+      "blip": "a man is holding a cat in his hand",
+      "ocr": "Pov: foura star",
+      "policy": {
+        "description": "Content showing dangerous or harmful activities",
+        "examples": [
+          "extreme stunts",
+          "self-harm",
+          "dangerous challenges"
+        ],
+        "severity_indicators": [
+          "life-threatening",
+          "copyable dangers",
+          "no safety warnings"
+        ],
+        "context_matters": [
+          "professional vs amateur",
+          "safety precautions shown"
+        ],
+        "action_required": "age_restriction_or_removal"
+      },
+      "action_required": "age_restriction_or_removal",
+      "examples": [
+        "extreme stunts",
+        "self-harm",
+        "dangerous challenges"
+      ],
+      "severity_indicators": [
+        "life-threatening",
+        "copyable dangers",
+        "no safety warnings"
+      ],
+      "context_factors": [
+        "professional vs amateur",
+        "safety precautions shown"
+      ],
+      "violation_detected": false
+    },
+    {
+      "type": "visual",
+      "frame": 4,
+      "timestamp": 1.5,
+      "category": "safe_content",
+      "confidence": 0.8838865160942078,
+      "blip": "a person is holding a cat in their hand",
+      "ocr": "Pov: foura Je star",
+      "policy": {
+        "description": "Content showing dangerous or harmful activities",
+        "examples": [
+          "extreme stunts",
+          "self-harm",
+          "dangerous challenges"
+        ],
+        "severity_indicators": [
+          "life-threatening",
+          "copyable dangers",
+          "no safety warnings"
+        ],
+        "context_matters": [
+          "professional vs amateur",
+          "safety precautions shown"
+        ],
+        "action_required": "age_restriction_or_removal"
+      },
+      "action_required": "age_restriction_or_removal",
+      "examples": [
+        "extreme stunts",
+        "self-harm",
+        "dangerous challenges"
+      ],
+      "severity_indicators": [
+        "life-threatening",
+        "copyable dangers",
+        "no safety warnings"
+      ],
+      "context_factors": [
+        "professional vs amateur",
+        "safety precautions shown"
+      ],
+      "violation_detected": false
+    },
+    {
+      "type": "visual",
+      "frame": 5,
+      "timestamp": 2.0,
+      "category": "safe_content",
+      "confidence": 0.8854771256446838,
+      "blip": "a person is holding a cat in their hand",
+      "ocr": "Pov: foura Je",
+      "policy": {
+        "description": "Content showing dangerous or harmful activities",
+        "examples": [
+          "extreme stunts",
+          "self-harm",
+          "dangerous challenges"
+        ],
+        "severity_indicators": [
+          "life-threatening",
+          "copyable dangers",
+          "no safety warnings"
+        ],
+        "context_matters": [
+          "professional vs amateur",
+          "safety precautions shown"
+        ],
+        "action_required": "age_restriction_or_removal"
+      },
+      "action_required": "age_restriction_or_removal",
+      "examples": [
+        "extreme stunts",
+        "self-harm",
+        "dangerous challenges"
+      ],
+      "severity_indicators": [
+        "life-threatening",
+        "copyable dangers",
+        "no safety warnings"
+      ],
+      "context_factors": [
+        "professional vs amateur",
+        "safety precautions shown"
+      ],
+      "violation_detected": false
+    },
+    {
+      "type": "visual",
+      "frame": 6,
+      "timestamp": 2.5,
+      "category": "safe_content",
+      "confidence": 0.8785443902015686,
+      "blip": "a person is holding a cat in their hand",
+      "ocr": "Pov: foura Je",
+      "policy": {
+        "description": "Content showing dangerous or harmful activities",
+        "examples": [
+          "extreme stunts",
+          "self-harm",
+          "dangerous challenges"
+        ],
+        "severity_indicators": [
+          "life-threatening",
+          "copyable dangers",
+          "no safety warnings"
+        ],
+        "context_matters": [
+          "professional vs amateur",
+          "safety precautions shown"
+        ],
+        "action_required": "age_restriction_or_removal"
+      },
+      "action_required": "age_restriction_or_removal",
+      "examples": [
+        "extreme stunts",
+        "self-harm",
+        "dangerous challenges"
+      ],
+      "severity_indicators": [
+        "life-threatening",
+        "copyable dangers",
+        "no safety warnings"
+      ],
+      "context_factors": [
+        "professional vs amateur",
+        "safety precautions shown"
+      ],
+      "violation_detected": false
+    },
+    {
+      "type": "visual",
+      "frame": 7,
+      "timestamp": 3.0,
+      "category": "safe_content",
+      "confidence": 0.886017382144928,
+      "blip": "a person is holding a cat in their hand",
+      "ocr": "Pov: foura star",
+      "policy": {
+        "description": "Content showing dangerous or harmful activities",
+        "examples": [
+          "extreme stunts",
+          "self-harm",
+          "dangerous challenges"
+        ],
+        "severity_indicators": [
+          "life-threatening",
+          "copyable dangers",
+          "no safety warnings"
+        ],
+        "context_matters": [
+          "professional vs amateur",
+          "safety precautions shown"
+        ],
+        "action_required": "age_restriction_or_removal"
+      },
+      "action_required": "age_restriction_or_removal",
+      "examples": [
+        "extreme stunts",
+        "self-harm",
+        "dangerous challenges"
+      ],
+      "severity_indicators": [
+        "life-threatening",
+        "copyable dangers",
+        "no safety warnings"
+      ],
+      "context_factors": [
+        "professional vs amateur",
+        "safety precautions shown"
+      ],
+      "violation_detected": false
+    },
+    {
+      "type": "visual",
+      "frame": 8,
+      "timestamp": 3.5,
+      "category": "safe_content",
+      "confidence": 0.890396773815155,
+      "blip": "a person is holding a cat in their hand",
+      "ocr": "Pov: foura 22 star",
+      "policy": {
+        "description": "Content showing dangerous or harmful activities",
+        "examples": [
+          "extreme stunts",
+          "self-harm",
+          "dangerous challenges"
+        ],
+        "severity_indicators": [
+          "life-threatening",
+          "copyable dangers",
+          "no safety warnings"
+        ],
+        "context_matters": [
+          "professional vs amateur",
+          "safety precautions shown"
+        ],
+        "action_required": "age_restriction_or_removal"
+      },
+      "action_required": "age_restriction_or_removal",
+      "examples": [
+        "extreme stunts",
+        "self-harm",
+        "dangerous challenges"
+      ],
+      "severity_indicators": [
+        "life-threatening",
+        "copyable dangers",
+        "no safety warnings"
+      ],
+      "context_factors": [
+        "professional vs amateur",
+        "safety precautions shown"
+      ],
+      "violation_detected": false
+    },
+    {
+      "type": "visual",
+      "frame": 9,
+      "timestamp": 4.0,
+      "category": "safe_content",
+      "confidence": 0.8942817449569702,
+      "blip": "a person holding a bag of cat food",
+      "ocr": "Pov: 2 22 star",
+      "policy": {
+        "description": "Content showing dangerous or harmful activities",
+        "examples": [
+          "extreme stunts",
+          "self-harm",
+          "dangerous challenges"
+        ],
+        "severity_indicators": [
+          "life-threatening",
+          "copyable dangers",
+          "no safety warnings"
+        ],
+        "context_matters": [
+          "professional vs amateur",
+          "safety precautions shown"
+        ],
+        "action_required": "age_restriction_or_removal"
+      },
+      "action_required": "age_restriction_or_removal",
+      "examples": [
+        "extreme stunts",
+        "self-harm",
+        "dangerous challenges"
+      ],
+      "severity_indicators": [
+        "life-threatening",
+        "copyable dangers",
+        "no safety warnings"
+      ],
+      "context_factors": [
+        "professional vs amateur",
+        "safety precautions shown"
+      ],
+      "violation_detected": false
+    },
+    {
+      "type": "visual",
+      "frame": 10,
+      "timestamp": 4.5,
+      "category": "safe_content",
+      "confidence": 0.8873918056488037,
+      "blip": "a person is holding a cat in their hand",
+      "ocr": "Pov: foura 2 22 24 star",
+      "policy": {
+        "description": "Content showing dangerous or harmful activities",
+        "examples": [
+          "extreme stunts",
+          "self-harm",
+          "dangerous challenges"
+        ],
+        "severity_indicators": [
+          "life-threatening",
+          "copyable dangers",
+          "no safety warnings"
+        ],
+        "context_matters": [
+          "professional vs amateur",
+          "safety precautions shown"
+        ],
+        "action_required": "age_restriction_or_removal"
+      },
+      "action_required": "age_restriction_or_removal",
+      "examples": [
+        "extreme stunts",
+        "self-harm",
+        "dangerous challenges"
+      ],
+      "severity_indicators": [
+        "life-threatening",
+        "copyable dangers",
+        "no safety warnings"
+      ],
+      "context_factors": [
+        "professional vs amateur",
+        "safety precautions shown"
+      ],
+      "violation_detected": false
+    },
+    {
+      "type": "visual",
+      "frame": 11,
+      "timestamp": 5.0,
+      "category": "safe_content",
+      "confidence": 0.8731474876403809,
+      "blip": "a person is holding a cat in their hand",
+      "ocr": "Pov: foura 22 star",
+      "policy": {
+        "description": "Content showing dangerous or harmful activities",
+        "examples": [
+          "extreme stunts",
+          "self-harm",
+          "dangerous challenges"
+        ],
+        "severity_indicators": [
+          "life-threatening",
+          "copyable dangers",
+          "no safety warnings"
+        ],
+        "context_matters": [
+          "professional vs amateur",
+          "safety precautions shown"
+        ],
+        "action_required": "age_restriction_or_removal"
+      },
+      "action_required": "age_restriction_or_removal",
+      "examples": [
+        "extreme stunts",
+        "self-harm",
+        "dangerous challenges"
+      ],
+      "severity_indicators": [
+        "life-threatening",
+        "copyable dangers",
+        "no safety warnings"
+      ],
+      "context_factors": [
+        "professional vs amateur",
+        "safety precautions shown"
+      ],
+      "violation_detected": false
+    },
+    {
+      "type": "visual",
+      "frame": 12,
+      "timestamp": 5.5,
+      "category": "safe_content",
+      "confidence": 0.871807336807251,
+      "blip": "a person is holding a cat in their hand",
+      "ocr": "Pov: foura 2 Jeb 22",
+      "policy": {
+        "description": "Content showing dangerous or harmful activities",
+        "examples": [
+          "extreme stunts",
+          "self-harm",
+          "dangerous challenges"
+        ],
+        "severity_indicators": [
+          "life-threatening",
+          "copyable dangers",
+          "no safety warnings"
+        ],
+        "context_matters": [
+          "professional vs amateur",
+          "safety precautions shown"
+        ],
+        "action_required": "age_restriction_or_removal"
+      },
+      "action_required": "age_restriction_or_removal",
+      "examples": [
+        "extreme stunts",
+        "self-harm",
+        "dangerous challenges"
+      ],
+      "severity_indicators": [
+        "life-threatening",
+        "copyable dangers",
+        "no safety warnings"
+      ],
+      "context_factors": [
+        "professional vs amateur",
+        "safety precautions shown"
+      ],
+      "violation_detected": false
+    },
+    {
+      "type": "visual",
+      "frame": 13,
+      "timestamp": 6.0,
+      "category": "safe_content",
+      "confidence": 0.8850479125976562,
+      "blip": "a person is holding a cat in their hand",
+      "ocr": "Pov: foura 2 Jeb 22",
+      "policy": {
+        "description": "Content showing dangerous or harmful activities",
+        "examples": [
+          "extreme stunts",
+          "self-harm",
+          "dangerous challenges"
+        ],
+        "severity_indicators": [
+          "life-threatening",
+          "copyable dangers",
+          "no safety warnings"
+        ],
+        "context_matters": [
+          "professional vs amateur",
+          "safety precautions shown"
+        ],
+        "action_required": "age_restriction_or_removal"
+      },
+      "action_required": "age_restriction_or_removal",
+      "examples": [
+        "extreme stunts",
+        "self-harm",
+        "dangerous challenges"
+      ],
+      "severity_indicators": [
+        "life-threatening",
+        "copyable dangers",
+        "no safety warnings"
+      ],
+      "context_factors": [
+        "professional vs amateur",
+        "safety precautions shown"
+      ],
+      "violation_detected": false
+    },
+    {
+      "type": "visual",
+      "frame": 14,
+      "timestamp": 6.5,
+      "category": "safe_content",
+      "confidence": 0.8875832557678223,
+      "blip": "a person is holding a cat in their hand",
+      "ocr": "Pov: foura 2 Jeb 22 star",
+      "policy": {
+        "description": "Content showing dangerous or harmful activities",
+        "examples": [
+          "extreme stunts",
+          "self-harm",
+          "dangerous challenges"
+        ],
+        "severity_indicators": [
+          "life-threatening",
+          "copyable dangers",
+          "no safety warnings"
+        ],
+        "context_matters": [
+          "professional vs amateur",
+          "safety precautions shown"
+        ],
+        "action_required": "age_restriction_or_removal"
+      },
+      "action_required": "age_restriction_or_removal",
+      "examples": [
+        "extreme stunts",
+        "self-harm",
+        "dangerous challenges"
+      ],
+      "severity_indicators": [
+        "life-threatening",
+        "copyable dangers",
+        "no safety warnings"
+      ],
+      "context_factors": [
+        "professional vs amateur",
+        "safety precautions shown"
+      ],
+      "violation_detected": false
+    },
+    {
+      "type": "visual",
+      "frame": 15,
+      "timestamp": 7.0,
+      "category": "safe_content",
+      "confidence": 0.8949018716812134,
+      "blip": "a cat is sitting on the floor and eating a bag of chips",
+      "ocr": "Pov: foura 2 22 star",
+      "policy": {
+        "description": "Content showing dangerous or harmful activities",
+        "examples": [
+          "extreme stunts",
+          "self-harm",
+          "dangerous challenges"
+        ],
+        "severity_indicators": [
+          "life-threatening",
+          "copyable dangers",
+          "no safety warnings"
+        ],
+        "context_matters": [
+          "professional vs amateur",
+          "safety precautions shown"
+        ],
+        "action_required": "age_restriction_or_removal"
+      },
+      "action_required": "age_restriction_or_removal",
+      "examples": [
+        "extreme stunts",
+        "self-harm",
+        "dangerous challenges"
+      ],
+      "severity_indicators": [
+        "life-threatening",
+        "copyable dangers",
+        "no safety warnings"
+      ],
+      "context_factors": [
+        "professional vs amateur",
+        "safety precautions shown"
+      ],
+      "violation_detected": false
+    },
+    {
+      "type": "visual",
+      "frame": 16,
+      "timestamp": 7.5,
+      "category": "safe_content",
+      "confidence": 0.8962466716766357,
+      "blip": "a person holding a cat in their hand",
+      "ocr": "Pov: foura 2 22 star",
+      "policy": {
+        "description": "Content showing dangerous or harmful activities",
+        "examples": [
+          "extreme stunts",
+          "self-harm",
+          "dangerous challenges"
+        ],
+        "severity_indicators": [
+          "life-threatening",
+          "copyable dangers",
+          "no safety warnings"
+        ],
+        "context_matters": [
+          "professional vs amateur",
+          "safety precautions shown"
+        ],
+        "action_required": "age_restriction_or_removal"
+      },
+      "action_required": "age_restriction_or_removal",
+      "examples": [
+        "extreme stunts",
+        "self-harm",
+        "dangerous challenges"
+      ],
+      "severity_indicators": [
+        "life-threatening",
+        "copyable dangers",
+        "no safety warnings"
+      ],
+      "context_factors": [
+        "professional vs amateur",
+        "safety precautions shown"
+      ],
+      "violation_detected": false
+    }
+  ]
+}

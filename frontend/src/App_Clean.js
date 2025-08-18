@@ -89,15 +89,21 @@ function App() {
     setError('');
     setAnalysis(null);
     try {
+      // Build params based on extraction mode
+      const params = new URLSearchParams();
+      if (frameSettings.frameSampling === 'count') {
+        params.append('frame_count', frameSettings.frameCount);
+        params.append('sampling_method', 'count');
+      } else {
+        params.append('frame_interval', frameSettings.frameInterval);
+        params.append('sampling_method', 'interval');
+      }
+      params.append('resolution', frameSettings.frameResolution);
+      params.append('format', frameSettings.frameFormat);
+      params.append('start_time', frameSettings.frameStart);
+      params.append('end_time', frameSettings.frameEnd !== null ? frameSettings.frameEnd : -1);
       const formData = new FormData();
       formData.append('file', selectedFile);
-      Object.entries(frameSettings).forEach(([key, value]) => {
-        if (value !== null && value !== undefined) formData.append(key, value);
-      });
-      const params = new URLSearchParams();
-      Object.entries(frameSettings).forEach(([key, value]) => {
-        if (value !== null && value !== undefined) params.append(key, value);
-      });
       const response = await fetch(`${API_BASE_URL}/upload-video?${params.toString()}`, {
         method: 'POST',
         body: formData,
@@ -264,28 +270,7 @@ function App() {
     { label: 'CUSTOMIZE', color: 'warning', onClick: () => alert('Customize feature coming soon!') },
   ];
 
-  if (showRagPage) {
-    return (
-      <>
-        <Box sx={{ p: 3, mb: 2 }}>
-          <Typography variant="h5" color="success.main">
-            Safe Content Frames: {safeCount} / {totalFrames}
-          </Typography>
-          <LinearProgress variant="determinate" value={totalFrames ? (safeCount / totalFrames) * 100 : 0} sx={{ height: 10, borderRadius: 5, mt: 1 }} color="success" />
-        </Box>
-        <RagAnalysisPage ragAnalysis={ragAnalysis} onBack={() => setShowRagPage(false)} />
-      </>
-    );
-  }
-  if (showSettings) {
-    return <SettingsPage settings={frameSettings} onSave={settings => { setFrameSettings(settings); setShowSettings(false); }} />;
-  }
-  if (showHistory) {
-    return <UploadHistoryPage />;
-  }
-  if (showFrameDetails) {
-    return <FrameDetailsPage frames={ragAnalysis?.retrieved_docs || []} />;
-  }
+  // Instead of returning early, render all pages conditionally inside main JSX so state is always preserved
   // Main page: preserve analysis and ragAnalysis state
 
   const formatFileSize = (bytes) => {
@@ -295,6 +280,198 @@ function App() {
     const i = Math.floor(Math.log(bytes) / Math.log(k));
     return parseFloat((bytes / Math.pow(k, i)).toFixed(2) + ' ' + sizes[i]);
   };
+
+  // Conditional rendering for all pages
+  let mainContent = null;
+  if (showSettings) {
+    mainContent = <SettingsPage settings={frameSettings} onSave={settings => { setFrameSettings(settings); setShowSettings(false); }} />;
+  } else if (showRagPage) {
+    mainContent = <><Box sx={{ p: 3, mb: 2 }}>
+      <Typography variant="h5" color="success.main">
+        Safe Content Frames: {safeCount} / {totalFrames}
+      </Typography>
+      <LinearProgress variant="determinate" value={totalFrames ? (safeCount / totalFrames) * 100 : 0} sx={{ height: 10, borderRadius: 5, mt: 1 }} color="success" />
+    </Box>
+      <RagAnalysisPage ragAnalysis={ragAnalysis} onBack={() => setShowRagPage(false)} /></>;
+  } else if (showHistory) {
+    mainContent = <UploadHistoryPage />;
+  } else if (showFrameDetails) {
+    mainContent = <FrameDetailsPage frames={ragAnalysis?.retrieved_docs || []} />;
+  } else {
+    mainContent = (
+      <Container maxWidth="md" sx={{ mt: 2, pb: 2 }}>
+        <Grid container spacing={2} alignItems="stretch" justifyContent="center">
+          {/* Welcome/Info Section */}
+          <Grid item xs={12} md={6} lg={6}>
+            <Box sx={{
+              minHeight: 180,
+              width: '100%',
+              display: 'flex',
+              flexDirection: 'column',
+              alignItems: 'center',
+              justifyContent: 'center',
+              background: 'linear-gradient(120deg, #1976d2 60%, #21cbf3 100%)',
+              borderRadius: 4,
+              boxShadow: '0 4px 16px rgba(33,203,243,0.10)',
+              px: 3,
+              py: 3,
+              mt: 1,
+            }}>
+              <Box display="flex" alignItems="center" justifyContent="center" mb={2}>
+                <VideoLibrary sx={{ fontSize: 72, mr: 2, color: '#fff' }} />
+                <Analytics sx={{ fontSize: 56, mr: 2, color: '#fffde7' }} />
+                <CheckCircle sx={{ fontSize: 56, color: '#e8f5e9' }} />
+              </Box>
+              <Typography variant="h4" sx={{ fontWeight: 'bold', color: '#fff', mb: 1, textShadow: '1px 1px 8px #1976d2', letterSpacing: 1 }}>
+                Welcome to AI Video Content Analyzer
+              </Typography>
+              <Typography variant="subtitle1" sx={{ color: '#e3f2fd', mb: 1, fontWeight: 500 }}>
+                Analyze your videos for YouTube policy compliance in seconds!
+              </Typography>
+              <Typography variant="body2" sx={{ color: '#fff', mb: 2, maxWidth: 400, textAlign: 'center', fontSize: '1rem' }}>
+                <b>How it works:</b> Upload a video file and get instant feedback on compliance, violations, and recommendations.<br />
+                Powered by advanced AI models for text, audio, and image analysis.
+              </Typography>
+              <Typography variant="body2" sx={{ color: '#fffde7', mb: 2, fontSize: '0.95rem' }}>
+                <b>Supported formats:</b> MP4, AVI, MOV, MKV
+              </Typography>
+              <Button
+                variant="contained"
+                color="secondary"
+                size="medium"
+                sx={{ fontWeight: 'bold', px: 3, py: 1, fontSize: '1rem', boxShadow: 2, borderRadius: 2, background: 'linear-gradient(90deg,#8e24aa 60%,#d1c4e9 100%)', ':hover': { background: 'linear-gradient(90deg,#6a1b9a 60%,#b39ddb 100%)', transform: 'scale(1.03)' } }}
+                onClick={() => document.getElementById('video-upload').click()}
+              >
+                <CloudUpload sx={{ mr: 1, fontSize: 24 }} /> START ANALYSIS
+              </Button>
+            </Box>
+          </Grid>
+          {/* Upload Section */}
+          <Grid item xs={12} md={6} lg={6}>
+            <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', width: '100%' }}>
+              <Card sx={{ width: '100%', maxWidth: 320, mx: 'auto', p: 2, boxShadow: '0 2px 8px rgba(33,203,243,0.08)', borderRadius: 3, background: '#fff' }}>
+                <CardContent>
+                  <Typography variant="subtitle1" align="center" sx={{ mb: 2, fontWeight: 'bold', color: '#1976d2', letterSpacing: 1 }}>
+                    Full Video Moderation (Upload)
+                  </Typography>
+                  {/* Display chosen frame settings */}
+                  <Box sx={{ mb: 1, p: 1, background: '#e3f2fd', borderRadius: 1, fontSize: '0.95rem', color: '#1976d2' }}>
+                    <Typography variant="subtitle2" sx={{ fontWeight: 'bold', mb: 1 }}>Current Frame Extraction Settings:</Typography>
+                    <ul style={{ margin: 0, paddingLeft: 20 }}>
+                      <li>Frames: <b>{frameSettings.frameCount}</b></li>
+                      <li>Interval: <b>{frameSettings.frameInterval}</b> sec</li>
+                      <li>Resolution: <b>{frameSettings.frameResolution}</b></li>
+                      <li>Format: <b>{frameSettings.frameFormat}</b></li>
+                      <li>Start: <b>{frameSettings.frameStart}</b> sec</li>
+                      <li>End: <b>{frameSettings.frameEnd !== null ? frameSettings.frameEnd : 'Full video'}</b></li>
+                      <li>Sampling: <b>{frameSettings.frameSampling}</b></li>
+                    </ul>
+                  </Box>
+                  <Box
+                    sx={{
+                      border: '2px dashed #1976d2',
+                      borderRadius: 2,
+                      p: 2,
+                      mb: 2,
+                      textAlign: 'center',
+                      background: '#e3f2fd',
+                      cursor: 'pointer',
+                      transition: '0.2s',
+                      ':hover': { background: '#bbdefb', borderColor: '#1565c0' },
+                    }}
+                    onClick={() => document.getElementById('video-upload').click()}
+                    onDragOver={e => e.preventDefault()}
+                    onDrop={e => {
+                      e.preventDefault();
+                      if (e.dataTransfer.files && e.dataTransfer.files[0]) {
+                        handleFileChange({ target: { files: e.dataTransfer.files } });
+                      }
+                    }}
+                  >
+                    <input
+                      accept="video/*"
+                      style={{ display: 'none' }}
+                      id="video-upload"
+                      type="file"
+                      onChange={handleFileChange}
+                    />
+                    {selectedFile ? (
+                      <Typography variant="body2" color="primary" sx={{ fontWeight: 'bold', fontSize: '1rem' }}>
+                        {selectedFile.name} ({formatFileSize(selectedFile.size)})
+                      </Typography>
+                    ) : (
+                      <Typography variant="body2" color="text.secondary" sx={{ fontSize: '1rem' }}>
+                        Drag & Drop a video here, or click to upload
+                      </Typography>
+                    )}
+                  </Box>
+                  <Button
+                    variant="contained"
+                    color="primary"
+                    fullWidth
+                    sx={{ fontWeight: 'bold', py: 1, fontSize: '1rem', borderRadius: 2, boxShadow: 1, background: 'linear-gradient(90deg,#1976d2 60%,#21cbf3 100%)', ':hover': { background: 'linear-gradient(90deg,#1565c0 60%,#039be5 100%)', transform: 'scale(1.01)' } }}
+                    onClick={handleAnalyze}
+                    disabled={loading || !selectedFile || connectionStatus !== 'connected'}
+                  >
+                    {loading ? 'Uploading...' : 'UPLOAD VIDEO'}
+                  </Button>
+                  {error && (
+                    <Alert severity="error" sx={{ mt: 3 }}>
+                      {error}
+                    </Alert>
+                  )}
+                </CardContent>
+              </Card>
+              {/* Progress Bar with Percentage */}
+              {loading && (
+                <Paper sx={{ p: 1, mb: 2, width: '100%' }}>
+                  <Typography variant="body2" gutterBottom>
+                    Analyzing video content...
+                  </Typography>
+                  <Box sx={{ display: 'flex', alignItems: 'center', mb: 1 }}>
+                    <Box sx={{ width: '100%', mr: 1 }}>
+                      <LinearProgress variant="determinate" value={progress} />
+                    </Box>
+                    <Typography variant="caption" sx={{ minWidth: 30 }}>{progress}%</Typography>
+                  </Box>
+                </Paper>
+              )}
+              {/* Simple Model Report (Analysis Results) */}
+              {analysis && (
+                <Card sx={{ mt: 2, boxShadow: 2, borderRadius: 2 }}>
+                  <CardContent>
+                    <Typography variant="subtitle1" sx={{ fontWeight: 'bold', mb: 1 }} color="primary">
+                      Model Analysis Summary
+                    </Typography>
+                    <Typography variant="body2">Score: <b>{parsedReport?.image_score || 'N/A'}%</b></Typography>
+                    <Typography variant="body2">Status: <b>{parsedReport?.overall || 'N/A'}</b></Typography>
+                    <Typography variant="body2">Frames Analyzed: <b>{parsedReport?.frames_analyzed || 'N/A'}</b></Typography>
+                    <Button variant="outlined" color="info" sx={{ mt: 1, fontSize: '0.95rem', py: 0.5 }} onClick={() => setShowFrameDetails(true)}>
+                      View Detailed Frame Report
+                    </Button>
+                  </CardContent>
+                </Card>
+              )}
+            </Box>
+          </Grid>
+        </Grid>
+        {connectionStatus === 'disconnected' && (
+          <Alert severity="error" sx={{ mb: 4 }} action={
+            <Button color="inherit" size="small" onClick={testConnection}>
+              Retry
+            </Button>
+          }>
+            Cannot connect to backend server. Make sure the server is running on http://localhost:8000
+          </Alert>
+        )}
+        {connectionStatus === 'connected' && (
+          <Alert severity="success" sx={{ mb: 4 }}>
+            ✅ AI Video Analyzer ready! Upload and analyze your video files.
+          </Alert>
+        )}
+      </Container>
+    );
+  }
 
   return (
     <Box sx={{ display: 'flex', minHeight: '100vh', backgroundColor: '#f5f5f5' }}>
@@ -321,177 +498,7 @@ function App() {
             </Typography>
           </Toolbar>
         </AppBar>
-        <Container maxWidth="md" sx={{ mt: 2, pb: 2 }}>
-          <Grid container spacing={2} alignItems="stretch" justifyContent="center">
-            {/* Welcome/Info Section */}
-            <Grid item xs={12} md={6} lg={6}>
-              <Box sx={{
-                minHeight: 180,
-                width: '100%',
-                display: 'flex',
-                flexDirection: 'column',
-                alignItems: 'center',
-                justifyContent: 'center',
-                background: 'linear-gradient(120deg, #1976d2 60%, #21cbf3 100%)',
-                borderRadius: 4,
-                boxShadow: '0 4px 16px rgba(33,203,243,0.10)',
-                px: 3,
-                py: 3,
-                mt: 1,
-              }}>
-                <Box display="flex" alignItems="center" justifyContent="center" mb={2}>
-                  <VideoLibrary sx={{ fontSize: 72, mr: 2, color: '#fff' }} />
-                  <Analytics sx={{ fontSize: 56, mr: 2, color: '#fffde7' }} />
-                  <CheckCircle sx={{ fontSize: 56, color: '#e8f5e9' }} />
-                </Box>
-                <Typography variant="h4" sx={{ fontWeight: 'bold', color: '#fff', mb: 1, textShadow: '1px 1px 8px #1976d2', letterSpacing: 1 }}>
-                  Welcome to AI Video Content Analyzer
-                </Typography>
-                <Typography variant="subtitle1" sx={{ color: '#e3f2fd', mb: 1, fontWeight: 500 }}>
-                  Analyze your videos for YouTube policy compliance in seconds!
-                </Typography>
-                <Typography variant="body2" sx={{ color: '#fff', mb: 2, maxWidth: 400, textAlign: 'center', fontSize: '1rem' }}>
-                  <b>How it works:</b> Upload a video file and get instant feedback on compliance, violations, and recommendations.<br />
-                  Powered by advanced AI models for text, audio, and image analysis.
-                </Typography>
-                <Typography variant="body2" sx={{ color: '#fffde7', mb: 2, fontSize: '0.95rem' }}>
-                  <b>Supported formats:</b> MP4, AVI, MOV, MKV
-                </Typography>
-                <Button
-                  variant="contained"
-                  color="secondary"
-                  size="medium"
-                  sx={{ fontWeight: 'bold', px: 3, py: 1, fontSize: '1rem', boxShadow: 2, borderRadius: 2, background: 'linear-gradient(90deg,#8e24aa 60%,#d1c4e9 100%)', ':hover': { background: 'linear-gradient(90deg,#6a1b9a 60%,#b39ddb 100%)', transform: 'scale(1.03)' } }}
-                  onClick={() => document.getElementById('video-upload').click()}
-                >
-                  <CloudUpload sx={{ mr: 1, fontSize: 24 }} /> START ANALYSIS
-                </Button>
-              </Box>
-            </Grid>
-            {/* Upload Section */}
-            <Grid item xs={12} md={6} lg={6}>
-              <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', width: '100%' }}>
-                <Card sx={{ width: '100%', maxWidth: 320, mx: 'auto', p: 2, boxShadow: '0 2px 8px rgba(33,203,243,0.08)', borderRadius: 3, background: '#fff' }}>
-                  <CardContent>
-                    <Typography variant="subtitle1" align="center" sx={{ mb: 2, fontWeight: 'bold', color: '#1976d2', letterSpacing: 1 }}>
-                      Full Video Moderation (Upload)
-                    </Typography>
-                    {/* Display chosen frame settings */}
-                    <Box sx={{ mb: 1, p: 1, background: '#e3f2fd', borderRadius: 1, fontSize: '0.95rem', color: '#1976d2' }}>
-                      <Typography variant="subtitle2" sx={{ fontWeight: 'bold', mb: 1 }}>Current Frame Extraction Settings:</Typography>
-                      <ul style={{ margin: 0, paddingLeft: 20 }}>
-                        <li>Frames: <b>{frameSettings.frameCount}</b></li>
-                        <li>Interval: <b>{frameSettings.frameInterval}</b> sec</li>
-                        <li>Resolution: <b>{frameSettings.frameResolution}</b></li>
-                        <li>Format: <b>{frameSettings.frameFormat}</b></li>
-                        <li>Start: <b>{frameSettings.frameStart}</b> sec</li>
-                        <li>End: <b>{frameSettings.frameEnd !== null ? frameSettings.frameEnd : 'Full video'}</b></li>
-                        <li>Sampling: <b>{frameSettings.frameSampling}</b></li>
-                      </ul>
-                    </Box>
-                    <Box
-                      sx={{
-                        border: '2px dashed #1976d2',
-                        borderRadius: 2,
-                        p: 2,
-                        mb: 2,
-                        textAlign: 'center',
-                        background: '#e3f2fd',
-                        cursor: 'pointer',
-                        transition: '0.2s',
-                        ':hover': { background: '#bbdefb', borderColor: '#1565c0' },
-                      }}
-                      onClick={() => document.getElementById('video-upload').click()}
-                      onDragOver={e => e.preventDefault()}
-                      onDrop={e => {
-                        e.preventDefault();
-                        if (e.dataTransfer.files && e.dataTransfer.files[0]) {
-                          handleFileChange({ target: { files: e.dataTransfer.files } });
-                        }
-                      }}
-                    >
-                      <input
-                        accept="video/*"
-                        style={{ display: 'none' }}
-                        id="video-upload"
-                        type="file"
-                        onChange={handleFileChange}
-                      />
-                      {selectedFile ? (
-                        <Typography variant="body2" color="primary" sx={{ fontWeight: 'bold', fontSize: '1rem' }}>
-                          {selectedFile.name} ({formatFileSize(selectedFile.size)})
-                        </Typography>
-                      ) : (
-                        <Typography variant="body2" color="text.secondary" sx={{ fontSize: '1rem' }}>
-                          Drag & Drop a video here, or click to upload
-                        </Typography>
-                      )}
-                    </Box>
-                    <Button
-                      variant="contained"
-                      color="primary"
-                      fullWidth
-                      sx={{ fontWeight: 'bold', py: 1, fontSize: '1rem', borderRadius: 2, boxShadow: 1, background: 'linear-gradient(90deg,#1976d2 60%,#21cbf3 100%)', ':hover': { background: 'linear-gradient(90deg,#1565c0 60%,#039be5 100%)', transform: 'scale(1.01)' } }}
-                      onClick={handleAnalyze}
-                      disabled={loading || !selectedFile || connectionStatus !== 'connected'}
-                    >
-                      {loading ? 'Uploading...' : 'UPLOAD VIDEO'}
-                    </Button>
-                    {error && (
-                      <Alert severity="error" sx={{ mt: 3 }}>
-                        {error}
-                      </Alert>
-                    )}
-                  </CardContent>
-                </Card>
-                {/* Progress Bar with Percentage */}
-                {loading && (
-                  <Paper sx={{ p: 1, mb: 2, width: '100%' }}>
-                    <Typography variant="body2" gutterBottom>
-                      Analyzing video content...
-                    </Typography>
-                    <Box sx={{ display: 'flex', alignItems: 'center', mb: 1 }}>
-                      <Box sx={{ width: '100%', mr: 1 }}>
-                        <LinearProgress variant="determinate" value={progress} />
-                      </Box>
-                      <Typography variant="caption" sx={{ minWidth: 30 }}>{progress}%</Typography>
-                    </Box>
-                  </Paper>
-                )}
-                {/* Simple Model Report (Analysis Results) */}
-                {analysis && (
-                  <Card sx={{ mt: 2, boxShadow: 2, borderRadius: 2 }}>
-                    <CardContent>
-                      <Typography variant="subtitle1" sx={{ fontWeight: 'bold', mb: 1 }} color="primary">
-                        Model Analysis Summary
-                      </Typography>
-                      <Typography variant="body2">Score: <b>{parsedReport?.image_score || 'N/A'}%</b></Typography>
-                      <Typography variant="body2">Status: <b>{parsedReport?.overall || 'N/A'}</b></Typography>
-                      <Typography variant="body2">Frames Analyzed: <b>{parsedReport?.frames_analyzed || 'N/A'}</b></Typography>
-                      <Button variant="outlined" color="info" sx={{ mt: 1, fontSize: '0.95rem', py: 0.5 }} onClick={() => setShowFrameDetails(true)}>
-                        View Detailed Frame Report
-                      </Button>
-                    </CardContent>
-                  </Card>
-                )}
-              </Box>
-            </Grid>
-          </Grid>
-          {connectionStatus === 'disconnected' && (
-            <Alert severity="error" sx={{ mb: 4 }} action={
-              <Button color="inherit" size="small" onClick={testConnection}>
-                Retry
-              </Button>
-            }>
-              Cannot connect to backend server. Make sure the server is running on http://localhost:8000
-            </Alert>
-          )}
-          {connectionStatus === 'connected' && (
-            <Alert severity="success" sx={{ mb: 4 }}>
-              ✅ AI Video Analyzer ready! Upload and analyze your video files.
-            </Alert>
-          )}
-        </Container>
+        {mainContent}
       </Box>
     </Box>
   );
