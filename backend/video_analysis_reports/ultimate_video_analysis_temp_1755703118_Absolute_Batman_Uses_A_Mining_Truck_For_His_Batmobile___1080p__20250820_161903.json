@@ -1,0 +1,678 @@
+{
+  "video_info": {
+    "path": "C:\\Users\\PC\\AppData\\Local\\Temp\\video_analysis\\temp_1755703118_Absolute Batman Uses A Mining Truck For His Batmobile! (1080p).mp4",
+    "name": "temp_1755703118_Absolute Batman Uses A Mining Truck For His Batmobile! (1080p).mp4",
+    "analysis_time": 5.255170822143555,
+    "timestamp": "2025-08-20T16:18:56.247535"
+  },
+  "frame_analysis": {
+    "total_frames": 1,
+    "violation_frames": 0,
+    "average_confidence": 0.8855671882629395,
+    "violation_categories": []
+  },
+  "audio_analysis": {
+    "transcript": " This is the Batmobile of Absolute Batman. And we first got leaked images a couple of months ago as to what this Bat Tank looked like. But in issue 2 of Absolute Batman, we finally get our first hand look. And I've said it so many times, my favorite part of Absolute Batman is Alfred falling in love with Batman's mission. Cause right now, the sole reason why Alfred is even in Gotham is because he's attempting to discern what's going on with the party animals and black masks. But in the early beginnings of Alfred's investigation, Batman showed up and has become a person of interest. And as Batman advances forward, Alfred has become more and more invested in his mission. culminating in Alfred appearing spontaneously in the Batmobile when Batman is getting ready to make his dramatic escape. Now, as for the Batmobile itself, it was revealed to me that it's a 797 mining truck. So somehow, Bruce got his hands on a literal mining truck and transformed it into the Batmobile. And a little bit of perspective on this, Batman stole a $5 million tank and turned it into the Batmobile.",
+    "language": "en",
+    "policy_flags": {
+      "violence": {
+        "keywords_found": [
+          "war"
+        ],
+        "severity": "medium"
+      }
+    },
+    "whisper_available": true,
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 2.32,
+        "text": " This is the Batmobile of Absolute Batman.",
+        "tokens": [
+          50364,
+          639,
+          307,
+          264,
+          10066,
+          76,
+          13632,
+          295,
+          43965,
+          1169,
+          15432,
+          13,
+          50480
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.16198081440395778,
+        "compression_ratio": 1.7544910179640718,
+        "no_speech_prob": 0.020942039787769318
+      },
+      {
+        "id": 1,
+        "seek": 0,
+        "start": 2.32,
+        "end": 6.88,
+        "text": " And we first got leaked images a couple of months ago as to what this Bat Tank looked like.",
+        "tokens": [
+          50480,
+          400,
+          321,
+          700,
+          658,
+          31779,
+          5267,
+          257,
+          1916,
+          295,
+          2493,
+          2057,
+          382,
+          281,
+          437,
+          341,
+          10066,
+          28746,
+          2956,
+          411,
+          13,
+          50708
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.16198081440395778,
+        "compression_ratio": 1.7544910179640718,
+        "no_speech_prob": 0.020942039787769318
+      },
+      {
+        "id": 2,
+        "seek": 0,
+        "start": 6.88,
+        "end": 10.88,
+        "text": " But in issue 2 of Absolute Batman, we finally get our first hand look.",
+        "tokens": [
+          50708,
+          583,
+          294,
+          2734,
+          568,
+          295,
+          43965,
+          1169,
+          15432,
+          11,
+          321,
+          2721,
+          483,
+          527,
+          700,
+          1011,
+          574,
+          13,
+          50908
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.16198081440395778,
+        "compression_ratio": 1.7544910179640718,
+        "no_speech_prob": 0.020942039787769318
+      },
+      {
+        "id": 3,
+        "seek": 0,
+        "start": 10.88,
+        "end": 17.36,
+        "text": " And I've said it so many times, my favorite part of Absolute Batman is Alfred falling in love with Batman's mission.",
+        "tokens": [
+          50908,
+          400,
+          286,
+          600,
+          848,
+          309,
+          370,
+          867,
+          1413,
+          11,
+          452,
+          2954,
+          644,
+          295,
+          43965,
+          1169,
+          15432,
+          307,
+          28327,
+          7440,
+          294,
+          959,
+          365,
+          15432,
+          311,
+          4447,
+          13,
+          51232
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.16198081440395778,
+        "compression_ratio": 1.7544910179640718,
+        "no_speech_prob": 0.020942039787769318
+      },
+      {
+        "id": 4,
+        "seek": 0,
+        "start": 17.36,
+        "end": 21.76,
+        "text": " Cause right now, the sole reason why Alfred is even in Gotham is because he's attempting to discern",
+        "tokens": [
+          51232,
+          10865,
+          558,
+          586,
+          11,
+          264,
+          12321,
+          1778,
+          983,
+          28327,
+          307,
+          754,
+          294,
+          27305,
+          335,
+          307,
+          570,
+          415,
+          311,
+          22001,
+          281,
+          30868,
+          51452
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.16198081440395778,
+        "compression_ratio": 1.7544910179640718,
+        "no_speech_prob": 0.020942039787769318
+      },
+      {
+        "id": 5,
+        "seek": 0,
+        "start": 21.76,
+        "end": 24.240000000000002,
+        "text": " what's going on with the party animals and black masks.",
+        "tokens": [
+          51452,
+          437,
+          311,
+          516,
+          322,
+          365,
+          264,
+          3595,
+          4882,
+          293,
+          2211,
+          11830,
+          13,
+          51576
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.16198081440395778,
+        "compression_ratio": 1.7544910179640718,
+        "no_speech_prob": 0.020942039787769318
+      },
+      {
+        "id": 6,
+        "seek": 0,
+        "start": 24.240000000000002,
+        "end": 28.8,
+        "text": " But in the early beginnings of Alfred's investigation, Batman showed up and has become a person of interest.",
+        "tokens": [
+          51576,
+          583,
+          294,
+          264,
+          2440,
+          37281,
+          295,
+          28327,
+          311,
+          9627,
+          11,
+          15432,
+          4712,
+          493,
+          293,
+          575,
+          1813,
+          257,
+          954,
+          295,
+          1179,
+          13,
+          51804
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.16198081440395778,
+        "compression_ratio": 1.7544910179640718,
+        "no_speech_prob": 0.020942039787769318
+      },
+      {
+        "id": 7,
+        "seek": 2880,
+        "start": 28.8,
+        "end": 32.96,
+        "text": " And as Batman advances forward, Alfred has become more and more invested in his mission.",
+        "tokens": [
+          50364,
+          400,
+          382,
+          15432,
+          25297,
+          2128,
+          11,
+          28327,
+          575,
+          1813,
+          544,
+          293,
+          544,
+          13104,
+          294,
+          702,
+          4447,
+          13,
+          50572
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1180275042851766,
+        "compression_ratio": 1.7412587412587412,
+        "no_speech_prob": 9.665848665463272e-06
+      },
+      {
+        "id": 8,
+        "seek": 2880,
+        "start": 32.96,
+        "end": 38.64,
+        "text": " culminating in Alfred appearing spontaneously in the Batmobile when Batman is getting ready to make his dramatic escape.",
+        "tokens": [
+          50572,
+          28583,
+          990,
+          294,
+          28327,
+          19870,
+          47632,
+          294,
+          264,
+          10066,
+          76,
+          13632,
+          562,
+          15432,
+          307,
+          1242,
+          1919,
+          281,
+          652,
+          702,
+          12023,
+          7615,
+          13,
+          50856
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1180275042851766,
+        "compression_ratio": 1.7412587412587412,
+        "no_speech_prob": 9.665848665463272e-06
+      },
+      {
+        "id": 9,
+        "seek": 2880,
+        "start": 38.64,
+        "end": 44.480000000000004,
+        "text": " Now, as for the Batmobile itself, it was revealed to me that it's a 797 mining truck.",
+        "tokens": [
+          50856,
+          823,
+          11,
+          382,
+          337,
+          264,
+          10066,
+          76,
+          13632,
+          2564,
+          11,
+          309,
+          390,
+          9599,
+          281,
+          385,
+          300,
+          309,
+          311,
+          257,
+          1614,
+          23247,
+          15512,
+          5898,
+          13,
+          51148
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1180275042851766,
+        "compression_ratio": 1.7412587412587412,
+        "no_speech_prob": 9.665848665463272e-06
+      },
+      {
+        "id": 10,
+        "seek": 2880,
+        "start": 44.480000000000004,
+        "end": 50.8,
+        "text": " So somehow, Bruce got his hands on a literal mining truck and transformed it into the Batmobile.",
+        "tokens": [
+          51148,
+          407,
+          6063,
+          11,
+          15429,
+          658,
+          702,
+          2377,
+          322,
+          257,
+          20411,
+          15512,
+          5898,
+          293,
+          16894,
+          309,
+          666,
+          264,
+          10066,
+          76,
+          13632,
+          13,
+          51464
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1180275042851766,
+        "compression_ratio": 1.7412587412587412,
+        "no_speech_prob": 9.665848665463272e-06
+      },
+      {
+        "id": 11,
+        "seek": 2880,
+        "start": 50.8,
+        "end": 57.040000000000006,
+        "text": " And a little bit of perspective on this, Batman stole a $5 million tank and turned it into the Batmobile.",
+        "tokens": [
+          51464,
+          400,
+          257,
+          707,
+          857,
+          295,
+          4585,
+          322,
+          341,
+          11,
+          15432,
+          16326,
+          257,
+          1848,
+          20,
+          2459,
+          5466,
+          293,
+          3574,
+          309,
+          666,
+          264,
+          10066,
+          76,
+          13632,
+          13,
+          51776
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1180275042851766,
+        "compression_ratio": 1.7412587412587412,
+        "no_speech_prob": 9.665848665463272e-06
+      }
+    ]
+  },
+  "overall_assessment": {
+    "overall_compliance": 85.0,
+    "visual_compliance": 100.0,
+    "audio_compliance": 70,
+    "status": "minor_violations",
+    "total_violations": 1,
+    "violation_categories": [
+      "violence"
+    ]
+  },
+  "detailed_frames": [
+    {
+      "timestamp": 0.0,
+      "frame_index": 0,
+      "visual_analysis": {
+        "category": "safe_content",
+        "confidence": 0.8855671882629395,
+        "violation_detected": false,
+        "all_probabilities": {
+          "safe_content": 0.8855671882629395,
+          "suggestive_content": 0.050151411443948746,
+          "artistic_adult_content": 0.005642653908580542,
+          "misinformation": 0.048448894172906876,
+          "violence": 0.0028386132325977087,
+          "hate_speech": 0.003798478515818715,
+          "dangerous_activities": 0.003552717389538884
+        }
+      },
+      "blip_description": {
+        "description": "the cover to the comic book, the doom",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "0",
+        "extracted_items": [
+          {
+            "text": "0",
+            "confidence": 0.9571860683019082,
+            "bbox": [
+              [
+                723.1084225408996,
+                198.01656635019864
+              ],
+              [
+                900.3165473286084,
+                178.88208992979222
+              ],
+              [
+                927.8915774591004,
+                514.9834336498013
+              ],
+              [
+                750.6834526713916,
+                534.1179100702078
+              ]
+            ]
+          }
+        ],
+        "ocr_available": true
+      },
+      "combined_violation": false,
+      "preview_path": "/static/frames/temp_1755703118_Absolute Batman Uses A Mining Truck For His Batmobile! (1080p)_frame_1.jpg"
+    }
+  ],
+  "recommendations": [
+    "🎵 Audio policy violations detected: violence",
+    "📝 Review transcript for policy-violating language",
+    "⚡ Minor violations detected - targeted edits recommended"
+  ],
+  "multi_modal_capabilities": {
+    "visual_model_accuracy": 97.48,
+    "blip_available": true,
+    "whisper_available": true,
+    "ocr_available": true
+  },
+  "text_issues": "0",
+  "image": {
+    "details": {
+      "frame_preview_paths": [
+        "/static/frames/temp_1755703118_Absolute Batman Uses A Mining Truck For His Batmobile! (1080p)_frame_1.jpg"
+      ],
+      "frame_analysis": [
+        {
+          "timestamp": 0.0,
+          "frame_index": 0,
+          "visual_analysis": {
+            "category": "safe_content",
+            "confidence": 0.8855671882629395,
+            "violation_detected": false,
+            "all_probabilities": {
+              "safe_content": 0.8855671882629395,
+              "suggestive_content": 0.050151411443948746,
+              "artistic_adult_content": 0.005642653908580542,
+              "misinformation": 0.048448894172906876,
+              "violence": 0.0028386132325977087,
+              "hate_speech": 0.003798478515818715,
+              "dangerous_activities": 0.003552717389538884
+            }
+          },
+          "blip_description": {
+            "description": "the cover to the comic book, the doom",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "0",
+            "extracted_items": [
+              {
+                "text": "0",
+                "confidence": 0.9571860683019082,
+                "bbox": [
+                  [
+                    723.1084225408996,
+                    198.01656635019864
+                  ],
+                  [
+                    900.3165473286084,
+                    178.88208992979222
+                  ],
+                  [
+                    927.8915774591004,
+                    514.9834336498013
+                  ],
+                  [
+                    750.6834526713916,
+                    534.1179100702078
+                  ]
+                ]
+              }
+            ],
+            "ocr_available": true
+          },
+          "combined_violation": false,
+          "preview_path": "/static/frames/temp_1755703118_Absolute Batman Uses A Mining Truck For His Batmobile! (1080p)_frame_1.jpg"
+        }
+      ]
+    }
+  },
+  "rag_explanations": [
+    {
+      "type": "visual",
+      "frame": 1,
+      "timestamp": 0.0,
+      "category": "safe_content",
+      "confidence": 0.8855671882629395,
+      "blip": "the cover to the comic book, the doom",
+      "ocr": "0",
+      "policy": {
+        "description": "Content depicting violence, weapons, or graphic imagery",
+        "examples": [
+          "fighting",
+          "weapons",
+          "blood",
+          "gore",
+          "combat"
+        ],
+        "severity_indicators": [
+          "realistic weapons",
+          "explicit violence",
+          "gore"
+        ],
+        "context_matters": [
+          "gaming violence vs real violence",
+          "educational vs gratuitous"
+        ],
+        "action_required": "human_review_required"
+      },
+      "action_required": "human_review_required",
+      "examples": [
+        "fighting",
+        "weapons",
+        "blood",
+        "gore",
+        "combat"
+      ],
+      "severity_indicators": [
+        "realistic weapons",
+        "explicit violence",
+        "gore"
+      ],
+      "context_factors": [
+        "gaming violence vs real violence",
+        "educational vs gratuitous"
+      ],
+      "violation_detected": false
+    },
+    {
+      "type": "audio",
+      "category": "violence",
+      "keywords": [
+        "war"
+      ],
+      "severity": "medium",
+      "transcript": " This is the Batmobile of Absolute Batman. And we first got leaked images a couple of months ago as ",
+      "policy": {
+        "description": "Content depicting violence, weapons, or graphic imagery",
+        "examples": [
+          "fighting",
+          "weapons",
+          "blood",
+          "gore",
+          "combat"
+        ],
+        "severity_indicators": [
+          "realistic weapons",
+          "explicit violence",
+          "gore"
+        ],
+        "context_matters": [
+          "gaming violence vs real violence",
+          "educational vs gratuitous"
+        ],
+        "action_required": "human_review_required"
+      },
+      "action_required": "human_review_required",
+      "examples": [
+        "fighting",
+        "weapons",
+        "blood",
+        "gore",
+        "combat"
+      ],
+      "severity_indicators": [
+        "realistic weapons",
+        "explicit violence",
+        "gore"
+      ],
+      "context_factors": [
+        "gaming violence vs real violence",
+        "educational vs gratuitous"
+      ]
+    }
+  ]
+}

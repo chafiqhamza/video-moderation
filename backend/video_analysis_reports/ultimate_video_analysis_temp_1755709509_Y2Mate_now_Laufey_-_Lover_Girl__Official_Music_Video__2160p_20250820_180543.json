@@ -1,0 +1,1094 @@
+{
+  "video_info": {
+    "path": "C:\\Users\\PC\\AppData\\Local\\Temp\\video_analysis\\temp_1755709509_Y2Mate.now_Laufey - Lover Girl (Official Music Video)_2160p.mp4",
+    "name": "temp_1755709509_Y2Mate.now_Laufey - Lover Girl (Official Music Video)_2160p.mp4",
+    "analysis_time": 12.718830585479736,
+    "timestamp": "2025-08-20T18:05:35.438085"
+  },
+  "frame_analysis": {
+    "total_frames": 3,
+    "violation_frames": 1,
+    "average_confidence": 0.6666007240613302,
+    "violation_categories": [
+      "misinformation"
+    ]
+  },
+  "audio_analysis": {
+    "transcript": " This guy's scraper's causing vertigo The count down begins in Tokyo 27 days alone means 20 million words to cope with that I'm in a reckless fever, a lost drug girl, like T's her Thought I'd never be her, quite the job you've done on me Sir, you've been hosting parties in my mind I'm working overtime to have you in my world Oh, what a carcid is to be a lover girl Forst to get creative wrote my feelings down The independent lady in me is nowhere to be found I can't wait another day to see you How embarrassing to be this way I'm in a reckless fever, a lost drug girl, like T's her Thought I'd never be her, quite the job you've done on me Sir, you've been hosting parties in my mind I'm working overtime to have you in my world Oh, what a carcid is to be in the fire Wait by the phone like a high school movie Not the shows you'll come running to me Think I see you in the wings, but I'm hallucinating A reckless fever, a lost drug girl, like T's her Thought I'd never be her, quite the job you've done on me Sir, you've been hosting parties in my mind I'm working overtime to have you in my world Oh, what a carcid is to be a lover girl",
+    "language": "en",
+    "policy_flags": {},
+    "whisper_available": true,
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 16.0,
+        "text": " This guy's scraper's causing vertigo The count down begins in Tokyo",
+        "tokens": [
+          50364,
+          639,
+          2146,
+          311,
+          13943,
+          610,
+          311,
+          9853,
+          6509,
+          7483,
+          440,
+          1207,
+          760,
+          7338,
+          294,
+          15147,
+          51164
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.5143036246299744,
+        "compression_ratio": 1.150943396226415,
+        "no_speech_prob": 0.44426342844963074
+      },
+      {
+        "id": 1,
+        "seek": 0,
+        "start": 16.0,
+        "end": 25.0,
+        "text": " 27 days alone means 20 million words to cope with that",
+        "tokens": [
+          51164,
+          7634,
+          1708,
+          3312,
+          1355,
+          945,
+          2459,
+          2283,
+          281,
+          22598,
+          365,
+          300,
+          51614
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.5143036246299744,
+        "compression_ratio": 1.150943396226415,
+        "no_speech_prob": 0.44426342844963074
+      },
+      {
+        "id": 2,
+        "seek": 2500,
+        "start": 26.0,
+        "end": 32.0,
+        "text": " I'm in a reckless fever, a lost drug girl, like T's her",
+        "tokens": [
+          50414,
+          286,
+          478,
+          294,
+          257,
+          38884,
+          18277,
+          11,
+          257,
+          2731,
+          4110,
+          2013,
+          11,
+          411,
+          314,
+          311,
+          720,
+          50714
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.26305189289030484,
+        "compression_ratio": 1.4027777777777777,
+        "no_speech_prob": 0.2362419217824936
+      },
+      {
+        "id": 3,
+        "seek": 2500,
+        "start": 32.0,
+        "end": 37.0,
+        "text": " Thought I'd never be her, quite the job you've done on me",
+        "tokens": [
+          50714,
+          23058,
+          286,
+          1116,
+          1128,
+          312,
+          720,
+          11,
+          1596,
+          264,
+          1691,
+          291,
+          600,
+          1096,
+          322,
+          385,
+          50964
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.26305189289030484,
+        "compression_ratio": 1.4027777777777777,
+        "no_speech_prob": 0.2362419217824936
+      },
+      {
+        "id": 4,
+        "seek": 2500,
+        "start": 37.0,
+        "end": 41.0,
+        "text": " Sir, you've been hosting parties in my mind",
+        "tokens": [
+          50964,
+          6144,
+          11,
+          291,
+          600,
+          668,
+          16058,
+          8265,
+          294,
+          452,
+          1575,
+          51164
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.26305189289030484,
+        "compression_ratio": 1.4027777777777777,
+        "no_speech_prob": 0.2362419217824936
+      },
+      {
+        "id": 5,
+        "seek": 2500,
+        "start": 41.0,
+        "end": 48.0,
+        "text": " I'm working overtime to have you in my world",
+        "tokens": [
+          51164,
+          286,
+          478,
+          1364,
+          29863,
+          281,
+          362,
+          291,
+          294,
+          452,
+          1002,
+          51514
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.26305189289030484,
+        "compression_ratio": 1.4027777777777777,
+        "no_speech_prob": 0.2362419217824936
+      },
+      {
+        "id": 6,
+        "seek": 4800,
+        "start": 48.0,
+        "end": 55.0,
+        "text": " Oh, what a carcid is to be a lover girl",
+        "tokens": [
+          50364,
+          876,
+          11,
+          437,
+          257,
+          1032,
+          66,
+          327,
+          307,
+          281,
+          312,
+          257,
+          18009,
+          2013,
+          50714
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.20314861746395335,
+        "compression_ratio": 1.297709923664122,
+        "no_speech_prob": 0.04563099890947342
+      },
+      {
+        "id": 7,
+        "seek": 4800,
+        "start": 57.0,
+        "end": 61.0,
+        "text": " Forst to get creative wrote my feelings down",
+        "tokens": [
+          50814,
+          1171,
+          372,
+          281,
+          483,
+          5880,
+          4114,
+          452,
+          6640,
+          760,
+          51014
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.20314861746395335,
+        "compression_ratio": 1.297709923664122,
+        "no_speech_prob": 0.04563099890947342
+      },
+      {
+        "id": 8,
+        "seek": 4800,
+        "start": 61.0,
+        "end": 67.0,
+        "text": " The independent lady in me is nowhere to be found",
+        "tokens": [
+          51014,
+          440,
+          6695,
+          7262,
+          294,
+          385,
+          307,
+          11159,
+          281,
+          312,
+          1352,
+          51314
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.20314861746395335,
+        "compression_ratio": 1.297709923664122,
+        "no_speech_prob": 0.04563099890947342
+      },
+      {
+        "id": 9,
+        "seek": 4800,
+        "start": 67.0,
+        "end": 71.0,
+        "text": " I can't wait another day to see you",
+        "tokens": [
+          51314,
+          286,
+          393,
+          380,
+          1699,
+          1071,
+          786,
+          281,
+          536,
+          291,
+          51514
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.20314861746395335,
+        "compression_ratio": 1.297709923664122,
+        "no_speech_prob": 0.04563099890947342
+      },
+      {
+        "id": 10,
+        "seek": 7100,
+        "start": 71.0,
+        "end": 78.0,
+        "text": " How embarrassing to be this way",
+        "tokens": [
+          50364,
+          1012,
+          17299,
+          281,
+          312,
+          341,
+          636,
+          50714
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.048772666765295944,
+        "compression_ratio": 1.4444444444444444,
+        "no_speech_prob": 0.043100275099277496
+      },
+      {
+        "id": 11,
+        "seek": 7100,
+        "start": 78.0,
+        "end": 84.0,
+        "text": " I'm in a reckless fever, a lost drug girl, like T's her",
+        "tokens": [
+          50714,
+          286,
+          478,
+          294,
+          257,
+          38884,
+          18277,
+          11,
+          257,
+          2731,
+          4110,
+          2013,
+          11,
+          411,
+          314,
+          311,
+          720,
+          51014
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.048772666765295944,
+        "compression_ratio": 1.4444444444444444,
+        "no_speech_prob": 0.043100275099277496
+      },
+      {
+        "id": 12,
+        "seek": 7100,
+        "start": 84.0,
+        "end": 89.0,
+        "text": " Thought I'd never be her, quite the job you've done on me",
+        "tokens": [
+          51014,
+          23058,
+          286,
+          1116,
+          1128,
+          312,
+          720,
+          11,
+          1596,
+          264,
+          1691,
+          291,
+          600,
+          1096,
+          322,
+          385,
+          51264
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.048772666765295944,
+        "compression_ratio": 1.4444444444444444,
+        "no_speech_prob": 0.043100275099277496
+      },
+      {
+        "id": 13,
+        "seek": 7100,
+        "start": 89.0,
+        "end": 93.0,
+        "text": " Sir, you've been hosting parties in my mind",
+        "tokens": [
+          51264,
+          6144,
+          11,
+          291,
+          600,
+          668,
+          16058,
+          8265,
+          294,
+          452,
+          1575,
+          51464
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.048772666765295944,
+        "compression_ratio": 1.4444444444444444,
+        "no_speech_prob": 0.043100275099277496
+      },
+      {
+        "id": 14,
+        "seek": 7100,
+        "start": 93.0,
+        "end": 100.0,
+        "text": " I'm working overtime to have you in my world",
+        "tokens": [
+          51464,
+          286,
+          478,
+          1364,
+          29863,
+          281,
+          362,
+          291,
+          294,
+          452,
+          1002,
+          51814
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.048772666765295944,
+        "compression_ratio": 1.4444444444444444,
+        "no_speech_prob": 0.043100275099277496
+      },
+      {
+        "id": 15,
+        "seek": 10000,
+        "start": 100.0,
+        "end": 104.0,
+        "text": " Oh, what a carcid is to be in the fire",
+        "tokens": [
+          50364,
+          876,
+          11,
+          437,
+          257,
+          1032,
+          66,
+          327,
+          307,
+          281,
+          312,
+          294,
+          264,
+          2610,
+          50564
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.2187349178172924,
+        "compression_ratio": 1.3106060606060606,
+        "no_speech_prob": 0.00728941522538662
+      },
+      {
+        "id": 16,
+        "seek": 10000,
+        "start": 104.0,
+        "end": 109.0,
+        "text": " Wait by the phone like a high school movie",
+        "tokens": [
+          50564,
+          3802,
+          538,
+          264,
+          2593,
+          411,
+          257,
+          1090,
+          1395,
+          3169,
+          50814
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.2187349178172924,
+        "compression_ratio": 1.3106060606060606,
+        "no_speech_prob": 0.00728941522538662
+      },
+      {
+        "id": 17,
+        "seek": 10000,
+        "start": 109.0,
+        "end": 114.0,
+        "text": " Not the shows you'll come running to me",
+        "tokens": [
+          50814,
+          1726,
+          264,
+          3110,
+          291,
+          603,
+          808,
+          2614,
+          281,
+          385,
+          51064
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.2187349178172924,
+        "compression_ratio": 1.3106060606060606,
+        "no_speech_prob": 0.00728941522538662
+      },
+      {
+        "id": 18,
+        "seek": 10000,
+        "start": 114.0,
+        "end": 124.0,
+        "text": " Think I see you in the wings, but I'm hallucinating",
+        "tokens": [
+          51064,
+          6557,
+          286,
+          536,
+          291,
+          294,
+          264,
+          11405,
+          11,
+          457,
+          286,
+          478,
+          35212,
+          8205,
+          51564
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.2187349178172924,
+        "compression_ratio": 1.3106060606060606,
+        "no_speech_prob": 0.00728941522538662
+      },
+      {
+        "id": 19,
+        "seek": 12400,
+        "start": 124.0,
+        "end": 130.0,
+        "text": " A reckless fever, a lost drug girl, like T's her",
+        "tokens": [
+          50364,
+          316,
+          38884,
+          18277,
+          11,
+          257,
+          2731,
+          4110,
+          2013,
+          11,
+          411,
+          314,
+          311,
+          720,
+          50664
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.0734003001245959,
+        "compression_ratio": 1.3829787234042554,
+        "no_speech_prob": 0.09400290250778198
+      },
+      {
+        "id": 20,
+        "seek": 12400,
+        "start": 130.0,
+        "end": 135.0,
+        "text": " Thought I'd never be her, quite the job you've done on me",
+        "tokens": [
+          50664,
+          23058,
+          286,
+          1116,
+          1128,
+          312,
+          720,
+          11,
+          1596,
+          264,
+          1691,
+          291,
+          600,
+          1096,
+          322,
+          385,
+          50914
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.0734003001245959,
+        "compression_ratio": 1.3829787234042554,
+        "no_speech_prob": 0.09400290250778198
+      },
+      {
+        "id": 21,
+        "seek": 12400,
+        "start": 135.0,
+        "end": 139.0,
+        "text": " Sir, you've been hosting parties in my mind",
+        "tokens": [
+          50914,
+          6144,
+          11,
+          291,
+          600,
+          668,
+          16058,
+          8265,
+          294,
+          452,
+          1575,
+          51114
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.0734003001245959,
+        "compression_ratio": 1.3829787234042554,
+        "no_speech_prob": 0.09400290250778198
+      },
+      {
+        "id": 22,
+        "seek": 12400,
+        "start": 139.0,
+        "end": 146.0,
+        "text": " I'm working overtime to have you in my world",
+        "tokens": [
+          51114,
+          286,
+          478,
+          1364,
+          29863,
+          281,
+          362,
+          291,
+          294,
+          452,
+          1002,
+          51464
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.0734003001245959,
+        "compression_ratio": 1.3829787234042554,
+        "no_speech_prob": 0.09400290250778198
+      },
+      {
+        "id": 23,
+        "seek": 14600,
+        "start": 146.0,
+        "end": 153.0,
+        "text": " Oh, what a carcid is to be a lover girl",
+        "tokens": [
+          50364,
+          876,
+          11,
+          437,
+          257,
+          1032,
+          66,
+          327,
+          307,
+          281,
+          312,
+          257,
+          18009,
+          2013,
+          50714
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.038535792380571365,
+        "compression_ratio": 0.8478260869565217,
+        "no_speech_prob": 0.674648642539978
+      }
+    ]
+  },
+  "overall_assessment": {
+    "overall_compliance": 78.33333333333333,
+    "visual_compliance": 66.66666666666666,
+    "audio_compliance": 90,
+    "status": "moderate_violations",
+    "total_violations": 1,
+    "violation_categories": [
+      "misinformation"
+    ]
+  },
+  "detailed_frames": [
+    {
+      "timestamp": 0.0,
+      "frame_index": 0,
+      "visual_analysis": {
+        "category": "misinformation",
+        "confidence": 0.4311062693595886,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.0024849306792020798,
+          "suggestive_content": 0.28033602237701416,
+          "artistic_adult_content": 0.27623000741004944,
+          "misinformation": 0.4311062693595886,
+          "violence": 0.003809483954682946,
+          "hate_speech": 0.0024152700789272785,
+          "dangerous_activities": 0.0036180070601403713
+        }
+      },
+      "blip_description": {
+        "description": "a woman standing on a rooftop with a city in the background",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "",
+        "extracted_items": [],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1755709509_Y2Mate.now_Laufey - Lover Girl (Official Music Video)_2160p_frame_1.jpg"
+    },
+    {
+      "timestamp": 3.5,
+      "frame_index": 1,
+      "visual_analysis": {
+        "category": "safe_content",
+        "confidence": 0.8587985038757324,
+        "violation_detected": false,
+        "all_probabilities": {
+          "safe_content": 0.8587985038757324,
+          "suggestive_content": 0.06625519692897797,
+          "artistic_adult_content": 0.008166478015482426,
+          "misinformation": 0.0540790818631649,
+          "violence": 0.0036727674305438995,
+          "hate_speech": 0.004599307663738728,
+          "dangerous_activities": 0.004428653046488762
+        }
+      },
+      "blip_description": {
+        "description": "a woman in a black dress holding a drink",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "( M",
+        "extracted_items": [
+          {
+            "text": "(",
+            "confidence": 0.8248923555014223,
+            "bbox": [
+              [
+                2206,
+                71
+              ],
+              [
+                2329,
+                71
+              ],
+              [
+                2329,
+                137
+              ],
+              [
+                2206,
+                137
+              ]
+            ]
+          },
+          {
+            "text": "M",
+            "confidence": 0.739487461938154,
+            "bbox": [
+              [
+                67,
+                359
+              ],
+              [
+                263,
+                359
+              ],
+              [
+                263,
+                580
+              ],
+              [
+                67,
+                580
+              ]
+            ]
+          }
+        ],
+        "ocr_available": true
+      },
+      "combined_violation": false,
+      "preview_path": "/static/frames/temp_1755709509_Y2Mate.now_Laufey - Lover Girl (Official Music Video)_2160p_frame_2.jpg"
+    },
+    {
+      "timestamp": 7.0,
+      "frame_index": 2,
+      "visual_analysis": {
+        "category": "safe_content",
+        "confidence": 0.7098973989486694,
+        "violation_detected": false,
+        "all_probabilities": {
+          "safe_content": 0.7098973989486694,
+          "suggestive_content": 0.1738327294588089,
+          "artistic_adult_content": 0.01981588453054428,
+          "misinformation": 0.07747823745012283,
+          "violence": 0.0051889424212276936,
+          "hate_speech": 0.006653451360762119,
+          "dangerous_activities": 0.007133268751204014
+        }
+      },
+      "blip_description": {
+        "description": "a woman in a black dress standing on a rooftop",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "",
+        "extracted_items": [],
+        "ocr_available": true
+      },
+      "combined_violation": false,
+      "preview_path": "/static/frames/temp_1755709509_Y2Mate.now_Laufey - Lover Girl (Official Music Video)_2160p_frame_3.jpg"
+    }
+  ],
+  "recommendations": [
+    "⚠️ Visual policy violations detected: misinformation",
+    "🔍 Consider reviewing flagged video segments",
+    "🚨 Multiple violations detected - content may need significant editing"
+  ],
+  "multi_modal_capabilities": {
+    "visual_model_accuracy": 97.48,
+    "blip_available": true,
+    "whisper_available": true,
+    "ocr_available": true
+  },
+  "text_issues": "( M",
+  "image": {
+    "details": {
+      "frame_preview_paths": [
+        "/static/frames/temp_1755709509_Y2Mate.now_Laufey - Lover Girl (Official Music Video)_2160p_frame_1.jpg",
+        "/static/frames/temp_1755709509_Y2Mate.now_Laufey - Lover Girl (Official Music Video)_2160p_frame_2.jpg",
+        "/static/frames/temp_1755709509_Y2Mate.now_Laufey - Lover Girl (Official Music Video)_2160p_frame_3.jpg"
+      ],
+      "frame_analysis": [
+        {
+          "timestamp": 0.0,
+          "frame_index": 0,
+          "visual_analysis": {
+            "category": "misinformation",
+            "confidence": 0.4311062693595886,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.0024849306792020798,
+              "suggestive_content": 0.28033602237701416,
+              "artistic_adult_content": 0.27623000741004944,
+              "misinformation": 0.4311062693595886,
+              "violence": 0.003809483954682946,
+              "hate_speech": 0.0024152700789272785,
+              "dangerous_activities": 0.0036180070601403713
+            }
+          },
+          "blip_description": {
+            "description": "a woman standing on a rooftop with a city in the background",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "",
+            "extracted_items": [],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1755709509_Y2Mate.now_Laufey - Lover Girl (Official Music Video)_2160p_frame_1.jpg"
+        },
+        {
+          "timestamp": 3.5,
+          "frame_index": 1,
+          "visual_analysis": {
+            "category": "safe_content",
+            "confidence": 0.8587985038757324,
+            "violation_detected": false,
+            "all_probabilities": {
+              "safe_content": 0.8587985038757324,
+              "suggestive_content": 0.06625519692897797,
+              "artistic_adult_content": 0.008166478015482426,
+              "misinformation": 0.0540790818631649,
+              "violence": 0.0036727674305438995,
+              "hate_speech": 0.004599307663738728,
+              "dangerous_activities": 0.004428653046488762
+            }
+          },
+          "blip_description": {
+            "description": "a woman in a black dress holding a drink",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "( M",
+            "extracted_items": [
+              {
+                "text": "(",
+                "confidence": 0.8248923555014223,
+                "bbox": [
+                  [
+                    2206,
+                    71
+                  ],
+                  [
+                    2329,
+                    71
+                  ],
+                  [
+                    2329,
+                    137
+                  ],
+                  [
+                    2206,
+                    137
+                  ]
+                ]
+              },
+              {
+                "text": "M",
+                "confidence": 0.739487461938154,
+                "bbox": [
+                  [
+                    67,
+                    359
+                  ],
+                  [
+                    263,
+                    359
+                  ],
+                  [
+                    263,
+                    580
+                  ],
+                  [
+                    67,
+                    580
+                  ]
+                ]
+              }
+            ],
+            "ocr_available": true
+          },
+          "combined_violation": false,
+          "preview_path": "/static/frames/temp_1755709509_Y2Mate.now_Laufey - Lover Girl (Official Music Video)_2160p_frame_2.jpg"
+        },
+        {
+          "timestamp": 7.0,
+          "frame_index": 2,
+          "visual_analysis": {
+            "category": "safe_content",
+            "confidence": 0.7098973989486694,
+            "violation_detected": false,
+            "all_probabilities": {
+              "safe_content": 0.7098973989486694,
+              "suggestive_content": 0.1738327294588089,
+              "artistic_adult_content": 0.01981588453054428,
+              "misinformation": 0.07747823745012283,
+              "violence": 0.0051889424212276936,
+              "hate_speech": 0.006653451360762119,
+              "dangerous_activities": 0.007133268751204014
+            }
+          },
+          "blip_description": {
+            "description": "a woman in a black dress standing on a rooftop",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "",
+            "extracted_items": [],
+            "ocr_available": true
+          },
+          "combined_violation": false,
+          "preview_path": "/static/frames/temp_1755709509_Y2Mate.now_Laufey - Lover Girl (Official Music Video)_2160p_frame_3.jpg"
+        }
+      ]
+    }
+  },
+  "rag_explanations": [
+    {
+      "type": "visual",
+      "frame": 1,
+      "timestamp": 0.0,
+      "category": "misinformation",
+      "confidence": 0.4311062693595886,
+      "blip": "a woman standing on a rooftop with a city in the background",
+      "ocr": "",
+      "policy": {
+        "description": "Content showing dangerous or harmful activities",
+        "examples": [
+          "extreme stunts",
+          "self-harm",
+          "dangerous challenges"
+        ],
+        "severity_indicators": [
+          "life-threatening",
+          "copyable dangers",
+          "no safety warnings"
+        ],
+        "context_matters": [
+          "professional vs amateur",
+          "safety precautions shown"
+        ],
+        "action_required": "age_restriction_or_removal"
+      },
+      "action_required": "age_restriction_or_removal",
+      "examples": [
+        "extreme stunts",
+        "self-harm",
+        "dangerous challenges"
+      ],
+      "severity_indicators": [
+        "life-threatening",
+        "copyable dangers",
+        "no safety warnings"
+      ],
+      "context_factors": [
+        "professional vs amateur",
+        "safety precautions shown"
+      ],
+      "violation_detected": true
+    },
+    {
+      "type": "visual",
+      "frame": 2,
+      "timestamp": 3.5,
+      "category": "safe_content",
+      "confidence": 0.8587985038757324,
+      "blip": "a woman in a black dress holding a drink",
+      "ocr": "( M",
+      "policy": {
+        "description": "Content showing dangerous or harmful activities",
+        "examples": [
+          "extreme stunts",
+          "self-harm",
+          "dangerous challenges"
+        ],
+        "severity_indicators": [
+          "life-threatening",
+          "copyable dangers",
+          "no safety warnings"
+        ],
+        "context_matters": [
+          "professional vs amateur",
+          "safety precautions shown"
+        ],
+        "action_required": "age_restriction_or_removal"
+      },
+      "action_required": "age_restriction_or_removal",
+      "examples": [
+        "extreme stunts",
+        "self-harm",
+        "dangerous challenges"
+      ],
+      "severity_indicators": [
+        "life-threatening",
+        "copyable dangers",
+        "no safety warnings"
+      ],
+      "context_factors": [
+        "professional vs amateur",
+        "safety precautions shown"
+      ],
+      "violation_detected": false
+    },
+    {
+      "type": "visual",
+      "frame": 3,
+      "timestamp": 7.0,
+      "category": "safe_content",
+      "confidence": 0.7098973989486694,
+      "blip": "a woman in a black dress standing on a rooftop",
+      "ocr": "",
+      "policy": {
+        "description": "Content showing dangerous or harmful activities",
+        "examples": [
+          "extreme stunts",
+          "self-harm",
+          "dangerous challenges"
+        ],
+        "severity_indicators": [
+          "life-threatening",
+          "copyable dangers",
+          "no safety warnings"
+        ],
+        "context_matters": [
+          "professional vs amateur",
+          "safety precautions shown"
+        ],
+        "action_required": "age_restriction_or_removal"
+      },
+      "action_required": "age_restriction_or_removal",
+      "examples": [
+        "extreme stunts",
+        "self-harm",
+        "dangerous challenges"
+      ],
+      "severity_indicators": [
+        "life-threatening",
+        "copyable dangers",
+        "no safety warnings"
+      ],
+      "context_factors": [
+        "professional vs amateur",
+        "safety precautions shown"
+      ],
+      "violation_detected": false
+    }
+  ]
+}

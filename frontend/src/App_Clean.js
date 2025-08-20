@@ -39,6 +39,7 @@ function App() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
   const [connectionStatus, setConnectionStatus] = useState('testing');
+  const [copyrightStatus, setCopyrightStatus] = useState(null);
   const [frameSettings, setFrameSettings] = useState({
     frameCount: 1,
     frameInterval: 0.5,
@@ -88,6 +89,7 @@ function App() {
     setLoading(true);
     setError('');
     setAnalysis(null);
+    setCopyrightStatus(null);
     try {
       // Build params based on extraction mode
       const params = new URLSearchParams();
@@ -104,6 +106,7 @@ function App() {
       params.append('end_time', frameSettings.frameEnd !== null ? frameSettings.frameEnd : -1);
       const formData = new FormData();
       formData.append('file', selectedFile);
+      // Run main analysis (now includes copyright check)
       const response = await fetch(`${API_BASE_URL}/upload-video?${params.toString()}`, {
         method: 'POST',
         body: formData,
@@ -119,6 +122,12 @@ function App() {
         analysisObj = { full_report: analysisRaw };
       }
       setAnalysis(analysisObj);
+      // Set copyright status from main analysis response
+      if (analysisObj.copyright_check) {
+        setCopyrightStatus(analysisObj.copyright_check);
+      } else {
+        setCopyrightStatus(null);
+      }
       if (analysisObj.analysis_json && Object.keys(analysisObj.analysis_json).length > 0) {
         const aj = analysisObj.analysis_json;
         setParsedReport({
@@ -456,6 +465,33 @@ function App() {
                     <Typography variant="body2">Score: <b>{parsedReport?.image_score || 'N/A'}%</b></Typography>
                     <Typography variant="body2">Status: <b>{parsedReport?.overall || 'N/A'}</b></Typography>
                     <Typography variant="body2">Frames Analyzed: <b>{parsedReport?.frames_analyzed || 'N/A'}</b></Typography>
+                    {/* Copyright Violation Status - always show a clear message */}
+                    <Box sx={{ mt: 2 }}>
+                      <Typography variant="body2" color={copyrightStatus?.violation ? 'error' : 'success.main'}>
+                        Copyright Violation: <b>{copyrightStatus?.violation ? 'Yes' : 'No'}</b>
+                      </Typography>
+                      {/* Show details if present */}
+                      {copyrightStatus && (
+                        <Box sx={{ mt: 1 }}>
+                          {copyrightStatus?.result && typeof copyrightStatus.result === 'string' && (
+                            <Typography variant="body2" sx={{ mt: 1 }}>
+                              {copyrightStatus.result}
+                            </Typography>
+                          )}
+                          {copyrightStatus?.result && typeof copyrightStatus.result === 'object' && (
+                            <Box sx={{ mt: 1, maxHeight: 120, overflow: 'auto', background: '#f5f5f5', borderRadius: 1, p: 1 }}>
+                              <Typography variant="body2" sx={{ fontWeight: 'bold', mb: 1 }}>AudD API Details:</Typography>
+                              <pre style={{ fontSize: '0.85rem', margin: 0 }}>{JSON.stringify(copyrightStatus.result, null, 2)}</pre>
+                            </Box>
+                          )}
+                          {copyrightStatus?.error && (
+                            <Typography variant="body2" color="error" sx={{ mt: 1 }}>
+                              {typeof copyrightStatus.error === 'object' ? JSON.stringify(copyrightStatus.error) : copyrightStatus.error}
+                            </Typography>
+                          )}
+                        </Box>
+                      )}
+                    </Box>
                     <Button variant="outlined" color="info" sx={{ mt: 1, fontSize: '0.95rem', py: 0.5 }} onClick={() => setShowFrameDetails(true)}>
                       View Detailed Frame Report
                     </Button>

@@ -1,0 +1,2767 @@
+{
+  "video_info": {
+    "path": "C:\\Users\\PC\\AppData\\Local\\Temp\\video_analysis\\temp_1755710820_Duran Duran - INVISIBLE - Music 4 (720p, h264).mp4",
+    "name": "temp_1755710820_Duran Duran - INVISIBLE - Music 4 (720p, h264).mp4",
+    "analysis_time": 11.171058654785156,
+    "timestamp": "2025-08-20T18:27:24.707021"
+  },
+  "frame_analysis": {
+    "total_frames": 10,
+    "violation_frames": 0,
+    "average_confidence": 0.7911557853221893,
+    "violation_categories": []
+  },
+  "audio_analysis": {
+    "transcript": " It is a love It is a love It is a love It is a love I'm a showrun Walking by the wall A shadow's blown up A shadow's blown up It's silently ignored Quiet to cut Disguised by the noise Living with a child Is a life without a voice When you can't stay My name has been written Are you feeling now? Go on, go My name I can't believe this game So I ask, because game Will you say? My name has been written Are you feeling now? Oh, God, we can't wait We can't wait We can't wait Sky lights The dreamers wish our way The sight is calling in our face The shape of my face When you don't hear a word I say As the talking goes It's the one way No fault No blame As the memory gone Are you feeling now? And the life is coming It is a love It is a love It is a love It is a love It is a love It is a love It is a love It is a love It is a love It is a love No one is a word They say As the memory gone Are you feeling now? Not a word They say But a voiceless crowd Isn't backing down when the air Touched legs With a load of hesitation Can you say? My name has been written Are you feeling now? Oh, God, we all become invisible",
+    "language": "en",
+    "policy_flags": {},
+    "whisper_available": true,
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 5.0,
+        "text": " It is a love",
+        "tokens": [
+          50364,
+          467,
+          307,
+          257,
+          959,
+          50614
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.614503404368525,
+        "compression_ratio": 1.4383561643835616,
+        "no_speech_prob": 0.6422699689865112
+      },
+      {
+        "id": 1,
+        "seek": 0,
+        "start": 5.0,
+        "end": 9.0,
+        "text": " It is a love",
+        "tokens": [
+          50614,
+          467,
+          307,
+          257,
+          959,
+          50814
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.614503404368525,
+        "compression_ratio": 1.4383561643835616,
+        "no_speech_prob": 0.6422699689865112
+      },
+      {
+        "id": 2,
+        "seek": 0,
+        "start": 9.0,
+        "end": 14.0,
+        "text": " It is a love",
+        "tokens": [
+          50814,
+          467,
+          307,
+          257,
+          959,
+          51064
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.614503404368525,
+        "compression_ratio": 1.4383561643835616,
+        "no_speech_prob": 0.6422699689865112
+      },
+      {
+        "id": 3,
+        "seek": 0,
+        "start": 14.0,
+        "end": 17.0,
+        "text": " It is a love",
+        "tokens": [
+          51064,
+          467,
+          307,
+          257,
+          959,
+          51214
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.614503404368525,
+        "compression_ratio": 1.4383561643835616,
+        "no_speech_prob": 0.6422699689865112
+      },
+      {
+        "id": 4,
+        "seek": 0,
+        "start": 17.0,
+        "end": 20.0,
+        "text": " I'm a showrun",
+        "tokens": [
+          51214,
+          286,
+          478,
+          257,
+          855,
+          12997,
+          51364
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.614503404368525,
+        "compression_ratio": 1.4383561643835616,
+        "no_speech_prob": 0.6422699689865112
+      },
+      {
+        "id": 5,
+        "seek": 0,
+        "start": 20.0,
+        "end": 23.0,
+        "text": " Walking by the wall",
+        "tokens": [
+          51364,
+          26964,
+          538,
+          264,
+          2929,
+          51514
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.614503404368525,
+        "compression_ratio": 1.4383561643835616,
+        "no_speech_prob": 0.6422699689865112
+      },
+      {
+        "id": 6,
+        "seek": 0,
+        "start": 23.0,
+        "end": 26.0,
+        "text": " A shadow's blown up",
+        "tokens": [
+          51514,
+          316,
+          8576,
+          311,
+          16479,
+          493,
+          51664
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.614503404368525,
+        "compression_ratio": 1.4383561643835616,
+        "no_speech_prob": 0.6422699689865112
+      },
+      {
+        "id": 7,
+        "seek": 2600,
+        "start": 26.0,
+        "end": 28.0,
+        "text": " A shadow's blown up",
+        "tokens": [
+          50364,
+          316,
+          8576,
+          311,
+          16479,
+          493,
+          50464
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.474680842185507,
+        "compression_ratio": 1.2222222222222223,
+        "no_speech_prob": 0.11014974862337112
+      },
+      {
+        "id": 8,
+        "seek": 2600,
+        "start": 28.0,
+        "end": 32.0,
+        "text": " It's silently ignored",
+        "tokens": [
+          50464,
+          467,
+          311,
+          40087,
+          19735,
+          50664
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.474680842185507,
+        "compression_ratio": 1.2222222222222223,
+        "no_speech_prob": 0.11014974862337112
+      },
+      {
+        "id": 9,
+        "seek": 2600,
+        "start": 35.0,
+        "end": 37.0,
+        "text": " Quiet to cut",
+        "tokens": [
+          50814,
+          32193,
+          281,
+          1723,
+          50914
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.474680842185507,
+        "compression_ratio": 1.2222222222222223,
+        "no_speech_prob": 0.11014974862337112
+      },
+      {
+        "id": 10,
+        "seek": 2600,
+        "start": 37.0,
+        "end": 40.0,
+        "text": " Disguised by the noise",
+        "tokens": [
+          50914,
+          4208,
+          2794,
+          2640,
+          538,
+          264,
+          5658,
+          51064
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.474680842185507,
+        "compression_ratio": 1.2222222222222223,
+        "no_speech_prob": 0.11014974862337112
+      },
+      {
+        "id": 11,
+        "seek": 2600,
+        "start": 40.0,
+        "end": 44.0,
+        "text": " Living with a child",
+        "tokens": [
+          51064,
+          18824,
+          365,
+          257,
+          1440,
+          51264
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.474680842185507,
+        "compression_ratio": 1.2222222222222223,
+        "no_speech_prob": 0.11014974862337112
+      },
+      {
+        "id": 12,
+        "seek": 2600,
+        "start": 44.0,
+        "end": 49.0,
+        "text": " Is a life without a voice",
+        "tokens": [
+          51264,
+          1119,
+          257,
+          993,
+          1553,
+          257,
+          3177,
+          51514
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.474680842185507,
+        "compression_ratio": 1.2222222222222223,
+        "no_speech_prob": 0.11014974862337112
+      },
+      {
+        "id": 13,
+        "seek": 2600,
+        "start": 49.0,
+        "end": 53.0,
+        "text": " When you can't stay",
+        "tokens": [
+          51514,
+          1133,
+          291,
+          393,
+          380,
+          1754,
+          51714
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.474680842185507,
+        "compression_ratio": 1.2222222222222223,
+        "no_speech_prob": 0.11014974862337112
+      },
+      {
+        "id": 14,
+        "seek": 5300,
+        "start": 53.0,
+        "end": 57.0,
+        "text": " My name has been written",
+        "tokens": [
+          50364,
+          1222,
+          1315,
+          575,
+          668,
+          3720,
+          50564
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.4357959474836077,
+        "compression_ratio": 1.5354330708661417,
+        "no_speech_prob": 0.08997808396816254
+      },
+      {
+        "id": 15,
+        "seek": 5300,
+        "start": 57.0,
+        "end": 61.0,
+        "text": " Are you feeling now? Go on, go",
+        "tokens": [
+          50564,
+          2014,
+          291,
+          2633,
+          586,
+          30,
+          1037,
+          322,
+          11,
+          352,
+          50764
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.4357959474836077,
+        "compression_ratio": 1.5354330708661417,
+        "no_speech_prob": 0.08997808396816254
+      },
+      {
+        "id": 16,
+        "seek": 5300,
+        "start": 61.0,
+        "end": 63.0,
+        "text": " My name",
+        "tokens": [
+          50764,
+          1222,
+          1315,
+          50864
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.4357959474836077,
+        "compression_ratio": 1.5354330708661417,
+        "no_speech_prob": 0.08997808396816254
+      },
+      {
+        "id": 17,
+        "seek": 5300,
+        "start": 63.0,
+        "end": 65.0,
+        "text": " I can't believe this game",
+        "tokens": [
+          50864,
+          286,
+          393,
+          380,
+          1697,
+          341,
+          1216,
+          50964
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.4357959474836077,
+        "compression_ratio": 1.5354330708661417,
+        "no_speech_prob": 0.08997808396816254
+      },
+      {
+        "id": 18,
+        "seek": 5300,
+        "start": 65.0,
+        "end": 67.0,
+        "text": " So I ask, because game",
+        "tokens": [
+          50964,
+          407,
+          286,
+          1029,
+          11,
+          570,
+          1216,
+          51064
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.4357959474836077,
+        "compression_ratio": 1.5354330708661417,
+        "no_speech_prob": 0.08997808396816254
+      },
+      {
+        "id": 19,
+        "seek": 5300,
+        "start": 67.0,
+        "end": 69.0,
+        "text": " Will you say?",
+        "tokens": [
+          51064,
+          3099,
+          291,
+          584,
+          30,
+          51164
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.4357959474836077,
+        "compression_ratio": 1.5354330708661417,
+        "no_speech_prob": 0.08997808396816254
+      },
+      {
+        "id": 20,
+        "seek": 5300,
+        "start": 69.0,
+        "end": 73.0,
+        "text": " My name has been written",
+        "tokens": [
+          51164,
+          1222,
+          1315,
+          575,
+          668,
+          3720,
+          51364
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.4357959474836077,
+        "compression_ratio": 1.5354330708661417,
+        "no_speech_prob": 0.08997808396816254
+      },
+      {
+        "id": 21,
+        "seek": 5300,
+        "start": 73.0,
+        "end": 76.0,
+        "text": " Are you feeling now?",
+        "tokens": [
+          51364,
+          2014,
+          291,
+          2633,
+          586,
+          30,
+          51514
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.4357959474836077,
+        "compression_ratio": 1.5354330708661417,
+        "no_speech_prob": 0.08997808396816254
+      },
+      {
+        "id": 22,
+        "seek": 5300,
+        "start": 76.0,
+        "end": 78.0,
+        "text": " Oh, God, we can't wait",
+        "tokens": [
+          51514,
+          876,
+          11,
+          1265,
+          11,
+          321,
+          393,
+          380,
+          1699,
+          51614
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.4357959474836077,
+        "compression_ratio": 1.5354330708661417,
+        "no_speech_prob": 0.08997808396816254
+      },
+      {
+        "id": 23,
+        "seek": 7800,
+        "start": 78.0,
+        "end": 80.0,
+        "text": " We can't wait",
+        "tokens": [
+          50364,
+          492,
+          393,
+          380,
+          1699,
+          50464
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.5544367397532743,
+        "compression_ratio": 1.3679245283018868,
+        "no_speech_prob": 0.11146651953458786
+      },
+      {
+        "id": 24,
+        "seek": 7800,
+        "start": 80.0,
+        "end": 82.0,
+        "text": " We can't wait",
+        "tokens": [
+          50464,
+          492,
+          393,
+          380,
+          1699,
+          50564
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.5544367397532743,
+        "compression_ratio": 1.3679245283018868,
+        "no_speech_prob": 0.11146651953458786
+      },
+      {
+        "id": 25,
+        "seek": 7800,
+        "start": 90.0,
+        "end": 92.0,
+        "text": " Sky lights",
+        "tokens": [
+          50964,
+          9879,
+          5811,
+          51064
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.5544367397532743,
+        "compression_ratio": 1.3679245283018868,
+        "no_speech_prob": 0.11146651953458786
+      },
+      {
+        "id": 26,
+        "seek": 7800,
+        "start": 92.0,
+        "end": 95.0,
+        "text": " The dreamers wish our way",
+        "tokens": [
+          51064,
+          440,
+          3055,
+          433,
+          3172,
+          527,
+          636,
+          51214
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.5544367397532743,
+        "compression_ratio": 1.3679245283018868,
+        "no_speech_prob": 0.11146651953458786
+      },
+      {
+        "id": 27,
+        "seek": 7800,
+        "start": 95.0,
+        "end": 99.0,
+        "text": " The sight is calling in our face",
+        "tokens": [
+          51214,
+          440,
+          7860,
+          307,
+          5141,
+          294,
+          527,
+          1851,
+          51414
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.5544367397532743,
+        "compression_ratio": 1.3679245283018868,
+        "no_speech_prob": 0.11146651953458786
+      },
+      {
+        "id": 28,
+        "seek": 7800,
+        "start": 99.0,
+        "end": 103.0,
+        "text": " The shape of my face",
+        "tokens": [
+          51414,
+          440,
+          3909,
+          295,
+          452,
+          1851,
+          51614
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.5544367397532743,
+        "compression_ratio": 1.3679245283018868,
+        "no_speech_prob": 0.11146651953458786
+      },
+      {
+        "id": 29,
+        "seek": 7800,
+        "start": 103.0,
+        "end": 107.0,
+        "text": " When you don't hear a word",
+        "tokens": [
+          51614,
+          1133,
+          291,
+          500,
+          380,
+          1568,
+          257,
+          1349,
+          51814
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.5544367397532743,
+        "compression_ratio": 1.3679245283018868,
+        "no_speech_prob": 0.11146651953458786
+      },
+      {
+        "id": 30,
+        "seek": 10700,
+        "start": 108.0,
+        "end": 110.0,
+        "text": " I say",
+        "tokens": [
+          50414,
+          286,
+          584,
+          50514
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.356516353900616,
+        "compression_ratio": 1.4727272727272727,
+        "no_speech_prob": 0.03274235129356384
+      },
+      {
+        "id": 31,
+        "seek": 10700,
+        "start": 110.0,
+        "end": 112.0,
+        "text": " As the talking goes",
+        "tokens": [
+          50514,
+          1018,
+          264,
+          1417,
+          1709,
+          50614
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.356516353900616,
+        "compression_ratio": 1.4727272727272727,
+        "no_speech_prob": 0.03274235129356384
+      },
+      {
+        "id": 32,
+        "seek": 10700,
+        "start": 112.0,
+        "end": 114.0,
+        "text": " It's the one way",
+        "tokens": [
+          50614,
+          467,
+          311,
+          264,
+          472,
+          636,
+          50714
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.356516353900616,
+        "compression_ratio": 1.4727272727272727,
+        "no_speech_prob": 0.03274235129356384
+      },
+      {
+        "id": 33,
+        "seek": 10700,
+        "start": 114.0,
+        "end": 116.0,
+        "text": " No fault",
+        "tokens": [
+          50714,
+          883,
+          7441,
+          50814
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.356516353900616,
+        "compression_ratio": 1.4727272727272727,
+        "no_speech_prob": 0.03274235129356384
+      },
+      {
+        "id": 34,
+        "seek": 10700,
+        "start": 116.0,
+        "end": 118.0,
+        "text": " No blame",
+        "tokens": [
+          50814,
+          883,
+          10127,
+          50914
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.356516353900616,
+        "compression_ratio": 1.4727272727272727,
+        "no_speech_prob": 0.03274235129356384
+      },
+      {
+        "id": 35,
+        "seek": 10700,
+        "start": 118.0,
+        "end": 120.0,
+        "text": " As the memory gone",
+        "tokens": [
+          50914,
+          1018,
+          264,
+          4675,
+          2780,
+          51014
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.356516353900616,
+        "compression_ratio": 1.4727272727272727,
+        "no_speech_prob": 0.03274235129356384
+      },
+      {
+        "id": 36,
+        "seek": 10700,
+        "start": 120.0,
+        "end": 122.0,
+        "text": " Are you feeling now?",
+        "tokens": [
+          51014,
+          2014,
+          291,
+          2633,
+          586,
+          30,
+          51114
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.356516353900616,
+        "compression_ratio": 1.4727272727272727,
+        "no_speech_prob": 0.03274235129356384
+      },
+      {
+        "id": 37,
+        "seek": 10700,
+        "start": 122.0,
+        "end": 125.0,
+        "text": " And the life is coming",
+        "tokens": [
+          51114,
+          400,
+          264,
+          993,
+          307,
+          1348,
+          51264
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.356516353900616,
+        "compression_ratio": 1.4727272727272727,
+        "no_speech_prob": 0.03274235129356384
+      },
+      {
+        "id": 38,
+        "seek": 10700,
+        "start": 125.0,
+        "end": 127.0,
+        "text": " It is a love",
+        "tokens": [
+          51264,
+          467,
+          307,
+          257,
+          959,
+          51364
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.356516353900616,
+        "compression_ratio": 1.4727272727272727,
+        "no_speech_prob": 0.03274235129356384
+      },
+      {
+        "id": 39,
+        "seek": 10700,
+        "start": 127.0,
+        "end": 131.0,
+        "text": " It is a love",
+        "tokens": [
+          51364,
+          467,
+          307,
+          257,
+          959,
+          51564
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.356516353900616,
+        "compression_ratio": 1.4727272727272727,
+        "no_speech_prob": 0.03274235129356384
+      },
+      {
+        "id": 40,
+        "seek": 10700,
+        "start": 131.0,
+        "end": 135.0,
+        "text": " It is a love",
+        "tokens": [
+          51564,
+          467,
+          307,
+          257,
+          959,
+          51764
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.356516353900616,
+        "compression_ratio": 1.4727272727272727,
+        "no_speech_prob": 0.03274235129356384
+      },
+      {
+        "id": 41,
+        "seek": 13500,
+        "start": 136.0,
+        "end": 138.0,
+        "text": " It is a love",
+        "tokens": [
+          50414,
+          467,
+          307,
+          257,
+          959,
+          50514
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.086895075711337,
+        "compression_ratio": 2.046511627906977,
+        "no_speech_prob": 0.05724240466952324
+      },
+      {
+        "id": 42,
+        "seek": 13500,
+        "start": 138.0,
+        "end": 140.0,
+        "text": " It is a love",
+        "tokens": [
+          50514,
+          467,
+          307,
+          257,
+          959,
+          50614
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.086895075711337,
+        "compression_ratio": 2.046511627906977,
+        "no_speech_prob": 0.05724240466952324
+      },
+      {
+        "id": 43,
+        "seek": 13500,
+        "start": 140.0,
+        "end": 142.0,
+        "text": " It is a love",
+        "tokens": [
+          50614,
+          467,
+          307,
+          257,
+          959,
+          50714
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.086895075711337,
+        "compression_ratio": 2.046511627906977,
+        "no_speech_prob": 0.05724240466952324
+      },
+      {
+        "id": 44,
+        "seek": 13500,
+        "start": 142.0,
+        "end": 144.0,
+        "text": " It is a love",
+        "tokens": [
+          50714,
+          467,
+          307,
+          257,
+          959,
+          50814
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.086895075711337,
+        "compression_ratio": 2.046511627906977,
+        "no_speech_prob": 0.05724240466952324
+      },
+      {
+        "id": 45,
+        "seek": 13500,
+        "start": 144.0,
+        "end": 146.0,
+        "text": " It is a love",
+        "tokens": [
+          50814,
+          467,
+          307,
+          257,
+          959,
+          50914
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.086895075711337,
+        "compression_ratio": 2.046511627906977,
+        "no_speech_prob": 0.05724240466952324
+      },
+      {
+        "id": 46,
+        "seek": 13500,
+        "start": 146.0,
+        "end": 148.0,
+        "text": " It is a love",
+        "tokens": [
+          50914,
+          467,
+          307,
+          257,
+          959,
+          51014
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.086895075711337,
+        "compression_ratio": 2.046511627906977,
+        "no_speech_prob": 0.05724240466952324
+      },
+      {
+        "id": 47,
+        "seek": 13500,
+        "start": 148.0,
+        "end": 150.0,
+        "text": " It is a love",
+        "tokens": [
+          51014,
+          467,
+          307,
+          257,
+          959,
+          51114
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.086895075711337,
+        "compression_ratio": 2.046511627906977,
+        "no_speech_prob": 0.05724240466952324
+      },
+      {
+        "id": 48,
+        "seek": 13500,
+        "start": 150.0,
+        "end": 154.0,
+        "text": " No one is a word",
+        "tokens": [
+          51114,
+          883,
+          472,
+          307,
+          257,
+          1349,
+          51314
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.086895075711337,
+        "compression_ratio": 2.046511627906977,
+        "no_speech_prob": 0.05724240466952324
+      },
+      {
+        "id": 49,
+        "seek": 13500,
+        "start": 154.0,
+        "end": 156.0,
+        "text": " They say",
+        "tokens": [
+          51314,
+          814,
+          584,
+          51414
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.086895075711337,
+        "compression_ratio": 2.046511627906977,
+        "no_speech_prob": 0.05724240466952324
+      },
+      {
+        "id": 50,
+        "seek": 13500,
+        "start": 156.0,
+        "end": 158.0,
+        "text": " As the memory gone",
+        "tokens": [
+          51414,
+          1018,
+          264,
+          4675,
+          2780,
+          51514
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.086895075711337,
+        "compression_ratio": 2.046511627906977,
+        "no_speech_prob": 0.05724240466952324
+      },
+      {
+        "id": 51,
+        "seek": 13500,
+        "start": 158.0,
+        "end": 160.0,
+        "text": " Are you feeling now?",
+        "tokens": [
+          51514,
+          2014,
+          291,
+          2633,
+          586,
+          30,
+          51614
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.086895075711337,
+        "compression_ratio": 2.046511627906977,
+        "no_speech_prob": 0.05724240466952324
+      },
+      {
+        "id": 52,
+        "seek": 13500,
+        "start": 160.0,
+        "end": 162.0,
+        "text": " Not a word",
+        "tokens": [
+          51614,
+          1726,
+          257,
+          1349,
+          51714
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.086895075711337,
+        "compression_ratio": 2.046511627906977,
+        "no_speech_prob": 0.05724240466952324
+      },
+      {
+        "id": 53,
+        "seek": 13500,
+        "start": 162.0,
+        "end": 164.0,
+        "text": " They say",
+        "tokens": [
+          51714,
+          814,
+          584,
+          51814
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.086895075711337,
+        "compression_ratio": 2.046511627906977,
+        "no_speech_prob": 0.05724240466952324
+      },
+      {
+        "id": 54,
+        "seek": 16400,
+        "start": 164.0,
+        "end": 167.0,
+        "text": " But a voiceless crowd",
+        "tokens": [
+          50364,
+          583,
+          257,
+          1650,
+          41817,
+          6919,
+          50514
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.3546369843563791,
+        "compression_ratio": 1.2602739726027397,
+        "no_speech_prob": 0.03945568576455116
+      },
+      {
+        "id": 55,
+        "seek": 16400,
+        "start": 167.0,
+        "end": 170.0,
+        "text": " Isn't backing down when the air",
+        "tokens": [
+          50514,
+          6998,
+          380,
+          19373,
+          760,
+          562,
+          264,
+          1988,
+          50664
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.3546369843563791,
+        "compression_ratio": 1.2602739726027397,
+        "no_speech_prob": 0.03945568576455116
+      },
+      {
+        "id": 56,
+        "seek": 16400,
+        "start": 170.0,
+        "end": 173.0,
+        "text": " Touched legs",
+        "tokens": [
+          50664,
+          20029,
+          292,
+          5668,
+          50814
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.3546369843563791,
+        "compression_ratio": 1.2602739726027397,
+        "no_speech_prob": 0.03945568576455116
+      },
+      {
+        "id": 57,
+        "seek": 16400,
+        "start": 173.0,
+        "end": 177.0,
+        "text": " With a load of hesitation",
+        "tokens": [
+          50814,
+          2022,
+          257,
+          3677,
+          295,
+          36125,
+          51014
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.3546369843563791,
+        "compression_ratio": 1.2602739726027397,
+        "no_speech_prob": 0.03945568576455116
+      },
+      {
+        "id": 58,
+        "seek": 16400,
+        "start": 177.0,
+        "end": 179.0,
+        "text": " Can you say?",
+        "tokens": [
+          51014,
+          1664,
+          291,
+          584,
+          30,
+          51114
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.3546369843563791,
+        "compression_ratio": 1.2602739726027397,
+        "no_speech_prob": 0.03945568576455116
+      },
+      {
+        "id": 59,
+        "seek": 16400,
+        "start": 179.0,
+        "end": 183.0,
+        "text": " My name has been written",
+        "tokens": [
+          51114,
+          1222,
+          1315,
+          575,
+          668,
+          3720,
+          51314
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.3546369843563791,
+        "compression_ratio": 1.2602739726027397,
+        "no_speech_prob": 0.03945568576455116
+      },
+      {
+        "id": 60,
+        "seek": 16400,
+        "start": 183.0,
+        "end": 186.0,
+        "text": " Are you feeling now?",
+        "tokens": [
+          51314,
+          2014,
+          291,
+          2633,
+          586,
+          30,
+          51464
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.3546369843563791,
+        "compression_ratio": 1.2602739726027397,
+        "no_speech_prob": 0.03945568576455116
+      },
+      {
+        "id": 61,
+        "seek": 16400,
+        "start": 186.0,
+        "end": 190.0,
+        "text": " Oh, God, we all become invisible",
+        "tokens": [
+          51464,
+          876,
+          11,
+          1265,
+          11,
+          321,
+          439,
+          1813,
+          14603,
+          51664
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.3546369843563791,
+        "compression_ratio": 1.2602739726027397,
+        "no_speech_prob": 0.03945568576455116
+      }
+    ]
+  },
+  "overall_assessment": {
+    "overall_compliance": 95.0,
+    "visual_compliance": 100.0,
+    "audio_compliance": 90,
+    "status": "compliant",
+    "total_violations": 0,
+    "violation_categories": []
+  },
+  "detailed_frames": [
+    {
+      "timestamp": 0.0,
+      "frame_index": 0,
+      "visual_analysis": {
+        "category": "safe_content",
+        "confidence": 0.7917543649673462,
+        "violation_detected": false,
+        "all_probabilities": {
+          "safe_content": 0.7917543649673462,
+          "suggestive_content": 0.0917988047003746,
+          "artistic_adult_content": 0.011100389063358307,
+          "misinformation": 0.08395717293024063,
+          "violence": 0.007217755541205406,
+          "hate_speech": 0.006988579407334328,
+          "dangerous_activities": 0.007182934321463108
+        }
+      },
+      "blip_description": {
+        "description": "a poster for the film, featuring a silhouette of a man and woman",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "DURAN DURAN FUTURE PAST",
+        "extracted_items": [
+          {
+            "text": "DURAN DURAN FUTURE PAST",
+            "confidence": 0.9930381689072754,
+            "bbox": [
+              [
+                128,
+                96
+              ],
+              [
+                556,
+                96
+              ],
+              [
+                556,
+                128
+              ],
+              [
+                128,
+                128
+              ]
+            ]
+          }
+        ],
+        "ocr_available": true
+      },
+      "combined_violation": false,
+      "preview_path": "/static/frames/temp_1755710820_Duran Duran - INVISIBLE - Music 4 (720p, h264)_frame_1.jpg"
+    },
+    {
+      "timestamp": 1.5,
+      "frame_index": 1,
+      "visual_analysis": {
+        "category": "safe_content",
+        "confidence": 0.792103111743927,
+        "violation_detected": false,
+        "all_probabilities": {
+          "safe_content": 0.792103111743927,
+          "suggestive_content": 0.09155391901731491,
+          "artistic_adult_content": 0.011075563728809357,
+          "misinformation": 0.08389460295438766,
+          "violence": 0.007211245130747557,
+          "hate_speech": 0.006985356565564871,
+          "dangerous_activities": 0.007176205515861511
+        }
+      },
+      "blip_description": {
+        "description": "a poster for the film, featuring a silhouette of a man and woman",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "DURAN DURAN FUTURE PAST",
+        "extracted_items": [
+          {
+            "text": "DURAN DURAN FUTURE PAST",
+            "confidence": 0.9930359237379766,
+            "bbox": [
+              [
+                128,
+                96
+              ],
+              [
+                556,
+                96
+              ],
+              [
+                556,
+                128
+              ],
+              [
+                128,
+                128
+              ]
+            ]
+          }
+        ],
+        "ocr_available": true
+      },
+      "combined_violation": false,
+      "preview_path": "/static/frames/temp_1755710820_Duran Duran - INVISIBLE - Music 4 (720p, h264)_frame_2.jpg"
+    },
+    {
+      "timestamp": 3.0,
+      "frame_index": 2,
+      "visual_analysis": {
+        "category": "safe_content",
+        "confidence": 0.7920500636100769,
+        "violation_detected": false,
+        "all_probabilities": {
+          "safe_content": 0.7920500636100769,
+          "suggestive_content": 0.09158383309841156,
+          "artistic_adult_content": 0.011079481802880764,
+          "misinformation": 0.08390804380178452,
+          "violence": 0.007213954348117113,
+          "hate_speech": 0.006986937485635281,
+          "dangerous_activities": 0.007177733816206455
+        }
+      },
+      "blip_description": {
+        "description": "a poster for the film, featuring a silhouette of a man and woman",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "DURAN DURAN FUTURE PAST",
+        "extracted_items": [
+          {
+            "text": "DURAN DURAN FUTURE PAST",
+            "confidence": 0.9930359237379766,
+            "bbox": [
+              [
+                128,
+                96
+              ],
+              [
+                556,
+                96
+              ],
+              [
+                556,
+                128
+              ],
+              [
+                128,
+                128
+              ]
+            ]
+          }
+        ],
+        "ocr_available": true
+      },
+      "combined_violation": false,
+      "preview_path": "/static/frames/temp_1755710820_Duran Duran - INVISIBLE - Music 4 (720p, h264)_frame_3.jpg"
+    },
+    {
+      "timestamp": 4.5,
+      "frame_index": 3,
+      "visual_analysis": {
+        "category": "safe_content",
+        "confidence": 0.7921084761619568,
+        "violation_detected": false,
+        "all_probabilities": {
+          "safe_content": 0.7921084761619568,
+          "suggestive_content": 0.09155265986919403,
+          "artistic_adult_content": 0.011075581423938274,
+          "misinformation": 0.08389109373092651,
+          "violence": 0.007211105432361364,
+          "hate_speech": 0.006985251326113939,
+          "dangerous_activities": 0.007175895385444164
+        }
+      },
+      "blip_description": {
+        "description": "a poster for the film, featuring a silhouette of a man and woman",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "DURAN DURAN FUTURE PAST",
+        "extracted_items": [
+          {
+            "text": "DURAN DURAN FUTURE PAST",
+            "confidence": 0.9930359237379766,
+            "bbox": [
+              [
+                128,
+                96
+              ],
+              [
+                556,
+                96
+              ],
+              [
+                556,
+                128
+              ],
+              [
+                128,
+                128
+              ]
+            ]
+          }
+        ],
+        "ocr_available": true
+      },
+      "combined_violation": false,
+      "preview_path": "/static/frames/temp_1755710820_Duran Duran - INVISIBLE - Music 4 (720p, h264)_frame_4.jpg"
+    },
+    {
+      "timestamp": 6.0,
+      "frame_index": 4,
+      "visual_analysis": {
+        "category": "safe_content",
+        "confidence": 0.7925272583961487,
+        "violation_detected": false,
+        "all_probabilities": {
+          "safe_content": 0.7925272583961487,
+          "suggestive_content": 0.09137509763240814,
+          "artistic_adult_content": 0.011052355170249939,
+          "misinformation": 0.08372404426336288,
+          "violence": 0.007190063130110502,
+          "hate_speech": 0.006971260998398066,
+          "dangerous_activities": 0.0071599180810153484
+        }
+      },
+      "blip_description": {
+        "description": "a poster for the film, featuring a silhouette of a man and woman",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "DURAN DURAN FUTURE PAST",
+        "extracted_items": [
+          {
+            "text": "DURAN DURAN FUTURE PAST",
+            "confidence": 0.9930526559684743,
+            "bbox": [
+              [
+                128,
+                96
+              ],
+              [
+                556,
+                96
+              ],
+              [
+                556,
+                128
+              ],
+              [
+                128,
+                128
+              ]
+            ]
+          }
+        ],
+        "ocr_available": true
+      },
+      "combined_violation": false,
+      "preview_path": "/static/frames/temp_1755710820_Duran Duran - INVISIBLE - Music 4 (720p, h264)_frame_5.jpg"
+    },
+    {
+      "timestamp": 7.5,
+      "frame_index": 5,
+      "visual_analysis": {
+        "category": "safe_content",
+        "confidence": 0.7902370691299438,
+        "violation_detected": false,
+        "all_probabilities": {
+          "safe_content": 0.7902370691299438,
+          "suggestive_content": 0.09223160892724991,
+          "artistic_adult_content": 0.011219232343137264,
+          "misinformation": 0.08469536155462265,
+          "violence": 0.007391777820885181,
+          "hate_speech": 0.006988823413848877,
+          "dangerous_activities": 0.007236150559037924
+        }
+      },
+      "blip_description": {
+        "description": "a poster for the film, featuring a silhouette of a man and woman",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "DURAN DURAN FUTURE PAST",
+        "extracted_items": [
+          {
+            "text": "DURAN DURAN FUTURE PAST",
+            "confidence": 0.6522256590372031,
+            "bbox": [
+              [
+                128,
+                98
+              ],
+              [
+                556,
+                98
+              ],
+              [
+                556,
+                128
+              ],
+              [
+                128,
+                128
+              ]
+            ]
+          }
+        ],
+        "ocr_available": true
+      },
+      "combined_violation": false,
+      "preview_path": "/static/frames/temp_1755710820_Duran Duran - INVISIBLE - Music 4 (720p, h264)_frame_6.jpg"
+    },
+    {
+      "timestamp": 9.0,
+      "frame_index": 6,
+      "visual_analysis": {
+        "category": "safe_content",
+        "confidence": 0.7902946472167969,
+        "violation_detected": false,
+        "all_probabilities": {
+          "safe_content": 0.7902946472167969,
+          "suggestive_content": 0.09220196306705475,
+          "artistic_adult_content": 0.011216220445930958,
+          "misinformation": 0.08467591553926468,
+          "violence": 0.007387644145637751,
+          "hate_speech": 0.0069886669516563416,
+          "dangerous_activities": 0.007235012017190456
+        }
+      },
+      "blip_description": {
+        "description": "a poster for the album'duran '",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "DURAN DURAN FUTURE PAST",
+        "extracted_items": [
+          {
+            "text": "DURAN DURAN FUTURE PAST",
+            "confidence": 0.6524430432660013,
+            "bbox": [
+              [
+                128,
+                98
+              ],
+              [
+                556,
+                98
+              ],
+              [
+                556,
+                128
+              ],
+              [
+                128,
+                128
+              ]
+            ]
+          }
+        ],
+        "ocr_available": true
+      },
+      "combined_violation": false,
+      "preview_path": "/static/frames/temp_1755710820_Duran Duran - INVISIBLE - Music 4 (720p, h264)_frame_7.jpg"
+    },
+    {
+      "timestamp": 10.5,
+      "frame_index": 7,
+      "visual_analysis": {
+        "category": "safe_content",
+        "confidence": 0.7901609539985657,
+        "violation_detected": false,
+        "all_probabilities": {
+          "safe_content": 0.7901609539985657,
+          "suggestive_content": 0.09226048737764359,
+          "artistic_adult_content": 0.011225076392292976,
+          "misinformation": 0.08472826331853867,
+          "violence": 0.007394168991595507,
+          "hate_speech": 0.0069916439242661,
+          "dangerous_activities": 0.007239371072500944
+        }
+      },
+      "blip_description": {
+        "description": "a poster for the album'duran '",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "DURAN DURAN FUTURE PAST",
+        "extracted_items": [
+          {
+            "text": "DURAN DURAN FUTURE PAST",
+            "confidence": 0.6524430432660013,
+            "bbox": [
+              [
+                128,
+                98
+              ],
+              [
+                556,
+                98
+              ],
+              [
+                556,
+                128
+              ],
+              [
+                128,
+                128
+              ]
+            ]
+          }
+        ],
+        "ocr_available": true
+      },
+      "combined_violation": false,
+      "preview_path": "/static/frames/temp_1755710820_Duran Duran - INVISIBLE - Music 4 (720p, h264)_frame_8.jpg"
+    },
+    {
+      "timestamp": 12.0,
+      "frame_index": 8,
+      "visual_analysis": {
+        "category": "safe_content",
+        "confidence": 0.7901609539985657,
+        "violation_detected": false,
+        "all_probabilities": {
+          "safe_content": 0.7901609539985657,
+          "suggestive_content": 0.09226048737764359,
+          "artistic_adult_content": 0.011225076392292976,
+          "misinformation": 0.08472826331853867,
+          "violence": 0.007394168991595507,
+          "hate_speech": 0.0069916439242661,
+          "dangerous_activities": 0.007239371072500944
+        }
+      },
+      "blip_description": {
+        "description": "a poster for the album'duran '",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "DURAN DURAN FUTURE PAST",
+        "extracted_items": [
+          {
+            "text": "DURAN DURAN FUTURE PAST",
+            "confidence": 0.6524430432660013,
+            "bbox": [
+              [
+                128,
+                98
+              ],
+              [
+                556,
+                98
+              ],
+              [
+                556,
+                128
+              ],
+              [
+                128,
+                128
+              ]
+            ]
+          }
+        ],
+        "ocr_available": true
+      },
+      "combined_violation": false,
+      "preview_path": "/static/frames/temp_1755710820_Duran Duran - INVISIBLE - Music 4 (720p, h264)_frame_9.jpg"
+    },
+    {
+      "timestamp": 13.5,
+      "frame_index": 9,
+      "visual_analysis": {
+        "category": "safe_content",
+        "confidence": 0.7901609539985657,
+        "violation_detected": false,
+        "all_probabilities": {
+          "safe_content": 0.7901609539985657,
+          "suggestive_content": 0.09226048737764359,
+          "artistic_adult_content": 0.011225076392292976,
+          "misinformation": 0.08472826331853867,
+          "violence": 0.007394168991595507,
+          "hate_speech": 0.0069916439242661,
+          "dangerous_activities": 0.007239371072500944
+        }
+      },
+      "blip_description": {
+        "description": "a poster for the album'duran '",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "DURAN DURAN FUTURE PAST",
+        "extracted_items": [
+          {
+            "text": "DURAN DURAN FUTURE PAST",
+            "confidence": 0.6524430432660013,
+            "bbox": [
+              [
+                128,
+                98
+              ],
+              [
+                556,
+                98
+              ],
+              [
+                556,
+                128
+              ],
+              [
+                128,
+                128
+              ]
+            ]
+          }
+        ],
+        "ocr_available": true
+      },
+      "combined_violation": false,
+      "preview_path": "/static/frames/temp_1755710820_Duran Duran - INVISIBLE - Music 4 (720p, h264)_frame_10.jpg"
+    }
+  ],
+  "recommendations": [
+    "✅ Content is compliant with YouTube policies",
+    "🎉 No violations detected - content ready for upload"
+  ],
+  "multi_modal_capabilities": {
+    "visual_model_accuracy": 97.48,
+    "blip_available": true,
+    "whisper_available": true,
+    "ocr_available": true
+  },
+  "text_issues": "DURAN DURAN FUTURE PAST, DURAN DURAN FUTURE PAST, DURAN DURAN FUTURE PAST, DURAN DURAN FUTURE PAST, DURAN DURAN FUTURE PAST, DURAN DURAN FUTURE PAST, DURAN DURAN FUTURE PAST, DURAN DURAN FUTURE PAST, DURAN DURAN FUTURE PAST, DURAN DURAN FUTURE PAST",
+  "image": {
+    "details": {
+      "frame_preview_paths": [
+        "/static/frames/temp_1755710820_Duran Duran - INVISIBLE - Music 4 (720p, h264)_frame_1.jpg",
+        "/static/frames/temp_1755710820_Duran Duran - INVISIBLE - Music 4 (720p, h264)_frame_2.jpg",
+        "/static/frames/temp_1755710820_Duran Duran - INVISIBLE - Music 4 (720p, h264)_frame_3.jpg",
+        "/static/frames/temp_1755710820_Duran Duran - INVISIBLE - Music 4 (720p, h264)_frame_4.jpg",
+        "/static/frames/temp_1755710820_Duran Duran - INVISIBLE - Music 4 (720p, h264)_frame_5.jpg",
+        "/static/frames/temp_1755710820_Duran Duran - INVISIBLE - Music 4 (720p, h264)_frame_6.jpg",
+        "/static/frames/temp_1755710820_Duran Duran - INVISIBLE - Music 4 (720p, h264)_frame_7.jpg",
+        "/static/frames/temp_1755710820_Duran Duran - INVISIBLE - Music 4 (720p, h264)_frame_8.jpg",
+        "/static/frames/temp_1755710820_Duran Duran - INVISIBLE - Music 4 (720p, h264)_frame_9.jpg",
+        "/static/frames/temp_1755710820_Duran Duran - INVISIBLE - Music 4 (720p, h264)_frame_10.jpg"
+      ],
+      "frame_analysis": [
+        {
+          "timestamp": 0.0,
+          "frame_index": 0,
+          "visual_analysis": {
+            "category": "safe_content",
+            "confidence": 0.7917543649673462,
+            "violation_detected": false,
+            "all_probabilities": {
+              "safe_content": 0.7917543649673462,
+              "suggestive_content": 0.0917988047003746,
+              "artistic_adult_content": 0.011100389063358307,
+              "misinformation": 0.08395717293024063,
+              "violence": 0.007217755541205406,
+              "hate_speech": 0.006988579407334328,
+              "dangerous_activities": 0.007182934321463108
+            }
+          },
+          "blip_description": {
+            "description": "a poster for the film, featuring a silhouette of a man and woman",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "DURAN DURAN FUTURE PAST",
+            "extracted_items": [
+              {
+                "text": "DURAN DURAN FUTURE PAST",
+                "confidence": 0.9930381689072754,
+                "bbox": [
+                  [
+                    128,
+                    96
+                  ],
+                  [
+                    556,
+                    96
+                  ],
+                  [
+                    556,
+                    128
+                  ],
+                  [
+                    128,
+                    128
+                  ]
+                ]
+              }
+            ],
+            "ocr_available": true
+          },
+          "combined_violation": false,
+          "preview_path": "/static/frames/temp_1755710820_Duran Duran - INVISIBLE - Music 4 (720p, h264)_frame_1.jpg"
+        },
+        {
+          "timestamp": 1.5,
+          "frame_index": 1,
+          "visual_analysis": {
+            "category": "safe_content",
+            "confidence": 0.792103111743927,
+            "violation_detected": false,
+            "all_probabilities": {
+              "safe_content": 0.792103111743927,
+              "suggestive_content": 0.09155391901731491,
+              "artistic_adult_content": 0.011075563728809357,
+              "misinformation": 0.08389460295438766,
+              "violence": 0.007211245130747557,
+              "hate_speech": 0.006985356565564871,
+              "dangerous_activities": 0.007176205515861511
+            }
+          },
+          "blip_description": {
+            "description": "a poster for the film, featuring a silhouette of a man and woman",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "DURAN DURAN FUTURE PAST",
+            "extracted_items": [
+              {
+                "text": "DURAN DURAN FUTURE PAST",
+                "confidence": 0.9930359237379766,
+                "bbox": [
+                  [
+                    128,
+                    96
+                  ],
+                  [
+                    556,
+                    96
+                  ],
+                  [
+                    556,
+                    128
+                  ],
+                  [
+                    128,
+                    128
+                  ]
+                ]
+              }
+            ],
+            "ocr_available": true
+          },
+          "combined_violation": false,
+          "preview_path": "/static/frames/temp_1755710820_Duran Duran - INVISIBLE - Music 4 (720p, h264)_frame_2.jpg"
+        },
+        {
+          "timestamp": 3.0,
+          "frame_index": 2,
+          "visual_analysis": {
+            "category": "safe_content",
+            "confidence": 0.7920500636100769,
+            "violation_detected": false,
+            "all_probabilities": {
+              "safe_content": 0.7920500636100769,
+              "suggestive_content": 0.09158383309841156,
+              "artistic_adult_content": 0.011079481802880764,
+              "misinformation": 0.08390804380178452,
+              "violence": 0.007213954348117113,
+              "hate_speech": 0.006986937485635281,
+              "dangerous_activities": 0.007177733816206455
+            }
+          },
+          "blip_description": {
+            "description": "a poster for the film, featuring a silhouette of a man and woman",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "DURAN DURAN FUTURE PAST",
+            "extracted_items": [
+              {
+                "text": "DURAN DURAN FUTURE PAST",
+                "confidence": 0.9930359237379766,
+                "bbox": [
+                  [
+                    128,
+                    96
+                  ],
+                  [
+                    556,
+                    96
+                  ],
+                  [
+                    556,
+                    128
+                  ],
+                  [
+                    128,
+                    128
+                  ]
+                ]
+              }
+            ],
+            "ocr_available": true
+          },
+          "combined_violation": false,
+          "preview_path": "/static/frames/temp_1755710820_Duran Duran - INVISIBLE - Music 4 (720p, h264)_frame_3.jpg"
+        },
+        {
+          "timestamp": 4.5,
+          "frame_index": 3,
+          "visual_analysis": {
+            "category": "safe_content",
+            "confidence": 0.7921084761619568,
+            "violation_detected": false,
+            "all_probabilities": {
+              "safe_content": 0.7921084761619568,
+              "suggestive_content": 0.09155265986919403,
+              "artistic_adult_content": 0.011075581423938274,
+              "misinformation": 0.08389109373092651,
+              "violence": 0.007211105432361364,
+              "hate_speech": 0.006985251326113939,
+              "dangerous_activities": 0.007175895385444164
+            }
+          },
+          "blip_description": {
+            "description": "a poster for the film, featuring a silhouette of a man and woman",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "DURAN DURAN FUTURE PAST",
+            "extracted_items": [
+              {
+                "text": "DURAN DURAN FUTURE PAST",
+                "confidence": 0.9930359237379766,
+                "bbox": [
+                  [
+                    128,
+                    96
+                  ],
+                  [
+                    556,
+                    96
+                  ],
+                  [
+                    556,
+                    128
+                  ],
+                  [
+                    128,
+                    128
+                  ]
+                ]
+              }
+            ],
+            "ocr_available": true
+          },
+          "combined_violation": false,
+          "preview_path": "/static/frames/temp_1755710820_Duran Duran - INVISIBLE - Music 4 (720p, h264)_frame_4.jpg"
+        },
+        {
+          "timestamp": 6.0,
+          "frame_index": 4,
+          "visual_analysis": {
+            "category": "safe_content",
+            "confidence": 0.7925272583961487,
+            "violation_detected": false,
+            "all_probabilities": {
+              "safe_content": 0.7925272583961487,
+              "suggestive_content": 0.09137509763240814,
+              "artistic_adult_content": 0.011052355170249939,
+              "misinformation": 0.08372404426336288,
+              "violence": 0.007190063130110502,
+              "hate_speech": 0.006971260998398066,
+              "dangerous_activities": 0.0071599180810153484
+            }
+          },
+          "blip_description": {
+            "description": "a poster for the film, featuring a silhouette of a man and woman",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "DURAN DURAN FUTURE PAST",
+            "extracted_items": [
+              {
+                "text": "DURAN DURAN FUTURE PAST",
+                "confidence": 0.9930526559684743,
+                "bbox": [
+                  [
+                    128,
+                    96
+                  ],
+                  [
+                    556,
+                    96
+                  ],
+                  [
+                    556,
+                    128
+                  ],
+                  [
+                    128,
+                    128
+                  ]
+                ]
+              }
+            ],
+            "ocr_available": true
+          },
+          "combined_violation": false,
+          "preview_path": "/static/frames/temp_1755710820_Duran Duran - INVISIBLE - Music 4 (720p, h264)_frame_5.jpg"
+        },
+        {
+          "timestamp": 7.5,
+          "frame_index": 5,
+          "visual_analysis": {
+            "category": "safe_content",
+            "confidence": 0.7902370691299438,
+            "violation_detected": false,
+            "all_probabilities": {
+              "safe_content": 0.7902370691299438,
+              "suggestive_content": 0.09223160892724991,
+              "artistic_adult_content": 0.011219232343137264,
+              "misinformation": 0.08469536155462265,
+              "violence": 0.007391777820885181,
+              "hate_speech": 0.006988823413848877,
+              "dangerous_activities": 0.007236150559037924
+            }
+          },
+          "blip_description": {
+            "description": "a poster for the film, featuring a silhouette of a man and woman",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "DURAN DURAN FUTURE PAST",
+            "extracted_items": [
+              {
+                "text": "DURAN DURAN FUTURE PAST",
+                "confidence": 0.6522256590372031,
+                "bbox": [
+                  [
+                    128,
+                    98
+                  ],
+                  [
+                    556,
+                    98
+                  ],
+                  [
+                    556,
+                    128
+                  ],
+                  [
+                    128,
+                    128
+                  ]
+                ]
+              }
+            ],
+            "ocr_available": true
+          },
+          "combined_violation": false,
+          "preview_path": "/static/frames/temp_1755710820_Duran Duran - INVISIBLE - Music 4 (720p, h264)_frame_6.jpg"
+        },
+        {
+          "timestamp": 9.0,
+          "frame_index": 6,
+          "visual_analysis": {
+            "category": "safe_content",
+            "confidence": 0.7902946472167969,
+            "violation_detected": false,
+            "all_probabilities": {
+              "safe_content": 0.7902946472167969,
+              "suggestive_content": 0.09220196306705475,
+              "artistic_adult_content": 0.011216220445930958,
+              "misinformation": 0.08467591553926468,
+              "violence": 0.007387644145637751,
+              "hate_speech": 0.0069886669516563416,
+              "dangerous_activities": 0.007235012017190456
+            }
+          },
+          "blip_description": {
+            "description": "a poster for the album'duran '",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "DURAN DURAN FUTURE PAST",
+            "extracted_items": [
+              {
+                "text": "DURAN DURAN FUTURE PAST",
+                "confidence": 0.6524430432660013,
+                "bbox": [
+                  [
+                    128,
+                    98
+                  ],
+                  [
+                    556,
+                    98
+                  ],
+                  [
+                    556,
+                    128
+                  ],
+                  [
+                    128,
+                    128
+                  ]
+                ]
+              }
+            ],
+            "ocr_available": true
+          },
+          "combined_violation": false,
+          "preview_path": "/static/frames/temp_1755710820_Duran Duran - INVISIBLE - Music 4 (720p, h264)_frame_7.jpg"
+        },
+        {
+          "timestamp": 10.5,
+          "frame_index": 7,
+          "visual_analysis": {
+            "category": "safe_content",
+            "confidence": 0.7901609539985657,
+            "violation_detected": false,
+            "all_probabilities": {
+              "safe_content": 0.7901609539985657,
+              "suggestive_content": 0.09226048737764359,
+              "artistic_adult_content": 0.011225076392292976,
+              "misinformation": 0.08472826331853867,
+              "violence": 0.007394168991595507,
+              "hate_speech": 0.0069916439242661,
+              "dangerous_activities": 0.007239371072500944
+            }
+          },
+          "blip_description": {
+            "description": "a poster for the album'duran '",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "DURAN DURAN FUTURE PAST",
+            "extracted_items": [
+              {
+                "text": "DURAN DURAN FUTURE PAST",
+                "confidence": 0.6524430432660013,
+                "bbox": [
+                  [
+                    128,
+                    98
+                  ],
+                  [
+                    556,
+                    98
+                  ],
+                  [
+                    556,
+                    128
+                  ],
+                  [
+                    128,
+                    128
+                  ]
+                ]
+              }
+            ],
+            "ocr_available": true
+          },
+          "combined_violation": false,
+          "preview_path": "/static/frames/temp_1755710820_Duran Duran - INVISIBLE - Music 4 (720p, h264)_frame_8.jpg"
+        },
+        {
+          "timestamp": 12.0,
+          "frame_index": 8,
+          "visual_analysis": {
+            "category": "safe_content",
+            "confidence": 0.7901609539985657,
+            "violation_detected": false,
+            "all_probabilities": {
+              "safe_content": 0.7901609539985657,
+              "suggestive_content": 0.09226048737764359,
+              "artistic_adult_content": 0.011225076392292976,
+              "misinformation": 0.08472826331853867,
+              "violence": 0.007394168991595507,
+              "hate_speech": 0.0069916439242661,
+              "dangerous_activities": 0.007239371072500944
+            }
+          },
+          "blip_description": {
+            "description": "a poster for the album'duran '",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "DURAN DURAN FUTURE PAST",
+            "extracted_items": [
+              {
+                "text": "DURAN DURAN FUTURE PAST",
+                "confidence": 0.6524430432660013,
+                "bbox": [
+                  [
+                    128,
+                    98
+                  ],
+                  [
+                    556,
+                    98
+                  ],
+                  [
+                    556,
+                    128
+                  ],
+                  [
+                    128,
+                    128
+                  ]
+                ]
+              }
+            ],
+            "ocr_available": true
+          },
+          "combined_violation": false,
+          "preview_path": "/static/frames/temp_1755710820_Duran Duran - INVISIBLE - Music 4 (720p, h264)_frame_9.jpg"
+        },
+        {
+          "timestamp": 13.5,
+          "frame_index": 9,
+          "visual_analysis": {
+            "category": "safe_content",
+            "confidence": 0.7901609539985657,
+            "violation_detected": false,
+            "all_probabilities": {
+              "safe_content": 0.7901609539985657,
+              "suggestive_content": 0.09226048737764359,
+              "artistic_adult_content": 0.011225076392292976,
+              "misinformation": 0.08472826331853867,
+              "violence": 0.007394168991595507,
+              "hate_speech": 0.0069916439242661,
+              "dangerous_activities": 0.007239371072500944
+            }
+          },
+          "blip_description": {
+            "description": "a poster for the album'duran '",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "DURAN DURAN FUTURE PAST",
+            "extracted_items": [
+              {
+                "text": "DURAN DURAN FUTURE PAST",
+                "confidence": 0.6524430432660013,
+                "bbox": [
+                  [
+                    128,
+                    98
+                  ],
+                  [
+                    556,
+                    98
+                  ],
+                  [
+                    556,
+                    128
+                  ],
+                  [
+                    128,
+                    128
+                  ]
+                ]
+              }
+            ],
+            "ocr_available": true
+          },
+          "combined_violation": false,
+          "preview_path": "/static/frames/temp_1755710820_Duran Duran - INVISIBLE - Music 4 (720p, h264)_frame_10.jpg"
+        }
+      ]
+    }
+  },
+  "rag_explanations": [
+    {
+      "type": "visual",
+      "frame": 1,
+      "timestamp": 0.0,
+      "category": "safe_content",
+      "confidence": 0.7917543649673462,
+      "blip": "a poster for the film, featuring a silhouette of a man and woman",
+      "ocr": "DURAN DURAN FUTURE PAST",
+      "policy": {
+        "description": "Content depicting violence, weapons, or graphic imagery",
+        "examples": [
+          "fighting",
+          "weapons",
+          "blood",
+          "gore",
+          "combat"
+        ],
+        "severity_indicators": [
+          "realistic weapons",
+          "explicit violence",
+          "gore"
+        ],
+        "context_matters": [
+          "gaming violence vs real violence",
+          "educational vs gratuitous"
+        ],
+        "action_required": "human_review_required"
+      },
+      "action_required": "human_review_required",
+      "examples": [
+        "fighting",
+        "weapons",
+        "blood",
+        "gore",
+        "combat"
+      ],
+      "severity_indicators": [
+        "realistic weapons",
+        "explicit violence",
+        "gore"
+      ],
+      "context_factors": [
+        "gaming violence vs real violence",
+        "educational vs gratuitous"
+      ],
+      "violation_detected": false
+    },
+    {
+      "type": "visual",
+      "frame": 2,
+      "timestamp": 1.5,
+      "category": "safe_content",
+      "confidence": 0.792103111743927,
+      "blip": "a poster for the film, featuring a silhouette of a man and woman",
+      "ocr": "DURAN DURAN FUTURE PAST",
+      "policy": {
+        "description": "Content depicting violence, weapons, or graphic imagery",
+        "examples": [
+          "fighting",
+          "weapons",
+          "blood",
+          "gore",
+          "combat"
+        ],
+        "severity_indicators": [
+          "realistic weapons",
+          "explicit violence",
+          "gore"
+        ],
+        "context_matters": [
+          "gaming violence vs real violence",
+          "educational vs gratuitous"
+        ],
+        "action_required": "human_review_required"
+      },
+      "action_required": "human_review_required",
+      "examples": [
+        "fighting",
+        "weapons",
+        "blood",
+        "gore",
+        "combat"
+      ],
+      "severity_indicators": [
+        "realistic weapons",
+        "explicit violence",
+        "gore"
+      ],
+      "context_factors": [
+        "gaming violence vs real violence",
+        "educational vs gratuitous"
+      ],
+      "violation_detected": false
+    },
+    {
+      "type": "visual",
+      "frame": 3,
+      "timestamp": 3.0,
+      "category": "safe_content",
+      "confidence": 0.7920500636100769,
+      "blip": "a poster for the film, featuring a silhouette of a man and woman",
+      "ocr": "DURAN DURAN FUTURE PAST",
+      "policy": {
+        "description": "Content depicting violence, weapons, or graphic imagery",
+        "examples": [
+          "fighting",
+          "weapons",
+          "blood",
+          "gore",
+          "combat"
+        ],
+        "severity_indicators": [
+          "realistic weapons",
+          "explicit violence",
+          "gore"
+        ],
+        "context_matters": [
+          "gaming violence vs real violence",
+          "educational vs gratuitous"
+        ],
+        "action_required": "human_review_required"
+      },
+      "action_required": "human_review_required",
+      "examples": [
+        "fighting",
+        "weapons",
+        "blood",
+        "gore",
+        "combat"
+      ],
+      "severity_indicators": [
+        "realistic weapons",
+        "explicit violence",
+        "gore"
+      ],
+      "context_factors": [
+        "gaming violence vs real violence",
+        "educational vs gratuitous"
+      ],
+      "violation_detected": false
+    },
+    {
+      "type": "visual",
+      "frame": 4,
+      "timestamp": 4.5,
+      "category": "safe_content",
+      "confidence": 0.7921084761619568,
+      "blip": "a poster for the film, featuring a silhouette of a man and woman",
+      "ocr": "DURAN DURAN FUTURE PAST",
+      "policy": {
+        "description": "Content depicting violence, weapons, or graphic imagery",
+        "examples": [
+          "fighting",
+          "weapons",
+          "blood",
+          "gore",
+          "combat"
+        ],
+        "severity_indicators": [
+          "realistic weapons",
+          "explicit violence",
+          "gore"
+        ],
+        "context_matters": [
+          "gaming violence vs real violence",
+          "educational vs gratuitous"
+        ],
+        "action_required": "human_review_required"
+      },
+      "action_required": "human_review_required",
+      "examples": [
+        "fighting",
+        "weapons",
+        "blood",
+        "gore",
+        "combat"
+      ],
+      "severity_indicators": [
+        "realistic weapons",
+        "explicit violence",
+        "gore"
+      ],
+      "context_factors": [
+        "gaming violence vs real violence",
+        "educational vs gratuitous"
+      ],
+      "violation_detected": false
+    },
+    {
+      "type": "visual",
+      "frame": 5,
+      "timestamp": 6.0,
+      "category": "safe_content",
+      "confidence": 0.7925272583961487,
+      "blip": "a poster for the film, featuring a silhouette of a man and woman",
+      "ocr": "DURAN DURAN FUTURE PAST",
+      "policy": {
+        "description": "Content depicting violence, weapons, or graphic imagery",
+        "examples": [
+          "fighting",
+          "weapons",
+          "blood",
+          "gore",
+          "combat"
+        ],
+        "severity_indicators": [
+          "realistic weapons",
+          "explicit violence",
+          "gore"
+        ],
+        "context_matters": [
+          "gaming violence vs real violence",
+          "educational vs gratuitous"
+        ],
+        "action_required": "human_review_required"
+      },
+      "action_required": "human_review_required",
+      "examples": [
+        "fighting",
+        "weapons",
+        "blood",
+        "gore",
+        "combat"
+      ],
+      "severity_indicators": [
+        "realistic weapons",
+        "explicit violence",
+        "gore"
+      ],
+      "context_factors": [
+        "gaming violence vs real violence",
+        "educational vs gratuitous"
+      ],
+      "violation_detected": false
+    },
+    {
+      "type": "visual",
+      "frame": 6,
+      "timestamp": 7.5,
+      "category": "safe_content",
+      "confidence": 0.7902370691299438,
+      "blip": "a poster for the film, featuring a silhouette of a man and woman",
+      "ocr": "DURAN DURAN FUTURE PAST",
+      "policy": {
+        "description": "Content depicting violence, weapons, or graphic imagery",
+        "examples": [
+          "fighting",
+          "weapons",
+          "blood",
+          "gore",
+          "combat"
+        ],
+        "severity_indicators": [
+          "realistic weapons",
+          "explicit violence",
+          "gore"
+        ],
+        "context_matters": [
+          "gaming violence vs real violence",
+          "educational vs gratuitous"
+        ],
+        "action_required": "human_review_required"
+      },
+      "action_required": "human_review_required",
+      "examples": [
+        "fighting",
+        "weapons",
+        "blood",
+        "gore",
+        "combat"
+      ],
+      "severity_indicators": [
+        "realistic weapons",
+        "explicit violence",
+        "gore"
+      ],
+      "context_factors": [
+        "gaming violence vs real violence",
+        "educational vs gratuitous"
+      ],
+      "violation_detected": false
+    },
+    {
+      "type": "visual",
+      "frame": 7,
+      "timestamp": 9.0,
+      "category": "safe_content",
+      "confidence": 0.7902946472167969,
+      "blip": "a poster for the album'duran '",
+      "ocr": "DURAN DURAN FUTURE PAST",
+      "policy": {
+        "description": "Content showing dangerous or harmful activities",
+        "examples": [
+          "extreme stunts",
+          "self-harm",
+          "dangerous challenges"
+        ],
+        "severity_indicators": [
+          "life-threatening",
+          "copyable dangers",
+          "no safety warnings"
+        ],
+        "context_matters": [
+          "professional vs amateur",
+          "safety precautions shown"
+        ],
+        "action_required": "age_restriction_or_removal"
+      },
+      "action_required": "age_restriction_or_removal",
+      "examples": [
+        "extreme stunts",
+        "self-harm",
+        "dangerous challenges"
+      ],
+      "severity_indicators": [
+        "life-threatening",
+        "copyable dangers",
+        "no safety warnings"
+      ],
+      "context_factors": [
+        "professional vs amateur",
+        "safety precautions shown"
+      ],
+      "violation_detected": false
+    },
+    {
+      "type": "visual",
+      "frame": 8,
+      "timestamp": 10.5,
+      "category": "safe_content",
+      "confidence": 0.7901609539985657,
+      "blip": "a poster for the album'duran '",
+      "ocr": "DURAN DURAN FUTURE PAST",
+      "policy": {
+        "description": "Content showing dangerous or harmful activities",
+        "examples": [
+          "extreme stunts",
+          "self-harm",
+          "dangerous challenges"
+        ],
+        "severity_indicators": [
+          "life-threatening",
+          "copyable dangers",
+          "no safety warnings"
+        ],
+        "context_matters": [
+          "professional vs amateur",
+          "safety precautions shown"
+        ],
+        "action_required": "age_restriction_or_removal"
+      },
+      "action_required": "age_restriction_or_removal",
+      "examples": [
+        "extreme stunts",
+        "self-harm",
+        "dangerous challenges"
+      ],
+      "severity_indicators": [
+        "life-threatening",
+        "copyable dangers",
+        "no safety warnings"
+      ],
+      "context_factors": [
+        "professional vs amateur",
+        "safety precautions shown"
+      ],
+      "violation_detected": false
+    },
+    {
+      "type": "visual",
+      "frame": 9,
+      "timestamp": 12.0,
+      "category": "safe_content",
+      "confidence": 0.7901609539985657,
+      "blip": "a poster for the album'duran '",
+      "ocr": "DURAN DURAN FUTURE PAST",
+      "policy": {
+        "description": "Content showing dangerous or harmful activities",
+        "examples": [
+          "extreme stunts",
+          "self-harm",
+          "dangerous challenges"
+        ],
+        "severity_indicators": [
+          "life-threatening",
+          "copyable dangers",
+          "no safety warnings"
+        ],
+        "context_matters": [
+          "professional vs amateur",
+          "safety precautions shown"
+        ],
+        "action_required": "age_restriction_or_removal"
+      },
+      "action_required": "age_restriction_or_removal",
+      "examples": [
+        "extreme stunts",
+        "self-harm",
+        "dangerous challenges"
+      ],
+      "severity_indicators": [
+        "life-threatening",
+        "copyable dangers",
+        "no safety warnings"
+      ],
+      "context_factors": [
+        "professional vs amateur",
+        "safety precautions shown"
+      ],
+      "violation_detected": false
+    },
+    {
+      "type": "visual",
+      "frame": 10,
+      "timestamp": 13.5,
+      "category": "safe_content",
+      "confidence": 0.7901609539985657,
+      "blip": "a poster for the album'duran '",
+      "ocr": "DURAN DURAN FUTURE PAST",
+      "policy": {
+        "description": "Content showing dangerous or harmful activities",
+        "examples": [
+          "extreme stunts",
+          "self-harm",
+          "dangerous challenges"
+        ],
+        "severity_indicators": [
+          "life-threatening",
+          "copyable dangers",
+          "no safety warnings"
+        ],
+        "context_matters": [
+          "professional vs amateur",
+          "safety precautions shown"
+        ],
+        "action_required": "age_restriction_or_removal"
+      },
+      "action_required": "age_restriction_or_removal",
+      "examples": [
+        "extreme stunts",
+        "self-harm",
+        "dangerous challenges"
+      ],
+      "severity_indicators": [
+        "life-threatening",
+        "copyable dangers",
+        "no safety warnings"
+      ],
+      "context_factors": [
+        "professional vs amateur",
+        "safety precautions shown"
+      ],
+      "violation_detected": false
+    }
+  ]
+}

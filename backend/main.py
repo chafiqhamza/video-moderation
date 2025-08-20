@@ -1,5 +1,3 @@
-
-
 # --- Ensure robust import of UltimateVideoAnalyzer regardless of working directory ---
 import sys
 import os as _os
@@ -305,6 +303,10 @@ async def analyze_video(
         else:
             print("❌ No JSON report found after analysis.")
 
+        # Run copyright check using AudD API
+        from audd_copyright_checker import check_video_copyright
+        copyright_result = check_video_copyright(temp_file_path)
+
         # Clean up temp file
         try:
             os.remove(temp_file_path)
@@ -402,7 +404,8 @@ async def analyze_video(
             "full_report": output,
             "analysis_json": json_report if json_report else {},
             "rag_explanations": rag_explanations if rag_explanations else [],
-            "frame_details": frame_details
+            "frame_details": frame_details,
+            "copyright_check": copyright_result
         }
         return PlainTextResponse(json.dumps(response, ensure_ascii=False, indent=2), media_type="application/json")
     except Exception as e:
@@ -429,6 +432,21 @@ async def list_videos():
         }
         for row in rows
     ]
+
+from audd_copyright_checker import check_video_copyright
+
+@app.post("/api/copyright-check")
+async def copyright_check(file: UploadFile = File(...)):
+    """Check video for copyright using AudD API"""
+    try:
+        with tempfile.NamedTemporaryFile(delete=False, suffix=".mp4") as tmp:
+            tmp.write(await file.read())
+            tmp_path = tmp.name
+        result = check_video_copyright(tmp_path)
+        os.remove(tmp_path)
+        return result
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Copyright check failed: {str(e)}")
 
 if __name__ == "__main__":
     import uvicorn

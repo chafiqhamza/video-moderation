@@ -1,0 +1,1278 @@
+{
+  "video_info": {
+    "path": "C:\\Users\\PC\\AppData\\Local\\Temp\\video_analysis\\temp_1755704762_videoplayback.mp4",
+    "name": "temp_1755704762_videoplayback.mp4",
+    "analysis_time": 7.134880065917969,
+    "timestamp": "2025-08-20T16:46:23.300426"
+  },
+  "frame_analysis": {
+    "total_frames": 1,
+    "violation_frames": 0,
+    "average_confidence": 0.5433987379074097,
+    "violation_categories": []
+  },
+  "audio_analysis": {
+    "transcript": " I gotta ask, is someone requesting pancakes? Cause it feels like we eat them all the time. It just says the hospital- Bold color ID. Hello? Oh! Hey, Junior? Oh, geez. Oh, okay, yeah. Bye. That was my son. Mordy Junior? Oh, what the hands? You know, coming out of town? Oh, fuck! Back guy! Bill. Guys, come on. Mordy, he wrote a New York Times bestseller about what a bad dad you are. It made us look bad for raising you. From one rider to another, the guy is a half piece of shit. It's okay to hate your kids, Mordy. But he called from the hospital. You think he's dying? Who cares? Well, it's not me. Oh, shit. Our table's ready. OMG. Some are made me get a reservation for us. It's some dumb pre-cog restaurants. It's the toast of food tuck. They predetermined what you'd want to eat before you even get there. Time to see if this place is worth having to go to it. It'll be this shit. Oh, fuck! Hey, Mordy. Sorry about your terrible son. I say let him die alone in that hospital bed. Damn, roll of threes, huh? Oh, my vibrator. Sorry, honey. Our vibrator. What? Do you want me to pull it out and show it to you? Look at the hell out of here. Jesus Christ.",
+    "language": "en",
+    "policy_flags": {
+      "hate_speech": {
+        "keywords_found": [
+          "hate"
+        ],
+        "severity": "medium"
+      }
+    },
+    "whisper_available": true,
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 3.5,
+        "text": " I gotta ask, is someone requesting pancakes?",
+        "tokens": [
+          50364,
+          286,
+          3428,
+          1029,
+          11,
+          307,
+          1580,
+          31937,
+          27859,
+          30,
+          50539
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.38271227749911224,
+        "compression_ratio": 1.404040404040404,
+        "no_speech_prob": 0.12378980219364166
+      },
+      {
+        "id": 1,
+        "seek": 0,
+        "start": 3.5,
+        "end": 6.0,
+        "text": " Cause it feels like we eat them all the time.",
+        "tokens": [
+          50539,
+          10865,
+          309,
+          3417,
+          411,
+          321,
+          1862,
+          552,
+          439,
+          264,
+          565,
+          13,
+          50664
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.38271227749911224,
+        "compression_ratio": 1.404040404040404,
+        "no_speech_prob": 0.12378980219364166
+      },
+      {
+        "id": 2,
+        "seek": 0,
+        "start": 9.5,
+        "end": 11.5,
+        "text": " It just says the hospital-",
+        "tokens": [
+          50839,
+          467,
+          445,
+          1619,
+          264,
+          4530,
+          12,
+          50939
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.38271227749911224,
+        "compression_ratio": 1.404040404040404,
+        "no_speech_prob": 0.12378980219364166
+      },
+      {
+        "id": 3,
+        "seek": 0,
+        "start": 11.5,
+        "end": 13.0,
+        "text": " Bold color ID.",
+        "tokens": [
+          50939,
+          48954,
+          2017,
+          7348,
+          13,
+          51014
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.38271227749911224,
+        "compression_ratio": 1.404040404040404,
+        "no_speech_prob": 0.12378980219364166
+      },
+      {
+        "id": 4,
+        "seek": 0,
+        "start": 13.0,
+        "end": 14.0,
+        "text": " Hello?",
+        "tokens": [
+          51014,
+          2425,
+          30,
+          51064
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.38271227749911224,
+        "compression_ratio": 1.404040404040404,
+        "no_speech_prob": 0.12378980219364166
+      },
+      {
+        "id": 5,
+        "seek": 0,
+        "start": 14.0,
+        "end": 15.0,
+        "text": " Oh!",
+        "tokens": [
+          51064,
+          876,
+          0,
+          51114
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.38271227749911224,
+        "compression_ratio": 1.404040404040404,
+        "no_speech_prob": 0.12378980219364166
+      },
+      {
+        "id": 6,
+        "seek": 0,
+        "start": 15.0,
+        "end": 16.5,
+        "text": " Hey, Junior?",
+        "tokens": [
+          51114,
+          1911,
+          11,
+          21954,
+          30,
+          51189
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.38271227749911224,
+        "compression_ratio": 1.404040404040404,
+        "no_speech_prob": 0.12378980219364166
+      },
+      {
+        "id": 7,
+        "seek": 0,
+        "start": 17.0,
+        "end": 18.0,
+        "text": " Oh, geez.",
+        "tokens": [
+          51214,
+          876,
+          11,
+          46108,
+          13,
+          51264
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.38271227749911224,
+        "compression_ratio": 1.404040404040404,
+        "no_speech_prob": 0.12378980219364166
+      },
+      {
+        "id": 8,
+        "seek": 0,
+        "start": 18.0,
+        "end": 20.0,
+        "text": " Oh, okay, yeah.",
+        "tokens": [
+          51264,
+          876,
+          11,
+          1392,
+          11,
+          1338,
+          13,
+          51364
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.38271227749911224,
+        "compression_ratio": 1.404040404040404,
+        "no_speech_prob": 0.12378980219364166
+      },
+      {
+        "id": 9,
+        "seek": 0,
+        "start": 20.0,
+        "end": 21.0,
+        "text": " Bye.",
+        "tokens": [
+          51364,
+          4621,
+          13,
+          51414
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.38271227749911224,
+        "compression_ratio": 1.404040404040404,
+        "no_speech_prob": 0.12378980219364166
+      },
+      {
+        "id": 10,
+        "seek": 0,
+        "start": 21.0,
+        "end": 23.0,
+        "text": " That was my son.",
+        "tokens": [
+          51414,
+          663,
+          390,
+          452,
+          1872,
+          13,
+          51514
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.38271227749911224,
+        "compression_ratio": 1.404040404040404,
+        "no_speech_prob": 0.12378980219364166
+      },
+      {
+        "id": 11,
+        "seek": 0,
+        "start": 24.0,
+        "end": 25.0,
+        "text": " Mordy Junior?",
+        "tokens": [
+          51564,
+          376,
+          765,
+          88,
+          21954,
+          30,
+          51614
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.38271227749911224,
+        "compression_ratio": 1.404040404040404,
+        "no_speech_prob": 0.12378980219364166
+      },
+      {
+        "id": 12,
+        "seek": 0,
+        "start": 25.0,
+        "end": 26.0,
+        "text": " Oh, what the hands?",
+        "tokens": [
+          51614,
+          876,
+          11,
+          437,
+          264,
+          2377,
+          30,
+          51664
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.38271227749911224,
+        "compression_ratio": 1.404040404040404,
+        "no_speech_prob": 0.12378980219364166
+      },
+      {
+        "id": 13,
+        "seek": 0,
+        "start": 26.0,
+        "end": 27.5,
+        "text": " You know, coming out of town?",
+        "tokens": [
+          51664,
+          509,
+          458,
+          11,
+          1348,
+          484,
+          295,
+          3954,
+          30,
+          51739
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.38271227749911224,
+        "compression_ratio": 1.404040404040404,
+        "no_speech_prob": 0.12378980219364166
+      },
+      {
+        "id": 14,
+        "seek": 0,
+        "start": 27.5,
+        "end": 29.0,
+        "text": " Oh, fuck!",
+        "tokens": [
+          51739,
+          876,
+          11,
+          3275,
+          0,
+          51814
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.38271227749911224,
+        "compression_ratio": 1.404040404040404,
+        "no_speech_prob": 0.12378980219364166
+      },
+      {
+        "id": 15,
+        "seek": 2900,
+        "start": 29.0,
+        "end": 30.0,
+        "text": " Back guy!",
+        "tokens": [
+          50364,
+          5833,
+          2146,
+          0,
+          50414
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1774936489291958,
+        "compression_ratio": 1.4888059701492538,
+        "no_speech_prob": 0.00805861409753561
+      },
+      {
+        "id": 16,
+        "seek": 2900,
+        "start": 30.0,
+        "end": 31.0,
+        "text": " Bill.",
+        "tokens": [
+          50414,
+          5477,
+          13,
+          50464
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1774936489291958,
+        "compression_ratio": 1.4888059701492538,
+        "no_speech_prob": 0.00805861409753561
+      },
+      {
+        "id": 17,
+        "seek": 2900,
+        "start": 31.0,
+        "end": 32.0,
+        "text": " Guys, come on.",
+        "tokens": [
+          50464,
+          7855,
+          11,
+          808,
+          322,
+          13,
+          50514
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1774936489291958,
+        "compression_ratio": 1.4888059701492538,
+        "no_speech_prob": 0.00805861409753561
+      },
+      {
+        "id": 18,
+        "seek": 2900,
+        "start": 32.0,
+        "end": 36.0,
+        "text": " Mordy, he wrote a New York Times bestseller about what a bad dad you are.",
+        "tokens": [
+          50514,
+          376,
+          765,
+          88,
+          11,
+          415,
+          4114,
+          257,
+          1873,
+          3609,
+          11366,
+          1151,
+          405,
+          4658,
+          466,
+          437,
+          257,
+          1578,
+          3546,
+          291,
+          366,
+          13,
+          50714
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1774936489291958,
+        "compression_ratio": 1.4888059701492538,
+        "no_speech_prob": 0.00805861409753561
+      },
+      {
+        "id": 19,
+        "seek": 2900,
+        "start": 36.0,
+        "end": 38.0,
+        "text": " It made us look bad for raising you.",
+        "tokens": [
+          50714,
+          467,
+          1027,
+          505,
+          574,
+          1578,
+          337,
+          11225,
+          291,
+          13,
+          50814
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1774936489291958,
+        "compression_ratio": 1.4888059701492538,
+        "no_speech_prob": 0.00805861409753561
+      },
+      {
+        "id": 20,
+        "seek": 2900,
+        "start": 38.0,
+        "end": 41.0,
+        "text": " From one rider to another, the guy is a half piece of shit.",
+        "tokens": [
+          50814,
+          3358,
+          472,
+          25419,
+          281,
+          1071,
+          11,
+          264,
+          2146,
+          307,
+          257,
+          1922,
+          2522,
+          295,
+          4611,
+          13,
+          50964
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1774936489291958,
+        "compression_ratio": 1.4888059701492538,
+        "no_speech_prob": 0.00805861409753561
+      },
+      {
+        "id": 21,
+        "seek": 2900,
+        "start": 41.0,
+        "end": 43.0,
+        "text": " It's okay to hate your kids, Mordy.",
+        "tokens": [
+          50964,
+          467,
+          311,
+          1392,
+          281,
+          4700,
+          428,
+          2301,
+          11,
+          376,
+          765,
+          88,
+          13,
+          51064
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1774936489291958,
+        "compression_ratio": 1.4888059701492538,
+        "no_speech_prob": 0.00805861409753561
+      },
+      {
+        "id": 22,
+        "seek": 2900,
+        "start": 43.0,
+        "end": 46.0,
+        "text": " But he called from the hospital.",
+        "tokens": [
+          51064,
+          583,
+          415,
+          1219,
+          490,
+          264,
+          4530,
+          13,
+          51214
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1774936489291958,
+        "compression_ratio": 1.4888059701492538,
+        "no_speech_prob": 0.00805861409753561
+      },
+      {
+        "id": 23,
+        "seek": 2900,
+        "start": 46.0,
+        "end": 47.0,
+        "text": " You think he's dying?",
+        "tokens": [
+          51214,
+          509,
+          519,
+          415,
+          311,
+          8639,
+          30,
+          51264
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1774936489291958,
+        "compression_ratio": 1.4888059701492538,
+        "no_speech_prob": 0.00805861409753561
+      },
+      {
+        "id": 24,
+        "seek": 2900,
+        "start": 47.0,
+        "end": 49.0,
+        "text": " Who cares?",
+        "tokens": [
+          51264,
+          2102,
+          12310,
+          30,
+          51364
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1774936489291958,
+        "compression_ratio": 1.4888059701492538,
+        "no_speech_prob": 0.00805861409753561
+      },
+      {
+        "id": 25,
+        "seek": 2900,
+        "start": 51.0,
+        "end": 53.0,
+        "text": " Well, it's not me.",
+        "tokens": [
+          51464,
+          1042,
+          11,
+          309,
+          311,
+          406,
+          385,
+          13,
+          51564
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1774936489291958,
+        "compression_ratio": 1.4888059701492538,
+        "no_speech_prob": 0.00805861409753561
+      },
+      {
+        "id": 26,
+        "seek": 2900,
+        "start": 53.0,
+        "end": 54.0,
+        "text": " Oh, shit.",
+        "tokens": [
+          51564,
+          876,
+          11,
+          4611,
+          13,
+          51614
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1774936489291958,
+        "compression_ratio": 1.4888059701492538,
+        "no_speech_prob": 0.00805861409753561
+      },
+      {
+        "id": 27,
+        "seek": 2900,
+        "start": 54.0,
+        "end": 55.0,
+        "text": " Our table's ready.",
+        "tokens": [
+          51614,
+          2621,
+          3199,
+          311,
+          1919,
+          13,
+          51664
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1774936489291958,
+        "compression_ratio": 1.4888059701492538,
+        "no_speech_prob": 0.00805861409753561
+      },
+      {
+        "id": 28,
+        "seek": 2900,
+        "start": 55.0,
+        "end": 56.0,
+        "text": " OMG.",
+        "tokens": [
+          51664,
+          23152,
+          13,
+          51714
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1774936489291958,
+        "compression_ratio": 1.4888059701492538,
+        "no_speech_prob": 0.00805861409753561
+      },
+      {
+        "id": 29,
+        "seek": 2900,
+        "start": 56.0,
+        "end": 58.0,
+        "text": " Some are made me get a reservation for us.",
+        "tokens": [
+          51714,
+          2188,
+          366,
+          1027,
+          385,
+          483,
+          257,
+          28922,
+          337,
+          505,
+          13,
+          51814
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1774936489291958,
+        "compression_ratio": 1.4888059701492538,
+        "no_speech_prob": 0.00805861409753561
+      },
+      {
+        "id": 30,
+        "seek": 5800,
+        "start": 58.0,
+        "end": 60.0,
+        "text": " It's some dumb pre-cog restaurants.",
+        "tokens": [
+          50364,
+          467,
+          311,
+          512,
+          10316,
+          659,
+          12,
+          66,
+          664,
+          11486,
+          13,
+          50464
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1552889849010267,
+        "compression_ratio": 1.564748201438849,
+        "no_speech_prob": 0.07578134536743164
+      },
+      {
+        "id": 31,
+        "seek": 5800,
+        "start": 60.0,
+        "end": 61.0,
+        "text": " It's the toast of food tuck.",
+        "tokens": [
+          50464,
+          467,
+          311,
+          264,
+          15354,
+          295,
+          1755,
+          18457,
+          13,
+          50514
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1552889849010267,
+        "compression_ratio": 1.564748201438849,
+        "no_speech_prob": 0.07578134536743164
+      },
+      {
+        "id": 32,
+        "seek": 5800,
+        "start": 61.0,
+        "end": 65.0,
+        "text": " They predetermined what you'd want to eat before you even get there.",
+        "tokens": [
+          50514,
+          814,
+          3852,
+          35344,
+          2001,
+          437,
+          291,
+          1116,
+          528,
+          281,
+          1862,
+          949,
+          291,
+          754,
+          483,
+          456,
+          13,
+          50714
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1552889849010267,
+        "compression_ratio": 1.564748201438849,
+        "no_speech_prob": 0.07578134536743164
+      },
+      {
+        "id": 33,
+        "seek": 5800,
+        "start": 65.0,
+        "end": 67.0,
+        "text": " Time to see if this place is worth having to go to it.",
+        "tokens": [
+          50714,
+          6161,
+          281,
+          536,
+          498,
+          341,
+          1081,
+          307,
+          3163,
+          1419,
+          281,
+          352,
+          281,
+          309,
+          13,
+          50814
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1552889849010267,
+        "compression_ratio": 1.564748201438849,
+        "no_speech_prob": 0.07578134536743164
+      },
+      {
+        "id": 34,
+        "seek": 5800,
+        "start": 67.0,
+        "end": 68.0,
+        "text": " It'll be this shit.",
+        "tokens": [
+          50814,
+          467,
+          603,
+          312,
+          341,
+          4611,
+          13,
+          50864
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1552889849010267,
+        "compression_ratio": 1.564748201438849,
+        "no_speech_prob": 0.07578134536743164
+      },
+      {
+        "id": 35,
+        "seek": 5800,
+        "start": 68.0,
+        "end": 69.0,
+        "text": " Oh, fuck!",
+        "tokens": [
+          50864,
+          876,
+          11,
+          3275,
+          0,
+          50914
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1552889849010267,
+        "compression_ratio": 1.564748201438849,
+        "no_speech_prob": 0.07578134536743164
+      },
+      {
+        "id": 36,
+        "seek": 5800,
+        "start": 69.0,
+        "end": 70.0,
+        "text": " Hey, Mordy.",
+        "tokens": [
+          50914,
+          1911,
+          11,
+          376,
+          765,
+          88,
+          13,
+          50964
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1552889849010267,
+        "compression_ratio": 1.564748201438849,
+        "no_speech_prob": 0.07578134536743164
+      },
+      {
+        "id": 37,
+        "seek": 5800,
+        "start": 70.0,
+        "end": 72.0,
+        "text": " Sorry about your terrible son.",
+        "tokens": [
+          50964,
+          4919,
+          466,
+          428,
+          6237,
+          1872,
+          13,
+          51064
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1552889849010267,
+        "compression_ratio": 1.564748201438849,
+        "no_speech_prob": 0.07578134536743164
+      },
+      {
+        "id": 38,
+        "seek": 5800,
+        "start": 72.0,
+        "end": 75.0,
+        "text": " I say let him die alone in that hospital bed.",
+        "tokens": [
+          51064,
+          286,
+          584,
+          718,
+          796,
+          978,
+          3312,
+          294,
+          300,
+          4530,
+          2901,
+          13,
+          51214
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1552889849010267,
+        "compression_ratio": 1.564748201438849,
+        "no_speech_prob": 0.07578134536743164
+      },
+      {
+        "id": 39,
+        "seek": 5800,
+        "start": 75.0,
+        "end": 78.0,
+        "text": " Damn, roll of threes, huh?",
+        "tokens": [
+          51214,
+          11907,
+          11,
+          3373,
+          295,
+          258,
+          4856,
+          11,
+          7020,
+          30,
+          51364
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1552889849010267,
+        "compression_ratio": 1.564748201438849,
+        "no_speech_prob": 0.07578134536743164
+      },
+      {
+        "id": 40,
+        "seek": 5800,
+        "start": 78.0,
+        "end": 80.0,
+        "text": " Oh, my vibrator.",
+        "tokens": [
+          51364,
+          876,
+          11,
+          452,
+          11599,
+          1639,
+          13,
+          51464
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1552889849010267,
+        "compression_ratio": 1.564748201438849,
+        "no_speech_prob": 0.07578134536743164
+      },
+      {
+        "id": 41,
+        "seek": 5800,
+        "start": 80.0,
+        "end": 81.0,
+        "text": " Sorry, honey.",
+        "tokens": [
+          51464,
+          4919,
+          11,
+          8330,
+          13,
+          51514
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1552889849010267,
+        "compression_ratio": 1.564748201438849,
+        "no_speech_prob": 0.07578134536743164
+      },
+      {
+        "id": 42,
+        "seek": 5800,
+        "start": 81.0,
+        "end": 83.0,
+        "text": " Our vibrator.",
+        "tokens": [
+          51514,
+          2621,
+          11599,
+          1639,
+          13,
+          51614
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1552889849010267,
+        "compression_ratio": 1.564748201438849,
+        "no_speech_prob": 0.07578134536743164
+      },
+      {
+        "id": 43,
+        "seek": 5800,
+        "start": 83.0,
+        "end": 84.0,
+        "text": " What?",
+        "tokens": [
+          51614,
+          708,
+          30,
+          51664
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1552889849010267,
+        "compression_ratio": 1.564748201438849,
+        "no_speech_prob": 0.07578134536743164
+      },
+      {
+        "id": 44,
+        "seek": 5800,
+        "start": 84.0,
+        "end": 87.0,
+        "text": " Do you want me to pull it out and show it to you?",
+        "tokens": [
+          51664,
+          1144,
+          291,
+          528,
+          385,
+          281,
+          2235,
+          309,
+          484,
+          293,
+          855,
+          309,
+          281,
+          291,
+          30,
+          51814
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1552889849010267,
+        "compression_ratio": 1.564748201438849,
+        "no_speech_prob": 0.07578134536743164
+      },
+      {
+        "id": 45,
+        "seek": 8700,
+        "start": 87.0,
+        "end": 89.0,
+        "text": " Look at the hell out of here.",
+        "tokens": [
+          50364,
+          2053,
+          412,
+          264,
+          4921,
+          484,
+          295,
+          510,
+          13,
+          50464
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.20185622572898865,
+        "compression_ratio": 0.8775510204081632,
+        "no_speech_prob": 0.02879595011472702
+      },
+      {
+        "id": 46,
+        "seek": 8700,
+        "start": 89.0,
+        "end": 90.0,
+        "text": " Jesus Christ.",
+        "tokens": [
+          50464,
+          2705,
+          2040,
+          13,
+          50514
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.20185622572898865,
+        "compression_ratio": 0.8775510204081632,
+        "no_speech_prob": 0.02879595011472702
+      }
+    ]
+  },
+  "overall_assessment": {
+    "overall_compliance": 85.0,
+    "visual_compliance": 100.0,
+    "audio_compliance": 70,
+    "status": "minor_violations",
+    "total_violations": 1,
+    "violation_categories": [
+      "hate_speech"
+    ]
+  },
+  "detailed_frames": [
+    {
+      "timestamp": 0.0,
+      "frame_index": 0,
+      "visual_analysis": {
+        "category": "safe_content",
+        "confidence": 0.5433987379074097,
+        "violation_detected": false,
+        "all_probabilities": {
+          "safe_content": 0.5433987379074097,
+          "suggestive_content": 0.3333395719528198,
+          "artistic_adult_content": 0.03117402084171772,
+          "misinformation": 0.07485634833574295,
+          "violence": 0.004689735360443592,
+          "hate_speech": 0.005931163672357798,
+          "dangerous_activities": 0.006610444281250238
+        }
+      },
+      "blip_description": {
+        "description": "the simpsons house in the simpsons house",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "[adult swvim]",
+        "extracted_items": [
+          {
+            "text": "[adult swvim]",
+            "confidence": 0.6027365654169844,
+            "bbox": [
+              [
+                545,
+                325
+              ],
+              [
+                603,
+                325
+              ],
+              [
+                603,
+                337
+              ],
+              [
+                545,
+                337
+              ]
+            ]
+          }
+        ],
+        "ocr_available": true
+      },
+      "combined_violation": false,
+      "preview_path": "/static/frames/temp_1755704762_videoplayback_frame_1.jpg"
+    }
+  ],
+  "recommendations": [
+    "🎵 Audio policy violations detected: hate_speech",
+    "📝 Review transcript for policy-violating language",
+    "⚡ Minor violations detected - targeted edits recommended"
+  ],
+  "multi_modal_capabilities": {
+    "visual_model_accuracy": 97.48,
+    "blip_available": true,
+    "whisper_available": true,
+    "ocr_available": true
+  },
+  "text_issues": "[adult swvim]",
+  "image": {
+    "details": {
+      "frame_preview_paths": [
+        "/static/frames/temp_1755704762_videoplayback_frame_1.jpg"
+      ],
+      "frame_analysis": [
+        {
+          "timestamp": 0.0,
+          "frame_index": 0,
+          "visual_analysis": {
+            "category": "safe_content",
+            "confidence": 0.5433987379074097,
+            "violation_detected": false,
+            "all_probabilities": {
+              "safe_content": 0.5433987379074097,
+              "suggestive_content": 0.3333395719528198,
+              "artistic_adult_content": 0.03117402084171772,
+              "misinformation": 0.07485634833574295,
+              "violence": 0.004689735360443592,
+              "hate_speech": 0.005931163672357798,
+              "dangerous_activities": 0.006610444281250238
+            }
+          },
+          "blip_description": {
+            "description": "the simpsons house in the simpsons house",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "[adult swvim]",
+            "extracted_items": [
+              {
+                "text": "[adult swvim]",
+                "confidence": 0.6027365654169844,
+                "bbox": [
+                  [
+                    545,
+                    325
+                  ],
+                  [
+                    603,
+                    325
+                  ],
+                  [
+                    603,
+                    337
+                  ],
+                  [
+                    545,
+                    337
+                  ]
+                ]
+              }
+            ],
+            "ocr_available": true
+          },
+          "combined_violation": false,
+          "preview_path": "/static/frames/temp_1755704762_videoplayback_frame_1.jpg"
+        }
+      ]
+    }
+  },
+  "rag_explanations": [
+    {
+      "type": "visual",
+      "frame": 1,
+      "timestamp": 0.0,
+      "category": "safe_content",
+      "confidence": 0.5433987379074097,
+      "blip": "the simpsons house in the simpsons house",
+      "ocr": "[adult swvim]",
+      "policy": {
+        "description": "Content showing dangerous or harmful activities",
+        "examples": [
+          "extreme stunts",
+          "self-harm",
+          "dangerous challenges"
+        ],
+        "severity_indicators": [
+          "life-threatening",
+          "copyable dangers",
+          "no safety warnings"
+        ],
+        "context_matters": [
+          "professional vs amateur",
+          "safety precautions shown"
+        ],
+        "action_required": "age_restriction_or_removal"
+      },
+      "action_required": "age_restriction_or_removal",
+      "examples": [
+        "extreme stunts",
+        "self-harm",
+        "dangerous challenges"
+      ],
+      "severity_indicators": [
+        "life-threatening",
+        "copyable dangers",
+        "no safety warnings"
+      ],
+      "context_factors": [
+        "professional vs amateur",
+        "safety precautions shown"
+      ],
+      "violation_detected": false
+    },
+    {
+      "type": "audio",
+      "category": "hate_speech",
+      "keywords": [
+        "hate"
+      ],
+      "severity": "medium",
+      "transcript": " I gotta ask, is someone requesting pancakes? Cause it feels like we eat them all the time. It just ",
+      "policy": {
+        "description": "Content promoting hatred against protected groups",
+        "examples": [
+          "discriminatory symbols",
+          "hateful rhetoric",
+          "supremacist content"
+        ],
+        "severity_indicators": [
+          "nazi symbols",
+          "racial slurs",
+          "incitement"
+        ],
+        "context_matters": [
+          "historical education vs promotion",
+          "criticism vs hatred"
+        ],
+        "action_required": "immediate_removal"
+      },
+      "action_required": "immediate_removal",
+      "examples": [
+        "discriminatory symbols",
+        "hateful rhetoric",
+        "supremacist content"
+      ],
+      "severity_indicators": [
+        "nazi symbols",
+        "racial slurs",
+        "incitement"
+      ],
+      "context_factors": [
+        "historical education vs promotion",
+        "criticism vs hatred"
+      ]
+    }
+  ]
+}
