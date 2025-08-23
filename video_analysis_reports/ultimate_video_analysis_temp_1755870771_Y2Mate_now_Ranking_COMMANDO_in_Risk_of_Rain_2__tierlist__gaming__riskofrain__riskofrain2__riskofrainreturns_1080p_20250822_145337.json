@@ -1,0 +1,5068 @@
+{
+  "video_info": {
+    "path": "C:\\Users\\PC\\AppData\\Local\\Temp\\video_analysis\\temp_1755870771_Y2Mate.now_Ranking COMMANDO in Risk of Rain 2 #tierlist #gaming #riskofrain #riskofrain2 #riskofrainreturns_1080p.mp4",
+    "name": "temp_1755870771_Y2Mate.now_Ranking COMMANDO in Risk of Rain 2 #tierlist #gaming #riskofrain #riskofrain2 #riskofrainreturns_1080p.mp4",
+    "analysis_time": 21.708295583724976,
+    "timestamp": "2025-08-22T14:53:29.129307"
+  },
+  "frame_analysis": {
+    "total_frames": 22,
+    "violation_frames": 10,
+    "average_confidence": 0.7691191516139291,
+    "violation_categories": [
+      "suggestive_content",
+      "misinformation",
+      "artistic_adult_content"
+    ]
+  },
+  "audio_analysis": {
+    "transcript": " I'm ranking every survivor in Risk or Rain 2 to find out which is the best one. This is Commando, you're run of the mill, main character, pew pew shoot, bad guy, mysterious look and eh. He's about as basic as he can ask for in a game like this. And that's not a bad thing, he sets a good starting point which makes him a solid pick for new players. He's super simple to understand and is a great option to learn how items affect your arsenal. This does however make him kinda boring to play once you start unlocking more interesting characters. Like when I first unlocked Bandit, I barely touched Commando because Bandit is just that much more interesting in just about every way. But again, that doesn't make Commando a bad character. If you can even get a couple trytip daggers, you can really ruin a boss's day. If Commando was just yet another character to unlock, I would definitely put him lower down in the tier list. But he really does shine as a good starter character for beginners who are trying to learn the ropes. So for that reason, I'm going to put him in beat here.",
+    "language": "en",
+    "policy_flags": {
+      "bad_words": {
+        "keywords_found": [
+          "shoot"
+        ],
+        "severity": "medium"
+      },
+      "dangerous_activities": {
+        "keywords_found": [
+          "risk"
+        ],
+        "severity": "medium"
+      }
+    },
+    "whisper_available": true,
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 3.6,
+        "text": " I'm ranking every survivor in Risk or Rain 2 to find out which is the best one.",
+        "tokens": [
+          50364,
+          286,
+          478,
+          17833,
+          633,
+          25953,
+          294,
+          45892,
+          420,
+          14487,
+          568,
+          281,
+          915,
+          484,
+          597,
+          307,
+          264,
+          1151,
+          472,
+          13,
+          50544
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.20675301113011646,
+        "compression_ratio": 1.6790450928381964,
+        "no_speech_prob": 0.009550872258841991
+      },
+      {
+        "id": 1,
+        "seek": 0,
+        "start": 3.6,
+        "end": 7.96,
+        "text": " This is Commando, you're run of the mill, main character, pew pew shoot, bad guy, mysterious",
+        "tokens": [
+          50544,
+          639,
+          307,
+          3046,
+          1806,
+          11,
+          291,
+          434,
+          1190,
+          295,
+          264,
+          1728,
+          11,
+          2135,
+          2517,
+          11,
+          25889,
+          25889,
+          3076,
+          11,
+          1578,
+          2146,
+          11,
+          13831,
+          50762
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.20675301113011646,
+        "compression_ratio": 1.6790450928381964,
+        "no_speech_prob": 0.009550872258841991
+      },
+      {
+        "id": 2,
+        "seek": 0,
+        "start": 7.96,
+        "end": 8.96,
+        "text": " look and eh.",
+        "tokens": [
+          50762,
+          574,
+          293,
+          7670,
+          13,
+          50812
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.20675301113011646,
+        "compression_ratio": 1.6790450928381964,
+        "no_speech_prob": 0.009550872258841991
+      },
+      {
+        "id": 3,
+        "seek": 0,
+        "start": 8.96,
+        "end": 11.32,
+        "text": " He's about as basic as he can ask for in a game like this.",
+        "tokens": [
+          50812,
+          634,
+          311,
+          466,
+          382,
+          3875,
+          382,
+          415,
+          393,
+          1029,
+          337,
+          294,
+          257,
+          1216,
+          411,
+          341,
+          13,
+          50930
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.20675301113011646,
+        "compression_ratio": 1.6790450928381964,
+        "no_speech_prob": 0.009550872258841991
+      },
+      {
+        "id": 4,
+        "seek": 0,
+        "start": 11.32,
+        "end": 14.86,
+        "text": " And that's not a bad thing, he sets a good starting point which makes him a solid pick",
+        "tokens": [
+          50930,
+          400,
+          300,
+          311,
+          406,
+          257,
+          1578,
+          551,
+          11,
+          415,
+          6352,
+          257,
+          665,
+          2891,
+          935,
+          597,
+          1669,
+          796,
+          257,
+          5100,
+          1888,
+          51107
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.20675301113011646,
+        "compression_ratio": 1.6790450928381964,
+        "no_speech_prob": 0.009550872258841991
+      },
+      {
+        "id": 5,
+        "seek": 0,
+        "start": 14.86,
+        "end": 15.860000000000001,
+        "text": " for new players.",
+        "tokens": [
+          51107,
+          337,
+          777,
+          4150,
+          13,
+          51157
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.20675301113011646,
+        "compression_ratio": 1.6790450928381964,
+        "no_speech_prob": 0.009550872258841991
+      },
+      {
+        "id": 6,
+        "seek": 0,
+        "start": 15.860000000000001,
+        "end": 19.68,
+        "text": " He's super simple to understand and is a great option to learn how items affect your arsenal.",
+        "tokens": [
+          51157,
+          634,
+          311,
+          1687,
+          2199,
+          281,
+          1223,
+          293,
+          307,
+          257,
+          869,
+          3614,
+          281,
+          1466,
+          577,
+          4754,
+          3345,
+          428,
+          42227,
+          13,
+          51348
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.20675301113011646,
+        "compression_ratio": 1.6790450928381964,
+        "no_speech_prob": 0.009550872258841991
+      },
+      {
+        "id": 7,
+        "seek": 0,
+        "start": 19.68,
+        "end": 23.84,
+        "text": " This does however make him kinda boring to play once you start unlocking more interesting",
+        "tokens": [
+          51348,
+          639,
+          775,
+          4461,
+          652,
+          796,
+          4144,
+          9989,
+          281,
+          862,
+          1564,
+          291,
+          722,
+          49620,
+          544,
+          1880,
+          51556
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.20675301113011646,
+        "compression_ratio": 1.6790450928381964,
+        "no_speech_prob": 0.009550872258841991
+      },
+      {
+        "id": 8,
+        "seek": 0,
+        "start": 23.84,
+        "end": 24.84,
+        "text": " characters.",
+        "tokens": [
+          51556,
+          4342,
+          13,
+          51606
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.20675301113011646,
+        "compression_ratio": 1.6790450928381964,
+        "no_speech_prob": 0.009550872258841991
+      },
+      {
+        "id": 9,
+        "seek": 0,
+        "start": 24.84,
+        "end": 28.080000000000002,
+        "text": " Like when I first unlocked Bandit, I barely touched Commando because Bandit is just that",
+        "tokens": [
+          51606,
+          1743,
+          562,
+          286,
+          700,
+          30180,
+          15462,
+          270,
+          11,
+          286,
+          10268,
+          9828,
+          3046,
+          1806,
+          570,
+          15462,
+          270,
+          307,
+          445,
+          300,
+          51768
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.20675301113011646,
+        "compression_ratio": 1.6790450928381964,
+        "no_speech_prob": 0.009550872258841991
+      },
+      {
+        "id": 10,
+        "seek": 2808,
+        "start": 28.08,
+        "end": 30.479999999999997,
+        "text": " much more interesting in just about every way.",
+        "tokens": [
+          50364,
+          709,
+          544,
+          1880,
+          294,
+          445,
+          466,
+          633,
+          636,
+          13,
+          50484
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.21583533086696594,
+        "compression_ratio": 1.6741573033707866,
+        "no_speech_prob": 0.000656306219752878
+      },
+      {
+        "id": 11,
+        "seek": 2808,
+        "start": 30.479999999999997,
+        "end": 32.92,
+        "text": " But again, that doesn't make Commando a bad character.",
+        "tokens": [
+          50484,
+          583,
+          797,
+          11,
+          300,
+          1177,
+          380,
+          652,
+          3046,
+          1806,
+          257,
+          1578,
+          2517,
+          13,
+          50606
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.21583533086696594,
+        "compression_ratio": 1.6741573033707866,
+        "no_speech_prob": 0.000656306219752878
+      },
+      {
+        "id": 12,
+        "seek": 2808,
+        "start": 32.92,
+        "end": 36.48,
+        "text": " If you can even get a couple trytip daggers, you can really ruin a boss's day.",
+        "tokens": [
+          50606,
+          759,
+          291,
+          393,
+          754,
+          483,
+          257,
+          1916,
+          853,
+          83,
+          647,
+          15460,
+          9458,
+          11,
+          291,
+          393,
+          534,
+          15514,
+          257,
+          5741,
+          311,
+          786,
+          13,
+          50784
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.21583533086696594,
+        "compression_ratio": 1.6741573033707866,
+        "no_speech_prob": 0.000656306219752878
+      },
+      {
+        "id": 13,
+        "seek": 2808,
+        "start": 36.48,
+        "end": 39.879999999999995,
+        "text": " If Commando was just yet another character to unlock, I would definitely put him lower",
+        "tokens": [
+          50784,
+          759,
+          3046,
+          1806,
+          390,
+          445,
+          1939,
+          1071,
+          2517,
+          281,
+          11634,
+          11,
+          286,
+          576,
+          2138,
+          829,
+          796,
+          3126,
+          50954
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.21583533086696594,
+        "compression_ratio": 1.6741573033707866,
+        "no_speech_prob": 0.000656306219752878
+      },
+      {
+        "id": 14,
+        "seek": 2808,
+        "start": 39.879999999999995,
+        "end": 40.879999999999995,
+        "text": " down in the tier list.",
+        "tokens": [
+          50954,
+          760,
+          294,
+          264,
+          12362,
+          1329,
+          13,
+          51004
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.21583533086696594,
+        "compression_ratio": 1.6741573033707866,
+        "no_speech_prob": 0.000656306219752878
+      },
+      {
+        "id": 15,
+        "seek": 2808,
+        "start": 40.879999999999995,
+        "end": 44.84,
+        "text": " But he really does shine as a good starter character for beginners who are trying to learn the",
+        "tokens": [
+          51004,
+          583,
+          415,
+          534,
+          775,
+          12207,
+          382,
+          257,
+          665,
+          22465,
+          2517,
+          337,
+          26992,
+          567,
+          366,
+          1382,
+          281,
+          1466,
+          264,
+          51202
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.21583533086696594,
+        "compression_ratio": 1.6741573033707866,
+        "no_speech_prob": 0.000656306219752878
+      },
+      {
+        "id": 16,
+        "seek": 2808,
+        "start": 44.84,
+        "end": 45.84,
+        "text": " ropes.",
+        "tokens": [
+          51202,
+          32964,
+          13,
+          51252
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.21583533086696594,
+        "compression_ratio": 1.6741573033707866,
+        "no_speech_prob": 0.000656306219752878
+      },
+      {
+        "id": 17,
+        "seek": 2808,
+        "start": 45.84,
+        "end": 47.56,
+        "text": " So for that reason, I'm going to put him in beat here.",
+        "tokens": [
+          51252,
+          407,
+          337,
+          300,
+          1778,
+          11,
+          286,
+          478,
+          516,
+          281,
+          829,
+          796,
+          294,
+          4224,
+          510,
+          13,
+          51338
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.21583533086696594,
+        "compression_ratio": 1.6741573033707866,
+        "no_speech_prob": 0.000656306219752878
+      }
+    ]
+  },
+  "overall_assessment": {
+    "overall_compliance": 52.272727272727266,
+    "visual_compliance": 54.54545454545454,
+    "audio_compliance": 50,
+    "status": "major_violations",
+    "total_violations": 12,
+    "violation_categories": [
+      "suggestive_content",
+      "misinformation",
+      "artistic_adult_content",
+      "bad_words",
+      "dangerous_activities"
+    ]
+  },
+  "detailed_frames": [
+    {
+      "timestamp": 0.0,
+      "frame_index": 0,
+      "visual_analysis": {
+        "category": "misinformation",
+        "confidence": 0.9730284810066223,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.00020627024059649557,
+          "suggestive_content": 0.007771309465169907,
+          "artistic_adult_content": 0.01777762360870838,
+          "misinformation": 0.9730284810066223,
+          "violence": 0.0005809228750877082,
+          "hate_speech": 0.00032974715577438474,
+          "dangerous_activities": 0.0003057233989238739
+        }
+      },
+      "blip_description": {
+        "description": "a white paper background with the word i m",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "",
+        "extracted_items": [],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1755870771_Y2Mate.now_Ranking COMMANDO in Risk of Rain 2 #tierlist #gaming #riskofrain #riskofrain2 #riskofrainreturns_1080p_frame_1.jpg"
+    },
+    {
+      "timestamp": 0.5,
+      "frame_index": 1,
+      "visual_analysis": {
+        "category": "artistic_adult_content",
+        "confidence": 0.42511728405952454,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.0023022193927317858,
+          "suggestive_content": 0.22189736366271973,
+          "artistic_adult_content": 0.42511728405952454,
+          "misinformation": 0.34003788232803345,
+          "violence": 0.003876614151522517,
+          "hate_speech": 0.0026549589820206165,
+          "dangerous_activities": 0.004113692790269852
+        }
+      },
+      "blip_description": {
+        "description": "ranking ranking ranking ranking ranking ranking ranking ranking ranking ranking ranking ranking ranking ranking ranking ranking ranking ranking ranking ranking ranking",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "RANKING Yy",
+        "extracted_items": [
+          {
+            "text": "RANKING",
+            "confidence": 0.9402413334837231,
+            "bbox": [
+              [
+                46,
+                854
+              ],
+              [
+                1041,
+                854
+              ],
+              [
+                1041,
+                1052
+              ],
+              [
+                46,
+                1052
+              ]
+            ]
+          },
+          {
+            "text": "Yy",
+            "confidence": 0.5359532585971566,
+            "bbox": [
+              [
+                864,
+                1016
+              ],
+              [
+                1034,
+                1016
+              ],
+              [
+                1034,
+                1212
+              ],
+              [
+                864,
+                1212
+              ]
+            ]
+          }
+        ],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1755870771_Y2Mate.now_Ranking COMMANDO in Risk of Rain 2 #tierlist #gaming #riskofrain #riskofrain2 #riskofrainreturns_1080p_frame_2.jpg"
+    },
+    {
+      "timestamp": 1.0,
+      "frame_index": 2,
+      "visual_analysis": {
+        "category": "suggestive_content",
+        "confidence": 0.8504872918128967,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.0061103119514882565,
+          "suggestive_content": 0.8504872918128967,
+          "artistic_adult_content": 0.10451092571020126,
+          "misinformation": 0.03526156768202782,
+          "violence": 0.0011967325117439032,
+          "hate_speech": 0.0009153615101240575,
+          "dangerous_activities": 0.0015178457833826542
+        }
+      },
+      "blip_description": {
+        "description": "a white paper with the word survivor on it",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "SURVIVOR",
+        "extracted_items": [
+          {
+            "text": "SURVIVOR",
+            "confidence": 0.6338743889570033,
+            "bbox": [
+              [
+                29,
+                865
+              ],
+              [
+                1052,
+                865
+              ],
+              [
+                1052,
+                1053
+              ],
+              [
+                29,
+                1053
+              ]
+            ]
+          }
+        ],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1755870771_Y2Mate.now_Ranking COMMANDO in Risk of Rain 2 #tierlist #gaming #riskofrain #riskofrain2 #riskofrainreturns_1080p_frame_3.jpg"
+    },
+    {
+      "timestamp": 1.5,
+      "frame_index": 3,
+      "visual_analysis": {
+        "category": "suggestive_content",
+        "confidence": 0.9588633179664612,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.0016830540262162685,
+          "suggestive_content": 0.9588633179664612,
+          "artistic_adult_content": 0.025159867480397224,
+          "misinformation": 0.01315300539135933,
+          "violence": 0.00038293818943202496,
+          "hate_speech": 0.0002794649626594037,
+          "dangerous_activities": 0.00047839852049946785
+        }
+      },
+      "blip_description": {
+        "description": "rock train 2 - screenshote",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "DF Z",
+        "extracted_items": [
+          {
+            "text": "DF",
+            "confidence": 0.8664998051835938,
+            "bbox": [
+              [
+                236,
+                1632
+              ],
+              [
+                364,
+                1632
+              ],
+              [
+                364,
+                1710
+              ],
+              [
+                236,
+                1710
+              ]
+            ]
+          },
+          {
+            "text": "Z",
+            "confidence": 0.5403748596154969,
+            "bbox": [
+              [
+                891,
+                1657
+              ],
+              [
+                1071,
+                1657
+              ],
+              [
+                1071,
+                1889
+              ],
+              [
+                891,
+                1889
+              ]
+            ]
+          }
+        ],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1755870771_Y2Mate.now_Ranking COMMANDO in Risk of Rain 2 #tierlist #gaming #riskofrain #riskofrain2 #riskofrainreturns_1080p_frame_4.jpg"
+    },
+    {
+      "timestamp": 2.0,
+      "frame_index": 4,
+      "visual_analysis": {
+        "category": "suggestive_content",
+        "confidence": 0.8983525037765503,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.004369077272713184,
+          "suggestive_content": 0.8983525037765503,
+          "artistic_adult_content": 0.06483367085456848,
+          "misinformation": 0.029722386971116066,
+          "violence": 0.0008723424398340285,
+          "hate_speech": 0.0007025611121207476,
+          "dangerous_activities": 0.0011474743951112032
+        }
+      },
+      "blip_description": {
+        "description": "rock iron 2 - screenshote",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "TO RISK DF RAINZ",
+        "extracted_items": [
+          {
+            "text": "TO",
+            "confidence": 0.8720676867293754,
+            "bbox": [
+              [
+                389,
+                851
+              ],
+              [
+                693,
+                851
+              ],
+              [
+                693,
+                1061
+              ],
+              [
+                389,
+                1061
+              ]
+            ]
+          },
+          {
+            "text": "RISK",
+            "confidence": 0.8403369188308716,
+            "bbox": [
+              [
+                75,
+                1475
+              ],
+              [
+                682,
+                1475
+              ],
+              [
+                682,
+                1650
+              ],
+              [
+                75,
+                1650
+              ]
+            ]
+          },
+          {
+            "text": "DF",
+            "confidence": 0.8348954568210161,
+            "bbox": [
+              [
+                236,
+                1632
+              ],
+              [
+                364,
+                1632
+              ],
+              [
+                364,
+                1708
+              ],
+              [
+                236,
+                1708
+              ]
+            ]
+          },
+          {
+            "text": "RAINZ",
+            "confidence": 0.751120665062086,
+            "bbox": [
+              [
+                396.1246429755435,
+                1506.0123613342396
+              ],
+              [
+                1111.8324424953403,
+                1672.7812285307061
+              ],
+              [
+                1037.8753570244564,
+                1921.9876386657604
+              ],
+              [
+                322.1675575046598,
+                1755.2187714692939
+              ]
+            ]
+          }
+        ],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1755870771_Y2Mate.now_Ranking COMMANDO in Risk of Rain 2 #tierlist #gaming #riskofrain #riskofrain2 #riskofrainreturns_1080p_frame_5.jpg"
+    },
+    {
+      "timestamp": 2.5,
+      "frame_index": 5,
+      "visual_analysis": {
+        "category": "suggestive_content",
+        "confidence": 0.9808968305587769,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.0008093806682154536,
+          "suggestive_content": 0.9808968305587769,
+          "artistic_adult_content": 0.012451588176190853,
+          "misinformation": 0.005379137583076954,
+          "violence": 0.00015004519082140177,
+          "hate_speech": 0.00011068314779549837,
+          "dangerous_activities": 0.00020226828928571194
+        }
+      },
+      "blip_description": {
+        "description": "the logo for which is a group of people sitting on chairs",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "WHICH RISK DF RAINZ",
+        "extracted_items": [
+          {
+            "text": "WHICH",
+            "confidence": 0.9993809715746655,
+            "bbox": [
+              [
+                174,
+                854
+              ],
+              [
+                916,
+                854
+              ],
+              [
+                916,
+                1050
+              ],
+              [
+                174,
+                1050
+              ]
+            ]
+          },
+          {
+            "text": "RISK",
+            "confidence": 0.6940049529075623,
+            "bbox": [
+              [
+                73,
+                1465
+              ],
+              [
+                677,
+                1465
+              ],
+              [
+                677,
+                1658
+              ],
+              [
+                73,
+                1658
+              ]
+            ]
+          },
+          {
+            "text": "DF",
+            "confidence": 0.913869281828894,
+            "bbox": [
+              [
+                238,
+                1632
+              ],
+              [
+                364,
+                1632
+              ],
+              [
+                364,
+                1710
+              ],
+              [
+                238,
+                1710
+              ]
+            ]
+          },
+          {
+            "text": "RAINZ",
+            "confidence": 0.9484799095810432,
+            "bbox": [
+              [
+                396.129556823452,
+                1506.012222914891
+              ],
+              [
+                1111.8328981637862,
+                1673.7855963505517
+              ],
+              [
+                1037.870443176548,
+                1923.987777085109
+              ],
+              [
+                321.16710183621376,
+                1756.2144036494483
+              ]
+            ]
+          }
+        ],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1755870771_Y2Mate.now_Ranking COMMANDO in Risk of Rain 2 #tierlist #gaming #riskofrain #riskofrain2 #riskofrainreturns_1080p_frame_6.jpg"
+    },
+    {
+      "timestamp": 3.0,
+      "frame_index": 6,
+      "visual_analysis": {
+        "category": "suggestive_content",
+        "confidence": 0.9151954054832458,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.008748873136937618,
+          "suggestive_content": 0.9151954054832458,
+          "artistic_adult_content": 0.04481574892997742,
+          "misinformation": 0.02791713923215866,
+          "violence": 0.0010230682091787457,
+          "hate_speech": 0.0008955513476394117,
+          "dangerous_activities": 0.0014041749527677894
+        }
+      },
+      "blip_description": {
+        "description": "one rock train 2",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "ONE",
+        "extracted_items": [
+          {
+            "text": "ONE",
+            "confidence": 0.9574887156486511,
+            "bbox": [
+              [
+                310,
+                856
+              ],
+              [
+                860,
+                856
+              ],
+              [
+                860,
+                1050
+              ],
+              [
+                310,
+                1050
+              ]
+            ]
+          }
+        ],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1755870771_Y2Mate.now_Ranking COMMANDO in Risk of Rain 2 #tierlist #gaming #riskofrain #riskofrain2 #riskofrainreturns_1080p_frame_7.jpg"
+    },
+    {
+      "timestamp": 3.5,
+      "frame_index": 7,
+      "visual_analysis": {
+        "category": "safe_content",
+        "confidence": 0.7139021158218384,
+        "violation_detected": false,
+        "all_probabilities": {
+          "safe_content": 0.7139021158218384,
+          "suggestive_content": 0.15664279460906982,
+          "artistic_adult_content": 0.019593290984630585,
+          "misinformation": 0.08923491090536118,
+          "violence": 0.0058327591978013515,
+          "hate_speech": 0.00725624430924654,
+          "dangerous_activities": 0.007537971716374159
+        }
+      },
+      "blip_description": {
+        "description": "a person in a red and black outfit holding a gun",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "THIS",
+        "extracted_items": [
+          {
+            "text": "THIS",
+            "confidence": 0.9992914795875549,
+            "bbox": [
+              [
+                292,
+                854
+              ],
+              [
+                791,
+                854
+              ],
+              [
+                791,
+                1054
+              ],
+              [
+                292,
+                1054
+              ]
+            ]
+          }
+        ],
+        "ocr_available": true
+      },
+      "combined_violation": false,
+      "preview_path": "/static/frames/temp_1755870771_Y2Mate.now_Ranking COMMANDO in Risk of Rain 2 #tierlist #gaming #riskofrain #riskofrain2 #riskofrainreturns_1080p_frame_8.jpg"
+    },
+    {
+      "timestamp": 4.0,
+      "frame_index": 8,
+      "visual_analysis": {
+        "category": "safe_content",
+        "confidence": 0.8476386070251465,
+        "violation_detected": false,
+        "all_probabilities": {
+          "safe_content": 0.8476386070251465,
+          "suggestive_content": 0.07495792955160141,
+          "artistic_adult_content": 0.009871771559119225,
+          "misinformation": 0.05518453195691109,
+          "violence": 0.0034695803187787533,
+          "hate_speech": 0.004531456623226404,
+          "dangerous_activities": 0.004346109461039305
+        }
+      },
+      "blip_description": {
+        "description": "a man in a red shirt and black pants with a white helmet",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "COMMANDO",
+        "extracted_items": [
+          {
+            "text": "COMMANDO",
+            "confidence": 0.993114087677187,
+            "bbox": [
+              [
+                52,
+                882
+              ],
+              [
+                1030,
+                882
+              ],
+              [
+                1030,
+                1030
+              ],
+              [
+                52,
+                1030
+              ]
+            ]
+          }
+        ],
+        "ocr_available": true
+      },
+      "combined_violation": false,
+      "preview_path": "/static/frames/temp_1755870771_Y2Mate.now_Ranking COMMANDO in Risk of Rain 2 #tierlist #gaming #riskofrain #riskofrain2 #riskofrainreturns_1080p_frame_9.jpg"
+    },
+    {
+      "timestamp": 4.5,
+      "frame_index": 9,
+      "visual_analysis": {
+        "category": "safe_content",
+        "confidence": 0.7811885476112366,
+        "violation_detected": false,
+        "all_probabilities": {
+          "safe_content": 0.7811885476112366,
+          "suggestive_content": 0.09543182700872421,
+          "artistic_adult_content": 0.012740347534418106,
+          "misinformation": 0.0886102095246315,
+          "violence": 0.006102796643972397,
+          "hate_speech": 0.008043704554438591,
+          "dangerous_activities": 0.007882651872932911
+        }
+      },
+      "blip_description": {
+        "description": "a cartoon character in a yellow suit holding a gun",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "",
+        "extracted_items": [],
+        "ocr_available": true
+      },
+      "combined_violation": false,
+      "preview_path": "/static/frames/temp_1755870771_Y2Mate.now_Ranking COMMANDO in Risk of Rain 2 #tierlist #gaming #riskofrain #riskofrain2 #riskofrainreturns_1080p_frame_10.jpg"
+    },
+    {
+      "timestamp": 5.0,
+      "frame_index": 10,
+      "visual_analysis": {
+        "category": "safe_content",
+        "confidence": 0.8889726996421814,
+        "violation_detected": false,
+        "all_probabilities": {
+          "safe_content": 0.8889726996421814,
+          "suggestive_content": 0.044682350009679794,
+          "artistic_adult_content": 0.006353309843689203,
+          "misinformation": 0.0498085655272007,
+          "violence": 0.0030702976509928703,
+          "hate_speech": 0.003808817360550165,
+          "dangerous_activities": 0.003304012818261981
+        }
+      },
+      "blip_description": {
+        "description": "a cartoon character with a gun in his hand",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "1. Run of the mill",
+        "extracted_items": [
+          {
+            "text": "1. Run of the mill",
+            "confidence": 0.66790984003471,
+            "bbox": [
+              [
+                83,
+                902
+              ],
+              [
+                1003,
+                902
+              ],
+              [
+                1003,
+                1015
+              ],
+              [
+                83,
+                1015
+              ]
+            ]
+          }
+        ],
+        "ocr_available": true
+      },
+      "combined_violation": false,
+      "preview_path": "/static/frames/temp_1755870771_Y2Mate.now_Ranking COMMANDO in Risk of Rain 2 #tierlist #gaming #riskofrain #riskofrain2 #riskofrainreturns_1080p_frame_11.jpg"
+    },
+    {
+      "timestamp": 5.5,
+      "frame_index": 11,
+      "visual_analysis": {
+        "category": "safe_content",
+        "confidence": 0.850745439529419,
+        "violation_detected": false,
+        "all_probabilities": {
+          "safe_content": 0.850745439529419,
+          "suggestive_content": 0.07402955740690231,
+          "artistic_adult_content": 0.010079941712319851,
+          "misinformation": 0.05364326760172844,
+          "violence": 0.0031971910502761602,
+          "hate_speech": 0.004314374644309282,
+          "dangerous_activities": 0.003990220371633768
+        }
+      },
+      "blip_description": {
+        "description": "a cartoon character with a gun in his hand",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "1. Run of the mill 2. Main character",
+        "extracted_items": [
+          {
+            "text": "1. Run of the mill",
+            "confidence": 0.9116248899654189,
+            "bbox": [
+              [
+                85,
+                841
+              ],
+              [
+                1002,
+                841
+              ],
+              [
+                1002,
+                949
+              ],
+              [
+                85,
+                949
+              ]
+            ]
+          },
+          {
+            "text": "2. Main character",
+            "confidence": 0.8953683713140862,
+            "bbox": [
+              [
+                85,
+                966
+              ],
+              [
+                999,
+                966
+              ],
+              [
+                999,
+                1077
+              ],
+              [
+                85,
+                1077
+              ]
+            ]
+          }
+        ],
+        "ocr_available": true
+      },
+      "combined_violation": false,
+      "preview_path": "/static/frames/temp_1755870771_Y2Mate.now_Ranking COMMANDO in Risk of Rain 2 #tierlist #gaming #riskofrain #riskofrain2 #riskofrainreturns_1080p_frame_12.jpg"
+    },
+    {
+      "timestamp": 6.0,
+      "frame_index": 12,
+      "visual_analysis": {
+        "category": "suggestive_content",
+        "confidence": 0.3627505898475647,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.3023620545864105,
+          "suggestive_content": 0.3627505898475647,
+          "artistic_adult_content": 0.1523292511701584,
+          "misinformation": 0.1558382660150528,
+          "violence": 0.008256095461547375,
+          "hate_speech": 0.007906158454716206,
+          "dangerous_activities": 0.01055759284645319
+        }
+      },
+      "blip_description": {
+        "description": "run to the beach in the game",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "1. Run of the mill 2. Main character 3. Pew pew shoot bad guy",
+        "extracted_items": [
+          {
+            "text": "1. Run of the mill",
+            "confidence": 0.7428818377694306,
+            "bbox": [
+              [
+                85,
+                712
+              ],
+              [
+                1001,
+                712
+              ],
+              [
+                1001,
+                820
+              ],
+              [
+                85,
+                820
+              ]
+            ]
+          },
+          {
+            "text": "2. Main character",
+            "confidence": 0.9673143226509283,
+            "bbox": [
+              [
+                90,
+                842
+              ],
+              [
+                998,
+                842
+              ],
+              [
+                998,
+                946
+              ],
+              [
+                90,
+                946
+              ]
+            ]
+          },
+          {
+            "text": "3. Pew pew shoot",
+            "confidence": 0.8567506619559577,
+            "bbox": [
+              [
+                76,
+                970
+              ],
+              [
+                1014,
+                970
+              ],
+              [
+                1014,
+                1094
+              ],
+              [
+                76,
+                1094
+              ]
+            ]
+          },
+          {
+            "text": "bad guy",
+            "confidence": 0.6752061475978813,
+            "bbox": [
+              [
+                319,
+                1094
+              ],
+              [
+                759,
+                1094
+              ],
+              [
+                759,
+                1227
+              ],
+              [
+                319,
+                1227
+              ]
+            ]
+          }
+        ],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1755870771_Y2Mate.now_Ranking COMMANDO in Risk of Rain 2 #tierlist #gaming #riskofrain #riskofrain2 #riskofrainreturns_1080p_frame_13.jpg"
+    },
+    {
+      "timestamp": 6.5,
+      "frame_index": 13,
+      "visual_analysis": {
+        "category": "suggestive_content",
+        "confidence": 0.44430580735206604,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.3415299654006958,
+          "suggestive_content": 0.44430580735206604,
+          "artistic_adult_content": 0.08325811475515366,
+          "misinformation": 0.11053945124149323,
+          "violence": 0.0056969961151480675,
+          "hate_speech": 0.00645099114626646,
+          "dangerous_activities": 0.008218687027692795
+        }
+      },
+      "blip_description": {
+        "description": "run to the end of the game with the title",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "1.Run of the mill 2. Main character 3. Pew pew shoot bad guy",
+        "extracted_items": [
+          {
+            "text": "1.Run of the mill",
+            "confidence": 0.9045901091793388,
+            "bbox": [
+              [
+                86,
+                714
+              ],
+              [
+                999,
+                714
+              ],
+              [
+                999,
+                818
+              ],
+              [
+                86,
+                818
+              ]
+            ]
+          },
+          {
+            "text": "2. Main character",
+            "confidence": 0.9856053869763121,
+            "bbox": [
+              [
+                89,
+                838
+              ],
+              [
+                999,
+                838
+              ],
+              [
+                999,
+                947
+              ],
+              [
+                89,
+                947
+              ]
+            ]
+          },
+          {
+            "text": "3. Pew pew shoot",
+            "confidence": 0.7444712595802363,
+            "bbox": [
+              [
+                76,
+                967
+              ],
+              [
+                1014,
+                967
+              ],
+              [
+                1014,
+                1095
+              ],
+              [
+                76,
+                1095
+              ]
+            ]
+          },
+          {
+            "text": "bad guy",
+            "confidence": 0.8522460580180542,
+            "bbox": [
+              [
+                317,
+                1093
+              ],
+              [
+                761,
+                1093
+              ],
+              [
+                761,
+                1227
+              ],
+              [
+                317,
+                1227
+              ]
+            ]
+          }
+        ],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1755870771_Y2Mate.now_Ranking COMMANDO in Risk of Rain 2 #tierlist #gaming #riskofrain #riskofrain2 #riskofrainreturns_1080p_frame_14.jpg"
+    },
+    {
+      "timestamp": 7.0,
+      "frame_index": 14,
+      "visual_analysis": {
+        "category": "safe_content",
+        "confidence": 0.7315030097961426,
+        "violation_detected": false,
+        "all_probabilities": {
+          "safe_content": 0.7315030097961426,
+          "suggestive_content": 0.1528312712907791,
+          "artistic_adult_content": 0.025331448763608932,
+          "misinformation": 0.07268708199262619,
+          "violence": 0.0053848628886044025,
+          "hate_speech": 0.006052827928215265,
+          "dangerous_activities": 0.0062095229513943195
+        }
+      },
+      "blip_description": {
+        "description": "run of the ninja 3 pwvshot",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "1.Run of the mill 2. Main character 3. Pew pew shoot bad guy",
+        "extracted_items": [
+          {
+            "text": "1.Run of the mill",
+            "confidence": 0.8287144074068619,
+            "bbox": [
+              [
+                86,
+                715
+              ],
+              [
+                1000,
+                715
+              ],
+              [
+                1000,
+                819
+              ],
+              [
+                86,
+                819
+              ]
+            ]
+          },
+          {
+            "text": "2. Main character",
+            "confidence": 0.705142390666928,
+            "bbox": [
+              [
+                89,
+                841
+              ],
+              [
+                999,
+                841
+              ],
+              [
+                999,
+                949
+              ],
+              [
+                89,
+                949
+              ]
+            ]
+          },
+          {
+            "text": "3. Pew pew shoot",
+            "confidence": 0.5681571818999706,
+            "bbox": [
+              [
+                76,
+                968
+              ],
+              [
+                1014,
+                968
+              ],
+              [
+                1014,
+                1095
+              ],
+              [
+                76,
+                1095
+              ]
+            ]
+          },
+          {
+            "text": "bad guy",
+            "confidence": 0.9997749777849243,
+            "bbox": [
+              [
+                317,
+                1094
+              ],
+              [
+                761,
+                1094
+              ],
+              [
+                761,
+                1227
+              ],
+              [
+                317,
+                1227
+              ]
+            ]
+          }
+        ],
+        "ocr_available": true
+      },
+      "combined_violation": false,
+      "preview_path": "/static/frames/temp_1755870771_Y2Mate.now_Ranking COMMANDO in Risk of Rain 2 #tierlist #gaming #riskofrain #riskofrain2 #riskofrainreturns_1080p_frame_15.jpg"
+    },
+    {
+      "timestamp": 7.5,
+      "frame_index": 15,
+      "visual_analysis": {
+        "category": "safe_content",
+        "confidence": 0.8842080235481262,
+        "violation_detected": false,
+        "all_probabilities": {
+          "safe_content": 0.8842080235481262,
+          "suggestive_content": 0.05502760782837868,
+          "artistic_adult_content": 0.007417000830173492,
+          "misinformation": 0.044072795659303665,
+          "violence": 0.002732933033257723,
+          "hate_speech": 0.0034007751382887363,
+          "dangerous_activities": 0.003140856511890888
+        }
+      },
+      "blip_description": {
+        "description": "a cartoon character with a blue background and text that reads run to mi 3 mino",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "1. Run of the mill 2. Main character 3. Pew pew shoot bad guy 4. Mysterio lookin ahh",
+        "extracted_items": [
+          {
+            "text": "1. Run of the mill",
+            "confidence": 0.8586898162242194,
+            "bbox": [
+              [
+                85,
+                585
+              ],
+              [
+                1001,
+                585
+              ],
+              [
+                1001,
+                693
+              ],
+              [
+                85,
+                693
+              ]
+            ]
+          },
+          {
+            "text": "2. Main character",
+            "confidence": 0.9677809434284383,
+            "bbox": [
+              [
+                87,
+                712
+              ],
+              [
+                997,
+                712
+              ],
+              [
+                997,
+                822
+              ],
+              [
+                87,
+                822
+              ]
+            ]
+          },
+          {
+            "text": "3. Pew pew shoot",
+            "confidence": 0.8528351319350963,
+            "bbox": [
+              [
+                76,
+                842
+              ],
+              [
+                1014,
+                842
+              ],
+              [
+                1014,
+                965
+              ],
+              [
+                76,
+                965
+              ]
+            ]
+          },
+          {
+            "text": "bad guy",
+            "confidence": 0.9997312567352484,
+            "bbox": [
+              [
+                314,
+                966
+              ],
+              [
+                758,
+                966
+              ],
+              [
+                758,
+                1099
+              ],
+              [
+                314,
+                1099
+              ]
+            ]
+          },
+          {
+            "text": "4. Mysterio lookin",
+            "confidence": 0.5411214643220665,
+            "bbox": [
+              [
+                67,
+                1092
+              ],
+              [
+                1013,
+                1092
+              ],
+              [
+                1013,
+                1224
+              ],
+              [
+                67,
+                1224
+              ]
+            ]
+          },
+          {
+            "text": "ahh",
+            "confidence": 0.9999949069135972,
+            "bbox": [
+              [
+                433,
+                1223
+              ],
+              [
+                643,
+                1223
+              ],
+              [
+                643,
+                1331
+              ],
+              [
+                433,
+                1331
+              ]
+            ]
+          }
+        ],
+        "ocr_available": true
+      },
+      "combined_violation": false,
+      "preview_path": "/static/frames/temp_1755870771_Y2Mate.now_Ranking COMMANDO in Risk of Rain 2 #tierlist #gaming #riskofrain #riskofrain2 #riskofrainreturns_1080p_frame_16.jpg"
+    },
+    {
+      "timestamp": 8.0,
+      "frame_index": 16,
+      "visual_analysis": {
+        "category": "safe_content",
+        "confidence": 0.8743234276771545,
+        "violation_detected": false,
+        "all_probabilities": {
+          "safe_content": 0.8743234276771545,
+          "suggestive_content": 0.06051923334598541,
+          "artistic_adult_content": 0.008935844525694847,
+          "misinformation": 0.04644157737493515,
+          "violence": 0.0028605991974473,
+          "hate_speech": 0.003550838679075241,
+          "dangerous_activities": 0.0033683713991194963
+        }
+      },
+      "blip_description": {
+        "description": "a cartoon character with a green and yellow outfit",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "1. Run of the mill 2. Main character 3. Pew pew shoot ahh",
+        "extracted_items": [
+          {
+            "text": "1. Run of the mill",
+            "confidence": 0.7596831721106068,
+            "bbox": [
+              [
+                85,
+                585
+              ],
+              [
+                1002,
+                585
+              ],
+              [
+                1002,
+                693
+              ],
+              [
+                85,
+                693
+              ]
+            ]
+          },
+          {
+            "text": "2. Main character",
+            "confidence": 0.8660678443874921,
+            "bbox": [
+              [
+                87,
+                713
+              ],
+              [
+                997,
+                713
+              ],
+              [
+                997,
+                821
+              ],
+              [
+                87,
+                821
+              ]
+            ]
+          },
+          {
+            "text": "3. Pew pew shoot",
+            "confidence": 0.6745356404098366,
+            "bbox": [
+              [
+                76,
+                839
+              ],
+              [
+                1014,
+                839
+              ],
+              [
+                1014,
+                967
+              ],
+              [
+                76,
+                967
+              ]
+            ]
+          },
+          {
+            "text": "ahh",
+            "confidence": 0.9993637800216675,
+            "bbox": [
+              [
+                432,
+                1221
+              ],
+              [
+                644,
+                1221
+              ],
+              [
+                644,
+                1331
+              ],
+              [
+                432,
+                1331
+              ]
+            ]
+          }
+        ],
+        "ocr_available": true
+      },
+      "combined_violation": false,
+      "preview_path": "/static/frames/temp_1755870771_Y2Mate.now_Ranking COMMANDO in Risk of Rain 2 #tierlist #gaming #riskofrain #riskofrain2 #riskofrainreturns_1080p_frame_17.jpg"
+    },
+    {
+      "timestamp": 8.5,
+      "frame_index": 17,
+      "visual_analysis": {
+        "category": "safe_content",
+        "confidence": 0.6070948839187622,
+        "violation_detected": false,
+        "all_probabilities": {
+          "safe_content": 0.6070948839187622,
+          "suggestive_content": 0.20508764684200287,
+          "artistic_adult_content": 0.07425470650196075,
+          "misinformation": 0.09160245954990387,
+          "violence": 0.0071458048187196255,
+          "hate_speech": 0.006833045743405819,
+          "dangerous_activities": 0.007981451228260994
+        }
+      },
+      "blip_description": {
+        "description": "he's about to be",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "He's about as",
+        "extracted_items": [
+          {
+            "text": "He's about as",
+            "confidence": 0.9249329052883775,
+            "bbox": [
+              [
+                23,
+                1093
+              ],
+              [
+                1062,
+                1093
+              ],
+              [
+                1062,
+                1251
+              ],
+              [
+                23,
+                1251
+              ]
+            ]
+          }
+        ],
+        "ocr_available": true
+      },
+      "combined_violation": false,
+      "preview_path": "/static/frames/temp_1755870771_Y2Mate.now_Ranking COMMANDO in Risk of Rain 2 #tierlist #gaming #riskofrain #riskofrain2 #riskofrainreturns_1080p_frame_18.jpg"
+    },
+    {
+      "timestamp": 9.0,
+      "frame_index": 18,
+      "visual_analysis": {
+        "category": "safe_content",
+        "confidence": 0.8273937106132507,
+        "violation_detected": false,
+        "all_probabilities": {
+          "safe_content": 0.8273937106132507,
+          "suggestive_content": 0.07311799377202988,
+          "artistic_adult_content": 0.019410599023103714,
+          "misinformation": 0.06513802707195282,
+          "violence": 0.004733718931674957,
+          "hate_speech": 0.005171982571482658,
+          "dangerous_activities": 0.00503399595618248
+        }
+      },
+      "blip_description": {
+        "description": "he's about to be",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "He's about as",
+        "extracted_items": [
+          {
+            "text": "He's about as",
+            "confidence": 0.6266436732850146,
+            "bbox": [
+              [
+                21,
+                1093
+              ],
+              [
+                1061,
+                1093
+              ],
+              [
+                1061,
+                1251
+              ],
+              [
+                21,
+                1251
+              ]
+            ]
+          }
+        ],
+        "ocr_available": true
+      },
+      "combined_violation": false,
+      "preview_path": "/static/frames/temp_1755870771_Y2Mate.now_Ranking COMMANDO in Risk of Rain 2 #tierlist #gaming #riskofrain #riskofrain2 #riskofrainreturns_1080p_frame_19.jpg"
+    },
+    {
+      "timestamp": 9.5,
+      "frame_index": 19,
+      "visual_analysis": {
+        "category": "safe_content",
+        "confidence": 0.6292641758918762,
+        "violation_detected": false,
+        "all_probabilities": {
+          "safe_content": 0.6292641758918762,
+          "suggestive_content": 0.22001753747463226,
+          "artistic_adult_content": 0.045650891959667206,
+          "misinformation": 0.0859084501862526,
+          "violence": 0.0062078749760985374,
+          "hate_speech": 0.0061330939643085,
+          "dangerous_activities": 0.006817952264100313
+        }
+      },
+      "blip_description": {
+        "description": "a screenshot of a man in a forest with the words as you",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "as you can",
+        "extracted_items": [
+          {
+            "text": "as you can",
+            "confidence": 0.7133594961667106,
+            "bbox": [
+              [
+                125,
+                1115
+              ],
+              [
+                961,
+                1115
+              ],
+              [
+                961,
+                1280
+              ],
+              [
+                125,
+                1280
+              ]
+            ]
+          }
+        ],
+        "ocr_available": true
+      },
+      "combined_violation": false,
+      "preview_path": "/static/frames/temp_1755870771_Y2Mate.now_Ranking COMMANDO in Risk of Rain 2 #tierlist #gaming #riskofrain #riskofrain2 #riskofrainreturns_1080p_frame_20.jpg"
+    },
+    {
+      "timestamp": 10.0,
+      "frame_index": 20,
+      "visual_analysis": {
+        "category": "safe_content",
+        "confidence": 0.665087878704071,
+        "violation_detected": false,
+        "all_probabilities": {
+          "safe_content": 0.665087878704071,
+          "suggestive_content": 0.18277041614055634,
+          "artistic_adult_content": 0.045166511088609695,
+          "misinformation": 0.08597015589475632,
+          "violence": 0.006390137132257223,
+          "hate_speech": 0.007027157116681337,
+          "dangerous_activities": 0.00758775882422924
+        }
+      },
+      "blip_description": {
+        "description": "a screenshot of a person in a forest",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "13 ask for in a",
+        "extracted_items": [
+          {
+            "text": "13",
+            "confidence": 0.607518995386358,
+            "bbox": [
+              [
+                265,
+                741
+              ],
+              [
+                326,
+                741
+              ],
+              [
+                326,
+                782
+              ],
+              [
+                265,
+                782
+              ]
+            ]
+          },
+          {
+            "text": "ask for in a",
+            "confidence": 0.9310170570806146,
+            "bbox": [
+              [
+                110,
+                1095
+              ],
+              [
+                965,
+                1095
+              ],
+              [
+                965,
+                1253
+              ],
+              [
+                110,
+                1253
+              ]
+            ]
+          }
+        ],
+        "ocr_available": true
+      },
+      "combined_violation": false,
+      "preview_path": "/static/frames/temp_1755870771_Y2Mate.now_Ranking COMMANDO in Risk of Rain 2 #tierlist #gaming #riskofrain #riskofrain2 #riskofrainreturns_1080p_frame_21.jpg"
+    },
+    {
+      "timestamp": 10.5,
+      "frame_index": 21,
+      "visual_analysis": {
+        "category": "suggestive_content",
+        "confidence": 0.8103013038635254,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.04145025834441185,
+          "suggestive_content": 0.8103013038635254,
+          "artistic_adult_content": 0.09108609706163406,
+          "misinformation": 0.04896393045783043,
+          "violence": 0.0025393632240593433,
+          "hate_speech": 0.002297695493325591,
+          "dangerous_activities": 0.0033613117411732674
+        }
+      },
+      "blip_description": {
+        "description": "a person walking through a forest with the words game like this",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "game like this",
+        "extracted_items": [
+          {
+            "text": "game like this",
+            "confidence": 0.8917089190826006,
+            "bbox": [
+              [
+                32,
+                1097
+              ],
+              [
+                1045,
+                1097
+              ],
+              [
+                1045,
+                1278
+              ],
+              [
+                32,
+                1278
+              ]
+            ]
+          }
+        ],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1755870771_Y2Mate.now_Ranking COMMANDO in Risk of Rain 2 #tierlist #gaming #riskofrain #riskofrain2 #riskofrainreturns_1080p_frame_22.jpg"
+    }
+  ],
+  "recommendations": [
+    "⚠️ Visual policy violations detected: suggestive_content, misinformation, artistic_adult_content",
+    "🔍 Consider reviewing flagged video segments",
+    "🎵 Audio policy violations detected: bad_words, dangerous_activities",
+    "📝 Review transcript for policy-violating language",
+    "🚨 Multiple violations detected - content may need significant editing"
+  ],
+  "multi_modal_capabilities": {
+    "visual_model_accuracy": 97.48,
+    "blip_available": true,
+    "whisper_available": true,
+    "ocr_available": true
+  },
+  "text_issues": "RANKING Yy, SURVIVOR, DF Z, TO RISK DF RAINZ, WHICH RISK DF RAINZ, ONE, THIS, COMMANDO, 1. Run of the mill, 1. Run of the mill 2. Main character, 1. Run of the mill 2. Main character 3. Pew pew shoot bad guy, 1.Run of the mill 2. Main character 3. Pew pew shoot bad guy, 1.Run of the mill 2. Main character 3. Pew pew shoot bad guy, 1. Run of the mill 2. Main character 3. Pew pew shoot bad guy 4. Mysterio lookin ahh, 1. Run of the mill 2. Main character 3. Pew pew shoot ahh, He's about as, He's about as, as you can, 13 ask for in a, game like this",
+  "image": {
+    "details": {
+      "frame_preview_paths": [
+        "/static/frames/temp_1755870771_Y2Mate.now_Ranking COMMANDO in Risk of Rain 2 #tierlist #gaming #riskofrain #riskofrain2 #riskofrainreturns_1080p_frame_1.jpg",
+        "/static/frames/temp_1755870771_Y2Mate.now_Ranking COMMANDO in Risk of Rain 2 #tierlist #gaming #riskofrain #riskofrain2 #riskofrainreturns_1080p_frame_2.jpg",
+        "/static/frames/temp_1755870771_Y2Mate.now_Ranking COMMANDO in Risk of Rain 2 #tierlist #gaming #riskofrain #riskofrain2 #riskofrainreturns_1080p_frame_3.jpg",
+        "/static/frames/temp_1755870771_Y2Mate.now_Ranking COMMANDO in Risk of Rain 2 #tierlist #gaming #riskofrain #riskofrain2 #riskofrainreturns_1080p_frame_4.jpg",
+        "/static/frames/temp_1755870771_Y2Mate.now_Ranking COMMANDO in Risk of Rain 2 #tierlist #gaming #riskofrain #riskofrain2 #riskofrainreturns_1080p_frame_5.jpg",
+        "/static/frames/temp_1755870771_Y2Mate.now_Ranking COMMANDO in Risk of Rain 2 #tierlist #gaming #riskofrain #riskofrain2 #riskofrainreturns_1080p_frame_6.jpg",
+        "/static/frames/temp_1755870771_Y2Mate.now_Ranking COMMANDO in Risk of Rain 2 #tierlist #gaming #riskofrain #riskofrain2 #riskofrainreturns_1080p_frame_7.jpg",
+        "/static/frames/temp_1755870771_Y2Mate.now_Ranking COMMANDO in Risk of Rain 2 #tierlist #gaming #riskofrain #riskofrain2 #riskofrainreturns_1080p_frame_8.jpg",
+        "/static/frames/temp_1755870771_Y2Mate.now_Ranking COMMANDO in Risk of Rain 2 #tierlist #gaming #riskofrain #riskofrain2 #riskofrainreturns_1080p_frame_9.jpg",
+        "/static/frames/temp_1755870771_Y2Mate.now_Ranking COMMANDO in Risk of Rain 2 #tierlist #gaming #riskofrain #riskofrain2 #riskofrainreturns_1080p_frame_10.jpg",
+        "/static/frames/temp_1755870771_Y2Mate.now_Ranking COMMANDO in Risk of Rain 2 #tierlist #gaming #riskofrain #riskofrain2 #riskofrainreturns_1080p_frame_11.jpg",
+        "/static/frames/temp_1755870771_Y2Mate.now_Ranking COMMANDO in Risk of Rain 2 #tierlist #gaming #riskofrain #riskofrain2 #riskofrainreturns_1080p_frame_12.jpg",
+        "/static/frames/temp_1755870771_Y2Mate.now_Ranking COMMANDO in Risk of Rain 2 #tierlist #gaming #riskofrain #riskofrain2 #riskofrainreturns_1080p_frame_13.jpg",
+        "/static/frames/temp_1755870771_Y2Mate.now_Ranking COMMANDO in Risk of Rain 2 #tierlist #gaming #riskofrain #riskofrain2 #riskofrainreturns_1080p_frame_14.jpg",
+        "/static/frames/temp_1755870771_Y2Mate.now_Ranking COMMANDO in Risk of Rain 2 #tierlist #gaming #riskofrain #riskofrain2 #riskofrainreturns_1080p_frame_15.jpg",
+        "/static/frames/temp_1755870771_Y2Mate.now_Ranking COMMANDO in Risk of Rain 2 #tierlist #gaming #riskofrain #riskofrain2 #riskofrainreturns_1080p_frame_16.jpg",
+        "/static/frames/temp_1755870771_Y2Mate.now_Ranking COMMANDO in Risk of Rain 2 #tierlist #gaming #riskofrain #riskofrain2 #riskofrainreturns_1080p_frame_17.jpg",
+        "/static/frames/temp_1755870771_Y2Mate.now_Ranking COMMANDO in Risk of Rain 2 #tierlist #gaming #riskofrain #riskofrain2 #riskofrainreturns_1080p_frame_18.jpg",
+        "/static/frames/temp_1755870771_Y2Mate.now_Ranking COMMANDO in Risk of Rain 2 #tierlist #gaming #riskofrain #riskofrain2 #riskofrainreturns_1080p_frame_19.jpg",
+        "/static/frames/temp_1755870771_Y2Mate.now_Ranking COMMANDO in Risk of Rain 2 #tierlist #gaming #riskofrain #riskofrain2 #riskofrainreturns_1080p_frame_20.jpg",
+        "/static/frames/temp_1755870771_Y2Mate.now_Ranking COMMANDO in Risk of Rain 2 #tierlist #gaming #riskofrain #riskofrain2 #riskofrainreturns_1080p_frame_21.jpg",
+        "/static/frames/temp_1755870771_Y2Mate.now_Ranking COMMANDO in Risk of Rain 2 #tierlist #gaming #riskofrain #riskofrain2 #riskofrainreturns_1080p_frame_22.jpg"
+      ],
+      "frame_analysis": [
+        {
+          "timestamp": 0.0,
+          "frame_index": 0,
+          "visual_analysis": {
+            "category": "misinformation",
+            "confidence": 0.9730284810066223,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.00020627024059649557,
+              "suggestive_content": 0.007771309465169907,
+              "artistic_adult_content": 0.01777762360870838,
+              "misinformation": 0.9730284810066223,
+              "violence": 0.0005809228750877082,
+              "hate_speech": 0.00032974715577438474,
+              "dangerous_activities": 0.0003057233989238739
+            }
+          },
+          "blip_description": {
+            "description": "a white paper background with the word i m",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "",
+            "extracted_items": [],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1755870771_Y2Mate.now_Ranking COMMANDO in Risk of Rain 2 #tierlist #gaming #riskofrain #riskofrain2 #riskofrainreturns_1080p_frame_1.jpg"
+        },
+        {
+          "timestamp": 0.5,
+          "frame_index": 1,
+          "visual_analysis": {
+            "category": "artistic_adult_content",
+            "confidence": 0.42511728405952454,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.0023022193927317858,
+              "suggestive_content": 0.22189736366271973,
+              "artistic_adult_content": 0.42511728405952454,
+              "misinformation": 0.34003788232803345,
+              "violence": 0.003876614151522517,
+              "hate_speech": 0.0026549589820206165,
+              "dangerous_activities": 0.004113692790269852
+            }
+          },
+          "blip_description": {
+            "description": "ranking ranking ranking ranking ranking ranking ranking ranking ranking ranking ranking ranking ranking ranking ranking ranking ranking ranking ranking ranking ranking",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "RANKING Yy",
+            "extracted_items": [
+              {
+                "text": "RANKING",
+                "confidence": 0.9402413334837231,
+                "bbox": [
+                  [
+                    46,
+                    854
+                  ],
+                  [
+                    1041,
+                    854
+                  ],
+                  [
+                    1041,
+                    1052
+                  ],
+                  [
+                    46,
+                    1052
+                  ]
+                ]
+              },
+              {
+                "text": "Yy",
+                "confidence": 0.5359532585971566,
+                "bbox": [
+                  [
+                    864,
+                    1016
+                  ],
+                  [
+                    1034,
+                    1016
+                  ],
+                  [
+                    1034,
+                    1212
+                  ],
+                  [
+                    864,
+                    1212
+                  ]
+                ]
+              }
+            ],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1755870771_Y2Mate.now_Ranking COMMANDO in Risk of Rain 2 #tierlist #gaming #riskofrain #riskofrain2 #riskofrainreturns_1080p_frame_2.jpg"
+        },
+        {
+          "timestamp": 1.0,
+          "frame_index": 2,
+          "visual_analysis": {
+            "category": "suggestive_content",
+            "confidence": 0.8504872918128967,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.0061103119514882565,
+              "suggestive_content": 0.8504872918128967,
+              "artistic_adult_content": 0.10451092571020126,
+              "misinformation": 0.03526156768202782,
+              "violence": 0.0011967325117439032,
+              "hate_speech": 0.0009153615101240575,
+              "dangerous_activities": 0.0015178457833826542
+            }
+          },
+          "blip_description": {
+            "description": "a white paper with the word survivor on it",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "SURVIVOR",
+            "extracted_items": [
+              {
+                "text": "SURVIVOR",
+                "confidence": 0.6338743889570033,
+                "bbox": [
+                  [
+                    29,
+                    865
+                  ],
+                  [
+                    1052,
+                    865
+                  ],
+                  [
+                    1052,
+                    1053
+                  ],
+                  [
+                    29,
+                    1053
+                  ]
+                ]
+              }
+            ],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1755870771_Y2Mate.now_Ranking COMMANDO in Risk of Rain 2 #tierlist #gaming #riskofrain #riskofrain2 #riskofrainreturns_1080p_frame_3.jpg"
+        },
+        {
+          "timestamp": 1.5,
+          "frame_index": 3,
+          "visual_analysis": {
+            "category": "suggestive_content",
+            "confidence": 0.9588633179664612,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.0016830540262162685,
+              "suggestive_content": 0.9588633179664612,
+              "artistic_adult_content": 0.025159867480397224,
+              "misinformation": 0.01315300539135933,
+              "violence": 0.00038293818943202496,
+              "hate_speech": 0.0002794649626594037,
+              "dangerous_activities": 0.00047839852049946785
+            }
+          },
+          "blip_description": {
+            "description": "rock train 2 - screenshote",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "DF Z",
+            "extracted_items": [
+              {
+                "text": "DF",
+                "confidence": 0.8664998051835938,
+                "bbox": [
+                  [
+                    236,
+                    1632
+                  ],
+                  [
+                    364,
+                    1632
+                  ],
+                  [
+                    364,
+                    1710
+                  ],
+                  [
+                    236,
+                    1710
+                  ]
+                ]
+              },
+              {
+                "text": "Z",
+                "confidence": 0.5403748596154969,
+                "bbox": [
+                  [
+                    891,
+                    1657
+                  ],
+                  [
+                    1071,
+                    1657
+                  ],
+                  [
+                    1071,
+                    1889
+                  ],
+                  [
+                    891,
+                    1889
+                  ]
+                ]
+              }
+            ],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1755870771_Y2Mate.now_Ranking COMMANDO in Risk of Rain 2 #tierlist #gaming #riskofrain #riskofrain2 #riskofrainreturns_1080p_frame_4.jpg"
+        },
+        {
+          "timestamp": 2.0,
+          "frame_index": 4,
+          "visual_analysis": {
+            "category": "suggestive_content",
+            "confidence": 0.8983525037765503,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.004369077272713184,
+              "suggestive_content": 0.8983525037765503,
+              "artistic_adult_content": 0.06483367085456848,
+              "misinformation": 0.029722386971116066,
+              "violence": 0.0008723424398340285,
+              "hate_speech": 0.0007025611121207476,
+              "dangerous_activities": 0.0011474743951112032
+            }
+          },
+          "blip_description": {
+            "description": "rock iron 2 - screenshote",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "TO RISK DF RAINZ",
+            "extracted_items": [
+              {
+                "text": "TO",
+                "confidence": 0.8720676867293754,
+                "bbox": [
+                  [
+                    389,
+                    851
+                  ],
+                  [
+                    693,
+                    851
+                  ],
+                  [
+                    693,
+                    1061
+                  ],
+                  [
+                    389,
+                    1061
+                  ]
+                ]
+              },
+              {
+                "text": "RISK",
+                "confidence": 0.8403369188308716,
+                "bbox": [
+                  [
+                    75,
+                    1475
+                  ],
+                  [
+                    682,
+                    1475
+                  ],
+                  [
+                    682,
+                    1650
+                  ],
+                  [
+                    75,
+                    1650
+                  ]
+                ]
+              },
+              {
+                "text": "DF",
+                "confidence": 0.8348954568210161,
+                "bbox": [
+                  [
+                    236,
+                    1632
+                  ],
+                  [
+                    364,
+                    1632
+                  ],
+                  [
+                    364,
+                    1708
+                  ],
+                  [
+                    236,
+                    1708
+                  ]
+                ]
+              },
+              {
+                "text": "RAINZ",
+                "confidence": 0.751120665062086,
+                "bbox": [
+                  [
+                    396.1246429755435,
+                    1506.0123613342396
+                  ],
+                  [
+                    1111.8324424953403,
+                    1672.7812285307061
+                  ],
+                  [
+                    1037.8753570244564,
+                    1921.9876386657604
+                  ],
+                  [
+                    322.1675575046598,
+                    1755.2187714692939
+                  ]
+                ]
+              }
+            ],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1755870771_Y2Mate.now_Ranking COMMANDO in Risk of Rain 2 #tierlist #gaming #riskofrain #riskofrain2 #riskofrainreturns_1080p_frame_5.jpg"
+        },
+        {
+          "timestamp": 2.5,
+          "frame_index": 5,
+          "visual_analysis": {
+            "category": "suggestive_content",
+            "confidence": 0.9808968305587769,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.0008093806682154536,
+              "suggestive_content": 0.9808968305587769,
+              "artistic_adult_content": 0.012451588176190853,
+              "misinformation": 0.005379137583076954,
+              "violence": 0.00015004519082140177,
+              "hate_speech": 0.00011068314779549837,
+              "dangerous_activities": 0.00020226828928571194
+            }
+          },
+          "blip_description": {
+            "description": "the logo for which is a group of people sitting on chairs",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "WHICH RISK DF RAINZ",
+            "extracted_items": [
+              {
+                "text": "WHICH",
+                "confidence": 0.9993809715746655,
+                "bbox": [
+                  [
+                    174,
+                    854
+                  ],
+                  [
+                    916,
+                    854
+                  ],
+                  [
+                    916,
+                    1050
+                  ],
+                  [
+                    174,
+                    1050
+                  ]
+                ]
+              },
+              {
+                "text": "RISK",
+                "confidence": 0.6940049529075623,
+                "bbox": [
+                  [
+                    73,
+                    1465
+                  ],
+                  [
+                    677,
+                    1465
+                  ],
+                  [
+                    677,
+                    1658
+                  ],
+                  [
+                    73,
+                    1658
+                  ]
+                ]
+              },
+              {
+                "text": "DF",
+                "confidence": 0.913869281828894,
+                "bbox": [
+                  [
+                    238,
+                    1632
+                  ],
+                  [
+                    364,
+                    1632
+                  ],
+                  [
+                    364,
+                    1710
+                  ],
+                  [
+                    238,
+                    1710
+                  ]
+                ]
+              },
+              {
+                "text": "RAINZ",
+                "confidence": 0.9484799095810432,
+                "bbox": [
+                  [
+                    396.129556823452,
+                    1506.012222914891
+                  ],
+                  [
+                    1111.8328981637862,
+                    1673.7855963505517
+                  ],
+                  [
+                    1037.870443176548,
+                    1923.987777085109
+                  ],
+                  [
+                    321.16710183621376,
+                    1756.2144036494483
+                  ]
+                ]
+              }
+            ],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1755870771_Y2Mate.now_Ranking COMMANDO in Risk of Rain 2 #tierlist #gaming #riskofrain #riskofrain2 #riskofrainreturns_1080p_frame_6.jpg"
+        },
+        {
+          "timestamp": 3.0,
+          "frame_index": 6,
+          "visual_analysis": {
+            "category": "suggestive_content",
+            "confidence": 0.9151954054832458,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.008748873136937618,
+              "suggestive_content": 0.9151954054832458,
+              "artistic_adult_content": 0.04481574892997742,
+              "misinformation": 0.02791713923215866,
+              "violence": 0.0010230682091787457,
+              "hate_speech": 0.0008955513476394117,
+              "dangerous_activities": 0.0014041749527677894
+            }
+          },
+          "blip_description": {
+            "description": "one rock train 2",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "ONE",
+            "extracted_items": [
+              {
+                "text": "ONE",
+                "confidence": 0.9574887156486511,
+                "bbox": [
+                  [
+                    310,
+                    856
+                  ],
+                  [
+                    860,
+                    856
+                  ],
+                  [
+                    860,
+                    1050
+                  ],
+                  [
+                    310,
+                    1050
+                  ]
+                ]
+              }
+            ],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1755870771_Y2Mate.now_Ranking COMMANDO in Risk of Rain 2 #tierlist #gaming #riskofrain #riskofrain2 #riskofrainreturns_1080p_frame_7.jpg"
+        },
+        {
+          "timestamp": 3.5,
+          "frame_index": 7,
+          "visual_analysis": {
+            "category": "safe_content",
+            "confidence": 0.7139021158218384,
+            "violation_detected": false,
+            "all_probabilities": {
+              "safe_content": 0.7139021158218384,
+              "suggestive_content": 0.15664279460906982,
+              "artistic_adult_content": 0.019593290984630585,
+              "misinformation": 0.08923491090536118,
+              "violence": 0.0058327591978013515,
+              "hate_speech": 0.00725624430924654,
+              "dangerous_activities": 0.007537971716374159
+            }
+          },
+          "blip_description": {
+            "description": "a person in a red and black outfit holding a gun",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "THIS",
+            "extracted_items": [
+              {
+                "text": "THIS",
+                "confidence": 0.9992914795875549,
+                "bbox": [
+                  [
+                    292,
+                    854
+                  ],
+                  [
+                    791,
+                    854
+                  ],
+                  [
+                    791,
+                    1054
+                  ],
+                  [
+                    292,
+                    1054
+                  ]
+                ]
+              }
+            ],
+            "ocr_available": true
+          },
+          "combined_violation": false,
+          "preview_path": "/static/frames/temp_1755870771_Y2Mate.now_Ranking COMMANDO in Risk of Rain 2 #tierlist #gaming #riskofrain #riskofrain2 #riskofrainreturns_1080p_frame_8.jpg"
+        },
+        {
+          "timestamp": 4.0,
+          "frame_index": 8,
+          "visual_analysis": {
+            "category": "safe_content",
+            "confidence": 0.8476386070251465,
+            "violation_detected": false,
+            "all_probabilities": {
+              "safe_content": 0.8476386070251465,
+              "suggestive_content": 0.07495792955160141,
+              "artistic_adult_content": 0.009871771559119225,
+              "misinformation": 0.05518453195691109,
+              "violence": 0.0034695803187787533,
+              "hate_speech": 0.004531456623226404,
+              "dangerous_activities": 0.004346109461039305
+            }
+          },
+          "blip_description": {
+            "description": "a man in a red shirt and black pants with a white helmet",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "COMMANDO",
+            "extracted_items": [
+              {
+                "text": "COMMANDO",
+                "confidence": 0.993114087677187,
+                "bbox": [
+                  [
+                    52,
+                    882
+                  ],
+                  [
+                    1030,
+                    882
+                  ],
+                  [
+                    1030,
+                    1030
+                  ],
+                  [
+                    52,
+                    1030
+                  ]
+                ]
+              }
+            ],
+            "ocr_available": true
+          },
+          "combined_violation": false,
+          "preview_path": "/static/frames/temp_1755870771_Y2Mate.now_Ranking COMMANDO in Risk of Rain 2 #tierlist #gaming #riskofrain #riskofrain2 #riskofrainreturns_1080p_frame_9.jpg"
+        },
+        {
+          "timestamp": 4.5,
+          "frame_index": 9,
+          "visual_analysis": {
+            "category": "safe_content",
+            "confidence": 0.7811885476112366,
+            "violation_detected": false,
+            "all_probabilities": {
+              "safe_content": 0.7811885476112366,
+              "suggestive_content": 0.09543182700872421,
+              "artistic_adult_content": 0.012740347534418106,
+              "misinformation": 0.0886102095246315,
+              "violence": 0.006102796643972397,
+              "hate_speech": 0.008043704554438591,
+              "dangerous_activities": 0.007882651872932911
+            }
+          },
+          "blip_description": {
+            "description": "a cartoon character in a yellow suit holding a gun",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "",
+            "extracted_items": [],
+            "ocr_available": true
+          },
+          "combined_violation": false,
+          "preview_path": "/static/frames/temp_1755870771_Y2Mate.now_Ranking COMMANDO in Risk of Rain 2 #tierlist #gaming #riskofrain #riskofrain2 #riskofrainreturns_1080p_frame_10.jpg"
+        },
+        {
+          "timestamp": 5.0,
+          "frame_index": 10,
+          "visual_analysis": {
+            "category": "safe_content",
+            "confidence": 0.8889726996421814,
+            "violation_detected": false,
+            "all_probabilities": {
+              "safe_content": 0.8889726996421814,
+              "suggestive_content": 0.044682350009679794,
+              "artistic_adult_content": 0.006353309843689203,
+              "misinformation": 0.0498085655272007,
+              "violence": 0.0030702976509928703,
+              "hate_speech": 0.003808817360550165,
+              "dangerous_activities": 0.003304012818261981
+            }
+          },
+          "blip_description": {
+            "description": "a cartoon character with a gun in his hand",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "1. Run of the mill",
+            "extracted_items": [
+              {
+                "text": "1. Run of the mill",
+                "confidence": 0.66790984003471,
+                "bbox": [
+                  [
+                    83,
+                    902
+                  ],
+                  [
+                    1003,
+                    902
+                  ],
+                  [
+                    1003,
+                    1015
+                  ],
+                  [
+                    83,
+                    1015
+                  ]
+                ]
+              }
+            ],
+            "ocr_available": true
+          },
+          "combined_violation": false,
+          "preview_path": "/static/frames/temp_1755870771_Y2Mate.now_Ranking COMMANDO in Risk of Rain 2 #tierlist #gaming #riskofrain #riskofrain2 #riskofrainreturns_1080p_frame_11.jpg"
+        },
+        {
+          "timestamp": 5.5,
+          "frame_index": 11,
+          "visual_analysis": {
+            "category": "safe_content",
+            "confidence": 0.850745439529419,
+            "violation_detected": false,
+            "all_probabilities": {
+              "safe_content": 0.850745439529419,
+              "suggestive_content": 0.07402955740690231,
+              "artistic_adult_content": 0.010079941712319851,
+              "misinformation": 0.05364326760172844,
+              "violence": 0.0031971910502761602,
+              "hate_speech": 0.004314374644309282,
+              "dangerous_activities": 0.003990220371633768
+            }
+          },
+          "blip_description": {
+            "description": "a cartoon character with a gun in his hand",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "1. Run of the mill 2. Main character",
+            "extracted_items": [
+              {
+                "text": "1. Run of the mill",
+                "confidence": 0.9116248899654189,
+                "bbox": [
+                  [
+                    85,
+                    841
+                  ],
+                  [
+                    1002,
+                    841
+                  ],
+                  [
+                    1002,
+                    949
+                  ],
+                  [
+                    85,
+                    949
+                  ]
+                ]
+              },
+              {
+                "text": "2. Main character",
+                "confidence": 0.8953683713140862,
+                "bbox": [
+                  [
+                    85,
+                    966
+                  ],
+                  [
+                    999,
+                    966
+                  ],
+                  [
+                    999,
+                    1077
+                  ],
+                  [
+                    85,
+                    1077
+                  ]
+                ]
+              }
+            ],
+            "ocr_available": true
+          },
+          "combined_violation": false,
+          "preview_path": "/static/frames/temp_1755870771_Y2Mate.now_Ranking COMMANDO in Risk of Rain 2 #tierlist #gaming #riskofrain #riskofrain2 #riskofrainreturns_1080p_frame_12.jpg"
+        },
+        {
+          "timestamp": 6.0,
+          "frame_index": 12,
+          "visual_analysis": {
+            "category": "suggestive_content",
+            "confidence": 0.3627505898475647,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.3023620545864105,
+              "suggestive_content": 0.3627505898475647,
+              "artistic_adult_content": 0.1523292511701584,
+              "misinformation": 0.1558382660150528,
+              "violence": 0.008256095461547375,
+              "hate_speech": 0.007906158454716206,
+              "dangerous_activities": 0.01055759284645319
+            }
+          },
+          "blip_description": {
+            "description": "run to the beach in the game",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "1. Run of the mill 2. Main character 3. Pew pew shoot bad guy",
+            "extracted_items": [
+              {
+                "text": "1. Run of the mill",
+                "confidence": 0.7428818377694306,
+                "bbox": [
+                  [
+                    85,
+                    712
+                  ],
+                  [
+                    1001,
+                    712
+                  ],
+                  [
+                    1001,
+                    820
+                  ],
+                  [
+                    85,
+                    820
+                  ]
+                ]
+              },
+              {
+                "text": "2. Main character",
+                "confidence": 0.9673143226509283,
+                "bbox": [
+                  [
+                    90,
+                    842
+                  ],
+                  [
+                    998,
+                    842
+                  ],
+                  [
+                    998,
+                    946
+                  ],
+                  [
+                    90,
+                    946
+                  ]
+                ]
+              },
+              {
+                "text": "3. Pew pew shoot",
+                "confidence": 0.8567506619559577,
+                "bbox": [
+                  [
+                    76,
+                    970
+                  ],
+                  [
+                    1014,
+                    970
+                  ],
+                  [
+                    1014,
+                    1094
+                  ],
+                  [
+                    76,
+                    1094
+                  ]
+                ]
+              },
+              {
+                "text": "bad guy",
+                "confidence": 0.6752061475978813,
+                "bbox": [
+                  [
+                    319,
+                    1094
+                  ],
+                  [
+                    759,
+                    1094
+                  ],
+                  [
+                    759,
+                    1227
+                  ],
+                  [
+                    319,
+                    1227
+                  ]
+                ]
+              }
+            ],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1755870771_Y2Mate.now_Ranking COMMANDO in Risk of Rain 2 #tierlist #gaming #riskofrain #riskofrain2 #riskofrainreturns_1080p_frame_13.jpg"
+        },
+        {
+          "timestamp": 6.5,
+          "frame_index": 13,
+          "visual_analysis": {
+            "category": "suggestive_content",
+            "confidence": 0.44430580735206604,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.3415299654006958,
+              "suggestive_content": 0.44430580735206604,
+              "artistic_adult_content": 0.08325811475515366,
+              "misinformation": 0.11053945124149323,
+              "violence": 0.0056969961151480675,
+              "hate_speech": 0.00645099114626646,
+              "dangerous_activities": 0.008218687027692795
+            }
+          },
+          "blip_description": {
+            "description": "run to the end of the game with the title",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "1.Run of the mill 2. Main character 3. Pew pew shoot bad guy",
+            "extracted_items": [
+              {
+                "text": "1.Run of the mill",
+                "confidence": 0.9045901091793388,
+                "bbox": [
+                  [
+                    86,
+                    714
+                  ],
+                  [
+                    999,
+                    714
+                  ],
+                  [
+                    999,
+                    818
+                  ],
+                  [
+                    86,
+                    818
+                  ]
+                ]
+              },
+              {
+                "text": "2. Main character",
+                "confidence": 0.9856053869763121,
+                "bbox": [
+                  [
+                    89,
+                    838
+                  ],
+                  [
+                    999,
+                    838
+                  ],
+                  [
+                    999,
+                    947
+                  ],
+                  [
+                    89,
+                    947
+                  ]
+                ]
+              },
+              {
+                "text": "3. Pew pew shoot",
+                "confidence": 0.7444712595802363,
+                "bbox": [
+                  [
+                    76,
+                    967
+                  ],
+                  [
+                    1014,
+                    967
+                  ],
+                  [
+                    1014,
+                    1095
+                  ],
+                  [
+                    76,
+                    1095
+                  ]
+                ]
+              },
+              {
+                "text": "bad guy",
+                "confidence": 0.8522460580180542,
+                "bbox": [
+                  [
+                    317,
+                    1093
+                  ],
+                  [
+                    761,
+                    1093
+                  ],
+                  [
+                    761,
+                    1227
+                  ],
+                  [
+                    317,
+                    1227
+                  ]
+                ]
+              }
+            ],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1755870771_Y2Mate.now_Ranking COMMANDO in Risk of Rain 2 #tierlist #gaming #riskofrain #riskofrain2 #riskofrainreturns_1080p_frame_14.jpg"
+        },
+        {
+          "timestamp": 7.0,
+          "frame_index": 14,
+          "visual_analysis": {
+            "category": "safe_content",
+            "confidence": 0.7315030097961426,
+            "violation_detected": false,
+            "all_probabilities": {
+              "safe_content": 0.7315030097961426,
+              "suggestive_content": 0.1528312712907791,
+              "artistic_adult_content": 0.025331448763608932,
+              "misinformation": 0.07268708199262619,
+              "violence": 0.0053848628886044025,
+              "hate_speech": 0.006052827928215265,
+              "dangerous_activities": 0.0062095229513943195
+            }
+          },
+          "blip_description": {
+            "description": "run of the ninja 3 pwvshot",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "1.Run of the mill 2. Main character 3. Pew pew shoot bad guy",
+            "extracted_items": [
+              {
+                "text": "1.Run of the mill",
+                "confidence": 0.8287144074068619,
+                "bbox": [
+                  [
+                    86,
+                    715
+                  ],
+                  [
+                    1000,
+                    715
+                  ],
+                  [
+                    1000,
+                    819
+                  ],
+                  [
+                    86,
+                    819
+                  ]
+                ]
+              },
+              {
+                "text": "2. Main character",
+                "confidence": 0.705142390666928,
+                "bbox": [
+                  [
+                    89,
+                    841
+                  ],
+                  [
+                    999,
+                    841
+                  ],
+                  [
+                    999,
+                    949
+                  ],
+                  [
+                    89,
+                    949
+                  ]
+                ]
+              },
+              {
+                "text": "3. Pew pew shoot",
+                "confidence": 0.5681571818999706,
+                "bbox": [
+                  [
+                    76,
+                    968
+                  ],
+                  [
+                    1014,
+                    968
+                  ],
+                  [
+                    1014,
+                    1095
+                  ],
+                  [
+                    76,
+                    1095
+                  ]
+                ]
+              },
+              {
+                "text": "bad guy",
+                "confidence": 0.9997749777849243,
+                "bbox": [
+                  [
+                    317,
+                    1094
+                  ],
+                  [
+                    761,
+                    1094
+                  ],
+                  [
+                    761,
+                    1227
+                  ],
+                  [
+                    317,
+                    1227
+                  ]
+                ]
+              }
+            ],
+            "ocr_available": true
+          },
+          "combined_violation": false,
+          "preview_path": "/static/frames/temp_1755870771_Y2Mate.now_Ranking COMMANDO in Risk of Rain 2 #tierlist #gaming #riskofrain #riskofrain2 #riskofrainreturns_1080p_frame_15.jpg"
+        },
+        {
+          "timestamp": 7.5,
+          "frame_index": 15,
+          "visual_analysis": {
+            "category": "safe_content",
+            "confidence": 0.8842080235481262,
+            "violation_detected": false,
+            "all_probabilities": {
+              "safe_content": 0.8842080235481262,
+              "suggestive_content": 0.05502760782837868,
+              "artistic_adult_content": 0.007417000830173492,
+              "misinformation": 0.044072795659303665,
+              "violence": 0.002732933033257723,
+              "hate_speech": 0.0034007751382887363,
+              "dangerous_activities": 0.003140856511890888
+            }
+          },
+          "blip_description": {
+            "description": "a cartoon character with a blue background and text that reads run to mi 3 mino",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "1. Run of the mill 2. Main character 3. Pew pew shoot bad guy 4. Mysterio lookin ahh",
+            "extracted_items": [
+              {
+                "text": "1. Run of the mill",
+                "confidence": 0.8586898162242194,
+                "bbox": [
+                  [
+                    85,
+                    585
+                  ],
+                  [
+                    1001,
+                    585
+                  ],
+                  [
+                    1001,
+                    693
+                  ],
+                  [
+                    85,
+                    693
+                  ]
+                ]
+              },
+              {
+                "text": "2. Main character",
+                "confidence": 0.9677809434284383,
+                "bbox": [
+                  [
+                    87,
+                    712
+                  ],
+                  [
+                    997,
+                    712
+                  ],
+                  [
+                    997,
+                    822
+                  ],
+                  [
+                    87,
+                    822
+                  ]
+                ]
+              },
+              {
+                "text": "3. Pew pew shoot",
+                "confidence": 0.8528351319350963,
+                "bbox": [
+                  [
+                    76,
+                    842
+                  ],
+                  [
+                    1014,
+                    842
+                  ],
+                  [
+                    1014,
+                    965
+                  ],
+                  [
+                    76,
+                    965
+                  ]
+                ]
+              },
+              {
+                "text": "bad guy",
+                "confidence": 0.9997312567352484,
+                "bbox": [
+                  [
+                    314,
+                    966
+                  ],
+                  [
+                    758,
+                    966
+                  ],
+                  [
+                    758,
+                    1099
+                  ],
+                  [
+                    314,
+                    1099
+                  ]
+                ]
+              },
+              {
+                "text": "4. Mysterio lookin",
+                "confidence": 0.5411214643220665,
+                "bbox": [
+                  [
+                    67,
+                    1092
+                  ],
+                  [
+                    1013,
+                    1092
+                  ],
+                  [
+                    1013,
+                    1224
+                  ],
+                  [
+                    67,
+                    1224
+                  ]
+                ]
+              },
+              {
+                "text": "ahh",
+                "confidence": 0.9999949069135972,
+                "bbox": [
+                  [
+                    433,
+                    1223
+                  ],
+                  [
+                    643,
+                    1223
+                  ],
+                  [
+                    643,
+                    1331
+                  ],
+                  [
+                    433,
+                    1331
+                  ]
+                ]
+              }
+            ],
+            "ocr_available": true
+          },
+          "combined_violation": false,
+          "preview_path": "/static/frames/temp_1755870771_Y2Mate.now_Ranking COMMANDO in Risk of Rain 2 #tierlist #gaming #riskofrain #riskofrain2 #riskofrainreturns_1080p_frame_16.jpg"
+        },
+        {
+          "timestamp": 8.0,
+          "frame_index": 16,
+          "visual_analysis": {
+            "category": "safe_content",
+            "confidence": 0.8743234276771545,
+            "violation_detected": false,
+            "all_probabilities": {
+              "safe_content": 0.8743234276771545,
+              "suggestive_content": 0.06051923334598541,
+              "artistic_adult_content": 0.008935844525694847,
+              "misinformation": 0.04644157737493515,
+              "violence": 0.0028605991974473,
+              "hate_speech": 0.003550838679075241,
+              "dangerous_activities": 0.0033683713991194963
+            }
+          },
+          "blip_description": {
+            "description": "a cartoon character with a green and yellow outfit",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "1. Run of the mill 2. Main character 3. Pew pew shoot ahh",
+            "extracted_items": [
+              {
+                "text": "1. Run of the mill",
+                "confidence": 0.7596831721106068,
+                "bbox": [
+                  [
+                    85,
+                    585
+                  ],
+                  [
+                    1002,
+                    585
+                  ],
+                  [
+                    1002,
+                    693
+                  ],
+                  [
+                    85,
+                    693
+                  ]
+                ]
+              },
+              {
+                "text": "2. Main character",
+                "confidence": 0.8660678443874921,
+                "bbox": [
+                  [
+                    87,
+                    713
+                  ],
+                  [
+                    997,
+                    713
+                  ],
+                  [
+                    997,
+                    821
+                  ],
+                  [
+                    87,
+                    821
+                  ]
+                ]
+              },
+              {
+                "text": "3. Pew pew shoot",
+                "confidence": 0.6745356404098366,
+                "bbox": [
+                  [
+                    76,
+                    839
+                  ],
+                  [
+                    1014,
+                    839
+                  ],
+                  [
+                    1014,
+                    967
+                  ],
+                  [
+                    76,
+                    967
+                  ]
+                ]
+              },
+              {
+                "text": "ahh",
+                "confidence": 0.9993637800216675,
+                "bbox": [
+                  [
+                    432,
+                    1221
+                  ],
+                  [
+                    644,
+                    1221
+                  ],
+                  [
+                    644,
+                    1331
+                  ],
+                  [
+                    432,
+                    1331
+                  ]
+                ]
+              }
+            ],
+            "ocr_available": true
+          },
+          "combined_violation": false,
+          "preview_path": "/static/frames/temp_1755870771_Y2Mate.now_Ranking COMMANDO in Risk of Rain 2 #tierlist #gaming #riskofrain #riskofrain2 #riskofrainreturns_1080p_frame_17.jpg"
+        },
+        {
+          "timestamp": 8.5,
+          "frame_index": 17,
+          "visual_analysis": {
+            "category": "safe_content",
+            "confidence": 0.6070948839187622,
+            "violation_detected": false,
+            "all_probabilities": {
+              "safe_content": 0.6070948839187622,
+              "suggestive_content": 0.20508764684200287,
+              "artistic_adult_content": 0.07425470650196075,
+              "misinformation": 0.09160245954990387,
+              "violence": 0.0071458048187196255,
+              "hate_speech": 0.006833045743405819,
+              "dangerous_activities": 0.007981451228260994
+            }
+          },
+          "blip_description": {
+            "description": "he's about to be",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "He's about as",
+            "extracted_items": [
+              {
+                "text": "He's about as",
+                "confidence": 0.9249329052883775,
+                "bbox": [
+                  [
+                    23,
+                    1093
+                  ],
+                  [
+                    1062,
+                    1093
+                  ],
+                  [
+                    1062,
+                    1251
+                  ],
+                  [
+                    23,
+                    1251
+                  ]
+                ]
+              }
+            ],
+            "ocr_available": true
+          },
+          "combined_violation": false,
+          "preview_path": "/static/frames/temp_1755870771_Y2Mate.now_Ranking COMMANDO in Risk of Rain 2 #tierlist #gaming #riskofrain #riskofrain2 #riskofrainreturns_1080p_frame_18.jpg"
+        },
+        {
+          "timestamp": 9.0,
+          "frame_index": 18,
+          "visual_analysis": {
+            "category": "safe_content",
+            "confidence": 0.8273937106132507,
+            "violation_detected": false,
+            "all_probabilities": {
+              "safe_content": 0.8273937106132507,
+              "suggestive_content": 0.07311799377202988,
+              "artistic_adult_content": 0.019410599023103714,
+              "misinformation": 0.06513802707195282,
+              "violence": 0.004733718931674957,
+              "hate_speech": 0.005171982571482658,
+              "dangerous_activities": 0.00503399595618248
+            }
+          },
+          "blip_description": {
+            "description": "he's about to be",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "He's about as",
+            "extracted_items": [
+              {
+                "text": "He's about as",
+                "confidence": 0.6266436732850146,
+                "bbox": [
+                  [
+                    21,
+                    1093
+                  ],
+                  [
+                    1061,
+                    1093
+                  ],
+                  [
+                    1061,
+                    1251
+                  ],
+                  [
+                    21,
+                    1251
+                  ]
+                ]
+              }
+            ],
+            "ocr_available": true
+          },
+          "combined_violation": false,
+          "preview_path": "/static/frames/temp_1755870771_Y2Mate.now_Ranking COMMANDO in Risk of Rain 2 #tierlist #gaming #riskofrain #riskofrain2 #riskofrainreturns_1080p_frame_19.jpg"
+        },
+        {
+          "timestamp": 9.5,
+          "frame_index": 19,
+          "visual_analysis": {
+            "category": "safe_content",
+            "confidence": 0.6292641758918762,
+            "violation_detected": false,
+            "all_probabilities": {
+              "safe_content": 0.6292641758918762,
+              "suggestive_content": 0.22001753747463226,
+              "artistic_adult_content": 0.045650891959667206,
+              "misinformation": 0.0859084501862526,
+              "violence": 0.0062078749760985374,
+              "hate_speech": 0.0061330939643085,
+              "dangerous_activities": 0.006817952264100313
+            }
+          },
+          "blip_description": {
+            "description": "a screenshot of a man in a forest with the words as you",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "as you can",
+            "extracted_items": [
+              {
+                "text": "as you can",
+                "confidence": 0.7133594961667106,
+                "bbox": [
+                  [
+                    125,
+                    1115
+                  ],
+                  [
+                    961,
+                    1115
+                  ],
+                  [
+                    961,
+                    1280
+                  ],
+                  [
+                    125,
+                    1280
+                  ]
+                ]
+              }
+            ],
+            "ocr_available": true
+          },
+          "combined_violation": false,
+          "preview_path": "/static/frames/temp_1755870771_Y2Mate.now_Ranking COMMANDO in Risk of Rain 2 #tierlist #gaming #riskofrain #riskofrain2 #riskofrainreturns_1080p_frame_20.jpg"
+        },
+        {
+          "timestamp": 10.0,
+          "frame_index": 20,
+          "visual_analysis": {
+            "category": "safe_content",
+            "confidence": 0.665087878704071,
+            "violation_detected": false,
+            "all_probabilities": {
+              "safe_content": 0.665087878704071,
+              "suggestive_content": 0.18277041614055634,
+              "artistic_adult_content": 0.045166511088609695,
+              "misinformation": 0.08597015589475632,
+              "violence": 0.006390137132257223,
+              "hate_speech": 0.007027157116681337,
+              "dangerous_activities": 0.00758775882422924
+            }
+          },
+          "blip_description": {
+            "description": "a screenshot of a person in a forest",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "13 ask for in a",
+            "extracted_items": [
+              {
+                "text": "13",
+                "confidence": 0.607518995386358,
+                "bbox": [
+                  [
+                    265,
+                    741
+                  ],
+                  [
+                    326,
+                    741
+                  ],
+                  [
+                    326,
+                    782
+                  ],
+                  [
+                    265,
+                    782
+                  ]
+                ]
+              },
+              {
+                "text": "ask for in a",
+                "confidence": 0.9310170570806146,
+                "bbox": [
+                  [
+                    110,
+                    1095
+                  ],
+                  [
+                    965,
+                    1095
+                  ],
+                  [
+                    965,
+                    1253
+                  ],
+                  [
+                    110,
+                    1253
+                  ]
+                ]
+              }
+            ],
+            "ocr_available": true
+          },
+          "combined_violation": false,
+          "preview_path": "/static/frames/temp_1755870771_Y2Mate.now_Ranking COMMANDO in Risk of Rain 2 #tierlist #gaming #riskofrain #riskofrain2 #riskofrainreturns_1080p_frame_21.jpg"
+        },
+        {
+          "timestamp": 10.5,
+          "frame_index": 21,
+          "visual_analysis": {
+            "category": "suggestive_content",
+            "confidence": 0.8103013038635254,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.04145025834441185,
+              "suggestive_content": 0.8103013038635254,
+              "artistic_adult_content": 0.09108609706163406,
+              "misinformation": 0.04896393045783043,
+              "violence": 0.0025393632240593433,
+              "hate_speech": 0.002297695493325591,
+              "dangerous_activities": 0.0033613117411732674
+            }
+          },
+          "blip_description": {
+            "description": "a person walking through a forest with the words game like this",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "game like this",
+            "extracted_items": [
+              {
+                "text": "game like this",
+                "confidence": 0.8917089190826006,
+                "bbox": [
+                  [
+                    32,
+                    1097
+                  ],
+                  [
+                    1045,
+                    1097
+                  ],
+                  [
+                    1045,
+                    1278
+                  ],
+                  [
+                    32,
+                    1278
+                  ]
+                ]
+              }
+            ],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1755870771_Y2Mate.now_Ranking COMMANDO in Risk of Rain 2 #tierlist #gaming #riskofrain #riskofrain2 #riskofrainreturns_1080p_frame_22.jpg"
+        }
+      ]
+    }
+  },
+  "rag_explanations": [
+    {
+      "type": "visual",
+      "frame": 1,
+      "timestamp": 0.0,
+      "category": "misinformation",
+      "confidence": 0.9730284810066223,
+      "blip": "a white paper background with the word i m",
+      "ocr": "",
+      "policy": {
+        "description": "Content showing dangerous or harmful activities",
+        "examples": [
+          "extreme stunts",
+          "self-harm",
+          "dangerous challenges"
+        ],
+        "severity_indicators": [
+          "life-threatening",
+          "copyable dangers",
+          "no safety warnings"
+        ],
+        "context_matters": [
+          "professional vs amateur",
+          "safety precautions shown"
+        ],
+        "action_required": "age_restriction_or_removal"
+      },
+      "action_required": "age_restriction_or_removal",
+      "examples": [
+        "extreme stunts",
+        "self-harm",
+        "dangerous challenges"
+      ],
+      "severity_indicators": [
+        "life-threatening",
+        "copyable dangers",
+        "no safety warnings"
+      ],
+      "context_factors": [
+        "professional vs amateur",
+        "safety precautions shown"
+      ],
+      "violation_detected": true
+    },
+    {
+      "type": "visual",
+      "frame": 2,
+      "timestamp": 0.5,
+      "category": "artistic_adult_content",
+      "confidence": 0.42511728405952454,
+      "blip": "ranking ranking ranking ranking ranking ranking ranking ranking ranking ranking ranking ranking ranking ranking ranking ranking ranking ranking ranking ranking ranking",
+      "ocr": "RANKING Yy",
+      "policy": {
+        "description": "Content showing dangerous or harmful activities",
+        "examples": [
+          "extreme stunts",
+          "self-harm",
+          "dangerous challenges"
+        ],
+        "severity_indicators": [
+          "life-threatening",
+          "copyable dangers",
+          "no safety warnings"
+        ],
+        "context_matters": [
+          "professional vs amateur",
+          "safety precautions shown"
+        ],
+        "action_required": "age_restriction_or_removal"
+      },
+      "action_required": "age_restriction_or_removal",
+      "examples": [
+        "extreme stunts",
+        "self-harm",
+        "dangerous challenges"
+      ],
+      "severity_indicators": [
+        "life-threatening",
+        "copyable dangers",
+        "no safety warnings"
+      ],
+      "context_factors": [
+        "professional vs amateur",
+        "safety precautions shown"
+      ],
+      "violation_detected": true
+    },
+    {
+      "type": "visual",
+      "frame": 3,
+      "timestamp": 1.0,
+      "category": "suggestive_content",
+      "confidence": 0.8504872918128967,
+      "blip": "a white paper with the word survivor on it",
+      "ocr": "SURVIVOR",
+      "policy": {
+        "description": "Content showing dangerous or harmful activities",
+        "examples": [
+          "extreme stunts",
+          "self-harm",
+          "dangerous challenges"
+        ],
+        "severity_indicators": [
+          "life-threatening",
+          "copyable dangers",
+          "no safety warnings"
+        ],
+        "context_matters": [
+          "professional vs amateur",
+          "safety precautions shown"
+        ],
+        "action_required": "age_restriction_or_removal"
+      },
+      "action_required": "age_restriction_or_removal",
+      "examples": [
+        "extreme stunts",
+        "self-harm",
+        "dangerous challenges"
+      ],
+      "severity_indicators": [
+        "life-threatening",
+        "copyable dangers",
+        "no safety warnings"
+      ],
+      "context_factors": [
+        "professional vs amateur",
+        "safety precautions shown"
+      ],
+      "violation_detected": true
+    },
+    {
+      "type": "visual",
+      "frame": 4,
+      "timestamp": 1.5,
+      "category": "suggestive_content",
+      "confidence": 0.9588633179664612,
+      "blip": "rock train 2 - screenshote",
+      "ocr": "DF Z",
+      "policy": {
+        "description": "Content showing dangerous or harmful activities",
+        "examples": [
+          "extreme stunts",
+          "self-harm",
+          "dangerous challenges"
+        ],
+        "severity_indicators": [
+          "life-threatening",
+          "copyable dangers",
+          "no safety warnings"
+        ],
+        "context_matters": [
+          "professional vs amateur",
+          "safety precautions shown"
+        ],
+        "action_required": "age_restriction_or_removal"
+      },
+      "action_required": "age_restriction_or_removal",
+      "examples": [
+        "extreme stunts",
+        "self-harm",
+        "dangerous challenges"
+      ],
+      "severity_indicators": [
+        "life-threatening",
+        "copyable dangers",
+        "no safety warnings"
+      ],
+      "context_factors": [
+        "professional vs amateur",
+        "safety precautions shown"
+      ],
+      "violation_detected": true
+    },
+    {
+      "type": "visual",
+      "frame": 5,
+      "timestamp": 2.0,
+      "category": "suggestive_content",
+      "confidence": 0.8983525037765503,
+      "blip": "rock iron 2 - screenshote",
+      "ocr": "TO RISK DF RAINZ",
+      "policy": {
+        "description": "Content showing dangerous or harmful activities",
+        "examples": [
+          "extreme stunts",
+          "self-harm",
+          "dangerous challenges"
+        ],
+        "severity_indicators": [
+          "life-threatening",
+          "copyable dangers",
+          "no safety warnings"
+        ],
+        "context_matters": [
+          "professional vs amateur",
+          "safety precautions shown"
+        ],
+        "action_required": "age_restriction_or_removal"
+      },
+      "action_required": "age_restriction_or_removal",
+      "examples": [
+        "extreme stunts",
+        "self-harm",
+        "dangerous challenges"
+      ],
+      "severity_indicators": [
+        "life-threatening",
+        "copyable dangers",
+        "no safety warnings"
+      ],
+      "context_factors": [
+        "professional vs amateur",
+        "safety precautions shown"
+      ],
+      "violation_detected": true
+    },
+    {
+      "type": "visual",
+      "frame": 6,
+      "timestamp": 2.5,
+      "category": "suggestive_content",
+      "confidence": 0.9808968305587769,
+      "blip": "the logo for which is a group of people sitting on chairs",
+      "ocr": "WHICH RISK DF RAINZ",
+      "policy": {
+        "description": "Content showing dangerous or harmful activities",
+        "examples": [
+          "extreme stunts",
+          "self-harm",
+          "dangerous challenges"
+        ],
+        "severity_indicators": [
+          "life-threatening",
+          "copyable dangers",
+          "no safety warnings"
+        ],
+        "context_matters": [
+          "professional vs amateur",
+          "safety precautions shown"
+        ],
+        "action_required": "age_restriction_or_removal"
+      },
+      "action_required": "age_restriction_or_removal",
+      "examples": [
+        "extreme stunts",
+        "self-harm",
+        "dangerous challenges"
+      ],
+      "severity_indicators": [
+        "life-threatening",
+        "copyable dangers",
+        "no safety warnings"
+      ],
+      "context_factors": [
+        "professional vs amateur",
+        "safety precautions shown"
+      ],
+      "violation_detected": true
+    },
+    {
+      "type": "visual",
+      "frame": 7,
+      "timestamp": 3.0,
+      "category": "suggestive_content",
+      "confidence": 0.9151954054832458,
+      "blip": "one rock train 2",
+      "ocr": "ONE",
+      "policy": {
+        "description": "Sexually suggestive content",
+        "examples": [
+          "provocative poses",
+          "sexual themes",
+          "suggestive clothing"
+        ],
+        "severity_indicators": [
+          "sexual focus",
+          "provocative dancing",
+          "sexual scenarios"
+        ],
+        "context_matters": [
+          "artistic vs explicit",
+          "age appropriateness"
+        ],
+        "action_required": "age_restriction"
+      },
+      "action_required": "age_restriction",
+      "examples": [
+        "provocative poses",
+        "sexual themes",
+        "suggestive clothing"
+      ],
+      "severity_indicators": [
+        "sexual focus",
+        "provocative dancing",
+        "sexual scenarios"
+      ],
+      "context_factors": [
+        "artistic vs explicit",
+        "age appropriateness"
+      ],
+      "violation_detected": true
+    },
+    {
+      "type": "visual",
+      "frame": 8,
+      "timestamp": 3.5,
+      "category": "safe_content",
+      "confidence": 0.7139021158218384,
+      "blip": "a person in a red and black outfit holding a gun",
+      "ocr": "THIS",
+      "policy": {
+        "description": "Content depicting violence, weapons, or graphic imagery",
+        "examples": [
+          "fighting",
+          "weapons",
+          "blood",
+          "gore",
+          "combat"
+        ],
+        "severity_indicators": [
+          "realistic weapons",
+          "explicit violence",
+          "gore"
+        ],
+        "context_matters": [
+          "gaming violence vs real violence",
+          "educational vs gratuitous"
+        ],
+        "action_required": "human_review_required"
+      },
+      "action_required": "human_review_required",
+      "examples": [
+        "fighting",
+        "weapons",
+        "blood",
+        "gore",
+        "combat"
+      ],
+      "severity_indicators": [
+        "realistic weapons",
+        "explicit violence",
+        "gore"
+      ],
+      "context_factors": [
+        "gaming violence vs real violence",
+        "educational vs gratuitous"
+      ],
+      "violation_detected": false
+    },
+    {
+      "type": "visual",
+      "frame": 9,
+      "timestamp": 4.0,
+      "category": "safe_content",
+      "confidence": 0.8476386070251465,
+      "blip": "a man in a red shirt and black pants with a white helmet",
+      "ocr": "COMMANDO",
+      "policy": {
+        "description": "Content depicting violence, weapons, or graphic imagery",
+        "examples": [
+          "fighting",
+          "weapons",
+          "blood",
+          "gore",
+          "combat"
+        ],
+        "severity_indicators": [
+          "realistic weapons",
+          "explicit violence",
+          "gore"
+        ],
+        "context_matters": [
+          "gaming violence vs real violence",
+          "educational vs gratuitous"
+        ],
+        "action_required": "human_review_required"
+      },
+      "action_required": "human_review_required",
+      "examples": [
+        "fighting",
+        "weapons",
+        "blood",
+        "gore",
+        "combat"
+      ],
+      "severity_indicators": [
+        "realistic weapons",
+        "explicit violence",
+        "gore"
+      ],
+      "context_factors": [
+        "gaming violence vs real violence",
+        "educational vs gratuitous"
+      ],
+      "violation_detected": false
+    },
+    {
+      "type": "visual",
+      "frame": 10,
+      "timestamp": 4.5,
+      "category": "safe_content",
+      "confidence": 0.7811885476112366,
+      "blip": "a cartoon character in a yellow suit holding a gun",
+      "ocr": "",
+      "policy": {
+        "description": "Content depicting violence, weapons, or graphic imagery",
+        "examples": [
+          "fighting",
+          "weapons",
+          "blood",
+          "gore",
+          "combat"
+        ],
+        "severity_indicators": [
+          "realistic weapons",
+          "explicit violence",
+          "gore"
+        ],
+        "context_matters": [
+          "gaming violence vs real violence",
+          "educational vs gratuitous"
+        ],
+        "action_required": "human_review_required"
+      },
+      "action_required": "human_review_required",
+      "examples": [
+        "fighting",
+        "weapons",
+        "blood",
+        "gore",
+        "combat"
+      ],
+      "severity_indicators": [
+        "realistic weapons",
+        "explicit violence",
+        "gore"
+      ],
+      "context_factors": [
+        "gaming violence vs real violence",
+        "educational vs gratuitous"
+      ],
+      "violation_detected": false
+    },
+    {
+      "type": "visual",
+      "frame": 11,
+      "timestamp": 5.0,
+      "category": "safe_content",
+      "confidence": 0.8889726996421814,
+      "blip": "a cartoon character with a gun in his hand",
+      "ocr": "1. Run of the mill",
+      "policy": {
+        "description": "Content depicting violence, weapons, or graphic imagery",
+        "examples": [
+          "fighting",
+          "weapons",
+          "blood",
+          "gore",
+          "combat"
+        ],
+        "severity_indicators": [
+          "realistic weapons",
+          "explicit violence",
+          "gore"
+        ],
+        "context_matters": [
+          "gaming violence vs real violence",
+          "educational vs gratuitous"
+        ],
+        "action_required": "human_review_required"
+      },
+      "action_required": "human_review_required",
+      "examples": [
+        "fighting",
+        "weapons",
+        "blood",
+        "gore",
+        "combat"
+      ],
+      "severity_indicators": [
+        "realistic weapons",
+        "explicit violence",
+        "gore"
+      ],
+      "context_factors": [
+        "gaming violence vs real violence",
+        "educational vs gratuitous"
+      ],
+      "violation_detected": false
+    },
+    {
+      "type": "visual",
+      "frame": 12,
+      "timestamp": 5.5,
+      "category": "safe_content",
+      "confidence": 0.850745439529419,
+      "blip": "a cartoon character with a gun in his hand",
+      "ocr": "1. Run of the mill 2. Main character",
+      "policy": {
+        "description": "Content depicting violence, weapons, or graphic imagery",
+        "examples": [
+          "fighting",
+          "weapons",
+          "blood",
+          "gore",
+          "combat"
+        ],
+        "severity_indicators": [
+          "realistic weapons",
+          "explicit violence",
+          "gore"
+        ],
+        "context_matters": [
+          "gaming violence vs real violence",
+          "educational vs gratuitous"
+        ],
+        "action_required": "human_review_required"
+      },
+      "action_required": "human_review_required",
+      "examples": [
+        "fighting",
+        "weapons",
+        "blood",
+        "gore",
+        "combat"
+      ],
+      "severity_indicators": [
+        "realistic weapons",
+        "explicit violence",
+        "gore"
+      ],
+      "context_factors": [
+        "gaming violence vs real violence",
+        "educational vs gratuitous"
+      ],
+      "violation_detected": false
+    },
+    {
+      "type": "visual",
+      "frame": 13,
+      "timestamp": 6.0,
+      "category": "suggestive_content",
+      "confidence": 0.3627505898475647,
+      "blip": "run to the beach in the game",
+      "ocr": "1. Run of the mill 2. Main character 3. Pew pew shoot bad guy",
+      "policy": {
+        "description": "Content depicting violence, weapons, or graphic imagery",
+        "examples": [
+          "fighting",
+          "weapons",
+          "blood",
+          "gore",
+          "combat"
+        ],
+        "severity_indicators": [
+          "realistic weapons",
+          "explicit violence",
+          "gore"
+        ],
+        "context_matters": [
+          "gaming violence vs real violence",
+          "educational vs gratuitous"
+        ],
+        "action_required": "human_review_required"
+      },
+      "action_required": "human_review_required",
+      "examples": [
+        "fighting",
+        "weapons",
+        "blood",
+        "gore",
+        "combat"
+      ],
+      "severity_indicators": [
+        "realistic weapons",
+        "explicit violence",
+        "gore"
+      ],
+      "context_factors": [
+        "gaming violence vs real violence",
+        "educational vs gratuitous"
+      ],
+      "violation_detected": true
+    },
+    {
+      "type": "visual",
+      "frame": 14,
+      "timestamp": 6.5,
+      "category": "suggestive_content",
+      "confidence": 0.44430580735206604,
+      "blip": "run to the end of the game with the title",
+      "ocr": "1.Run of the mill 2. Main character 3. Pew pew shoot bad guy",
+      "policy": {
+        "description": "Content depicting violence, weapons, or graphic imagery",
+        "examples": [
+          "fighting",
+          "weapons",
+          "blood",
+          "gore",
+          "combat"
+        ],
+        "severity_indicators": [
+          "realistic weapons",
+          "explicit violence",
+          "gore"
+        ],
+        "context_matters": [
+          "gaming violence vs real violence",
+          "educational vs gratuitous"
+        ],
+        "action_required": "human_review_required"
+      },
+      "action_required": "human_review_required",
+      "examples": [
+        "fighting",
+        "weapons",
+        "blood",
+        "gore",
+        "combat"
+      ],
+      "severity_indicators": [
+        "realistic weapons",
+        "explicit violence",
+        "gore"
+      ],
+      "context_factors": [
+        "gaming violence vs real violence",
+        "educational vs gratuitous"
+      ],
+      "violation_detected": true
+    },
+    {
+      "type": "visual",
+      "frame": 15,
+      "timestamp": 7.0,
+      "category": "safe_content",
+      "confidence": 0.7315030097961426,
+      "blip": "run of the ninja 3 pwvshot",
+      "ocr": "1.Run of the mill 2. Main character 3. Pew pew shoot bad guy",
+      "policy": {
+        "description": "Content depicting violence, weapons, or graphic imagery",
+        "examples": [
+          "fighting",
+          "weapons",
+          "blood",
+          "gore",
+          "combat"
+        ],
+        "severity_indicators": [
+          "realistic weapons",
+          "explicit violence",
+          "gore"
+        ],
+        "context_matters": [
+          "gaming violence vs real violence",
+          "educational vs gratuitous"
+        ],
+        "action_required": "human_review_required"
+      },
+      "action_required": "human_review_required",
+      "examples": [
+        "fighting",
+        "weapons",
+        "blood",
+        "gore",
+        "combat"
+      ],
+      "severity_indicators": [
+        "realistic weapons",
+        "explicit violence",
+        "gore"
+      ],
+      "context_factors": [
+        "gaming violence vs real violence",
+        "educational vs gratuitous"
+      ],
+      "violation_detected": false
+    },
+    {
+      "type": "visual",
+      "frame": 16,
+      "timestamp": 7.5,
+      "category": "safe_content",
+      "confidence": 0.8842080235481262,
+      "blip": "a cartoon character with a blue background and text that reads run to mi 3 mino",
+      "ocr": "1. Run of the mill 2. Main character 3. Pew pew shoot bad guy 4. Mysterio lookin ahh",
+      "policy": {
+        "description": "Content depicting violence, weapons, or graphic imagery",
+        "examples": [
+          "fighting",
+          "weapons",
+          "blood",
+          "gore",
+          "combat"
+        ],
+        "severity_indicators": [
+          "realistic weapons",
+          "explicit violence",
+          "gore"
+        ],
+        "context_matters": [
+          "gaming violence vs real violence",
+          "educational vs gratuitous"
+        ],
+        "action_required": "human_review_required"
+      },
+      "action_required": "human_review_required",
+      "examples": [
+        "fighting",
+        "weapons",
+        "blood",
+        "gore",
+        "combat"
+      ],
+      "severity_indicators": [
+        "realistic weapons",
+        "explicit violence",
+        "gore"
+      ],
+      "context_factors": [
+        "gaming violence vs real violence",
+        "educational vs gratuitous"
+      ],
+      "violation_detected": false
+    },
+    {
+      "type": "visual",
+      "frame": 17,
+      "timestamp": 8.0,
+      "category": "safe_content",
+      "confidence": 0.8743234276771545,
+      "blip": "a cartoon character with a green and yellow outfit",
+      "ocr": "1. Run of the mill 2. Main character 3. Pew pew shoot ahh",
+      "policy": {
+        "description": "Content depicting violence, weapons, or graphic imagery",
+        "examples": [
+          "fighting",
+          "weapons",
+          "blood",
+          "gore",
+          "combat"
+        ],
+        "severity_indicators": [
+          "realistic weapons",
+          "explicit violence",
+          "gore"
+        ],
+        "context_matters": [
+          "gaming violence vs real violence",
+          "educational vs gratuitous"
+        ],
+        "action_required": "human_review_required"
+      },
+      "action_required": "human_review_required",
+      "examples": [
+        "fighting",
+        "weapons",
+        "blood",
+        "gore",
+        "combat"
+      ],
+      "severity_indicators": [
+        "realistic weapons",
+        "explicit violence",
+        "gore"
+      ],
+      "context_factors": [
+        "gaming violence vs real violence",
+        "educational vs gratuitous"
+      ],
+      "violation_detected": false
+    },
+    {
+      "type": "visual",
+      "frame": 18,
+      "timestamp": 8.5,
+      "category": "safe_content",
+      "confidence": 0.6070948839187622,
+      "blip": "he's about to be",
+      "ocr": "He's about as",
+      "policy": {
+        "description": "Content showing dangerous or harmful activities",
+        "examples": [
+          "extreme stunts",
+          "self-harm",
+          "dangerous challenges"
+        ],
+        "severity_indicators": [
+          "life-threatening",
+          "copyable dangers",
+          "no safety warnings"
+        ],
+        "context_matters": [
+          "professional vs amateur",
+          "safety precautions shown"
+        ],
+        "action_required": "age_restriction_or_removal"
+      },
+      "action_required": "age_restriction_or_removal",
+      "examples": [
+        "extreme stunts",
+        "self-harm",
+        "dangerous challenges"
+      ],
+      "severity_indicators": [
+        "life-threatening",
+        "copyable dangers",
+        "no safety warnings"
+      ],
+      "context_factors": [
+        "professional vs amateur",
+        "safety precautions shown"
+      ],
+      "violation_detected": false
+    },
+    {
+      "type": "visual",
+      "frame": 19,
+      "timestamp": 9.0,
+      "category": "safe_content",
+      "confidence": 0.8273937106132507,
+      "blip": "he's about to be",
+      "ocr": "He's about as",
+      "policy": {
+        "description": "Content showing dangerous or harmful activities",
+        "examples": [
+          "extreme stunts",
+          "self-harm",
+          "dangerous challenges"
+        ],
+        "severity_indicators": [
+          "life-threatening",
+          "copyable dangers",
+          "no safety warnings"
+        ],
+        "context_matters": [
+          "professional vs amateur",
+          "safety precautions shown"
+        ],
+        "action_required": "age_restriction_or_removal"
+      },
+      "action_required": "age_restriction_or_removal",
+      "examples": [
+        "extreme stunts",
+        "self-harm",
+        "dangerous challenges"
+      ],
+      "severity_indicators": [
+        "life-threatening",
+        "copyable dangers",
+        "no safety warnings"
+      ],
+      "context_factors": [
+        "professional vs amateur",
+        "safety precautions shown"
+      ],
+      "violation_detected": false
+    },
+    {
+      "type": "visual",
+      "frame": 20,
+      "timestamp": 9.5,
+      "category": "safe_content",
+      "confidence": 0.6292641758918762,
+      "blip": "a screenshot of a man in a forest with the words as you",
+      "ocr": "as you can",
+      "policy": {
+        "description": "Content showing dangerous or harmful activities",
+        "examples": [
+          "extreme stunts",
+          "self-harm",
+          "dangerous challenges"
+        ],
+        "severity_indicators": [
+          "life-threatening",
+          "copyable dangers",
+          "no safety warnings"
+        ],
+        "context_matters": [
+          "professional vs amateur",
+          "safety precautions shown"
+        ],
+        "action_required": "age_restriction_or_removal"
+      },
+      "action_required": "age_restriction_or_removal",
+      "examples": [
+        "extreme stunts",
+        "self-harm",
+        "dangerous challenges"
+      ],
+      "severity_indicators": [
+        "life-threatening",
+        "copyable dangers",
+        "no safety warnings"
+      ],
+      "context_factors": [
+        "professional vs amateur",
+        "safety precautions shown"
+      ],
+      "violation_detected": false
+    },
+    {
+      "type": "visual",
+      "frame": 21,
+      "timestamp": 10.0,
+      "category": "safe_content",
+      "confidence": 0.665087878704071,
+      "blip": "a screenshot of a person in a forest",
+      "ocr": "13 ask for in a",
+      "policy": {
+        "description": "Content showing dangerous or harmful activities",
+        "examples": [
+          "extreme stunts",
+          "self-harm",
+          "dangerous challenges"
+        ],
+        "severity_indicators": [
+          "life-threatening",
+          "copyable dangers",
+          "no safety warnings"
+        ],
+        "context_matters": [
+          "professional vs amateur",
+          "safety precautions shown"
+        ],
+        "action_required": "age_restriction_or_removal"
+      },
+      "action_required": "age_restriction_or_removal",
+      "examples": [
+        "extreme stunts",
+        "self-harm",
+        "dangerous challenges"
+      ],
+      "severity_indicators": [
+        "life-threatening",
+        "copyable dangers",
+        "no safety warnings"
+      ],
+      "context_factors": [
+        "professional vs amateur",
+        "safety precautions shown"
+      ],
+      "violation_detected": false
+    },
+    {
+      "type": "visual",
+      "frame": 22,
+      "timestamp": 10.5,
+      "category": "suggestive_content",
+      "confidence": 0.8103013038635254,
+      "blip": "a person walking through a forest with the words game like this",
+      "ocr": "game like this",
+      "policy": {
+        "description": "Content showing dangerous or harmful activities",
+        "examples": [
+          "extreme stunts",
+          "self-harm",
+          "dangerous challenges"
+        ],
+        "severity_indicators": [
+          "life-threatening",
+          "copyable dangers",
+          "no safety warnings"
+        ],
+        "context_matters": [
+          "professional vs amateur",
+          "safety precautions shown"
+        ],
+        "action_required": "age_restriction_or_removal"
+      },
+      "action_required": "age_restriction_or_removal",
+      "examples": [
+        "extreme stunts",
+        "self-harm",
+        "dangerous challenges"
+      ],
+      "severity_indicators": [
+        "life-threatening",
+        "copyable dangers",
+        "no safety warnings"
+      ],
+      "context_factors": [
+        "professional vs amateur",
+        "safety precautions shown"
+      ],
+      "violation_detected": true
+    },
+    {
+      "type": "audio",
+      "category": "bad_words",
+      "keywords": [
+        "shoot"
+      ],
+      "severity": "medium",
+      "transcript": " I'm ranking every survivor in Risk or Rain 2 to find out which is the best one. This is Commando, y",
+      "policy": {
+        "description": "Content promoting hatred against protected groups",
+        "examples": [
+          "discriminatory symbols",
+          "hateful rhetoric",
+          "supremacist content"
+        ],
+        "severity_indicators": [
+          "nazi symbols",
+          "racial slurs",
+          "incitement"
+        ],
+        "context_matters": [
+          "historical education vs promotion",
+          "criticism vs hatred"
+        ],
+        "action_required": "immediate_removal"
+      },
+      "action_required": "immediate_removal",
+      "examples": [
+        "discriminatory symbols",
+        "hateful rhetoric",
+        "supremacist content"
+      ],
+      "severity_indicators": [
+        "nazi symbols",
+        "racial slurs",
+        "incitement"
+      ],
+      "context_factors": [
+        "historical education vs promotion",
+        "criticism vs hatred"
+      ]
+    },
+    {
+      "type": "audio",
+      "category": "dangerous_activities",
+      "keywords": [
+        "risk"
+      ],
+      "severity": "medium",
+      "transcript": " I'm ranking every survivor in Risk or Rain 2 to find out which is the best one. This is Commando, y",
+      "policy": {
+        "description": "Content showing dangerous or harmful activities",
+        "examples": [
+          "extreme stunts",
+          "self-harm",
+          "dangerous challenges"
+        ],
+        "severity_indicators": [
+          "life-threatening",
+          "copyable dangers",
+          "no safety warnings"
+        ],
+        "context_matters": [
+          "professional vs amateur",
+          "safety precautions shown"
+        ],
+        "action_required": "age_restriction_or_removal"
+      },
+      "action_required": "age_restriction_or_removal",
+      "examples": [
+        "extreme stunts",
+        "self-harm",
+        "dangerous challenges"
+      ],
+      "severity_indicators": [
+        "life-threatening",
+        "copyable dangers",
+        "no safety warnings"
+      ],
+      "context_factors": [
+        "professional vs amateur",
+        "safety precautions shown"
+      ]
+    }
+  ]
+}

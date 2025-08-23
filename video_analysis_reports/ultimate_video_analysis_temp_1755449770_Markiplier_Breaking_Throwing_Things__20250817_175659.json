@@ -1,0 +1,3719 @@
+{
+  "video_info": {
+    "path": "C:\\Users\\PC\\AppData\\Local\\Temp\\video_analysis\\temp_1755449770_Markiplier Breaking_Throwing Things..mp4",
+    "name": "temp_1755449770_Markiplier Breaking_Throwing Things..mp4",
+    "analysis_time": 25.48447012901306,
+    "timestamp": "2025-08-17T17:56:51.694065"
+  },
+  "frame_analysis": {
+    "total_frames": 20,
+    "violation_frames": 17,
+    "average_confidence": 0.730415441095829,
+    "violation_categories": [
+      "suggestive_content"
+    ]
+  },
+  "audio_analysis": {
+    "transcript": " It's just still, I don't want to play this any- I, f- Uhww Argh Oh, my god. Undo- OH GOD FAP NO MY GOD Cannot to work F- I'm just wanna traditionally start- Hurrrrrimcs What is GOING ON WITH MY FUCKING MOUTH?! FUCK YOU Do you work still? Do you fuckin work? Oh wow, it's still fuckin works great.",
+    "language": "en",
+    "policy_flags": {},
+    "whisper_available": true,
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 2.04,
+        "text": " It's just still, I don't want to play this any-",
+        "tokens": [
+          50364,
+          467,
+          311,
+          445,
+          920,
+          11,
+          286,
+          500,
+          380,
+          528,
+          281,
+          862,
+          341,
+          604,
+          12,
+          50466
+        ],
+        "temperature": 1.0,
+        "avg_logprob": -1.796502685546875,
+        "compression_ratio": 1.3896713615023475,
+        "no_speech_prob": 0.0006647288682870567
+      },
+      {
+        "id": 1,
+        "seek": 0,
+        "start": 2.04,
+        "end": 2.7800000000000002,
+        "text": " I, f-",
+        "tokens": [
+          50466,
+          286,
+          11,
+          283,
+          12,
+          50503
+        ],
+        "temperature": 1.0,
+        "avg_logprob": -1.796502685546875,
+        "compression_ratio": 1.3896713615023475,
+        "no_speech_prob": 0.0006647288682870567
+      },
+      {
+        "id": 2,
+        "seek": 0,
+        "start": 4.86,
+        "end": 5.64,
+        "text": " Uhww",
+        "tokens": [
+          50607,
+          4019,
+          4979,
+          50646
+        ],
+        "temperature": 1.0,
+        "avg_logprob": -1.796502685546875,
+        "compression_ratio": 1.3896713615023475,
+        "no_speech_prob": 0.0006647288682870567
+      },
+      {
+        "id": 3,
+        "seek": 0,
+        "start": 6.84,
+        "end": 7.84,
+        "text": " Argh",
+        "tokens": [
+          50706,
+          1587,
+          9030,
+          50756
+        ],
+        "temperature": 1.0,
+        "avg_logprob": -1.796502685546875,
+        "compression_ratio": 1.3896713615023475,
+        "no_speech_prob": 0.0006647288682870567
+      },
+      {
+        "id": 4,
+        "seek": 0,
+        "start": 7.96,
+        "end": 9.28,
+        "text": " Oh, my god. Undo-",
+        "tokens": [
+          50762,
+          876,
+          11,
+          452,
+          3044,
+          13,
+          2719,
+          78,
+          12,
+          50828
+        ],
+        "temperature": 1.0,
+        "avg_logprob": -1.796502685546875,
+        "compression_ratio": 1.3896713615023475,
+        "no_speech_prob": 0.0006647288682870567
+      },
+      {
+        "id": 5,
+        "seek": 0,
+        "start": 9.28,
+        "end": 10.02,
+        "text": " OH GOD",
+        "tokens": [
+          50828,
+          13931,
+          26831,
+          50865
+        ],
+        "temperature": 1.0,
+        "avg_logprob": -1.796502685546875,
+        "compression_ratio": 1.3896713615023475,
+        "no_speech_prob": 0.0006647288682870567
+      },
+      {
+        "id": 6,
+        "seek": 0,
+        "start": 10.02,
+        "end": 11.040000000000001,
+        "text": " FAP",
+        "tokens": [
+          50865,
+          479,
+          4715,
+          50916
+        ],
+        "temperature": 1.0,
+        "avg_logprob": -1.796502685546875,
+        "compression_ratio": 1.3896713615023475,
+        "no_speech_prob": 0.0006647288682870567
+      },
+      {
+        "id": 7,
+        "seek": 0,
+        "start": 11.38,
+        "end": 12.3,
+        "text": " NO MY GOD",
+        "tokens": [
+          50933,
+          9146,
+          16322,
+          26831,
+          50979
+        ],
+        "temperature": 1.0,
+        "avg_logprob": -1.796502685546875,
+        "compression_ratio": 1.3896713615023475,
+        "no_speech_prob": 0.0006647288682870567
+      },
+      {
+        "id": 8,
+        "seek": 0,
+        "start": 13.200000000000001,
+        "end": 14.26,
+        "text": " Cannot to work F-",
+        "tokens": [
+          51024,
+          29866,
+          310,
+          281,
+          589,
+          479,
+          12,
+          51077
+        ],
+        "temperature": 1.0,
+        "avg_logprob": -1.796502685546875,
+        "compression_ratio": 1.3896713615023475,
+        "no_speech_prob": 0.0006647288682870567
+      },
+      {
+        "id": 9,
+        "seek": 0,
+        "start": 14.26,
+        "end": 15.58,
+        "text": " I'm just wanna traditionally start-",
+        "tokens": [
+          51077,
+          286,
+          478,
+          445,
+          1948,
+          19067,
+          722,
+          12,
+          51143
+        ],
+        "temperature": 1.0,
+        "avg_logprob": -1.796502685546875,
+        "compression_ratio": 1.3896713615023475,
+        "no_speech_prob": 0.0006647288682870567
+      },
+      {
+        "id": 10,
+        "seek": 0,
+        "start": 15.58,
+        "end": 16.080000000000002,
+        "text": " Hurrrr",
+        "tokens": [
+          51143,
+          8598,
+          16115,
+          81,
+          51168
+        ],
+        "temperature": 1.0,
+        "avg_logprob": -1.796502685546875,
+        "compression_ratio": 1.3896713615023475,
+        "no_speech_prob": 0.0006647288682870567
+      },
+      {
+        "id": 11,
+        "seek": 0,
+        "start": 16.52,
+        "end": 17.240000000000002,
+        "text": "rimcs",
+        "tokens": [
+          51190,
+          5565,
+          14368,
+          51226
+        ],
+        "temperature": 1.0,
+        "avg_logprob": -1.796502685546875,
+        "compression_ratio": 1.3896713615023475,
+        "no_speech_prob": 0.0006647288682870567
+      },
+      {
+        "id": 12,
+        "seek": 0,
+        "start": 19.580000000000002,
+        "end": 22.78,
+        "text": " What is GOING ON WITH MY FUCKING MOUTH?!",
+        "tokens": [
+          51343,
+          708,
+          307,
+          10365,
+          3017,
+          9299,
+          25371,
+          16322,
+          26154,
+          3017,
+          376,
+          4807,
+          9620,
+          3529,
+          51503
+        ],
+        "temperature": 1.0,
+        "avg_logprob": -1.796502685546875,
+        "compression_ratio": 1.3896713615023475,
+        "no_speech_prob": 0.0006647288682870567
+      },
+      {
+        "id": 13,
+        "seek": 0,
+        "start": 22.88,
+        "end": 23.84,
+        "text": " FUCK YOU",
+        "tokens": [
+          51508,
+          26154,
+          7928,
+          51556
+        ],
+        "temperature": 1.0,
+        "avg_logprob": -1.796502685546875,
+        "compression_ratio": 1.3896713615023475,
+        "no_speech_prob": 0.0006647288682870567
+      },
+      {
+        "id": 14,
+        "seek": 0,
+        "start": 24.02,
+        "end": 25.080000000000002,
+        "text": " Do you work still?",
+        "tokens": [
+          51565,
+          1144,
+          291,
+          589,
+          920,
+          30,
+          51618
+        ],
+        "temperature": 1.0,
+        "avg_logprob": -1.796502685546875,
+        "compression_ratio": 1.3896713615023475,
+        "no_speech_prob": 0.0006647288682870567
+      },
+      {
+        "id": 15,
+        "seek": 0,
+        "start": 25.080000000000002,
+        "end": 26.2,
+        "text": " Do you fuckin work?",
+        "tokens": [
+          51618,
+          1144,
+          291,
+          20022,
+          589,
+          30,
+          51674
+        ],
+        "temperature": 1.0,
+        "avg_logprob": -1.796502685546875,
+        "compression_ratio": 1.3896713615023475,
+        "no_speech_prob": 0.0006647288682870567
+      },
+      {
+        "id": 16,
+        "seek": 0,
+        "start": 26.84,
+        "end": 29.0,
+        "text": " Oh wow, it's still fuckin works great.",
+        "tokens": [
+          51706,
+          876,
+          6076,
+          11,
+          309,
+          311,
+          920,
+          20022,
+          1985,
+          869,
+          13,
+          51814
+        ],
+        "temperature": 1.0,
+        "avg_logprob": -1.796502685546875,
+        "compression_ratio": 1.3896713615023475,
+        "no_speech_prob": 0.0006647288682870567
+      }
+    ]
+  },
+  "overall_assessment": {
+    "overall_compliance": 52.5,
+    "visual_compliance": 15.0,
+    "audio_compliance": 90,
+    "status": "major_violations",
+    "total_violations": 17,
+    "violation_categories": [
+      "suggestive_content"
+    ]
+  },
+  "detailed_frames": [
+    {
+      "timestamp": 0.0,
+      "frame_index": 0,
+      "visual_analysis": {
+        "category": "suggestive_content",
+        "confidence": 0.8001283407211304,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.06927664577960968,
+          "suggestive_content": 0.8001283407211304,
+          "artistic_adult_content": 0.05522953346371651,
+          "misinformation": 0.06437176465988159,
+          "violence": 0.0032948716543614864,
+          "hate_speech": 0.0032645887695252895,
+          "dangerous_activities": 0.004434218164533377
+        }
+      },
+      "blip_description": {
+        "description": "a man in a room with a bed and a video camera",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "Grip",
+        "extracted_items": [
+          {
+            "text": "Grip",
+            "confidence": 0.6329469084739685,
+            "bbox": [
+              [
+                616,
+                52
+              ],
+              [
+                662,
+                52
+              ],
+              [
+                662,
+                80
+              ],
+              [
+                616,
+                80
+              ]
+            ]
+          }
+        ],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1755449770_Markiplier Breaking_Throwing Things._frame_1.jpg"
+    },
+    {
+      "timestamp": 0.5,
+      "frame_index": 1,
+      "visual_analysis": {
+        "category": "suggestive_content",
+        "confidence": 0.6136544942855835,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.21440814435482025,
+          "suggestive_content": 0.6136544942855835,
+          "artistic_adult_content": 0.05762723460793495,
+          "misinformation": 0.09469704329967499,
+          "violence": 0.00548615213483572,
+          "hate_speech": 0.006289526354521513,
+          "dangerous_activities": 0.007837454788386822
+        }
+      },
+      "blip_description": {
+        "description": "a man is playing a video game on his computer",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "Grip RB",
+        "extracted_items": [
+          {
+            "text": "Grip",
+            "confidence": 0.710020124912262,
+            "bbox": [
+              [
+                616,
+                52
+              ],
+              [
+                662,
+                52
+              ],
+              [
+                662,
+                80
+              ],
+              [
+                616,
+                80
+              ]
+            ]
+          },
+          {
+            "text": "RB",
+            "confidence": 0.6014174575414879,
+            "bbox": [
+              [
+                678,
+                346
+              ],
+              [
+                712,
+                346
+              ],
+              [
+                712,
+                370
+              ],
+              [
+                678,
+                370
+              ]
+            ]
+          }
+        ],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1755449770_Markiplier Breaking_Throwing Things._frame_2.jpg"
+    },
+    {
+      "timestamp": 1.0,
+      "frame_index": 2,
+      "visual_analysis": {
+        "category": "suggestive_content",
+        "confidence": 0.5802244544029236,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.26265016198158264,
+          "suggestive_content": 0.5802244544029236,
+          "artistic_adult_content": 0.04835101589560509,
+          "misinformation": 0.08915769308805466,
+          "violence": 0.005466721951961517,
+          "hate_speech": 0.006400001235306263,
+          "dangerous_activities": 0.007750034797936678
+        }
+      },
+      "blip_description": {
+        "description": "a man is playing a video game on his computer",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "Grip",
+        "extracted_items": [
+          {
+            "text": "Grip",
+            "confidence": 0.7802836894989014,
+            "bbox": [
+              [
+                616,
+                52
+              ],
+              [
+                662,
+                52
+              ],
+              [
+                662,
+                80
+              ],
+              [
+                616,
+                80
+              ]
+            ]
+          }
+        ],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1755449770_Markiplier Breaking_Throwing Things._frame_3.jpg"
+    },
+    {
+      "timestamp": 1.5,
+      "frame_index": 3,
+      "visual_analysis": {
+        "category": "suggestive_content",
+        "confidence": 0.67990642786026,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.15983834862709045,
+          "suggestive_content": 0.67990642786026,
+          "artistic_adult_content": 0.05848317593336105,
+          "misinformation": 0.08530233800411224,
+          "violence": 0.004733700770884752,
+          "hate_speech": 0.005137589294463396,
+          "dangerous_activities": 0.006598425097763538
+        }
+      },
+      "blip_description": {
+        "description": "a man is playing a video game on his computer",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "Grip",
+        "extracted_items": [
+          {
+            "text": "Grip",
+            "confidence": 0.5989825129508972,
+            "bbox": [
+              [
+                616,
+                52
+              ],
+              [
+                662,
+                52
+              ],
+              [
+                662,
+                80
+              ],
+              [
+                616,
+                80
+              ]
+            ]
+          }
+        ],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1755449770_Markiplier Breaking_Throwing Things._frame_4.jpg"
+    },
+    {
+      "timestamp": 2.0,
+      "frame_index": 4,
+      "visual_analysis": {
+        "category": "suggestive_content",
+        "confidence": 0.8028684258460999,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.07973193377256393,
+          "suggestive_content": 0.8028684258460999,
+          "artistic_adult_content": 0.05188245698809624,
+          "misinformation": 0.054977573454380035,
+          "violence": 0.003009192179888487,
+          "hate_speech": 0.0031998089980334044,
+          "dangerous_activities": 0.004330553114414215
+        }
+      },
+      "blip_description": {
+        "description": "a man is playing a video game on his computer",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "Grip LB",
+        "extracted_items": [
+          {
+            "text": "Grip",
+            "confidence": 0.6440780758857727,
+            "bbox": [
+              [
+                616,
+                52
+              ],
+              [
+                662,
+                52
+              ],
+              [
+                662,
+                80
+              ],
+              [
+                616,
+                80
+              ]
+            ]
+          },
+          {
+            "text": "LB",
+            "confidence": 0.9959620265249967,
+            "bbox": [
+              [
+                594,
+                348
+              ],
+              [
+                630,
+                348
+              ],
+              [
+                630,
+                374
+              ],
+              [
+                594,
+                374
+              ]
+            ]
+          }
+        ],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1755449770_Markiplier Breaking_Throwing Things._frame_5.jpg"
+    },
+    {
+      "timestamp": 2.5,
+      "frame_index": 5,
+      "visual_analysis": {
+        "category": "suggestive_content",
+        "confidence": 0.4699738919734955,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.20716477930545807,
+          "suggestive_content": 0.4699738919734955,
+          "artistic_adult_content": 0.09719976037740707,
+          "misinformation": 0.19972027838230133,
+          "violence": 0.008003533817827702,
+          "hate_speech": 0.007713641040027142,
+          "dangerous_activities": 0.010224099270999432
+        }
+      },
+      "blip_description": {
+        "description": "a person is seen on the screen in a video",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "Grip",
+        "extracted_items": [
+          {
+            "text": "Grip",
+            "confidence": 0.658841609954834,
+            "bbox": [
+              [
+                616,
+                52
+              ],
+              [
+                662,
+                52
+              ],
+              [
+                662,
+                80
+              ],
+              [
+                616,
+                80
+              ]
+            ]
+          }
+        ],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1755449770_Markiplier Breaking_Throwing Things._frame_6.jpg"
+    },
+    {
+      "timestamp": 3.0,
+      "frame_index": 6,
+      "visual_analysis": {
+        "category": "suggestive_content",
+        "confidence": 0.5394957661628723,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.19236645102500916,
+          "suggestive_content": 0.5394957661628723,
+          "artistic_adult_content": 0.11508586257696152,
+          "misinformation": 0.13003161549568176,
+          "violence": 0.006857260596007109,
+          "hate_speech": 0.006908420007675886,
+          "dangerous_activities": 0.00925462692975998
+        }
+      },
+      "blip_description": {
+        "description": "a person is playing a video game on a computer",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "nmc 037 Grip RB",
+        "extracted_items": [
+          {
+            "text": "nmc",
+            "confidence": 0.51971264350791,
+            "bbox": [
+              [
+                1115,
+                29
+              ],
+              [
+                1155,
+                29
+              ],
+              [
+                1155,
+                43
+              ],
+              [
+                1115,
+                43
+              ]
+            ]
+          },
+          {
+            "text": "037",
+            "confidence": 0.6628230810165405,
+            "bbox": [
+              [
+                1191,
+                25
+              ],
+              [
+                1231,
+                25
+              ],
+              [
+                1231,
+                45
+              ],
+              [
+                1191,
+                45
+              ]
+            ]
+          },
+          {
+            "text": "Grip",
+            "confidence": 0.6200398802757263,
+            "bbox": [
+              [
+                616,
+                52
+              ],
+              [
+                662,
+                52
+              ],
+              [
+                662,
+                80
+              ],
+              [
+                616,
+                80
+              ]
+            ]
+          },
+          {
+            "text": "RB",
+            "confidence": 0.9989524744096148,
+            "bbox": [
+              [
+                685,
+                319
+              ],
+              [
+                715,
+                319
+              ],
+              [
+                715,
+                339
+              ],
+              [
+                685,
+                339
+              ]
+            ]
+          }
+        ],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1755449770_Markiplier Breaking_Throwing Things._frame_7.jpg"
+    },
+    {
+      "timestamp": 3.5,
+      "frame_index": 7,
+      "visual_analysis": {
+        "category": "suggestive_content",
+        "confidence": 0.8322480320930481,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.03757832571864128,
+          "suggestive_content": 0.8322480320930481,
+          "artistic_adult_content": 0.06363828480243683,
+          "misinformation": 0.058347951620817184,
+          "violence": 0.0025530168786644936,
+          "hate_speech": 0.002295650774613023,
+          "dangerous_activities": 0.0033386778086423874
+        }
+      },
+      "blip_description": {
+        "description": "a person is playing a video game on a table",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "037 Grip",
+        "extracted_items": [
+          {
+            "text": "037",
+            "confidence": 0.7044660449028015,
+            "bbox": [
+              [
+                1191,
+                25
+              ],
+              [
+                1231,
+                25
+              ],
+              [
+                1231,
+                45
+              ],
+              [
+                1191,
+                45
+              ]
+            ]
+          },
+          {
+            "text": "Grip",
+            "confidence": 0.5786018371582031,
+            "bbox": [
+              [
+                616,
+                52
+              ],
+              [
+                662,
+                52
+              ],
+              [
+                662,
+                80
+              ],
+              [
+                616,
+                80
+              ]
+            ]
+          }
+        ],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1755449770_Markiplier Breaking_Throwing Things._frame_8.jpg"
+    },
+    {
+      "timestamp": 4.0,
+      "frame_index": 8,
+      "visual_analysis": {
+        "category": "suggestive_content",
+        "confidence": 0.7863418459892273,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.0774245634675026,
+          "suggestive_content": 0.7863418459892273,
+          "artistic_adult_content": 0.06027931720018387,
+          "misinformation": 0.06472865492105484,
+          "violence": 0.003343179589137435,
+          "hate_speech": 0.003336057998239994,
+          "dangerous_activities": 0.0045464313589036465
+        }
+      },
+      "blip_description": {
+        "description": "a man is playing a video game on his bed",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "nmc 037 Grip",
+        "extracted_items": [
+          {
+            "text": "nmc",
+            "confidence": 0.6755466511321839,
+            "bbox": [
+              [
+                1115,
+                29
+              ],
+              [
+                1155,
+                29
+              ],
+              [
+                1155,
+                43
+              ],
+              [
+                1115,
+                43
+              ]
+            ]
+          },
+          {
+            "text": "037",
+            "confidence": 0.5095136913053218,
+            "bbox": [
+              [
+                1193,
+                29
+              ],
+              [
+                1229,
+                29
+              ],
+              [
+                1229,
+                45
+              ],
+              [
+                1193,
+                45
+              ]
+            ]
+          },
+          {
+            "text": "Grip",
+            "confidence": 0.6230394244194031,
+            "bbox": [
+              [
+                616,
+                52
+              ],
+              [
+                662,
+                52
+              ],
+              [
+                662,
+                80
+              ],
+              [
+                616,
+                80
+              ]
+            ]
+          }
+        ],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1755449770_Markiplier Breaking_Throwing Things._frame_9.jpg"
+    },
+    {
+      "timestamp": 4.5,
+      "frame_index": 9,
+      "visual_analysis": {
+        "category": "suggestive_content",
+        "confidence": 0.8980101943016052,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.02498536929488182,
+          "suggestive_content": 0.8980101943016052,
+          "artistic_adult_content": 0.03991935774683952,
+          "misinformation": 0.03203129023313522,
+          "violence": 0.0015285125700756907,
+          "hate_speech": 0.0014290377730503678,
+          "dangerous_activities": 0.002096198033541441
+        }
+      },
+      "blip_description": {
+        "description": "a man is playing with a video game",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "nmc Grip",
+        "extracted_items": [
+          {
+            "text": "nmc",
+            "confidence": 0.6755466511321839,
+            "bbox": [
+              [
+                1115,
+                29
+              ],
+              [
+                1155,
+                29
+              ],
+              [
+                1155,
+                43
+              ],
+              [
+                1115,
+                43
+              ]
+            ]
+          },
+          {
+            "text": "Grip",
+            "confidence": 0.7199862599372864,
+            "bbox": [
+              [
+                616,
+                52
+              ],
+              [
+                662,
+                52
+              ],
+              [
+                662,
+                80
+              ],
+              [
+                616,
+                80
+              ]
+            ]
+          }
+        ],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1755449770_Markiplier Breaking_Throwing Things._frame_10.jpg"
+    },
+    {
+      "timestamp": 5.0,
+      "frame_index": 10,
+      "visual_analysis": {
+        "category": "suggestive_content",
+        "confidence": 0.8736399412155151,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.03501303121447563,
+          "suggestive_content": 0.8736399412155151,
+          "artistic_adult_content": 0.04546288773417473,
+          "misinformation": 0.0394081212580204,
+          "violence": 0.0019708622712641954,
+          "hate_speech": 0.0018490636721253395,
+          "dangerous_activities": 0.0026559752877801657
+        }
+      },
+      "blip_description": {
+        "description": "a person is playing a game on a bed",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "nmc Grip",
+        "extracted_items": [
+          {
+            "text": "nmc",
+            "confidence": 0.6755466511321839,
+            "bbox": [
+              [
+                1115,
+                29
+              ],
+              [
+                1155,
+                29
+              ],
+              [
+                1155,
+                43
+              ],
+              [
+                1115,
+                43
+              ]
+            ]
+          },
+          {
+            "text": "Grip",
+            "confidence": 0.6230394244194031,
+            "bbox": [
+              [
+                616,
+                52
+              ],
+              [
+                662,
+                52
+              ],
+              [
+                662,
+                80
+              ],
+              [
+                616,
+                80
+              ]
+            ]
+          }
+        ],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1755449770_Markiplier Breaking_Throwing Things._frame_11.jpg"
+    },
+    {
+      "timestamp": 5.5,
+      "frame_index": 11,
+      "visual_analysis": {
+        "category": "suggestive_content",
+        "confidence": 0.8385689854621887,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.05261562764644623,
+          "suggestive_content": 0.8385689854621887,
+          "artistic_adult_content": 0.05024692416191101,
+          "misinformation": 0.049875788390636444,
+          "violence": 0.0026025513652712107,
+          "hate_speech": 0.0025363736785948277,
+          "dangerous_activities": 0.003553709015250206
+        }
+      },
+      "blip_description": {
+        "description": "a person holding a gun in front of a bed",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "035 Grip",
+        "extracted_items": [
+          {
+            "text": "035",
+            "confidence": 0.7709665298461914,
+            "bbox": [
+              [
+                1191,
+                27
+              ],
+              [
+                1229,
+                27
+              ],
+              [
+                1229,
+                45
+              ],
+              [
+                1191,
+                45
+              ]
+            ]
+          },
+          {
+            "text": "Grip",
+            "confidence": 0.9931868314743042,
+            "bbox": [
+              [
+                616,
+                52
+              ],
+              [
+                662,
+                52
+              ],
+              [
+                662,
+                80
+              ],
+              [
+                616,
+                80
+              ]
+            ]
+          }
+        ],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1755449770_Markiplier Breaking_Throwing Things._frame_12.jpg"
+    },
+    {
+      "timestamp": 6.0,
+      "frame_index": 12,
+      "visual_analysis": {
+        "category": "suggestive_content",
+        "confidence": 0.7167391777038574,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.13555759191513062,
+          "suggestive_content": 0.7167391777038574,
+          "artistic_adult_content": 0.05804377421736717,
+          "misinformation": 0.07502342015504837,
+          "violence": 0.004228329285979271,
+          "hate_speech": 0.0045173573307693005,
+          "dangerous_activities": 0.0058904048055410385
+        }
+      },
+      "blip_description": {
+        "description": "a person is playing a video game on a bed",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "035 Grip",
+        "extracted_items": [
+          {
+            "text": "035",
+            "confidence": 0.7709665298461914,
+            "bbox": [
+              [
+                1191,
+                27
+              ],
+              [
+                1229,
+                27
+              ],
+              [
+                1229,
+                45
+              ],
+              [
+                1191,
+                45
+              ]
+            ]
+          },
+          {
+            "text": "Grip",
+            "confidence": 0.9931868314743042,
+            "bbox": [
+              [
+                616,
+                52
+              ],
+              [
+                662,
+                52
+              ],
+              [
+                662,
+                80
+              ],
+              [
+                616,
+                80
+              ]
+            ]
+          }
+        ],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1755449770_Markiplier Breaking_Throwing Things._frame_13.jpg"
+    },
+    {
+      "timestamp": 6.5,
+      "frame_index": 13,
+      "visual_analysis": {
+        "category": "suggestive_content",
+        "confidence": 0.7786833643913269,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.08636008948087692,
+          "suggestive_content": 0.7786833643913269,
+          "artistic_adult_content": 0.05937458947300911,
+          "misinformation": 0.06404225528240204,
+          "violence": 0.003447976429015398,
+          "hate_speech": 0.0034336368553340435,
+          "dangerous_activities": 0.004658045247197151
+        }
+      },
+      "blip_description": {
+        "description": "a person is playing a video game on a bed",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "Grip",
+        "extracted_items": [
+          {
+            "text": "Grip",
+            "confidence": 0.9931868314743042,
+            "bbox": [
+              [
+                616,
+                52
+              ],
+              [
+                662,
+                52
+              ],
+              [
+                662,
+                80
+              ],
+              [
+                616,
+                80
+              ]
+            ]
+          }
+        ],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1755449770_Markiplier Breaking_Throwing Things._frame_14.jpg"
+    },
+    {
+      "timestamp": 7.0,
+      "frame_index": 14,
+      "visual_analysis": {
+        "category": "suggestive_content",
+        "confidence": 0.8706567287445068,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.03669099137187004,
+          "suggestive_content": 0.8706567287445068,
+          "artistic_adult_content": 0.04511558637022972,
+          "misinformation": 0.04076198488473892,
+          "violence": 0.002040073275566101,
+          "hate_speech": 0.0019485935335978866,
+          "dangerous_activities": 0.002786010969430208
+        }
+      },
+      "blip_description": {
+        "description": "a person is playing a game on a bed",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "Grip",
+        "extracted_items": [
+          {
+            "text": "Grip",
+            "confidence": 0.9931868314743042,
+            "bbox": [
+              [
+                616,
+                52
+              ],
+              [
+                662,
+                52
+              ],
+              [
+                662,
+                80
+              ],
+              [
+                616,
+                80
+              ]
+            ]
+          }
+        ],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1755449770_Markiplier Breaking_Throwing Things._frame_15.jpg"
+    },
+    {
+      "timestamp": 7.5,
+      "frame_index": 15,
+      "visual_analysis": {
+        "category": "suggestive_content",
+        "confidence": 0.8604983687400818,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.04165042191743851,
+          "suggestive_content": 0.8604983687400818,
+          "artistic_adult_content": 0.046848732978105545,
+          "misinformation": 0.043640125542879105,
+          "violence": 0.002211593324318528,
+          "hate_speech": 0.0021297112107276917,
+          "dangerous_activities": 0.00302096176892519
+        }
+      },
+      "blip_description": {
+        "description": "a person is playing a game on a bed",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "Grip",
+        "extracted_items": [
+          {
+            "text": "Grip",
+            "confidence": 0.9931868314743042,
+            "bbox": [
+              [
+                616,
+                52
+              ],
+              [
+                662,
+                52
+              ],
+              [
+                662,
+                80
+              ],
+              [
+                616,
+                80
+              ]
+            ]
+          }
+        ],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1755449770_Markiplier Breaking_Throwing Things._frame_16.jpg"
+    },
+    {
+      "timestamp": 8.0,
+      "frame_index": 16,
+      "visual_analysis": {
+        "category": "safe_content",
+        "confidence": 0.890062153339386,
+        "violation_detected": false,
+        "all_probabilities": {
+          "safe_content": 0.890062153339386,
+          "suggestive_content": 0.04801587015390396,
+          "artistic_adult_content": 0.0054186806082725525,
+          "misinformation": 0.04679715633392334,
+          "violence": 0.002706938423216343,
+          "hate_speech": 0.003615717403590679,
+          "dangerous_activities": 0.0033835212234407663
+        }
+      },
+      "blip_description": {
+        "description": "a man in a recording room with headphones on",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "",
+        "extracted_items": [],
+        "ocr_available": true
+      },
+      "combined_violation": false,
+      "preview_path": "/static/frames/temp_1755449770_Markiplier Breaking_Throwing Things._frame_17.jpg"
+    },
+    {
+      "timestamp": 8.5,
+      "frame_index": 17,
+      "visual_analysis": {
+        "category": "suggestive_content",
+        "confidence": 0.4135454297065735,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.3401795029640198,
+          "suggestive_content": 0.4135454297065735,
+          "artistic_adult_content": 0.07012291252613068,
+          "misinformation": 0.14347487688064575,
+          "violence": 0.0094581488519907,
+          "hate_speech": 0.010772068053483963,
+          "dangerous_activities": 0.012447056360542774
+        }
+      },
+      "blip_description": {
+        "description": "a man in a recording room with headphones on",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "",
+        "extracted_items": [],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1755449770_Markiplier Breaking_Throwing Things._frame_18.jpg"
+    },
+    {
+      "timestamp": 9.0,
+      "frame_index": 18,
+      "visual_analysis": {
+        "category": "safe_content",
+        "confidence": 0.7774034738540649,
+        "violation_detected": false,
+        "all_probabilities": {
+          "safe_content": 0.7774034738540649,
+          "suggestive_content": 0.10706377774477005,
+          "artistic_adult_content": 0.01628503017127514,
+          "misinformation": 0.07986318320035934,
+          "violence": 0.005456831306219101,
+          "hate_speech": 0.006953788455575705,
+          "dangerous_activities": 0.006973951123654842
+        }
+      },
+      "blip_description": {
+        "description": "a man is sitting at a table with a plate of food",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "",
+        "extracted_items": [],
+        "ocr_available": true
+      },
+      "combined_violation": false,
+      "preview_path": "/static/frames/temp_1755449770_Markiplier Breaking_Throwing Things._frame_19.jpg"
+    },
+    {
+      "timestamp": 9.5,
+      "frame_index": 19,
+      "visual_analysis": {
+        "category": "safe_content",
+        "confidence": 0.5856593251228333,
+        "violation_detected": false,
+        "all_probabilities": {
+          "safe_content": 0.5856593251228333,
+          "suggestive_content": 0.20532798767089844,
+          "artistic_adult_content": 0.04895385727286339,
+          "misinformation": 0.12479734420776367,
+          "violence": 0.010872473008930683,
+          "hate_speech": 0.011664723977446556,
+          "dangerous_activities": 0.012724277563393116
+        }
+      },
+      "blip_description": {
+        "description": "a man in glasses is sitting at a table",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "",
+        "extracted_items": [],
+        "ocr_available": true
+      },
+      "combined_violation": false,
+      "preview_path": "/static/frames/temp_1755449770_Markiplier Breaking_Throwing Things._frame_20.jpg"
+    }
+  ],
+  "recommendations": [
+    "⚠️ Visual policy violations detected: suggestive_content",
+    "🔍 Consider reviewing flagged video segments",
+    "🚨 Multiple violations detected - content may need significant editing"
+  ],
+  "multi_modal_capabilities": {
+    "visual_model_accuracy": 97.48,
+    "blip_available": true,
+    "whisper_available": true,
+    "ocr_available": true
+  },
+  "text_issues": "Grip, Grip RB, Grip, Grip, Grip LB, Grip, nmc 037 Grip RB, 037 Grip, nmc 037 Grip, nmc Grip, nmc Grip, 035 Grip, 035 Grip, Grip, Grip, Grip",
+  "image": {
+    "details": {
+      "frame_preview_paths": [
+        "/static/frames/temp_1755449770_Markiplier Breaking_Throwing Things._frame_1.jpg",
+        "/static/frames/temp_1755449770_Markiplier Breaking_Throwing Things._frame_2.jpg",
+        "/static/frames/temp_1755449770_Markiplier Breaking_Throwing Things._frame_3.jpg",
+        "/static/frames/temp_1755449770_Markiplier Breaking_Throwing Things._frame_4.jpg",
+        "/static/frames/temp_1755449770_Markiplier Breaking_Throwing Things._frame_5.jpg",
+        "/static/frames/temp_1755449770_Markiplier Breaking_Throwing Things._frame_6.jpg",
+        "/static/frames/temp_1755449770_Markiplier Breaking_Throwing Things._frame_7.jpg",
+        "/static/frames/temp_1755449770_Markiplier Breaking_Throwing Things._frame_8.jpg",
+        "/static/frames/temp_1755449770_Markiplier Breaking_Throwing Things._frame_9.jpg",
+        "/static/frames/temp_1755449770_Markiplier Breaking_Throwing Things._frame_10.jpg",
+        "/static/frames/temp_1755449770_Markiplier Breaking_Throwing Things._frame_11.jpg",
+        "/static/frames/temp_1755449770_Markiplier Breaking_Throwing Things._frame_12.jpg",
+        "/static/frames/temp_1755449770_Markiplier Breaking_Throwing Things._frame_13.jpg",
+        "/static/frames/temp_1755449770_Markiplier Breaking_Throwing Things._frame_14.jpg",
+        "/static/frames/temp_1755449770_Markiplier Breaking_Throwing Things._frame_15.jpg",
+        "/static/frames/temp_1755449770_Markiplier Breaking_Throwing Things._frame_16.jpg",
+        "/static/frames/temp_1755449770_Markiplier Breaking_Throwing Things._frame_17.jpg",
+        "/static/frames/temp_1755449770_Markiplier Breaking_Throwing Things._frame_18.jpg",
+        "/static/frames/temp_1755449770_Markiplier Breaking_Throwing Things._frame_19.jpg",
+        "/static/frames/temp_1755449770_Markiplier Breaking_Throwing Things._frame_20.jpg"
+      ],
+      "frame_analysis": [
+        {
+          "timestamp": 0.0,
+          "frame_index": 0,
+          "visual_analysis": {
+            "category": "suggestive_content",
+            "confidence": 0.8001283407211304,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.06927664577960968,
+              "suggestive_content": 0.8001283407211304,
+              "artistic_adult_content": 0.05522953346371651,
+              "misinformation": 0.06437176465988159,
+              "violence": 0.0032948716543614864,
+              "hate_speech": 0.0032645887695252895,
+              "dangerous_activities": 0.004434218164533377
+            }
+          },
+          "blip_description": {
+            "description": "a man in a room with a bed and a video camera",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "Grip",
+            "extracted_items": [
+              {
+                "text": "Grip",
+                "confidence": 0.6329469084739685,
+                "bbox": [
+                  [
+                    616,
+                    52
+                  ],
+                  [
+                    662,
+                    52
+                  ],
+                  [
+                    662,
+                    80
+                  ],
+                  [
+                    616,
+                    80
+                  ]
+                ]
+              }
+            ],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1755449770_Markiplier Breaking_Throwing Things._frame_1.jpg"
+        },
+        {
+          "timestamp": 0.5,
+          "frame_index": 1,
+          "visual_analysis": {
+            "category": "suggestive_content",
+            "confidence": 0.6136544942855835,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.21440814435482025,
+              "suggestive_content": 0.6136544942855835,
+              "artistic_adult_content": 0.05762723460793495,
+              "misinformation": 0.09469704329967499,
+              "violence": 0.00548615213483572,
+              "hate_speech": 0.006289526354521513,
+              "dangerous_activities": 0.007837454788386822
+            }
+          },
+          "blip_description": {
+            "description": "a man is playing a video game on his computer",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "Grip RB",
+            "extracted_items": [
+              {
+                "text": "Grip",
+                "confidence": 0.710020124912262,
+                "bbox": [
+                  [
+                    616,
+                    52
+                  ],
+                  [
+                    662,
+                    52
+                  ],
+                  [
+                    662,
+                    80
+                  ],
+                  [
+                    616,
+                    80
+                  ]
+                ]
+              },
+              {
+                "text": "RB",
+                "confidence": 0.6014174575414879,
+                "bbox": [
+                  [
+                    678,
+                    346
+                  ],
+                  [
+                    712,
+                    346
+                  ],
+                  [
+                    712,
+                    370
+                  ],
+                  [
+                    678,
+                    370
+                  ]
+                ]
+              }
+            ],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1755449770_Markiplier Breaking_Throwing Things._frame_2.jpg"
+        },
+        {
+          "timestamp": 1.0,
+          "frame_index": 2,
+          "visual_analysis": {
+            "category": "suggestive_content",
+            "confidence": 0.5802244544029236,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.26265016198158264,
+              "suggestive_content": 0.5802244544029236,
+              "artistic_adult_content": 0.04835101589560509,
+              "misinformation": 0.08915769308805466,
+              "violence": 0.005466721951961517,
+              "hate_speech": 0.006400001235306263,
+              "dangerous_activities": 0.007750034797936678
+            }
+          },
+          "blip_description": {
+            "description": "a man is playing a video game on his computer",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "Grip",
+            "extracted_items": [
+              {
+                "text": "Grip",
+                "confidence": 0.7802836894989014,
+                "bbox": [
+                  [
+                    616,
+                    52
+                  ],
+                  [
+                    662,
+                    52
+                  ],
+                  [
+                    662,
+                    80
+                  ],
+                  [
+                    616,
+                    80
+                  ]
+                ]
+              }
+            ],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1755449770_Markiplier Breaking_Throwing Things._frame_3.jpg"
+        },
+        {
+          "timestamp": 1.5,
+          "frame_index": 3,
+          "visual_analysis": {
+            "category": "suggestive_content",
+            "confidence": 0.67990642786026,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.15983834862709045,
+              "suggestive_content": 0.67990642786026,
+              "artistic_adult_content": 0.05848317593336105,
+              "misinformation": 0.08530233800411224,
+              "violence": 0.004733700770884752,
+              "hate_speech": 0.005137589294463396,
+              "dangerous_activities": 0.006598425097763538
+            }
+          },
+          "blip_description": {
+            "description": "a man is playing a video game on his computer",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "Grip",
+            "extracted_items": [
+              {
+                "text": "Grip",
+                "confidence": 0.5989825129508972,
+                "bbox": [
+                  [
+                    616,
+                    52
+                  ],
+                  [
+                    662,
+                    52
+                  ],
+                  [
+                    662,
+                    80
+                  ],
+                  [
+                    616,
+                    80
+                  ]
+                ]
+              }
+            ],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1755449770_Markiplier Breaking_Throwing Things._frame_4.jpg"
+        },
+        {
+          "timestamp": 2.0,
+          "frame_index": 4,
+          "visual_analysis": {
+            "category": "suggestive_content",
+            "confidence": 0.8028684258460999,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.07973193377256393,
+              "suggestive_content": 0.8028684258460999,
+              "artistic_adult_content": 0.05188245698809624,
+              "misinformation": 0.054977573454380035,
+              "violence": 0.003009192179888487,
+              "hate_speech": 0.0031998089980334044,
+              "dangerous_activities": 0.004330553114414215
+            }
+          },
+          "blip_description": {
+            "description": "a man is playing a video game on his computer",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "Grip LB",
+            "extracted_items": [
+              {
+                "text": "Grip",
+                "confidence": 0.6440780758857727,
+                "bbox": [
+                  [
+                    616,
+                    52
+                  ],
+                  [
+                    662,
+                    52
+                  ],
+                  [
+                    662,
+                    80
+                  ],
+                  [
+                    616,
+                    80
+                  ]
+                ]
+              },
+              {
+                "text": "LB",
+                "confidence": 0.9959620265249967,
+                "bbox": [
+                  [
+                    594,
+                    348
+                  ],
+                  [
+                    630,
+                    348
+                  ],
+                  [
+                    630,
+                    374
+                  ],
+                  [
+                    594,
+                    374
+                  ]
+                ]
+              }
+            ],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1755449770_Markiplier Breaking_Throwing Things._frame_5.jpg"
+        },
+        {
+          "timestamp": 2.5,
+          "frame_index": 5,
+          "visual_analysis": {
+            "category": "suggestive_content",
+            "confidence": 0.4699738919734955,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.20716477930545807,
+              "suggestive_content": 0.4699738919734955,
+              "artistic_adult_content": 0.09719976037740707,
+              "misinformation": 0.19972027838230133,
+              "violence": 0.008003533817827702,
+              "hate_speech": 0.007713641040027142,
+              "dangerous_activities": 0.010224099270999432
+            }
+          },
+          "blip_description": {
+            "description": "a person is seen on the screen in a video",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "Grip",
+            "extracted_items": [
+              {
+                "text": "Grip",
+                "confidence": 0.658841609954834,
+                "bbox": [
+                  [
+                    616,
+                    52
+                  ],
+                  [
+                    662,
+                    52
+                  ],
+                  [
+                    662,
+                    80
+                  ],
+                  [
+                    616,
+                    80
+                  ]
+                ]
+              }
+            ],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1755449770_Markiplier Breaking_Throwing Things._frame_6.jpg"
+        },
+        {
+          "timestamp": 3.0,
+          "frame_index": 6,
+          "visual_analysis": {
+            "category": "suggestive_content",
+            "confidence": 0.5394957661628723,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.19236645102500916,
+              "suggestive_content": 0.5394957661628723,
+              "artistic_adult_content": 0.11508586257696152,
+              "misinformation": 0.13003161549568176,
+              "violence": 0.006857260596007109,
+              "hate_speech": 0.006908420007675886,
+              "dangerous_activities": 0.00925462692975998
+            }
+          },
+          "blip_description": {
+            "description": "a person is playing a video game on a computer",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "nmc 037 Grip RB",
+            "extracted_items": [
+              {
+                "text": "nmc",
+                "confidence": 0.51971264350791,
+                "bbox": [
+                  [
+                    1115,
+                    29
+                  ],
+                  [
+                    1155,
+                    29
+                  ],
+                  [
+                    1155,
+                    43
+                  ],
+                  [
+                    1115,
+                    43
+                  ]
+                ]
+              },
+              {
+                "text": "037",
+                "confidence": 0.6628230810165405,
+                "bbox": [
+                  [
+                    1191,
+                    25
+                  ],
+                  [
+                    1231,
+                    25
+                  ],
+                  [
+                    1231,
+                    45
+                  ],
+                  [
+                    1191,
+                    45
+                  ]
+                ]
+              },
+              {
+                "text": "Grip",
+                "confidence": 0.6200398802757263,
+                "bbox": [
+                  [
+                    616,
+                    52
+                  ],
+                  [
+                    662,
+                    52
+                  ],
+                  [
+                    662,
+                    80
+                  ],
+                  [
+                    616,
+                    80
+                  ]
+                ]
+              },
+              {
+                "text": "RB",
+                "confidence": 0.9989524744096148,
+                "bbox": [
+                  [
+                    685,
+                    319
+                  ],
+                  [
+                    715,
+                    319
+                  ],
+                  [
+                    715,
+                    339
+                  ],
+                  [
+                    685,
+                    339
+                  ]
+                ]
+              }
+            ],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1755449770_Markiplier Breaking_Throwing Things._frame_7.jpg"
+        },
+        {
+          "timestamp": 3.5,
+          "frame_index": 7,
+          "visual_analysis": {
+            "category": "suggestive_content",
+            "confidence": 0.8322480320930481,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.03757832571864128,
+              "suggestive_content": 0.8322480320930481,
+              "artistic_adult_content": 0.06363828480243683,
+              "misinformation": 0.058347951620817184,
+              "violence": 0.0025530168786644936,
+              "hate_speech": 0.002295650774613023,
+              "dangerous_activities": 0.0033386778086423874
+            }
+          },
+          "blip_description": {
+            "description": "a person is playing a video game on a table",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "037 Grip",
+            "extracted_items": [
+              {
+                "text": "037",
+                "confidence": 0.7044660449028015,
+                "bbox": [
+                  [
+                    1191,
+                    25
+                  ],
+                  [
+                    1231,
+                    25
+                  ],
+                  [
+                    1231,
+                    45
+                  ],
+                  [
+                    1191,
+                    45
+                  ]
+                ]
+              },
+              {
+                "text": "Grip",
+                "confidence": 0.5786018371582031,
+                "bbox": [
+                  [
+                    616,
+                    52
+                  ],
+                  [
+                    662,
+                    52
+                  ],
+                  [
+                    662,
+                    80
+                  ],
+                  [
+                    616,
+                    80
+                  ]
+                ]
+              }
+            ],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1755449770_Markiplier Breaking_Throwing Things._frame_8.jpg"
+        },
+        {
+          "timestamp": 4.0,
+          "frame_index": 8,
+          "visual_analysis": {
+            "category": "suggestive_content",
+            "confidence": 0.7863418459892273,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.0774245634675026,
+              "suggestive_content": 0.7863418459892273,
+              "artistic_adult_content": 0.06027931720018387,
+              "misinformation": 0.06472865492105484,
+              "violence": 0.003343179589137435,
+              "hate_speech": 0.003336057998239994,
+              "dangerous_activities": 0.0045464313589036465
+            }
+          },
+          "blip_description": {
+            "description": "a man is playing a video game on his bed",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "nmc 037 Grip",
+            "extracted_items": [
+              {
+                "text": "nmc",
+                "confidence": 0.6755466511321839,
+                "bbox": [
+                  [
+                    1115,
+                    29
+                  ],
+                  [
+                    1155,
+                    29
+                  ],
+                  [
+                    1155,
+                    43
+                  ],
+                  [
+                    1115,
+                    43
+                  ]
+                ]
+              },
+              {
+                "text": "037",
+                "confidence": 0.5095136913053218,
+                "bbox": [
+                  [
+                    1193,
+                    29
+                  ],
+                  [
+                    1229,
+                    29
+                  ],
+                  [
+                    1229,
+                    45
+                  ],
+                  [
+                    1193,
+                    45
+                  ]
+                ]
+              },
+              {
+                "text": "Grip",
+                "confidence": 0.6230394244194031,
+                "bbox": [
+                  [
+                    616,
+                    52
+                  ],
+                  [
+                    662,
+                    52
+                  ],
+                  [
+                    662,
+                    80
+                  ],
+                  [
+                    616,
+                    80
+                  ]
+                ]
+              }
+            ],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1755449770_Markiplier Breaking_Throwing Things._frame_9.jpg"
+        },
+        {
+          "timestamp": 4.5,
+          "frame_index": 9,
+          "visual_analysis": {
+            "category": "suggestive_content",
+            "confidence": 0.8980101943016052,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.02498536929488182,
+              "suggestive_content": 0.8980101943016052,
+              "artistic_adult_content": 0.03991935774683952,
+              "misinformation": 0.03203129023313522,
+              "violence": 0.0015285125700756907,
+              "hate_speech": 0.0014290377730503678,
+              "dangerous_activities": 0.002096198033541441
+            }
+          },
+          "blip_description": {
+            "description": "a man is playing with a video game",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "nmc Grip",
+            "extracted_items": [
+              {
+                "text": "nmc",
+                "confidence": 0.6755466511321839,
+                "bbox": [
+                  [
+                    1115,
+                    29
+                  ],
+                  [
+                    1155,
+                    29
+                  ],
+                  [
+                    1155,
+                    43
+                  ],
+                  [
+                    1115,
+                    43
+                  ]
+                ]
+              },
+              {
+                "text": "Grip",
+                "confidence": 0.7199862599372864,
+                "bbox": [
+                  [
+                    616,
+                    52
+                  ],
+                  [
+                    662,
+                    52
+                  ],
+                  [
+                    662,
+                    80
+                  ],
+                  [
+                    616,
+                    80
+                  ]
+                ]
+              }
+            ],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1755449770_Markiplier Breaking_Throwing Things._frame_10.jpg"
+        },
+        {
+          "timestamp": 5.0,
+          "frame_index": 10,
+          "visual_analysis": {
+            "category": "suggestive_content",
+            "confidence": 0.8736399412155151,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.03501303121447563,
+              "suggestive_content": 0.8736399412155151,
+              "artistic_adult_content": 0.04546288773417473,
+              "misinformation": 0.0394081212580204,
+              "violence": 0.0019708622712641954,
+              "hate_speech": 0.0018490636721253395,
+              "dangerous_activities": 0.0026559752877801657
+            }
+          },
+          "blip_description": {
+            "description": "a person is playing a game on a bed",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "nmc Grip",
+            "extracted_items": [
+              {
+                "text": "nmc",
+                "confidence": 0.6755466511321839,
+                "bbox": [
+                  [
+                    1115,
+                    29
+                  ],
+                  [
+                    1155,
+                    29
+                  ],
+                  [
+                    1155,
+                    43
+                  ],
+                  [
+                    1115,
+                    43
+                  ]
+                ]
+              },
+              {
+                "text": "Grip",
+                "confidence": 0.6230394244194031,
+                "bbox": [
+                  [
+                    616,
+                    52
+                  ],
+                  [
+                    662,
+                    52
+                  ],
+                  [
+                    662,
+                    80
+                  ],
+                  [
+                    616,
+                    80
+                  ]
+                ]
+              }
+            ],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1755449770_Markiplier Breaking_Throwing Things._frame_11.jpg"
+        },
+        {
+          "timestamp": 5.5,
+          "frame_index": 11,
+          "visual_analysis": {
+            "category": "suggestive_content",
+            "confidence": 0.8385689854621887,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.05261562764644623,
+              "suggestive_content": 0.8385689854621887,
+              "artistic_adult_content": 0.05024692416191101,
+              "misinformation": 0.049875788390636444,
+              "violence": 0.0026025513652712107,
+              "hate_speech": 0.0025363736785948277,
+              "dangerous_activities": 0.003553709015250206
+            }
+          },
+          "blip_description": {
+            "description": "a person holding a gun in front of a bed",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "035 Grip",
+            "extracted_items": [
+              {
+                "text": "035",
+                "confidence": 0.7709665298461914,
+                "bbox": [
+                  [
+                    1191,
+                    27
+                  ],
+                  [
+                    1229,
+                    27
+                  ],
+                  [
+                    1229,
+                    45
+                  ],
+                  [
+                    1191,
+                    45
+                  ]
+                ]
+              },
+              {
+                "text": "Grip",
+                "confidence": 0.9931868314743042,
+                "bbox": [
+                  [
+                    616,
+                    52
+                  ],
+                  [
+                    662,
+                    52
+                  ],
+                  [
+                    662,
+                    80
+                  ],
+                  [
+                    616,
+                    80
+                  ]
+                ]
+              }
+            ],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1755449770_Markiplier Breaking_Throwing Things._frame_12.jpg"
+        },
+        {
+          "timestamp": 6.0,
+          "frame_index": 12,
+          "visual_analysis": {
+            "category": "suggestive_content",
+            "confidence": 0.7167391777038574,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.13555759191513062,
+              "suggestive_content": 0.7167391777038574,
+              "artistic_adult_content": 0.05804377421736717,
+              "misinformation": 0.07502342015504837,
+              "violence": 0.004228329285979271,
+              "hate_speech": 0.0045173573307693005,
+              "dangerous_activities": 0.0058904048055410385
+            }
+          },
+          "blip_description": {
+            "description": "a person is playing a video game on a bed",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "035 Grip",
+            "extracted_items": [
+              {
+                "text": "035",
+                "confidence": 0.7709665298461914,
+                "bbox": [
+                  [
+                    1191,
+                    27
+                  ],
+                  [
+                    1229,
+                    27
+                  ],
+                  [
+                    1229,
+                    45
+                  ],
+                  [
+                    1191,
+                    45
+                  ]
+                ]
+              },
+              {
+                "text": "Grip",
+                "confidence": 0.9931868314743042,
+                "bbox": [
+                  [
+                    616,
+                    52
+                  ],
+                  [
+                    662,
+                    52
+                  ],
+                  [
+                    662,
+                    80
+                  ],
+                  [
+                    616,
+                    80
+                  ]
+                ]
+              }
+            ],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1755449770_Markiplier Breaking_Throwing Things._frame_13.jpg"
+        },
+        {
+          "timestamp": 6.5,
+          "frame_index": 13,
+          "visual_analysis": {
+            "category": "suggestive_content",
+            "confidence": 0.7786833643913269,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.08636008948087692,
+              "suggestive_content": 0.7786833643913269,
+              "artistic_adult_content": 0.05937458947300911,
+              "misinformation": 0.06404225528240204,
+              "violence": 0.003447976429015398,
+              "hate_speech": 0.0034336368553340435,
+              "dangerous_activities": 0.004658045247197151
+            }
+          },
+          "blip_description": {
+            "description": "a person is playing a video game on a bed",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "Grip",
+            "extracted_items": [
+              {
+                "text": "Grip",
+                "confidence": 0.9931868314743042,
+                "bbox": [
+                  [
+                    616,
+                    52
+                  ],
+                  [
+                    662,
+                    52
+                  ],
+                  [
+                    662,
+                    80
+                  ],
+                  [
+                    616,
+                    80
+                  ]
+                ]
+              }
+            ],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1755449770_Markiplier Breaking_Throwing Things._frame_14.jpg"
+        },
+        {
+          "timestamp": 7.0,
+          "frame_index": 14,
+          "visual_analysis": {
+            "category": "suggestive_content",
+            "confidence": 0.8706567287445068,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.03669099137187004,
+              "suggestive_content": 0.8706567287445068,
+              "artistic_adult_content": 0.04511558637022972,
+              "misinformation": 0.04076198488473892,
+              "violence": 0.002040073275566101,
+              "hate_speech": 0.0019485935335978866,
+              "dangerous_activities": 0.002786010969430208
+            }
+          },
+          "blip_description": {
+            "description": "a person is playing a game on a bed",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "Grip",
+            "extracted_items": [
+              {
+                "text": "Grip",
+                "confidence": 0.9931868314743042,
+                "bbox": [
+                  [
+                    616,
+                    52
+                  ],
+                  [
+                    662,
+                    52
+                  ],
+                  [
+                    662,
+                    80
+                  ],
+                  [
+                    616,
+                    80
+                  ]
+                ]
+              }
+            ],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1755449770_Markiplier Breaking_Throwing Things._frame_15.jpg"
+        },
+        {
+          "timestamp": 7.5,
+          "frame_index": 15,
+          "visual_analysis": {
+            "category": "suggestive_content",
+            "confidence": 0.8604983687400818,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.04165042191743851,
+              "suggestive_content": 0.8604983687400818,
+              "artistic_adult_content": 0.046848732978105545,
+              "misinformation": 0.043640125542879105,
+              "violence": 0.002211593324318528,
+              "hate_speech": 0.0021297112107276917,
+              "dangerous_activities": 0.00302096176892519
+            }
+          },
+          "blip_description": {
+            "description": "a person is playing a game on a bed",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "Grip",
+            "extracted_items": [
+              {
+                "text": "Grip",
+                "confidence": 0.9931868314743042,
+                "bbox": [
+                  [
+                    616,
+                    52
+                  ],
+                  [
+                    662,
+                    52
+                  ],
+                  [
+                    662,
+                    80
+                  ],
+                  [
+                    616,
+                    80
+                  ]
+                ]
+              }
+            ],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1755449770_Markiplier Breaking_Throwing Things._frame_16.jpg"
+        },
+        {
+          "timestamp": 8.0,
+          "frame_index": 16,
+          "visual_analysis": {
+            "category": "safe_content",
+            "confidence": 0.890062153339386,
+            "violation_detected": false,
+            "all_probabilities": {
+              "safe_content": 0.890062153339386,
+              "suggestive_content": 0.04801587015390396,
+              "artistic_adult_content": 0.0054186806082725525,
+              "misinformation": 0.04679715633392334,
+              "violence": 0.002706938423216343,
+              "hate_speech": 0.003615717403590679,
+              "dangerous_activities": 0.0033835212234407663
+            }
+          },
+          "blip_description": {
+            "description": "a man in a recording room with headphones on",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "",
+            "extracted_items": [],
+            "ocr_available": true
+          },
+          "combined_violation": false,
+          "preview_path": "/static/frames/temp_1755449770_Markiplier Breaking_Throwing Things._frame_17.jpg"
+        },
+        {
+          "timestamp": 8.5,
+          "frame_index": 17,
+          "visual_analysis": {
+            "category": "suggestive_content",
+            "confidence": 0.4135454297065735,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.3401795029640198,
+              "suggestive_content": 0.4135454297065735,
+              "artistic_adult_content": 0.07012291252613068,
+              "misinformation": 0.14347487688064575,
+              "violence": 0.0094581488519907,
+              "hate_speech": 0.010772068053483963,
+              "dangerous_activities": 0.012447056360542774
+            }
+          },
+          "blip_description": {
+            "description": "a man in a recording room with headphones on",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "",
+            "extracted_items": [],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1755449770_Markiplier Breaking_Throwing Things._frame_18.jpg"
+        },
+        {
+          "timestamp": 9.0,
+          "frame_index": 18,
+          "visual_analysis": {
+            "category": "safe_content",
+            "confidence": 0.7774034738540649,
+            "violation_detected": false,
+            "all_probabilities": {
+              "safe_content": 0.7774034738540649,
+              "suggestive_content": 0.10706377774477005,
+              "artistic_adult_content": 0.01628503017127514,
+              "misinformation": 0.07986318320035934,
+              "violence": 0.005456831306219101,
+              "hate_speech": 0.006953788455575705,
+              "dangerous_activities": 0.006973951123654842
+            }
+          },
+          "blip_description": {
+            "description": "a man is sitting at a table with a plate of food",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "",
+            "extracted_items": [],
+            "ocr_available": true
+          },
+          "combined_violation": false,
+          "preview_path": "/static/frames/temp_1755449770_Markiplier Breaking_Throwing Things._frame_19.jpg"
+        },
+        {
+          "timestamp": 9.5,
+          "frame_index": 19,
+          "visual_analysis": {
+            "category": "safe_content",
+            "confidence": 0.5856593251228333,
+            "violation_detected": false,
+            "all_probabilities": {
+              "safe_content": 0.5856593251228333,
+              "suggestive_content": 0.20532798767089844,
+              "artistic_adult_content": 0.04895385727286339,
+              "misinformation": 0.12479734420776367,
+              "violence": 0.010872473008930683,
+              "hate_speech": 0.011664723977446556,
+              "dangerous_activities": 0.012724277563393116
+            }
+          },
+          "blip_description": {
+            "description": "a man in glasses is sitting at a table",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "",
+            "extracted_items": [],
+            "ocr_available": true
+          },
+          "combined_violation": false,
+          "preview_path": "/static/frames/temp_1755449770_Markiplier Breaking_Throwing Things._frame_20.jpg"
+        }
+      ]
+    }
+  },
+  "rag_explanations": [
+    {
+      "type": "visual",
+      "frame": 1,
+      "timestamp": 0.0,
+      "category": "suggestive_content",
+      "confidence": 0.8001283407211304,
+      "blip": "a man in a room with a bed and a video camera",
+      "ocr": "Grip",
+      "policy": {
+        "description": "Sexually suggestive content",
+        "examples": [
+          "provocative poses",
+          "sexual themes",
+          "suggestive clothing"
+        ],
+        "severity_indicators": [
+          "sexual focus",
+          "provocative dancing",
+          "sexual scenarios"
+        ],
+        "context_matters": [
+          "artistic vs explicit",
+          "age appropriateness"
+        ],
+        "action_required": "age_restriction"
+      },
+      "action_required": "age_restriction",
+      "examples": [
+        "provocative poses",
+        "sexual themes",
+        "suggestive clothing"
+      ],
+      "severity_indicators": [
+        "sexual focus",
+        "provocative dancing",
+        "sexual scenarios"
+      ],
+      "context_factors": [
+        "artistic vs explicit",
+        "age appropriateness"
+      ],
+      "violation_detected": true
+    },
+    {
+      "type": "visual",
+      "frame": 2,
+      "timestamp": 0.5,
+      "category": "suggestive_content",
+      "confidence": 0.6136544942855835,
+      "blip": "a man is playing a video game on his computer",
+      "ocr": "Grip RB",
+      "policy": {
+        "description": "Content depicting violence, weapons, or graphic imagery",
+        "examples": [
+          "fighting",
+          "weapons",
+          "blood",
+          "gore",
+          "combat"
+        ],
+        "severity_indicators": [
+          "realistic weapons",
+          "explicit violence",
+          "gore"
+        ],
+        "context_matters": [
+          "gaming violence vs real violence",
+          "educational vs gratuitous"
+        ],
+        "action_required": "human_review_required"
+      },
+      "action_required": "human_review_required",
+      "examples": [
+        "fighting",
+        "weapons",
+        "blood",
+        "gore",
+        "combat"
+      ],
+      "severity_indicators": [
+        "realistic weapons",
+        "explicit violence",
+        "gore"
+      ],
+      "context_factors": [
+        "gaming violence vs real violence",
+        "educational vs gratuitous"
+      ],
+      "violation_detected": true
+    },
+    {
+      "type": "visual",
+      "frame": 3,
+      "timestamp": 1.0,
+      "category": "suggestive_content",
+      "confidence": 0.5802244544029236,
+      "blip": "a man is playing a video game on his computer",
+      "ocr": "Grip",
+      "policy": {
+        "description": "Content showing dangerous or harmful activities",
+        "examples": [
+          "extreme stunts",
+          "self-harm",
+          "dangerous challenges"
+        ],
+        "severity_indicators": [
+          "life-threatening",
+          "copyable dangers",
+          "no safety warnings"
+        ],
+        "context_matters": [
+          "professional vs amateur",
+          "safety precautions shown"
+        ],
+        "action_required": "age_restriction_or_removal"
+      },
+      "action_required": "age_restriction_or_removal",
+      "examples": [
+        "extreme stunts",
+        "self-harm",
+        "dangerous challenges"
+      ],
+      "severity_indicators": [
+        "life-threatening",
+        "copyable dangers",
+        "no safety warnings"
+      ],
+      "context_factors": [
+        "professional vs amateur",
+        "safety precautions shown"
+      ],
+      "violation_detected": true
+    },
+    {
+      "type": "visual",
+      "frame": 4,
+      "timestamp": 1.5,
+      "category": "suggestive_content",
+      "confidence": 0.67990642786026,
+      "blip": "a man is playing a video game on his computer",
+      "ocr": "Grip",
+      "policy": {
+        "description": "Content showing dangerous or harmful activities",
+        "examples": [
+          "extreme stunts",
+          "self-harm",
+          "dangerous challenges"
+        ],
+        "severity_indicators": [
+          "life-threatening",
+          "copyable dangers",
+          "no safety warnings"
+        ],
+        "context_matters": [
+          "professional vs amateur",
+          "safety precautions shown"
+        ],
+        "action_required": "age_restriction_or_removal"
+      },
+      "action_required": "age_restriction_or_removal",
+      "examples": [
+        "extreme stunts",
+        "self-harm",
+        "dangerous challenges"
+      ],
+      "severity_indicators": [
+        "life-threatening",
+        "copyable dangers",
+        "no safety warnings"
+      ],
+      "context_factors": [
+        "professional vs amateur",
+        "safety precautions shown"
+      ],
+      "violation_detected": true
+    },
+    {
+      "type": "visual",
+      "frame": 5,
+      "timestamp": 2.0,
+      "category": "suggestive_content",
+      "confidence": 0.8028684258460999,
+      "blip": "a man is playing a video game on his computer",
+      "ocr": "Grip LB",
+      "policy": {
+        "description": "Content depicting violence, weapons, or graphic imagery",
+        "examples": [
+          "fighting",
+          "weapons",
+          "blood",
+          "gore",
+          "combat"
+        ],
+        "severity_indicators": [
+          "realistic weapons",
+          "explicit violence",
+          "gore"
+        ],
+        "context_matters": [
+          "gaming violence vs real violence",
+          "educational vs gratuitous"
+        ],
+        "action_required": "human_review_required"
+      },
+      "action_required": "human_review_required",
+      "examples": [
+        "fighting",
+        "weapons",
+        "blood",
+        "gore",
+        "combat"
+      ],
+      "severity_indicators": [
+        "realistic weapons",
+        "explicit violence",
+        "gore"
+      ],
+      "context_factors": [
+        "gaming violence vs real violence",
+        "educational vs gratuitous"
+      ],
+      "violation_detected": true
+    },
+    {
+      "type": "visual",
+      "frame": 6,
+      "timestamp": 2.5,
+      "category": "suggestive_content",
+      "confidence": 0.4699738919734955,
+      "blip": "a person is seen on the screen in a video",
+      "ocr": "Grip",
+      "policy": {
+        "description": "Content showing dangerous or harmful activities",
+        "examples": [
+          "extreme stunts",
+          "self-harm",
+          "dangerous challenges"
+        ],
+        "severity_indicators": [
+          "life-threatening",
+          "copyable dangers",
+          "no safety warnings"
+        ],
+        "context_matters": [
+          "professional vs amateur",
+          "safety precautions shown"
+        ],
+        "action_required": "age_restriction_or_removal"
+      },
+      "action_required": "age_restriction_or_removal",
+      "examples": [
+        "extreme stunts",
+        "self-harm",
+        "dangerous challenges"
+      ],
+      "severity_indicators": [
+        "life-threatening",
+        "copyable dangers",
+        "no safety warnings"
+      ],
+      "context_factors": [
+        "professional vs amateur",
+        "safety precautions shown"
+      ],
+      "violation_detected": true
+    },
+    {
+      "type": "visual",
+      "frame": 7,
+      "timestamp": 3.0,
+      "category": "suggestive_content",
+      "confidence": 0.5394957661628723,
+      "blip": "a person is playing a video game on a computer",
+      "ocr": "nmc 037 Grip RB",
+      "policy": {
+        "description": "Content showing dangerous or harmful activities",
+        "examples": [
+          "extreme stunts",
+          "self-harm",
+          "dangerous challenges"
+        ],
+        "severity_indicators": [
+          "life-threatening",
+          "copyable dangers",
+          "no safety warnings"
+        ],
+        "context_matters": [
+          "professional vs amateur",
+          "safety precautions shown"
+        ],
+        "action_required": "age_restriction_or_removal"
+      },
+      "action_required": "age_restriction_or_removal",
+      "examples": [
+        "extreme stunts",
+        "self-harm",
+        "dangerous challenges"
+      ],
+      "severity_indicators": [
+        "life-threatening",
+        "copyable dangers",
+        "no safety warnings"
+      ],
+      "context_factors": [
+        "professional vs amateur",
+        "safety precautions shown"
+      ],
+      "violation_detected": true
+    },
+    {
+      "type": "visual",
+      "frame": 8,
+      "timestamp": 3.5,
+      "category": "suggestive_content",
+      "confidence": 0.8322480320930481,
+      "blip": "a person is playing a video game on a table",
+      "ocr": "037 Grip",
+      "policy": {
+        "description": "Content showing dangerous or harmful activities",
+        "examples": [
+          "extreme stunts",
+          "self-harm",
+          "dangerous challenges"
+        ],
+        "severity_indicators": [
+          "life-threatening",
+          "copyable dangers",
+          "no safety warnings"
+        ],
+        "context_matters": [
+          "professional vs amateur",
+          "safety precautions shown"
+        ],
+        "action_required": "age_restriction_or_removal"
+      },
+      "action_required": "age_restriction_or_removal",
+      "examples": [
+        "extreme stunts",
+        "self-harm",
+        "dangerous challenges"
+      ],
+      "severity_indicators": [
+        "life-threatening",
+        "copyable dangers",
+        "no safety warnings"
+      ],
+      "context_factors": [
+        "professional vs amateur",
+        "safety precautions shown"
+      ],
+      "violation_detected": true
+    },
+    {
+      "type": "visual",
+      "frame": 9,
+      "timestamp": 4.0,
+      "category": "suggestive_content",
+      "confidence": 0.7863418459892273,
+      "blip": "a man is playing a video game on his bed",
+      "ocr": "nmc 037 Grip",
+      "policy": {
+        "description": "Content showing dangerous or harmful activities",
+        "examples": [
+          "extreme stunts",
+          "self-harm",
+          "dangerous challenges"
+        ],
+        "severity_indicators": [
+          "life-threatening",
+          "copyable dangers",
+          "no safety warnings"
+        ],
+        "context_matters": [
+          "professional vs amateur",
+          "safety precautions shown"
+        ],
+        "action_required": "age_restriction_or_removal"
+      },
+      "action_required": "age_restriction_or_removal",
+      "examples": [
+        "extreme stunts",
+        "self-harm",
+        "dangerous challenges"
+      ],
+      "severity_indicators": [
+        "life-threatening",
+        "copyable dangers",
+        "no safety warnings"
+      ],
+      "context_factors": [
+        "professional vs amateur",
+        "safety precautions shown"
+      ],
+      "violation_detected": true
+    },
+    {
+      "type": "visual",
+      "frame": 10,
+      "timestamp": 4.5,
+      "category": "suggestive_content",
+      "confidence": 0.8980101943016052,
+      "blip": "a man is playing with a video game",
+      "ocr": "nmc Grip",
+      "policy": {
+        "description": "Content showing dangerous or harmful activities",
+        "examples": [
+          "extreme stunts",
+          "self-harm",
+          "dangerous challenges"
+        ],
+        "severity_indicators": [
+          "life-threatening",
+          "copyable dangers",
+          "no safety warnings"
+        ],
+        "context_matters": [
+          "professional vs amateur",
+          "safety precautions shown"
+        ],
+        "action_required": "age_restriction_or_removal"
+      },
+      "action_required": "age_restriction_or_removal",
+      "examples": [
+        "extreme stunts",
+        "self-harm",
+        "dangerous challenges"
+      ],
+      "severity_indicators": [
+        "life-threatening",
+        "copyable dangers",
+        "no safety warnings"
+      ],
+      "context_factors": [
+        "professional vs amateur",
+        "safety precautions shown"
+      ],
+      "violation_detected": true
+    },
+    {
+      "type": "visual",
+      "frame": 11,
+      "timestamp": 5.0,
+      "category": "suggestive_content",
+      "confidence": 0.8736399412155151,
+      "blip": "a person is playing a game on a bed",
+      "ocr": "nmc Grip",
+      "policy": {
+        "description": "Content showing dangerous or harmful activities",
+        "examples": [
+          "extreme stunts",
+          "self-harm",
+          "dangerous challenges"
+        ],
+        "severity_indicators": [
+          "life-threatening",
+          "copyable dangers",
+          "no safety warnings"
+        ],
+        "context_matters": [
+          "professional vs amateur",
+          "safety precautions shown"
+        ],
+        "action_required": "age_restriction_or_removal"
+      },
+      "action_required": "age_restriction_or_removal",
+      "examples": [
+        "extreme stunts",
+        "self-harm",
+        "dangerous challenges"
+      ],
+      "severity_indicators": [
+        "life-threatening",
+        "copyable dangers",
+        "no safety warnings"
+      ],
+      "context_factors": [
+        "professional vs amateur",
+        "safety precautions shown"
+      ],
+      "violation_detected": true
+    },
+    {
+      "type": "visual",
+      "frame": 12,
+      "timestamp": 5.5,
+      "category": "suggestive_content",
+      "confidence": 0.8385689854621887,
+      "blip": "a person holding a gun in front of a bed",
+      "ocr": "035 Grip",
+      "policy": {
+        "description": "Content depicting violence, weapons, or graphic imagery",
+        "examples": [
+          "fighting",
+          "weapons",
+          "blood",
+          "gore",
+          "combat"
+        ],
+        "severity_indicators": [
+          "realistic weapons",
+          "explicit violence",
+          "gore"
+        ],
+        "context_matters": [
+          "gaming violence vs real violence",
+          "educational vs gratuitous"
+        ],
+        "action_required": "human_review_required"
+      },
+      "action_required": "human_review_required",
+      "examples": [
+        "fighting",
+        "weapons",
+        "blood",
+        "gore",
+        "combat"
+      ],
+      "severity_indicators": [
+        "realistic weapons",
+        "explicit violence",
+        "gore"
+      ],
+      "context_factors": [
+        "gaming violence vs real violence",
+        "educational vs gratuitous"
+      ],
+      "violation_detected": true
+    },
+    {
+      "type": "visual",
+      "frame": 13,
+      "timestamp": 6.0,
+      "category": "suggestive_content",
+      "confidence": 0.7167391777038574,
+      "blip": "a person is playing a video game on a bed",
+      "ocr": "035 Grip",
+      "policy": {
+        "description": "Content showing dangerous or harmful activities",
+        "examples": [
+          "extreme stunts",
+          "self-harm",
+          "dangerous challenges"
+        ],
+        "severity_indicators": [
+          "life-threatening",
+          "copyable dangers",
+          "no safety warnings"
+        ],
+        "context_matters": [
+          "professional vs amateur",
+          "safety precautions shown"
+        ],
+        "action_required": "age_restriction_or_removal"
+      },
+      "action_required": "age_restriction_or_removal",
+      "examples": [
+        "extreme stunts",
+        "self-harm",
+        "dangerous challenges"
+      ],
+      "severity_indicators": [
+        "life-threatening",
+        "copyable dangers",
+        "no safety warnings"
+      ],
+      "context_factors": [
+        "professional vs amateur",
+        "safety precautions shown"
+      ],
+      "violation_detected": true
+    },
+    {
+      "type": "visual",
+      "frame": 14,
+      "timestamp": 6.5,
+      "category": "suggestive_content",
+      "confidence": 0.7786833643913269,
+      "blip": "a person is playing a video game on a bed",
+      "ocr": "Grip",
+      "policy": {
+        "description": "Content showing dangerous or harmful activities",
+        "examples": [
+          "extreme stunts",
+          "self-harm",
+          "dangerous challenges"
+        ],
+        "severity_indicators": [
+          "life-threatening",
+          "copyable dangers",
+          "no safety warnings"
+        ],
+        "context_matters": [
+          "professional vs amateur",
+          "safety precautions shown"
+        ],
+        "action_required": "age_restriction_or_removal"
+      },
+      "action_required": "age_restriction_or_removal",
+      "examples": [
+        "extreme stunts",
+        "self-harm",
+        "dangerous challenges"
+      ],
+      "severity_indicators": [
+        "life-threatening",
+        "copyable dangers",
+        "no safety warnings"
+      ],
+      "context_factors": [
+        "professional vs amateur",
+        "safety precautions shown"
+      ],
+      "violation_detected": true
+    },
+    {
+      "type": "visual",
+      "frame": 15,
+      "timestamp": 7.0,
+      "category": "suggestive_content",
+      "confidence": 0.8706567287445068,
+      "blip": "a person is playing a game on a bed",
+      "ocr": "Grip",
+      "policy": {
+        "description": "Content showing dangerous or harmful activities",
+        "examples": [
+          "extreme stunts",
+          "self-harm",
+          "dangerous challenges"
+        ],
+        "severity_indicators": [
+          "life-threatening",
+          "copyable dangers",
+          "no safety warnings"
+        ],
+        "context_matters": [
+          "professional vs amateur",
+          "safety precautions shown"
+        ],
+        "action_required": "age_restriction_or_removal"
+      },
+      "action_required": "age_restriction_or_removal",
+      "examples": [
+        "extreme stunts",
+        "self-harm",
+        "dangerous challenges"
+      ],
+      "severity_indicators": [
+        "life-threatening",
+        "copyable dangers",
+        "no safety warnings"
+      ],
+      "context_factors": [
+        "professional vs amateur",
+        "safety precautions shown"
+      ],
+      "violation_detected": true
+    },
+    {
+      "type": "visual",
+      "frame": 16,
+      "timestamp": 7.5,
+      "category": "suggestive_content",
+      "confidence": 0.8604983687400818,
+      "blip": "a person is playing a game on a bed",
+      "ocr": "Grip",
+      "policy": {
+        "description": "Content showing dangerous or harmful activities",
+        "examples": [
+          "extreme stunts",
+          "self-harm",
+          "dangerous challenges"
+        ],
+        "severity_indicators": [
+          "life-threatening",
+          "copyable dangers",
+          "no safety warnings"
+        ],
+        "context_matters": [
+          "professional vs amateur",
+          "safety precautions shown"
+        ],
+        "action_required": "age_restriction_or_removal"
+      },
+      "action_required": "age_restriction_or_removal",
+      "examples": [
+        "extreme stunts",
+        "self-harm",
+        "dangerous challenges"
+      ],
+      "severity_indicators": [
+        "life-threatening",
+        "copyable dangers",
+        "no safety warnings"
+      ],
+      "context_factors": [
+        "professional vs amateur",
+        "safety precautions shown"
+      ],
+      "violation_detected": true
+    },
+    {
+      "type": "visual",
+      "frame": 17,
+      "timestamp": 8.0,
+      "category": "safe_content",
+      "confidence": 0.890062153339386,
+      "blip": "a man in a recording room with headphones on",
+      "ocr": "",
+      "policy": {
+        "description": "Content showing dangerous or harmful activities",
+        "examples": [
+          "extreme stunts",
+          "self-harm",
+          "dangerous challenges"
+        ],
+        "severity_indicators": [
+          "life-threatening",
+          "copyable dangers",
+          "no safety warnings"
+        ],
+        "context_matters": [
+          "professional vs amateur",
+          "safety precautions shown"
+        ],
+        "action_required": "age_restriction_or_removal"
+      },
+      "action_required": "age_restriction_or_removal",
+      "examples": [
+        "extreme stunts",
+        "self-harm",
+        "dangerous challenges"
+      ],
+      "severity_indicators": [
+        "life-threatening",
+        "copyable dangers",
+        "no safety warnings"
+      ],
+      "context_factors": [
+        "professional vs amateur",
+        "safety precautions shown"
+      ],
+      "violation_detected": false
+    },
+    {
+      "type": "visual",
+      "frame": 18,
+      "timestamp": 8.5,
+      "category": "suggestive_content",
+      "confidence": 0.4135454297065735,
+      "blip": "a man in a recording room with headphones on",
+      "ocr": "",
+      "policy": {
+        "description": "Content showing dangerous or harmful activities",
+        "examples": [
+          "extreme stunts",
+          "self-harm",
+          "dangerous challenges"
+        ],
+        "severity_indicators": [
+          "life-threatening",
+          "copyable dangers",
+          "no safety warnings"
+        ],
+        "context_matters": [
+          "professional vs amateur",
+          "safety precautions shown"
+        ],
+        "action_required": "age_restriction_or_removal"
+      },
+      "action_required": "age_restriction_or_removal",
+      "examples": [
+        "extreme stunts",
+        "self-harm",
+        "dangerous challenges"
+      ],
+      "severity_indicators": [
+        "life-threatening",
+        "copyable dangers",
+        "no safety warnings"
+      ],
+      "context_factors": [
+        "professional vs amateur",
+        "safety precautions shown"
+      ],
+      "violation_detected": true
+    },
+    {
+      "type": "visual",
+      "frame": 19,
+      "timestamp": 9.0,
+      "category": "safe_content",
+      "confidence": 0.7774034738540649,
+      "blip": "a man is sitting at a table with a plate of food",
+      "ocr": "",
+      "policy": {
+        "description": "Content showing dangerous or harmful activities",
+        "examples": [
+          "extreme stunts",
+          "self-harm",
+          "dangerous challenges"
+        ],
+        "severity_indicators": [
+          "life-threatening",
+          "copyable dangers",
+          "no safety warnings"
+        ],
+        "context_matters": [
+          "professional vs amateur",
+          "safety precautions shown"
+        ],
+        "action_required": "age_restriction_or_removal"
+      },
+      "action_required": "age_restriction_or_removal",
+      "examples": [
+        "extreme stunts",
+        "self-harm",
+        "dangerous challenges"
+      ],
+      "severity_indicators": [
+        "life-threatening",
+        "copyable dangers",
+        "no safety warnings"
+      ],
+      "context_factors": [
+        "professional vs amateur",
+        "safety precautions shown"
+      ],
+      "violation_detected": false
+    },
+    {
+      "type": "visual",
+      "frame": 20,
+      "timestamp": 9.5,
+      "category": "safe_content",
+      "confidence": 0.5856593251228333,
+      "blip": "a man in glasses is sitting at a table",
+      "ocr": "",
+      "policy": {
+        "description": "Content showing dangerous or harmful activities",
+        "examples": [
+          "extreme stunts",
+          "self-harm",
+          "dangerous challenges"
+        ],
+        "severity_indicators": [
+          "life-threatening",
+          "copyable dangers",
+          "no safety warnings"
+        ],
+        "context_matters": [
+          "professional vs amateur",
+          "safety precautions shown"
+        ],
+        "action_required": "age_restriction_or_removal"
+      },
+      "action_required": "age_restriction_or_removal",
+      "examples": [
+        "extreme stunts",
+        "self-harm",
+        "dangerous challenges"
+      ],
+      "severity_indicators": [
+        "life-threatening",
+        "copyable dangers",
+        "no safety warnings"
+      ],
+      "context_factors": [
+        "professional vs amateur",
+        "safety precautions shown"
+      ],
+      "violation_detected": false
+    }
+  ]
+}

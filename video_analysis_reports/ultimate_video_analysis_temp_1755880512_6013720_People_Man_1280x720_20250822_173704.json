@@ -1,0 +1,4252 @@
+{
+  "video_info": {
+    "path": "C:\\Users\\PC\\AppData\\Local\\Temp\\video_analysis\\temp_1755880512_6013720_People_Man_1280x720.mp4",
+    "name": "temp_1755880512_6013720_People_Man_1280x720.mp4",
+    "analysis_time": 55.27707886695862,
+    "timestamp": "2025-08-22T17:36:45.285295"
+  },
+  "frame_analysis": {
+    "total_frames": 39,
+    "violation_frames": 29,
+    "average_confidence": 0.4436818246658032,
+    "violation_categories": [
+      "artistic_adult_content",
+      "suggestive_content",
+      "misinformation"
+    ]
+  },
+  "audio_analysis": {
+    "transcript": " you",
+    "language": "en",
+    "policy_flags": {
+      "safe": {
+        "keywords_found": [],
+        "severity": "none"
+      }
+    },
+    "whisper_available": true,
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 2.0,
+        "text": " you",
+        "tokens": [
+          50364,
+          291,
+          50464
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.8201737999916077,
+        "compression_ratio": 0.2727272727272727,
+        "no_speech_prob": 0.9322124719619751
+      }
+    ]
+  },
+  "overall_assessment": {
+    "overall_compliance": 47.82051282051282,
+    "visual_compliance": 25.64102564102564,
+    "audio_compliance": 70,
+    "status": "major_violations",
+    "total_violations": 30,
+    "violation_categories": [
+      "artistic_adult_content",
+      "suggestive_content",
+      "misinformation",
+      "safe"
+    ]
+  },
+  "detailed_frames": [
+    {
+      "timestamp": 0.0,
+      "frame_index": 0,
+      "visual_analysis": {
+        "category": "suggestive_content",
+        "confidence": 0.6727020144462585,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.026749560609459877,
+          "suggestive_content": 0.6727020144462585,
+          "artistic_adult_content": 0.17095302045345306,
+          "misinformation": 0.1068837121129036,
+          "violence": 0.009877598844468594,
+          "hate_speech": 0.00538610341027379,
+          "dangerous_activities": 0.0074480315670371056
+        }
+      },
+      "blip_description": {
+        "description": "a man with a backpack walking up a flight of stairs",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "",
+        "extracted_items": [],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_1.jpg"
+    },
+    {
+      "timestamp": 0.5,
+      "frame_index": 1,
+      "visual_analysis": {
+        "category": "suggestive_content",
+        "confidence": 0.33945587277412415,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.24666322767734528,
+          "suggestive_content": 0.33945587277412415,
+          "artistic_adult_content": 0.1468551605939865,
+          "misinformation": 0.2197943925857544,
+          "violence": 0.014390494674444199,
+          "hate_speech": 0.014788714237511158,
+          "dangerous_activities": 0.018052151426672935
+        }
+      },
+      "blip_description": {
+        "description": "a man in a suit is holding a gun",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "",
+        "extracted_items": [],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_2.jpg"
+    },
+    {
+      "timestamp": 1.0,
+      "frame_index": 2,
+      "visual_analysis": {
+        "category": "suggestive_content",
+        "confidence": 0.41975411772727966,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.06462583690881729,
+          "suggestive_content": 0.41975411772727966,
+          "artistic_adult_content": 0.2555437386035919,
+          "misinformation": 0.22219258546829224,
+          "violence": 0.013044475577771664,
+          "hate_speech": 0.010620391927659512,
+          "dangerous_activities": 0.014218954369425774
+        }
+      },
+      "blip_description": {
+        "description": "a man in a gray coat holding a gun",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "",
+        "extracted_items": [],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_3.jpg"
+    },
+    {
+      "timestamp": 1.5,
+      "frame_index": 3,
+      "visual_analysis": {
+        "category": "suggestive_content",
+        "confidence": 0.4992623031139374,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.0686287209391594,
+          "suggestive_content": 0.4992623031139374,
+          "artistic_adult_content": 0.19768109917640686,
+          "misinformation": 0.19189319014549255,
+          "violence": 0.01731025241315365,
+          "hate_speech": 0.011133356019854546,
+          "dangerous_activities": 0.014091038145124912
+        }
+      },
+      "blip_description": {
+        "description": "a man in a dark room with a gun",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "",
+        "extracted_items": [],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_4.jpg"
+    },
+    {
+      "timestamp": 2.0,
+      "frame_index": 4,
+      "visual_analysis": {
+        "category": "misinformation",
+        "confidence": 0.39585497975349426,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.012159649282693863,
+          "suggestive_content": 0.2879181504249573,
+          "artistic_adult_content": 0.2738293707370758,
+          "misinformation": 0.39585497975349426,
+          "violence": 0.012062061578035355,
+          "hate_speech": 0.007471493445336819,
+          "dangerous_activities": 0.01070430874824524
+        }
+      },
+      "blip_description": {
+        "description": "a man holding a gun in a dark room",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "",
+        "extracted_items": [],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_5.jpg"
+    },
+    {
+      "timestamp": 2.5,
+      "frame_index": 5,
+      "visual_analysis": {
+        "category": "suggestive_content",
+        "confidence": 0.34836435317993164,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.11784934997558594,
+          "suggestive_content": 0.34836435317993164,
+          "artistic_adult_content": 0.21578247845172882,
+          "misinformation": 0.26725760102272034,
+          "violence": 0.016543762758374214,
+          "hate_speech": 0.01518703531473875,
+          "dangerous_activities": 0.01901540532708168
+        }
+      },
+      "blip_description": {
+        "description": "a man holding a gun in a dark room",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "",
+        "extracted_items": [],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_6.jpg"
+    },
+    {
+      "timestamp": 3.0,
+      "frame_index": 6,
+      "visual_analysis": {
+        "category": "misinformation",
+        "confidence": 0.360856831073761,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.03073890693485737,
+          "suggestive_content": 0.3342762589454651,
+          "artistic_adult_content": 0.23618346452713013,
+          "misinformation": 0.360856831073761,
+          "violence": 0.012963835150003433,
+          "hate_speech": 0.010634004138410091,
+          "dangerous_activities": 0.014346687123179436
+        }
+      },
+      "blip_description": {
+        "description": "a man holding a gun in a dark room",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "",
+        "extracted_items": [],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_7.jpg"
+    },
+    {
+      "timestamp": 3.5,
+      "frame_index": 7,
+      "visual_analysis": {
+        "category": "artistic_adult_content",
+        "confidence": 0.3736431896686554,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.01809827983379364,
+          "suggestive_content": 0.34561845660209656,
+          "artistic_adult_content": 0.3736431896686554,
+          "misinformation": 0.2352716028690338,
+          "violence": 0.00935329683125019,
+          "hate_speech": 0.007380415685474873,
+          "dangerous_activities": 0.010634738020598888
+        }
+      },
+      "blip_description": {
+        "description": "a man holding a gun in a dark room",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "",
+        "extracted_items": [],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_8.jpg"
+    },
+    {
+      "timestamp": 4.0,
+      "frame_index": 8,
+      "visual_analysis": {
+        "category": "suggestive_content",
+        "confidence": 0.46463635563850403,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.08245176076889038,
+          "suggestive_content": 0.46463635563850403,
+          "artistic_adult_content": 0.22179768979549408,
+          "misinformation": 0.1946832239627838,
+          "violence": 0.010914134792983532,
+          "hate_speech": 0.011216937564313412,
+          "dangerous_activities": 0.01429989654570818
+        }
+      },
+      "blip_description": {
+        "description": "a man holding a gun in a dark room",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "",
+        "extracted_items": [],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_9.jpg"
+    },
+    {
+      "timestamp": 4.5,
+      "frame_index": 9,
+      "visual_analysis": {
+        "category": "safe_content",
+        "confidence": 0.413116991519928,
+        "violation_detected": false,
+        "all_probabilities": {
+          "safe_content": 0.413116991519928,
+          "suggestive_content": 0.309322327375412,
+          "artistic_adult_content": 0.08573693037033081,
+          "misinformation": 0.15356798470020294,
+          "violence": 0.01018393412232399,
+          "hate_speech": 0.01336720585823059,
+          "dangerous_activities": 0.014704651199281216
+        }
+      },
+      "blip_description": {
+        "description": "a man holding a gun in a dark room",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "",
+        "extracted_items": [],
+        "ocr_available": true
+      },
+      "combined_violation": false,
+      "preview_path": "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_10.jpg"
+    },
+    {
+      "timestamp": 5.0,
+      "frame_index": 10,
+      "visual_analysis": {
+        "category": "suggestive_content",
+        "confidence": 0.4671180248260498,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.2517108619213104,
+          "suggestive_content": 0.4671180248260498,
+          "artistic_adult_content": 0.11677952855825424,
+          "misinformation": 0.13212484121322632,
+          "violence": 0.00914500467479229,
+          "hate_speech": 0.010422904044389725,
+          "dangerous_activities": 0.012698831036686897
+        }
+      },
+      "blip_description": {
+        "description": "a man holding a gun in a dark room",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "",
+        "extracted_items": [],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_11.jpg"
+    },
+    {
+      "timestamp": 5.5,
+      "frame_index": 11,
+      "visual_analysis": {
+        "category": "suggestive_content",
+        "confidence": 0.36145755648612976,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.09486154466867447,
+          "suggestive_content": 0.36145755648612976,
+          "artistic_adult_content": 0.2923309803009033,
+          "misinformation": 0.21049989759922028,
+          "violence": 0.012953625060617924,
+          "hate_speech": 0.01188586000353098,
+          "dangerous_activities": 0.016010485589504242
+        }
+      },
+      "blip_description": {
+        "description": "a man holding a gun in a dark room",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "",
+        "extracted_items": [],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_12.jpg"
+    },
+    {
+      "timestamp": 6.0,
+      "frame_index": 12,
+      "visual_analysis": {
+        "category": "suggestive_content",
+        "confidence": 0.41416576504707336,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.1070040911436081,
+          "suggestive_content": 0.41416576504707336,
+          "artistic_adult_content": 0.2416924685239792,
+          "misinformation": 0.1958795040845871,
+          "violence": 0.014576733112335205,
+          "hate_speech": 0.011343841440975666,
+          "dangerous_activities": 0.015337558463215828
+        }
+      },
+      "blip_description": {
+        "description": "a man holding a gun in a dark room",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "",
+        "extracted_items": [],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_13.jpg"
+    },
+    {
+      "timestamp": 6.5,
+      "frame_index": 13,
+      "visual_analysis": {
+        "category": "safe_content",
+        "confidence": 0.33824825286865234,
+        "violation_detected": false,
+        "all_probabilities": {
+          "safe_content": 0.33824825286865234,
+          "suggestive_content": 0.3071414828300476,
+          "artistic_adult_content": 0.12427416443824768,
+          "misinformation": 0.1827888786792755,
+          "violence": 0.016963154077529907,
+          "hate_speech": 0.013884522952139378,
+          "dangerous_activities": 0.016699526458978653
+        }
+      },
+      "blip_description": {
+        "description": "a man holding a gun in a dark room",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "",
+        "extracted_items": [],
+        "ocr_available": true
+      },
+      "combined_violation": false,
+      "preview_path": "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_14.jpg"
+    },
+    {
+      "timestamp": 7.0,
+      "frame_index": 14,
+      "visual_analysis": {
+        "category": "suggestive_content",
+        "confidence": 0.5053698420524597,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.12215641140937805,
+          "suggestive_content": 0.5053698420524597,
+          "artistic_adult_content": 0.15667040646076202,
+          "misinformation": 0.17499740421772003,
+          "violence": 0.01746363379061222,
+          "hate_speech": 0.010119867511093616,
+          "dangerous_activities": 0.013222455978393555
+        }
+      },
+      "blip_description": {
+        "description": "a woman holding a gun in a dark room",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "",
+        "extracted_items": [],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_15.jpg"
+    },
+    {
+      "timestamp": 7.5,
+      "frame_index": 15,
+      "visual_analysis": {
+        "category": "suggestive_content",
+        "confidence": 0.5061464905738831,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.05956161394715309,
+          "suggestive_content": 0.5061464905738831,
+          "artistic_adult_content": 0.22279641032218933,
+          "misinformation": 0.1767272651195526,
+          "violence": 0.015522101894021034,
+          "hate_speech": 0.00797751359641552,
+          "dangerous_activities": 0.01126863807439804
+        }
+      },
+      "blip_description": {
+        "description": "a man holding a gun in a building",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "",
+        "extracted_items": [],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_16.jpg"
+    },
+    {
+      "timestamp": 8.0,
+      "frame_index": 16,
+      "visual_analysis": {
+        "category": "suggestive_content",
+        "confidence": 0.5714470148086548,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.08591186255216599,
+          "suggestive_content": 0.5714470148086548,
+          "artistic_adult_content": 0.15744291245937347,
+          "misinformation": 0.1515115201473236,
+          "violence": 0.014439420774579048,
+          "hate_speech": 0.008212098851799965,
+          "dangerous_activities": 0.01103514339774847
+        }
+      },
+      "blip_description": {
+        "description": "a man holding a gun in a dark room",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "",
+        "extracted_items": [],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_17.jpg"
+    },
+    {
+      "timestamp": 8.5,
+      "frame_index": 17,
+      "visual_analysis": {
+        "category": "suggestive_content",
+        "confidence": 0.5153319239616394,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.09059056639671326,
+          "suggestive_content": 0.5153319239616394,
+          "artistic_adult_content": 0.18732060492038727,
+          "misinformation": 0.17414842545986176,
+          "violence": 0.011422835290431976,
+          "hate_speech": 0.009023222140967846,
+          "dangerous_activities": 0.012162423692643642
+        }
+      },
+      "blip_description": {
+        "description": "a woman holding a gun in a dark room",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "",
+        "extracted_items": [],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_18.jpg"
+    },
+    {
+      "timestamp": 9.0,
+      "frame_index": 18,
+      "visual_analysis": {
+        "category": "suggestive_content",
+        "confidence": 0.35433030128479004,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.17044231295585632,
+          "suggestive_content": 0.35433030128479004,
+          "artistic_adult_content": 0.21040977537631989,
+          "misinformation": 0.22088778018951416,
+          "violence": 0.013246572576463223,
+          "hate_speech": 0.013512969017028809,
+          "dangerous_activities": 0.01717030629515648
+        }
+      },
+      "blip_description": {
+        "description": "a man holding a gun in a dark room",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "",
+        "extracted_items": [],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_19.jpg"
+    },
+    {
+      "timestamp": 9.5,
+      "frame_index": 19,
+      "visual_analysis": {
+        "category": "safe_content",
+        "confidence": 0.4995070695877075,
+        "violation_detected": false,
+        "all_probabilities": {
+          "safe_content": 0.4995070695877075,
+          "suggestive_content": 0.23866809904575348,
+          "artistic_adult_content": 0.07471982389688492,
+          "misinformation": 0.14907044172286987,
+          "violence": 0.010359380394220352,
+          "hate_speech": 0.013258376158773899,
+          "dangerous_activities": 0.01441673468798399
+        }
+      },
+      "blip_description": {
+        "description": "a man holding a gun in a dark room",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "",
+        "extracted_items": [],
+        "ocr_available": true
+      },
+      "combined_violation": false,
+      "preview_path": "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_20.jpg"
+    },
+    {
+      "timestamp": 10.0,
+      "frame_index": 20,
+      "visual_analysis": {
+        "category": "safe_content",
+        "confidence": 0.5540755391120911,
+        "violation_detected": false,
+        "all_probabilities": {
+          "safe_content": 0.5540755391120911,
+          "suggestive_content": 0.21580229699611664,
+          "artistic_adult_content": 0.05621231719851494,
+          "misinformation": 0.1377645879983902,
+          "violence": 0.010161902755498886,
+          "hate_speech": 0.012598790228366852,
+          "dangerous_activities": 0.013384558260440826
+        }
+      },
+      "blip_description": {
+        "description": "a man holding a gun in a dark room",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "",
+        "extracted_items": [],
+        "ocr_available": true
+      },
+      "combined_violation": false,
+      "preview_path": "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_21.jpg"
+    },
+    {
+      "timestamp": 10.5,
+      "frame_index": 21,
+      "visual_analysis": {
+        "category": "safe_content",
+        "confidence": 0.5837635397911072,
+        "violation_detected": false,
+        "all_probabilities": {
+          "safe_content": 0.5837635397911072,
+          "suggestive_content": 0.2012258768081665,
+          "artistic_adult_content": 0.0482914075255394,
+          "misinformation": 0.13199473917484283,
+          "violence": 0.009551524184644222,
+          "hate_speech": 0.012286683544516563,
+          "dangerous_activities": 0.012886222451925278
+        }
+      },
+      "blip_description": {
+        "description": "a man holding a gun in a dark room",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "",
+        "extracted_items": [],
+        "ocr_available": true
+      },
+      "combined_violation": false,
+      "preview_path": "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_22.jpg"
+    },
+    {
+      "timestamp": 11.0,
+      "frame_index": 22,
+      "visual_analysis": {
+        "category": "safe_content",
+        "confidence": 0.5599046349525452,
+        "violation_detected": false,
+        "all_probabilities": {
+          "safe_content": 0.5599046349525452,
+          "suggestive_content": 0.21417860686779022,
+          "artistic_adult_content": 0.051570869982242584,
+          "misinformation": 0.13779005408287048,
+          "violence": 0.01025197934359312,
+          "hate_speech": 0.012826308608055115,
+          "dangerous_activities": 0.013477553613483906
+        }
+      },
+      "blip_description": {
+        "description": "a man holding a gun in a dark room",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "",
+        "extracted_items": [],
+        "ocr_available": true
+      },
+      "combined_violation": false,
+      "preview_path": "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_23.jpg"
+    },
+    {
+      "timestamp": 11.5,
+      "frame_index": 23,
+      "visual_analysis": {
+        "category": "suggestive_content",
+        "confidence": 0.3219250738620758,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.3064570724964142,
+          "suggestive_content": 0.3219250738620758,
+          "artistic_adult_content": 0.129715234041214,
+          "misinformation": 0.1978570818901062,
+          "violence": 0.012091554701328278,
+          "hate_speech": 0.014858548529446125,
+          "dangerous_activities": 0.01709543913602829
+        }
+      },
+      "blip_description": {
+        "description": "a man holding a gun in an old building",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "",
+        "extracted_items": [],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_24.jpg"
+    },
+    {
+      "timestamp": 12.0,
+      "frame_index": 24,
+      "visual_analysis": {
+        "category": "safe_content",
+        "confidence": 0.41771063208580017,
+        "violation_detected": false,
+        "all_probabilities": {
+          "safe_content": 0.41771063208580017,
+          "suggestive_content": 0.2492842972278595,
+          "artistic_adult_content": 0.10670816153287888,
+          "misinformation": 0.1836780458688736,
+          "violence": 0.011400600895285606,
+          "hate_speech": 0.014667580835521221,
+          "dangerous_activities": 0.01655067503452301
+        }
+      },
+      "blip_description": {
+        "description": "a man holding a gun in a dark room",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "",
+        "extracted_items": [],
+        "ocr_available": true
+      },
+      "combined_violation": false,
+      "preview_path": "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_25.jpg"
+    },
+    {
+      "timestamp": 12.5,
+      "frame_index": 25,
+      "visual_analysis": {
+        "category": "safe_content",
+        "confidence": 0.35560908913612366,
+        "violation_detected": false,
+        "all_probabilities": {
+          "safe_content": 0.35560908913612366,
+          "suggestive_content": 0.2939198911190033,
+          "artistic_adult_content": 0.12984265387058258,
+          "misinformation": 0.1771257519721985,
+          "violence": 0.012150885537266731,
+          "hate_speech": 0.014694316312670708,
+          "dangerous_activities": 0.01665736548602581
+        }
+      },
+      "blip_description": {
+        "description": "a man holding a gun in a dark room",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "",
+        "extracted_items": [],
+        "ocr_available": true
+      },
+      "combined_violation": false,
+      "preview_path": "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_26.jpg"
+    },
+    {
+      "timestamp": 13.0,
+      "frame_index": 26,
+      "visual_analysis": {
+        "category": "safe_content",
+        "confidence": 0.34666988253593445,
+        "violation_detected": false,
+        "all_probabilities": {
+          "safe_content": 0.34666988253593445,
+          "suggestive_content": 0.29461216926574707,
+          "artistic_adult_content": 0.14849887788295746,
+          "misinformation": 0.16931995749473572,
+          "violence": 0.011400341987609863,
+          "hate_speech": 0.013558786362409592,
+          "dangerous_activities": 0.01594005525112152
+        }
+      },
+      "blip_description": {
+        "description": "a woman holding a gun in a dark room",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "",
+        "extracted_items": [],
+        "ocr_available": true
+      },
+      "combined_violation": false,
+      "preview_path": "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_27.jpg"
+    },
+    {
+      "timestamp": 13.5,
+      "frame_index": 27,
+      "visual_analysis": {
+        "category": "suggestive_content",
+        "confidence": 0.337301641702652,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.17228758335113525,
+          "suggestive_content": 0.337301641702652,
+          "artistic_adult_content": 0.2710871398448944,
+          "misinformation": 0.17731159925460815,
+          "violence": 0.012053056620061398,
+          "hate_speech": 0.01328039076179266,
+          "dangerous_activities": 0.01667855866253376
+        }
+      },
+      "blip_description": {
+        "description": "a woman holding a gun in a dark room",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "",
+        "extracted_items": [],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_28.jpg"
+    },
+    {
+      "timestamp": 14.0,
+      "frame_index": 28,
+      "visual_analysis": {
+        "category": "suggestive_content",
+        "confidence": 0.29956158995628357,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.2778855562210083,
+          "suggestive_content": 0.29956158995628357,
+          "artistic_adult_content": 0.191643625497818,
+          "misinformation": 0.1722293347120285,
+          "violence": 0.025148773565888405,
+          "hate_speech": 0.01511385664343834,
+          "dangerous_activities": 0.018417274579405785
+        }
+      },
+      "blip_description": {
+        "description": "a man holding a gun in a dark room",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "",
+        "extracted_items": [],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_29.jpg"
+    },
+    {
+      "timestamp": 14.5,
+      "frame_index": 29,
+      "visual_analysis": {
+        "category": "artistic_adult_content",
+        "confidence": 0.47333192825317383,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.02898666076362133,
+          "suggestive_content": 0.3407089412212372,
+          "artistic_adult_content": 0.47333192825317383,
+          "misinformation": 0.13220210373401642,
+          "violence": 0.0073911575600504875,
+          "hate_speech": 0.006890318356454372,
+          "dangerous_activities": 0.010488920845091343
+        }
+      },
+      "blip_description": {
+        "description": "a man holding a gun in a dark room",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "",
+        "extracted_items": [],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_30.jpg"
+    },
+    {
+      "timestamp": 15.0,
+      "frame_index": 30,
+      "visual_analysis": {
+        "category": "suggestive_content",
+        "confidence": 0.46742430329322815,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.060832295566797256,
+          "suggestive_content": 0.46742430329322815,
+          "artistic_adult_content": 0.3208061456680298,
+          "misinformation": 0.1254025548696518,
+          "violence": 0.007476103492081165,
+          "hate_speech": 0.007362570147961378,
+          "dangerous_activities": 0.010696053504943848
+        }
+      },
+      "blip_description": {
+        "description": "a man holding a gun in a dark room",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "",
+        "extracted_items": [],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_31.jpg"
+    },
+    {
+      "timestamp": 15.5,
+      "frame_index": 31,
+      "visual_analysis": {
+        "category": "suggestive_content",
+        "confidence": 0.4986930787563324,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.12342391908168793,
+          "suggestive_content": 0.4986930787563324,
+          "artistic_adult_content": 0.2109317034482956,
+          "misinformation": 0.1381404995918274,
+          "violence": 0.008294649422168732,
+          "hate_speech": 0.008776428177952766,
+          "dangerous_activities": 0.011739663779735565
+        }
+      },
+      "blip_description": {
+        "description": "a man holding a gun in a dark room",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "",
+        "extracted_items": [],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_32.jpg"
+    },
+    {
+      "timestamp": 16.0,
+      "frame_index": 32,
+      "visual_analysis": {
+        "category": "suggestive_content",
+        "confidence": 0.40341272950172424,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.25794678926467896,
+          "suggestive_content": 0.40341272950172424,
+          "artistic_adult_content": 0.13074609637260437,
+          "misinformation": 0.16322480142116547,
+          "violence": 0.01520790159702301,
+          "hate_speech": 0.01340458169579506,
+          "dangerous_activities": 0.0160570926964283
+        }
+      },
+      "blip_description": {
+        "description": "a man holding a gun in a dark room",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "",
+        "extracted_items": [],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_33.jpg"
+    },
+    {
+      "timestamp": 16.5,
+      "frame_index": 33,
+      "visual_analysis": {
+        "category": "suggestive_content",
+        "confidence": 0.3982124328613281,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.2599662244319916,
+          "suggestive_content": 0.3982124328613281,
+          "artistic_adult_content": 0.11896457523107529,
+          "misinformation": 0.18074461817741394,
+          "violence": 0.0120846601203084,
+          "hate_speech": 0.013773197308182716,
+          "dangerous_activities": 0.016254233196377754
+        }
+      },
+      "blip_description": {
+        "description": "a man holding a gun in a dark room",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "",
+        "extracted_items": [],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_34.jpg"
+    },
+    {
+      "timestamp": 17.0,
+      "frame_index": 34,
+      "visual_analysis": {
+        "category": "suggestive_content",
+        "confidence": 0.8817230463027954,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.026879841461777687,
+          "suggestive_content": 0.8817230463027954,
+          "artistic_adult_content": 0.048249006271362305,
+          "misinformation": 0.03602587431669235,
+          "violence": 0.0023703814949840307,
+          "hate_speech": 0.001968023367226124,
+          "dangerous_activities": 0.002783793956041336
+        }
+      },
+      "blip_description": {
+        "description": "a man holding a gun in a room",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "",
+        "extracted_items": [],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_35.jpg"
+    },
+    {
+      "timestamp": 17.5,
+      "frame_index": 35,
+      "visual_analysis": {
+        "category": "safe_content",
+        "confidence": 0.4420869052410126,
+        "violation_detected": false,
+        "all_probabilities": {
+          "safe_content": 0.4420869052410126,
+          "suggestive_content": 0.2821805477142334,
+          "artistic_adult_content": 0.08263478428125381,
+          "misinformation": 0.15259096026420593,
+          "violence": 0.012190571054816246,
+          "hate_speech": 0.013543232344090939,
+          "dangerous_activities": 0.01477305218577385
+        }
+      },
+      "blip_description": {
+        "description": "a man holding a gun in a dark room",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "",
+        "extracted_items": [],
+        "ocr_available": true
+      },
+      "combined_violation": false,
+      "preview_path": "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_36.jpg"
+    },
+    {
+      "timestamp": 18.0,
+      "frame_index": 36,
+      "visual_analysis": {
+        "category": "suggestive_content",
+        "confidence": 0.35154542326927185,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.1655554473400116,
+          "suggestive_content": 0.35154542326927185,
+          "artistic_adult_content": 0.26142776012420654,
+          "misinformation": 0.18111976981163025,
+          "violence": 0.011974189430475235,
+          "hate_speech": 0.012416547164320946,
+          "dangerous_activities": 0.015960756689310074
+        }
+      },
+      "blip_description": {
+        "description": "a man holding a gun in a dark room",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "",
+        "extracted_items": [],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_37.jpg"
+    },
+    {
+      "timestamp": 18.5,
+      "frame_index": 37,
+      "visual_analysis": {
+        "category": "artistic_adult_content",
+        "confidence": 0.41242414712905884,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.06752324849367142,
+          "suggestive_content": 0.2623686194419861,
+          "artistic_adult_content": 0.41242414712905884,
+          "misinformation": 0.21951214969158173,
+          "violence": 0.013305000960826874,
+          "hate_speech": 0.010085704736411572,
+          "dangerous_activities": 0.01478121429681778
+        }
+      },
+      "blip_description": {
+        "description": "a man holding a gun in a dark room",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "",
+        "extracted_items": [],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_38.jpg"
+    },
+    {
+      "timestamp": 19.0,
+      "frame_index": 38,
+      "visual_analysis": {
+        "category": "artistic_adult_content",
+        "confidence": 0.3774462938308716,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.018631089478731155,
+          "suggestive_content": 0.2762656807899475,
+          "artistic_adult_content": 0.3774462938308716,
+          "misinformation": 0.2972460985183716,
+          "violence": 0.011752876453101635,
+          "hate_speech": 0.00745589891448617,
+          "dangerous_activities": 0.011202048510313034
+        }
+      },
+      "blip_description": {
+        "description": "a man taking a picture of himself",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "",
+        "extracted_items": [],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_39.jpg"
+    }
+  ],
+  "recommendations": [
+    "⚠️ Visual policy violations detected: artistic_adult_content, suggestive_content, misinformation",
+    "🔍 Consider reviewing flagged video segments",
+    "🎵 Audio policy violations detected: safe",
+    "📝 Review transcript for policy-violating language",
+    "🚨 Multiple violations detected - content may need significant editing"
+  ],
+  "multi_modal_capabilities": {
+    "visual_model_accuracy": 97.48,
+    "blip_available": true,
+    "whisper_available": true,
+    "ocr_available": true
+  },
+  "text_issues": "",
+  "image": {
+    "details": {
+      "frame_preview_paths": [
+        "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_1.jpg",
+        "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_2.jpg",
+        "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_3.jpg",
+        "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_4.jpg",
+        "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_5.jpg",
+        "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_6.jpg",
+        "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_7.jpg",
+        "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_8.jpg",
+        "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_9.jpg",
+        "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_10.jpg",
+        "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_11.jpg",
+        "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_12.jpg",
+        "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_13.jpg",
+        "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_14.jpg",
+        "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_15.jpg",
+        "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_16.jpg",
+        "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_17.jpg",
+        "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_18.jpg",
+        "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_19.jpg",
+        "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_20.jpg",
+        "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_21.jpg",
+        "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_22.jpg",
+        "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_23.jpg",
+        "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_24.jpg",
+        "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_25.jpg",
+        "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_26.jpg",
+        "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_27.jpg",
+        "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_28.jpg",
+        "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_29.jpg",
+        "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_30.jpg",
+        "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_31.jpg",
+        "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_32.jpg",
+        "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_33.jpg",
+        "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_34.jpg",
+        "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_35.jpg",
+        "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_36.jpg",
+        "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_37.jpg",
+        "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_38.jpg",
+        "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_39.jpg"
+      ],
+      "frame_analysis": [
+        {
+          "timestamp": 0.0,
+          "frame_index": 0,
+          "visual_analysis": {
+            "category": "suggestive_content",
+            "confidence": 0.6727020144462585,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.026749560609459877,
+              "suggestive_content": 0.6727020144462585,
+              "artistic_adult_content": 0.17095302045345306,
+              "misinformation": 0.1068837121129036,
+              "violence": 0.009877598844468594,
+              "hate_speech": 0.00538610341027379,
+              "dangerous_activities": 0.0074480315670371056
+            }
+          },
+          "blip_description": {
+            "description": "a man with a backpack walking up a flight of stairs",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "",
+            "extracted_items": [],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_1.jpg"
+        },
+        {
+          "timestamp": 0.5,
+          "frame_index": 1,
+          "visual_analysis": {
+            "category": "suggestive_content",
+            "confidence": 0.33945587277412415,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.24666322767734528,
+              "suggestive_content": 0.33945587277412415,
+              "artistic_adult_content": 0.1468551605939865,
+              "misinformation": 0.2197943925857544,
+              "violence": 0.014390494674444199,
+              "hate_speech": 0.014788714237511158,
+              "dangerous_activities": 0.018052151426672935
+            }
+          },
+          "blip_description": {
+            "description": "a man in a suit is holding a gun",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "",
+            "extracted_items": [],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_2.jpg"
+        },
+        {
+          "timestamp": 1.0,
+          "frame_index": 2,
+          "visual_analysis": {
+            "category": "suggestive_content",
+            "confidence": 0.41975411772727966,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.06462583690881729,
+              "suggestive_content": 0.41975411772727966,
+              "artistic_adult_content": 0.2555437386035919,
+              "misinformation": 0.22219258546829224,
+              "violence": 0.013044475577771664,
+              "hate_speech": 0.010620391927659512,
+              "dangerous_activities": 0.014218954369425774
+            }
+          },
+          "blip_description": {
+            "description": "a man in a gray coat holding a gun",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "",
+            "extracted_items": [],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_3.jpg"
+        },
+        {
+          "timestamp": 1.5,
+          "frame_index": 3,
+          "visual_analysis": {
+            "category": "suggestive_content",
+            "confidence": 0.4992623031139374,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.0686287209391594,
+              "suggestive_content": 0.4992623031139374,
+              "artistic_adult_content": 0.19768109917640686,
+              "misinformation": 0.19189319014549255,
+              "violence": 0.01731025241315365,
+              "hate_speech": 0.011133356019854546,
+              "dangerous_activities": 0.014091038145124912
+            }
+          },
+          "blip_description": {
+            "description": "a man in a dark room with a gun",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "",
+            "extracted_items": [],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_4.jpg"
+        },
+        {
+          "timestamp": 2.0,
+          "frame_index": 4,
+          "visual_analysis": {
+            "category": "misinformation",
+            "confidence": 0.39585497975349426,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.012159649282693863,
+              "suggestive_content": 0.2879181504249573,
+              "artistic_adult_content": 0.2738293707370758,
+              "misinformation": 0.39585497975349426,
+              "violence": 0.012062061578035355,
+              "hate_speech": 0.007471493445336819,
+              "dangerous_activities": 0.01070430874824524
+            }
+          },
+          "blip_description": {
+            "description": "a man holding a gun in a dark room",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "",
+            "extracted_items": [],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_5.jpg"
+        },
+        {
+          "timestamp": 2.5,
+          "frame_index": 5,
+          "visual_analysis": {
+            "category": "suggestive_content",
+            "confidence": 0.34836435317993164,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.11784934997558594,
+              "suggestive_content": 0.34836435317993164,
+              "artistic_adult_content": 0.21578247845172882,
+              "misinformation": 0.26725760102272034,
+              "violence": 0.016543762758374214,
+              "hate_speech": 0.01518703531473875,
+              "dangerous_activities": 0.01901540532708168
+            }
+          },
+          "blip_description": {
+            "description": "a man holding a gun in a dark room",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "",
+            "extracted_items": [],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_6.jpg"
+        },
+        {
+          "timestamp": 3.0,
+          "frame_index": 6,
+          "visual_analysis": {
+            "category": "misinformation",
+            "confidence": 0.360856831073761,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.03073890693485737,
+              "suggestive_content": 0.3342762589454651,
+              "artistic_adult_content": 0.23618346452713013,
+              "misinformation": 0.360856831073761,
+              "violence": 0.012963835150003433,
+              "hate_speech": 0.010634004138410091,
+              "dangerous_activities": 0.014346687123179436
+            }
+          },
+          "blip_description": {
+            "description": "a man holding a gun in a dark room",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "",
+            "extracted_items": [],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_7.jpg"
+        },
+        {
+          "timestamp": 3.5,
+          "frame_index": 7,
+          "visual_analysis": {
+            "category": "artistic_adult_content",
+            "confidence": 0.3736431896686554,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.01809827983379364,
+              "suggestive_content": 0.34561845660209656,
+              "artistic_adult_content": 0.3736431896686554,
+              "misinformation": 0.2352716028690338,
+              "violence": 0.00935329683125019,
+              "hate_speech": 0.007380415685474873,
+              "dangerous_activities": 0.010634738020598888
+            }
+          },
+          "blip_description": {
+            "description": "a man holding a gun in a dark room",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "",
+            "extracted_items": [],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_8.jpg"
+        },
+        {
+          "timestamp": 4.0,
+          "frame_index": 8,
+          "visual_analysis": {
+            "category": "suggestive_content",
+            "confidence": 0.46463635563850403,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.08245176076889038,
+              "suggestive_content": 0.46463635563850403,
+              "artistic_adult_content": 0.22179768979549408,
+              "misinformation": 0.1946832239627838,
+              "violence": 0.010914134792983532,
+              "hate_speech": 0.011216937564313412,
+              "dangerous_activities": 0.01429989654570818
+            }
+          },
+          "blip_description": {
+            "description": "a man holding a gun in a dark room",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "",
+            "extracted_items": [],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_9.jpg"
+        },
+        {
+          "timestamp": 4.5,
+          "frame_index": 9,
+          "visual_analysis": {
+            "category": "safe_content",
+            "confidence": 0.413116991519928,
+            "violation_detected": false,
+            "all_probabilities": {
+              "safe_content": 0.413116991519928,
+              "suggestive_content": 0.309322327375412,
+              "artistic_adult_content": 0.08573693037033081,
+              "misinformation": 0.15356798470020294,
+              "violence": 0.01018393412232399,
+              "hate_speech": 0.01336720585823059,
+              "dangerous_activities": 0.014704651199281216
+            }
+          },
+          "blip_description": {
+            "description": "a man holding a gun in a dark room",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "",
+            "extracted_items": [],
+            "ocr_available": true
+          },
+          "combined_violation": false,
+          "preview_path": "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_10.jpg"
+        },
+        {
+          "timestamp": 5.0,
+          "frame_index": 10,
+          "visual_analysis": {
+            "category": "suggestive_content",
+            "confidence": 0.4671180248260498,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.2517108619213104,
+              "suggestive_content": 0.4671180248260498,
+              "artistic_adult_content": 0.11677952855825424,
+              "misinformation": 0.13212484121322632,
+              "violence": 0.00914500467479229,
+              "hate_speech": 0.010422904044389725,
+              "dangerous_activities": 0.012698831036686897
+            }
+          },
+          "blip_description": {
+            "description": "a man holding a gun in a dark room",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "",
+            "extracted_items": [],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_11.jpg"
+        },
+        {
+          "timestamp": 5.5,
+          "frame_index": 11,
+          "visual_analysis": {
+            "category": "suggestive_content",
+            "confidence": 0.36145755648612976,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.09486154466867447,
+              "suggestive_content": 0.36145755648612976,
+              "artistic_adult_content": 0.2923309803009033,
+              "misinformation": 0.21049989759922028,
+              "violence": 0.012953625060617924,
+              "hate_speech": 0.01188586000353098,
+              "dangerous_activities": 0.016010485589504242
+            }
+          },
+          "blip_description": {
+            "description": "a man holding a gun in a dark room",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "",
+            "extracted_items": [],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_12.jpg"
+        },
+        {
+          "timestamp": 6.0,
+          "frame_index": 12,
+          "visual_analysis": {
+            "category": "suggestive_content",
+            "confidence": 0.41416576504707336,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.1070040911436081,
+              "suggestive_content": 0.41416576504707336,
+              "artistic_adult_content": 0.2416924685239792,
+              "misinformation": 0.1958795040845871,
+              "violence": 0.014576733112335205,
+              "hate_speech": 0.011343841440975666,
+              "dangerous_activities": 0.015337558463215828
+            }
+          },
+          "blip_description": {
+            "description": "a man holding a gun in a dark room",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "",
+            "extracted_items": [],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_13.jpg"
+        },
+        {
+          "timestamp": 6.5,
+          "frame_index": 13,
+          "visual_analysis": {
+            "category": "safe_content",
+            "confidence": 0.33824825286865234,
+            "violation_detected": false,
+            "all_probabilities": {
+              "safe_content": 0.33824825286865234,
+              "suggestive_content": 0.3071414828300476,
+              "artistic_adult_content": 0.12427416443824768,
+              "misinformation": 0.1827888786792755,
+              "violence": 0.016963154077529907,
+              "hate_speech": 0.013884522952139378,
+              "dangerous_activities": 0.016699526458978653
+            }
+          },
+          "blip_description": {
+            "description": "a man holding a gun in a dark room",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "",
+            "extracted_items": [],
+            "ocr_available": true
+          },
+          "combined_violation": false,
+          "preview_path": "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_14.jpg"
+        },
+        {
+          "timestamp": 7.0,
+          "frame_index": 14,
+          "visual_analysis": {
+            "category": "suggestive_content",
+            "confidence": 0.5053698420524597,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.12215641140937805,
+              "suggestive_content": 0.5053698420524597,
+              "artistic_adult_content": 0.15667040646076202,
+              "misinformation": 0.17499740421772003,
+              "violence": 0.01746363379061222,
+              "hate_speech": 0.010119867511093616,
+              "dangerous_activities": 0.013222455978393555
+            }
+          },
+          "blip_description": {
+            "description": "a woman holding a gun in a dark room",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "",
+            "extracted_items": [],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_15.jpg"
+        },
+        {
+          "timestamp": 7.5,
+          "frame_index": 15,
+          "visual_analysis": {
+            "category": "suggestive_content",
+            "confidence": 0.5061464905738831,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.05956161394715309,
+              "suggestive_content": 0.5061464905738831,
+              "artistic_adult_content": 0.22279641032218933,
+              "misinformation": 0.1767272651195526,
+              "violence": 0.015522101894021034,
+              "hate_speech": 0.00797751359641552,
+              "dangerous_activities": 0.01126863807439804
+            }
+          },
+          "blip_description": {
+            "description": "a man holding a gun in a building",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "",
+            "extracted_items": [],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_16.jpg"
+        },
+        {
+          "timestamp": 8.0,
+          "frame_index": 16,
+          "visual_analysis": {
+            "category": "suggestive_content",
+            "confidence": 0.5714470148086548,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.08591186255216599,
+              "suggestive_content": 0.5714470148086548,
+              "artistic_adult_content": 0.15744291245937347,
+              "misinformation": 0.1515115201473236,
+              "violence": 0.014439420774579048,
+              "hate_speech": 0.008212098851799965,
+              "dangerous_activities": 0.01103514339774847
+            }
+          },
+          "blip_description": {
+            "description": "a man holding a gun in a dark room",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "",
+            "extracted_items": [],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_17.jpg"
+        },
+        {
+          "timestamp": 8.5,
+          "frame_index": 17,
+          "visual_analysis": {
+            "category": "suggestive_content",
+            "confidence": 0.5153319239616394,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.09059056639671326,
+              "suggestive_content": 0.5153319239616394,
+              "artistic_adult_content": 0.18732060492038727,
+              "misinformation": 0.17414842545986176,
+              "violence": 0.011422835290431976,
+              "hate_speech": 0.009023222140967846,
+              "dangerous_activities": 0.012162423692643642
+            }
+          },
+          "blip_description": {
+            "description": "a woman holding a gun in a dark room",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "",
+            "extracted_items": [],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_18.jpg"
+        },
+        {
+          "timestamp": 9.0,
+          "frame_index": 18,
+          "visual_analysis": {
+            "category": "suggestive_content",
+            "confidence": 0.35433030128479004,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.17044231295585632,
+              "suggestive_content": 0.35433030128479004,
+              "artistic_adult_content": 0.21040977537631989,
+              "misinformation": 0.22088778018951416,
+              "violence": 0.013246572576463223,
+              "hate_speech": 0.013512969017028809,
+              "dangerous_activities": 0.01717030629515648
+            }
+          },
+          "blip_description": {
+            "description": "a man holding a gun in a dark room",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "",
+            "extracted_items": [],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_19.jpg"
+        },
+        {
+          "timestamp": 9.5,
+          "frame_index": 19,
+          "visual_analysis": {
+            "category": "safe_content",
+            "confidence": 0.4995070695877075,
+            "violation_detected": false,
+            "all_probabilities": {
+              "safe_content": 0.4995070695877075,
+              "suggestive_content": 0.23866809904575348,
+              "artistic_adult_content": 0.07471982389688492,
+              "misinformation": 0.14907044172286987,
+              "violence": 0.010359380394220352,
+              "hate_speech": 0.013258376158773899,
+              "dangerous_activities": 0.01441673468798399
+            }
+          },
+          "blip_description": {
+            "description": "a man holding a gun in a dark room",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "",
+            "extracted_items": [],
+            "ocr_available": true
+          },
+          "combined_violation": false,
+          "preview_path": "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_20.jpg"
+        },
+        {
+          "timestamp": 10.0,
+          "frame_index": 20,
+          "visual_analysis": {
+            "category": "safe_content",
+            "confidence": 0.5540755391120911,
+            "violation_detected": false,
+            "all_probabilities": {
+              "safe_content": 0.5540755391120911,
+              "suggestive_content": 0.21580229699611664,
+              "artistic_adult_content": 0.05621231719851494,
+              "misinformation": 0.1377645879983902,
+              "violence": 0.010161902755498886,
+              "hate_speech": 0.012598790228366852,
+              "dangerous_activities": 0.013384558260440826
+            }
+          },
+          "blip_description": {
+            "description": "a man holding a gun in a dark room",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "",
+            "extracted_items": [],
+            "ocr_available": true
+          },
+          "combined_violation": false,
+          "preview_path": "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_21.jpg"
+        },
+        {
+          "timestamp": 10.5,
+          "frame_index": 21,
+          "visual_analysis": {
+            "category": "safe_content",
+            "confidence": 0.5837635397911072,
+            "violation_detected": false,
+            "all_probabilities": {
+              "safe_content": 0.5837635397911072,
+              "suggestive_content": 0.2012258768081665,
+              "artistic_adult_content": 0.0482914075255394,
+              "misinformation": 0.13199473917484283,
+              "violence": 0.009551524184644222,
+              "hate_speech": 0.012286683544516563,
+              "dangerous_activities": 0.012886222451925278
+            }
+          },
+          "blip_description": {
+            "description": "a man holding a gun in a dark room",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "",
+            "extracted_items": [],
+            "ocr_available": true
+          },
+          "combined_violation": false,
+          "preview_path": "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_22.jpg"
+        },
+        {
+          "timestamp": 11.0,
+          "frame_index": 22,
+          "visual_analysis": {
+            "category": "safe_content",
+            "confidence": 0.5599046349525452,
+            "violation_detected": false,
+            "all_probabilities": {
+              "safe_content": 0.5599046349525452,
+              "suggestive_content": 0.21417860686779022,
+              "artistic_adult_content": 0.051570869982242584,
+              "misinformation": 0.13779005408287048,
+              "violence": 0.01025197934359312,
+              "hate_speech": 0.012826308608055115,
+              "dangerous_activities": 0.013477553613483906
+            }
+          },
+          "blip_description": {
+            "description": "a man holding a gun in a dark room",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "",
+            "extracted_items": [],
+            "ocr_available": true
+          },
+          "combined_violation": false,
+          "preview_path": "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_23.jpg"
+        },
+        {
+          "timestamp": 11.5,
+          "frame_index": 23,
+          "visual_analysis": {
+            "category": "suggestive_content",
+            "confidence": 0.3219250738620758,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.3064570724964142,
+              "suggestive_content": 0.3219250738620758,
+              "artistic_adult_content": 0.129715234041214,
+              "misinformation": 0.1978570818901062,
+              "violence": 0.012091554701328278,
+              "hate_speech": 0.014858548529446125,
+              "dangerous_activities": 0.01709543913602829
+            }
+          },
+          "blip_description": {
+            "description": "a man holding a gun in an old building",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "",
+            "extracted_items": [],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_24.jpg"
+        },
+        {
+          "timestamp": 12.0,
+          "frame_index": 24,
+          "visual_analysis": {
+            "category": "safe_content",
+            "confidence": 0.41771063208580017,
+            "violation_detected": false,
+            "all_probabilities": {
+              "safe_content": 0.41771063208580017,
+              "suggestive_content": 0.2492842972278595,
+              "artistic_adult_content": 0.10670816153287888,
+              "misinformation": 0.1836780458688736,
+              "violence": 0.011400600895285606,
+              "hate_speech": 0.014667580835521221,
+              "dangerous_activities": 0.01655067503452301
+            }
+          },
+          "blip_description": {
+            "description": "a man holding a gun in a dark room",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "",
+            "extracted_items": [],
+            "ocr_available": true
+          },
+          "combined_violation": false,
+          "preview_path": "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_25.jpg"
+        },
+        {
+          "timestamp": 12.5,
+          "frame_index": 25,
+          "visual_analysis": {
+            "category": "safe_content",
+            "confidence": 0.35560908913612366,
+            "violation_detected": false,
+            "all_probabilities": {
+              "safe_content": 0.35560908913612366,
+              "suggestive_content": 0.2939198911190033,
+              "artistic_adult_content": 0.12984265387058258,
+              "misinformation": 0.1771257519721985,
+              "violence": 0.012150885537266731,
+              "hate_speech": 0.014694316312670708,
+              "dangerous_activities": 0.01665736548602581
+            }
+          },
+          "blip_description": {
+            "description": "a man holding a gun in a dark room",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "",
+            "extracted_items": [],
+            "ocr_available": true
+          },
+          "combined_violation": false,
+          "preview_path": "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_26.jpg"
+        },
+        {
+          "timestamp": 13.0,
+          "frame_index": 26,
+          "visual_analysis": {
+            "category": "safe_content",
+            "confidence": 0.34666988253593445,
+            "violation_detected": false,
+            "all_probabilities": {
+              "safe_content": 0.34666988253593445,
+              "suggestive_content": 0.29461216926574707,
+              "artistic_adult_content": 0.14849887788295746,
+              "misinformation": 0.16931995749473572,
+              "violence": 0.011400341987609863,
+              "hate_speech": 0.013558786362409592,
+              "dangerous_activities": 0.01594005525112152
+            }
+          },
+          "blip_description": {
+            "description": "a woman holding a gun in a dark room",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "",
+            "extracted_items": [],
+            "ocr_available": true
+          },
+          "combined_violation": false,
+          "preview_path": "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_27.jpg"
+        },
+        {
+          "timestamp": 13.5,
+          "frame_index": 27,
+          "visual_analysis": {
+            "category": "suggestive_content",
+            "confidence": 0.337301641702652,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.17228758335113525,
+              "suggestive_content": 0.337301641702652,
+              "artistic_adult_content": 0.2710871398448944,
+              "misinformation": 0.17731159925460815,
+              "violence": 0.012053056620061398,
+              "hate_speech": 0.01328039076179266,
+              "dangerous_activities": 0.01667855866253376
+            }
+          },
+          "blip_description": {
+            "description": "a woman holding a gun in a dark room",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "",
+            "extracted_items": [],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_28.jpg"
+        },
+        {
+          "timestamp": 14.0,
+          "frame_index": 28,
+          "visual_analysis": {
+            "category": "suggestive_content",
+            "confidence": 0.29956158995628357,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.2778855562210083,
+              "suggestive_content": 0.29956158995628357,
+              "artistic_adult_content": 0.191643625497818,
+              "misinformation": 0.1722293347120285,
+              "violence": 0.025148773565888405,
+              "hate_speech": 0.01511385664343834,
+              "dangerous_activities": 0.018417274579405785
+            }
+          },
+          "blip_description": {
+            "description": "a man holding a gun in a dark room",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "",
+            "extracted_items": [],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_29.jpg"
+        },
+        {
+          "timestamp": 14.5,
+          "frame_index": 29,
+          "visual_analysis": {
+            "category": "artistic_adult_content",
+            "confidence": 0.47333192825317383,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.02898666076362133,
+              "suggestive_content": 0.3407089412212372,
+              "artistic_adult_content": 0.47333192825317383,
+              "misinformation": 0.13220210373401642,
+              "violence": 0.0073911575600504875,
+              "hate_speech": 0.006890318356454372,
+              "dangerous_activities": 0.010488920845091343
+            }
+          },
+          "blip_description": {
+            "description": "a man holding a gun in a dark room",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "",
+            "extracted_items": [],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_30.jpg"
+        },
+        {
+          "timestamp": 15.0,
+          "frame_index": 30,
+          "visual_analysis": {
+            "category": "suggestive_content",
+            "confidence": 0.46742430329322815,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.060832295566797256,
+              "suggestive_content": 0.46742430329322815,
+              "artistic_adult_content": 0.3208061456680298,
+              "misinformation": 0.1254025548696518,
+              "violence": 0.007476103492081165,
+              "hate_speech": 0.007362570147961378,
+              "dangerous_activities": 0.010696053504943848
+            }
+          },
+          "blip_description": {
+            "description": "a man holding a gun in a dark room",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "",
+            "extracted_items": [],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_31.jpg"
+        },
+        {
+          "timestamp": 15.5,
+          "frame_index": 31,
+          "visual_analysis": {
+            "category": "suggestive_content",
+            "confidence": 0.4986930787563324,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.12342391908168793,
+              "suggestive_content": 0.4986930787563324,
+              "artistic_adult_content": 0.2109317034482956,
+              "misinformation": 0.1381404995918274,
+              "violence": 0.008294649422168732,
+              "hate_speech": 0.008776428177952766,
+              "dangerous_activities": 0.011739663779735565
+            }
+          },
+          "blip_description": {
+            "description": "a man holding a gun in a dark room",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "",
+            "extracted_items": [],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_32.jpg"
+        },
+        {
+          "timestamp": 16.0,
+          "frame_index": 32,
+          "visual_analysis": {
+            "category": "suggestive_content",
+            "confidence": 0.40341272950172424,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.25794678926467896,
+              "suggestive_content": 0.40341272950172424,
+              "artistic_adult_content": 0.13074609637260437,
+              "misinformation": 0.16322480142116547,
+              "violence": 0.01520790159702301,
+              "hate_speech": 0.01340458169579506,
+              "dangerous_activities": 0.0160570926964283
+            }
+          },
+          "blip_description": {
+            "description": "a man holding a gun in a dark room",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "",
+            "extracted_items": [],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_33.jpg"
+        },
+        {
+          "timestamp": 16.5,
+          "frame_index": 33,
+          "visual_analysis": {
+            "category": "suggestive_content",
+            "confidence": 0.3982124328613281,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.2599662244319916,
+              "suggestive_content": 0.3982124328613281,
+              "artistic_adult_content": 0.11896457523107529,
+              "misinformation": 0.18074461817741394,
+              "violence": 0.0120846601203084,
+              "hate_speech": 0.013773197308182716,
+              "dangerous_activities": 0.016254233196377754
+            }
+          },
+          "blip_description": {
+            "description": "a man holding a gun in a dark room",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "",
+            "extracted_items": [],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_34.jpg"
+        },
+        {
+          "timestamp": 17.0,
+          "frame_index": 34,
+          "visual_analysis": {
+            "category": "suggestive_content",
+            "confidence": 0.8817230463027954,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.026879841461777687,
+              "suggestive_content": 0.8817230463027954,
+              "artistic_adult_content": 0.048249006271362305,
+              "misinformation": 0.03602587431669235,
+              "violence": 0.0023703814949840307,
+              "hate_speech": 0.001968023367226124,
+              "dangerous_activities": 0.002783793956041336
+            }
+          },
+          "blip_description": {
+            "description": "a man holding a gun in a room",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "",
+            "extracted_items": [],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_35.jpg"
+        },
+        {
+          "timestamp": 17.5,
+          "frame_index": 35,
+          "visual_analysis": {
+            "category": "safe_content",
+            "confidence": 0.4420869052410126,
+            "violation_detected": false,
+            "all_probabilities": {
+              "safe_content": 0.4420869052410126,
+              "suggestive_content": 0.2821805477142334,
+              "artistic_adult_content": 0.08263478428125381,
+              "misinformation": 0.15259096026420593,
+              "violence": 0.012190571054816246,
+              "hate_speech": 0.013543232344090939,
+              "dangerous_activities": 0.01477305218577385
+            }
+          },
+          "blip_description": {
+            "description": "a man holding a gun in a dark room",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "",
+            "extracted_items": [],
+            "ocr_available": true
+          },
+          "combined_violation": false,
+          "preview_path": "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_36.jpg"
+        },
+        {
+          "timestamp": 18.0,
+          "frame_index": 36,
+          "visual_analysis": {
+            "category": "suggestive_content",
+            "confidence": 0.35154542326927185,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.1655554473400116,
+              "suggestive_content": 0.35154542326927185,
+              "artistic_adult_content": 0.26142776012420654,
+              "misinformation": 0.18111976981163025,
+              "violence": 0.011974189430475235,
+              "hate_speech": 0.012416547164320946,
+              "dangerous_activities": 0.015960756689310074
+            }
+          },
+          "blip_description": {
+            "description": "a man holding a gun in a dark room",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "",
+            "extracted_items": [],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_37.jpg"
+        },
+        {
+          "timestamp": 18.5,
+          "frame_index": 37,
+          "visual_analysis": {
+            "category": "artistic_adult_content",
+            "confidence": 0.41242414712905884,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.06752324849367142,
+              "suggestive_content": 0.2623686194419861,
+              "artistic_adult_content": 0.41242414712905884,
+              "misinformation": 0.21951214969158173,
+              "violence": 0.013305000960826874,
+              "hate_speech": 0.010085704736411572,
+              "dangerous_activities": 0.01478121429681778
+            }
+          },
+          "blip_description": {
+            "description": "a man holding a gun in a dark room",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "",
+            "extracted_items": [],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_38.jpg"
+        },
+        {
+          "timestamp": 19.0,
+          "frame_index": 38,
+          "visual_analysis": {
+            "category": "artistic_adult_content",
+            "confidence": 0.3774462938308716,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.018631089478731155,
+              "suggestive_content": 0.2762656807899475,
+              "artistic_adult_content": 0.3774462938308716,
+              "misinformation": 0.2972460985183716,
+              "violence": 0.011752876453101635,
+              "hate_speech": 0.00745589891448617,
+              "dangerous_activities": 0.011202048510313034
+            }
+          },
+          "blip_description": {
+            "description": "a man taking a picture of himself",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "",
+            "extracted_items": [],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1755880512_6013720_People_Man_1280x720_frame_39.jpg"
+        }
+      ]
+    }
+  },
+  "rag_explanations": [
+    {
+      "type": "visual",
+      "frame": 1,
+      "timestamp": 0.0,
+      "category": "suggestive_content",
+      "confidence": 0.6727020144462585,
+      "blip": "a man with a backpack walking up a flight of stairs",
+      "ocr": "",
+      "policy": {
+        "description": "Content showing dangerous or harmful activities",
+        "examples": [
+          "extreme stunts",
+          "self-harm",
+          "dangerous challenges"
+        ],
+        "severity_indicators": [
+          "life-threatening",
+          "copyable dangers",
+          "no safety warnings"
+        ],
+        "context_matters": [
+          "professional vs amateur",
+          "safety precautions shown"
+        ],
+        "action_required": "age_restriction_or_removal"
+      },
+      "action_required": "age_restriction_or_removal",
+      "examples": [
+        "extreme stunts",
+        "self-harm",
+        "dangerous challenges"
+      ],
+      "severity_indicators": [
+        "life-threatening",
+        "copyable dangers",
+        "no safety warnings"
+      ],
+      "context_factors": [
+        "professional vs amateur",
+        "safety precautions shown"
+      ],
+      "violation_detected": true
+    },
+    {
+      "type": "visual",
+      "frame": 2,
+      "timestamp": 0.5,
+      "category": "suggestive_content",
+      "confidence": 0.33945587277412415,
+      "blip": "a man in a suit is holding a gun",
+      "ocr": "",
+      "policy": {
+        "description": "Content depicting violence, weapons, or graphic imagery",
+        "examples": [
+          "fighting",
+          "weapons",
+          "blood",
+          "gore",
+          "combat"
+        ],
+        "severity_indicators": [
+          "realistic weapons",
+          "explicit violence",
+          "gore"
+        ],
+        "context_matters": [
+          "gaming violence vs real violence",
+          "educational vs gratuitous"
+        ],
+        "action_required": "human_review_required"
+      },
+      "action_required": "human_review_required",
+      "examples": [
+        "fighting",
+        "weapons",
+        "blood",
+        "gore",
+        "combat"
+      ],
+      "severity_indicators": [
+        "realistic weapons",
+        "explicit violence",
+        "gore"
+      ],
+      "context_factors": [
+        "gaming violence vs real violence",
+        "educational vs gratuitous"
+      ],
+      "violation_detected": true
+    },
+    {
+      "type": "visual",
+      "frame": 3,
+      "timestamp": 1.0,
+      "category": "suggestive_content",
+      "confidence": 0.41975411772727966,
+      "blip": "a man in a gray coat holding a gun",
+      "ocr": "",
+      "policy": {
+        "description": "Content depicting violence, weapons, or graphic imagery",
+        "examples": [
+          "fighting",
+          "weapons",
+          "blood",
+          "gore",
+          "combat"
+        ],
+        "severity_indicators": [
+          "realistic weapons",
+          "explicit violence",
+          "gore"
+        ],
+        "context_matters": [
+          "gaming violence vs real violence",
+          "educational vs gratuitous"
+        ],
+        "action_required": "human_review_required"
+      },
+      "action_required": "human_review_required",
+      "examples": [
+        "fighting",
+        "weapons",
+        "blood",
+        "gore",
+        "combat"
+      ],
+      "severity_indicators": [
+        "realistic weapons",
+        "explicit violence",
+        "gore"
+      ],
+      "context_factors": [
+        "gaming violence vs real violence",
+        "educational vs gratuitous"
+      ],
+      "violation_detected": true
+    },
+    {
+      "type": "visual",
+      "frame": 4,
+      "timestamp": 1.5,
+      "category": "suggestive_content",
+      "confidence": 0.4992623031139374,
+      "blip": "a man in a dark room with a gun",
+      "ocr": "",
+      "policy": {
+        "description": "Content depicting violence, weapons, or graphic imagery",
+        "examples": [
+          "fighting",
+          "weapons",
+          "blood",
+          "gore",
+          "combat"
+        ],
+        "severity_indicators": [
+          "realistic weapons",
+          "explicit violence",
+          "gore"
+        ],
+        "context_matters": [
+          "gaming violence vs real violence",
+          "educational vs gratuitous"
+        ],
+        "action_required": "human_review_required"
+      },
+      "action_required": "human_review_required",
+      "examples": [
+        "fighting",
+        "weapons",
+        "blood",
+        "gore",
+        "combat"
+      ],
+      "severity_indicators": [
+        "realistic weapons",
+        "explicit violence",
+        "gore"
+      ],
+      "context_factors": [
+        "gaming violence vs real violence",
+        "educational vs gratuitous"
+      ],
+      "violation_detected": true
+    },
+    {
+      "type": "visual",
+      "frame": 5,
+      "timestamp": 2.0,
+      "category": "misinformation",
+      "confidence": 0.39585497975349426,
+      "blip": "a man holding a gun in a dark room",
+      "ocr": "",
+      "policy": {
+        "description": "Content depicting violence, weapons, or graphic imagery",
+        "examples": [
+          "fighting",
+          "weapons",
+          "blood",
+          "gore",
+          "combat"
+        ],
+        "severity_indicators": [
+          "realistic weapons",
+          "explicit violence",
+          "gore"
+        ],
+        "context_matters": [
+          "gaming violence vs real violence",
+          "educational vs gratuitous"
+        ],
+        "action_required": "human_review_required"
+      },
+      "action_required": "human_review_required",
+      "examples": [
+        "fighting",
+        "weapons",
+        "blood",
+        "gore",
+        "combat"
+      ],
+      "severity_indicators": [
+        "realistic weapons",
+        "explicit violence",
+        "gore"
+      ],
+      "context_factors": [
+        "gaming violence vs real violence",
+        "educational vs gratuitous"
+      ],
+      "violation_detected": true
+    },
+    {
+      "type": "visual",
+      "frame": 6,
+      "timestamp": 2.5,
+      "category": "suggestive_content",
+      "confidence": 0.34836435317993164,
+      "blip": "a man holding a gun in a dark room",
+      "ocr": "",
+      "policy": {
+        "description": "Content depicting violence, weapons, or graphic imagery",
+        "examples": [
+          "fighting",
+          "weapons",
+          "blood",
+          "gore",
+          "combat"
+        ],
+        "severity_indicators": [
+          "realistic weapons",
+          "explicit violence",
+          "gore"
+        ],
+        "context_matters": [
+          "gaming violence vs real violence",
+          "educational vs gratuitous"
+        ],
+        "action_required": "human_review_required"
+      },
+      "action_required": "human_review_required",
+      "examples": [
+        "fighting",
+        "weapons",
+        "blood",
+        "gore",
+        "combat"
+      ],
+      "severity_indicators": [
+        "realistic weapons",
+        "explicit violence",
+        "gore"
+      ],
+      "context_factors": [
+        "gaming violence vs real violence",
+        "educational vs gratuitous"
+      ],
+      "violation_detected": true
+    },
+    {
+      "type": "visual",
+      "frame": 7,
+      "timestamp": 3.0,
+      "category": "misinformation",
+      "confidence": 0.360856831073761,
+      "blip": "a man holding a gun in a dark room",
+      "ocr": "",
+      "policy": {
+        "description": "Content depicting violence, weapons, or graphic imagery",
+        "examples": [
+          "fighting",
+          "weapons",
+          "blood",
+          "gore",
+          "combat"
+        ],
+        "severity_indicators": [
+          "realistic weapons",
+          "explicit violence",
+          "gore"
+        ],
+        "context_matters": [
+          "gaming violence vs real violence",
+          "educational vs gratuitous"
+        ],
+        "action_required": "human_review_required"
+      },
+      "action_required": "human_review_required",
+      "examples": [
+        "fighting",
+        "weapons",
+        "blood",
+        "gore",
+        "combat"
+      ],
+      "severity_indicators": [
+        "realistic weapons",
+        "explicit violence",
+        "gore"
+      ],
+      "context_factors": [
+        "gaming violence vs real violence",
+        "educational vs gratuitous"
+      ],
+      "violation_detected": true
+    },
+    {
+      "type": "visual",
+      "frame": 8,
+      "timestamp": 3.5,
+      "category": "artistic_adult_content",
+      "confidence": 0.3736431896686554,
+      "blip": "a man holding a gun in a dark room",
+      "ocr": "",
+      "policy": {
+        "description": "Content depicting violence, weapons, or graphic imagery",
+        "examples": [
+          "fighting",
+          "weapons",
+          "blood",
+          "gore",
+          "combat"
+        ],
+        "severity_indicators": [
+          "realistic weapons",
+          "explicit violence",
+          "gore"
+        ],
+        "context_matters": [
+          "gaming violence vs real violence",
+          "educational vs gratuitous"
+        ],
+        "action_required": "human_review_required"
+      },
+      "action_required": "human_review_required",
+      "examples": [
+        "fighting",
+        "weapons",
+        "blood",
+        "gore",
+        "combat"
+      ],
+      "severity_indicators": [
+        "realistic weapons",
+        "explicit violence",
+        "gore"
+      ],
+      "context_factors": [
+        "gaming violence vs real violence",
+        "educational vs gratuitous"
+      ],
+      "violation_detected": true
+    },
+    {
+      "type": "visual",
+      "frame": 9,
+      "timestamp": 4.0,
+      "category": "suggestive_content",
+      "confidence": 0.46463635563850403,
+      "blip": "a man holding a gun in a dark room",
+      "ocr": "",
+      "policy": {
+        "description": "Content depicting violence, weapons, or graphic imagery",
+        "examples": [
+          "fighting",
+          "weapons",
+          "blood",
+          "gore",
+          "combat"
+        ],
+        "severity_indicators": [
+          "realistic weapons",
+          "explicit violence",
+          "gore"
+        ],
+        "context_matters": [
+          "gaming violence vs real violence",
+          "educational vs gratuitous"
+        ],
+        "action_required": "human_review_required"
+      },
+      "action_required": "human_review_required",
+      "examples": [
+        "fighting",
+        "weapons",
+        "blood",
+        "gore",
+        "combat"
+      ],
+      "severity_indicators": [
+        "realistic weapons",
+        "explicit violence",
+        "gore"
+      ],
+      "context_factors": [
+        "gaming violence vs real violence",
+        "educational vs gratuitous"
+      ],
+      "violation_detected": true
+    },
+    {
+      "type": "visual",
+      "frame": 10,
+      "timestamp": 4.5,
+      "category": "safe_content",
+      "confidence": 0.413116991519928,
+      "blip": "a man holding a gun in a dark room",
+      "ocr": "",
+      "policy": {
+        "description": "Content depicting violence, weapons, or graphic imagery",
+        "examples": [
+          "fighting",
+          "weapons",
+          "blood",
+          "gore",
+          "combat"
+        ],
+        "severity_indicators": [
+          "realistic weapons",
+          "explicit violence",
+          "gore"
+        ],
+        "context_matters": [
+          "gaming violence vs real violence",
+          "educational vs gratuitous"
+        ],
+        "action_required": "human_review_required"
+      },
+      "action_required": "human_review_required",
+      "examples": [
+        "fighting",
+        "weapons",
+        "blood",
+        "gore",
+        "combat"
+      ],
+      "severity_indicators": [
+        "realistic weapons",
+        "explicit violence",
+        "gore"
+      ],
+      "context_factors": [
+        "gaming violence vs real violence",
+        "educational vs gratuitous"
+      ],
+      "violation_detected": false
+    },
+    {
+      "type": "visual",
+      "frame": 11,
+      "timestamp": 5.0,
+      "category": "suggestive_content",
+      "confidence": 0.4671180248260498,
+      "blip": "a man holding a gun in a dark room",
+      "ocr": "",
+      "policy": {
+        "description": "Content depicting violence, weapons, or graphic imagery",
+        "examples": [
+          "fighting",
+          "weapons",
+          "blood",
+          "gore",
+          "combat"
+        ],
+        "severity_indicators": [
+          "realistic weapons",
+          "explicit violence",
+          "gore"
+        ],
+        "context_matters": [
+          "gaming violence vs real violence",
+          "educational vs gratuitous"
+        ],
+        "action_required": "human_review_required"
+      },
+      "action_required": "human_review_required",
+      "examples": [
+        "fighting",
+        "weapons",
+        "blood",
+        "gore",
+        "combat"
+      ],
+      "severity_indicators": [
+        "realistic weapons",
+        "explicit violence",
+        "gore"
+      ],
+      "context_factors": [
+        "gaming violence vs real violence",
+        "educational vs gratuitous"
+      ],
+      "violation_detected": true
+    },
+    {
+      "type": "visual",
+      "frame": 12,
+      "timestamp": 5.5,
+      "category": "suggestive_content",
+      "confidence": 0.36145755648612976,
+      "blip": "a man holding a gun in a dark room",
+      "ocr": "",
+      "policy": {
+        "description": "Content depicting violence, weapons, or graphic imagery",
+        "examples": [
+          "fighting",
+          "weapons",
+          "blood",
+          "gore",
+          "combat"
+        ],
+        "severity_indicators": [
+          "realistic weapons",
+          "explicit violence",
+          "gore"
+        ],
+        "context_matters": [
+          "gaming violence vs real violence",
+          "educational vs gratuitous"
+        ],
+        "action_required": "human_review_required"
+      },
+      "action_required": "human_review_required",
+      "examples": [
+        "fighting",
+        "weapons",
+        "blood",
+        "gore",
+        "combat"
+      ],
+      "severity_indicators": [
+        "realistic weapons",
+        "explicit violence",
+        "gore"
+      ],
+      "context_factors": [
+        "gaming violence vs real violence",
+        "educational vs gratuitous"
+      ],
+      "violation_detected": true
+    },
+    {
+      "type": "visual",
+      "frame": 13,
+      "timestamp": 6.0,
+      "category": "suggestive_content",
+      "confidence": 0.41416576504707336,
+      "blip": "a man holding a gun in a dark room",
+      "ocr": "",
+      "policy": {
+        "description": "Content depicting violence, weapons, or graphic imagery",
+        "examples": [
+          "fighting",
+          "weapons",
+          "blood",
+          "gore",
+          "combat"
+        ],
+        "severity_indicators": [
+          "realistic weapons",
+          "explicit violence",
+          "gore"
+        ],
+        "context_matters": [
+          "gaming violence vs real violence",
+          "educational vs gratuitous"
+        ],
+        "action_required": "human_review_required"
+      },
+      "action_required": "human_review_required",
+      "examples": [
+        "fighting",
+        "weapons",
+        "blood",
+        "gore",
+        "combat"
+      ],
+      "severity_indicators": [
+        "realistic weapons",
+        "explicit violence",
+        "gore"
+      ],
+      "context_factors": [
+        "gaming violence vs real violence",
+        "educational vs gratuitous"
+      ],
+      "violation_detected": true
+    },
+    {
+      "type": "visual",
+      "frame": 14,
+      "timestamp": 6.5,
+      "category": "safe_content",
+      "confidence": 0.33824825286865234,
+      "blip": "a man holding a gun in a dark room",
+      "ocr": "",
+      "policy": {
+        "description": "Content depicting violence, weapons, or graphic imagery",
+        "examples": [
+          "fighting",
+          "weapons",
+          "blood",
+          "gore",
+          "combat"
+        ],
+        "severity_indicators": [
+          "realistic weapons",
+          "explicit violence",
+          "gore"
+        ],
+        "context_matters": [
+          "gaming violence vs real violence",
+          "educational vs gratuitous"
+        ],
+        "action_required": "human_review_required"
+      },
+      "action_required": "human_review_required",
+      "examples": [
+        "fighting",
+        "weapons",
+        "blood",
+        "gore",
+        "combat"
+      ],
+      "severity_indicators": [
+        "realistic weapons",
+        "explicit violence",
+        "gore"
+      ],
+      "context_factors": [
+        "gaming violence vs real violence",
+        "educational vs gratuitous"
+      ],
+      "violation_detected": false
+    },
+    {
+      "type": "visual",
+      "frame": 15,
+      "timestamp": 7.0,
+      "category": "suggestive_content",
+      "confidence": 0.5053698420524597,
+      "blip": "a woman holding a gun in a dark room",
+      "ocr": "",
+      "policy": {
+        "description": "Content depicting violence, weapons, or graphic imagery",
+        "examples": [
+          "fighting",
+          "weapons",
+          "blood",
+          "gore",
+          "combat"
+        ],
+        "severity_indicators": [
+          "realistic weapons",
+          "explicit violence",
+          "gore"
+        ],
+        "context_matters": [
+          "gaming violence vs real violence",
+          "educational vs gratuitous"
+        ],
+        "action_required": "human_review_required"
+      },
+      "action_required": "human_review_required",
+      "examples": [
+        "fighting",
+        "weapons",
+        "blood",
+        "gore",
+        "combat"
+      ],
+      "severity_indicators": [
+        "realistic weapons",
+        "explicit violence",
+        "gore"
+      ],
+      "context_factors": [
+        "gaming violence vs real violence",
+        "educational vs gratuitous"
+      ],
+      "violation_detected": true
+    },
+    {
+      "type": "visual",
+      "frame": 16,
+      "timestamp": 7.5,
+      "category": "suggestive_content",
+      "confidence": 0.5061464905738831,
+      "blip": "a man holding a gun in a building",
+      "ocr": "",
+      "policy": {
+        "description": "Content depicting violence, weapons, or graphic imagery",
+        "examples": [
+          "fighting",
+          "weapons",
+          "blood",
+          "gore",
+          "combat"
+        ],
+        "severity_indicators": [
+          "realistic weapons",
+          "explicit violence",
+          "gore"
+        ],
+        "context_matters": [
+          "gaming violence vs real violence",
+          "educational vs gratuitous"
+        ],
+        "action_required": "human_review_required"
+      },
+      "action_required": "human_review_required",
+      "examples": [
+        "fighting",
+        "weapons",
+        "blood",
+        "gore",
+        "combat"
+      ],
+      "severity_indicators": [
+        "realistic weapons",
+        "explicit violence",
+        "gore"
+      ],
+      "context_factors": [
+        "gaming violence vs real violence",
+        "educational vs gratuitous"
+      ],
+      "violation_detected": true
+    },
+    {
+      "type": "visual",
+      "frame": 17,
+      "timestamp": 8.0,
+      "category": "suggestive_content",
+      "confidence": 0.5714470148086548,
+      "blip": "a man holding a gun in a dark room",
+      "ocr": "",
+      "policy": {
+        "description": "Content depicting violence, weapons, or graphic imagery",
+        "examples": [
+          "fighting",
+          "weapons",
+          "blood",
+          "gore",
+          "combat"
+        ],
+        "severity_indicators": [
+          "realistic weapons",
+          "explicit violence",
+          "gore"
+        ],
+        "context_matters": [
+          "gaming violence vs real violence",
+          "educational vs gratuitous"
+        ],
+        "action_required": "human_review_required"
+      },
+      "action_required": "human_review_required",
+      "examples": [
+        "fighting",
+        "weapons",
+        "blood",
+        "gore",
+        "combat"
+      ],
+      "severity_indicators": [
+        "realistic weapons",
+        "explicit violence",
+        "gore"
+      ],
+      "context_factors": [
+        "gaming violence vs real violence",
+        "educational vs gratuitous"
+      ],
+      "violation_detected": true
+    },
+    {
+      "type": "visual",
+      "frame": 18,
+      "timestamp": 8.5,
+      "category": "suggestive_content",
+      "confidence": 0.5153319239616394,
+      "blip": "a woman holding a gun in a dark room",
+      "ocr": "",
+      "policy": {
+        "description": "Content depicting violence, weapons, or graphic imagery",
+        "examples": [
+          "fighting",
+          "weapons",
+          "blood",
+          "gore",
+          "combat"
+        ],
+        "severity_indicators": [
+          "realistic weapons",
+          "explicit violence",
+          "gore"
+        ],
+        "context_matters": [
+          "gaming violence vs real violence",
+          "educational vs gratuitous"
+        ],
+        "action_required": "human_review_required"
+      },
+      "action_required": "human_review_required",
+      "examples": [
+        "fighting",
+        "weapons",
+        "blood",
+        "gore",
+        "combat"
+      ],
+      "severity_indicators": [
+        "realistic weapons",
+        "explicit violence",
+        "gore"
+      ],
+      "context_factors": [
+        "gaming violence vs real violence",
+        "educational vs gratuitous"
+      ],
+      "violation_detected": true
+    },
+    {
+      "type": "visual",
+      "frame": 19,
+      "timestamp": 9.0,
+      "category": "suggestive_content",
+      "confidence": 0.35433030128479004,
+      "blip": "a man holding a gun in a dark room",
+      "ocr": "",
+      "policy": {
+        "description": "Content depicting violence, weapons, or graphic imagery",
+        "examples": [
+          "fighting",
+          "weapons",
+          "blood",
+          "gore",
+          "combat"
+        ],
+        "severity_indicators": [
+          "realistic weapons",
+          "explicit violence",
+          "gore"
+        ],
+        "context_matters": [
+          "gaming violence vs real violence",
+          "educational vs gratuitous"
+        ],
+        "action_required": "human_review_required"
+      },
+      "action_required": "human_review_required",
+      "examples": [
+        "fighting",
+        "weapons",
+        "blood",
+        "gore",
+        "combat"
+      ],
+      "severity_indicators": [
+        "realistic weapons",
+        "explicit violence",
+        "gore"
+      ],
+      "context_factors": [
+        "gaming violence vs real violence",
+        "educational vs gratuitous"
+      ],
+      "violation_detected": true
+    },
+    {
+      "type": "visual",
+      "frame": 20,
+      "timestamp": 9.5,
+      "category": "safe_content",
+      "confidence": 0.4995070695877075,
+      "blip": "a man holding a gun in a dark room",
+      "ocr": "",
+      "policy": {
+        "description": "Content depicting violence, weapons, or graphic imagery",
+        "examples": [
+          "fighting",
+          "weapons",
+          "blood",
+          "gore",
+          "combat"
+        ],
+        "severity_indicators": [
+          "realistic weapons",
+          "explicit violence",
+          "gore"
+        ],
+        "context_matters": [
+          "gaming violence vs real violence",
+          "educational vs gratuitous"
+        ],
+        "action_required": "human_review_required"
+      },
+      "action_required": "human_review_required",
+      "examples": [
+        "fighting",
+        "weapons",
+        "blood",
+        "gore",
+        "combat"
+      ],
+      "severity_indicators": [
+        "realistic weapons",
+        "explicit violence",
+        "gore"
+      ],
+      "context_factors": [
+        "gaming violence vs real violence",
+        "educational vs gratuitous"
+      ],
+      "violation_detected": false
+    },
+    {
+      "type": "visual",
+      "frame": 21,
+      "timestamp": 10.0,
+      "category": "safe_content",
+      "confidence": 0.5540755391120911,
+      "blip": "a man holding a gun in a dark room",
+      "ocr": "",
+      "policy": {
+        "description": "Content depicting violence, weapons, or graphic imagery",
+        "examples": [
+          "fighting",
+          "weapons",
+          "blood",
+          "gore",
+          "combat"
+        ],
+        "severity_indicators": [
+          "realistic weapons",
+          "explicit violence",
+          "gore"
+        ],
+        "context_matters": [
+          "gaming violence vs real violence",
+          "educational vs gratuitous"
+        ],
+        "action_required": "human_review_required"
+      },
+      "action_required": "human_review_required",
+      "examples": [
+        "fighting",
+        "weapons",
+        "blood",
+        "gore",
+        "combat"
+      ],
+      "severity_indicators": [
+        "realistic weapons",
+        "explicit violence",
+        "gore"
+      ],
+      "context_factors": [
+        "gaming violence vs real violence",
+        "educational vs gratuitous"
+      ],
+      "violation_detected": false
+    },
+    {
+      "type": "visual",
+      "frame": 22,
+      "timestamp": 10.5,
+      "category": "safe_content",
+      "confidence": 0.5837635397911072,
+      "blip": "a man holding a gun in a dark room",
+      "ocr": "",
+      "policy": {
+        "description": "Content depicting violence, weapons, or graphic imagery",
+        "examples": [
+          "fighting",
+          "weapons",
+          "blood",
+          "gore",
+          "combat"
+        ],
+        "severity_indicators": [
+          "realistic weapons",
+          "explicit violence",
+          "gore"
+        ],
+        "context_matters": [
+          "gaming violence vs real violence",
+          "educational vs gratuitous"
+        ],
+        "action_required": "human_review_required"
+      },
+      "action_required": "human_review_required",
+      "examples": [
+        "fighting",
+        "weapons",
+        "blood",
+        "gore",
+        "combat"
+      ],
+      "severity_indicators": [
+        "realistic weapons",
+        "explicit violence",
+        "gore"
+      ],
+      "context_factors": [
+        "gaming violence vs real violence",
+        "educational vs gratuitous"
+      ],
+      "violation_detected": false
+    },
+    {
+      "type": "visual",
+      "frame": 23,
+      "timestamp": 11.0,
+      "category": "safe_content",
+      "confidence": 0.5599046349525452,
+      "blip": "a man holding a gun in a dark room",
+      "ocr": "",
+      "policy": {
+        "description": "Content depicting violence, weapons, or graphic imagery",
+        "examples": [
+          "fighting",
+          "weapons",
+          "blood",
+          "gore",
+          "combat"
+        ],
+        "severity_indicators": [
+          "realistic weapons",
+          "explicit violence",
+          "gore"
+        ],
+        "context_matters": [
+          "gaming violence vs real violence",
+          "educational vs gratuitous"
+        ],
+        "action_required": "human_review_required"
+      },
+      "action_required": "human_review_required",
+      "examples": [
+        "fighting",
+        "weapons",
+        "blood",
+        "gore",
+        "combat"
+      ],
+      "severity_indicators": [
+        "realistic weapons",
+        "explicit violence",
+        "gore"
+      ],
+      "context_factors": [
+        "gaming violence vs real violence",
+        "educational vs gratuitous"
+      ],
+      "violation_detected": false
+    },
+    {
+      "type": "visual",
+      "frame": 24,
+      "timestamp": 11.5,
+      "category": "suggestive_content",
+      "confidence": 0.3219250738620758,
+      "blip": "a man holding a gun in an old building",
+      "ocr": "",
+      "policy": {
+        "description": "Content depicting violence, weapons, or graphic imagery",
+        "examples": [
+          "fighting",
+          "weapons",
+          "blood",
+          "gore",
+          "combat"
+        ],
+        "severity_indicators": [
+          "realistic weapons",
+          "explicit violence",
+          "gore"
+        ],
+        "context_matters": [
+          "gaming violence vs real violence",
+          "educational vs gratuitous"
+        ],
+        "action_required": "human_review_required"
+      },
+      "action_required": "human_review_required",
+      "examples": [
+        "fighting",
+        "weapons",
+        "blood",
+        "gore",
+        "combat"
+      ],
+      "severity_indicators": [
+        "realistic weapons",
+        "explicit violence",
+        "gore"
+      ],
+      "context_factors": [
+        "gaming violence vs real violence",
+        "educational vs gratuitous"
+      ],
+      "violation_detected": true
+    },
+    {
+      "type": "visual",
+      "frame": 25,
+      "timestamp": 12.0,
+      "category": "safe_content",
+      "confidence": 0.41771063208580017,
+      "blip": "a man holding a gun in a dark room",
+      "ocr": "",
+      "policy": {
+        "description": "Content depicting violence, weapons, or graphic imagery",
+        "examples": [
+          "fighting",
+          "weapons",
+          "blood",
+          "gore",
+          "combat"
+        ],
+        "severity_indicators": [
+          "realistic weapons",
+          "explicit violence",
+          "gore"
+        ],
+        "context_matters": [
+          "gaming violence vs real violence",
+          "educational vs gratuitous"
+        ],
+        "action_required": "human_review_required"
+      },
+      "action_required": "human_review_required",
+      "examples": [
+        "fighting",
+        "weapons",
+        "blood",
+        "gore",
+        "combat"
+      ],
+      "severity_indicators": [
+        "realistic weapons",
+        "explicit violence",
+        "gore"
+      ],
+      "context_factors": [
+        "gaming violence vs real violence",
+        "educational vs gratuitous"
+      ],
+      "violation_detected": false
+    },
+    {
+      "type": "visual",
+      "frame": 26,
+      "timestamp": 12.5,
+      "category": "safe_content",
+      "confidence": 0.35560908913612366,
+      "blip": "a man holding a gun in a dark room",
+      "ocr": "",
+      "policy": {
+        "description": "Content depicting violence, weapons, or graphic imagery",
+        "examples": [
+          "fighting",
+          "weapons",
+          "blood",
+          "gore",
+          "combat"
+        ],
+        "severity_indicators": [
+          "realistic weapons",
+          "explicit violence",
+          "gore"
+        ],
+        "context_matters": [
+          "gaming violence vs real violence",
+          "educational vs gratuitous"
+        ],
+        "action_required": "human_review_required"
+      },
+      "action_required": "human_review_required",
+      "examples": [
+        "fighting",
+        "weapons",
+        "blood",
+        "gore",
+        "combat"
+      ],
+      "severity_indicators": [
+        "realistic weapons",
+        "explicit violence",
+        "gore"
+      ],
+      "context_factors": [
+        "gaming violence vs real violence",
+        "educational vs gratuitous"
+      ],
+      "violation_detected": false
+    },
+    {
+      "type": "visual",
+      "frame": 27,
+      "timestamp": 13.0,
+      "category": "safe_content",
+      "confidence": 0.34666988253593445,
+      "blip": "a woman holding a gun in a dark room",
+      "ocr": "",
+      "policy": {
+        "description": "Content depicting violence, weapons, or graphic imagery",
+        "examples": [
+          "fighting",
+          "weapons",
+          "blood",
+          "gore",
+          "combat"
+        ],
+        "severity_indicators": [
+          "realistic weapons",
+          "explicit violence",
+          "gore"
+        ],
+        "context_matters": [
+          "gaming violence vs real violence",
+          "educational vs gratuitous"
+        ],
+        "action_required": "human_review_required"
+      },
+      "action_required": "human_review_required",
+      "examples": [
+        "fighting",
+        "weapons",
+        "blood",
+        "gore",
+        "combat"
+      ],
+      "severity_indicators": [
+        "realistic weapons",
+        "explicit violence",
+        "gore"
+      ],
+      "context_factors": [
+        "gaming violence vs real violence",
+        "educational vs gratuitous"
+      ],
+      "violation_detected": false
+    },
+    {
+      "type": "visual",
+      "frame": 28,
+      "timestamp": 13.5,
+      "category": "suggestive_content",
+      "confidence": 0.337301641702652,
+      "blip": "a woman holding a gun in a dark room",
+      "ocr": "",
+      "policy": {
+        "description": "Content depicting violence, weapons, or graphic imagery",
+        "examples": [
+          "fighting",
+          "weapons",
+          "blood",
+          "gore",
+          "combat"
+        ],
+        "severity_indicators": [
+          "realistic weapons",
+          "explicit violence",
+          "gore"
+        ],
+        "context_matters": [
+          "gaming violence vs real violence",
+          "educational vs gratuitous"
+        ],
+        "action_required": "human_review_required"
+      },
+      "action_required": "human_review_required",
+      "examples": [
+        "fighting",
+        "weapons",
+        "blood",
+        "gore",
+        "combat"
+      ],
+      "severity_indicators": [
+        "realistic weapons",
+        "explicit violence",
+        "gore"
+      ],
+      "context_factors": [
+        "gaming violence vs real violence",
+        "educational vs gratuitous"
+      ],
+      "violation_detected": true
+    },
+    {
+      "type": "visual",
+      "frame": 29,
+      "timestamp": 14.0,
+      "category": "suggestive_content",
+      "confidence": 0.29956158995628357,
+      "blip": "a man holding a gun in a dark room",
+      "ocr": "",
+      "policy": {
+        "description": "Content depicting violence, weapons, or graphic imagery",
+        "examples": [
+          "fighting",
+          "weapons",
+          "blood",
+          "gore",
+          "combat"
+        ],
+        "severity_indicators": [
+          "realistic weapons",
+          "explicit violence",
+          "gore"
+        ],
+        "context_matters": [
+          "gaming violence vs real violence",
+          "educational vs gratuitous"
+        ],
+        "action_required": "human_review_required"
+      },
+      "action_required": "human_review_required",
+      "examples": [
+        "fighting",
+        "weapons",
+        "blood",
+        "gore",
+        "combat"
+      ],
+      "severity_indicators": [
+        "realistic weapons",
+        "explicit violence",
+        "gore"
+      ],
+      "context_factors": [
+        "gaming violence vs real violence",
+        "educational vs gratuitous"
+      ],
+      "violation_detected": true
+    },
+    {
+      "type": "visual",
+      "frame": 30,
+      "timestamp": 14.5,
+      "category": "artistic_adult_content",
+      "confidence": 0.47333192825317383,
+      "blip": "a man holding a gun in a dark room",
+      "ocr": "",
+      "policy": {
+        "description": "Content depicting violence, weapons, or graphic imagery",
+        "examples": [
+          "fighting",
+          "weapons",
+          "blood",
+          "gore",
+          "combat"
+        ],
+        "severity_indicators": [
+          "realistic weapons",
+          "explicit violence",
+          "gore"
+        ],
+        "context_matters": [
+          "gaming violence vs real violence",
+          "educational vs gratuitous"
+        ],
+        "action_required": "human_review_required"
+      },
+      "action_required": "human_review_required",
+      "examples": [
+        "fighting",
+        "weapons",
+        "blood",
+        "gore",
+        "combat"
+      ],
+      "severity_indicators": [
+        "realistic weapons",
+        "explicit violence",
+        "gore"
+      ],
+      "context_factors": [
+        "gaming violence vs real violence",
+        "educational vs gratuitous"
+      ],
+      "violation_detected": true
+    },
+    {
+      "type": "visual",
+      "frame": 31,
+      "timestamp": 15.0,
+      "category": "suggestive_content",
+      "confidence": 0.46742430329322815,
+      "blip": "a man holding a gun in a dark room",
+      "ocr": "",
+      "policy": {
+        "description": "Content depicting violence, weapons, or graphic imagery",
+        "examples": [
+          "fighting",
+          "weapons",
+          "blood",
+          "gore",
+          "combat"
+        ],
+        "severity_indicators": [
+          "realistic weapons",
+          "explicit violence",
+          "gore"
+        ],
+        "context_matters": [
+          "gaming violence vs real violence",
+          "educational vs gratuitous"
+        ],
+        "action_required": "human_review_required"
+      },
+      "action_required": "human_review_required",
+      "examples": [
+        "fighting",
+        "weapons",
+        "blood",
+        "gore",
+        "combat"
+      ],
+      "severity_indicators": [
+        "realistic weapons",
+        "explicit violence",
+        "gore"
+      ],
+      "context_factors": [
+        "gaming violence vs real violence",
+        "educational vs gratuitous"
+      ],
+      "violation_detected": true
+    },
+    {
+      "type": "visual",
+      "frame": 32,
+      "timestamp": 15.5,
+      "category": "suggestive_content",
+      "confidence": 0.4986930787563324,
+      "blip": "a man holding a gun in a dark room",
+      "ocr": "",
+      "policy": {
+        "description": "Content depicting violence, weapons, or graphic imagery",
+        "examples": [
+          "fighting",
+          "weapons",
+          "blood",
+          "gore",
+          "combat"
+        ],
+        "severity_indicators": [
+          "realistic weapons",
+          "explicit violence",
+          "gore"
+        ],
+        "context_matters": [
+          "gaming violence vs real violence",
+          "educational vs gratuitous"
+        ],
+        "action_required": "human_review_required"
+      },
+      "action_required": "human_review_required",
+      "examples": [
+        "fighting",
+        "weapons",
+        "blood",
+        "gore",
+        "combat"
+      ],
+      "severity_indicators": [
+        "realistic weapons",
+        "explicit violence",
+        "gore"
+      ],
+      "context_factors": [
+        "gaming violence vs real violence",
+        "educational vs gratuitous"
+      ],
+      "violation_detected": true
+    },
+    {
+      "type": "visual",
+      "frame": 33,
+      "timestamp": 16.0,
+      "category": "suggestive_content",
+      "confidence": 0.40341272950172424,
+      "blip": "a man holding a gun in a dark room",
+      "ocr": "",
+      "policy": {
+        "description": "Content depicting violence, weapons, or graphic imagery",
+        "examples": [
+          "fighting",
+          "weapons",
+          "blood",
+          "gore",
+          "combat"
+        ],
+        "severity_indicators": [
+          "realistic weapons",
+          "explicit violence",
+          "gore"
+        ],
+        "context_matters": [
+          "gaming violence vs real violence",
+          "educational vs gratuitous"
+        ],
+        "action_required": "human_review_required"
+      },
+      "action_required": "human_review_required",
+      "examples": [
+        "fighting",
+        "weapons",
+        "blood",
+        "gore",
+        "combat"
+      ],
+      "severity_indicators": [
+        "realistic weapons",
+        "explicit violence",
+        "gore"
+      ],
+      "context_factors": [
+        "gaming violence vs real violence",
+        "educational vs gratuitous"
+      ],
+      "violation_detected": true
+    },
+    {
+      "type": "visual",
+      "frame": 34,
+      "timestamp": 16.5,
+      "category": "suggestive_content",
+      "confidence": 0.3982124328613281,
+      "blip": "a man holding a gun in a dark room",
+      "ocr": "",
+      "policy": {
+        "description": "Content depicting violence, weapons, or graphic imagery",
+        "examples": [
+          "fighting",
+          "weapons",
+          "blood",
+          "gore",
+          "combat"
+        ],
+        "severity_indicators": [
+          "realistic weapons",
+          "explicit violence",
+          "gore"
+        ],
+        "context_matters": [
+          "gaming violence vs real violence",
+          "educational vs gratuitous"
+        ],
+        "action_required": "human_review_required"
+      },
+      "action_required": "human_review_required",
+      "examples": [
+        "fighting",
+        "weapons",
+        "blood",
+        "gore",
+        "combat"
+      ],
+      "severity_indicators": [
+        "realistic weapons",
+        "explicit violence",
+        "gore"
+      ],
+      "context_factors": [
+        "gaming violence vs real violence",
+        "educational vs gratuitous"
+      ],
+      "violation_detected": true
+    },
+    {
+      "type": "visual",
+      "frame": 35,
+      "timestamp": 17.0,
+      "category": "suggestive_content",
+      "confidence": 0.8817230463027954,
+      "blip": "a man holding a gun in a room",
+      "ocr": "",
+      "policy": {
+        "description": "Content depicting violence, weapons, or graphic imagery",
+        "examples": [
+          "fighting",
+          "weapons",
+          "blood",
+          "gore",
+          "combat"
+        ],
+        "severity_indicators": [
+          "realistic weapons",
+          "explicit violence",
+          "gore"
+        ],
+        "context_matters": [
+          "gaming violence vs real violence",
+          "educational vs gratuitous"
+        ],
+        "action_required": "human_review_required"
+      },
+      "action_required": "human_review_required",
+      "examples": [
+        "fighting",
+        "weapons",
+        "blood",
+        "gore",
+        "combat"
+      ],
+      "severity_indicators": [
+        "realistic weapons",
+        "explicit violence",
+        "gore"
+      ],
+      "context_factors": [
+        "gaming violence vs real violence",
+        "educational vs gratuitous"
+      ],
+      "violation_detected": true
+    },
+    {
+      "type": "visual",
+      "frame": 36,
+      "timestamp": 17.5,
+      "category": "safe_content",
+      "confidence": 0.4420869052410126,
+      "blip": "a man holding a gun in a dark room",
+      "ocr": "",
+      "policy": {
+        "description": "Content depicting violence, weapons, or graphic imagery",
+        "examples": [
+          "fighting",
+          "weapons",
+          "blood",
+          "gore",
+          "combat"
+        ],
+        "severity_indicators": [
+          "realistic weapons",
+          "explicit violence",
+          "gore"
+        ],
+        "context_matters": [
+          "gaming violence vs real violence",
+          "educational vs gratuitous"
+        ],
+        "action_required": "human_review_required"
+      },
+      "action_required": "human_review_required",
+      "examples": [
+        "fighting",
+        "weapons",
+        "blood",
+        "gore",
+        "combat"
+      ],
+      "severity_indicators": [
+        "realistic weapons",
+        "explicit violence",
+        "gore"
+      ],
+      "context_factors": [
+        "gaming violence vs real violence",
+        "educational vs gratuitous"
+      ],
+      "violation_detected": false
+    },
+    {
+      "type": "visual",
+      "frame": 37,
+      "timestamp": 18.0,
+      "category": "suggestive_content",
+      "confidence": 0.35154542326927185,
+      "blip": "a man holding a gun in a dark room",
+      "ocr": "",
+      "policy": {
+        "description": "Content depicting violence, weapons, or graphic imagery",
+        "examples": [
+          "fighting",
+          "weapons",
+          "blood",
+          "gore",
+          "combat"
+        ],
+        "severity_indicators": [
+          "realistic weapons",
+          "explicit violence",
+          "gore"
+        ],
+        "context_matters": [
+          "gaming violence vs real violence",
+          "educational vs gratuitous"
+        ],
+        "action_required": "human_review_required"
+      },
+      "action_required": "human_review_required",
+      "examples": [
+        "fighting",
+        "weapons",
+        "blood",
+        "gore",
+        "combat"
+      ],
+      "severity_indicators": [
+        "realistic weapons",
+        "explicit violence",
+        "gore"
+      ],
+      "context_factors": [
+        "gaming violence vs real violence",
+        "educational vs gratuitous"
+      ],
+      "violation_detected": true
+    },
+    {
+      "type": "visual",
+      "frame": 38,
+      "timestamp": 18.5,
+      "category": "artistic_adult_content",
+      "confidence": 0.41242414712905884,
+      "blip": "a man holding a gun in a dark room",
+      "ocr": "",
+      "policy": {
+        "description": "Content depicting violence, weapons, or graphic imagery",
+        "examples": [
+          "fighting",
+          "weapons",
+          "blood",
+          "gore",
+          "combat"
+        ],
+        "severity_indicators": [
+          "realistic weapons",
+          "explicit violence",
+          "gore"
+        ],
+        "context_matters": [
+          "gaming violence vs real violence",
+          "educational vs gratuitous"
+        ],
+        "action_required": "human_review_required"
+      },
+      "action_required": "human_review_required",
+      "examples": [
+        "fighting",
+        "weapons",
+        "blood",
+        "gore",
+        "combat"
+      ],
+      "severity_indicators": [
+        "realistic weapons",
+        "explicit violence",
+        "gore"
+      ],
+      "context_factors": [
+        "gaming violence vs real violence",
+        "educational vs gratuitous"
+      ],
+      "violation_detected": true
+    },
+    {
+      "type": "visual",
+      "frame": 39,
+      "timestamp": 19.0,
+      "category": "artistic_adult_content",
+      "confidence": 0.3774462938308716,
+      "blip": "a man taking a picture of himself",
+      "ocr": "",
+      "policy": {
+        "description": "Content showing dangerous or harmful activities",
+        "examples": [
+          "extreme stunts",
+          "self-harm",
+          "dangerous challenges"
+        ],
+        "severity_indicators": [
+          "life-threatening",
+          "copyable dangers",
+          "no safety warnings"
+        ],
+        "context_matters": [
+          "professional vs amateur",
+          "safety precautions shown"
+        ],
+        "action_required": "age_restriction_or_removal"
+      },
+      "action_required": "age_restriction_or_removal",
+      "examples": [
+        "extreme stunts",
+        "self-harm",
+        "dangerous challenges"
+      ],
+      "severity_indicators": [
+        "life-threatening",
+        "copyable dangers",
+        "no safety warnings"
+      ],
+      "context_factors": [
+        "professional vs amateur",
+        "safety precautions shown"
+      ],
+      "violation_detected": true
+    },
+    {
+      "type": "audio",
+      "category": "safe",
+      "keywords": [],
+      "severity": "none",
+      "transcript": " you",
+      "policy": {
+        "description": "Content showing dangerous or harmful activities",
+        "examples": [
+          "extreme stunts",
+          "self-harm",
+          "dangerous challenges"
+        ],
+        "severity_indicators": [
+          "life-threatening",
+          "copyable dangers",
+          "no safety warnings"
+        ],
+        "context_matters": [
+          "professional vs amateur",
+          "safety precautions shown"
+        ],
+        "action_required": "age_restriction_or_removal"
+      },
+      "action_required": "age_restriction_or_removal",
+      "examples": [
+        "extreme stunts",
+        "self-harm",
+        "dangerous challenges"
+      ],
+      "severity_indicators": [
+        "life-threatening",
+        "copyable dangers",
+        "no safety warnings"
+      ],
+      "context_factors": [
+        "professional vs amateur",
+        "safety precautions shown"
+      ]
+    }
+  ]
+}

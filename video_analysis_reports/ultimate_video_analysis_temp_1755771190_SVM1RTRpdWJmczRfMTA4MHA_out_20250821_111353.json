@@ -1,0 +1,2699 @@
+{
+  "video_info": {
+    "path": "C:\\Users\\PC\\AppData\\Local\\Temp\\video_analysis\\temp_1755771190_SVM1RTRpdWJmczRfMTA4MHA_out.mp4",
+    "name": "temp_1755771190_SVM1RTRpdWJmczRfMTA4MHA_out.mp4",
+    "analysis_time": 16.469560146331787,
+    "timestamp": "2025-08-21T11:13:43.573904"
+  },
+  "frame_analysis": {
+    "total_frames": 5,
+    "violation_frames": 4,
+    "average_confidence": 0.6678280234336853,
+    "violation_categories": [
+      "suggestive_content"
+    ]
+  },
+  "audio_analysis": {
+    "transcript": " Stop for a second. The video you were watching was pretty funny, right? And now that I interrupted it, it bothered you. Didn't it? Look at this. This is your face. And you don't look that happy. You probably didn't even care about that video. So why did you want to keep watching it? Something interesting is happening in your brain, a chemical explosion of dopamine. That's the substance your brain releases when you watch videos like that. And there's a problem. It's addictive. Exactly. I'm not going to put that video because you liked it, but because your brain needs more dopamine. Probably only 10% of people have made it this far into the video. Because all this need for dopamine has consequences, especially on our attention. Have you noticed that you can't focus on a book, watch a movie, or study without grabbing your phone? That's brain rock. It's the loss of your cognitive abilities, like attention and memory, caused by excessive consumption of quick, useless content. And the saddest part is, we're all victims of this phenomenon. Let's do a test. Watch this video. I'm looking at my phone. What is this? I mean, that's why it says, you. Ah! Now, close your eyes for a moment. Feel what's happening in your body. If you pay close attention, your hand is probably already ready to scroll for another video. Your brain is looking for that pleasure feeling that comes with another dose of dopamine. And if you don't see anything wrong with all of this, you should know that these chemical reactions in your brain are affecting your daily life. Not only are your attention levels dropping, but so is your intelligence. Think for a second. When you scroll on social media, your brain shuts off. It's not thinking about anything. It's receiving millions of useless stimuli that just make it more tired. If you keep this up, you'll lose your creativity, your reasoning ability, and your memory. This legal drug is corroding your brain, making you dumber. And the real question is, is this really what you want? Probably not. So how can you avoid brain rock? Awareness is the first step. Picking up your phone, ask yourself, do I really need this? Or will I spend the next two hours trapped in the screen watching pointless things? You won't be able to control this impulse right away. But as soon as you finish using your phone, take a deep breath and ask yourself, do I feel better or worse than before? The second step is action. Remove all the apps that make you addicted to your phone and use them from your computer. Or by accessing them through a search engine. Turn off notifications for all apps that aren't important. Put your phone in black and white mode. Turn on, do not disturb. And leave it in another room while you work or before going to bed. The worst thing you can do is use your phone right after waking up. These are small things that will help you escape from this trap we've gotten so used to. And that seems normal to use so much. So if you really want to stop wasting time and escape brain rock, leave YouTube and apply the tips I just gave you before you forget them. Good luck. It's for your own good.",
+    "language": "en",
+    "policy_flags": {
+      "violence": {
+        "keywords_found": [
+          "war"
+        ],
+        "severity": "medium"
+      }
+    },
+    "whisper_available": true,
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 5.08,
+        "text": " Stop for a second.",
+        "tokens": [
+          50364,
+          5535,
+          337,
+          257,
+          1150,
+          13,
+          50618
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.14721501391866934,
+        "compression_ratio": 1.6464646464646464,
+        "no_speech_prob": 0.3157338500022888
+      },
+      {
+        "id": 1,
+        "seek": 0,
+        "start": 5.08,
+        "end": 8.08,
+        "text": " The video you were watching was pretty funny, right?",
+        "tokens": [
+          50618,
+          440,
+          960,
+          291,
+          645,
+          1976,
+          390,
+          1238,
+          4074,
+          11,
+          558,
+          30,
+          50768
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.14721501391866934,
+        "compression_ratio": 1.6464646464646464,
+        "no_speech_prob": 0.3157338500022888
+      },
+      {
+        "id": 2,
+        "seek": 0,
+        "start": 8.08,
+        "end": 10.34,
+        "text": " And now that I interrupted it, it bothered you.",
+        "tokens": [
+          50768,
+          400,
+          586,
+          300,
+          286,
+          30329,
+          309,
+          11,
+          309,
+          22996,
+          291,
+          13,
+          50881
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.14721501391866934,
+        "compression_ratio": 1.6464646464646464,
+        "no_speech_prob": 0.3157338500022888
+      },
+      {
+        "id": 3,
+        "seek": 0,
+        "start": 10.34,
+        "end": 11.34,
+        "text": " Didn't it?",
+        "tokens": [
+          50881,
+          11151,
+          380,
+          309,
+          30,
+          50931
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.14721501391866934,
+        "compression_ratio": 1.6464646464646464,
+        "no_speech_prob": 0.3157338500022888
+      },
+      {
+        "id": 4,
+        "seek": 0,
+        "start": 11.34,
+        "end": 12.34,
+        "text": " Look at this.",
+        "tokens": [
+          50931,
+          2053,
+          412,
+          341,
+          13,
+          50981
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.14721501391866934,
+        "compression_ratio": 1.6464646464646464,
+        "no_speech_prob": 0.3157338500022888
+      },
+      {
+        "id": 5,
+        "seek": 0,
+        "start": 12.34,
+        "end": 13.34,
+        "text": " This is your face.",
+        "tokens": [
+          50981,
+          639,
+          307,
+          428,
+          1851,
+          13,
+          51031
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.14721501391866934,
+        "compression_ratio": 1.6464646464646464,
+        "no_speech_prob": 0.3157338500022888
+      },
+      {
+        "id": 6,
+        "seek": 0,
+        "start": 13.34,
+        "end": 14.6,
+        "text": " And you don't look that happy.",
+        "tokens": [
+          51031,
+          400,
+          291,
+          500,
+          380,
+          574,
+          300,
+          2055,
+          13,
+          51094
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.14721501391866934,
+        "compression_ratio": 1.6464646464646464,
+        "no_speech_prob": 0.3157338500022888
+      },
+      {
+        "id": 7,
+        "seek": 0,
+        "start": 14.6,
+        "end": 17.16,
+        "text": " You probably didn't even care about that video.",
+        "tokens": [
+          51094,
+          509,
+          1391,
+          994,
+          380,
+          754,
+          1127,
+          466,
+          300,
+          960,
+          13,
+          51222
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.14721501391866934,
+        "compression_ratio": 1.6464646464646464,
+        "no_speech_prob": 0.3157338500022888
+      },
+      {
+        "id": 8,
+        "seek": 0,
+        "start": 17.16,
+        "end": 19.04,
+        "text": " So why did you want to keep watching it?",
+        "tokens": [
+          51222,
+          407,
+          983,
+          630,
+          291,
+          528,
+          281,
+          1066,
+          1976,
+          309,
+          30,
+          51316
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.14721501391866934,
+        "compression_ratio": 1.6464646464646464,
+        "no_speech_prob": 0.3157338500022888
+      },
+      {
+        "id": 9,
+        "seek": 0,
+        "start": 19.04,
+        "end": 23.28,
+        "text": " Something interesting is happening in your brain, a chemical explosion of dopamine.",
+        "tokens": [
+          51316,
+          6595,
+          1880,
+          307,
+          2737,
+          294,
+          428,
+          3567,
+          11,
+          257,
+          7313,
+          15673,
+          295,
+          37219,
+          13,
+          51528
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.14721501391866934,
+        "compression_ratio": 1.6464646464646464,
+        "no_speech_prob": 0.3157338500022888
+      },
+      {
+        "id": 10,
+        "seek": 0,
+        "start": 23.28,
+        "end": 26.64,
+        "text": " That's the substance your brain releases when you watch videos like that.",
+        "tokens": [
+          51528,
+          663,
+          311,
+          264,
+          12961,
+          428,
+          3567,
+          16952,
+          562,
+          291,
+          1159,
+          2145,
+          411,
+          300,
+          13,
+          51696
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.14721501391866934,
+        "compression_ratio": 1.6464646464646464,
+        "no_speech_prob": 0.3157338500022888
+      },
+      {
+        "id": 11,
+        "seek": 0,
+        "start": 26.64,
+        "end": 27.64,
+        "text": " And there's a problem.",
+        "tokens": [
+          51696,
+          400,
+          456,
+          311,
+          257,
+          1154,
+          13,
+          51746
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.14721501391866934,
+        "compression_ratio": 1.6464646464646464,
+        "no_speech_prob": 0.3157338500022888
+      },
+      {
+        "id": 12,
+        "seek": 0,
+        "start": 27.64,
+        "end": 28.64,
+        "text": " It's addictive.",
+        "tokens": [
+          51746,
+          467,
+          311,
+          36486,
+          13,
+          51796
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.14721501391866934,
+        "compression_ratio": 1.6464646464646464,
+        "no_speech_prob": 0.3157338500022888
+      },
+      {
+        "id": 13,
+        "seek": 0,
+        "start": 28.64,
+        "end": 29.64,
+        "text": " Exactly.",
+        "tokens": [
+          51796,
+          7587,
+          13,
+          51846
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.14721501391866934,
+        "compression_ratio": 1.6464646464646464,
+        "no_speech_prob": 0.3157338500022888
+      },
+      {
+        "id": 14,
+        "seek": 2964,
+        "start": 29.64,
+        "end": 32.44,
+        "text": " I'm not going to put that video because you liked it, but because your brain needs more",
+        "tokens": [
+          50364,
+          286,
+          478,
+          406,
+          516,
+          281,
+          829,
+          300,
+          960,
+          570,
+          291,
+          4501,
+          309,
+          11,
+          457,
+          570,
+          428,
+          3567,
+          2203,
+          544,
+          50504
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.224322010287278,
+        "compression_ratio": 1.655786350148368,
+        "no_speech_prob": 0.010485128499567509
+      },
+      {
+        "id": 15,
+        "seek": 2964,
+        "start": 32.44,
+        "end": 33.44,
+        "text": " dopamine.",
+        "tokens": [
+          50504,
+          37219,
+          13,
+          50554
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.224322010287278,
+        "compression_ratio": 1.655786350148368,
+        "no_speech_prob": 0.010485128499567509
+      },
+      {
+        "id": 16,
+        "seek": 2964,
+        "start": 33.44,
+        "end": 36.84,
+        "text": " Probably only 10% of people have made it this far into the video.",
+        "tokens": [
+          50554,
+          9210,
+          787,
+          1266,
+          4,
+          295,
+          561,
+          362,
+          1027,
+          309,
+          341,
+          1400,
+          666,
+          264,
+          960,
+          13,
+          50724
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.224322010287278,
+        "compression_ratio": 1.655786350148368,
+        "no_speech_prob": 0.010485128499567509
+      },
+      {
+        "id": 17,
+        "seek": 2964,
+        "start": 36.84,
+        "end": 41.56,
+        "text": " Because all this need for dopamine has consequences, especially on our attention.",
+        "tokens": [
+          50724,
+          1436,
+          439,
+          341,
+          643,
+          337,
+          37219,
+          575,
+          10098,
+          11,
+          2318,
+          322,
+          527,
+          3202,
+          13,
+          50960
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.224322010287278,
+        "compression_ratio": 1.655786350148368,
+        "no_speech_prob": 0.010485128499567509
+      },
+      {
+        "id": 18,
+        "seek": 2964,
+        "start": 41.56,
+        "end": 45.72,
+        "text": " Have you noticed that you can't focus on a book, watch a movie, or study without grabbing",
+        "tokens": [
+          50960,
+          3560,
+          291,
+          5694,
+          300,
+          291,
+          393,
+          380,
+          1879,
+          322,
+          257,
+          1446,
+          11,
+          1159,
+          257,
+          3169,
+          11,
+          420,
+          2979,
+          1553,
+          23771,
+          51168
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.224322010287278,
+        "compression_ratio": 1.655786350148368,
+        "no_speech_prob": 0.010485128499567509
+      },
+      {
+        "id": 19,
+        "seek": 2964,
+        "start": 45.72,
+        "end": 46.72,
+        "text": " your phone?",
+        "tokens": [
+          51168,
+          428,
+          2593,
+          30,
+          51218
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.224322010287278,
+        "compression_ratio": 1.655786350148368,
+        "no_speech_prob": 0.010485128499567509
+      },
+      {
+        "id": 20,
+        "seek": 2964,
+        "start": 46.72,
+        "end": 47.72,
+        "text": " That's brain rock.",
+        "tokens": [
+          51218,
+          663,
+          311,
+          3567,
+          3727,
+          13,
+          51268
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.224322010287278,
+        "compression_ratio": 1.655786350148368,
+        "no_speech_prob": 0.010485128499567509
+      },
+      {
+        "id": 21,
+        "seek": 2964,
+        "start": 47.72,
+        "end": 52.36,
+        "text": " It's the loss of your cognitive abilities, like attention and memory, caused by excessive",
+        "tokens": [
+          51268,
+          467,
+          311,
+          264,
+          4470,
+          295,
+          428,
+          15605,
+          11582,
+          11,
+          411,
+          3202,
+          293,
+          4675,
+          11,
+          7008,
+          538,
+          22704,
+          51500
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.224322010287278,
+        "compression_ratio": 1.655786350148368,
+        "no_speech_prob": 0.010485128499567509
+      },
+      {
+        "id": 22,
+        "seek": 2964,
+        "start": 52.36,
+        "end": 55.040000000000006,
+        "text": " consumption of quick, useless content.",
+        "tokens": [
+          51500,
+          12126,
+          295,
+          1702,
+          11,
+          14115,
+          2701,
+          13,
+          51634
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.224322010287278,
+        "compression_ratio": 1.655786350148368,
+        "no_speech_prob": 0.010485128499567509
+      },
+      {
+        "id": 23,
+        "seek": 2964,
+        "start": 55.040000000000006,
+        "end": 58.8,
+        "text": " And the saddest part is, we're all victims of this phenomenon.",
+        "tokens": [
+          51634,
+          400,
+          264,
+          4227,
+          23748,
+          644,
+          307,
+          11,
+          321,
+          434,
+          439,
+          11448,
+          295,
+          341,
+          14029,
+          13,
+          51822
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.224322010287278,
+        "compression_ratio": 1.655786350148368,
+        "no_speech_prob": 0.010485128499567509
+      },
+      {
+        "id": 24,
+        "seek": 5880,
+        "start": 58.8,
+        "end": 59.8,
+        "text": " Let's do a test.",
+        "tokens": [
+          50364,
+          961,
+          311,
+          360,
+          257,
+          1500,
+          13,
+          50414
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.23840626307896207,
+        "compression_ratio": 1.7023411371237458,
+        "no_speech_prob": 0.12747927010059357
+      },
+      {
+        "id": 25,
+        "seek": 5880,
+        "start": 59.8,
+        "end": 60.8,
+        "text": " Watch this video.",
+        "tokens": [
+          50414,
+          7277,
+          341,
+          960,
+          13,
+          50464
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.23840626307896207,
+        "compression_ratio": 1.7023411371237458,
+        "no_speech_prob": 0.12747927010059357
+      },
+      {
+        "id": 26,
+        "seek": 5880,
+        "start": 60.8,
+        "end": 61.8,
+        "text": " I'm looking at my phone.",
+        "tokens": [
+          50464,
+          286,
+          478,
+          1237,
+          412,
+          452,
+          2593,
+          13,
+          50514
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.23840626307896207,
+        "compression_ratio": 1.7023411371237458,
+        "no_speech_prob": 0.12747927010059357
+      },
+      {
+        "id": 27,
+        "seek": 5880,
+        "start": 61.8,
+        "end": 62.8,
+        "text": " What is this?",
+        "tokens": [
+          50514,
+          708,
+          307,
+          341,
+          30,
+          50564
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.23840626307896207,
+        "compression_ratio": 1.7023411371237458,
+        "no_speech_prob": 0.12747927010059357
+      },
+      {
+        "id": 28,
+        "seek": 5880,
+        "start": 62.8,
+        "end": 65.8,
+        "text": " I mean, that's why it says, you.",
+        "tokens": [
+          50564,
+          286,
+          914,
+          11,
+          300,
+          311,
+          983,
+          309,
+          1619,
+          11,
+          291,
+          13,
+          50714
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.23840626307896207,
+        "compression_ratio": 1.7023411371237458,
+        "no_speech_prob": 0.12747927010059357
+      },
+      {
+        "id": 29,
+        "seek": 5880,
+        "start": 65.8,
+        "end": 66.8,
+        "text": " Ah!",
+        "tokens": [
+          50714,
+          2438,
+          0,
+          50764
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.23840626307896207,
+        "compression_ratio": 1.7023411371237458,
+        "no_speech_prob": 0.12747927010059357
+      },
+      {
+        "id": 30,
+        "seek": 5880,
+        "start": 66.8,
+        "end": 68.32,
+        "text": " Now, close your eyes for a moment.",
+        "tokens": [
+          50764,
+          823,
+          11,
+          1998,
+          428,
+          2575,
+          337,
+          257,
+          1623,
+          13,
+          50840
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.23840626307896207,
+        "compression_ratio": 1.7023411371237458,
+        "no_speech_prob": 0.12747927010059357
+      },
+      {
+        "id": 31,
+        "seek": 5880,
+        "start": 68.32,
+        "end": 69.88,
+        "text": " Feel what's happening in your body.",
+        "tokens": [
+          50840,
+          14113,
+          437,
+          311,
+          2737,
+          294,
+          428,
+          1772,
+          13,
+          50918
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.23840626307896207,
+        "compression_ratio": 1.7023411371237458,
+        "no_speech_prob": 0.12747927010059357
+      },
+      {
+        "id": 32,
+        "seek": 5880,
+        "start": 69.88,
+        "end": 75.03999999999999,
+        "text": " If you pay close attention, your hand is probably already ready to scroll for another video.",
+        "tokens": [
+          50918,
+          759,
+          291,
+          1689,
+          1998,
+          3202,
+          11,
+          428,
+          1011,
+          307,
+          1391,
+          1217,
+          1919,
+          281,
+          11369,
+          337,
+          1071,
+          960,
+          13,
+          51176
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.23840626307896207,
+        "compression_ratio": 1.7023411371237458,
+        "no_speech_prob": 0.12747927010059357
+      },
+      {
+        "id": 33,
+        "seek": 5880,
+        "start": 75.03999999999999,
+        "end": 80.16,
+        "text": " Your brain is looking for that pleasure feeling that comes with another dose of dopamine.",
+        "tokens": [
+          51176,
+          2260,
+          3567,
+          307,
+          1237,
+          337,
+          300,
+          6834,
+          2633,
+          300,
+          1487,
+          365,
+          1071,
+          14041,
+          295,
+          37219,
+          13,
+          51432
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.23840626307896207,
+        "compression_ratio": 1.7023411371237458,
+        "no_speech_prob": 0.12747927010059357
+      },
+      {
+        "id": 34,
+        "seek": 5880,
+        "start": 80.16,
+        "end": 84.56,
+        "text": " And if you don't see anything wrong with all of this, you should know that these chemical",
+        "tokens": [
+          51432,
+          400,
+          498,
+          291,
+          500,
+          380,
+          536,
+          1340,
+          2085,
+          365,
+          439,
+          295,
+          341,
+          11,
+          291,
+          820,
+          458,
+          300,
+          613,
+          7313,
+          51652
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.23840626307896207,
+        "compression_ratio": 1.7023411371237458,
+        "no_speech_prob": 0.12747927010059357
+      },
+      {
+        "id": 35,
+        "seek": 5880,
+        "start": 84.56,
+        "end": 87.92,
+        "text": " reactions in your brain are affecting your daily life.",
+        "tokens": [
+          51652,
+          12215,
+          294,
+          428,
+          3567,
+          366,
+          17476,
+          428,
+          5212,
+          993,
+          13,
+          51820
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.23840626307896207,
+        "compression_ratio": 1.7023411371237458,
+        "no_speech_prob": 0.12747927010059357
+      },
+      {
+        "id": 36,
+        "seek": 8792,
+        "start": 87.92,
+        "end": 91.60000000000001,
+        "text": " Not only are your attention levels dropping, but so is your intelligence.",
+        "tokens": [
+          50364,
+          1726,
+          787,
+          366,
+          428,
+          3202,
+          4358,
+          13601,
+          11,
+          457,
+          370,
+          307,
+          428,
+          7599,
+          13,
+          50548
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.11594110854128574,
+        "compression_ratio": 1.6604938271604939,
+        "no_speech_prob": 0.05336519703269005
+      },
+      {
+        "id": 37,
+        "seek": 8792,
+        "start": 91.60000000000001,
+        "end": 92.6,
+        "text": " Think for a second.",
+        "tokens": [
+          50548,
+          6557,
+          337,
+          257,
+          1150,
+          13,
+          50598
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.11594110854128574,
+        "compression_ratio": 1.6604938271604939,
+        "no_speech_prob": 0.05336519703269005
+      },
+      {
+        "id": 38,
+        "seek": 8792,
+        "start": 92.6,
+        "end": 95.56,
+        "text": " When you scroll on social media, your brain shuts off.",
+        "tokens": [
+          50598,
+          1133,
+          291,
+          11369,
+          322,
+          2093,
+          3021,
+          11,
+          428,
+          3567,
+          48590,
+          766,
+          13,
+          50746
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.11594110854128574,
+        "compression_ratio": 1.6604938271604939,
+        "no_speech_prob": 0.05336519703269005
+      },
+      {
+        "id": 39,
+        "seek": 8792,
+        "start": 95.56,
+        "end": 97.28,
+        "text": " It's not thinking about anything.",
+        "tokens": [
+          50746,
+          467,
+          311,
+          406,
+          1953,
+          466,
+          1340,
+          13,
+          50832
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.11594110854128574,
+        "compression_ratio": 1.6604938271604939,
+        "no_speech_prob": 0.05336519703269005
+      },
+      {
+        "id": 40,
+        "seek": 8792,
+        "start": 97.28,
+        "end": 100.88,
+        "text": " It's receiving millions of useless stimuli that just make it more tired.",
+        "tokens": [
+          50832,
+          467,
+          311,
+          10040,
+          6803,
+          295,
+          14115,
+          47752,
+          300,
+          445,
+          652,
+          309,
+          544,
+          5868,
+          13,
+          51012
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.11594110854128574,
+        "compression_ratio": 1.6604938271604939,
+        "no_speech_prob": 0.05336519703269005
+      },
+      {
+        "id": 41,
+        "seek": 8792,
+        "start": 100.88,
+        "end": 105.44,
+        "text": " If you keep this up, you'll lose your creativity, your reasoning ability, and your memory.",
+        "tokens": [
+          51012,
+          759,
+          291,
+          1066,
+          341,
+          493,
+          11,
+          291,
+          603,
+          3624,
+          428,
+          12915,
+          11,
+          428,
+          21577,
+          3485,
+          11,
+          293,
+          428,
+          4675,
+          13,
+          51240
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.11594110854128574,
+        "compression_ratio": 1.6604938271604939,
+        "no_speech_prob": 0.05336519703269005
+      },
+      {
+        "id": 42,
+        "seek": 8792,
+        "start": 105.44,
+        "end": 109.28,
+        "text": " This legal drug is corroding your brain, making you dumber.",
+        "tokens": [
+          51240,
+          639,
+          5089,
+          4110,
+          307,
+          45125,
+          3584,
+          428,
+          3567,
+          11,
+          1455,
+          291,
+          274,
+          4182,
+          13,
+          51432
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.11594110854128574,
+        "compression_ratio": 1.6604938271604939,
+        "no_speech_prob": 0.05336519703269005
+      },
+      {
+        "id": 43,
+        "seek": 8792,
+        "start": 109.28,
+        "end": 112.44,
+        "text": " And the real question is, is this really what you want?",
+        "tokens": [
+          51432,
+          400,
+          264,
+          957,
+          1168,
+          307,
+          11,
+          307,
+          341,
+          534,
+          437,
+          291,
+          528,
+          30,
+          51590
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.11594110854128574,
+        "compression_ratio": 1.6604938271604939,
+        "no_speech_prob": 0.05336519703269005
+      },
+      {
+        "id": 44,
+        "seek": 8792,
+        "start": 112.44,
+        "end": 113.44,
+        "text": " Probably not.",
+        "tokens": [
+          51590,
+          9210,
+          406,
+          13,
+          51640
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.11594110854128574,
+        "compression_ratio": 1.6604938271604939,
+        "no_speech_prob": 0.05336519703269005
+      },
+      {
+        "id": 45,
+        "seek": 8792,
+        "start": 113.44,
+        "end": 115.04,
+        "text": " So how can you avoid brain rock?",
+        "tokens": [
+          51640,
+          407,
+          577,
+          393,
+          291,
+          5042,
+          3567,
+          3727,
+          30,
+          51720
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.11594110854128574,
+        "compression_ratio": 1.6604938271604939,
+        "no_speech_prob": 0.05336519703269005
+      },
+      {
+        "id": 46,
+        "seek": 8792,
+        "start": 115.04,
+        "end": 116.76,
+        "text": " Awareness is the first step.",
+        "tokens": [
+          51720,
+          43949,
+          1287,
+          307,
+          264,
+          700,
+          1823,
+          13,
+          51806
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.11594110854128574,
+        "compression_ratio": 1.6604938271604939,
+        "no_speech_prob": 0.05336519703269005
+      },
+      {
+        "id": 47,
+        "seek": 11676,
+        "start": 116.76,
+        "end": 120.08000000000001,
+        "text": " Picking up your phone, ask yourself, do I really need this?",
+        "tokens": [
+          50364,
+          430,
+          10401,
+          493,
+          428,
+          2593,
+          11,
+          1029,
+          1803,
+          11,
+          360,
+          286,
+          534,
+          643,
+          341,
+          30,
+          50530
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.14746510804589116,
+        "compression_ratio": 1.7003154574132493,
+        "no_speech_prob": 0.3306221663951874
+      },
+      {
+        "id": 48,
+        "seek": 11676,
+        "start": 120.08000000000001,
+        "end": 124.48,
+        "text": " Or will I spend the next two hours trapped in the screen watching pointless things?",
+        "tokens": [
+          50530,
+          1610,
+          486,
+          286,
+          3496,
+          264,
+          958,
+          732,
+          2496,
+          14994,
+          294,
+          264,
+          2568,
+          1976,
+          32824,
+          721,
+          30,
+          50750
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.14746510804589116,
+        "compression_ratio": 1.7003154574132493,
+        "no_speech_prob": 0.3306221663951874
+      },
+      {
+        "id": 49,
+        "seek": 11676,
+        "start": 124.48,
+        "end": 127.12,
+        "text": " You won't be able to control this impulse right away.",
+        "tokens": [
+          50750,
+          509,
+          1582,
+          380,
+          312,
+          1075,
+          281,
+          1969,
+          341,
+          26857,
+          558,
+          1314,
+          13,
+          50882
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.14746510804589116,
+        "compression_ratio": 1.7003154574132493,
+        "no_speech_prob": 0.3306221663951874
+      },
+      {
+        "id": 50,
+        "seek": 11676,
+        "start": 127.12,
+        "end": 131.44,
+        "text": " But as soon as you finish using your phone, take a deep breath and ask yourself, do I feel",
+        "tokens": [
+          50882,
+          583,
+          382,
+          2321,
+          382,
+          291,
+          2413,
+          1228,
+          428,
+          2593,
+          11,
+          747,
+          257,
+          2452,
+          6045,
+          293,
+          1029,
+          1803,
+          11,
+          360,
+          286,
+          841,
+          51098
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.14746510804589116,
+        "compression_ratio": 1.7003154574132493,
+        "no_speech_prob": 0.3306221663951874
+      },
+      {
+        "id": 51,
+        "seek": 11676,
+        "start": 131.44,
+        "end": 133.08,
+        "text": " better or worse than before?",
+        "tokens": [
+          51098,
+          1101,
+          420,
+          5324,
+          813,
+          949,
+          30,
+          51180
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.14746510804589116,
+        "compression_ratio": 1.7003154574132493,
+        "no_speech_prob": 0.3306221663951874
+      },
+      {
+        "id": 52,
+        "seek": 11676,
+        "start": 133.08,
+        "end": 135.08,
+        "text": " The second step is action.",
+        "tokens": [
+          51180,
+          440,
+          1150,
+          1823,
+          307,
+          3069,
+          13,
+          51280
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.14746510804589116,
+        "compression_ratio": 1.7003154574132493,
+        "no_speech_prob": 0.3306221663951874
+      },
+      {
+        "id": 53,
+        "seek": 11676,
+        "start": 135.08,
+        "end": 139.52,
+        "text": " Remove all the apps that make you addicted to your phone and use them from your computer.",
+        "tokens": [
+          51280,
+          18831,
+          439,
+          264,
+          7733,
+          300,
+          652,
+          291,
+          24629,
+          281,
+          428,
+          2593,
+          293,
+          764,
+          552,
+          490,
+          428,
+          3820,
+          13,
+          51502
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.14746510804589116,
+        "compression_ratio": 1.7003154574132493,
+        "no_speech_prob": 0.3306221663951874
+      },
+      {
+        "id": 54,
+        "seek": 11676,
+        "start": 139.52,
+        "end": 142.16,
+        "text": " Or by accessing them through a search engine.",
+        "tokens": [
+          51502,
+          1610,
+          538,
+          26440,
+          552,
+          807,
+          257,
+          3164,
+          2848,
+          13,
+          51634
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.14746510804589116,
+        "compression_ratio": 1.7003154574132493,
+        "no_speech_prob": 0.3306221663951874
+      },
+      {
+        "id": 55,
+        "seek": 11676,
+        "start": 142.16,
+        "end": 145.52,
+        "text": " Turn off notifications for all apps that aren't important.",
+        "tokens": [
+          51634,
+          7956,
+          766,
+          13426,
+          337,
+          439,
+          7733,
+          300,
+          3212,
+          380,
+          1021,
+          13,
+          51802
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.14746510804589116,
+        "compression_ratio": 1.7003154574132493,
+        "no_speech_prob": 0.3306221663951874
+      },
+      {
+        "id": 56,
+        "seek": 14552,
+        "start": 145.52,
+        "end": 147.16,
+        "text": " Put your phone in black and white mode.",
+        "tokens": [
+          50364,
+          4935,
+          428,
+          2593,
+          294,
+          2211,
+          293,
+          2418,
+          4391,
+          13,
+          50446
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.16243220087307603,
+        "compression_ratio": 1.6644518272425248,
+        "no_speech_prob": 0.016908470541238785
+      },
+      {
+        "id": 57,
+        "seek": 14552,
+        "start": 147.16,
+        "end": 148.76000000000002,
+        "text": " Turn on, do not disturb.",
+        "tokens": [
+          50446,
+          7956,
+          322,
+          11,
+          360,
+          406,
+          18071,
+          13,
+          50526
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.16243220087307603,
+        "compression_ratio": 1.6644518272425248,
+        "no_speech_prob": 0.016908470541238785
+      },
+      {
+        "id": 58,
+        "seek": 14552,
+        "start": 148.76000000000002,
+        "end": 152.12,
+        "text": " And leave it in another room while you work or before going to bed.",
+        "tokens": [
+          50526,
+          400,
+          1856,
+          309,
+          294,
+          1071,
+          1808,
+          1339,
+          291,
+          589,
+          420,
+          949,
+          516,
+          281,
+          2901,
+          13,
+          50694
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.16243220087307603,
+        "compression_ratio": 1.6644518272425248,
+        "no_speech_prob": 0.016908470541238785
+      },
+      {
+        "id": 59,
+        "seek": 14552,
+        "start": 152.12,
+        "end": 155.56,
+        "text": " The worst thing you can do is use your phone right after waking up.",
+        "tokens": [
+          50694,
+          440,
+          5855,
+          551,
+          291,
+          393,
+          360,
+          307,
+          764,
+          428,
+          2593,
+          558,
+          934,
+          20447,
+          493,
+          13,
+          50866
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.16243220087307603,
+        "compression_ratio": 1.6644518272425248,
+        "no_speech_prob": 0.016908470541238785
+      },
+      {
+        "id": 60,
+        "seek": 14552,
+        "start": 155.56,
+        "end": 159.84,
+        "text": " These are small things that will help you escape from this trap we've gotten so used to.",
+        "tokens": [
+          50866,
+          1981,
+          366,
+          1359,
+          721,
+          300,
+          486,
+          854,
+          291,
+          7615,
+          490,
+          341,
+          11487,
+          321,
+          600,
+          5768,
+          370,
+          1143,
+          281,
+          13,
+          51080
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.16243220087307603,
+        "compression_ratio": 1.6644518272425248,
+        "no_speech_prob": 0.016908470541238785
+      },
+      {
+        "id": 61,
+        "seek": 14552,
+        "start": 159.84,
+        "end": 162.04000000000002,
+        "text": " And that seems normal to use so much.",
+        "tokens": [
+          51080,
+          400,
+          300,
+          2544,
+          2710,
+          281,
+          764,
+          370,
+          709,
+          13,
+          51190
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.16243220087307603,
+        "compression_ratio": 1.6644518272425248,
+        "no_speech_prob": 0.016908470541238785
+      },
+      {
+        "id": 62,
+        "seek": 14552,
+        "start": 162.04000000000002,
+        "end": 166.52,
+        "text": " So if you really want to stop wasting time and escape brain rock, leave YouTube and apply",
+        "tokens": [
+          51190,
+          407,
+          498,
+          291,
+          534,
+          528,
+          281,
+          1590,
+          20457,
+          565,
+          293,
+          7615,
+          3567,
+          3727,
+          11,
+          1856,
+          3088,
+          293,
+          3079,
+          51414
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.16243220087307603,
+        "compression_ratio": 1.6644518272425248,
+        "no_speech_prob": 0.016908470541238785
+      },
+      {
+        "id": 63,
+        "seek": 14552,
+        "start": 166.52,
+        "end": 169.08,
+        "text": " the tips I just gave you before you forget them.",
+        "tokens": [
+          51414,
+          264,
+          6082,
+          286,
+          445,
+          2729,
+          291,
+          949,
+          291,
+          2870,
+          552,
+          13,
+          51542
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.16243220087307603,
+        "compression_ratio": 1.6644518272425248,
+        "no_speech_prob": 0.016908470541238785
+      },
+      {
+        "id": 64,
+        "seek": 14552,
+        "start": 169.08,
+        "end": 170.08,
+        "text": " Good luck.",
+        "tokens": [
+          51542,
+          2205,
+          3668,
+          13,
+          51592
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.16243220087307603,
+        "compression_ratio": 1.6644518272425248,
+        "no_speech_prob": 0.016908470541238785
+      },
+      {
+        "id": 65,
+        "seek": 14552,
+        "start": 170.08,
+        "end": 170.48000000000002,
+        "text": " It's for your own good.",
+        "tokens": [
+          51592,
+          467,
+          311,
+          337,
+          428,
+          1065,
+          665,
+          13,
+          51612
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.16243220087307603,
+        "compression_ratio": 1.6644518272425248,
+        "no_speech_prob": 0.016908470541238785
+      }
+    ]
+  },
+  "overall_assessment": {
+    "overall_compliance": 45.0,
+    "visual_compliance": 20.0,
+    "audio_compliance": 70,
+    "status": "major_violations",
+    "total_violations": 5,
+    "violation_categories": [
+      "suggestive_content",
+      "violence"
+    ]
+  },
+  "detailed_frames": [
+    {
+      "timestamp": 0.0,
+      "frame_index": 0,
+      "visual_analysis": {
+        "category": "suggestive_content",
+        "confidence": 0.9758983850479126,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.0016535593895241618,
+          "suggestive_content": 0.9758983850479126,
+          "artistic_adult_content": 0.01437260303646326,
+          "misinformation": 0.007219093851745129,
+          "violence": 0.00028709985781461,
+          "hate_speech": 0.0002090540947392583,
+          "dangerous_activities": 0.0003601679054554552
+        }
+      },
+      "blip_description": {
+        "description": "a man is helping another man to tie him up",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "",
+        "extracted_items": [],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1755771190_SVM1RTRpdWJmczRfMTA4MHA_out_frame_1.jpg"
+    },
+    {
+      "timestamp": 3.5,
+      "frame_index": 1,
+      "visual_analysis": {
+        "category": "suggestive_content",
+        "confidence": 0.9740778207778931,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.001750453724525869,
+          "suggestive_content": 0.9740778207778931,
+          "artistic_adult_content": 0.01604079268872738,
+          "misinformation": 0.007276085205376148,
+          "violence": 0.00027122869505546987,
+          "hate_speech": 0.00020807114196941257,
+          "dangerous_activities": 0.00037545213126577437
+        }
+      },
+      "blip_description": {
+        "description": "a man is trying to get into a playground",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "",
+        "extracted_items": [],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1755771190_SVM1RTRpdWJmczRfMTA4MHA_out_frame_2.jpg"
+    },
+    {
+      "timestamp": 7.0,
+      "frame_index": 2,
+      "visual_analysis": {
+        "category": "suggestive_content",
+        "confidence": 0.48057374358177185,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.29836687445640564,
+          "suggestive_content": 0.48057374358177185,
+          "artistic_adult_content": 0.06603208929300308,
+          "misinformation": 0.13045552372932434,
+          "violence": 0.007727708201855421,
+          "hate_speech": 0.007571781985461712,
+          "dangerous_activities": 0.009272284805774689
+        }
+      },
+      "blip_description": {
+        "description": "a red and black logo with the words'tiny pretty was '",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "pretty was funny",
+        "extracted_items": [
+          {
+            "text": "pretty",
+            "confidence": 0.9999990266601202,
+            "bbox": [
+              [
+                657,
+                399
+              ],
+              [
+                1293,
+                399
+              ],
+              [
+                1293,
+                605
+              ],
+              [
+                657,
+                605
+              ]
+            ]
+          },
+          {
+            "text": "was",
+            "confidence": 0.9969154655312514,
+            "bbox": [
+              [
+                668,
+                596
+              ],
+              [
+                912,
+                596
+              ],
+              [
+                912,
+                688
+              ],
+              [
+                668,
+                688
+              ]
+            ]
+          },
+          {
+            "text": "funny",
+            "confidence": 0.6736101267348124,
+            "bbox": [
+              [
+                970.90447373189,
+                261.03336920299523
+              ],
+              [
+                1379.603633338505,
+                314.24339338185746
+              ],
+              [
+                1351.09552626811,
+                460.96663079700477
+              ],
+              [
+                941.3963666614949,
+                407.75660661814254
+              ]
+            ]
+          }
+        ],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1755771190_SVM1RTRpdWJmczRfMTA4MHA_out_frame_3.jpg"
+    },
+    {
+      "timestamp": 10.5,
+      "frame_index": 3,
+      "visual_analysis": {
+        "category": "suggestive_content",
+        "confidence": 0.3086060583591461,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.19997572898864746,
+          "suggestive_content": 0.3086060583591461,
+          "artistic_adult_content": 0.1806829869747162,
+          "misinformation": 0.269127756357193,
+          "violence": 0.017072435468435287,
+          "hate_speech": 0.010401226580142975,
+          "dangerous_activities": 0.014133750461041927
+        }
+      },
+      "blip_description": {
+        "description": "it bothered you didn't?",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "it bothered you didntit?",
+        "extracted_items": [
+          {
+            "text": "it",
+            "confidence": 0.977881351172423,
+            "bbox": [
+              [
+                307,
+                299
+              ],
+              [
+                415,
+                299
+              ],
+              [
+                415,
+                407
+              ],
+              [
+                307,
+                407
+              ]
+            ]
+          },
+          {
+            "text": "bothered",
+            "confidence": 0.9986763387695434,
+            "bbox": [
+              [
+                377,
+                393
+              ],
+              [
+                956,
+                393
+              ],
+              [
+                956,
+                509
+              ],
+              [
+                377,
+                509
+              ]
+            ]
+          },
+          {
+            "text": "you",
+            "confidence": 0.5434421896934509,
+            "bbox": [
+              [
+                806,
+                485
+              ],
+              [
+                1053,
+                485
+              ],
+              [
+                1053,
+                610
+              ],
+              [
+                806,
+                610
+              ]
+            ]
+          },
+          {
+            "text": "didntit?",
+            "confidence": 0.9745609797785268,
+            "bbox": [
+              [
+                979,
+                562
+              ],
+              [
+                1519,
+                562
+              ],
+              [
+                1519,
+                685
+              ],
+              [
+                979,
+                685
+              ]
+            ]
+          }
+        ],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1755771190_SVM1RTRpdWJmczRfMTA4MHA_out_frame_4.jpg"
+    },
+    {
+      "timestamp": 14.0,
+      "frame_index": 4,
+      "visual_analysis": {
+        "category": "safe_content",
+        "confidence": 0.5999841094017029,
+        "violation_detected": false,
+        "all_probabilities": {
+          "safe_content": 0.5999841094017029,
+          "suggestive_content": 0.23242846131324768,
+          "artistic_adult_content": 0.034104686230421066,
+          "misinformation": 0.11219790577888489,
+          "violence": 0.005525828804820776,
+          "hate_speech": 0.007218037731945515,
+          "dangerous_activities": 0.00854093860834837
+        }
+      },
+      "blip_description": {
+        "description": "you don't happy",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "YOU DON'T LOOK THAT HAPPY",
+        "extracted_items": [
+          {
+            "text": "YOU DON'T LOOK THAT",
+            "confidence": 0.6782541539157523,
+            "bbox": [
+              [
+                52,
+                468
+              ],
+              [
+                1276,
+                468
+              ],
+              [
+                1276,
+                572
+              ],
+              [
+                52,
+                572
+              ]
+            ]
+          },
+          {
+            "text": "HAPPY",
+            "confidence": 0.8861913596935064,
+            "bbox": [
+              [
+                1292,
+                426
+              ],
+              [
+                1898,
+                426
+              ],
+              [
+                1898,
+                578
+              ],
+              [
+                1292,
+                578
+              ]
+            ]
+          }
+        ],
+        "ocr_available": true
+      },
+      "combined_violation": false,
+      "preview_path": "/static/frames/temp_1755771190_SVM1RTRpdWJmczRfMTA4MHA_out_frame_5.jpg"
+    }
+  ],
+  "recommendations": [
+    "⚠️ Visual policy violations detected: suggestive_content",
+    "🔍 Consider reviewing flagged video segments",
+    "🎵 Audio policy violations detected: violence",
+    "📝 Review transcript for policy-violating language",
+    "🚨 Multiple violations detected - content may need significant editing"
+  ],
+  "multi_modal_capabilities": {
+    "visual_model_accuracy": 97.48,
+    "blip_available": true,
+    "whisper_available": true,
+    "ocr_available": true
+  },
+  "text_issues": "pretty was funny, it bothered you didntit?, YOU DON'T LOOK THAT HAPPY",
+  "image": {
+    "details": {
+      "frame_preview_paths": [
+        "/static/frames/temp_1755771190_SVM1RTRpdWJmczRfMTA4MHA_out_frame_1.jpg",
+        "/static/frames/temp_1755771190_SVM1RTRpdWJmczRfMTA4MHA_out_frame_2.jpg",
+        "/static/frames/temp_1755771190_SVM1RTRpdWJmczRfMTA4MHA_out_frame_3.jpg",
+        "/static/frames/temp_1755771190_SVM1RTRpdWJmczRfMTA4MHA_out_frame_4.jpg",
+        "/static/frames/temp_1755771190_SVM1RTRpdWJmczRfMTA4MHA_out_frame_5.jpg"
+      ],
+      "frame_analysis": [
+        {
+          "timestamp": 0.0,
+          "frame_index": 0,
+          "visual_analysis": {
+            "category": "suggestive_content",
+            "confidence": 0.9758983850479126,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.0016535593895241618,
+              "suggestive_content": 0.9758983850479126,
+              "artistic_adult_content": 0.01437260303646326,
+              "misinformation": 0.007219093851745129,
+              "violence": 0.00028709985781461,
+              "hate_speech": 0.0002090540947392583,
+              "dangerous_activities": 0.0003601679054554552
+            }
+          },
+          "blip_description": {
+            "description": "a man is helping another man to tie him up",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "",
+            "extracted_items": [],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1755771190_SVM1RTRpdWJmczRfMTA4MHA_out_frame_1.jpg"
+        },
+        {
+          "timestamp": 3.5,
+          "frame_index": 1,
+          "visual_analysis": {
+            "category": "suggestive_content",
+            "confidence": 0.9740778207778931,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.001750453724525869,
+              "suggestive_content": 0.9740778207778931,
+              "artistic_adult_content": 0.01604079268872738,
+              "misinformation": 0.007276085205376148,
+              "violence": 0.00027122869505546987,
+              "hate_speech": 0.00020807114196941257,
+              "dangerous_activities": 0.00037545213126577437
+            }
+          },
+          "blip_description": {
+            "description": "a man is trying to get into a playground",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "",
+            "extracted_items": [],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1755771190_SVM1RTRpdWJmczRfMTA4MHA_out_frame_2.jpg"
+        },
+        {
+          "timestamp": 7.0,
+          "frame_index": 2,
+          "visual_analysis": {
+            "category": "suggestive_content",
+            "confidence": 0.48057374358177185,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.29836687445640564,
+              "suggestive_content": 0.48057374358177185,
+              "artistic_adult_content": 0.06603208929300308,
+              "misinformation": 0.13045552372932434,
+              "violence": 0.007727708201855421,
+              "hate_speech": 0.007571781985461712,
+              "dangerous_activities": 0.009272284805774689
+            }
+          },
+          "blip_description": {
+            "description": "a red and black logo with the words'tiny pretty was '",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "pretty was funny",
+            "extracted_items": [
+              {
+                "text": "pretty",
+                "confidence": 0.9999990266601202,
+                "bbox": [
+                  [
+                    657,
+                    399
+                  ],
+                  [
+                    1293,
+                    399
+                  ],
+                  [
+                    1293,
+                    605
+                  ],
+                  [
+                    657,
+                    605
+                  ]
+                ]
+              },
+              {
+                "text": "was",
+                "confidence": 0.9969154655312514,
+                "bbox": [
+                  [
+                    668,
+                    596
+                  ],
+                  [
+                    912,
+                    596
+                  ],
+                  [
+                    912,
+                    688
+                  ],
+                  [
+                    668,
+                    688
+                  ]
+                ]
+              },
+              {
+                "text": "funny",
+                "confidence": 0.6736101267348124,
+                "bbox": [
+                  [
+                    970.90447373189,
+                    261.03336920299523
+                  ],
+                  [
+                    1379.603633338505,
+                    314.24339338185746
+                  ],
+                  [
+                    1351.09552626811,
+                    460.96663079700477
+                  ],
+                  [
+                    941.3963666614949,
+                    407.75660661814254
+                  ]
+                ]
+              }
+            ],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1755771190_SVM1RTRpdWJmczRfMTA4MHA_out_frame_3.jpg"
+        },
+        {
+          "timestamp": 10.5,
+          "frame_index": 3,
+          "visual_analysis": {
+            "category": "suggestive_content",
+            "confidence": 0.3086060583591461,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.19997572898864746,
+              "suggestive_content": 0.3086060583591461,
+              "artistic_adult_content": 0.1806829869747162,
+              "misinformation": 0.269127756357193,
+              "violence": 0.017072435468435287,
+              "hate_speech": 0.010401226580142975,
+              "dangerous_activities": 0.014133750461041927
+            }
+          },
+          "blip_description": {
+            "description": "it bothered you didn't?",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "it bothered you didntit?",
+            "extracted_items": [
+              {
+                "text": "it",
+                "confidence": 0.977881351172423,
+                "bbox": [
+                  [
+                    307,
+                    299
+                  ],
+                  [
+                    415,
+                    299
+                  ],
+                  [
+                    415,
+                    407
+                  ],
+                  [
+                    307,
+                    407
+                  ]
+                ]
+              },
+              {
+                "text": "bothered",
+                "confidence": 0.9986763387695434,
+                "bbox": [
+                  [
+                    377,
+                    393
+                  ],
+                  [
+                    956,
+                    393
+                  ],
+                  [
+                    956,
+                    509
+                  ],
+                  [
+                    377,
+                    509
+                  ]
+                ]
+              },
+              {
+                "text": "you",
+                "confidence": 0.5434421896934509,
+                "bbox": [
+                  [
+                    806,
+                    485
+                  ],
+                  [
+                    1053,
+                    485
+                  ],
+                  [
+                    1053,
+                    610
+                  ],
+                  [
+                    806,
+                    610
+                  ]
+                ]
+              },
+              {
+                "text": "didntit?",
+                "confidence": 0.9745609797785268,
+                "bbox": [
+                  [
+                    979,
+                    562
+                  ],
+                  [
+                    1519,
+                    562
+                  ],
+                  [
+                    1519,
+                    685
+                  ],
+                  [
+                    979,
+                    685
+                  ]
+                ]
+              }
+            ],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1755771190_SVM1RTRpdWJmczRfMTA4MHA_out_frame_4.jpg"
+        },
+        {
+          "timestamp": 14.0,
+          "frame_index": 4,
+          "visual_analysis": {
+            "category": "safe_content",
+            "confidence": 0.5999841094017029,
+            "violation_detected": false,
+            "all_probabilities": {
+              "safe_content": 0.5999841094017029,
+              "suggestive_content": 0.23242846131324768,
+              "artistic_adult_content": 0.034104686230421066,
+              "misinformation": 0.11219790577888489,
+              "violence": 0.005525828804820776,
+              "hate_speech": 0.007218037731945515,
+              "dangerous_activities": 0.00854093860834837
+            }
+          },
+          "blip_description": {
+            "description": "you don't happy",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "YOU DON'T LOOK THAT HAPPY",
+            "extracted_items": [
+              {
+                "text": "YOU DON'T LOOK THAT",
+                "confidence": 0.6782541539157523,
+                "bbox": [
+                  [
+                    52,
+                    468
+                  ],
+                  [
+                    1276,
+                    468
+                  ],
+                  [
+                    1276,
+                    572
+                  ],
+                  [
+                    52,
+                    572
+                  ]
+                ]
+              },
+              {
+                "text": "HAPPY",
+                "confidence": 0.8861913596935064,
+                "bbox": [
+                  [
+                    1292,
+                    426
+                  ],
+                  [
+                    1898,
+                    426
+                  ],
+                  [
+                    1898,
+                    578
+                  ],
+                  [
+                    1292,
+                    578
+                  ]
+                ]
+              }
+            ],
+            "ocr_available": true
+          },
+          "combined_violation": false,
+          "preview_path": "/static/frames/temp_1755771190_SVM1RTRpdWJmczRfMTA4MHA_out_frame_5.jpg"
+        }
+      ]
+    }
+  },
+  "rag_explanations": [
+    {
+      "type": "visual",
+      "frame": 1,
+      "timestamp": 0.0,
+      "category": "suggestive_content",
+      "confidence": 0.9758983850479126,
+      "blip": "a man is helping another man to tie him up",
+      "ocr": "",
+      "policy": {
+        "description": "Content showing dangerous or harmful activities",
+        "examples": [
+          "extreme stunts",
+          "self-harm",
+          "dangerous challenges"
+        ],
+        "severity_indicators": [
+          "life-threatening",
+          "copyable dangers",
+          "no safety warnings"
+        ],
+        "context_matters": [
+          "professional vs amateur",
+          "safety precautions shown"
+        ],
+        "action_required": "age_restriction_or_removal"
+      },
+      "action_required": "age_restriction_or_removal",
+      "examples": [
+        "extreme stunts",
+        "self-harm",
+        "dangerous challenges"
+      ],
+      "severity_indicators": [
+        "life-threatening",
+        "copyable dangers",
+        "no safety warnings"
+      ],
+      "context_factors": [
+        "professional vs amateur",
+        "safety precautions shown"
+      ],
+      "violation_detected": true
+    },
+    {
+      "type": "visual",
+      "frame": 2,
+      "timestamp": 3.5,
+      "category": "suggestive_content",
+      "confidence": 0.9740778207778931,
+      "blip": "a man is trying to get into a playground",
+      "ocr": "",
+      "policy": {
+        "description": "Content showing dangerous or harmful activities",
+        "examples": [
+          "extreme stunts",
+          "self-harm",
+          "dangerous challenges"
+        ],
+        "severity_indicators": [
+          "life-threatening",
+          "copyable dangers",
+          "no safety warnings"
+        ],
+        "context_matters": [
+          "professional vs amateur",
+          "safety precautions shown"
+        ],
+        "action_required": "age_restriction_or_removal"
+      },
+      "action_required": "age_restriction_or_removal",
+      "examples": [
+        "extreme stunts",
+        "self-harm",
+        "dangerous challenges"
+      ],
+      "severity_indicators": [
+        "life-threatening",
+        "copyable dangers",
+        "no safety warnings"
+      ],
+      "context_factors": [
+        "professional vs amateur",
+        "safety precautions shown"
+      ],
+      "violation_detected": true
+    },
+    {
+      "type": "visual",
+      "frame": 3,
+      "timestamp": 7.0,
+      "category": "suggestive_content",
+      "confidence": 0.48057374358177185,
+      "blip": "a red and black logo with the words'tiny pretty was '",
+      "ocr": "pretty was funny",
+      "policy": {
+        "description": "Sexually suggestive content",
+        "examples": [
+          "provocative poses",
+          "sexual themes",
+          "suggestive clothing"
+        ],
+        "severity_indicators": [
+          "sexual focus",
+          "provocative dancing",
+          "sexual scenarios"
+        ],
+        "context_matters": [
+          "artistic vs explicit",
+          "age appropriateness"
+        ],
+        "action_required": "age_restriction"
+      },
+      "action_required": "age_restriction",
+      "examples": [
+        "provocative poses",
+        "sexual themes",
+        "suggestive clothing"
+      ],
+      "severity_indicators": [
+        "sexual focus",
+        "provocative dancing",
+        "sexual scenarios"
+      ],
+      "context_factors": [
+        "artistic vs explicit",
+        "age appropriateness"
+      ],
+      "violation_detected": true
+    },
+    {
+      "type": "visual",
+      "frame": 4,
+      "timestamp": 10.5,
+      "category": "suggestive_content",
+      "confidence": 0.3086060583591461,
+      "blip": "it bothered you didn't?",
+      "ocr": "it bothered you didntit?",
+      "policy": {
+        "description": "Sexually suggestive content",
+        "examples": [
+          "provocative poses",
+          "sexual themes",
+          "suggestive clothing"
+        ],
+        "severity_indicators": [
+          "sexual focus",
+          "provocative dancing",
+          "sexual scenarios"
+        ],
+        "context_matters": [
+          "artistic vs explicit",
+          "age appropriateness"
+        ],
+        "action_required": "age_restriction"
+      },
+      "action_required": "age_restriction",
+      "examples": [
+        "provocative poses",
+        "sexual themes",
+        "suggestive clothing"
+      ],
+      "severity_indicators": [
+        "sexual focus",
+        "provocative dancing",
+        "sexual scenarios"
+      ],
+      "context_factors": [
+        "artistic vs explicit",
+        "age appropriateness"
+      ],
+      "violation_detected": true
+    },
+    {
+      "type": "visual",
+      "frame": 5,
+      "timestamp": 14.0,
+      "category": "safe_content",
+      "confidence": 0.5999841094017029,
+      "blip": "you don't happy",
+      "ocr": "YOU DON'T LOOK THAT HAPPY",
+      "policy": {
+        "description": "Content showing dangerous or harmful activities",
+        "examples": [
+          "extreme stunts",
+          "self-harm",
+          "dangerous challenges"
+        ],
+        "severity_indicators": [
+          "life-threatening",
+          "copyable dangers",
+          "no safety warnings"
+        ],
+        "context_matters": [
+          "professional vs amateur",
+          "safety precautions shown"
+        ],
+        "action_required": "age_restriction_or_removal"
+      },
+      "action_required": "age_restriction_or_removal",
+      "examples": [
+        "extreme stunts",
+        "self-harm",
+        "dangerous challenges"
+      ],
+      "severity_indicators": [
+        "life-threatening",
+        "copyable dangers",
+        "no safety warnings"
+      ],
+      "context_factors": [
+        "professional vs amateur",
+        "safety precautions shown"
+      ],
+      "violation_detected": false
+    },
+    {
+      "type": "audio",
+      "category": "violence",
+      "keywords": [
+        "war"
+      ],
+      "severity": "medium",
+      "transcript": " Stop for a second. The video you were watching was pretty funny, right? And now that I interrupted ",
+      "policy": {
+        "description": "Content depicting violence, weapons, or graphic imagery",
+        "examples": [
+          "fighting",
+          "weapons",
+          "blood",
+          "gore",
+          "combat"
+        ],
+        "severity_indicators": [
+          "realistic weapons",
+          "explicit violence",
+          "gore"
+        ],
+        "context_matters": [
+          "gaming violence vs real violence",
+          "educational vs gratuitous"
+        ],
+        "action_required": "human_review_required"
+      },
+      "action_required": "human_review_required",
+      "examples": [
+        "fighting",
+        "weapons",
+        "blood",
+        "gore",
+        "combat"
+      ],
+      "severity_indicators": [
+        "realistic weapons",
+        "explicit violence",
+        "gore"
+      ],
+      "context_factors": [
+        "gaming violence vs real violence",
+        "educational vs gratuitous"
+      ]
+    }
+  ]
+}

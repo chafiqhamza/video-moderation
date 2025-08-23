@@ -1,0 +1,3336 @@
+{
+  "video_info": {
+    "path": "C:\\Users\\PC\\AppData\\Local\\Temp\\video_analysis\\temp_1755513123_Absolute Batman Uses A Mining Truck For His Batmobile! (1080p).mp4",
+    "name": "temp_1755513123_Absolute Batman Uses A Mining Truck For His Batmobile! (1080p).mp4",
+    "analysis_time": 19.599417448043823,
+    "timestamp": "2025-08-18T11:32:46.924630"
+  },
+  "frame_analysis": {
+    "total_frames": 20,
+    "violation_frames": 0,
+    "average_confidence": 0.845319065451622,
+    "violation_categories": []
+  },
+  "audio_analysis": {
+    "transcript": " This is the Batmobile of Absolute Batman. And we first got leaked images a couple of months ago as to what this Bat Tank looked like. But in issue 2 of Absolute Batman, we finally get our first hand look. And I've said it so many times, my favorite part of Absolute Batman is Alfred falling in love with Batman's mission. Cause right now, the sole reason why Alfred is even in Gotham is because he's attempting to discern what's going on with the party animals and black masks. But in the early beginnings of Alfred's investigation, Batman showed up and has become a person of interest. And as Batman advances forward, Alfred has become more and more invested in his mission. culminating in Alfred appearing spontaneously in the Batmobile when Batman is getting ready to make his dramatic escape. Now, as for the Batmobile itself, it was revealed to me that it's a 797 mining truck. So somehow, Bruce got his hands on a literal mining truck and transformed it into the Batmobile. And a little bit of perspective on this, Batman stole a $5 million tank and turned it into the Batmobile.",
+    "language": "en",
+    "policy_flags": {
+      "violence": {
+        "keywords_found": [
+          "war"
+        ],
+        "severity": "medium"
+      }
+    },
+    "whisper_available": true,
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 2.32,
+        "text": " This is the Batmobile of Absolute Batman.",
+        "tokens": [
+          50364,
+          639,
+          307,
+          264,
+          10066,
+          76,
+          13632,
+          295,
+          43965,
+          1169,
+          15432,
+          13,
+          50480
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.16198081440395778,
+        "compression_ratio": 1.7544910179640718,
+        "no_speech_prob": 0.020942039787769318
+      },
+      {
+        "id": 1,
+        "seek": 0,
+        "start": 2.32,
+        "end": 6.88,
+        "text": " And we first got leaked images a couple of months ago as to what this Bat Tank looked like.",
+        "tokens": [
+          50480,
+          400,
+          321,
+          700,
+          658,
+          31779,
+          5267,
+          257,
+          1916,
+          295,
+          2493,
+          2057,
+          382,
+          281,
+          437,
+          341,
+          10066,
+          28746,
+          2956,
+          411,
+          13,
+          50708
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.16198081440395778,
+        "compression_ratio": 1.7544910179640718,
+        "no_speech_prob": 0.020942039787769318
+      },
+      {
+        "id": 2,
+        "seek": 0,
+        "start": 6.88,
+        "end": 10.88,
+        "text": " But in issue 2 of Absolute Batman, we finally get our first hand look.",
+        "tokens": [
+          50708,
+          583,
+          294,
+          2734,
+          568,
+          295,
+          43965,
+          1169,
+          15432,
+          11,
+          321,
+          2721,
+          483,
+          527,
+          700,
+          1011,
+          574,
+          13,
+          50908
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.16198081440395778,
+        "compression_ratio": 1.7544910179640718,
+        "no_speech_prob": 0.020942039787769318
+      },
+      {
+        "id": 3,
+        "seek": 0,
+        "start": 10.88,
+        "end": 17.36,
+        "text": " And I've said it so many times, my favorite part of Absolute Batman is Alfred falling in love with Batman's mission.",
+        "tokens": [
+          50908,
+          400,
+          286,
+          600,
+          848,
+          309,
+          370,
+          867,
+          1413,
+          11,
+          452,
+          2954,
+          644,
+          295,
+          43965,
+          1169,
+          15432,
+          307,
+          28327,
+          7440,
+          294,
+          959,
+          365,
+          15432,
+          311,
+          4447,
+          13,
+          51232
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.16198081440395778,
+        "compression_ratio": 1.7544910179640718,
+        "no_speech_prob": 0.020942039787769318
+      },
+      {
+        "id": 4,
+        "seek": 0,
+        "start": 17.36,
+        "end": 21.76,
+        "text": " Cause right now, the sole reason why Alfred is even in Gotham is because he's attempting to discern",
+        "tokens": [
+          51232,
+          10865,
+          558,
+          586,
+          11,
+          264,
+          12321,
+          1778,
+          983,
+          28327,
+          307,
+          754,
+          294,
+          27305,
+          335,
+          307,
+          570,
+          415,
+          311,
+          22001,
+          281,
+          30868,
+          51452
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.16198081440395778,
+        "compression_ratio": 1.7544910179640718,
+        "no_speech_prob": 0.020942039787769318
+      },
+      {
+        "id": 5,
+        "seek": 0,
+        "start": 21.76,
+        "end": 24.240000000000002,
+        "text": " what's going on with the party animals and black masks.",
+        "tokens": [
+          51452,
+          437,
+          311,
+          516,
+          322,
+          365,
+          264,
+          3595,
+          4882,
+          293,
+          2211,
+          11830,
+          13,
+          51576
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.16198081440395778,
+        "compression_ratio": 1.7544910179640718,
+        "no_speech_prob": 0.020942039787769318
+      },
+      {
+        "id": 6,
+        "seek": 0,
+        "start": 24.240000000000002,
+        "end": 28.8,
+        "text": " But in the early beginnings of Alfred's investigation, Batman showed up and has become a person of interest.",
+        "tokens": [
+          51576,
+          583,
+          294,
+          264,
+          2440,
+          37281,
+          295,
+          28327,
+          311,
+          9627,
+          11,
+          15432,
+          4712,
+          493,
+          293,
+          575,
+          1813,
+          257,
+          954,
+          295,
+          1179,
+          13,
+          51804
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.16198081440395778,
+        "compression_ratio": 1.7544910179640718,
+        "no_speech_prob": 0.020942039787769318
+      },
+      {
+        "id": 7,
+        "seek": 2880,
+        "start": 28.8,
+        "end": 32.96,
+        "text": " And as Batman advances forward, Alfred has become more and more invested in his mission.",
+        "tokens": [
+          50364,
+          400,
+          382,
+          15432,
+          25297,
+          2128,
+          11,
+          28327,
+          575,
+          1813,
+          544,
+          293,
+          544,
+          13104,
+          294,
+          702,
+          4447,
+          13,
+          50572
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1180275042851766,
+        "compression_ratio": 1.7412587412587412,
+        "no_speech_prob": 9.665848665463272e-06
+      },
+      {
+        "id": 8,
+        "seek": 2880,
+        "start": 32.96,
+        "end": 38.64,
+        "text": " culminating in Alfred appearing spontaneously in the Batmobile when Batman is getting ready to make his dramatic escape.",
+        "tokens": [
+          50572,
+          28583,
+          990,
+          294,
+          28327,
+          19870,
+          47632,
+          294,
+          264,
+          10066,
+          76,
+          13632,
+          562,
+          15432,
+          307,
+          1242,
+          1919,
+          281,
+          652,
+          702,
+          12023,
+          7615,
+          13,
+          50856
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1180275042851766,
+        "compression_ratio": 1.7412587412587412,
+        "no_speech_prob": 9.665848665463272e-06
+      },
+      {
+        "id": 9,
+        "seek": 2880,
+        "start": 38.64,
+        "end": 44.480000000000004,
+        "text": " Now, as for the Batmobile itself, it was revealed to me that it's a 797 mining truck.",
+        "tokens": [
+          50856,
+          823,
+          11,
+          382,
+          337,
+          264,
+          10066,
+          76,
+          13632,
+          2564,
+          11,
+          309,
+          390,
+          9599,
+          281,
+          385,
+          300,
+          309,
+          311,
+          257,
+          1614,
+          23247,
+          15512,
+          5898,
+          13,
+          51148
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1180275042851766,
+        "compression_ratio": 1.7412587412587412,
+        "no_speech_prob": 9.665848665463272e-06
+      },
+      {
+        "id": 10,
+        "seek": 2880,
+        "start": 44.480000000000004,
+        "end": 50.8,
+        "text": " So somehow, Bruce got his hands on a literal mining truck and transformed it into the Batmobile.",
+        "tokens": [
+          51148,
+          407,
+          6063,
+          11,
+          15429,
+          658,
+          702,
+          2377,
+          322,
+          257,
+          20411,
+          15512,
+          5898,
+          293,
+          16894,
+          309,
+          666,
+          264,
+          10066,
+          76,
+          13632,
+          13,
+          51464
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1180275042851766,
+        "compression_ratio": 1.7412587412587412,
+        "no_speech_prob": 9.665848665463272e-06
+      },
+      {
+        "id": 11,
+        "seek": 2880,
+        "start": 50.8,
+        "end": 57.040000000000006,
+        "text": " And a little bit of perspective on this, Batman stole a $5 million tank and turned it into the Batmobile.",
+        "tokens": [
+          51464,
+          400,
+          257,
+          707,
+          857,
+          295,
+          4585,
+          322,
+          341,
+          11,
+          15432,
+          16326,
+          257,
+          1848,
+          20,
+          2459,
+          5466,
+          293,
+          3574,
+          309,
+          666,
+          264,
+          10066,
+          76,
+          13632,
+          13,
+          51776
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1180275042851766,
+        "compression_ratio": 1.7412587412587412,
+        "no_speech_prob": 9.665848665463272e-06
+      }
+    ]
+  },
+  "overall_assessment": {
+    "overall_compliance": 85.0,
+    "visual_compliance": 100.0,
+    "audio_compliance": 70,
+    "status": "minor_violations",
+    "total_violations": 1,
+    "violation_categories": [
+      "violence"
+    ]
+  },
+  "detailed_frames": [
+    {
+      "timestamp": 0.0,
+      "frame_index": 0,
+      "visual_analysis": {
+        "category": "safe_content",
+        "confidence": 0.8857537508010864,
+        "violation_detected": false,
+        "all_probabilities": {
+          "safe_content": 0.8857537508010864,
+          "suggestive_content": 0.05014750361442566,
+          "artistic_adult_content": 0.0056380778551101685,
+          "misinformation": 0.048301585018634796,
+          "violence": 0.002832507947459817,
+          "hate_speech": 0.0037854521069675684,
+          "dangerous_activities": 0.0035411047283560038
+        }
+      },
+      "blip_description": {
+        "description": "the cover to the comic book, the doom",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "DOON",
+        "extracted_items": [
+          {
+            "text": "DOON",
+            "confidence": 0.5794590219644876,
+            "bbox": [
+              [
+                549.1604046546097,
+                -19.982369220290142
+              ],
+              [
+                1307.9677268671105,
+                96.86426950359028
+              ],
+              [
+                1269.8395953453903,
+                257.98236922029014
+              ],
+              [
+                512.0322731328895,
+                142.13573049640974
+              ]
+            ]
+          }
+        ],
+        "ocr_available": true
+      },
+      "combined_violation": false,
+      "preview_path": "/static/frames/temp_1755513123_Absolute Batman Uses A Mining Truck For His Batmobile! (1080p)_frame_1.jpg"
+    },
+    {
+      "timestamp": 0.5,
+      "frame_index": 1,
+      "visual_analysis": {
+        "category": "safe_content",
+        "confidence": 0.8793803453445435,
+        "violation_detected": false,
+        "all_probabilities": {
+          "safe_content": 0.8793803453445435,
+          "suggestive_content": 0.0527249276638031,
+          "artistic_adult_content": 0.006103308405727148,
+          "misinformation": 0.050831567496061325,
+          "violence": 0.0030161344911903143,
+          "hate_speech": 0.004107830114662647,
+          "dangerous_activities": 0.00383582292124629
+        }
+      },
+      "blip_description": {
+        "description": "the cover to the comic book room this is the cover",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "0",
+        "extracted_items": [
+          {
+            "text": "0",
+            "confidence": 0.8899747053524756,
+            "bbox": [
+              [
+                612,
+                338
+              ],
+              [
+                721,
+                338
+              ],
+              [
+                721,
+                382
+              ],
+              [
+                612,
+                382
+              ]
+            ]
+          }
+        ],
+        "ocr_available": true
+      },
+      "combined_violation": false,
+      "preview_path": "/static/frames/temp_1755513123_Absolute Batman Uses A Mining Truck For His Batmobile! (1080p)_frame_2.jpg"
+    },
+    {
+      "timestamp": 1.0,
+      "frame_index": 2,
+      "visual_analysis": {
+        "category": "safe_content",
+        "confidence": 0.8796868920326233,
+        "violation_detected": false,
+        "all_probabilities": {
+          "safe_content": 0.8796868920326233,
+          "suggestive_content": 0.05249064415693283,
+          "artistic_adult_content": 0.005998808890581131,
+          "misinformation": 0.050836291164159775,
+          "violence": 0.003051147796213627,
+          "hate_speech": 0.0040923189371824265,
+          "dangerous_activities": 0.003843917278572917
+        }
+      },
+      "blip_description": {
+        "description": "the cover to the comic book room, featuring a car and a man in a suit",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "",
+        "extracted_items": [],
+        "ocr_available": true
+      },
+      "combined_violation": false,
+      "preview_path": "/static/frames/temp_1755513123_Absolute Batman Uses A Mining Truck For His Batmobile! (1080p)_frame_3.jpg"
+    },
+    {
+      "timestamp": 1.5,
+      "frame_index": 3,
+      "visual_analysis": {
+        "category": "safe_content",
+        "confidence": 0.8774045705795288,
+        "violation_detected": false,
+        "all_probabilities": {
+          "safe_content": 0.8774045705795288,
+          "suggestive_content": 0.05352731794118881,
+          "artistic_adult_content": 0.006126830354332924,
+          "misinformation": 0.05171326920390129,
+          "violence": 0.0030878204852342606,
+          "hate_speech": 0.0041944365948438644,
+          "dangerous_activities": 0.003945734351873398
+        }
+      },
+      "blip_description": {
+        "description": "the cover to the comic book room, featuring a car and a man in a suit",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "DOON",
+        "extracted_items": [
+          {
+            "text": "DOON",
+            "confidence": 0.6458633765591559,
+            "bbox": [
+              [
+                516.1742584090877,
+                -21.98294650007945
+              ],
+              [
+                1264.963905177635,
+                94.79896292380538
+              ],
+              [
+                1225.8257415909125,
+                259.98294650007944
+              ],
+              [
+                477.0360948223649,
+                142.20103707619464
+              ]
+            ]
+          }
+        ],
+        "ocr_available": true
+      },
+      "combined_violation": false,
+      "preview_path": "/static/frames/temp_1755513123_Absolute Batman Uses A Mining Truck For His Batmobile! (1080p)_frame_4.jpg"
+    },
+    {
+      "timestamp": 2.0,
+      "frame_index": 4,
+      "visual_analysis": {
+        "category": "safe_content",
+        "confidence": 0.8791338205337524,
+        "violation_detected": false,
+        "all_probabilities": {
+          "safe_content": 0.8791338205337524,
+          "suggestive_content": 0.05446547269821167,
+          "artistic_adult_content": 0.006366180256009102,
+          "misinformation": 0.049318183213472366,
+          "violence": 0.002985709812492132,
+          "hate_speech": 0.003982395399361849,
+          "dangerous_activities": 0.0037482958287000656
+        }
+      },
+      "blip_description": {
+        "description": "the cover to the comic book room, featuring a bat and a bat",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "OOM",
+        "extracted_items": [
+          {
+            "text": "OOM",
+            "confidence": 0.9841812823736203,
+            "bbox": [
+              [
+                667.015169266077,
+                2.023105367440092
+              ],
+              [
+                1266.8263306136296,
+                88.30482780294204
+              ],
+              [
+                1229.984830733923,
+                256.9768946325599
+              ],
+              [
+                630.1736693863704,
+                170.69517219705796
+              ]
+            ]
+          }
+        ],
+        "ocr_available": true
+      },
+      "combined_violation": false,
+      "preview_path": "/static/frames/temp_1755513123_Absolute Batman Uses A Mining Truck For His Batmobile! (1080p)_frame_5.jpg"
+    },
+    {
+      "timestamp": 2.5,
+      "frame_index": 5,
+      "visual_analysis": {
+        "category": "safe_content",
+        "confidence": 0.8783057928085327,
+        "violation_detected": false,
+        "all_probabilities": {
+          "safe_content": 0.8783057928085327,
+          "suggestive_content": 0.052832212299108505,
+          "artistic_adult_content": 0.006057931575924158,
+          "misinformation": 0.05160940811038017,
+          "violence": 0.0030716590117663145,
+          "hate_speech": 0.004200118128210306,
+          "dangerous_activities": 0.003922945819795132
+        }
+      },
+      "blip_description": {
+        "description": "the cover to the comic book room, featuring a car and a man in a suit",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "",
+        "extracted_items": [],
+        "ocr_available": true
+      },
+      "combined_violation": false,
+      "preview_path": "/static/frames/temp_1755513123_Absolute Batman Uses A Mining Truck For His Batmobile! (1080p)_frame_6.jpg"
+    },
+    {
+      "timestamp": 3.0,
+      "frame_index": 6,
+      "visual_analysis": {
+        "category": "safe_content",
+        "confidence": 0.8817492723464966,
+        "violation_detected": false,
+        "all_probabilities": {
+          "safe_content": 0.8817492723464966,
+          "suggestive_content": 0.05137551575899124,
+          "artistic_adult_content": 0.00575077161192894,
+          "misinformation": 0.050351910293102264,
+          "violence": 0.002981797093525529,
+          "hate_speech": 0.004022618755698204,
+          "dangerous_activities": 0.0037681548856198788
+        }
+      },
+      "blip_description": {
+        "description": "the cover to room, a comic book by david mc",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "",
+        "extracted_items": [],
+        "ocr_available": true
+      },
+      "combined_violation": false,
+      "preview_path": "/static/frames/temp_1755513123_Absolute Batman Uses A Mining Truck For His Batmobile! (1080p)_frame_7.jpg"
+    },
+    {
+      "timestamp": 3.5,
+      "frame_index": 7,
+      "visual_analysis": {
+        "category": "safe_content",
+        "confidence": 0.8759380578994751,
+        "violation_detected": false,
+        "all_probabilities": {
+          "safe_content": 0.8759380578994751,
+          "suggestive_content": 0.0541253462433815,
+          "artistic_adult_content": 0.006133020389825106,
+          "misinformation": 0.05240665748715401,
+          "violence": 0.003123987466096878,
+          "hate_speech": 0.004266522359102964,
+          "dangerous_activities": 0.004006343428045511
+        }
+      },
+      "blip_description": {
+        "description": "zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "DIZAGES DOOM",
+        "extracted_items": [
+          {
+            "text": "DIZAGES",
+            "confidence": 0.5096598951443908,
+            "bbox": [
+              [
+                658,
+                338
+              ],
+              [
+                1059,
+                338
+              ],
+              [
+                1059,
+                383
+              ],
+              [
+                658,
+                383
+              ]
+            ]
+          },
+          {
+            "text": "DOOM",
+            "confidence": 0.5570604665087586,
+            "bbox": [
+              [
+                470.1639114537014,
+                -19.98251625653657
+              ],
+              [
+                1235.9573065802258,
+                92.69389354841454
+              ],
+              [
+                1198.8360885462987,
+                258.98251625653654
+              ],
+              [
+                432.04269341977414,
+                145.30610645158546
+              ]
+            ]
+          }
+        ],
+        "ocr_available": true
+      },
+      "combined_violation": false,
+      "preview_path": "/static/frames/temp_1755513123_Absolute Batman Uses A Mining Truck For His Batmobile! (1080p)_frame_8.jpg"
+    },
+    {
+      "timestamp": 4.0,
+      "frame_index": 8,
+      "visual_analysis": {
+        "category": "safe_content",
+        "confidence": 0.8869839310646057,
+        "violation_detected": false,
+        "all_probabilities": {
+          "safe_content": 0.8869839310646057,
+          "suggestive_content": 0.048782020807266235,
+          "artistic_adult_content": 0.005478687584400177,
+          "misinformation": 0.048631325364112854,
+          "violence": 0.0028195546474307775,
+          "hate_speech": 0.0037911110557615757,
+          "dangerous_activities": 0.0035133252386003733
+        }
+      },
+      "blip_description": {
+        "description": "zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "",
+        "extracted_items": [],
+        "ocr_available": true
+      },
+      "combined_violation": false,
+      "preview_path": "/static/frames/temp_1755513123_Absolute Batman Uses A Mining Truck For His Batmobile! (1080p)_frame_9.jpg"
+    },
+    {
+      "timestamp": 4.5,
+      "frame_index": 9,
+      "visual_analysis": {
+        "category": "safe_content",
+        "confidence": 0.8822161555290222,
+        "violation_detected": false,
+        "all_probabilities": {
+          "safe_content": 0.8822161555290222,
+          "suggestive_content": 0.05087781324982643,
+          "artistic_adult_content": 0.005638488102704287,
+          "misinformation": 0.050535622984170914,
+          "violence": 0.0029516315553337336,
+          "hate_speech": 0.004025094211101532,
+          "dangerous_activities": 0.0037551329005509615
+        }
+      },
+      "blip_description": {
+        "description": "zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "DOOM",
+        "extracted_items": [
+          {
+            "text": "DOOM",
+            "confidence": 0.6832977197635,
+            "bbox": [
+              [
+                441.08781829019756,
+                -14.980179325456252
+              ],
+              [
+                1220.9263378606456,
+                86.24262020550134
+              ],
+              [
+                1184.9121817098026,
+                256.9801793254563
+              ],
+              [
+                405.07366213935444,
+                154.75737979449866
+              ]
+            ]
+          }
+        ],
+        "ocr_available": true
+      },
+      "combined_violation": false,
+      "preview_path": "/static/frames/temp_1755513123_Absolute Batman Uses A Mining Truck For His Batmobile! (1080p)_frame_10.jpg"
+    },
+    {
+      "timestamp": 5.0,
+      "frame_index": 10,
+      "visual_analysis": {
+        "category": "safe_content",
+        "confidence": 0.8721297383308411,
+        "violation_detected": false,
+        "all_probabilities": {
+          "safe_content": 0.8721297383308411,
+          "suggestive_content": 0.05656464025378227,
+          "artistic_adult_content": 0.006392782088369131,
+          "misinformation": 0.053239766508340836,
+          "violence": 0.0031627484131604433,
+          "hate_speech": 0.004370969720184803,
+          "dangerous_activities": 0.004139430820941925
+        }
+      },
+      "blip_description": {
+        "description": "zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "DOOM",
+        "extracted_items": [
+          {
+            "text": "DOOM",
+            "confidence": 0.7662467360496521,
+            "bbox": [
+              [
+                424.08439171223074,
+                -19.981768023008332
+              ],
+              [
+                1200.889350966396,
+                87.7466442053807
+              ],
+              [
+                1159.9156082877691,
+                276.9817680230083
+              ],
+              [
+                383.110649033604,
+                168.2533557946193
+              ]
+            ]
+          }
+        ],
+        "ocr_available": true
+      },
+      "combined_violation": false,
+      "preview_path": "/static/frames/temp_1755513123_Absolute Batman Uses A Mining Truck For His Batmobile! (1080p)_frame_11.jpg"
+    },
+    {
+      "timestamp": 5.5,
+      "frame_index": 11,
+      "visual_analysis": {
+        "category": "safe_content",
+        "confidence": 0.8619530200958252,
+        "violation_detected": false,
+        "all_probabilities": {
+          "safe_content": 0.8619530200958252,
+          "suggestive_content": 0.06279191374778748,
+          "artistic_adult_content": 0.00918627716600895,
+          "misinformation": 0.05414341017603874,
+          "violence": 0.0034815073013305664,
+          "hate_speech": 0.004405222367495298,
+          "dangerous_activities": 0.004038597922772169
+        }
+      },
+      "blip_description": {
+        "description": "how to draw a monster truck",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "",
+        "extracted_items": [],
+        "ocr_available": true
+      },
+      "combined_violation": false,
+      "preview_path": "/static/frames/temp_1755513123_Absolute Batman Uses A Mining Truck For His Batmobile! (1080p)_frame_12.jpg"
+    },
+    {
+      "timestamp": 6.0,
+      "frame_index": 12,
+      "visual_analysis": {
+        "category": "safe_content",
+        "confidence": 0.8580644726753235,
+        "violation_detected": false,
+        "all_probabilities": {
+          "safe_content": 0.8580644726753235,
+          "suggestive_content": 0.065024733543396,
+          "artistic_adult_content": 0.009545225650072098,
+          "misinformation": 0.05516880750656128,
+          "violence": 0.0035771115217357874,
+          "hate_speech": 0.004483198281377554,
+          "dangerous_activities": 0.004136365372687578
+        }
+      },
+      "blip_description": {
+        "description": "how to draw a monster truck youtube",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "3",
+        "extracted_items": [
+          {
+            "text": "3",
+            "confidence": 0.7642804332172091,
+            "bbox": [
+              [
+                1027,
+                485
+              ],
+              [
+                1181,
+                485
+              ],
+              [
+                1181,
+                599
+              ],
+              [
+                1027,
+                599
+              ]
+            ]
+          }
+        ],
+        "ocr_available": true
+      },
+      "combined_violation": false,
+      "preview_path": "/static/frames/temp_1755513123_Absolute Batman Uses A Mining Truck For His Batmobile! (1080p)_frame_13.jpg"
+    },
+    {
+      "timestamp": 6.5,
+      "frame_index": 13,
+      "visual_analysis": {
+        "category": "safe_content",
+        "confidence": 0.8439731597900391,
+        "violation_detected": false,
+        "all_probabilities": {
+          "safe_content": 0.8439731597900391,
+          "suggestive_content": 0.0728260725736618,
+          "artistic_adult_content": 0.011225540190935135,
+          "misinformation": 0.058698661625385284,
+          "violence": 0.003863574005663395,
+          "hate_speech": 0.004863345995545387,
+          "dangerous_activities": 0.004549612291157246
+        }
+      },
+      "blip_description": {
+        "description": "a drawing of a monster truck with the words,'look like '",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "[TZS",
+        "extracted_items": [
+          {
+            "text": "[TZS",
+            "confidence": 0.6667309999465942,
+            "bbox": [
+              [
+                731,
+                339
+              ],
+              [
+                997,
+                339
+              ],
+              [
+                997,
+                383
+              ],
+              [
+                731,
+                383
+              ]
+            ]
+          }
+        ],
+        "ocr_available": true
+      },
+      "combined_violation": false,
+      "preview_path": "/static/frames/temp_1755513123_Absolute Batman Uses A Mining Truck For His Batmobile! (1080p)_frame_14.jpg"
+    },
+    {
+      "timestamp": 7.0,
+      "frame_index": 14,
+      "visual_analysis": {
+        "category": "safe_content",
+        "confidence": 0.860869288444519,
+        "violation_detected": false,
+        "all_probabilities": {
+          "safe_content": 0.860869288444519,
+          "suggestive_content": 0.06272691488265991,
+          "artistic_adult_content": 0.009361648000776768,
+          "misinformation": 0.05486243590712547,
+          "violence": 0.0035935749765485525,
+          "hate_speech": 0.004478247370570898,
+          "dangerous_activities": 0.0041079348884522915
+        }
+      },
+      "blip_description": {
+        "description": "how to draw a monster truck youtube",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "",
+        "extracted_items": [],
+        "ocr_available": true
+      },
+      "combined_violation": false,
+      "preview_path": "/static/frames/temp_1755513123_Absolute Batman Uses A Mining Truck For His Batmobile! (1080p)_frame_15.jpg"
+    },
+    {
+      "timestamp": 7.5,
+      "frame_index": 15,
+      "visual_analysis": {
+        "category": "safe_content",
+        "confidence": 0.8553485870361328,
+        "violation_detected": false,
+        "all_probabilities": {
+          "safe_content": 0.8553485870361328,
+          "suggestive_content": 0.06638862937688828,
+          "artistic_adult_content": 0.009776653721928596,
+          "misinformation": 0.05595308914780617,
+          "violence": 0.0036322197411209345,
+          "hate_speech": 0.004636491183191538,
+          "dangerous_activities": 0.00426433514803648
+        }
+      },
+      "blip_description": {
+        "description": "how to draw a monster truck youtube",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "",
+        "extracted_items": [],
+        "ocr_available": true
+      },
+      "combined_violation": false,
+      "preview_path": "/static/frames/temp_1755513123_Absolute Batman Uses A Mining Truck For His Batmobile! (1080p)_frame_16.jpg"
+    },
+    {
+      "timestamp": 8.0,
+      "frame_index": 16,
+      "visual_analysis": {
+        "category": "safe_content",
+        "confidence": 0.6704972982406616,
+        "violation_detected": false,
+        "all_probabilities": {
+          "safe_content": 0.6704972982406616,
+          "suggestive_content": 0.1851014941930771,
+          "artistic_adult_content": 0.032735418528318405,
+          "misinformation": 0.08998031169176102,
+          "violence": 0.005756585858762264,
+          "hate_speech": 0.007713227067142725,
+          "dangerous_activities": 0.008215558715164661
+        }
+      },
+      "blip_description": {
+        "description": "batman the dark knight returns",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "NRM",
+        "extracted_items": [
+          {
+            "text": "NRM",
+            "confidence": 0.8484088669135238,
+            "bbox": [
+              [
+                658,
+                584
+              ],
+              [
+                1280,
+                584
+              ],
+              [
+                1280,
+                720
+              ],
+              [
+                658,
+                720
+              ]
+            ]
+          }
+        ],
+        "ocr_available": true
+      },
+      "combined_violation": false,
+      "preview_path": "/static/frames/temp_1755513123_Absolute Batman Uses A Mining Truck For His Batmobile! (1080p)_frame_17.jpg"
+    },
+    {
+      "timestamp": 8.5,
+      "frame_index": 17,
+      "visual_analysis": {
+        "category": "safe_content",
+        "confidence": 0.790139377117157,
+        "violation_detected": false,
+        "all_probabilities": {
+          "safe_content": 0.790139377117157,
+          "suggestive_content": 0.09770163893699646,
+          "artistic_adult_content": 0.018108518794178963,
+          "misinformation": 0.07557418942451477,
+          "violence": 0.004964230582118034,
+          "hate_speech": 0.006792471744120121,
+          "dangerous_activities": 0.006719640921801329
+        }
+      },
+      "blip_description": {
+        "description": "batman the dark knight returns",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "2 M",
+        "extracted_items": [
+          {
+            "text": "2",
+            "confidence": 0.7732012962171133,
+            "bbox": [
+              [
+                776,
+                0
+              ],
+              [
+                812,
+                0
+              ],
+              [
+                812,
+                24
+              ],
+              [
+                776,
+                24
+              ]
+            ]
+          },
+          {
+            "text": "M",
+            "confidence": 0.9773414224369823,
+            "bbox": [
+              [
+                1148,
+                588
+              ],
+              [
+                1280,
+                588
+              ],
+              [
+                1280,
+                712
+              ],
+              [
+                1148,
+                712
+              ]
+            ]
+          }
+        ],
+        "ocr_available": true
+      },
+      "combined_violation": false,
+      "preview_path": "/static/frames/temp_1755513123_Absolute Batman Uses A Mining Truck For His Batmobile! (1080p)_frame_18.jpg"
+    },
+    {
+      "timestamp": 9.0,
+      "frame_index": 18,
+      "visual_analysis": {
+        "category": "safe_content",
+        "confidence": 0.7636380195617676,
+        "violation_detected": false,
+        "all_probabilities": {
+          "safe_content": 0.7636380195617676,
+          "suggestive_content": 0.11335940659046173,
+          "artistic_adult_content": 0.02037879452109337,
+          "misinformation": 0.08235479146242142,
+          "violence": 0.0054220836609601974,
+          "hate_speech": 0.007424493320286274,
+          "dangerous_activities": 0.007422384340316057
+        }
+      },
+      "blip_description": {
+        "description": "batman the dark knight returns",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "3 M",
+        "extracted_items": [
+          {
+            "text": "3",
+            "confidence": 0.718644301563959,
+            "bbox": [
+              [
+                794,
+                312
+              ],
+              [
+                852,
+                312
+              ],
+              [
+                852,
+                338
+              ],
+              [
+                794,
+                338
+              ]
+            ]
+          },
+          {
+            "text": "M",
+            "confidence": 0.9821374633979509,
+            "bbox": [
+              [
+                1158,
+                590
+              ],
+              [
+                1280,
+                590
+              ],
+              [
+                1280,
+                710
+              ],
+              [
+                1158,
+                710
+              ]
+            ]
+          }
+        ],
+        "ocr_available": true
+      },
+      "combined_violation": false,
+      "preview_path": "/static/frames/temp_1755513123_Absolute Batman Uses A Mining Truck For His Batmobile! (1080p)_frame_19.jpg"
+    },
+    {
+      "timestamp": 9.5,
+      "frame_index": 19,
+      "visual_analysis": {
+        "category": "safe_content",
+        "confidence": 0.7232157588005066,
+        "violation_detected": false,
+        "all_probabilities": {
+          "safe_content": 0.7232157588005066,
+          "suggestive_content": 0.14514468610286713,
+          "artistic_adult_content": 0.02371702343225479,
+          "misinformation": 0.08646316826343536,
+          "violence": 0.0056648557074368,
+          "hate_speech": 0.007821490056812763,
+          "dangerous_activities": 0.007972991093993187
+        }
+      },
+      "blip_description": {
+        "description": "batman the dark knight returns",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "024",
+        "extracted_items": [
+          {
+            "text": "024",
+            "confidence": 0.5001503825187683,
+            "bbox": [
+              [
+                828.2051046034557,
+                -0.6667280310152979
+              ],
+              [
+                950.5504399563814,
+                -10.072075337280825
+              ],
+              [
+                952.7948953965443,
+                34.666728031015296
+              ],
+              [
+                829.4495600436186,
+                45.07207533728083
+              ]
+            ]
+          }
+        ],
+        "ocr_available": true
+      },
+      "combined_violation": false,
+      "preview_path": "/static/frames/temp_1755513123_Absolute Batman Uses A Mining Truck For His Batmobile! (1080p)_frame_20.jpg"
+    }
+  ],
+  "recommendations": [
+    "🎵 Audio policy violations detected: violence",
+    "📝 Review transcript for policy-violating language",
+    "⚡ Minor violations detected - targeted edits recommended"
+  ],
+  "multi_modal_capabilities": {
+    "visual_model_accuracy": 97.48,
+    "blip_available": true,
+    "whisper_available": true,
+    "ocr_available": true
+  },
+  "text_issues": "DOON, 0, DOON, OOM, DIZAGES DOOM, DOOM, DOOM, 3, [TZS, NRM, 2 M, 3 M, 024",
+  "image": {
+    "details": {
+      "frame_preview_paths": [
+        "/static/frames/temp_1755513123_Absolute Batman Uses A Mining Truck For His Batmobile! (1080p)_frame_1.jpg",
+        "/static/frames/temp_1755513123_Absolute Batman Uses A Mining Truck For His Batmobile! (1080p)_frame_2.jpg",
+        "/static/frames/temp_1755513123_Absolute Batman Uses A Mining Truck For His Batmobile! (1080p)_frame_3.jpg",
+        "/static/frames/temp_1755513123_Absolute Batman Uses A Mining Truck For His Batmobile! (1080p)_frame_4.jpg",
+        "/static/frames/temp_1755513123_Absolute Batman Uses A Mining Truck For His Batmobile! (1080p)_frame_5.jpg",
+        "/static/frames/temp_1755513123_Absolute Batman Uses A Mining Truck For His Batmobile! (1080p)_frame_6.jpg",
+        "/static/frames/temp_1755513123_Absolute Batman Uses A Mining Truck For His Batmobile! (1080p)_frame_7.jpg",
+        "/static/frames/temp_1755513123_Absolute Batman Uses A Mining Truck For His Batmobile! (1080p)_frame_8.jpg",
+        "/static/frames/temp_1755513123_Absolute Batman Uses A Mining Truck For His Batmobile! (1080p)_frame_9.jpg",
+        "/static/frames/temp_1755513123_Absolute Batman Uses A Mining Truck For His Batmobile! (1080p)_frame_10.jpg",
+        "/static/frames/temp_1755513123_Absolute Batman Uses A Mining Truck For His Batmobile! (1080p)_frame_11.jpg",
+        "/static/frames/temp_1755513123_Absolute Batman Uses A Mining Truck For His Batmobile! (1080p)_frame_12.jpg",
+        "/static/frames/temp_1755513123_Absolute Batman Uses A Mining Truck For His Batmobile! (1080p)_frame_13.jpg",
+        "/static/frames/temp_1755513123_Absolute Batman Uses A Mining Truck For His Batmobile! (1080p)_frame_14.jpg",
+        "/static/frames/temp_1755513123_Absolute Batman Uses A Mining Truck For His Batmobile! (1080p)_frame_15.jpg",
+        "/static/frames/temp_1755513123_Absolute Batman Uses A Mining Truck For His Batmobile! (1080p)_frame_16.jpg",
+        "/static/frames/temp_1755513123_Absolute Batman Uses A Mining Truck For His Batmobile! (1080p)_frame_17.jpg",
+        "/static/frames/temp_1755513123_Absolute Batman Uses A Mining Truck For His Batmobile! (1080p)_frame_18.jpg",
+        "/static/frames/temp_1755513123_Absolute Batman Uses A Mining Truck For His Batmobile! (1080p)_frame_19.jpg",
+        "/static/frames/temp_1755513123_Absolute Batman Uses A Mining Truck For His Batmobile! (1080p)_frame_20.jpg"
+      ],
+      "frame_analysis": [
+        {
+          "timestamp": 0.0,
+          "frame_index": 0,
+          "visual_analysis": {
+            "category": "safe_content",
+            "confidence": 0.8857537508010864,
+            "violation_detected": false,
+            "all_probabilities": {
+              "safe_content": 0.8857537508010864,
+              "suggestive_content": 0.05014750361442566,
+              "artistic_adult_content": 0.0056380778551101685,
+              "misinformation": 0.048301585018634796,
+              "violence": 0.002832507947459817,
+              "hate_speech": 0.0037854521069675684,
+              "dangerous_activities": 0.0035411047283560038
+            }
+          },
+          "blip_description": {
+            "description": "the cover to the comic book, the doom",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "DOON",
+            "extracted_items": [
+              {
+                "text": "DOON",
+                "confidence": 0.5794590219644876,
+                "bbox": [
+                  [
+                    549.1604046546097,
+                    -19.982369220290142
+                  ],
+                  [
+                    1307.9677268671105,
+                    96.86426950359028
+                  ],
+                  [
+                    1269.8395953453903,
+                    257.98236922029014
+                  ],
+                  [
+                    512.0322731328895,
+                    142.13573049640974
+                  ]
+                ]
+              }
+            ],
+            "ocr_available": true
+          },
+          "combined_violation": false,
+          "preview_path": "/static/frames/temp_1755513123_Absolute Batman Uses A Mining Truck For His Batmobile! (1080p)_frame_1.jpg"
+        },
+        {
+          "timestamp": 0.5,
+          "frame_index": 1,
+          "visual_analysis": {
+            "category": "safe_content",
+            "confidence": 0.8793803453445435,
+            "violation_detected": false,
+            "all_probabilities": {
+              "safe_content": 0.8793803453445435,
+              "suggestive_content": 0.0527249276638031,
+              "artistic_adult_content": 0.006103308405727148,
+              "misinformation": 0.050831567496061325,
+              "violence": 0.0030161344911903143,
+              "hate_speech": 0.004107830114662647,
+              "dangerous_activities": 0.00383582292124629
+            }
+          },
+          "blip_description": {
+            "description": "the cover to the comic book room this is the cover",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "0",
+            "extracted_items": [
+              {
+                "text": "0",
+                "confidence": 0.8899747053524756,
+                "bbox": [
+                  [
+                    612,
+                    338
+                  ],
+                  [
+                    721,
+                    338
+                  ],
+                  [
+                    721,
+                    382
+                  ],
+                  [
+                    612,
+                    382
+                  ]
+                ]
+              }
+            ],
+            "ocr_available": true
+          },
+          "combined_violation": false,
+          "preview_path": "/static/frames/temp_1755513123_Absolute Batman Uses A Mining Truck For His Batmobile! (1080p)_frame_2.jpg"
+        },
+        {
+          "timestamp": 1.0,
+          "frame_index": 2,
+          "visual_analysis": {
+            "category": "safe_content",
+            "confidence": 0.8796868920326233,
+            "violation_detected": false,
+            "all_probabilities": {
+              "safe_content": 0.8796868920326233,
+              "suggestive_content": 0.05249064415693283,
+              "artistic_adult_content": 0.005998808890581131,
+              "misinformation": 0.050836291164159775,
+              "violence": 0.003051147796213627,
+              "hate_speech": 0.0040923189371824265,
+              "dangerous_activities": 0.003843917278572917
+            }
+          },
+          "blip_description": {
+            "description": "the cover to the comic book room, featuring a car and a man in a suit",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "",
+            "extracted_items": [],
+            "ocr_available": true
+          },
+          "combined_violation": false,
+          "preview_path": "/static/frames/temp_1755513123_Absolute Batman Uses A Mining Truck For His Batmobile! (1080p)_frame_3.jpg"
+        },
+        {
+          "timestamp": 1.5,
+          "frame_index": 3,
+          "visual_analysis": {
+            "category": "safe_content",
+            "confidence": 0.8774045705795288,
+            "violation_detected": false,
+            "all_probabilities": {
+              "safe_content": 0.8774045705795288,
+              "suggestive_content": 0.05352731794118881,
+              "artistic_adult_content": 0.006126830354332924,
+              "misinformation": 0.05171326920390129,
+              "violence": 0.0030878204852342606,
+              "hate_speech": 0.0041944365948438644,
+              "dangerous_activities": 0.003945734351873398
+            }
+          },
+          "blip_description": {
+            "description": "the cover to the comic book room, featuring a car and a man in a suit",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "DOON",
+            "extracted_items": [
+              {
+                "text": "DOON",
+                "confidence": 0.6458633765591559,
+                "bbox": [
+                  [
+                    516.1742584090877,
+                    -21.98294650007945
+                  ],
+                  [
+                    1264.963905177635,
+                    94.79896292380538
+                  ],
+                  [
+                    1225.8257415909125,
+                    259.98294650007944
+                  ],
+                  [
+                    477.0360948223649,
+                    142.20103707619464
+                  ]
+                ]
+              }
+            ],
+            "ocr_available": true
+          },
+          "combined_violation": false,
+          "preview_path": "/static/frames/temp_1755513123_Absolute Batman Uses A Mining Truck For His Batmobile! (1080p)_frame_4.jpg"
+        },
+        {
+          "timestamp": 2.0,
+          "frame_index": 4,
+          "visual_analysis": {
+            "category": "safe_content",
+            "confidence": 0.8791338205337524,
+            "violation_detected": false,
+            "all_probabilities": {
+              "safe_content": 0.8791338205337524,
+              "suggestive_content": 0.05446547269821167,
+              "artistic_adult_content": 0.006366180256009102,
+              "misinformation": 0.049318183213472366,
+              "violence": 0.002985709812492132,
+              "hate_speech": 0.003982395399361849,
+              "dangerous_activities": 0.0037482958287000656
+            }
+          },
+          "blip_description": {
+            "description": "the cover to the comic book room, featuring a bat and a bat",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "OOM",
+            "extracted_items": [
+              {
+                "text": "OOM",
+                "confidence": 0.9841812823736203,
+                "bbox": [
+                  [
+                    667.015169266077,
+                    2.023105367440092
+                  ],
+                  [
+                    1266.8263306136296,
+                    88.30482780294204
+                  ],
+                  [
+                    1229.984830733923,
+                    256.9768946325599
+                  ],
+                  [
+                    630.1736693863704,
+                    170.69517219705796
+                  ]
+                ]
+              }
+            ],
+            "ocr_available": true
+          },
+          "combined_violation": false,
+          "preview_path": "/static/frames/temp_1755513123_Absolute Batman Uses A Mining Truck For His Batmobile! (1080p)_frame_5.jpg"
+        },
+        {
+          "timestamp": 2.5,
+          "frame_index": 5,
+          "visual_analysis": {
+            "category": "safe_content",
+            "confidence": 0.8783057928085327,
+            "violation_detected": false,
+            "all_probabilities": {
+              "safe_content": 0.8783057928085327,
+              "suggestive_content": 0.052832212299108505,
+              "artistic_adult_content": 0.006057931575924158,
+              "misinformation": 0.05160940811038017,
+              "violence": 0.0030716590117663145,
+              "hate_speech": 0.004200118128210306,
+              "dangerous_activities": 0.003922945819795132
+            }
+          },
+          "blip_description": {
+            "description": "the cover to the comic book room, featuring a car and a man in a suit",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "",
+            "extracted_items": [],
+            "ocr_available": true
+          },
+          "combined_violation": false,
+          "preview_path": "/static/frames/temp_1755513123_Absolute Batman Uses A Mining Truck For His Batmobile! (1080p)_frame_6.jpg"
+        },
+        {
+          "timestamp": 3.0,
+          "frame_index": 6,
+          "visual_analysis": {
+            "category": "safe_content",
+            "confidence": 0.8817492723464966,
+            "violation_detected": false,
+            "all_probabilities": {
+              "safe_content": 0.8817492723464966,
+              "suggestive_content": 0.05137551575899124,
+              "artistic_adult_content": 0.00575077161192894,
+              "misinformation": 0.050351910293102264,
+              "violence": 0.002981797093525529,
+              "hate_speech": 0.004022618755698204,
+              "dangerous_activities": 0.0037681548856198788
+            }
+          },
+          "blip_description": {
+            "description": "the cover to room, a comic book by david mc",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "",
+            "extracted_items": [],
+            "ocr_available": true
+          },
+          "combined_violation": false,
+          "preview_path": "/static/frames/temp_1755513123_Absolute Batman Uses A Mining Truck For His Batmobile! (1080p)_frame_7.jpg"
+        },
+        {
+          "timestamp": 3.5,
+          "frame_index": 7,
+          "visual_analysis": {
+            "category": "safe_content",
+            "confidence": 0.8759380578994751,
+            "violation_detected": false,
+            "all_probabilities": {
+              "safe_content": 0.8759380578994751,
+              "suggestive_content": 0.0541253462433815,
+              "artistic_adult_content": 0.006133020389825106,
+              "misinformation": 0.05240665748715401,
+              "violence": 0.003123987466096878,
+              "hate_speech": 0.004266522359102964,
+              "dangerous_activities": 0.004006343428045511
+            }
+          },
+          "blip_description": {
+            "description": "zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "DIZAGES DOOM",
+            "extracted_items": [
+              {
+                "text": "DIZAGES",
+                "confidence": 0.5096598951443908,
+                "bbox": [
+                  [
+                    658,
+                    338
+                  ],
+                  [
+                    1059,
+                    338
+                  ],
+                  [
+                    1059,
+                    383
+                  ],
+                  [
+                    658,
+                    383
+                  ]
+                ]
+              },
+              {
+                "text": "DOOM",
+                "confidence": 0.5570604665087586,
+                "bbox": [
+                  [
+                    470.1639114537014,
+                    -19.98251625653657
+                  ],
+                  [
+                    1235.9573065802258,
+                    92.69389354841454
+                  ],
+                  [
+                    1198.8360885462987,
+                    258.98251625653654
+                  ],
+                  [
+                    432.04269341977414,
+                    145.30610645158546
+                  ]
+                ]
+              }
+            ],
+            "ocr_available": true
+          },
+          "combined_violation": false,
+          "preview_path": "/static/frames/temp_1755513123_Absolute Batman Uses A Mining Truck For His Batmobile! (1080p)_frame_8.jpg"
+        },
+        {
+          "timestamp": 4.0,
+          "frame_index": 8,
+          "visual_analysis": {
+            "category": "safe_content",
+            "confidence": 0.8869839310646057,
+            "violation_detected": false,
+            "all_probabilities": {
+              "safe_content": 0.8869839310646057,
+              "suggestive_content": 0.048782020807266235,
+              "artistic_adult_content": 0.005478687584400177,
+              "misinformation": 0.048631325364112854,
+              "violence": 0.0028195546474307775,
+              "hate_speech": 0.0037911110557615757,
+              "dangerous_activities": 0.0035133252386003733
+            }
+          },
+          "blip_description": {
+            "description": "zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "",
+            "extracted_items": [],
+            "ocr_available": true
+          },
+          "combined_violation": false,
+          "preview_path": "/static/frames/temp_1755513123_Absolute Batman Uses A Mining Truck For His Batmobile! (1080p)_frame_9.jpg"
+        },
+        {
+          "timestamp": 4.5,
+          "frame_index": 9,
+          "visual_analysis": {
+            "category": "safe_content",
+            "confidence": 0.8822161555290222,
+            "violation_detected": false,
+            "all_probabilities": {
+              "safe_content": 0.8822161555290222,
+              "suggestive_content": 0.05087781324982643,
+              "artistic_adult_content": 0.005638488102704287,
+              "misinformation": 0.050535622984170914,
+              "violence": 0.0029516315553337336,
+              "hate_speech": 0.004025094211101532,
+              "dangerous_activities": 0.0037551329005509615
+            }
+          },
+          "blip_description": {
+            "description": "zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "DOOM",
+            "extracted_items": [
+              {
+                "text": "DOOM",
+                "confidence": 0.6832977197635,
+                "bbox": [
+                  [
+                    441.08781829019756,
+                    -14.980179325456252
+                  ],
+                  [
+                    1220.9263378606456,
+                    86.24262020550134
+                  ],
+                  [
+                    1184.9121817098026,
+                    256.9801793254563
+                  ],
+                  [
+                    405.07366213935444,
+                    154.75737979449866
+                  ]
+                ]
+              }
+            ],
+            "ocr_available": true
+          },
+          "combined_violation": false,
+          "preview_path": "/static/frames/temp_1755513123_Absolute Batman Uses A Mining Truck For His Batmobile! (1080p)_frame_10.jpg"
+        },
+        {
+          "timestamp": 5.0,
+          "frame_index": 10,
+          "visual_analysis": {
+            "category": "safe_content",
+            "confidence": 0.8721297383308411,
+            "violation_detected": false,
+            "all_probabilities": {
+              "safe_content": 0.8721297383308411,
+              "suggestive_content": 0.05656464025378227,
+              "artistic_adult_content": 0.006392782088369131,
+              "misinformation": 0.053239766508340836,
+              "violence": 0.0031627484131604433,
+              "hate_speech": 0.004370969720184803,
+              "dangerous_activities": 0.004139430820941925
+            }
+          },
+          "blip_description": {
+            "description": "zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "DOOM",
+            "extracted_items": [
+              {
+                "text": "DOOM",
+                "confidence": 0.7662467360496521,
+                "bbox": [
+                  [
+                    424.08439171223074,
+                    -19.981768023008332
+                  ],
+                  [
+                    1200.889350966396,
+                    87.7466442053807
+                  ],
+                  [
+                    1159.9156082877691,
+                    276.9817680230083
+                  ],
+                  [
+                    383.110649033604,
+                    168.2533557946193
+                  ]
+                ]
+              }
+            ],
+            "ocr_available": true
+          },
+          "combined_violation": false,
+          "preview_path": "/static/frames/temp_1755513123_Absolute Batman Uses A Mining Truck For His Batmobile! (1080p)_frame_11.jpg"
+        },
+        {
+          "timestamp": 5.5,
+          "frame_index": 11,
+          "visual_analysis": {
+            "category": "safe_content",
+            "confidence": 0.8619530200958252,
+            "violation_detected": false,
+            "all_probabilities": {
+              "safe_content": 0.8619530200958252,
+              "suggestive_content": 0.06279191374778748,
+              "artistic_adult_content": 0.00918627716600895,
+              "misinformation": 0.05414341017603874,
+              "violence": 0.0034815073013305664,
+              "hate_speech": 0.004405222367495298,
+              "dangerous_activities": 0.004038597922772169
+            }
+          },
+          "blip_description": {
+            "description": "how to draw a monster truck",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "",
+            "extracted_items": [],
+            "ocr_available": true
+          },
+          "combined_violation": false,
+          "preview_path": "/static/frames/temp_1755513123_Absolute Batman Uses A Mining Truck For His Batmobile! (1080p)_frame_12.jpg"
+        },
+        {
+          "timestamp": 6.0,
+          "frame_index": 12,
+          "visual_analysis": {
+            "category": "safe_content",
+            "confidence": 0.8580644726753235,
+            "violation_detected": false,
+            "all_probabilities": {
+              "safe_content": 0.8580644726753235,
+              "suggestive_content": 0.065024733543396,
+              "artistic_adult_content": 0.009545225650072098,
+              "misinformation": 0.05516880750656128,
+              "violence": 0.0035771115217357874,
+              "hate_speech": 0.004483198281377554,
+              "dangerous_activities": 0.004136365372687578
+            }
+          },
+          "blip_description": {
+            "description": "how to draw a monster truck youtube",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "3",
+            "extracted_items": [
+              {
+                "text": "3",
+                "confidence": 0.7642804332172091,
+                "bbox": [
+                  [
+                    1027,
+                    485
+                  ],
+                  [
+                    1181,
+                    485
+                  ],
+                  [
+                    1181,
+                    599
+                  ],
+                  [
+                    1027,
+                    599
+                  ]
+                ]
+              }
+            ],
+            "ocr_available": true
+          },
+          "combined_violation": false,
+          "preview_path": "/static/frames/temp_1755513123_Absolute Batman Uses A Mining Truck For His Batmobile! (1080p)_frame_13.jpg"
+        },
+        {
+          "timestamp": 6.5,
+          "frame_index": 13,
+          "visual_analysis": {
+            "category": "safe_content",
+            "confidence": 0.8439731597900391,
+            "violation_detected": false,
+            "all_probabilities": {
+              "safe_content": 0.8439731597900391,
+              "suggestive_content": 0.0728260725736618,
+              "artistic_adult_content": 0.011225540190935135,
+              "misinformation": 0.058698661625385284,
+              "violence": 0.003863574005663395,
+              "hate_speech": 0.004863345995545387,
+              "dangerous_activities": 0.004549612291157246
+            }
+          },
+          "blip_description": {
+            "description": "a drawing of a monster truck with the words,'look like '",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "[TZS",
+            "extracted_items": [
+              {
+                "text": "[TZS",
+                "confidence": 0.6667309999465942,
+                "bbox": [
+                  [
+                    731,
+                    339
+                  ],
+                  [
+                    997,
+                    339
+                  ],
+                  [
+                    997,
+                    383
+                  ],
+                  [
+                    731,
+                    383
+                  ]
+                ]
+              }
+            ],
+            "ocr_available": true
+          },
+          "combined_violation": false,
+          "preview_path": "/static/frames/temp_1755513123_Absolute Batman Uses A Mining Truck For His Batmobile! (1080p)_frame_14.jpg"
+        },
+        {
+          "timestamp": 7.0,
+          "frame_index": 14,
+          "visual_analysis": {
+            "category": "safe_content",
+            "confidence": 0.860869288444519,
+            "violation_detected": false,
+            "all_probabilities": {
+              "safe_content": 0.860869288444519,
+              "suggestive_content": 0.06272691488265991,
+              "artistic_adult_content": 0.009361648000776768,
+              "misinformation": 0.05486243590712547,
+              "violence": 0.0035935749765485525,
+              "hate_speech": 0.004478247370570898,
+              "dangerous_activities": 0.0041079348884522915
+            }
+          },
+          "blip_description": {
+            "description": "how to draw a monster truck youtube",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "",
+            "extracted_items": [],
+            "ocr_available": true
+          },
+          "combined_violation": false,
+          "preview_path": "/static/frames/temp_1755513123_Absolute Batman Uses A Mining Truck For His Batmobile! (1080p)_frame_15.jpg"
+        },
+        {
+          "timestamp": 7.5,
+          "frame_index": 15,
+          "visual_analysis": {
+            "category": "safe_content",
+            "confidence": 0.8553485870361328,
+            "violation_detected": false,
+            "all_probabilities": {
+              "safe_content": 0.8553485870361328,
+              "suggestive_content": 0.06638862937688828,
+              "artistic_adult_content": 0.009776653721928596,
+              "misinformation": 0.05595308914780617,
+              "violence": 0.0036322197411209345,
+              "hate_speech": 0.004636491183191538,
+              "dangerous_activities": 0.00426433514803648
+            }
+          },
+          "blip_description": {
+            "description": "how to draw a monster truck youtube",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "",
+            "extracted_items": [],
+            "ocr_available": true
+          },
+          "combined_violation": false,
+          "preview_path": "/static/frames/temp_1755513123_Absolute Batman Uses A Mining Truck For His Batmobile! (1080p)_frame_16.jpg"
+        },
+        {
+          "timestamp": 8.0,
+          "frame_index": 16,
+          "visual_analysis": {
+            "category": "safe_content",
+            "confidence": 0.6704972982406616,
+            "violation_detected": false,
+            "all_probabilities": {
+              "safe_content": 0.6704972982406616,
+              "suggestive_content": 0.1851014941930771,
+              "artistic_adult_content": 0.032735418528318405,
+              "misinformation": 0.08998031169176102,
+              "violence": 0.005756585858762264,
+              "hate_speech": 0.007713227067142725,
+              "dangerous_activities": 0.008215558715164661
+            }
+          },
+          "blip_description": {
+            "description": "batman the dark knight returns",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "NRM",
+            "extracted_items": [
+              {
+                "text": "NRM",
+                "confidence": 0.8484088669135238,
+                "bbox": [
+                  [
+                    658,
+                    584
+                  ],
+                  [
+                    1280,
+                    584
+                  ],
+                  [
+                    1280,
+                    720
+                  ],
+                  [
+                    658,
+                    720
+                  ]
+                ]
+              }
+            ],
+            "ocr_available": true
+          },
+          "combined_violation": false,
+          "preview_path": "/static/frames/temp_1755513123_Absolute Batman Uses A Mining Truck For His Batmobile! (1080p)_frame_17.jpg"
+        },
+        {
+          "timestamp": 8.5,
+          "frame_index": 17,
+          "visual_analysis": {
+            "category": "safe_content",
+            "confidence": 0.790139377117157,
+            "violation_detected": false,
+            "all_probabilities": {
+              "safe_content": 0.790139377117157,
+              "suggestive_content": 0.09770163893699646,
+              "artistic_adult_content": 0.018108518794178963,
+              "misinformation": 0.07557418942451477,
+              "violence": 0.004964230582118034,
+              "hate_speech": 0.006792471744120121,
+              "dangerous_activities": 0.006719640921801329
+            }
+          },
+          "blip_description": {
+            "description": "batman the dark knight returns",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "2 M",
+            "extracted_items": [
+              {
+                "text": "2",
+                "confidence": 0.7732012962171133,
+                "bbox": [
+                  [
+                    776,
+                    0
+                  ],
+                  [
+                    812,
+                    0
+                  ],
+                  [
+                    812,
+                    24
+                  ],
+                  [
+                    776,
+                    24
+                  ]
+                ]
+              },
+              {
+                "text": "M",
+                "confidence": 0.9773414224369823,
+                "bbox": [
+                  [
+                    1148,
+                    588
+                  ],
+                  [
+                    1280,
+                    588
+                  ],
+                  [
+                    1280,
+                    712
+                  ],
+                  [
+                    1148,
+                    712
+                  ]
+                ]
+              }
+            ],
+            "ocr_available": true
+          },
+          "combined_violation": false,
+          "preview_path": "/static/frames/temp_1755513123_Absolute Batman Uses A Mining Truck For His Batmobile! (1080p)_frame_18.jpg"
+        },
+        {
+          "timestamp": 9.0,
+          "frame_index": 18,
+          "visual_analysis": {
+            "category": "safe_content",
+            "confidence": 0.7636380195617676,
+            "violation_detected": false,
+            "all_probabilities": {
+              "safe_content": 0.7636380195617676,
+              "suggestive_content": 0.11335940659046173,
+              "artistic_adult_content": 0.02037879452109337,
+              "misinformation": 0.08235479146242142,
+              "violence": 0.0054220836609601974,
+              "hate_speech": 0.007424493320286274,
+              "dangerous_activities": 0.007422384340316057
+            }
+          },
+          "blip_description": {
+            "description": "batman the dark knight returns",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "3 M",
+            "extracted_items": [
+              {
+                "text": "3",
+                "confidence": 0.718644301563959,
+                "bbox": [
+                  [
+                    794,
+                    312
+                  ],
+                  [
+                    852,
+                    312
+                  ],
+                  [
+                    852,
+                    338
+                  ],
+                  [
+                    794,
+                    338
+                  ]
+                ]
+              },
+              {
+                "text": "M",
+                "confidence": 0.9821374633979509,
+                "bbox": [
+                  [
+                    1158,
+                    590
+                  ],
+                  [
+                    1280,
+                    590
+                  ],
+                  [
+                    1280,
+                    710
+                  ],
+                  [
+                    1158,
+                    710
+                  ]
+                ]
+              }
+            ],
+            "ocr_available": true
+          },
+          "combined_violation": false,
+          "preview_path": "/static/frames/temp_1755513123_Absolute Batman Uses A Mining Truck For His Batmobile! (1080p)_frame_19.jpg"
+        },
+        {
+          "timestamp": 9.5,
+          "frame_index": 19,
+          "visual_analysis": {
+            "category": "safe_content",
+            "confidence": 0.7232157588005066,
+            "violation_detected": false,
+            "all_probabilities": {
+              "safe_content": 0.7232157588005066,
+              "suggestive_content": 0.14514468610286713,
+              "artistic_adult_content": 0.02371702343225479,
+              "misinformation": 0.08646316826343536,
+              "violence": 0.0056648557074368,
+              "hate_speech": 0.007821490056812763,
+              "dangerous_activities": 0.007972991093993187
+            }
+          },
+          "blip_description": {
+            "description": "batman the dark knight returns",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "024",
+            "extracted_items": [
+              {
+                "text": "024",
+                "confidence": 0.5001503825187683,
+                "bbox": [
+                  [
+                    828.2051046034557,
+                    -0.6667280310152979
+                  ],
+                  [
+                    950.5504399563814,
+                    -10.072075337280825
+                  ],
+                  [
+                    952.7948953965443,
+                    34.666728031015296
+                  ],
+                  [
+                    829.4495600436186,
+                    45.07207533728083
+                  ]
+                ]
+              }
+            ],
+            "ocr_available": true
+          },
+          "combined_violation": false,
+          "preview_path": "/static/frames/temp_1755513123_Absolute Batman Uses A Mining Truck For His Batmobile! (1080p)_frame_20.jpg"
+        }
+      ]
+    }
+  },
+  "rag_explanations": [
+    {
+      "type": "visual",
+      "frame": 1,
+      "timestamp": 0.0,
+      "category": "safe_content",
+      "confidence": 0.8857537508010864,
+      "blip": "the cover to the comic book, the doom",
+      "ocr": "DOON",
+      "policy": {
+        "description": "Content depicting violence, weapons, or graphic imagery",
+        "examples": [
+          "fighting",
+          "weapons",
+          "blood",
+          "gore",
+          "combat"
+        ],
+        "severity_indicators": [
+          "realistic weapons",
+          "explicit violence",
+          "gore"
+        ],
+        "context_matters": [
+          "gaming violence vs real violence",
+          "educational vs gratuitous"
+        ],
+        "action_required": "human_review_required"
+      },
+      "action_required": "human_review_required",
+      "examples": [
+        "fighting",
+        "weapons",
+        "blood",
+        "gore",
+        "combat"
+      ],
+      "severity_indicators": [
+        "realistic weapons",
+        "explicit violence",
+        "gore"
+      ],
+      "context_factors": [
+        "gaming violence vs real violence",
+        "educational vs gratuitous"
+      ],
+      "violation_detected": false
+    },
+    {
+      "type": "visual",
+      "frame": 2,
+      "timestamp": 0.5,
+      "category": "safe_content",
+      "confidence": 0.8793803453445435,
+      "blip": "the cover to the comic book room this is the cover",
+      "ocr": "0",
+      "policy": {
+        "description": "Content showing dangerous or harmful activities",
+        "examples": [
+          "extreme stunts",
+          "self-harm",
+          "dangerous challenges"
+        ],
+        "severity_indicators": [
+          "life-threatening",
+          "copyable dangers",
+          "no safety warnings"
+        ],
+        "context_matters": [
+          "professional vs amateur",
+          "safety precautions shown"
+        ],
+        "action_required": "age_restriction_or_removal"
+      },
+      "action_required": "age_restriction_or_removal",
+      "examples": [
+        "extreme stunts",
+        "self-harm",
+        "dangerous challenges"
+      ],
+      "severity_indicators": [
+        "life-threatening",
+        "copyable dangers",
+        "no safety warnings"
+      ],
+      "context_factors": [
+        "professional vs amateur",
+        "safety precautions shown"
+      ],
+      "violation_detected": false
+    },
+    {
+      "type": "visual",
+      "frame": 3,
+      "timestamp": 1.0,
+      "category": "safe_content",
+      "confidence": 0.8796868920326233,
+      "blip": "the cover to the comic book room, featuring a car and a man in a suit",
+      "ocr": "",
+      "policy": {
+        "description": "Content depicting violence, weapons, or graphic imagery",
+        "examples": [
+          "fighting",
+          "weapons",
+          "blood",
+          "gore",
+          "combat"
+        ],
+        "severity_indicators": [
+          "realistic weapons",
+          "explicit violence",
+          "gore"
+        ],
+        "context_matters": [
+          "gaming violence vs real violence",
+          "educational vs gratuitous"
+        ],
+        "action_required": "human_review_required"
+      },
+      "action_required": "human_review_required",
+      "examples": [
+        "fighting",
+        "weapons",
+        "blood",
+        "gore",
+        "combat"
+      ],
+      "severity_indicators": [
+        "realistic weapons",
+        "explicit violence",
+        "gore"
+      ],
+      "context_factors": [
+        "gaming violence vs real violence",
+        "educational vs gratuitous"
+      ],
+      "violation_detected": false
+    },
+    {
+      "type": "visual",
+      "frame": 4,
+      "timestamp": 1.5,
+      "category": "safe_content",
+      "confidence": 0.8774045705795288,
+      "blip": "the cover to the comic book room, featuring a car and a man in a suit",
+      "ocr": "DOON",
+      "policy": {
+        "description": "Content depicting violence, weapons, or graphic imagery",
+        "examples": [
+          "fighting",
+          "weapons",
+          "blood",
+          "gore",
+          "combat"
+        ],
+        "severity_indicators": [
+          "realistic weapons",
+          "explicit violence",
+          "gore"
+        ],
+        "context_matters": [
+          "gaming violence vs real violence",
+          "educational vs gratuitous"
+        ],
+        "action_required": "human_review_required"
+      },
+      "action_required": "human_review_required",
+      "examples": [
+        "fighting",
+        "weapons",
+        "blood",
+        "gore",
+        "combat"
+      ],
+      "severity_indicators": [
+        "realistic weapons",
+        "explicit violence",
+        "gore"
+      ],
+      "context_factors": [
+        "gaming violence vs real violence",
+        "educational vs gratuitous"
+      ],
+      "violation_detected": false
+    },
+    {
+      "type": "visual",
+      "frame": 5,
+      "timestamp": 2.0,
+      "category": "safe_content",
+      "confidence": 0.8791338205337524,
+      "blip": "the cover to the comic book room, featuring a bat and a bat",
+      "ocr": "OOM",
+      "policy": {
+        "description": "Content depicting violence, weapons, or graphic imagery",
+        "examples": [
+          "fighting",
+          "weapons",
+          "blood",
+          "gore",
+          "combat"
+        ],
+        "severity_indicators": [
+          "realistic weapons",
+          "explicit violence",
+          "gore"
+        ],
+        "context_matters": [
+          "gaming violence vs real violence",
+          "educational vs gratuitous"
+        ],
+        "action_required": "human_review_required"
+      },
+      "action_required": "human_review_required",
+      "examples": [
+        "fighting",
+        "weapons",
+        "blood",
+        "gore",
+        "combat"
+      ],
+      "severity_indicators": [
+        "realistic weapons",
+        "explicit violence",
+        "gore"
+      ],
+      "context_factors": [
+        "gaming violence vs real violence",
+        "educational vs gratuitous"
+      ],
+      "violation_detected": false
+    },
+    {
+      "type": "visual",
+      "frame": 6,
+      "timestamp": 2.5,
+      "category": "safe_content",
+      "confidence": 0.8783057928085327,
+      "blip": "the cover to the comic book room, featuring a car and a man in a suit",
+      "ocr": "",
+      "policy": {
+        "description": "Content depicting violence, weapons, or graphic imagery",
+        "examples": [
+          "fighting",
+          "weapons",
+          "blood",
+          "gore",
+          "combat"
+        ],
+        "severity_indicators": [
+          "realistic weapons",
+          "explicit violence",
+          "gore"
+        ],
+        "context_matters": [
+          "gaming violence vs real violence",
+          "educational vs gratuitous"
+        ],
+        "action_required": "human_review_required"
+      },
+      "action_required": "human_review_required",
+      "examples": [
+        "fighting",
+        "weapons",
+        "blood",
+        "gore",
+        "combat"
+      ],
+      "severity_indicators": [
+        "realistic weapons",
+        "explicit violence",
+        "gore"
+      ],
+      "context_factors": [
+        "gaming violence vs real violence",
+        "educational vs gratuitous"
+      ],
+      "violation_detected": false
+    },
+    {
+      "type": "visual",
+      "frame": 7,
+      "timestamp": 3.0,
+      "category": "safe_content",
+      "confidence": 0.8817492723464966,
+      "blip": "the cover to room, a comic book by david mc",
+      "ocr": "",
+      "policy": {
+        "description": "Content depicting violence, weapons, or graphic imagery",
+        "examples": [
+          "fighting",
+          "weapons",
+          "blood",
+          "gore",
+          "combat"
+        ],
+        "severity_indicators": [
+          "realistic weapons",
+          "explicit violence",
+          "gore"
+        ],
+        "context_matters": [
+          "gaming violence vs real violence",
+          "educational vs gratuitous"
+        ],
+        "action_required": "human_review_required"
+      },
+      "action_required": "human_review_required",
+      "examples": [
+        "fighting",
+        "weapons",
+        "blood",
+        "gore",
+        "combat"
+      ],
+      "severity_indicators": [
+        "realistic weapons",
+        "explicit violence",
+        "gore"
+      ],
+      "context_factors": [
+        "gaming violence vs real violence",
+        "educational vs gratuitous"
+      ],
+      "violation_detected": false
+    },
+    {
+      "type": "visual",
+      "frame": 8,
+      "timestamp": 3.5,
+      "category": "safe_content",
+      "confidence": 0.8759380578994751,
+      "blip": "zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom",
+      "ocr": "DIZAGES DOOM",
+      "policy": {
+        "description": "Content showing dangerous or harmful activities",
+        "examples": [
+          "extreme stunts",
+          "self-harm",
+          "dangerous challenges"
+        ],
+        "severity_indicators": [
+          "life-threatening",
+          "copyable dangers",
+          "no safety warnings"
+        ],
+        "context_matters": [
+          "professional vs amateur",
+          "safety precautions shown"
+        ],
+        "action_required": "age_restriction_or_removal"
+      },
+      "action_required": "age_restriction_or_removal",
+      "examples": [
+        "extreme stunts",
+        "self-harm",
+        "dangerous challenges"
+      ],
+      "severity_indicators": [
+        "life-threatening",
+        "copyable dangers",
+        "no safety warnings"
+      ],
+      "context_factors": [
+        "professional vs amateur",
+        "safety precautions shown"
+      ],
+      "violation_detected": false
+    },
+    {
+      "type": "visual",
+      "frame": 9,
+      "timestamp": 4.0,
+      "category": "safe_content",
+      "confidence": 0.8869839310646057,
+      "blip": "zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom",
+      "ocr": "",
+      "policy": {
+        "description": "Content showing dangerous or harmful activities",
+        "examples": [
+          "extreme stunts",
+          "self-harm",
+          "dangerous challenges"
+        ],
+        "severity_indicators": [
+          "life-threatening",
+          "copyable dangers",
+          "no safety warnings"
+        ],
+        "context_matters": [
+          "professional vs amateur",
+          "safety precautions shown"
+        ],
+        "action_required": "age_restriction_or_removal"
+      },
+      "action_required": "age_restriction_or_removal",
+      "examples": [
+        "extreme stunts",
+        "self-harm",
+        "dangerous challenges"
+      ],
+      "severity_indicators": [
+        "life-threatening",
+        "copyable dangers",
+        "no safety warnings"
+      ],
+      "context_factors": [
+        "professional vs amateur",
+        "safety precautions shown"
+      ],
+      "violation_detected": false
+    },
+    {
+      "type": "visual",
+      "frame": 10,
+      "timestamp": 4.5,
+      "category": "safe_content",
+      "confidence": 0.8822161555290222,
+      "blip": "zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom",
+      "ocr": "DOOM",
+      "policy": {
+        "description": "Content showing dangerous or harmful activities",
+        "examples": [
+          "extreme stunts",
+          "self-harm",
+          "dangerous challenges"
+        ],
+        "severity_indicators": [
+          "life-threatening",
+          "copyable dangers",
+          "no safety warnings"
+        ],
+        "context_matters": [
+          "professional vs amateur",
+          "safety precautions shown"
+        ],
+        "action_required": "age_restriction_or_removal"
+      },
+      "action_required": "age_restriction_or_removal",
+      "examples": [
+        "extreme stunts",
+        "self-harm",
+        "dangerous challenges"
+      ],
+      "severity_indicators": [
+        "life-threatening",
+        "copyable dangers",
+        "no safety warnings"
+      ],
+      "context_factors": [
+        "professional vs amateur",
+        "safety precautions shown"
+      ],
+      "violation_detected": false
+    },
+    {
+      "type": "visual",
+      "frame": 11,
+      "timestamp": 5.0,
+      "category": "safe_content",
+      "confidence": 0.8721297383308411,
+      "blip": "zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom zoom",
+      "ocr": "DOOM",
+      "policy": {
+        "description": "Content showing dangerous or harmful activities",
+        "examples": [
+          "extreme stunts",
+          "self-harm",
+          "dangerous challenges"
+        ],
+        "severity_indicators": [
+          "life-threatening",
+          "copyable dangers",
+          "no safety warnings"
+        ],
+        "context_matters": [
+          "professional vs amateur",
+          "safety precautions shown"
+        ],
+        "action_required": "age_restriction_or_removal"
+      },
+      "action_required": "age_restriction_or_removal",
+      "examples": [
+        "extreme stunts",
+        "self-harm",
+        "dangerous challenges"
+      ],
+      "severity_indicators": [
+        "life-threatening",
+        "copyable dangers",
+        "no safety warnings"
+      ],
+      "context_factors": [
+        "professional vs amateur",
+        "safety precautions shown"
+      ],
+      "violation_detected": false
+    },
+    {
+      "type": "visual",
+      "frame": 12,
+      "timestamp": 5.5,
+      "category": "safe_content",
+      "confidence": 0.8619530200958252,
+      "blip": "how to draw a monster truck",
+      "ocr": "",
+      "policy": {
+        "description": "Content showing dangerous or harmful activities",
+        "examples": [
+          "extreme stunts",
+          "self-harm",
+          "dangerous challenges"
+        ],
+        "severity_indicators": [
+          "life-threatening",
+          "copyable dangers",
+          "no safety warnings"
+        ],
+        "context_matters": [
+          "professional vs amateur",
+          "safety precautions shown"
+        ],
+        "action_required": "age_restriction_or_removal"
+      },
+      "action_required": "age_restriction_or_removal",
+      "examples": [
+        "extreme stunts",
+        "self-harm",
+        "dangerous challenges"
+      ],
+      "severity_indicators": [
+        "life-threatening",
+        "copyable dangers",
+        "no safety warnings"
+      ],
+      "context_factors": [
+        "professional vs amateur",
+        "safety precautions shown"
+      ],
+      "violation_detected": false
+    },
+    {
+      "type": "visual",
+      "frame": 13,
+      "timestamp": 6.0,
+      "category": "safe_content",
+      "confidence": 0.8580644726753235,
+      "blip": "how to draw a monster truck youtube",
+      "ocr": "3",
+      "policy": {
+        "description": "Content showing dangerous or harmful activities",
+        "examples": [
+          "extreme stunts",
+          "self-harm",
+          "dangerous challenges"
+        ],
+        "severity_indicators": [
+          "life-threatening",
+          "copyable dangers",
+          "no safety warnings"
+        ],
+        "context_matters": [
+          "professional vs amateur",
+          "safety precautions shown"
+        ],
+        "action_required": "age_restriction_or_removal"
+      },
+      "action_required": "age_restriction_or_removal",
+      "examples": [
+        "extreme stunts",
+        "self-harm",
+        "dangerous challenges"
+      ],
+      "severity_indicators": [
+        "life-threatening",
+        "copyable dangers",
+        "no safety warnings"
+      ],
+      "context_factors": [
+        "professional vs amateur",
+        "safety precautions shown"
+      ],
+      "violation_detected": false
+    },
+    {
+      "type": "visual",
+      "frame": 14,
+      "timestamp": 6.5,
+      "category": "safe_content",
+      "confidence": 0.8439731597900391,
+      "blip": "a drawing of a monster truck with the words,'look like '",
+      "ocr": "[TZS",
+      "policy": {
+        "description": "Content showing dangerous or harmful activities",
+        "examples": [
+          "extreme stunts",
+          "self-harm",
+          "dangerous challenges"
+        ],
+        "severity_indicators": [
+          "life-threatening",
+          "copyable dangers",
+          "no safety warnings"
+        ],
+        "context_matters": [
+          "professional vs amateur",
+          "safety precautions shown"
+        ],
+        "action_required": "age_restriction_or_removal"
+      },
+      "action_required": "age_restriction_or_removal",
+      "examples": [
+        "extreme stunts",
+        "self-harm",
+        "dangerous challenges"
+      ],
+      "severity_indicators": [
+        "life-threatening",
+        "copyable dangers",
+        "no safety warnings"
+      ],
+      "context_factors": [
+        "professional vs amateur",
+        "safety precautions shown"
+      ],
+      "violation_detected": false
+    },
+    {
+      "type": "visual",
+      "frame": 15,
+      "timestamp": 7.0,
+      "category": "safe_content",
+      "confidence": 0.860869288444519,
+      "blip": "how to draw a monster truck youtube",
+      "ocr": "",
+      "policy": {
+        "description": "Content showing dangerous or harmful activities",
+        "examples": [
+          "extreme stunts",
+          "self-harm",
+          "dangerous challenges"
+        ],
+        "severity_indicators": [
+          "life-threatening",
+          "copyable dangers",
+          "no safety warnings"
+        ],
+        "context_matters": [
+          "professional vs amateur",
+          "safety precautions shown"
+        ],
+        "action_required": "age_restriction_or_removal"
+      },
+      "action_required": "age_restriction_or_removal",
+      "examples": [
+        "extreme stunts",
+        "self-harm",
+        "dangerous challenges"
+      ],
+      "severity_indicators": [
+        "life-threatening",
+        "copyable dangers",
+        "no safety warnings"
+      ],
+      "context_factors": [
+        "professional vs amateur",
+        "safety precautions shown"
+      ],
+      "violation_detected": false
+    },
+    {
+      "type": "visual",
+      "frame": 16,
+      "timestamp": 7.5,
+      "category": "safe_content",
+      "confidence": 0.8553485870361328,
+      "blip": "how to draw a monster truck youtube",
+      "ocr": "",
+      "policy": {
+        "description": "Content showing dangerous or harmful activities",
+        "examples": [
+          "extreme stunts",
+          "self-harm",
+          "dangerous challenges"
+        ],
+        "severity_indicators": [
+          "life-threatening",
+          "copyable dangers",
+          "no safety warnings"
+        ],
+        "context_matters": [
+          "professional vs amateur",
+          "safety precautions shown"
+        ],
+        "action_required": "age_restriction_or_removal"
+      },
+      "action_required": "age_restriction_or_removal",
+      "examples": [
+        "extreme stunts",
+        "self-harm",
+        "dangerous challenges"
+      ],
+      "severity_indicators": [
+        "life-threatening",
+        "copyable dangers",
+        "no safety warnings"
+      ],
+      "context_factors": [
+        "professional vs amateur",
+        "safety precautions shown"
+      ],
+      "violation_detected": false
+    },
+    {
+      "type": "visual",
+      "frame": 17,
+      "timestamp": 8.0,
+      "category": "safe_content",
+      "confidence": 0.6704972982406616,
+      "blip": "batman the dark knight returns",
+      "ocr": "NRM",
+      "policy": {
+        "description": "Content depicting violence, weapons, or graphic imagery",
+        "examples": [
+          "fighting",
+          "weapons",
+          "blood",
+          "gore",
+          "combat"
+        ],
+        "severity_indicators": [
+          "realistic weapons",
+          "explicit violence",
+          "gore"
+        ],
+        "context_matters": [
+          "gaming violence vs real violence",
+          "educational vs gratuitous"
+        ],
+        "action_required": "human_review_required"
+      },
+      "action_required": "human_review_required",
+      "examples": [
+        "fighting",
+        "weapons",
+        "blood",
+        "gore",
+        "combat"
+      ],
+      "severity_indicators": [
+        "realistic weapons",
+        "explicit violence",
+        "gore"
+      ],
+      "context_factors": [
+        "gaming violence vs real violence",
+        "educational vs gratuitous"
+      ],
+      "violation_detected": false
+    },
+    {
+      "type": "visual",
+      "frame": 18,
+      "timestamp": 8.5,
+      "category": "safe_content",
+      "confidence": 0.790139377117157,
+      "blip": "batman the dark knight returns",
+      "ocr": "2 M",
+      "policy": {
+        "description": "Content depicting violence, weapons, or graphic imagery",
+        "examples": [
+          "fighting",
+          "weapons",
+          "blood",
+          "gore",
+          "combat"
+        ],
+        "severity_indicators": [
+          "realistic weapons",
+          "explicit violence",
+          "gore"
+        ],
+        "context_matters": [
+          "gaming violence vs real violence",
+          "educational vs gratuitous"
+        ],
+        "action_required": "human_review_required"
+      },
+      "action_required": "human_review_required",
+      "examples": [
+        "fighting",
+        "weapons",
+        "blood",
+        "gore",
+        "combat"
+      ],
+      "severity_indicators": [
+        "realistic weapons",
+        "explicit violence",
+        "gore"
+      ],
+      "context_factors": [
+        "gaming violence vs real violence",
+        "educational vs gratuitous"
+      ],
+      "violation_detected": false
+    },
+    {
+      "type": "visual",
+      "frame": 19,
+      "timestamp": 9.0,
+      "category": "safe_content",
+      "confidence": 0.7636380195617676,
+      "blip": "batman the dark knight returns",
+      "ocr": "3 M",
+      "policy": {
+        "description": "Content depicting violence, weapons, or graphic imagery",
+        "examples": [
+          "fighting",
+          "weapons",
+          "blood",
+          "gore",
+          "combat"
+        ],
+        "severity_indicators": [
+          "realistic weapons",
+          "explicit violence",
+          "gore"
+        ],
+        "context_matters": [
+          "gaming violence vs real violence",
+          "educational vs gratuitous"
+        ],
+        "action_required": "human_review_required"
+      },
+      "action_required": "human_review_required",
+      "examples": [
+        "fighting",
+        "weapons",
+        "blood",
+        "gore",
+        "combat"
+      ],
+      "severity_indicators": [
+        "realistic weapons",
+        "explicit violence",
+        "gore"
+      ],
+      "context_factors": [
+        "gaming violence vs real violence",
+        "educational vs gratuitous"
+      ],
+      "violation_detected": false
+    },
+    {
+      "type": "visual",
+      "frame": 20,
+      "timestamp": 9.5,
+      "category": "safe_content",
+      "confidence": 0.7232157588005066,
+      "blip": "batman the dark knight returns",
+      "ocr": "024",
+      "policy": {
+        "description": "Content depicting violence, weapons, or graphic imagery",
+        "examples": [
+          "fighting",
+          "weapons",
+          "blood",
+          "gore",
+          "combat"
+        ],
+        "severity_indicators": [
+          "realistic weapons",
+          "explicit violence",
+          "gore"
+        ],
+        "context_matters": [
+          "gaming violence vs real violence",
+          "educational vs gratuitous"
+        ],
+        "action_required": "human_review_required"
+      },
+      "action_required": "human_review_required",
+      "examples": [
+        "fighting",
+        "weapons",
+        "blood",
+        "gore",
+        "combat"
+      ],
+      "severity_indicators": [
+        "realistic weapons",
+        "explicit violence",
+        "gore"
+      ],
+      "context_factors": [
+        "gaming violence vs real violence",
+        "educational vs gratuitous"
+      ],
+      "violation_detected": false
+    },
+    {
+      "type": "audio",
+      "category": "violence",
+      "keywords": [
+        "war"
+      ],
+      "severity": "medium",
+      "transcript": " This is the Batmobile of Absolute Batman. And we first got leaked images a couple of months ago as ",
+      "policy": {
+        "description": "Content depicting violence, weapons, or graphic imagery",
+        "examples": [
+          "fighting",
+          "weapons",
+          "blood",
+          "gore",
+          "combat"
+        ],
+        "severity_indicators": [
+          "realistic weapons",
+          "explicit violence",
+          "gore"
+        ],
+        "context_matters": [
+          "gaming violence vs real violence",
+          "educational vs gratuitous"
+        ],
+        "action_required": "human_review_required"
+      },
+      "action_required": "human_review_required",
+      "examples": [
+        "fighting",
+        "weapons",
+        "blood",
+        "gore",
+        "combat"
+      ],
+      "severity_indicators": [
+        "realistic weapons",
+        "explicit violence",
+        "gore"
+      ],
+      "context_factors": [
+        "gaming violence vs real violence",
+        "educational vs gratuitous"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,7757 @@
+{
+  "video_info": {
+    "path": "C:\\Users\\PC\\AppData\\Local\\Temp\\video_analysis\\temp_1755957695_ELDEN RING NIGHTREIGN_replay_2025.08.21-23.56.mp4",
+    "name": "temp_1755957695_ELDEN RING NIGHTREIGN_replay_2025.08.21-23.56.mp4",
+    "analysis_time": 89.31869769096375,
+    "timestamp": "2025-08-23T15:03:22.088330"
+  },
+  "frame_analysis": {
+    "total_frames": 9,
+    "violation_frames": 9,
+    "average_confidence": 0.664995037847095,
+    "violation_categories": [
+      "misinformation",
+      "suggestive_content"
+    ]
+  },
+  "audio_analysis": {
+    "transcript": " Azt a kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis Kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis k Kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis k Kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis k E-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A about life but of a life for living as a Azt a kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis",
+    "language": "hu",
+    "policy_flags": {
+      "safe": {
+        "keywords_found": [],
+        "severity": "none"
+      }
+    },
+    "whisper_available": true,
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 30.0,
+        "text": " Azt a kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis",
+        "tokens": [
+          50364,
+          316,
+          2682,
+          257,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.13629771762424045,
+        "compression_ratio": 21.19047619047619,
+        "no_speech_prob": 0.7346650958061218
+      },
+      {
+        "id": 1,
+        "seek": 3000,
+        "start": 30.0,
+        "end": 60.0,
+        "text": " Kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis k",
+        "tokens": [
+          50364,
+          591,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.03539314184488202,
+        "compression_ratio": 25.941176470588236,
+        "no_speech_prob": 0.8007268905639648
+      },
+      {
+        "id": 2,
+        "seek": 6000,
+        "start": 60.0,
+        "end": 90.0,
+        "text": " Kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis k",
+        "tokens": [
+          50364,
+          591,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.023566571051764382,
+        "compression_ratio": 25.941176470588236,
+        "no_speech_prob": 0.8203694224357605
+      },
+      {
+        "id": 3,
+        "seek": 9000,
+        "start": 90.0,
+        "end": 120.0,
+        "text": " Kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis k",
+        "tokens": [
+          50364,
+          591,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.027655781117255376,
+        "compression_ratio": 25.941176470588236,
+        "no_speech_prob": 0.8400180339813232
+      },
+      {
+        "id": 4,
+        "seek": 12000,
+        "start": 120.0,
+        "end": 150.0,
+        "text": " E-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A",
+        "tokens": [
+          50364,
+          462,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.08434896084225231,
+        "compression_ratio": 17.0,
+        "no_speech_prob": 0.8571853637695312
+      },
+      {
+        "id": 5,
+        "seek": 15000,
+        "start": 150.0,
+        "end": 180.0,
+        "text": " A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A",
+        "tokens": [
+          50364,
+          316,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.03253475967544077,
+        "compression_ratio": 17.0,
+        "no_speech_prob": 0.9603148698806763
+      },
+      {
+        "id": 6,
+        "seek": 18000,
+        "start": 180.0,
+        "end": 210.0,
+        "text": " A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A",
+        "tokens": [
+          50364,
+          316,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32,
+          12,
+          32
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.027567683848564936,
+        "compression_ratio": 17.0,
+        "no_speech_prob": 0.9631903767585754
+      },
+      {
+        "id": 7,
+        "seek": 21000,
+        "start": 210.0,
+        "end": 227.3,
+        "text": " about life but of a",
+        "tokens": [
+          50364,
+          466,
+          993,
+          457,
+          295,
+          257,
+          51229
+        ],
+        "temperature": 1.0,
+        "avg_logprob": -3.7669011896306817,
+        "compression_ratio": 0.975609756097561,
+        "no_speech_prob": 0.008918424136936665
+      },
+      {
+        "id": 8,
+        "seek": 21000,
+        "start": 227.3,
+        "end": 229.02,
+        "text": " life for",
+        "tokens": [
+          51229,
+          993,
+          337,
+          51315
+        ],
+        "temperature": 1.0,
+        "avg_logprob": -3.7669011896306817,
+        "compression_ratio": 0.975609756097561,
+        "no_speech_prob": 0.008918424136936665
+      },
+      {
+        "id": 9,
+        "seek": 21000,
+        "start": 229.02,
+        "end": 235.5,
+        "text": " living",
+        "tokens": [
+          51315,
+          2647,
+          51639
+        ],
+        "temperature": 1.0,
+        "avg_logprob": -3.7669011896306817,
+        "compression_ratio": 0.975609756097561,
+        "no_speech_prob": 0.008918424136936665
+      },
+      {
+        "id": 10,
+        "seek": 21000,
+        "start": 235.5,
+        "end": 237.92000000000002,
+        "text": " as",
+        "tokens": [
+          51639,
+          382,
+          51760
+        ],
+        "temperature": 1.0,
+        "avg_logprob": -3.7669011896306817,
+        "compression_ratio": 0.975609756097561,
+        "no_speech_prob": 0.008918424136936665
+      },
+      {
+        "id": 11,
+        "seek": 21000,
+        "start": 237.92000000000002,
+        "end": 238.96,
+        "text": " a",
+        "tokens": [
+          51760,
+          257,
+          51812
+        ],
+        "temperature": 1.0,
+        "avg_logprob": -3.7669011896306817,
+        "compression_ratio": 0.975609756097561,
+        "no_speech_prob": 0.008918424136936665
+      },
+      {
+        "id": 12,
+        "seek": 23896,
+        "start": 238.96,
+        "end": 239.85,
+        "text": " Azt a kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis",
+        "tokens": [
+          50364,
+          316,
+          2682,
+          257,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271,
+          350,
+          271
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.11003053453233506,
+        "compression_ratio": 21.19047619047619,
+        "no_speech_prob": 0.6134868264198303
+      }
+    ]
+  },
+  "overall_assessment": {
+    "overall_compliance": 35.0,
+    "visual_compliance": 0.0,
+    "audio_compliance": 70,
+    "status": "major_violations",
+    "total_violations": 10,
+    "violation_categories": [
+      "misinformation",
+      "suggestive_content",
+      "safe"
+    ]
+  },
+  "detailed_frames": [
+    {
+      "timestamp": 0.0,
+      "frame_index": 0,
+      "visual_analysis": {
+        "category": "suggestive_content",
+        "confidence": 0.9015972018241882,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.01860678195953369,
+          "suggestive_content": 0.9015972018241882,
+          "artistic_adult_content": 0.04678390547633171,
+          "misinformation": 0.028057167306542397,
+          "violence": 0.0014883966650813818,
+          "hate_speech": 0.0013436595909297466,
+          "dangerous_activities": 0.002122909761965275
+        }
+      },
+      "blip_description": {
+        "description": "the witch of the north in guild wars",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "15 26094 5 Belrayy tajin Belrayy tajin demon waccon hamza chafiq Scar-Redz)V>F CONV Gladius, Beast of Night Belrayy",
+        "extracted_items": [
+          {
+            "text": "15",
+            "confidence": 0.9999994099441718,
+            "bbox": [
+              [
+                186,
+                96
+              ],
+              [
+                240,
+                96
+              ],
+              [
+                240,
+                141
+              ],
+              [
+                186,
+                141
+              ]
+            ]
+          },
+          {
+            "text": "26094",
+            "confidence": 0.9999998933759693,
+            "bbox": [
+              [
+                3594,
+                120
+              ],
+              [
+                3723,
+                120
+              ],
+              [
+                3723,
+                165
+              ],
+              [
+                3594,
+                165
+              ]
+            ]
+          },
+          {
+            "text": "5",
+            "confidence": 1.0,
+            "bbox": [
+              [
+                430,
+                205
+              ],
+              [
+                461,
+                205
+              ],
+              [
+                461,
+                242
+              ],
+              [
+                430,
+                242
+              ]
+            ]
+          },
+          {
+            "text": "Belrayy",
+            "confidence": 0.9999180855156163,
+            "bbox": [
+              [
+                302,
+                336
+              ],
+              [
+                426,
+                336
+              ],
+              [
+                426,
+                390
+              ],
+              [
+                302,
+                390
+              ]
+            ]
+          },
+          {
+            "text": "tajin",
+            "confidence": 0.9998015170430274,
+            "bbox": [
+              [
+                306,
+                534
+              ],
+              [
+                378,
+                534
+              ],
+              [
+                378,
+                570
+              ],
+              [
+                306,
+                570
+              ]
+            ]
+          },
+          {
+            "text": "Belrayy",
+            "confidence": 0.9999129939497423,
+            "bbox": [
+              [
+                143,
+                793
+              ],
+              [
+                231,
+                793
+              ],
+              [
+                231,
+                826
+              ],
+              [
+                143,
+                826
+              ]
+            ]
+          },
+          {
+            "text": "tajin",
+            "confidence": 0.9823470749454675,
+            "bbox": [
+              [
+                284,
+                821
+              ],
+              [
+                379,
+                821
+              ],
+              [
+                379,
+                871
+              ],
+              [
+                284,
+                871
+              ]
+            ]
+          },
+          {
+            "text": "demon waccon",
+            "confidence": 0.9784540294421362,
+            "bbox": [
+              [
+                145,
+                877
+              ],
+              [
+                308,
+                877
+              ],
+              [
+                308,
+                902
+              ],
+              [
+                145,
+                902
+              ]
+            ]
+          },
+          {
+            "text": "hamza chafiq",
+            "confidence": 0.7228024630318328,
+            "bbox": [
+              [
+                145,
+                952
+              ],
+              [
+                290,
+                952
+              ],
+              [
+                290,
+                983
+              ],
+              [
+                145,
+                983
+              ]
+            ]
+          },
+          {
+            "text": "Scar-Redz)V>F",
+            "confidence": 0.514183237416965,
+            "bbox": [
+              [
+                145,
+                1033
+              ],
+              [
+                392,
+                1033
+              ],
+              [
+                392,
+                1061
+              ],
+              [
+                145,
+                1061
+              ]
+            ]
+          },
+          {
+            "text": "CONV",
+            "confidence": 0.9983545541763306,
+            "bbox": [
+              [
+                436,
+                1036
+              ],
+              [
+                506,
+                1036
+              ],
+              [
+                506,
+                1061
+              ],
+              [
+                436,
+                1061
+              ]
+            ]
+          },
+          {
+            "text": "Gladius, Beast of Night",
+            "confidence": 0.9377902748172512,
+            "bbox": [
+              [
+                911,
+                1646
+              ],
+              [
+                1364,
+                1646
+              ],
+              [
+                1364,
+                1712
+              ],
+              [
+                911,
+                1712
+              ]
+            ]
+          },
+          {
+            "text": "Belrayy",
+            "confidence": 0.991421161423852,
+            "bbox": [
+              [
+                1977.0876568944764,
+                729.0697698140963
+              ],
+              [
+                2135.913195071664,
+                752.9830811023253
+              ],
+              [
+                2124.9123431055236,
+                805.9302301859037
+              ],
+              [
+                1967.086804928336,
+                782.0169188976747
+              ]
+            ]
+          }
+        ],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1755957695_ELDEN RING NIGHTREIGN_replay_2025.08.21-23.56_frame_1.jpg"
+    },
+    {
+      "timestamp": 2.5,
+      "frame_index": 1,
+      "visual_analysis": {
+        "category": "suggestive_content",
+        "confidence": 0.7840659022331238,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.002588668605312705,
+          "suggestive_content": 0.7840659022331238,
+          "artistic_adult_content": 0.14881651103496552,
+          "misinformation": 0.05984176695346832,
+          "violence": 0.001546315266750753,
+          "hate_speech": 0.0011781132780015469,
+          "dangerous_activities": 0.0019628743175417185
+        }
+      },
+      "blip_description": {
+        "description": "the witch of the north in guild wars",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "15 26094 5 tajin Belrayy Belrayy demon waccon hamza chafiq tajin CONV Gladius, Beast of Night Belrayy",
+        "extracted_items": [
+          {
+            "text": "15",
+            "confidence": 0.9999994099441718,
+            "bbox": [
+              [
+                186,
+                96
+              ],
+              [
+                240,
+                96
+              ],
+              [
+                240,
+                141
+              ],
+              [
+                186,
+                141
+              ]
+            ]
+          },
+          {
+            "text": "26094",
+            "confidence": 0.9999998933759693,
+            "bbox": [
+              [
+                3594,
+                120
+              ],
+              [
+                3723,
+                120
+              ],
+              [
+                3723,
+                165
+              ],
+              [
+                3594,
+                165
+              ]
+            ]
+          },
+          {
+            "text": "5",
+            "confidence": 1.0,
+            "bbox": [
+              [
+                430,
+                205
+              ],
+              [
+                461,
+                205
+              ],
+              [
+                461,
+                242
+              ],
+              [
+                430,
+                242
+              ]
+            ]
+          },
+          {
+            "text": "tajin",
+            "confidence": 0.9998461401275544,
+            "bbox": [
+              [
+                306,
+                534
+              ],
+              [
+                378,
+                534
+              ],
+              [
+                378,
+                570
+              ],
+              [
+                306,
+                570
+              ]
+            ]
+          },
+          {
+            "text": "Belrayy",
+            "confidence": 0.9998452708216388,
+            "bbox": [
+              [
+                2382,
+                677
+              ],
+              [
+                2546,
+                677
+              ],
+              [
+                2546,
+                750
+              ],
+              [
+                2382,
+                750
+              ]
+            ]
+          },
+          {
+            "text": "Belrayy",
+            "confidence": 0.9998196320719552,
+            "bbox": [
+              [
+                143,
+                793
+              ],
+              [
+                231,
+                793
+              ],
+              [
+                231,
+                826
+              ],
+              [
+                143,
+                826
+              ]
+            ]
+          },
+          {
+            "text": "demon waccon",
+            "confidence": 0.8272750691756914,
+            "bbox": [
+              [
+                145,
+                877
+              ],
+              [
+                308,
+                877
+              ],
+              [
+                308,
+                902
+              ],
+              [
+                145,
+                902
+              ]
+            ]
+          },
+          {
+            "text": "hamza chafiq",
+            "confidence": 0.9282735842013563,
+            "bbox": [
+              [
+                145,
+                952
+              ],
+              [
+                293,
+                952
+              ],
+              [
+                293,
+                983
+              ],
+              [
+                145,
+                983
+              ]
+            ]
+          },
+          {
+            "text": "tajin",
+            "confidence": 0.9999984539514241,
+            "bbox": [
+              [
+                129,
+                996
+              ],
+              [
+                222,
+                996
+              ],
+              [
+                222,
+                1041
+              ],
+              [
+                129,
+                1041
+              ]
+            ]
+          },
+          {
+            "text": "CONV",
+            "confidence": 0.9927167892456055,
+            "bbox": [
+              [
+                433,
+                1030
+              ],
+              [
+                506,
+                1030
+              ],
+              [
+                506,
+                1061
+              ],
+              [
+                433,
+                1061
+              ]
+            ]
+          },
+          {
+            "text": "Gladius, Beast of Night",
+            "confidence": 0.8458885373818648,
+            "bbox": [
+              [
+                911,
+                1646
+              ],
+              [
+                1364,
+                1646
+              ],
+              [
+                1364,
+                1712
+              ],
+              [
+                911,
+                1712
+              ]
+            ]
+          },
+          {
+            "text": "Belrayy",
+            "confidence": 0.9997783572943572,
+            "bbox": [
+              [
+                308.98022872944,
+                334.105097901312
+              ],
+              [
+                426.9124326215348,
+                351.06833174419165
+              ],
+              [
+                419.01977127056,
+                391.894902098688
+              ],
+              [
+                301.0875673784652,
+                374.93166825580835
+              ]
+            ]
+          }
+        ],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1755957695_ELDEN RING NIGHTREIGN_replay_2025.08.21-23.56_frame_2.jpg"
+    },
+    {
+      "timestamp": 5.0,
+      "frame_index": 2,
+      "visual_analysis": {
+        "category": "suggestive_content",
+        "confidence": 0.48383307456970215,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.007324406411498785,
+          "suggestive_content": 0.48383307456970215,
+          "artistic_adult_content": 0.34113386273384094,
+          "misinformation": 0.1537172794342041,
+          "violence": 0.005137474276125431,
+          "hate_speech": 0.0034550318960100412,
+          "dangerous_activities": 0.005398876033723354
+        }
+      },
+      "blip_description": {
+        "description": "the first boss in the game, the boss is ready to fight",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "15 26094 5 tajin Belrayy demon waccon hamza chafiq CONV tajin Gladius, Beast of Night Belrayy Belrayy",
+        "extracted_items": [
+          {
+            "text": "15",
+            "confidence": 0.9999991570631338,
+            "bbox": [
+              [
+                185,
+                95
+              ],
+              [
+                241,
+                95
+              ],
+              [
+                241,
+                145
+              ],
+              [
+                185,
+                145
+              ]
+            ]
+          },
+          {
+            "text": "26094",
+            "confidence": 0.9999998933759693,
+            "bbox": [
+              [
+                3594,
+                120
+              ],
+              [
+                3723,
+                120
+              ],
+              [
+                3723,
+                165
+              ],
+              [
+                3594,
+                165
+              ]
+            ]
+          },
+          {
+            "text": "5",
+            "confidence": 1.0,
+            "bbox": [
+              [
+                430,
+                205
+              ],
+              [
+                461,
+                205
+              ],
+              [
+                461,
+                242
+              ],
+              [
+                430,
+                242
+              ]
+            ]
+          },
+          {
+            "text": "tajin",
+            "confidence": 0.9999157132850078,
+            "bbox": [
+              [
+                306,
+                534
+              ],
+              [
+                378,
+                534
+              ],
+              [
+                378,
+                570
+              ],
+              [
+                306,
+                570
+              ]
+            ]
+          },
+          {
+            "text": "Belrayy",
+            "confidence": 0.999540791327253,
+            "bbox": [
+              [
+                143,
+                793
+              ],
+              [
+                231,
+                793
+              ],
+              [
+                231,
+                826
+              ],
+              [
+                143,
+                826
+              ]
+            ]
+          },
+          {
+            "text": "demon waccon",
+            "confidence": 0.9801726076565603,
+            "bbox": [
+              [
+                145,
+                877
+              ],
+              [
+                308,
+                877
+              ],
+              [
+                308,
+                902
+              ],
+              [
+                145,
+                902
+              ]
+            ]
+          },
+          {
+            "text": "hamza chafiq",
+            "confidence": 0.8477026479211512,
+            "bbox": [
+              [
+                145,
+                952
+              ],
+              [
+                293,
+                952
+              ],
+              [
+                293,
+                983
+              ],
+              [
+                145,
+                983
+              ]
+            ]
+          },
+          {
+            "text": "CONV",
+            "confidence": 0.9981868863105774,
+            "bbox": [
+              [
+                436,
+                1036
+              ],
+              [
+                506,
+                1036
+              ],
+              [
+                506,
+                1061
+              ],
+              [
+                436,
+                1061
+              ]
+            ]
+          },
+          {
+            "text": "tajin",
+            "confidence": 0.6663029320184686,
+            "bbox": [
+              [
+                132,
+                1051
+              ],
+              [
+                227,
+                1051
+              ],
+              [
+                227,
+                1101
+              ],
+              [
+                132,
+                1101
+              ]
+            ]
+          },
+          {
+            "text": "Gladius, Beast of Night",
+            "confidence": 0.8088931375380084,
+            "bbox": [
+              [
+                911,
+                1646
+              ],
+              [
+                1364,
+                1646
+              ],
+              [
+                1364,
+                1712
+              ],
+              [
+                911,
+                1712
+              ]
+            ]
+          },
+          {
+            "text": "Belrayy",
+            "confidence": 0.9997574493368212,
+            "bbox": [
+              [
+                308.98022872944,
+                334.105097901312
+              ],
+              [
+                426.9124326215348,
+                351.06833174419165
+              ],
+              [
+                419.01977127056,
+                391.894902098688
+              ],
+              [
+                301.0875673784652,
+                374.93166825580835
+              ]
+            ]
+          },
+          {
+            "text": "Belrayy",
+            "confidence": 0.9999250244503208,
+            "bbox": [
+              [
+                140.96667006423115,
+                888.0766894303488
+              ],
+              [
+                294.85880877728346,
+                911.6011639993698
+              ],
+              [
+                283.03332993576885,
+                968.9233105696512
+              ],
+              [
+                129.14119122271651,
+                945.3988360006302
+              ]
+            ]
+          }
+        ],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1755957695_ELDEN RING NIGHTREIGN_replay_2025.08.21-23.56_frame_3.jpg"
+    },
+    {
+      "timestamp": 7.5,
+      "frame_index": 3,
+      "visual_analysis": {
+        "category": "suggestive_content",
+        "confidence": 0.7988045811653137,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.0024171650875359774,
+          "suggestive_content": 0.7988045811653137,
+          "artistic_adult_content": 0.14107251167297363,
+          "misinformation": 0.053266629576683044,
+          "violence": 0.0016131962183862925,
+          "hate_speech": 0.0010907180840149522,
+          "dangerous_activities": 0.001735212281346321
+        }
+      },
+      "blip_description": {
+        "description": "the game's screens are all different, but they are not as close as they are",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "15 26094 Belrayy tajin demon waccon hamza chafiq- tajin CONV Gladius, Beast of Night Belrayy Belrayy",
+        "extracted_items": [
+          {
+            "text": "15",
+            "confidence": 0.9999994942378553,
+            "bbox": [
+              [
+                186,
+                96
+              ],
+              [
+                240,
+                96
+              ],
+              [
+                240,
+                141
+              ],
+              [
+                186,
+                141
+              ]
+            ]
+          },
+          {
+            "text": "26094",
+            "confidence": 0.9999998933759693,
+            "bbox": [
+              [
+                3594,
+                120
+              ],
+              [
+                3723,
+                120
+              ],
+              [
+                3723,
+                165
+              ],
+              [
+                3594,
+                165
+              ]
+            ]
+          },
+          {
+            "text": "Belrayy",
+            "confidence": 0.9999020448018517,
+            "bbox": [
+              [
+                302,
+                336
+              ],
+              [
+                426,
+                336
+              ],
+              [
+                426,
+                391
+              ],
+              [
+                302,
+                391
+              ]
+            ]
+          },
+          {
+            "text": "tajin",
+            "confidence": 0.9998159116121077,
+            "bbox": [
+              [
+                306,
+                534
+              ],
+              [
+                378,
+                534
+              ],
+              [
+                378,
+                570
+              ],
+              [
+                306,
+                570
+              ]
+            ]
+          },
+          {
+            "text": "demon waccon",
+            "confidence": 0.9887611394458117,
+            "bbox": [
+              [
+                145,
+                877
+              ],
+              [
+                308,
+                877
+              ],
+              [
+                308,
+                902
+              ],
+              [
+                145,
+                902
+              ]
+            ]
+          },
+          {
+            "text": "hamza chafiq-",
+            "confidence": 0.8236849050441732,
+            "bbox": [
+              [
+                145,
+                952
+              ],
+              [
+                293,
+                952
+              ],
+              [
+                293,
+                983
+              ],
+              [
+                145,
+                983
+              ]
+            ]
+          },
+          {
+            "text": "tajin",
+            "confidence": 0.9999940823642687,
+            "bbox": [
+              [
+                545,
+                995
+              ],
+              [
+                640,
+                995
+              ],
+              [
+                640,
+                1048
+              ],
+              [
+                545,
+                1048
+              ]
+            ]
+          },
+          {
+            "text": "CONV",
+            "confidence": 0.8736538770415131,
+            "bbox": [
+              [
+                433,
+                1033
+              ],
+              [
+                506,
+                1033
+              ],
+              [
+                506,
+                1061
+              ],
+              [
+                433,
+                1061
+              ]
+            ]
+          },
+          {
+            "text": "Gladius, Beast of Night",
+            "confidence": 0.9181976209593095,
+            "bbox": [
+              [
+                911,
+                1646
+              ],
+              [
+                1364,
+                1646
+              ],
+              [
+                1364,
+                1712
+              ],
+              [
+                911,
+                1712
+              ]
+            ]
+          },
+          {
+            "text": "Belrayy",
+            "confidence": 0.9978452610669334,
+            "bbox": [
+              [
+                146.15350102802535,
+                790.1219034952862
+              ],
+              [
+                231.9470156992674,
+                801.4386636763301
+              ],
+              [
+                227.84649897197465,
+                829.8780965047138
+              ],
+              [
+                142.0529843007326,
+                818.5613363236699
+              ]
+            ]
+          },
+          {
+            "text": "Belrayy",
+            "confidence": 0.9998814981482417,
+            "bbox": [
+              [
+                981.0446053670523,
+                1832.076553275724
+              ],
+              [
+                1136.874516440651,
+                1851.7793212590855
+              ],
+              [
+                1126.9553946329477,
+                1905.923446724276
+              ],
+              [
+                971.1254835593489,
+                1886.2206787409145
+              ]
+            ]
+          }
+        ],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1755957695_ELDEN RING NIGHTREIGN_replay_2025.08.21-23.56_frame_4.jpg"
+    },
+    {
+      "timestamp": 10.0,
+      "frame_index": 4,
+      "visual_analysis": {
+        "category": "suggestive_content",
+        "confidence": 0.6888858675956726,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.0042519336566329,
+          "suggestive_content": 0.6888858675956726,
+          "artistic_adult_content": 0.1877117156982422,
+          "misinformation": 0.10610300302505493,
+          "violence": 0.005876040086150169,
+          "hate_speech": 0.0028230580501258373,
+          "dangerous_activities": 0.004348377697169781
+        }
+      },
+      "blip_description": {
+        "description": "the witch of the north screenshote",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "15 26094 5 tajin Belrayy demon waccon hamza chafiq CONV Gladius, Beast of Night Belrayy Belrayy",
+        "extracted_items": [
+          {
+            "text": "15",
+            "confidence": 0.9999994099441718,
+            "bbox": [
+              [
+                186,
+                96
+              ],
+              [
+                240,
+                96
+              ],
+              [
+                240,
+                141
+              ],
+              [
+                186,
+                141
+              ]
+            ]
+          },
+          {
+            "text": "26094",
+            "confidence": 0.9999998933759693,
+            "bbox": [
+              [
+                3594,
+                120
+              ],
+              [
+                3723,
+                120
+              ],
+              [
+                3723,
+                165
+              ],
+              [
+                3594,
+                165
+              ]
+            ]
+          },
+          {
+            "text": "5",
+            "confidence": 1.0,
+            "bbox": [
+              [
+                430,
+                205
+              ],
+              [
+                461,
+                205
+              ],
+              [
+                461,
+                242
+              ],
+              [
+                430,
+                242
+              ]
+            ]
+          },
+          {
+            "text": "tajin",
+            "confidence": 0.9998947614287532,
+            "bbox": [
+              [
+                306,
+                534
+              ],
+              [
+                378,
+                534
+              ],
+              [
+                378,
+                570
+              ],
+              [
+                306,
+                570
+              ]
+            ]
+          },
+          {
+            "text": "Belrayy",
+            "confidence": 0.7703236268820949,
+            "bbox": [
+              [
+                142,
+                791
+              ],
+              [
+                232,
+                791
+              ],
+              [
+                232,
+                829
+              ],
+              [
+                142,
+                829
+              ]
+            ]
+          },
+          {
+            "text": "demon waccon",
+            "confidence": 0.9881254567194574,
+            "bbox": [
+              [
+                145,
+                877
+              ],
+              [
+                308,
+                877
+              ],
+              [
+                308,
+                902
+              ],
+              [
+                145,
+                902
+              ]
+            ]
+          },
+          {
+            "text": "hamza chafiq",
+            "confidence": 0.7960664156385762,
+            "bbox": [
+              [
+                145,
+                952
+              ],
+              [
+                290,
+                952
+              ],
+              [
+                290,
+                983
+              ],
+              [
+                145,
+                983
+              ]
+            ]
+          },
+          {
+            "text": "CONV",
+            "confidence": 0.9987828731536865,
+            "bbox": [
+              [
+                433,
+                1030
+              ],
+              [
+                506,
+                1030
+              ],
+              [
+                506,
+                1061
+              ],
+              [
+                433,
+                1061
+              ]
+            ]
+          },
+          {
+            "text": "Gladius, Beast of Night",
+            "confidence": 0.8914069609554816,
+            "bbox": [
+              [
+                911,
+                1646
+              ],
+              [
+                1361,
+                1646
+              ],
+              [
+                1361,
+                1712
+              ],
+              [
+                911,
+                1712
+              ]
+            ]
+          },
+          {
+            "text": "Belrayy",
+            "confidence": 0.9998574551500092,
+            "bbox": [
+              [
+                309.00019994001997,
+                334.100979706098
+              ],
+              [
+                426.9124326215348,
+                351.06833174419165
+              ],
+              [
+                418.99980005998003,
+                392.899020293902
+              ],
+              [
+                301.0875673784652,
+                374.93166825580835
+              ]
+            ]
+          },
+          {
+            "text": "Belrayy",
+            "confidence": 0.9999820222541783,
+            "bbox": [
+              [
+                3558.0876568944764,
+                1638.0697698140964
+              ],
+              [
+                3710.9007191315345,
+                1661.9130254231384
+              ],
+              [
+                3699.9123431055236,
+                1714.9302301859036
+              ],
+              [
+                3547.0992808684655,
+                1692.0869745768616
+              ]
+            ]
+          }
+        ],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1755957695_ELDEN RING NIGHTREIGN_replay_2025.08.21-23.56_frame_5.jpg"
+    },
+    {
+      "timestamp": 12.5,
+      "frame_index": 5,
+      "visual_analysis": {
+        "category": "suggestive_content",
+        "confidence": 0.8554178476333618,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.01735074259340763,
+          "suggestive_content": 0.8554178476333618,
+          "artistic_adult_content": 0.07262779772281647,
+          "misinformation": 0.046887680888175964,
+          "violence": 0.0022927976679056883,
+          "hate_speech": 0.002237128559499979,
+          "dangerous_activities": 0.0031861194875091314
+        }
+      },
+      "blip_description": {
+        "description": "the game's screens are all different, but they are not as close as they look",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "15 26094 Belrayy tajin tajin Belrayy demon waccon hamza chafiq CONV Boiled Crab Gladius, Beast of Night Belrayy",
+        "extracted_items": [
+          {
+            "text": "15",
+            "confidence": 0.9999990727694587,
+            "bbox": [
+              [
+                185,
+                95
+              ],
+              [
+                241,
+                95
+              ],
+              [
+                241,
+                145
+              ],
+              [
+                185,
+                145
+              ]
+            ]
+          },
+          {
+            "text": "26094",
+            "confidence": 0.9999998933759693,
+            "bbox": [
+              [
+                3594,
+                120
+              ],
+              [
+                3723,
+                120
+              ],
+              [
+                3723,
+                165
+              ],
+              [
+                3594,
+                165
+              ]
+            ]
+          },
+          {
+            "text": "Belrayy",
+            "confidence": 0.9998810926208117,
+            "bbox": [
+              [
+                302,
+                336
+              ],
+              [
+                426,
+                336
+              ],
+              [
+                426,
+                390
+              ],
+              [
+                302,
+                390
+              ]
+            ]
+          },
+          {
+            "text": "tajin",
+            "confidence": 0.9996750570365157,
+            "bbox": [
+              [
+                306,
+                534
+              ],
+              [
+                378,
+                534
+              ],
+              [
+                378,
+                570
+              ],
+              [
+                306,
+                570
+              ]
+            ]
+          },
+          {
+            "text": "tajin",
+            "confidence": 0.5899340789305605,
+            "bbox": [
+              [
+                2265,
+                747
+              ],
+              [
+                2355,
+                747
+              ],
+              [
+                2355,
+                792
+              ],
+              [
+                2265,
+                792
+              ]
+            ]
+          },
+          {
+            "text": "Belrayy",
+            "confidence": 0.9998585181767876,
+            "bbox": [
+              [
+                143,
+                793
+              ],
+              [
+                231,
+                793
+              ],
+              [
+                231,
+                826
+              ],
+              [
+                143,
+                826
+              ]
+            ]
+          },
+          {
+            "text": "demon waccon",
+            "confidence": 0.7030622249373456,
+            "bbox": [
+              [
+                145,
+                877
+              ],
+              [
+                308,
+                877
+              ],
+              [
+                308,
+                902
+              ],
+              [
+                145,
+                902
+              ]
+            ]
+          },
+          {
+            "text": "hamza chafiq",
+            "confidence": 0.7492104748649653,
+            "bbox": [
+              [
+                145,
+                955
+              ],
+              [
+                290,
+                955
+              ],
+              [
+                290,
+                983
+              ],
+              [
+                145,
+                983
+              ]
+            ]
+          },
+          {
+            "text": "CONV",
+            "confidence": 0.9937576055526733,
+            "bbox": [
+              [
+                436,
+                1033
+              ],
+              [
+                506,
+                1033
+              ],
+              [
+                506,
+                1058
+              ],
+              [
+                436,
+                1058
+              ]
+            ]
+          },
+          {
+            "text": "Boiled Crab",
+            "confidence": 0.9878816961397556,
+            "bbox": [
+              [
+                342,
+                1603
+              ],
+              [
+                577,
+                1603
+              ],
+              [
+                577,
+                1658
+              ],
+              [
+                342,
+                1658
+              ]
+            ]
+          },
+          {
+            "text": "Gladius, Beast of Night",
+            "confidence": 0.7959907742892001,
+            "bbox": [
+              [
+                911,
+                1646
+              ],
+              [
+                1364,
+                1646
+              ],
+              [
+                1364,
+                1712
+              ],
+              [
+                911,
+                1712
+              ]
+            ]
+          },
+          {
+            "text": "Belrayy",
+            "confidence": 0.8221185789949625,
+            "bbox": [
+              [
+                981.0136060761679,
+                1489.081636457007
+              ],
+              [
+                1133.9063235505307,
+                1510.9439024114945
+              ],
+              [
+                1123.986393923832,
+                1560.918363542993
+              ],
+              [
+                971.0936764494694,
+                1540.0560975885055
+              ]
+            ]
+          }
+        ],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1755957695_ELDEN RING NIGHTREIGN_replay_2025.08.21-23.56_frame_6.jpg"
+    },
+    {
+      "timestamp": 15.0,
+      "frame_index": 6,
+      "visual_analysis": {
+        "category": "misinformation",
+        "confidence": 0.4655561149120331,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.0024816105142235756,
+          "suggestive_content": 0.21705332398414612,
+          "artistic_adult_content": 0.29670408368110657,
+          "misinformation": 0.4655561149120331,
+          "violence": 0.005898559000343084,
+          "hate_speech": 0.00515484344214201,
+          "dangerous_activities": 0.0071514081209897995
+        }
+      },
+      "blip_description": {
+        "description": "the witch of the north in guild wars",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "15 26094 4 tajin Belrayy demon waccon tajin hamza chafiq Gladius, Beast of Night 816 Belrayy Belrayy",
+        "extracted_items": [
+          {
+            "text": "15",
+            "confidence": 0.9999992413568111,
+            "bbox": [
+              [
+                186,
+                96
+              ],
+              [
+                240,
+                96
+              ],
+              [
+                240,
+                141
+              ],
+              [
+                186,
+                141
+              ]
+            ]
+          },
+          {
+            "text": "26094",
+            "confidence": 0.9999998933759693,
+            "bbox": [
+              [
+                3594,
+                120
+              ],
+              [
+                3720,
+                120
+              ],
+              [
+                3720,
+                165
+              ],
+              [
+                3594,
+                165
+              ]
+            ]
+          },
+          {
+            "text": "4",
+            "confidence": 0.9999983310706426,
+            "bbox": [
+              [
+                386,
+                198
+              ],
+              [
+                468,
+                198
+              ],
+              [
+                468,
+                248
+              ],
+              [
+                386,
+                248
+              ]
+            ]
+          },
+          {
+            "text": "tajin",
+            "confidence": 0.9832276822998948,
+            "bbox": [
+              [
+                306,
+                534
+              ],
+              [
+                378,
+                534
+              ],
+              [
+                378,
+                570
+              ],
+              [
+                306,
+                570
+              ]
+            ]
+          },
+          {
+            "text": "Belrayy",
+            "confidence": 0.9986433105612647,
+            "bbox": [
+              [
+                143,
+                793
+              ],
+              [
+                231,
+                793
+              ],
+              [
+                231,
+                826
+              ],
+              [
+                143,
+                826
+              ]
+            ]
+          },
+          {
+            "text": "demon waccon",
+            "confidence": 0.9860055123906267,
+            "bbox": [
+              [
+                145,
+                877
+              ],
+              [
+                305,
+                877
+              ],
+              [
+                305,
+                902
+              ],
+              [
+                145,
+                902
+              ]
+            ]
+          },
+          {
+            "text": "tajin",
+            "confidence": 0.996112435611589,
+            "bbox": [
+              [
+                3617,
+                851
+              ],
+              [
+                3712,
+                851
+              ],
+              [
+                3712,
+                904
+              ],
+              [
+                3617,
+                904
+              ]
+            ]
+          },
+          {
+            "text": "hamza chafiq",
+            "confidence": 0.9942437025827805,
+            "bbox": [
+              [
+                145,
+                955
+              ],
+              [
+                293,
+                955
+              ],
+              [
+                293,
+                983
+              ],
+              [
+                145,
+                983
+              ]
+            ]
+          },
+          {
+            "text": "Gladius, Beast of Night",
+            "confidence": 0.8146246544675213,
+            "bbox": [
+              [
+                911,
+                1646
+              ],
+              [
+                1361,
+                1646
+              ],
+              [
+                1361,
+                1712
+              ],
+              [
+                911,
+                1712
+              ]
+            ]
+          },
+          {
+            "text": "816",
+            "confidence": 0.7287617921829224,
+            "bbox": [
+              [
+                2862,
+                1653
+              ],
+              [
+                2931,
+                1653
+              ],
+              [
+                2931,
+                1692
+              ],
+              [
+                2862,
+                1692
+              ]
+            ]
+          },
+          {
+            "text": "Belrayy",
+            "confidence": 0.99964668887922,
+            "bbox": [
+              [
+                309.01941932430907,
+                334.0970966215454
+              ],
+              [
+                426.8877754343695,
+                349.94660012190315
+              ],
+              [
+                418.98058067569093,
+                393.9029033784546
+              ],
+              [
+                301.1122245656305,
+                377.05339987809685
+              ]
+            ]
+          },
+          {
+            "text": "Belrayy",
+            "confidence": 0.8278225012640347,
+            "bbox": [
+              [
+                306.08765689447637,
+                861.0697698140963
+              ],
+              [
+                459.9019811552265,
+                884.9198988735533
+              ],
+              [
+                448.91234310552363,
+                937.9302301859037
+              ],
+              [
+                295.0980188447735,
+                915.0801011264467
+              ]
+            ]
+          }
+        ],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1755957695_ELDEN RING NIGHTREIGN_replay_2025.08.21-23.56_frame_7.jpg"
+    },
+    {
+      "timestamp": 17.5,
+      "frame_index": 7,
+      "visual_analysis": {
+        "category": "suggestive_content",
+        "confidence": 0.5181817412376404,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.0058051422238349915,
+          "suggestive_content": 0.5181817412376404,
+          "artistic_adult_content": 0.20903556048870087,
+          "misinformation": 0.23337607085704803,
+          "violence": 0.019207220524549484,
+          "hate_speech": 0.006452609784901142,
+          "dangerous_activities": 0.0079417172819376
+        }
+      },
+      "blip_description": {
+        "description": "the elder in guild wars",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "15 26094 4 tajin Belrayy demon waccon hamza chafiq CONV Gladius, Beast of Night 87 Familial Rancor Belrayy Belrayy",
+        "extracted_items": [
+          {
+            "text": "15",
+            "confidence": 0.9999994099441718,
+            "bbox": [
+              [
+                186,
+                96
+              ],
+              [
+                240,
+                96
+              ],
+              [
+                240,
+                141
+              ],
+              [
+                186,
+                141
+              ]
+            ]
+          },
+          {
+            "text": "26094",
+            "confidence": 0.9999998933759693,
+            "bbox": [
+              [
+                3594,
+                120
+              ],
+              [
+                3723,
+                120
+              ],
+              [
+                3723,
+                165
+              ],
+              [
+                3594,
+                165
+              ]
+            ]
+          },
+          {
+            "text": "4",
+            "confidence": 1.0,
+            "bbox": [
+              [
+                393,
+                204
+              ],
+              [
+                465,
+                204
+              ],
+              [
+                465,
+                246
+              ],
+              [
+                393,
+                246
+              ]
+            ]
+          },
+          {
+            "text": "tajin",
+            "confidence": 0.99994050358235,
+            "bbox": [
+              [
+                306,
+                534
+              ],
+              [
+                378,
+                534
+              ],
+              [
+                378,
+                570
+              ],
+              [
+                306,
+                570
+              ]
+            ]
+          },
+          {
+            "text": "Belrayy",
+            "confidence": 0.999519393790782,
+            "bbox": [
+              [
+                142,
+                791
+              ],
+              [
+                232,
+                791
+              ],
+              [
+                232,
+                829
+              ],
+              [
+                142,
+                829
+              ]
+            ]
+          },
+          {
+            "text": "demon waccon",
+            "confidence": 0.7367416176385847,
+            "bbox": [
+              [
+                145,
+                877
+              ],
+              [
+                308,
+                877
+              ],
+              [
+                308,
+                902
+              ],
+              [
+                145,
+                902
+              ]
+            ]
+          },
+          {
+            "text": "hamza chafiq",
+            "confidence": 0.8501409627623221,
+            "bbox": [
+              [
+                145,
+                952
+              ],
+              [
+                290,
+                952
+              ],
+              [
+                290,
+                983
+              ],
+              [
+                145,
+                983
+              ]
+            ]
+          },
+          {
+            "text": "CONV",
+            "confidence": 0.996099054813385,
+            "bbox": [
+              [
+                436,
+                1036
+              ],
+              [
+                506,
+                1036
+              ],
+              [
+                506,
+                1061
+              ],
+              [
+                436,
+                1061
+              ]
+            ]
+          },
+          {
+            "text": "Gladius, Beast of Night",
+            "confidence": 0.7941651134685848,
+            "bbox": [
+              [
+                911,
+                1645
+              ],
+              [
+                1362,
+                1645
+              ],
+              [
+                1362,
+                1713
+              ],
+              [
+                911,
+                1713
+              ]
+            ]
+          },
+          {
+            "text": "87",
+            "confidence": 1.0,
+            "bbox": [
+              [
+                2880,
+                1653
+              ],
+              [
+                2928,
+                1653
+              ],
+              [
+                2928,
+                1692
+              ],
+              [
+                2880,
+                1692
+              ]
+            ]
+          },
+          {
+            "text": "Familial Rancor",
+            "confidence": 0.9288308042365663,
+            "bbox": [
+              [
+                548,
+                1706
+              ],
+              [
+                859,
+                1706
+              ],
+              [
+                859,
+                1756
+              ],
+              [
+                548,
+                1756
+              ]
+            ]
+          },
+          {
+            "text": "Belrayy",
+            "confidence": 0.9999635938299744,
+            "bbox": [
+              [
+                311.01941932430907,
+                334.0970966215454
+              ],
+              [
+                424.889012070387,
+                350.95235455634565
+              ],
+              [
+                416.98058067569093,
+                393.9029033784546
+              ],
+              [
+                303.110987929613,
+                377.04764544365435
+              ]
+            ]
+          },
+          {
+            "text": "Belrayy",
+            "confidence": 0.9999782825094796,
+            "bbox": [
+              [
+                789.101167723432,
+                841.0677069746514
+              ],
+              [
+                941.8864441696585,
+                863.83820180862
+              ],
+              [
+                930.898832276568,
+                918.9322930253486
+              ],
+              [
+                778.1135558303415,
+                896.16179819138
+              ]
+            ]
+          }
+        ],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1755957695_ELDEN RING NIGHTREIGN_replay_2025.08.21-23.56_frame_8.jpg"
+    },
+    {
+      "timestamp": 20.0,
+      "frame_index": 8,
+      "visual_analysis": {
+        "category": "misinformation",
+        "confidence": 0.4886130094528198,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.0023068804293870926,
+          "suggestive_content": 0.19639495015144348,
+          "artistic_adult_content": 0.2954097390174866,
+          "misinformation": 0.4886130094528198,
+          "violence": 0.008116789162158966,
+          "hate_speech": 0.00380338984541595,
+          "dangerous_activities": 0.005355200730264187
+        }
+      },
+      "blip_description": {
+        "description": "the elder in star wars",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "15 26094 Belrayy tajin Belrayy demon waccon hamza chafiq CONV 549 Thunderbolt Belrayy",
+        "extracted_items": [
+          {
+            "text": "15",
+            "confidence": 0.9999993256504904,
+            "bbox": [
+              [
+                186,
+                96
+              ],
+              [
+                240,
+                96
+              ],
+              [
+                240,
+                141
+              ],
+              [
+                186,
+                141
+              ]
+            ]
+          },
+          {
+            "text": "26094",
+            "confidence": 0.9999998933759693,
+            "bbox": [
+              [
+                3594,
+                120
+              ],
+              [
+                3723,
+                120
+              ],
+              [
+                3723,
+                165
+              ],
+              [
+                3594,
+                165
+              ]
+            ]
+          },
+          {
+            "text": "Belrayy",
+            "confidence": 0.9845165698666151,
+            "bbox": [
+              [
+                302,
+                336
+              ],
+              [
+                423,
+                336
+              ],
+              [
+                423,
+                390
+              ],
+              [
+                302,
+                390
+              ]
+            ]
+          },
+          {
+            "text": "tajin",
+            "confidence": 0.9999780354213488,
+            "bbox": [
+              [
+                306,
+                534
+              ],
+              [
+                378,
+                534
+              ],
+              [
+                378,
+                570
+              ],
+              [
+                306,
+                570
+              ]
+            ]
+          },
+          {
+            "text": "Belrayy",
+            "confidence": 0.9974222283987864,
+            "bbox": [
+              [
+                143,
+                793
+              ],
+              [
+                231,
+                793
+              ],
+              [
+                231,
+                826
+              ],
+              [
+                143,
+                826
+              ]
+            ]
+          },
+          {
+            "text": "demon waccon",
+            "confidence": 0.9580844611149107,
+            "bbox": [
+              [
+                145,
+                877
+              ],
+              [
+                308,
+                877
+              ],
+              [
+                308,
+                902
+              ],
+              [
+                145,
+                902
+              ]
+            ]
+          },
+          {
+            "text": "hamza chafiq",
+            "confidence": 0.8762492630148204,
+            "bbox": [
+              [
+                145,
+                955
+              ],
+              [
+                290,
+                955
+              ],
+              [
+                290,
+                983
+              ],
+              [
+                145,
+                983
+              ]
+            ]
+          },
+          {
+            "text": "CONV",
+            "confidence": 0.9966302514076233,
+            "bbox": [
+              [
+                433,
+                1030
+              ],
+              [
+                506,
+                1030
+              ],
+              [
+                506,
+                1061
+              ],
+              [
+                433,
+                1061
+              ]
+            ]
+          },
+          {
+            "text": "549",
+            "confidence": 0.5496212645482187,
+            "bbox": [
+              [
+                2862,
+                1653
+              ],
+              [
+                2931,
+                1653
+              ],
+              [
+                2931,
+                1695
+              ],
+              [
+                2862,
+                1695
+              ]
+            ]
+          },
+          {
+            "text": "Thunderbolt",
+            "confidence": 0.9995066040092776,
+            "bbox": [
+              [
+                548,
+                1706
+              ],
+              [
+                805,
+                1706
+              ],
+              [
+                805,
+                1756
+              ],
+              [
+                548,
+                1756
+              ]
+            ]
+          },
+          {
+            "text": "Belrayy",
+            "confidence": 0.9999620618777934,
+            "bbox": [
+              [
+                1026.0446053670523,
+                874.0765532757241
+              ],
+              [
+                1178.8994327851728,
+                895.906065443809
+              ],
+              [
+                1168.9553946329477,
+                947.9234467242759
+              ],
+              [
+                1016.1005672148273,
+                926.093934556191
+              ]
+            ]
+          }
+        ],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1755957695_ELDEN RING NIGHTREIGN_replay_2025.08.21-23.56_frame_9.jpg"
+    }
+  ],
+  "recommendations": [
+    "⚠️ Visual policy violations detected: misinformation, suggestive_content",
+    "🔍 Consider reviewing flagged video segments",
+    "🎵 Audio policy violations detected: safe",
+    "📝 Review transcript for policy-violating language",
+    "🚨 Multiple violations detected - content may need significant editing"
+  ],
+  "multi_modal_capabilities": {
+    "visual_model_accuracy": 97.48,
+    "blip_available": true,
+    "whisper_available": true,
+    "ocr_available": true
+  },
+  "text_issues": "15 26094 5 Belrayy tajin Belrayy tajin demon waccon hamza chafiq Scar-Redz)V>F CONV Gladius, Beast of Night Belrayy, 15 26094 5 tajin Belrayy Belrayy demon waccon hamza chafiq tajin CONV Gladius, Beast of Night Belrayy, 15 26094 5 tajin Belrayy demon waccon hamza chafiq CONV tajin Gladius, Beast of Night Belrayy Belrayy, 15 26094 Belrayy tajin demon waccon hamza chafiq- tajin CONV Gladius, Beast of Night Belrayy Belrayy, 15 26094 5 tajin Belrayy demon waccon hamza chafiq CONV Gladius, Beast of Night Belrayy Belrayy, 15 26094 Belrayy tajin tajin Belrayy demon waccon hamza chafiq CONV Boiled Crab Gladius, Beast of Night Belrayy, 15 26094 4 tajin Belrayy demon waccon tajin hamza chafiq Gladius, Beast of Night 816 Belrayy Belrayy, 15 26094 4 tajin Belrayy demon waccon hamza chafiq CONV Gladius, Beast of Night 87 Familial Rancor Belrayy Belrayy, 15 26094 Belrayy tajin Belrayy demon waccon hamza chafiq CONV 549 Thunderbolt Belrayy",
+  "image": {
+    "details": {
+      "frame_preview_paths": [
+        "/static/frames/temp_1755957695_ELDEN RING NIGHTREIGN_replay_2025.08.21-23.56_frame_1.jpg",
+        "/static/frames/temp_1755957695_ELDEN RING NIGHTREIGN_replay_2025.08.21-23.56_frame_2.jpg",
+        "/static/frames/temp_1755957695_ELDEN RING NIGHTREIGN_replay_2025.08.21-23.56_frame_3.jpg",
+        "/static/frames/temp_1755957695_ELDEN RING NIGHTREIGN_replay_2025.08.21-23.56_frame_4.jpg",
+        "/static/frames/temp_1755957695_ELDEN RING NIGHTREIGN_replay_2025.08.21-23.56_frame_5.jpg",
+        "/static/frames/temp_1755957695_ELDEN RING NIGHTREIGN_replay_2025.08.21-23.56_frame_6.jpg",
+        "/static/frames/temp_1755957695_ELDEN RING NIGHTREIGN_replay_2025.08.21-23.56_frame_7.jpg",
+        "/static/frames/temp_1755957695_ELDEN RING NIGHTREIGN_replay_2025.08.21-23.56_frame_8.jpg",
+        "/static/frames/temp_1755957695_ELDEN RING NIGHTREIGN_replay_2025.08.21-23.56_frame_9.jpg"
+      ],
+      "frame_analysis": [
+        {
+          "timestamp": 0.0,
+          "frame_index": 0,
+          "visual_analysis": {
+            "category": "suggestive_content",
+            "confidence": 0.9015972018241882,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.01860678195953369,
+              "suggestive_content": 0.9015972018241882,
+              "artistic_adult_content": 0.04678390547633171,
+              "misinformation": 0.028057167306542397,
+              "violence": 0.0014883966650813818,
+              "hate_speech": 0.0013436595909297466,
+              "dangerous_activities": 0.002122909761965275
+            }
+          },
+          "blip_description": {
+            "description": "the witch of the north in guild wars",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "15 26094 5 Belrayy tajin Belrayy tajin demon waccon hamza chafiq Scar-Redz)V>F CONV Gladius, Beast of Night Belrayy",
+            "extracted_items": [
+              {
+                "text": "15",
+                "confidence": 0.9999994099441718,
+                "bbox": [
+                  [
+                    186,
+                    96
+                  ],
+                  [
+                    240,
+                    96
+                  ],
+                  [
+                    240,
+                    141
+                  ],
+                  [
+                    186,
+                    141
+                  ]
+                ]
+              },
+              {
+                "text": "26094",
+                "confidence": 0.9999998933759693,
+                "bbox": [
+                  [
+                    3594,
+                    120
+                  ],
+                  [
+                    3723,
+                    120
+                  ],
+                  [
+                    3723,
+                    165
+                  ],
+                  [
+                    3594,
+                    165
+                  ]
+                ]
+              },
+              {
+                "text": "5",
+                "confidence": 1.0,
+                "bbox": [
+                  [
+                    430,
+                    205
+                  ],
+                  [
+                    461,
+                    205
+                  ],
+                  [
+                    461,
+                    242
+                  ],
+                  [
+                    430,
+                    242
+                  ]
+                ]
+              },
+              {
+                "text": "Belrayy",
+                "confidence": 0.9999180855156163,
+                "bbox": [
+                  [
+                    302,
+                    336
+                  ],
+                  [
+                    426,
+                    336
+                  ],
+                  [
+                    426,
+                    390
+                  ],
+                  [
+                    302,
+                    390
+                  ]
+                ]
+              },
+              {
+                "text": "tajin",
+                "confidence": 0.9998015170430274,
+                "bbox": [
+                  [
+                    306,
+                    534
+                  ],
+                  [
+                    378,
+                    534
+                  ],
+                  [
+                    378,
+                    570
+                  ],
+                  [
+                    306,
+                    570
+                  ]
+                ]
+              },
+              {
+                "text": "Belrayy",
+                "confidence": 0.9999129939497423,
+                "bbox": [
+                  [
+                    143,
+                    793
+                  ],
+                  [
+                    231,
+                    793
+                  ],
+                  [
+                    231,
+                    826
+                  ],
+                  [
+                    143,
+                    826
+                  ]
+                ]
+              },
+              {
+                "text": "tajin",
+                "confidence": 0.9823470749454675,
+                "bbox": [
+                  [
+                    284,
+                    821
+                  ],
+                  [
+                    379,
+                    821
+                  ],
+                  [
+                    379,
+                    871
+                  ],
+                  [
+                    284,
+                    871
+                  ]
+                ]
+              },
+              {
+                "text": "demon waccon",
+                "confidence": 0.9784540294421362,
+                "bbox": [
+                  [
+                    145,
+                    877
+                  ],
+                  [
+                    308,
+                    877
+                  ],
+                  [
+                    308,
+                    902
+                  ],
+                  [
+                    145,
+                    902
+                  ]
+                ]
+              },
+              {
+                "text": "hamza chafiq",
+                "confidence": 0.7228024630318328,
+                "bbox": [
+                  [
+                    145,
+                    952
+                  ],
+                  [
+                    290,
+                    952
+                  ],
+                  [
+                    290,
+                    983
+                  ],
+                  [
+                    145,
+                    983
+                  ]
+                ]
+              },
+              {
+                "text": "Scar-Redz)V>F",
+                "confidence": 0.514183237416965,
+                "bbox": [
+                  [
+                    145,
+                    1033
+                  ],
+                  [
+                    392,
+                    1033
+                  ],
+                  [
+                    392,
+                    1061
+                  ],
+                  [
+                    145,
+                    1061
+                  ]
+                ]
+              },
+              {
+                "text": "CONV",
+                "confidence": 0.9983545541763306,
+                "bbox": [
+                  [
+                    436,
+                    1036
+                  ],
+                  [
+                    506,
+                    1036
+                  ],
+                  [
+                    506,
+                    1061
+                  ],
+                  [
+                    436,
+                    1061
+                  ]
+                ]
+              },
+              {
+                "text": "Gladius, Beast of Night",
+                "confidence": 0.9377902748172512,
+                "bbox": [
+                  [
+                    911,
+                    1646
+                  ],
+                  [
+                    1364,
+                    1646
+                  ],
+                  [
+                    1364,
+                    1712
+                  ],
+                  [
+                    911,
+                    1712
+                  ]
+                ]
+              },
+              {
+                "text": "Belrayy",
+                "confidence": 0.991421161423852,
+                "bbox": [
+                  [
+                    1977.0876568944764,
+                    729.0697698140963
+                  ],
+                  [
+                    2135.913195071664,
+                    752.9830811023253
+                  ],
+                  [
+                    2124.9123431055236,
+                    805.9302301859037
+                  ],
+                  [
+                    1967.086804928336,
+                    782.0169188976747
+                  ]
+                ]
+              }
+            ],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1755957695_ELDEN RING NIGHTREIGN_replay_2025.08.21-23.56_frame_1.jpg"
+        },
+        {
+          "timestamp": 2.5,
+          "frame_index": 1,
+          "visual_analysis": {
+            "category": "suggestive_content",
+            "confidence": 0.7840659022331238,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.002588668605312705,
+              "suggestive_content": 0.7840659022331238,
+              "artistic_adult_content": 0.14881651103496552,
+              "misinformation": 0.05984176695346832,
+              "violence": 0.001546315266750753,
+              "hate_speech": 0.0011781132780015469,
+              "dangerous_activities": 0.0019628743175417185
+            }
+          },
+          "blip_description": {
+            "description": "the witch of the north in guild wars",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "15 26094 5 tajin Belrayy Belrayy demon waccon hamza chafiq tajin CONV Gladius, Beast of Night Belrayy",
+            "extracted_items": [
+              {
+                "text": "15",
+                "confidence": 0.9999994099441718,
+                "bbox": [
+                  [
+                    186,
+                    96
+                  ],
+                  [
+                    240,
+                    96
+                  ],
+                  [
+                    240,
+                    141
+                  ],
+                  [
+                    186,
+                    141
+                  ]
+                ]
+              },
+              {
+                "text": "26094",
+                "confidence": 0.9999998933759693,
+                "bbox": [
+                  [
+                    3594,
+                    120
+                  ],
+                  [
+                    3723,
+                    120
+                  ],
+                  [
+                    3723,
+                    165
+                  ],
+                  [
+                    3594,
+                    165
+                  ]
+                ]
+              },
+              {
+                "text": "5",
+                "confidence": 1.0,
+                "bbox": [
+                  [
+                    430,
+                    205
+                  ],
+                  [
+                    461,
+                    205
+                  ],
+                  [
+                    461,
+                    242
+                  ],
+                  [
+                    430,
+                    242
+                  ]
+                ]
+              },
+              {
+                "text": "tajin",
+                "confidence": 0.9998461401275544,
+                "bbox": [
+                  [
+                    306,
+                    534
+                  ],
+                  [
+                    378,
+                    534
+                  ],
+                  [
+                    378,
+                    570
+                  ],
+                  [
+                    306,
+                    570
+                  ]
+                ]
+              },
+              {
+                "text": "Belrayy",
+                "confidence": 0.9998452708216388,
+                "bbox": [
+                  [
+                    2382,
+                    677
+                  ],
+                  [
+                    2546,
+                    677
+                  ],
+                  [
+                    2546,
+                    750
+                  ],
+                  [
+                    2382,
+                    750
+                  ]
+                ]
+              },
+              {
+                "text": "Belrayy",
+                "confidence": 0.9998196320719552,
+                "bbox": [
+                  [
+                    143,
+                    793
+                  ],
+                  [
+                    231,
+                    793
+                  ],
+                  [
+                    231,
+                    826
+                  ],
+                  [
+                    143,
+                    826
+                  ]
+                ]
+              },
+              {
+                "text": "demon waccon",
+                "confidence": 0.8272750691756914,
+                "bbox": [
+                  [
+                    145,
+                    877
+                  ],
+                  [
+                    308,
+                    877
+                  ],
+                  [
+                    308,
+                    902
+                  ],
+                  [
+                    145,
+                    902
+                  ]
+                ]
+              },
+              {
+                "text": "hamza chafiq",
+                "confidence": 0.9282735842013563,
+                "bbox": [
+                  [
+                    145,
+                    952
+                  ],
+                  [
+                    293,
+                    952
+                  ],
+                  [
+                    293,
+                    983
+                  ],
+                  [
+                    145,
+                    983
+                  ]
+                ]
+              },
+              {
+                "text": "tajin",
+                "confidence": 0.9999984539514241,
+                "bbox": [
+                  [
+                    129,
+                    996
+                  ],
+                  [
+                    222,
+                    996
+                  ],
+                  [
+                    222,
+                    1041
+                  ],
+                  [
+                    129,
+                    1041
+                  ]
+                ]
+              },
+              {
+                "text": "CONV",
+                "confidence": 0.9927167892456055,
+                "bbox": [
+                  [
+                    433,
+                    1030
+                  ],
+                  [
+                    506,
+                    1030
+                  ],
+                  [
+                    506,
+                    1061
+                  ],
+                  [
+                    433,
+                    1061
+                  ]
+                ]
+              },
+              {
+                "text": "Gladius, Beast of Night",
+                "confidence": 0.8458885373818648,
+                "bbox": [
+                  [
+                    911,
+                    1646
+                  ],
+                  [
+                    1364,
+                    1646
+                  ],
+                  [
+                    1364,
+                    1712
+                  ],
+                  [
+                    911,
+                    1712
+                  ]
+                ]
+              },
+              {
+                "text": "Belrayy",
+                "confidence": 0.9997783572943572,
+                "bbox": [
+                  [
+                    308.98022872944,
+                    334.105097901312
+                  ],
+                  [
+                    426.9124326215348,
+                    351.06833174419165
+                  ],
+                  [
+                    419.01977127056,
+                    391.894902098688
+                  ],
+                  [
+                    301.0875673784652,
+                    374.93166825580835
+                  ]
+                ]
+              }
+            ],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1755957695_ELDEN RING NIGHTREIGN_replay_2025.08.21-23.56_frame_2.jpg"
+        },
+        {
+          "timestamp": 5.0,
+          "frame_index": 2,
+          "visual_analysis": {
+            "category": "suggestive_content",
+            "confidence": 0.48383307456970215,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.007324406411498785,
+              "suggestive_content": 0.48383307456970215,
+              "artistic_adult_content": 0.34113386273384094,
+              "misinformation": 0.1537172794342041,
+              "violence": 0.005137474276125431,
+              "hate_speech": 0.0034550318960100412,
+              "dangerous_activities": 0.005398876033723354
+            }
+          },
+          "blip_description": {
+            "description": "the first boss in the game, the boss is ready to fight",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "15 26094 5 tajin Belrayy demon waccon hamza chafiq CONV tajin Gladius, Beast of Night Belrayy Belrayy",
+            "extracted_items": [
+              {
+                "text": "15",
+                "confidence": 0.9999991570631338,
+                "bbox": [
+                  [
+                    185,
+                    95
+                  ],
+                  [
+                    241,
+                    95
+                  ],
+                  [
+                    241,
+                    145
+                  ],
+                  [
+                    185,
+                    145
+                  ]
+                ]
+              },
+              {
+                "text": "26094",
+                "confidence": 0.9999998933759693,
+                "bbox": [
+                  [
+                    3594,
+                    120
+                  ],
+                  [
+                    3723,
+                    120
+                  ],
+                  [
+                    3723,
+                    165
+                  ],
+                  [
+                    3594,
+                    165
+                  ]
+                ]
+              },
+              {
+                "text": "5",
+                "confidence": 1.0,
+                "bbox": [
+                  [
+                    430,
+                    205
+                  ],
+                  [
+                    461,
+                    205
+                  ],
+                  [
+                    461,
+                    242
+                  ],
+                  [
+                    430,
+                    242
+                  ]
+                ]
+              },
+              {
+                "text": "tajin",
+                "confidence": 0.9999157132850078,
+                "bbox": [
+                  [
+                    306,
+                    534
+                  ],
+                  [
+                    378,
+                    534
+                  ],
+                  [
+                    378,
+                    570
+                  ],
+                  [
+                    306,
+                    570
+                  ]
+                ]
+              },
+              {
+                "text": "Belrayy",
+                "confidence": 0.999540791327253,
+                "bbox": [
+                  [
+                    143,
+                    793
+                  ],
+                  [
+                    231,
+                    793
+                  ],
+                  [
+                    231,
+                    826
+                  ],
+                  [
+                    143,
+                    826
+                  ]
+                ]
+              },
+              {
+                "text": "demon waccon",
+                "confidence": 0.9801726076565603,
+                "bbox": [
+                  [
+                    145,
+                    877
+                  ],
+                  [
+                    308,
+                    877
+                  ],
+                  [
+                    308,
+                    902
+                  ],
+                  [
+                    145,
+                    902
+                  ]
+                ]
+              },
+              {
+                "text": "hamza chafiq",
+                "confidence": 0.8477026479211512,
+                "bbox": [
+                  [
+                    145,
+                    952
+                  ],
+                  [
+                    293,
+                    952
+                  ],
+                  [
+                    293,
+                    983
+                  ],
+                  [
+                    145,
+                    983
+                  ]
+                ]
+              },
+              {
+                "text": "CONV",
+                "confidence": 0.9981868863105774,
+                "bbox": [
+                  [
+                    436,
+                    1036
+                  ],
+                  [
+                    506,
+                    1036
+                  ],
+                  [
+                    506,
+                    1061
+                  ],
+                  [
+                    436,
+                    1061
+                  ]
+                ]
+              },
+              {
+                "text": "tajin",
+                "confidence": 0.6663029320184686,
+                "bbox": [
+                  [
+                    132,
+                    1051
+                  ],
+                  [
+                    227,
+                    1051
+                  ],
+                  [
+                    227,
+                    1101
+                  ],
+                  [
+                    132,
+                    1101
+                  ]
+                ]
+              },
+              {
+                "text": "Gladius, Beast of Night",
+                "confidence": 0.8088931375380084,
+                "bbox": [
+                  [
+                    911,
+                    1646
+                  ],
+                  [
+                    1364,
+                    1646
+                  ],
+                  [
+                    1364,
+                    1712
+                  ],
+                  [
+                    911,
+                    1712
+                  ]
+                ]
+              },
+              {
+                "text": "Belrayy",
+                "confidence": 0.9997574493368212,
+                "bbox": [
+                  [
+                    308.98022872944,
+                    334.105097901312
+                  ],
+                  [
+                    426.9124326215348,
+                    351.06833174419165
+                  ],
+                  [
+                    419.01977127056,
+                    391.894902098688
+                  ],
+                  [
+                    301.0875673784652,
+                    374.93166825580835
+                  ]
+                ]
+              },
+              {
+                "text": "Belrayy",
+                "confidence": 0.9999250244503208,
+                "bbox": [
+                  [
+                    140.96667006423115,
+                    888.0766894303488
+                  ],
+                  [
+                    294.85880877728346,
+                    911.6011639993698
+                  ],
+                  [
+                    283.03332993576885,
+                    968.9233105696512
+                  ],
+                  [
+                    129.14119122271651,
+                    945.3988360006302
+                  ]
+                ]
+              }
+            ],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1755957695_ELDEN RING NIGHTREIGN_replay_2025.08.21-23.56_frame_3.jpg"
+        },
+        {
+          "timestamp": 7.5,
+          "frame_index": 3,
+          "visual_analysis": {
+            "category": "suggestive_content",
+            "confidence": 0.7988045811653137,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.0024171650875359774,
+              "suggestive_content": 0.7988045811653137,
+              "artistic_adult_content": 0.14107251167297363,
+              "misinformation": 0.053266629576683044,
+              "violence": 0.0016131962183862925,
+              "hate_speech": 0.0010907180840149522,
+              "dangerous_activities": 0.001735212281346321
+            }
+          },
+          "blip_description": {
+            "description": "the game's screens are all different, but they are not as close as they are",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "15 26094 Belrayy tajin demon waccon hamza chafiq- tajin CONV Gladius, Beast of Night Belrayy Belrayy",
+            "extracted_items": [
+              {
+                "text": "15",
+                "confidence": 0.9999994942378553,
+                "bbox": [
+                  [
+                    186,
+                    96
+                  ],
+                  [
+                    240,
+                    96
+                  ],
+                  [
+                    240,
+                    141
+                  ],
+                  [
+                    186,
+                    141
+                  ]
+                ]
+              },
+              {
+                "text": "26094",
+                "confidence": 0.9999998933759693,
+                "bbox": [
+                  [
+                    3594,
+                    120
+                  ],
+                  [
+                    3723,
+                    120
+                  ],
+                  [
+                    3723,
+                    165
+                  ],
+                  [
+                    3594,
+                    165
+                  ]
+                ]
+              },
+              {
+                "text": "Belrayy",
+                "confidence": 0.9999020448018517,
+                "bbox": [
+                  [
+                    302,
+                    336
+                  ],
+                  [
+                    426,
+                    336
+                  ],
+                  [
+                    426,
+                    391
+                  ],
+                  [
+                    302,
+                    391
+                  ]
+                ]
+              },
+              {
+                "text": "tajin",
+                "confidence": 0.9998159116121077,
+                "bbox": [
+                  [
+                    306,
+                    534
+                  ],
+                  [
+                    378,
+                    534
+                  ],
+                  [
+                    378,
+                    570
+                  ],
+                  [
+                    306,
+                    570
+                  ]
+                ]
+              },
+              {
+                "text": "demon waccon",
+                "confidence": 0.9887611394458117,
+                "bbox": [
+                  [
+                    145,
+                    877
+                  ],
+                  [
+                    308,
+                    877
+                  ],
+                  [
+                    308,
+                    902
+                  ],
+                  [
+                    145,
+                    902
+                  ]
+                ]
+              },
+              {
+                "text": "hamza chafiq-",
+                "confidence": 0.8236849050441732,
+                "bbox": [
+                  [
+                    145,
+                    952
+                  ],
+                  [
+                    293,
+                    952
+                  ],
+                  [
+                    293,
+                    983
+                  ],
+                  [
+                    145,
+                    983
+                  ]
+                ]
+              },
+              {
+                "text": "tajin",
+                "confidence": 0.9999940823642687,
+                "bbox": [
+                  [
+                    545,
+                    995
+                  ],
+                  [
+                    640,
+                    995
+                  ],
+                  [
+                    640,
+                    1048
+                  ],
+                  [
+                    545,
+                    1048
+                  ]
+                ]
+              },
+              {
+                "text": "CONV",
+                "confidence": 0.8736538770415131,
+                "bbox": [
+                  [
+                    433,
+                    1033
+                  ],
+                  [
+                    506,
+                    1033
+                  ],
+                  [
+                    506,
+                    1061
+                  ],
+                  [
+                    433,
+                    1061
+                  ]
+                ]
+              },
+              {
+                "text": "Gladius, Beast of Night",
+                "confidence": 0.9181976209593095,
+                "bbox": [
+                  [
+                    911,
+                    1646
+                  ],
+                  [
+                    1364,
+                    1646
+                  ],
+                  [
+                    1364,
+                    1712
+                  ],
+                  [
+                    911,
+                    1712
+                  ]
+                ]
+              },
+              {
+                "text": "Belrayy",
+                "confidence": 0.9978452610669334,
+                "bbox": [
+                  [
+                    146.15350102802535,
+                    790.1219034952862
+                  ],
+                  [
+                    231.9470156992674,
+                    801.4386636763301
+                  ],
+                  [
+                    227.84649897197465,
+                    829.8780965047138
+                  ],
+                  [
+                    142.0529843007326,
+                    818.5613363236699
+                  ]
+                ]
+              },
+              {
+                "text": "Belrayy",
+                "confidence": 0.9998814981482417,
+                "bbox": [
+                  [
+                    981.0446053670523,
+                    1832.076553275724
+                  ],
+                  [
+                    1136.874516440651,
+                    1851.7793212590855
+                  ],
+                  [
+                    1126.9553946329477,
+                    1905.923446724276
+                  ],
+                  [
+                    971.1254835593489,
+                    1886.2206787409145
+                  ]
+                ]
+              }
+            ],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1755957695_ELDEN RING NIGHTREIGN_replay_2025.08.21-23.56_frame_4.jpg"
+        },
+        {
+          "timestamp": 10.0,
+          "frame_index": 4,
+          "visual_analysis": {
+            "category": "suggestive_content",
+            "confidence": 0.6888858675956726,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.0042519336566329,
+              "suggestive_content": 0.6888858675956726,
+              "artistic_adult_content": 0.1877117156982422,
+              "misinformation": 0.10610300302505493,
+              "violence": 0.005876040086150169,
+              "hate_speech": 0.0028230580501258373,
+              "dangerous_activities": 0.004348377697169781
+            }
+          },
+          "blip_description": {
+            "description": "the witch of the north screenshote",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "15 26094 5 tajin Belrayy demon waccon hamza chafiq CONV Gladius, Beast of Night Belrayy Belrayy",
+            "extracted_items": [
+              {
+                "text": "15",
+                "confidence": 0.9999994099441718,
+                "bbox": [
+                  [
+                    186,
+                    96
+                  ],
+                  [
+                    240,
+                    96
+                  ],
+                  [
+                    240,
+                    141
+                  ],
+                  [
+                    186,
+                    141
+                  ]
+                ]
+              },
+              {
+                "text": "26094",
+                "confidence": 0.9999998933759693,
+                "bbox": [
+                  [
+                    3594,
+                    120
+                  ],
+                  [
+                    3723,
+                    120
+                  ],
+                  [
+                    3723,
+                    165
+                  ],
+                  [
+                    3594,
+                    165
+                  ]
+                ]
+              },
+              {
+                "text": "5",
+                "confidence": 1.0,
+                "bbox": [
+                  [
+                    430,
+                    205
+                  ],
+                  [
+                    461,
+                    205
+                  ],
+                  [
+                    461,
+                    242
+                  ],
+                  [
+                    430,
+                    242
+                  ]
+                ]
+              },
+              {
+                "text": "tajin",
+                "confidence": 0.9998947614287532,
+                "bbox": [
+                  [
+                    306,
+                    534
+                  ],
+                  [
+                    378,
+                    534
+                  ],
+                  [
+                    378,
+                    570
+                  ],
+                  [
+                    306,
+                    570
+                  ]
+                ]
+              },
+              {
+                "text": "Belrayy",
+                "confidence": 0.7703236268820949,
+                "bbox": [
+                  [
+                    142,
+                    791
+                  ],
+                  [
+                    232,
+                    791
+                  ],
+                  [
+                    232,
+                    829
+                  ],
+                  [
+                    142,
+                    829
+                  ]
+                ]
+              },
+              {
+                "text": "demon waccon",
+                "confidence": 0.9881254567194574,
+                "bbox": [
+                  [
+                    145,
+                    877
+                  ],
+                  [
+                    308,
+                    877
+                  ],
+                  [
+                    308,
+                    902
+                  ],
+                  [
+                    145,
+                    902
+                  ]
+                ]
+              },
+              {
+                "text": "hamza chafiq",
+                "confidence": 0.7960664156385762,
+                "bbox": [
+                  [
+                    145,
+                    952
+                  ],
+                  [
+                    290,
+                    952
+                  ],
+                  [
+                    290,
+                    983
+                  ],
+                  [
+                    145,
+                    983
+                  ]
+                ]
+              },
+              {
+                "text": "CONV",
+                "confidence": 0.9987828731536865,
+                "bbox": [
+                  [
+                    433,
+                    1030
+                  ],
+                  [
+                    506,
+                    1030
+                  ],
+                  [
+                    506,
+                    1061
+                  ],
+                  [
+                    433,
+                    1061
+                  ]
+                ]
+              },
+              {
+                "text": "Gladius, Beast of Night",
+                "confidence": 0.8914069609554816,
+                "bbox": [
+                  [
+                    911,
+                    1646
+                  ],
+                  [
+                    1361,
+                    1646
+                  ],
+                  [
+                    1361,
+                    1712
+                  ],
+                  [
+                    911,
+                    1712
+                  ]
+                ]
+              },
+              {
+                "text": "Belrayy",
+                "confidence": 0.9998574551500092,
+                "bbox": [
+                  [
+                    309.00019994001997,
+                    334.100979706098
+                  ],
+                  [
+                    426.9124326215348,
+                    351.06833174419165
+                  ],
+                  [
+                    418.99980005998003,
+                    392.899020293902
+                  ],
+                  [
+                    301.0875673784652,
+                    374.93166825580835
+                  ]
+                ]
+              },
+              {
+                "text": "Belrayy",
+                "confidence": 0.9999820222541783,
+                "bbox": [
+                  [
+                    3558.0876568944764,
+                    1638.0697698140964
+                  ],
+                  [
+                    3710.9007191315345,
+                    1661.9130254231384
+                  ],
+                  [
+                    3699.9123431055236,
+                    1714.9302301859036
+                  ],
+                  [
+                    3547.0992808684655,
+                    1692.0869745768616
+                  ]
+                ]
+              }
+            ],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1755957695_ELDEN RING NIGHTREIGN_replay_2025.08.21-23.56_frame_5.jpg"
+        },
+        {
+          "timestamp": 12.5,
+          "frame_index": 5,
+          "visual_analysis": {
+            "category": "suggestive_content",
+            "confidence": 0.8554178476333618,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.01735074259340763,
+              "suggestive_content": 0.8554178476333618,
+              "artistic_adult_content": 0.07262779772281647,
+              "misinformation": 0.046887680888175964,
+              "violence": 0.0022927976679056883,
+              "hate_speech": 0.002237128559499979,
+              "dangerous_activities": 0.0031861194875091314
+            }
+          },
+          "blip_description": {
+            "description": "the game's screens are all different, but they are not as close as they look",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "15 26094 Belrayy tajin tajin Belrayy demon waccon hamza chafiq CONV Boiled Crab Gladius, Beast of Night Belrayy",
+            "extracted_items": [
+              {
+                "text": "15",
+                "confidence": 0.9999990727694587,
+                "bbox": [
+                  [
+                    185,
+                    95
+                  ],
+                  [
+                    241,
+                    95
+                  ],
+                  [
+                    241,
+                    145
+                  ],
+                  [
+                    185,
+                    145
+                  ]
+                ]
+              },
+              {
+                "text": "26094",
+                "confidence": 0.9999998933759693,
+                "bbox": [
+                  [
+                    3594,
+                    120
+                  ],
+                  [
+                    3723,
+                    120
+                  ],
+                  [
+                    3723,
+                    165
+                  ],
+                  [
+                    3594,
+                    165
+                  ]
+                ]
+              },
+              {
+                "text": "Belrayy",
+                "confidence": 0.9998810926208117,
+                "bbox": [
+                  [
+                    302,
+                    336
+                  ],
+                  [
+                    426,
+                    336
+                  ],
+                  [
+                    426,
+                    390
+                  ],
+                  [
+                    302,
+                    390
+                  ]
+                ]
+              },
+              {
+                "text": "tajin",
+                "confidence": 0.9996750570365157,
+                "bbox": [
+                  [
+                    306,
+                    534
+                  ],
+                  [
+                    378,
+                    534
+                  ],
+                  [
+                    378,
+                    570
+                  ],
+                  [
+                    306,
+                    570
+                  ]
+                ]
+              },
+              {
+                "text": "tajin",
+                "confidence": 0.5899340789305605,
+                "bbox": [
+                  [
+                    2265,
+                    747
+                  ],
+                  [
+                    2355,
+                    747
+                  ],
+                  [
+                    2355,
+                    792
+                  ],
+                  [
+                    2265,
+                    792
+                  ]
+                ]
+              },
+              {
+                "text": "Belrayy",
+                "confidence": 0.9998585181767876,
+                "bbox": [
+                  [
+                    143,
+                    793
+                  ],
+                  [
+                    231,
+                    793
+                  ],
+                  [
+                    231,
+                    826
+                  ],
+                  [
+                    143,
+                    826
+                  ]
+                ]
+              },
+              {
+                "text": "demon waccon",
+                "confidence": 0.7030622249373456,
+                "bbox": [
+                  [
+                    145,
+                    877
+                  ],
+                  [
+                    308,
+                    877
+                  ],
+                  [
+                    308,
+                    902
+                  ],
+                  [
+                    145,
+                    902
+                  ]
+                ]
+              },
+              {
+                "text": "hamza chafiq",
+                "confidence": 0.7492104748649653,
+                "bbox": [
+                  [
+                    145,
+                    955
+                  ],
+                  [
+                    290,
+                    955
+                  ],
+                  [
+                    290,
+                    983
+                  ],
+                  [
+                    145,
+                    983
+                  ]
+                ]
+              },
+              {
+                "text": "CONV",
+                "confidence": 0.9937576055526733,
+                "bbox": [
+                  [
+                    436,
+                    1033
+                  ],
+                  [
+                    506,
+                    1033
+                  ],
+                  [
+                    506,
+                    1058
+                  ],
+                  [
+                    436,
+                    1058
+                  ]
+                ]
+              },
+              {
+                "text": "Boiled Crab",
+                "confidence": 0.9878816961397556,
+                "bbox": [
+                  [
+                    342,
+                    1603
+                  ],
+                  [
+                    577,
+                    1603
+                  ],
+                  [
+                    577,
+                    1658
+                  ],
+                  [
+                    342,
+                    1658
+                  ]
+                ]
+              },
+              {
+                "text": "Gladius, Beast of Night",
+                "confidence": 0.7959907742892001,
+                "bbox": [
+                  [
+                    911,
+                    1646
+                  ],
+                  [
+                    1364,
+                    1646
+                  ],
+                  [
+                    1364,
+                    1712
+                  ],
+                  [
+                    911,
+                    1712
+                  ]
+                ]
+              },
+              {
+                "text": "Belrayy",
+                "confidence": 0.8221185789949625,
+                "bbox": [
+                  [
+                    981.0136060761679,
+                    1489.081636457007
+                  ],
+                  [
+                    1133.9063235505307,
+                    1510.9439024114945
+                  ],
+                  [
+                    1123.986393923832,
+                    1560.918363542993
+                  ],
+                  [
+                    971.0936764494694,
+                    1540.0560975885055
+                  ]
+                ]
+              }
+            ],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1755957695_ELDEN RING NIGHTREIGN_replay_2025.08.21-23.56_frame_6.jpg"
+        },
+        {
+          "timestamp": 15.0,
+          "frame_index": 6,
+          "visual_analysis": {
+            "category": "misinformation",
+            "confidence": 0.4655561149120331,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.0024816105142235756,
+              "suggestive_content": 0.21705332398414612,
+              "artistic_adult_content": 0.29670408368110657,
+              "misinformation": 0.4655561149120331,
+              "violence": 0.005898559000343084,
+              "hate_speech": 0.00515484344214201,
+              "dangerous_activities": 0.0071514081209897995
+            }
+          },
+          "blip_description": {
+            "description": "the witch of the north in guild wars",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "15 26094 4 tajin Belrayy demon waccon tajin hamza chafiq Gladius, Beast of Night 816 Belrayy Belrayy",
+            "extracted_items": [
+              {
+                "text": "15",
+                "confidence": 0.9999992413568111,
+                "bbox": [
+                  [
+                    186,
+                    96
+                  ],
+                  [
+                    240,
+                    96
+                  ],
+                  [
+                    240,
+                    141
+                  ],
+                  [
+                    186,
+                    141
+                  ]
+                ]
+              },
+              {
+                "text": "26094",
+                "confidence": 0.9999998933759693,
+                "bbox": [
+                  [
+                    3594,
+                    120
+                  ],
+                  [
+                    3720,
+                    120
+                  ],
+                  [
+                    3720,
+                    165
+                  ],
+                  [
+                    3594,
+                    165
+                  ]
+                ]
+              },
+              {
+                "text": "4",
+                "confidence": 0.9999983310706426,
+                "bbox": [
+                  [
+                    386,
+                    198
+                  ],
+                  [
+                    468,
+                    198
+                  ],
+                  [
+                    468,
+                    248
+                  ],
+                  [
+                    386,
+                    248
+                  ]
+                ]
+              },
+              {
+                "text": "tajin",
+                "confidence": 0.9832276822998948,
+                "bbox": [
+                  [
+                    306,
+                    534
+                  ],
+                  [
+                    378,
+                    534
+                  ],
+                  [
+                    378,
+                    570
+                  ],
+                  [
+                    306,
+                    570
+                  ]
+                ]
+              },
+              {
+                "text": "Belrayy",
+                "confidence": 0.9986433105612647,
+                "bbox": [
+                  [
+                    143,
+                    793
+                  ],
+                  [
+                    231,
+                    793
+                  ],
+                  [
+                    231,
+                    826
+                  ],
+                  [
+                    143,
+                    826
+                  ]
+                ]
+              },
+              {
+                "text": "demon waccon",
+                "confidence": 0.9860055123906267,
+                "bbox": [
+                  [
+                    145,
+                    877
+                  ],
+                  [
+                    305,
+                    877
+                  ],
+                  [
+                    305,
+                    902
+                  ],
+                  [
+                    145,
+                    902
+                  ]
+                ]
+              },
+              {
+                "text": "tajin",
+                "confidence": 0.996112435611589,
+                "bbox": [
+                  [
+                    3617,
+                    851
+                  ],
+                  [
+                    3712,
+                    851
+                  ],
+                  [
+                    3712,
+                    904
+                  ],
+                  [
+                    3617,
+                    904
+                  ]
+                ]
+              },
+              {
+                "text": "hamza chafiq",
+                "confidence": 0.9942437025827805,
+                "bbox": [
+                  [
+                    145,
+                    955
+                  ],
+                  [
+                    293,
+                    955
+                  ],
+                  [
+                    293,
+                    983
+                  ],
+                  [
+                    145,
+                    983
+                  ]
+                ]
+              },
+              {
+                "text": "Gladius, Beast of Night",
+                "confidence": 0.8146246544675213,
+                "bbox": [
+                  [
+                    911,
+                    1646
+                  ],
+                  [
+                    1361,
+                    1646
+                  ],
+                  [
+                    1361,
+                    1712
+                  ],
+                  [
+                    911,
+                    1712
+                  ]
+                ]
+              },
+              {
+                "text": "816",
+                "confidence": 0.7287617921829224,
+                "bbox": [
+                  [
+                    2862,
+                    1653
+                  ],
+                  [
+                    2931,
+                    1653
+                  ],
+                  [
+                    2931,
+                    1692
+                  ],
+                  [
+                    2862,
+                    1692
+                  ]
+                ]
+              },
+              {
+                "text": "Belrayy",
+                "confidence": 0.99964668887922,
+                "bbox": [
+                  [
+                    309.01941932430907,
+                    334.0970966215454
+                  ],
+                  [
+                    426.8877754343695,
+                    349.94660012190315
+                  ],
+                  [
+                    418.98058067569093,
+                    393.9029033784546
+                  ],
+                  [
+                    301.1122245656305,
+                    377.05339987809685
+                  ]
+                ]
+              },
+              {
+                "text": "Belrayy",
+                "confidence": 0.8278225012640347,
+                "bbox": [
+                  [
+                    306.08765689447637,
+                    861.0697698140963
+                  ],
+                  [
+                    459.9019811552265,
+                    884.9198988735533
+                  ],
+                  [
+                    448.91234310552363,
+                    937.9302301859037
+                  ],
+                  [
+                    295.0980188447735,
+                    915.0801011264467
+                  ]
+                ]
+              }
+            ],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1755957695_ELDEN RING NIGHTREIGN_replay_2025.08.21-23.56_frame_7.jpg"
+        },
+        {
+          "timestamp": 17.5,
+          "frame_index": 7,
+          "visual_analysis": {
+            "category": "suggestive_content",
+            "confidence": 0.5181817412376404,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.0058051422238349915,
+              "suggestive_content": 0.5181817412376404,
+              "artistic_adult_content": 0.20903556048870087,
+              "misinformation": 0.23337607085704803,
+              "violence": 0.019207220524549484,
+              "hate_speech": 0.006452609784901142,
+              "dangerous_activities": 0.0079417172819376
+            }
+          },
+          "blip_description": {
+            "description": "the elder in guild wars",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "15 26094 4 tajin Belrayy demon waccon hamza chafiq CONV Gladius, Beast of Night 87 Familial Rancor Belrayy Belrayy",
+            "extracted_items": [
+              {
+                "text": "15",
+                "confidence": 0.9999994099441718,
+                "bbox": [
+                  [
+                    186,
+                    96
+                  ],
+                  [
+                    240,
+                    96
+                  ],
+                  [
+                    240,
+                    141
+                  ],
+                  [
+                    186,
+                    141
+                  ]
+                ]
+              },
+              {
+                "text": "26094",
+                "confidence": 0.9999998933759693,
+                "bbox": [
+                  [
+                    3594,
+                    120
+                  ],
+                  [
+                    3723,
+                    120
+                  ],
+                  [
+                    3723,
+                    165
+                  ],
+                  [
+                    3594,
+                    165
+                  ]
+                ]
+              },
+              {
+                "text": "4",
+                "confidence": 1.0,
+                "bbox": [
+                  [
+                    393,
+                    204
+                  ],
+                  [
+                    465,
+                    204
+                  ],
+                  [
+                    465,
+                    246
+                  ],
+                  [
+                    393,
+                    246
+                  ]
+                ]
+              },
+              {
+                "text": "tajin",
+                "confidence": 0.99994050358235,
+                "bbox": [
+                  [
+                    306,
+                    534
+                  ],
+                  [
+                    378,
+                    534
+                  ],
+                  [
+                    378,
+                    570
+                  ],
+                  [
+                    306,
+                    570
+                  ]
+                ]
+              },
+              {
+                "text": "Belrayy",
+                "confidence": 0.999519393790782,
+                "bbox": [
+                  [
+                    142,
+                    791
+                  ],
+                  [
+                    232,
+                    791
+                  ],
+                  [
+                    232,
+                    829
+                  ],
+                  [
+                    142,
+                    829
+                  ]
+                ]
+              },
+              {
+                "text": "demon waccon",
+                "confidence": 0.7367416176385847,
+                "bbox": [
+                  [
+                    145,
+                    877
+                  ],
+                  [
+                    308,
+                    877
+                  ],
+                  [
+                    308,
+                    902
+                  ],
+                  [
+                    145,
+                    902
+                  ]
+                ]
+              },
+              {
+                "text": "hamza chafiq",
+                "confidence": 0.8501409627623221,
+                "bbox": [
+                  [
+                    145,
+                    952
+                  ],
+                  [
+                    290,
+                    952
+                  ],
+                  [
+                    290,
+                    983
+                  ],
+                  [
+                    145,
+                    983
+                  ]
+                ]
+              },
+              {
+                "text": "CONV",
+                "confidence": 0.996099054813385,
+                "bbox": [
+                  [
+                    436,
+                    1036
+                  ],
+                  [
+                    506,
+                    1036
+                  ],
+                  [
+                    506,
+                    1061
+                  ],
+                  [
+                    436,
+                    1061
+                  ]
+                ]
+              },
+              {
+                "text": "Gladius, Beast of Night",
+                "confidence": 0.7941651134685848,
+                "bbox": [
+                  [
+                    911,
+                    1645
+                  ],
+                  [
+                    1362,
+                    1645
+                  ],
+                  [
+                    1362,
+                    1713
+                  ],
+                  [
+                    911,
+                    1713
+                  ]
+                ]
+              },
+              {
+                "text": "87",
+                "confidence": 1.0,
+                "bbox": [
+                  [
+                    2880,
+                    1653
+                  ],
+                  [
+                    2928,
+                    1653
+                  ],
+                  [
+                    2928,
+                    1692
+                  ],
+                  [
+                    2880,
+                    1692
+                  ]
+                ]
+              },
+              {
+                "text": "Familial Rancor",
+                "confidence": 0.9288308042365663,
+                "bbox": [
+                  [
+                    548,
+                    1706
+                  ],
+                  [
+                    859,
+                    1706
+                  ],
+                  [
+                    859,
+                    1756
+                  ],
+                  [
+                    548,
+                    1756
+                  ]
+                ]
+              },
+              {
+                "text": "Belrayy",
+                "confidence": 0.9999635938299744,
+                "bbox": [
+                  [
+                    311.01941932430907,
+                    334.0970966215454
+                  ],
+                  [
+                    424.889012070387,
+                    350.95235455634565
+                  ],
+                  [
+                    416.98058067569093,
+                    393.9029033784546
+                  ],
+                  [
+                    303.110987929613,
+                    377.04764544365435
+                  ]
+                ]
+              },
+              {
+                "text": "Belrayy",
+                "confidence": 0.9999782825094796,
+                "bbox": [
+                  [
+                    789.101167723432,
+                    841.0677069746514
+                  ],
+                  [
+                    941.8864441696585,
+                    863.83820180862
+                  ],
+                  [
+                    930.898832276568,
+                    918.9322930253486
+                  ],
+                  [
+                    778.1135558303415,
+                    896.16179819138
+                  ]
+                ]
+              }
+            ],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1755957695_ELDEN RING NIGHTREIGN_replay_2025.08.21-23.56_frame_8.jpg"
+        },
+        {
+          "timestamp": 20.0,
+          "frame_index": 8,
+          "visual_analysis": {
+            "category": "misinformation",
+            "confidence": 0.4886130094528198,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.0023068804293870926,
+              "suggestive_content": 0.19639495015144348,
+              "artistic_adult_content": 0.2954097390174866,
+              "misinformation": 0.4886130094528198,
+              "violence": 0.008116789162158966,
+              "hate_speech": 0.00380338984541595,
+              "dangerous_activities": 0.005355200730264187
+            }
+          },
+          "blip_description": {
+            "description": "the elder in star wars",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "15 26094 Belrayy tajin Belrayy demon waccon hamza chafiq CONV 549 Thunderbolt Belrayy",
+            "extracted_items": [
+              {
+                "text": "15",
+                "confidence": 0.9999993256504904,
+                "bbox": [
+                  [
+                    186,
+                    96
+                  ],
+                  [
+                    240,
+                    96
+                  ],
+                  [
+                    240,
+                    141
+                  ],
+                  [
+                    186,
+                    141
+                  ]
+                ]
+              },
+              {
+                "text": "26094",
+                "confidence": 0.9999998933759693,
+                "bbox": [
+                  [
+                    3594,
+                    120
+                  ],
+                  [
+                    3723,
+                    120
+                  ],
+                  [
+                    3723,
+                    165
+                  ],
+                  [
+                    3594,
+                    165
+                  ]
+                ]
+              },
+              {
+                "text": "Belrayy",
+                "confidence": 0.9845165698666151,
+                "bbox": [
+                  [
+                    302,
+                    336
+                  ],
+                  [
+                    423,
+                    336
+                  ],
+                  [
+                    423,
+                    390
+                  ],
+                  [
+                    302,
+                    390
+                  ]
+                ]
+              },
+              {
+                "text": "tajin",
+                "confidence": 0.9999780354213488,
+                "bbox": [
+                  [
+                    306,
+                    534
+                  ],
+                  [
+                    378,
+                    534
+                  ],
+                  [
+                    378,
+                    570
+                  ],
+                  [
+                    306,
+                    570
+                  ]
+                ]
+              },
+              {
+                "text": "Belrayy",
+                "confidence": 0.9974222283987864,
+                "bbox": [
+                  [
+                    143,
+                    793
+                  ],
+                  [
+                    231,
+                    793
+                  ],
+                  [
+                    231,
+                    826
+                  ],
+                  [
+                    143,
+                    826
+                  ]
+                ]
+              },
+              {
+                "text": "demon waccon",
+                "confidence": 0.9580844611149107,
+                "bbox": [
+                  [
+                    145,
+                    877
+                  ],
+                  [
+                    308,
+                    877
+                  ],
+                  [
+                    308,
+                    902
+                  ],
+                  [
+                    145,
+                    902
+                  ]
+                ]
+              },
+              {
+                "text": "hamza chafiq",
+                "confidence": 0.8762492630148204,
+                "bbox": [
+                  [
+                    145,
+                    955
+                  ],
+                  [
+                    290,
+                    955
+                  ],
+                  [
+                    290,
+                    983
+                  ],
+                  [
+                    145,
+                    983
+                  ]
+                ]
+              },
+              {
+                "text": "CONV",
+                "confidence": 0.9966302514076233,
+                "bbox": [
+                  [
+                    433,
+                    1030
+                  ],
+                  [
+                    506,
+                    1030
+                  ],
+                  [
+                    506,
+                    1061
+                  ],
+                  [
+                    433,
+                    1061
+                  ]
+                ]
+              },
+              {
+                "text": "549",
+                "confidence": 0.5496212645482187,
+                "bbox": [
+                  [
+                    2862,
+                    1653
+                  ],
+                  [
+                    2931,
+                    1653
+                  ],
+                  [
+                    2931,
+                    1695
+                  ],
+                  [
+                    2862,
+                    1695
+                  ]
+                ]
+              },
+              {
+                "text": "Thunderbolt",
+                "confidence": 0.9995066040092776,
+                "bbox": [
+                  [
+                    548,
+                    1706
+                  ],
+                  [
+                    805,
+                    1706
+                  ],
+                  [
+                    805,
+                    1756
+                  ],
+                  [
+                    548,
+                    1756
+                  ]
+                ]
+              },
+              {
+                "text": "Belrayy",
+                "confidence": 0.9999620618777934,
+                "bbox": [
+                  [
+                    1026.0446053670523,
+                    874.0765532757241
+                  ],
+                  [
+                    1178.8994327851728,
+                    895.906065443809
+                  ],
+                  [
+                    1168.9553946329477,
+                    947.9234467242759
+                  ],
+                  [
+                    1016.1005672148273,
+                    926.093934556191
+                  ]
+                ]
+              }
+            ],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1755957695_ELDEN RING NIGHTREIGN_replay_2025.08.21-23.56_frame_9.jpg"
+        }
+      ]
+    }
+  },
+  "rag_explanations": [
+    {
+      "type": "visual",
+      "frame": 1,
+      "timestamp": 0.0,
+      "category": "suggestive_content",
+      "confidence": 0.9015972018241882,
+      "blip": "the witch of the north in guild wars",
+      "ocr": "15 26094 5 Belrayy tajin Belrayy tajin demon waccon hamza chafiq Scar-Redz)V>F CONV Gladius, Beast of Night Belrayy",
+      "policy": {
+        "description": "Content depicting violence, weapons, or graphic imagery",
+        "examples": [
+          "fighting",
+          "weapons",
+          "blood",
+          "gore",
+          "combat"
+        ],
+        "severity_indicators": [
+          "realistic weapons",
+          "explicit violence",
+          "gore"
+        ],
+        "context_matters": [
+          "gaming violence vs real violence",
+          "educational vs gratuitous"
+        ],
+        "action_required": "human_review_required"
+      },
+      "action_required": "human_review_required",
+      "examples": [
+        "fighting",
+        "weapons",
+        "blood",
+        "gore",
+        "combat"
+      ],
+      "severity_indicators": [
+        "realistic weapons",
+        "explicit violence",
+        "gore"
+      ],
+      "context_factors": [
+        "gaming violence vs real violence",
+        "educational vs gratuitous"
+      ],
+      "violation_detected": true
+    },
+    {
+      "type": "visual",
+      "frame": 2,
+      "timestamp": 2.5,
+      "category": "suggestive_content",
+      "confidence": 0.7840659022331238,
+      "blip": "the witch of the north in guild wars",
+      "ocr": "15 26094 5 tajin Belrayy Belrayy demon waccon hamza chafiq tajin CONV Gladius, Beast of Night Belrayy",
+      "policy": {
+        "description": "Content depicting violence, weapons, or graphic imagery",
+        "examples": [
+          "fighting",
+          "weapons",
+          "blood",
+          "gore",
+          "combat"
+        ],
+        "severity_indicators": [
+          "realistic weapons",
+          "explicit violence",
+          "gore"
+        ],
+        "context_matters": [
+          "gaming violence vs real violence",
+          "educational vs gratuitous"
+        ],
+        "action_required": "human_review_required"
+      },
+      "action_required": "human_review_required",
+      "examples": [
+        "fighting",
+        "weapons",
+        "blood",
+        "gore",
+        "combat"
+      ],
+      "severity_indicators": [
+        "realistic weapons",
+        "explicit violence",
+        "gore"
+      ],
+      "context_factors": [
+        "gaming violence vs real violence",
+        "educational vs gratuitous"
+      ],
+      "violation_detected": true
+    },
+    {
+      "type": "visual",
+      "frame": 3,
+      "timestamp": 5.0,
+      "category": "suggestive_content",
+      "confidence": 0.48383307456970215,
+      "blip": "the first boss in the game, the boss is ready to fight",
+      "ocr": "15 26094 5 tajin Belrayy demon waccon hamza chafiq CONV tajin Gladius, Beast of Night Belrayy Belrayy",
+      "policy": {
+        "description": "Content depicting violence, weapons, or graphic imagery",
+        "examples": [
+          "fighting",
+          "weapons",
+          "blood",
+          "gore",
+          "combat"
+        ],
+        "severity_indicators": [
+          "realistic weapons",
+          "explicit violence",
+          "gore"
+        ],
+        "context_matters": [
+          "gaming violence vs real violence",
+          "educational vs gratuitous"
+        ],
+        "action_required": "human_review_required"
+      },
+      "action_required": "human_review_required",
+      "examples": [
+        "fighting",
+        "weapons",
+        "blood",
+        "gore",
+        "combat"
+      ],
+      "severity_indicators": [
+        "realistic weapons",
+        "explicit violence",
+        "gore"
+      ],
+      "context_factors": [
+        "gaming violence vs real violence",
+        "educational vs gratuitous"
+      ],
+      "violation_detected": true
+    },
+    {
+      "type": "visual",
+      "frame": 4,
+      "timestamp": 7.5,
+      "category": "suggestive_content",
+      "confidence": 0.7988045811653137,
+      "blip": "the game's screens are all different, but they are not as close as they are",
+      "ocr": "15 26094 Belrayy tajin demon waccon hamza chafiq- tajin CONV Gladius, Beast of Night Belrayy Belrayy",
+      "policy": {
+        "description": "Content depicting violence, weapons, or graphic imagery",
+        "examples": [
+          "fighting",
+          "weapons",
+          "blood",
+          "gore",
+          "combat"
+        ],
+        "severity_indicators": [
+          "realistic weapons",
+          "explicit violence",
+          "gore"
+        ],
+        "context_matters": [
+          "gaming violence vs real violence",
+          "educational vs gratuitous"
+        ],
+        "action_required": "human_review_required"
+      },
+      "action_required": "human_review_required",
+      "examples": [
+        "fighting",
+        "weapons",
+        "blood",
+        "gore",
+        "combat"
+      ],
+      "severity_indicators": [
+        "realistic weapons",
+        "explicit violence",
+        "gore"
+      ],
+      "context_factors": [
+        "gaming violence vs real violence",
+        "educational vs gratuitous"
+      ],
+      "violation_detected": true
+    },
+    {
+      "type": "visual",
+      "frame": 5,
+      "timestamp": 10.0,
+      "category": "suggestive_content",
+      "confidence": 0.6888858675956726,
+      "blip": "the witch of the north screenshote",
+      "ocr": "15 26094 5 tajin Belrayy demon waccon hamza chafiq CONV Gladius, Beast of Night Belrayy Belrayy",
+      "policy": {
+        "description": "Content depicting violence, weapons, or graphic imagery",
+        "examples": [
+          "fighting",
+          "weapons",
+          "blood",
+          "gore",
+          "combat"
+        ],
+        "severity_indicators": [
+          "realistic weapons",
+          "explicit violence",
+          "gore"
+        ],
+        "context_matters": [
+          "gaming violence vs real violence",
+          "educational vs gratuitous"
+        ],
+        "action_required": "human_review_required"
+      },
+      "action_required": "human_review_required",
+      "examples": [
+        "fighting",
+        "weapons",
+        "blood",
+        "gore",
+        "combat"
+      ],
+      "severity_indicators": [
+        "realistic weapons",
+        "explicit violence",
+        "gore"
+      ],
+      "context_factors": [
+        "gaming violence vs real violence",
+        "educational vs gratuitous"
+      ],
+      "violation_detected": true
+    },
+    {
+      "type": "visual",
+      "frame": 6,
+      "timestamp": 12.5,
+      "category": "suggestive_content",
+      "confidence": 0.8554178476333618,
+      "blip": "the game's screens are all different, but they are not as close as they look",
+      "ocr": "15 26094 Belrayy tajin tajin Belrayy demon waccon hamza chafiq CONV Boiled Crab Gladius, Beast of Night Belrayy",
+      "policy": {
+        "description": "Content depicting violence, weapons, or graphic imagery",
+        "examples": [
+          "fighting",
+          "weapons",
+          "blood",
+          "gore",
+          "combat"
+        ],
+        "severity_indicators": [
+          "realistic weapons",
+          "explicit violence",
+          "gore"
+        ],
+        "context_matters": [
+          "gaming violence vs real violence",
+          "educational vs gratuitous"
+        ],
+        "action_required": "human_review_required"
+      },
+      "action_required": "human_review_required",
+      "examples": [
+        "fighting",
+        "weapons",
+        "blood",
+        "gore",
+        "combat"
+      ],
+      "severity_indicators": [
+        "realistic weapons",
+        "explicit violence",
+        "gore"
+      ],
+      "context_factors": [
+        "gaming violence vs real violence",
+        "educational vs gratuitous"
+      ],
+      "violation_detected": true
+    },
+    {
+      "type": "visual",
+      "frame": 7,
+      "timestamp": 15.0,
+      "category": "misinformation",
+      "confidence": 0.4655561149120331,
+      "blip": "the witch of the north in guild wars",
+      "ocr": "15 26094 4 tajin Belrayy demon waccon tajin hamza chafiq Gladius, Beast of Night 816 Belrayy Belrayy",
+      "policy": {
+        "description": "Content depicting violence, weapons, or graphic imagery",
+        "examples": [
+          "fighting",
+          "weapons",
+          "blood",
+          "gore",
+          "combat"
+        ],
+        "severity_indicators": [
+          "realistic weapons",
+          "explicit violence",
+          "gore"
+        ],
+        "context_matters": [
+          "gaming violence vs real violence",
+          "educational vs gratuitous"
+        ],
+        "action_required": "human_review_required"
+      },
+      "action_required": "human_review_required",
+      "examples": [
+        "fighting",
+        "weapons",
+        "blood",
+        "gore",
+        "combat"
+      ],
+      "severity_indicators": [
+        "realistic weapons",
+        "explicit violence",
+        "gore"
+      ],
+      "context_factors": [
+        "gaming violence vs real violence",
+        "educational vs gratuitous"
+      ],
+      "violation_detected": true
+    },
+    {
+      "type": "visual",
+      "frame": 8,
+      "timestamp": 17.5,
+      "category": "suggestive_content",
+      "confidence": 0.5181817412376404,
+      "blip": "the elder in guild wars",
+      "ocr": "15 26094 4 tajin Belrayy demon waccon hamza chafiq CONV Gladius, Beast of Night 87 Familial Rancor Belrayy Belrayy",
+      "policy": {
+        "description": "Content depicting violence, weapons, or graphic imagery",
+        "examples": [
+          "fighting",
+          "weapons",
+          "blood",
+          "gore",
+          "combat"
+        ],
+        "severity_indicators": [
+          "realistic weapons",
+          "explicit violence",
+          "gore"
+        ],
+        "context_matters": [
+          "gaming violence vs real violence",
+          "educational vs gratuitous"
+        ],
+        "action_required": "human_review_required"
+      },
+      "action_required": "human_review_required",
+      "examples": [
+        "fighting",
+        "weapons",
+        "blood",
+        "gore",
+        "combat"
+      ],
+      "severity_indicators": [
+        "realistic weapons",
+        "explicit violence",
+        "gore"
+      ],
+      "context_factors": [
+        "gaming violence vs real violence",
+        "educational vs gratuitous"
+      ],
+      "violation_detected": true
+    },
+    {
+      "type": "visual",
+      "frame": 9,
+      "timestamp": 20.0,
+      "category": "misinformation",
+      "confidence": 0.4886130094528198,
+      "blip": "the elder in star wars",
+      "ocr": "15 26094 Belrayy tajin Belrayy demon waccon hamza chafiq CONV 549 Thunderbolt Belrayy",
+      "policy": {
+        "description": "Content depicting violence, weapons, or graphic imagery",
+        "examples": [
+          "fighting",
+          "weapons",
+          "blood",
+          "gore",
+          "combat"
+        ],
+        "severity_indicators": [
+          "realistic weapons",
+          "explicit violence",
+          "gore"
+        ],
+        "context_matters": [
+          "gaming violence vs real violence",
+          "educational vs gratuitous"
+        ],
+        "action_required": "human_review_required"
+      },
+      "action_required": "human_review_required",
+      "examples": [
+        "fighting",
+        "weapons",
+        "blood",
+        "gore",
+        "combat"
+      ],
+      "severity_indicators": [
+        "realistic weapons",
+        "explicit violence",
+        "gore"
+      ],
+      "context_factors": [
+        "gaming violence vs real violence",
+        "educational vs gratuitous"
+      ],
+      "violation_detected": true
+    },
+    {
+      "type": "audio",
+      "category": "safe",
+      "keywords": [],
+      "severity": "none",
+      "transcript": " Azt a kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis kis k",
+      "policy": {
+        "description": "Content showing dangerous or harmful activities",
+        "examples": [
+          "extreme stunts",
+          "self-harm",
+          "dangerous challenges"
+        ],
+        "severity_indicators": [
+          "life-threatening",
+          "copyable dangers",
+          "no safety warnings"
+        ],
+        "context_matters": [
+          "professional vs amateur",
+          "safety precautions shown"
+        ],
+        "action_required": "age_restriction_or_removal"
+      },
+      "action_required": "age_restriction_or_removal",
+      "examples": [
+        "extreme stunts",
+        "self-harm",
+        "dangerous challenges"
+      ],
+      "severity_indicators": [
+        "life-threatening",
+        "copyable dangers",
+        "no safety warnings"
+      ],
+      "context_factors": [
+        "professional vs amateur",
+        "safety precautions shown"
+      ]
+    }
+  ]
+}

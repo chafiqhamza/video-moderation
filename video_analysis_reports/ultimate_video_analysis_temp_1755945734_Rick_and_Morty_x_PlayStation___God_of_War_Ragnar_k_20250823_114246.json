@@ -1,0 +1,2617 @@
+{
+  "video_info": {
+    "path": "C:\\Users\\PC\\AppData\\Local\\Temp\\video_analysis\\temp_1755945734_Rick and Morty x PlayStation _ God of War Ragnarök.mp4",
+    "name": "temp_1755945734_Rick and Morty x PlayStation _ God of War Ragnarök.mp4",
+    "analysis_time": 10.767587661743164,
+    "timestamp": "2025-08-23T11:42:38.834945"
+  },
+  "frame_analysis": {
+    "total_frames": 14,
+    "violation_frames": 14,
+    "average_confidence": 0.7262112178972789,
+    "violation_categories": [
+      "suggestive_content"
+    ]
+  },
+  "audio_analysis": {
+    "transcript": " Rick, are you shaving your head? We're going on an epic adventure, Morty. What? God of War, Morty, the new one. Creators as a dad, the kid is curious. Like you, Morty. You're curious. What is shaving your head? How to do it? Why do we have to do anything, Morty? I don't know, because of fear. Wrong, Morty. Money? Yeah, but not this time. Love, family. I don't know. That's good, Morty. Find your motivation. We have to make choices, and we have to face the consequences. We're going to the nine rounds. Oh! Oh my god. Oh my god. Not finally. The Lephiathan Axe and other unannounced upgrades. I thought this was about us. Huh? Yeah, sure. Whatever you want. Can you use that thing on the birds, please? And get blood on it? No. God of War, Ragnarok. Rated M for mature, available on PlayStation. I found a boat, Morty. You're going to roll, though. Not me. It's a big ax, and I have to make sure it doesn't get wet.",
+    "language": "en",
+    "policy_flags": {
+      "bad_words": {
+        "keywords_found": [
+          "hate"
+        ],
+        "severity": "medium"
+      },
+      "violence": {
+        "keywords_found": [
+          "blood",
+          "war"
+        ],
+        "severity": "medium"
+      },
+      "hate_speech": {
+        "keywords_found": [
+          "hate"
+        ],
+        "severity": "medium"
+      }
+    },
+    "whisper_available": true,
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 1.52,
+        "text": " Rick, are you shaving your head?",
+        "tokens": [
+          50364,
+          11224,
+          11,
+          366,
+          291,
+          36481,
+          428,
+          1378,
+          30,
+          50440
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.3336813955595999,
+        "compression_ratio": 1.760797342192691,
+        "no_speech_prob": 0.13441428542137146
+      },
+      {
+        "id": 1,
+        "seek": 0,
+        "start": 1.52,
+        "end": 3.36,
+        "text": " We're going on an epic adventure, Morty.",
+        "tokens": [
+          50440,
+          492,
+          434,
+          516,
+          322,
+          364,
+          13581,
+          9868,
+          11,
+          24977,
+          88,
+          13,
+          50532
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.3336813955595999,
+        "compression_ratio": 1.760797342192691,
+        "no_speech_prob": 0.13441428542137146
+      },
+      {
+        "id": 2,
+        "seek": 0,
+        "start": 3.36,
+        "end": 3.86,
+        "text": " What?",
+        "tokens": [
+          50532,
+          708,
+          30,
+          50557
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.3336813955595999,
+        "compression_ratio": 1.760797342192691,
+        "no_speech_prob": 0.13441428542137146
+      },
+      {
+        "id": 3,
+        "seek": 0,
+        "start": 3.86,
+        "end": 5.28,
+        "text": " God of War, Morty, the new one.",
+        "tokens": [
+          50557,
+          1265,
+          295,
+          3630,
+          11,
+          24977,
+          88,
+          11,
+          264,
+          777,
+          472,
+          13,
+          50628
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.3336813955595999,
+        "compression_ratio": 1.760797342192691,
+        "no_speech_prob": 0.13441428542137146
+      },
+      {
+        "id": 4,
+        "seek": 0,
+        "start": 5.28,
+        "end": 7.44,
+        "text": " Creators as a dad, the kid is curious.",
+        "tokens": [
+          50628,
+          11972,
+          830,
+          382,
+          257,
+          3546,
+          11,
+          264,
+          1636,
+          307,
+          6369,
+          13,
+          50736
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.3336813955595999,
+        "compression_ratio": 1.760797342192691,
+        "no_speech_prob": 0.13441428542137146
+      },
+      {
+        "id": 5,
+        "seek": 0,
+        "start": 7.44,
+        "end": 8.44,
+        "text": " Like you, Morty.",
+        "tokens": [
+          50736,
+          1743,
+          291,
+          11,
+          24977,
+          88,
+          13,
+          50786
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.3336813955595999,
+        "compression_ratio": 1.760797342192691,
+        "no_speech_prob": 0.13441428542137146
+      },
+      {
+        "id": 6,
+        "seek": 0,
+        "start": 8.44,
+        "end": 9.68,
+        "text": " You're curious.",
+        "tokens": [
+          50786,
+          509,
+          434,
+          6369,
+          13,
+          50848
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.3336813955595999,
+        "compression_ratio": 1.760797342192691,
+        "no_speech_prob": 0.13441428542137146
+      },
+      {
+        "id": 7,
+        "seek": 0,
+        "start": 9.68,
+        "end": 10.6,
+        "text": " What is shaving your head?",
+        "tokens": [
+          50848,
+          708,
+          307,
+          36481,
+          428,
+          1378,
+          30,
+          50894
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.3336813955595999,
+        "compression_ratio": 1.760797342192691,
+        "no_speech_prob": 0.13441428542137146
+      },
+      {
+        "id": 8,
+        "seek": 0,
+        "start": 10.6,
+        "end": 11.1,
+        "text": " How to do it?",
+        "tokens": [
+          50894,
+          1012,
+          281,
+          360,
+          309,
+          30,
+          50919
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.3336813955595999,
+        "compression_ratio": 1.760797342192691,
+        "no_speech_prob": 0.13441428542137146
+      },
+      {
+        "id": 9,
+        "seek": 0,
+        "start": 11.1,
+        "end": 12.64,
+        "text": " Why do we have to do anything, Morty?",
+        "tokens": [
+          50919,
+          1545,
+          360,
+          321,
+          362,
+          281,
+          360,
+          1340,
+          11,
+          24977,
+          88,
+          30,
+          50996
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.3336813955595999,
+        "compression_ratio": 1.760797342192691,
+        "no_speech_prob": 0.13441428542137146
+      },
+      {
+        "id": 10,
+        "seek": 0,
+        "start": 12.64,
+        "end": 13.92,
+        "text": " I don't know, because of fear.",
+        "tokens": [
+          50996,
+          286,
+          500,
+          380,
+          458,
+          11,
+          570,
+          295,
+          4240,
+          13,
+          51060
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.3336813955595999,
+        "compression_ratio": 1.760797342192691,
+        "no_speech_prob": 0.13441428542137146
+      },
+      {
+        "id": 11,
+        "seek": 0,
+        "start": 13.92,
+        "end": 14.68,
+        "text": " Wrong, Morty.",
+        "tokens": [
+          51060,
+          28150,
+          11,
+          24977,
+          88,
+          13,
+          51098
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.3336813955595999,
+        "compression_ratio": 1.760797342192691,
+        "no_speech_prob": 0.13441428542137146
+      },
+      {
+        "id": 12,
+        "seek": 0,
+        "start": 14.68,
+        "end": 15.32,
+        "text": " Money?",
+        "tokens": [
+          51098,
+          16631,
+          30,
+          51130
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.3336813955595999,
+        "compression_ratio": 1.760797342192691,
+        "no_speech_prob": 0.13441428542137146
+      },
+      {
+        "id": 13,
+        "seek": 0,
+        "start": 15.32,
+        "end": 16.52,
+        "text": " Yeah, but not this time.",
+        "tokens": [
+          51130,
+          865,
+          11,
+          457,
+          406,
+          341,
+          565,
+          13,
+          51190
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.3336813955595999,
+        "compression_ratio": 1.760797342192691,
+        "no_speech_prob": 0.13441428542137146
+      },
+      {
+        "id": 14,
+        "seek": 0,
+        "start": 16.52,
+        "end": 17.28,
+        "text": " Love, family.",
+        "tokens": [
+          51190,
+          5956,
+          11,
+          1605,
+          13,
+          51228
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.3336813955595999,
+        "compression_ratio": 1.760797342192691,
+        "no_speech_prob": 0.13441428542137146
+      },
+      {
+        "id": 15,
+        "seek": 0,
+        "start": 17.28,
+        "end": 18.52,
+        "text": " I don't know.",
+        "tokens": [
+          51228,
+          286,
+          500,
+          380,
+          458,
+          13,
+          51290
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.3336813955595999,
+        "compression_ratio": 1.760797342192691,
+        "no_speech_prob": 0.13441428542137146
+      },
+      {
+        "id": 16,
+        "seek": 0,
+        "start": 18.52,
+        "end": 19.48,
+        "text": " That's good, Morty.",
+        "tokens": [
+          51290,
+          663,
+          311,
+          665,
+          11,
+          24977,
+          88,
+          13,
+          51338
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.3336813955595999,
+        "compression_ratio": 1.760797342192691,
+        "no_speech_prob": 0.13441428542137146
+      },
+      {
+        "id": 17,
+        "seek": 0,
+        "start": 19.48,
+        "end": 20.52,
+        "text": " Find your motivation.",
+        "tokens": [
+          51338,
+          11809,
+          428,
+          12335,
+          13,
+          51390
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.3336813955595999,
+        "compression_ratio": 1.760797342192691,
+        "no_speech_prob": 0.13441428542137146
+      },
+      {
+        "id": 18,
+        "seek": 0,
+        "start": 20.52,
+        "end": 23.64,
+        "text": " We have to make choices, and we have to face the consequences.",
+        "tokens": [
+          51390,
+          492,
+          362,
+          281,
+          652,
+          7994,
+          11,
+          293,
+          321,
+          362,
+          281,
+          1851,
+          264,
+          10098,
+          13,
+          51546
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.3336813955595999,
+        "compression_ratio": 1.760797342192691,
+        "no_speech_prob": 0.13441428542137146
+      },
+      {
+        "id": 19,
+        "seek": 0,
+        "start": 23.64,
+        "end": 25.12,
+        "text": " We're going to the nine rounds.",
+        "tokens": [
+          51546,
+          492,
+          434,
+          516,
+          281,
+          264,
+          4949,
+          13757,
+          13,
+          51620
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.3336813955595999,
+        "compression_ratio": 1.760797342192691,
+        "no_speech_prob": 0.13441428542137146
+      },
+      {
+        "id": 20,
+        "seek": 0,
+        "start": 25.12,
+        "end": 26.12,
+        "text": " Oh!",
+        "tokens": [
+          51620,
+          876,
+          0,
+          51670
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.3336813955595999,
+        "compression_ratio": 1.760797342192691,
+        "no_speech_prob": 0.13441428542137146
+      },
+      {
+        "id": 21,
+        "seek": 0,
+        "start": 26.12,
+        "end": 27.12,
+        "text": " Oh my god.",
+        "tokens": [
+          51670,
+          876,
+          452,
+          3044,
+          13,
+          51720
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.3336813955595999,
+        "compression_ratio": 1.760797342192691,
+        "no_speech_prob": 0.13441428542137146
+      },
+      {
+        "id": 22,
+        "seek": 0,
+        "start": 27.12,
+        "end": 27.96,
+        "text": " Oh my god.",
+        "tokens": [
+          51720,
+          876,
+          452,
+          3044,
+          13,
+          51762
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.3336813955595999,
+        "compression_ratio": 1.760797342192691,
+        "no_speech_prob": 0.13441428542137146
+      },
+      {
+        "id": 23,
+        "seek": 2796,
+        "start": 27.96,
+        "end": 28.96,
+        "text": " Not finally.",
+        "tokens": [
+          50364,
+          1726,
+          2721,
+          13,
+          50414
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.28148365020751953,
+        "compression_ratio": 1.4566037735849056,
+        "no_speech_prob": 0.024785036221146584
+      },
+      {
+        "id": 24,
+        "seek": 2796,
+        "start": 28.96,
+        "end": 31.880000000000003,
+        "text": " The Lephiathan Axe and other unannounced upgrades.",
+        "tokens": [
+          50414,
+          440,
+          1456,
+          950,
+          72,
+          9390,
+          20118,
+          68,
+          293,
+          661,
+          517,
+          969,
+          37879,
+          24868,
+          13,
+          50560
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.28148365020751953,
+        "compression_ratio": 1.4566037735849056,
+        "no_speech_prob": 0.024785036221146584
+      },
+      {
+        "id": 25,
+        "seek": 2796,
+        "start": 31.880000000000003,
+        "end": 33.2,
+        "text": " I thought this was about us.",
+        "tokens": [
+          50560,
+          286,
+          1194,
+          341,
+          390,
+          466,
+          505,
+          13,
+          50626
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.28148365020751953,
+        "compression_ratio": 1.4566037735849056,
+        "no_speech_prob": 0.024785036221146584
+      },
+      {
+        "id": 26,
+        "seek": 2796,
+        "start": 33.2,
+        "end": 34.2,
+        "text": " Huh?",
+        "tokens": [
+          50626,
+          8063,
+          30,
+          50676
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.28148365020751953,
+        "compression_ratio": 1.4566037735849056,
+        "no_speech_prob": 0.024785036221146584
+      },
+      {
+        "id": 27,
+        "seek": 2796,
+        "start": 34.2,
+        "end": 35.2,
+        "text": " Yeah, sure.",
+        "tokens": [
+          50676,
+          865,
+          11,
+          988,
+          13,
+          50726
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.28148365020751953,
+        "compression_ratio": 1.4566037735849056,
+        "no_speech_prob": 0.024785036221146584
+      },
+      {
+        "id": 28,
+        "seek": 2796,
+        "start": 35.2,
+        "end": 36.2,
+        "text": " Whatever you want.",
+        "tokens": [
+          50726,
+          8541,
+          291,
+          528,
+          13,
+          50776
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.28148365020751953,
+        "compression_ratio": 1.4566037735849056,
+        "no_speech_prob": 0.024785036221146584
+      },
+      {
+        "id": 29,
+        "seek": 2796,
+        "start": 36.2,
+        "end": 37.68,
+        "text": " Can you use that thing on the birds, please?",
+        "tokens": [
+          50776,
+          1664,
+          291,
+          764,
+          300,
+          551,
+          322,
+          264,
+          9009,
+          11,
+          1767,
+          30,
+          50850
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.28148365020751953,
+        "compression_ratio": 1.4566037735849056,
+        "no_speech_prob": 0.024785036221146584
+      },
+      {
+        "id": 30,
+        "seek": 2796,
+        "start": 37.68,
+        "end": 38.68,
+        "text": " And get blood on it?",
+        "tokens": [
+          50850,
+          400,
+          483,
+          3390,
+          322,
+          309,
+          30,
+          50900
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.28148365020751953,
+        "compression_ratio": 1.4566037735849056,
+        "no_speech_prob": 0.024785036221146584
+      },
+      {
+        "id": 31,
+        "seek": 2796,
+        "start": 38.68,
+        "end": 39.68,
+        "text": " No.",
+        "tokens": [
+          50900,
+          883,
+          13,
+          50950
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.28148365020751953,
+        "compression_ratio": 1.4566037735849056,
+        "no_speech_prob": 0.024785036221146584
+      },
+      {
+        "id": 32,
+        "seek": 2796,
+        "start": 39.68,
+        "end": 40.68,
+        "text": " God of War, Ragnarok.",
+        "tokens": [
+          50950,
+          1265,
+          295,
+          3630,
+          11,
+          497,
+          4535,
+          289,
+          453,
+          13,
+          51000
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.28148365020751953,
+        "compression_ratio": 1.4566037735849056,
+        "no_speech_prob": 0.024785036221146584
+      },
+      {
+        "id": 33,
+        "seek": 2796,
+        "start": 40.68,
+        "end": 42.68,
+        "text": " Rated M for mature, available on PlayStation.",
+        "tokens": [
+          51000,
+          497,
+          770,
+          376,
+          337,
+          14442,
+          11,
+          2435,
+          322,
+          20599,
+          13,
+          51100
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.28148365020751953,
+        "compression_ratio": 1.4566037735849056,
+        "no_speech_prob": 0.024785036221146584
+      },
+      {
+        "id": 34,
+        "seek": 2796,
+        "start": 42.68,
+        "end": 43.68,
+        "text": " I found a boat, Morty.",
+        "tokens": [
+          51100,
+          286,
+          1352,
+          257,
+          6582,
+          11,
+          24977,
+          88,
+          13,
+          51150
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.28148365020751953,
+        "compression_ratio": 1.4566037735849056,
+        "no_speech_prob": 0.024785036221146584
+      },
+      {
+        "id": 35,
+        "seek": 2796,
+        "start": 43.68,
+        "end": 44.68,
+        "text": " You're going to roll, though.",
+        "tokens": [
+          51150,
+          509,
+          434,
+          516,
+          281,
+          3373,
+          11,
+          1673,
+          13,
+          51200
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.28148365020751953,
+        "compression_ratio": 1.4566037735849056,
+        "no_speech_prob": 0.024785036221146584
+      },
+      {
+        "id": 36,
+        "seek": 2796,
+        "start": 44.68,
+        "end": 45.68,
+        "text": " Not me.",
+        "tokens": [
+          51200,
+          1726,
+          385,
+          13,
+          51250
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.28148365020751953,
+        "compression_ratio": 1.4566037735849056,
+        "no_speech_prob": 0.024785036221146584
+      },
+      {
+        "id": 37,
+        "seek": 2796,
+        "start": 45.68,
+        "end": 47.68,
+        "text": " It's a big ax, and I have to make sure it doesn't get wet.",
+        "tokens": [
+          51250,
+          467,
+          311,
+          257,
+          955,
+          6360,
+          11,
+          293,
+          286,
+          362,
+          281,
+          652,
+          988,
+          309,
+          1177,
+          380,
+          483,
+          6630,
+          13,
+          51350
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.28148365020751953,
+        "compression_ratio": 1.4566037735849056,
+        "no_speech_prob": 0.024785036221146584
+      }
+    ]
+  },
+  "overall_assessment": {
+    "overall_compliance": 25.0,
+    "visual_compliance": 0.0,
+    "audio_compliance": 50,
+    "status": "major_violations",
+    "total_violations": 17,
+    "violation_categories": [
+      "suggestive_content",
+      "bad_words",
+      "violence",
+      "hate_speech"
+    ]
+  },
+  "detailed_frames": [
+    {
+      "timestamp": 0.0,
+      "frame_index": 0,
+      "visual_analysis": {
+        "category": "suggestive_content",
+        "confidence": 0.6184307336807251,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.16767488420009613,
+          "suggestive_content": 0.6184307336807251,
+          "artistic_adult_content": 0.09519290924072266,
+          "misinformation": 0.09834590554237366,
+          "violence": 0.006308651529252529,
+          "hate_speech": 0.005926435813307762,
+          "dangerous_activities": 0.008120482787489891
+        }
+      },
+      "blip_description": {
+        "description": "rick rick rick rick rick rick rick rick rick rick rick rick rick rick rick rick rick rick rick rick rick",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "TiMe",
+        "extracted_items": [
+          {
+            "text": "TiMe",
+            "confidence": 0.8612943887710571,
+            "bbox": [
+              [
+                555.2567058537528,
+                211.33103526837755
+              ],
+              [
+                593.9094744755859,
+                208.5842402397322
+              ],
+              [
+                594.7432941462472,
+                221.66896473162245
+              ],
+              [
+                557.0905255244141,
+                225.4157597602678
+              ]
+            ]
+          }
+        ],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1755945734_Rick and Morty x PlayStation _ God of War Ragnarök_frame_1.jpg"
+    },
+    {
+      "timestamp": 0.5,
+      "frame_index": 1,
+      "visual_analysis": {
+        "category": "suggestive_content",
+        "confidence": 0.8290954828262329,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.015399910509586334,
+          "suggestive_content": 0.8290954828262329,
+          "artistic_adult_content": 0.11066300421953201,
+          "misinformation": 0.038773130625486374,
+          "violence": 0.0017431543674319983,
+          "hate_speech": 0.0016285022720694542,
+          "dangerous_activities": 0.002696866635233164
+        }
+      },
+      "blip_description": {
+        "description": "a cartoon character with a gun in his hand",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "TiMe",
+        "extracted_items": [
+          {
+            "text": "TiMe",
+            "confidence": 0.8612943887710571,
+            "bbox": [
+              [
+                555.2567058537528,
+                211.33103526837755
+              ],
+              [
+                593.9094744755859,
+                208.5842402397322
+              ],
+              [
+                594.7432941462472,
+                221.66896473162245
+              ],
+              [
+                557.0905255244141,
+                225.4157597602678
+              ]
+            ]
+          }
+        ],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1755945734_Rick and Morty x PlayStation _ God of War Ragnarök_frame_2.jpg"
+    },
+    {
+      "timestamp": 1.0,
+      "frame_index": 2,
+      "visual_analysis": {
+        "category": "suggestive_content",
+        "confidence": 0.9318300485610962,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.005160869564861059,
+          "suggestive_content": 0.9318300485610962,
+          "artistic_adult_content": 0.04446125030517578,
+          "misinformation": 0.01626742072403431,
+          "violence": 0.0006941457977518439,
+          "hate_speech": 0.0005793215241283178,
+          "dangerous_activities": 0.0010069552809000015
+        }
+      },
+      "blip_description": {
+        "description": "a cartoon character holding a knife in his hand",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "TiMe",
+        "extracted_items": [
+          {
+            "text": "TiMe",
+            "confidence": 0.8407799005508423,
+            "bbox": [
+              [
+                555.2567058537528,
+                211.33103526837755
+              ],
+              [
+                593.9094744755859,
+                208.5842402397322
+              ],
+              [
+                594.7432941462472,
+                221.66896473162245
+              ],
+              [
+                557.0905255244141,
+                225.4157597602678
+              ]
+            ]
+          }
+        ],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1755945734_Rick and Morty x PlayStation _ God of War Ragnarök_frame_3.jpg"
+    },
+    {
+      "timestamp": 1.5,
+      "frame_index": 3,
+      "visual_analysis": {
+        "category": "suggestive_content",
+        "confidence": 0.4764086902141571,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.1328468769788742,
+          "suggestive_content": 0.4764086902141571,
+          "artistic_adult_content": 0.2523168623447418,
+          "misinformation": 0.11289312690496445,
+          "violence": 0.006948258262127638,
+          "hate_speech": 0.00729780551046133,
+          "dangerous_activities": 0.011288371868431568
+        }
+      },
+      "blip_description": {
+        "description": "a cartoon character standing in a messy room",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "",
+        "extracted_items": [],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1755945734_Rick and Morty x PlayStation _ God of War Ragnarök_frame_4.jpg"
+    },
+    {
+      "timestamp": 2.0,
+      "frame_index": 4,
+      "visual_analysis": {
+        "category": "suggestive_content",
+        "confidence": 0.5164267420768738,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.1554197520017624,
+          "suggestive_content": 0.5164267420768738,
+          "artistic_adult_content": 0.19026415050029755,
+          "misinformation": 0.11273975670337677,
+          "violence": 0.00685517955571413,
+          "hate_speech": 0.00731318537145853,
+          "dangerous_activities": 0.010981217958033085
+        }
+      },
+      "blip_description": {
+        "description": "a man in a lab with a woman standing behind him",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "",
+        "extracted_items": [],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1755945734_Rick and Morty x PlayStation _ God of War Ragnarök_frame_5.jpg"
+    },
+    {
+      "timestamp": 2.5,
+      "frame_index": 5,
+      "visual_analysis": {
+        "category": "suggestive_content",
+        "confidence": 0.6233639717102051,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.10360053181648254,
+          "suggestive_content": 0.6233639717102051,
+          "artistic_adult_content": 0.17070628702640533,
+          "misinformation": 0.0841732770204544,
+          "violence": 0.00495054991915822,
+          "hate_speech": 0.005178787279874086,
+          "dangerous_activities": 0.008026490919291973
+        }
+      },
+      "blip_description": {
+        "description": "a cartoon character in a room with a lot of junk",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "",
+        "extracted_items": [],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1755945734_Rick and Morty x PlayStation _ God of War Ragnarök_frame_6.jpg"
+    },
+    {
+      "timestamp": 3.0,
+      "frame_index": 6,
+      "visual_analysis": {
+        "category": "suggestive_content",
+        "confidence": 0.565861165523529,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.12870825827121735,
+          "suggestive_content": 0.565861165523529,
+          "artistic_adult_content": 0.1771082878112793,
+          "misinformation": 0.10495291650295258,
+          "violence": 0.0065528335981070995,
+          "hate_speech": 0.006555355153977871,
+          "dangerous_activities": 0.01026114821434021
+        }
+      },
+      "blip_description": {
+        "description": "rick and mort in rick's room",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "",
+        "extracted_items": [],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1755945734_Rick and Morty x PlayStation _ God of War Ragnarök_frame_7.jpg"
+    },
+    {
+      "timestamp": 3.5,
+      "frame_index": 7,
+      "visual_analysis": {
+        "category": "suggestive_content",
+        "confidence": 0.8798917531967163,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.020346153527498245,
+          "suggestive_content": 0.8798917531967163,
+          "artistic_adult_content": 0.061893682926893234,
+          "misinformation": 0.03243618085980415,
+          "violence": 0.0015933029353618622,
+          "hate_speech": 0.0014937359374016523,
+          "dangerous_activities": 0.002345186425372958
+        }
+      },
+      "blip_description": {
+        "description": "a cartoon of a man in a lab",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "",
+        "extracted_items": [],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1755945734_Rick and Morty x PlayStation _ God of War Ragnarök_frame_8.jpg"
+    },
+    {
+      "timestamp": 4.0,
+      "frame_index": 8,
+      "visual_analysis": {
+        "category": "suggestive_content",
+        "confidence": 0.7734351754188538,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.08387802541255951,
+          "suggestive_content": 0.7734351754188538,
+          "artistic_adult_content": 0.07081425935029984,
+          "misinformation": 0.05864505469799042,
+          "violence": 0.0043449257500469685,
+          "hate_speech": 0.003739310195669532,
+          "dangerous_activities": 0.005143295507878065
+        }
+      },
+      "blip_description": {
+        "description": "a cartoon character standing in a room with a desk and a chair",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "",
+        "extracted_items": [],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1755945734_Rick and Morty x PlayStation _ God of War Ragnarök_frame_9.jpg"
+    },
+    {
+      "timestamp": 4.5,
+      "frame_index": 9,
+      "visual_analysis": {
+        "category": "suggestive_content",
+        "confidence": 0.8695821166038513,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.0342545323073864,
+          "suggestive_content": 0.8695821166038513,
+          "artistic_adult_content": 0.05433176830410957,
+          "misinformation": 0.0347689725458622,
+          "violence": 0.00230411347001791,
+          "hate_speech": 0.0019269140902906656,
+          "dangerous_activities": 0.002831621328368783
+        }
+      },
+      "blip_description": {
+        "description": "a cartoon character in a lab with a microscope",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "",
+        "extracted_items": [],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1755945734_Rick and Morty x PlayStation _ God of War Ragnarök_frame_10.jpg"
+    },
+    {
+      "timestamp": 5.0,
+      "frame_index": 10,
+      "visual_analysis": {
+        "category": "suggestive_content",
+        "confidence": 0.7387436032295227,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.11486680060625076,
+          "suggestive_content": 0.7387436032295227,
+          "artistic_adult_content": 0.06627567112445831,
+          "misinformation": 0.06406892091035843,
+          "violence": 0.005439893342554569,
+          "hate_speech": 0.004513497930020094,
+          "dangerous_activities": 0.006091610062867403
+        }
+      },
+      "blip_description": {
+        "description": "a cartoon character in a lab with a large amount of stuff",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "",
+        "extracted_items": [],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1755945734_Rick and Morty x PlayStation _ God of War Ragnarök_frame_11.jpg"
+    },
+    {
+      "timestamp": 5.5,
+      "frame_index": 11,
+      "visual_analysis": {
+        "category": "suggestive_content",
+        "confidence": 0.7769545316696167,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.03329429402947426,
+          "suggestive_content": 0.7769545316696167,
+          "artistic_adult_content": 0.12789836525917053,
+          "misinformation": 0.05297844111919403,
+          "violence": 0.0026943893171846867,
+          "hate_speech": 0.0024144770577549934,
+          "dangerous_activities": 0.0037654535844922066
+        }
+      },
+      "blip_description": {
+        "description": "a man in a lab with a microscope and a microscope",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "",
+        "extracted_items": [],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1755945734_Rick and Morty x PlayStation _ God of War Ragnarök_frame_12.jpg"
+    },
+    {
+      "timestamp": 6.0,
+      "frame_index": 12,
+      "visual_analysis": {
+        "category": "suggestive_content",
+        "confidence": 0.8478540778160095,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.029100531712174416,
+          "suggestive_content": 0.8478540778160095,
+          "artistic_adult_content": 0.0696326270699501,
+          "misinformation": 0.045099131762981415,
+          "violence": 0.0029898430220782757,
+          "hate_speech": 0.0021291691809892654,
+          "dangerous_activities": 0.0031945689115673304
+        }
+      },
+      "blip_description": {
+        "description": "a cartoon character in a lab with a large mouth",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "",
+        "extracted_items": [],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1755945734_Rick and Morty x PlayStation _ God of War Ragnarök_frame_13.jpg"
+    },
+    {
+      "timestamp": 6.5,
+      "frame_index": 13,
+      "visual_analysis": {
+        "category": "suggestive_content",
+        "confidence": 0.7190789580345154,
+        "violation_detected": true,
+        "all_probabilities": {
+          "safe_content": 0.08160405606031418,
+          "suggestive_content": 0.7190789580345154,
+          "artistic_adult_content": 0.10785975307226181,
+          "misinformation": 0.07671380043029785,
+          "violence": 0.0048929243348538876,
+          "hate_speech": 0.0040680840611457825,
+          "dangerous_activities": 0.0057824705727398396
+        }
+      },
+      "blip_description": {
+        "description": "rick rick rick rick rick rick rick rick rick rick rick rick rick rick rick rick rick rick rick rick rick",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "",
+        "extracted_items": [],
+        "ocr_available": true
+      },
+      "combined_violation": true,
+      "preview_path": "/static/frames/temp_1755945734_Rick and Morty x PlayStation _ God of War Ragnarök_frame_14.jpg"
+    }
+  ],
+  "recommendations": [
+    "⚠️ Visual policy violations detected: suggestive_content",
+    "🔍 Consider reviewing flagged video segments",
+    "🎵 Audio policy violations detected: bad_words, violence, hate_speech",
+    "📝 Review transcript for policy-violating language",
+    "🚨 Multiple violations detected - content may need significant editing"
+  ],
+  "multi_modal_capabilities": {
+    "visual_model_accuracy": 97.48,
+    "blip_available": true,
+    "whisper_available": true,
+    "ocr_available": true
+  },
+  "text_issues": "TiMe, TiMe, TiMe",
+  "image": {
+    "details": {
+      "frame_preview_paths": [
+        "/static/frames/temp_1755945734_Rick and Morty x PlayStation _ God of War Ragnarök_frame_1.jpg",
+        "/static/frames/temp_1755945734_Rick and Morty x PlayStation _ God of War Ragnarök_frame_2.jpg",
+        "/static/frames/temp_1755945734_Rick and Morty x PlayStation _ God of War Ragnarök_frame_3.jpg",
+        "/static/frames/temp_1755945734_Rick and Morty x PlayStation _ God of War Ragnarök_frame_4.jpg",
+        "/static/frames/temp_1755945734_Rick and Morty x PlayStation _ God of War Ragnarök_frame_5.jpg",
+        "/static/frames/temp_1755945734_Rick and Morty x PlayStation _ God of War Ragnarök_frame_6.jpg",
+        "/static/frames/temp_1755945734_Rick and Morty x PlayStation _ God of War Ragnarök_frame_7.jpg",
+        "/static/frames/temp_1755945734_Rick and Morty x PlayStation _ God of War Ragnarök_frame_8.jpg",
+        "/static/frames/temp_1755945734_Rick and Morty x PlayStation _ God of War Ragnarök_frame_9.jpg",
+        "/static/frames/temp_1755945734_Rick and Morty x PlayStation _ God of War Ragnarök_frame_10.jpg",
+        "/static/frames/temp_1755945734_Rick and Morty x PlayStation _ God of War Ragnarök_frame_11.jpg",
+        "/static/frames/temp_1755945734_Rick and Morty x PlayStation _ God of War Ragnarök_frame_12.jpg",
+        "/static/frames/temp_1755945734_Rick and Morty x PlayStation _ God of War Ragnarök_frame_13.jpg",
+        "/static/frames/temp_1755945734_Rick and Morty x PlayStation _ God of War Ragnarök_frame_14.jpg"
+      ],
+      "frame_analysis": [
+        {
+          "timestamp": 0.0,
+          "frame_index": 0,
+          "visual_analysis": {
+            "category": "suggestive_content",
+            "confidence": 0.6184307336807251,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.16767488420009613,
+              "suggestive_content": 0.6184307336807251,
+              "artistic_adult_content": 0.09519290924072266,
+              "misinformation": 0.09834590554237366,
+              "violence": 0.006308651529252529,
+              "hate_speech": 0.005926435813307762,
+              "dangerous_activities": 0.008120482787489891
+            }
+          },
+          "blip_description": {
+            "description": "rick rick rick rick rick rick rick rick rick rick rick rick rick rick rick rick rick rick rick rick rick",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "TiMe",
+            "extracted_items": [
+              {
+                "text": "TiMe",
+                "confidence": 0.8612943887710571,
+                "bbox": [
+                  [
+                    555.2567058537528,
+                    211.33103526837755
+                  ],
+                  [
+                    593.9094744755859,
+                    208.5842402397322
+                  ],
+                  [
+                    594.7432941462472,
+                    221.66896473162245
+                  ],
+                  [
+                    557.0905255244141,
+                    225.4157597602678
+                  ]
+                ]
+              }
+            ],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1755945734_Rick and Morty x PlayStation _ God of War Ragnarök_frame_1.jpg"
+        },
+        {
+          "timestamp": 0.5,
+          "frame_index": 1,
+          "visual_analysis": {
+            "category": "suggestive_content",
+            "confidence": 0.8290954828262329,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.015399910509586334,
+              "suggestive_content": 0.8290954828262329,
+              "artistic_adult_content": 0.11066300421953201,
+              "misinformation": 0.038773130625486374,
+              "violence": 0.0017431543674319983,
+              "hate_speech": 0.0016285022720694542,
+              "dangerous_activities": 0.002696866635233164
+            }
+          },
+          "blip_description": {
+            "description": "a cartoon character with a gun in his hand",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "TiMe",
+            "extracted_items": [
+              {
+                "text": "TiMe",
+                "confidence": 0.8612943887710571,
+                "bbox": [
+                  [
+                    555.2567058537528,
+                    211.33103526837755
+                  ],
+                  [
+                    593.9094744755859,
+                    208.5842402397322
+                  ],
+                  [
+                    594.7432941462472,
+                    221.66896473162245
+                  ],
+                  [
+                    557.0905255244141,
+                    225.4157597602678
+                  ]
+                ]
+              }
+            ],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1755945734_Rick and Morty x PlayStation _ God of War Ragnarök_frame_2.jpg"
+        },
+        {
+          "timestamp": 1.0,
+          "frame_index": 2,
+          "visual_analysis": {
+            "category": "suggestive_content",
+            "confidence": 0.9318300485610962,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.005160869564861059,
+              "suggestive_content": 0.9318300485610962,
+              "artistic_adult_content": 0.04446125030517578,
+              "misinformation": 0.01626742072403431,
+              "violence": 0.0006941457977518439,
+              "hate_speech": 0.0005793215241283178,
+              "dangerous_activities": 0.0010069552809000015
+            }
+          },
+          "blip_description": {
+            "description": "a cartoon character holding a knife in his hand",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "TiMe",
+            "extracted_items": [
+              {
+                "text": "TiMe",
+                "confidence": 0.8407799005508423,
+                "bbox": [
+                  [
+                    555.2567058537528,
+                    211.33103526837755
+                  ],
+                  [
+                    593.9094744755859,
+                    208.5842402397322
+                  ],
+                  [
+                    594.7432941462472,
+                    221.66896473162245
+                  ],
+                  [
+                    557.0905255244141,
+                    225.4157597602678
+                  ]
+                ]
+              }
+            ],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1755945734_Rick and Morty x PlayStation _ God of War Ragnarök_frame_3.jpg"
+        },
+        {
+          "timestamp": 1.5,
+          "frame_index": 3,
+          "visual_analysis": {
+            "category": "suggestive_content",
+            "confidence": 0.4764086902141571,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.1328468769788742,
+              "suggestive_content": 0.4764086902141571,
+              "artistic_adult_content": 0.2523168623447418,
+              "misinformation": 0.11289312690496445,
+              "violence": 0.006948258262127638,
+              "hate_speech": 0.00729780551046133,
+              "dangerous_activities": 0.011288371868431568
+            }
+          },
+          "blip_description": {
+            "description": "a cartoon character standing in a messy room",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "",
+            "extracted_items": [],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1755945734_Rick and Morty x PlayStation _ God of War Ragnarök_frame_4.jpg"
+        },
+        {
+          "timestamp": 2.0,
+          "frame_index": 4,
+          "visual_analysis": {
+            "category": "suggestive_content",
+            "confidence": 0.5164267420768738,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.1554197520017624,
+              "suggestive_content": 0.5164267420768738,
+              "artistic_adult_content": 0.19026415050029755,
+              "misinformation": 0.11273975670337677,
+              "violence": 0.00685517955571413,
+              "hate_speech": 0.00731318537145853,
+              "dangerous_activities": 0.010981217958033085
+            }
+          },
+          "blip_description": {
+            "description": "a man in a lab with a woman standing behind him",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "",
+            "extracted_items": [],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1755945734_Rick and Morty x PlayStation _ God of War Ragnarök_frame_5.jpg"
+        },
+        {
+          "timestamp": 2.5,
+          "frame_index": 5,
+          "visual_analysis": {
+            "category": "suggestive_content",
+            "confidence": 0.6233639717102051,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.10360053181648254,
+              "suggestive_content": 0.6233639717102051,
+              "artistic_adult_content": 0.17070628702640533,
+              "misinformation": 0.0841732770204544,
+              "violence": 0.00495054991915822,
+              "hate_speech": 0.005178787279874086,
+              "dangerous_activities": 0.008026490919291973
+            }
+          },
+          "blip_description": {
+            "description": "a cartoon character in a room with a lot of junk",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "",
+            "extracted_items": [],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1755945734_Rick and Morty x PlayStation _ God of War Ragnarök_frame_6.jpg"
+        },
+        {
+          "timestamp": 3.0,
+          "frame_index": 6,
+          "visual_analysis": {
+            "category": "suggestive_content",
+            "confidence": 0.565861165523529,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.12870825827121735,
+              "suggestive_content": 0.565861165523529,
+              "artistic_adult_content": 0.1771082878112793,
+              "misinformation": 0.10495291650295258,
+              "violence": 0.0065528335981070995,
+              "hate_speech": 0.006555355153977871,
+              "dangerous_activities": 0.01026114821434021
+            }
+          },
+          "blip_description": {
+            "description": "rick and mort in rick's room",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "",
+            "extracted_items": [],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1755945734_Rick and Morty x PlayStation _ God of War Ragnarök_frame_7.jpg"
+        },
+        {
+          "timestamp": 3.5,
+          "frame_index": 7,
+          "visual_analysis": {
+            "category": "suggestive_content",
+            "confidence": 0.8798917531967163,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.020346153527498245,
+              "suggestive_content": 0.8798917531967163,
+              "artistic_adult_content": 0.061893682926893234,
+              "misinformation": 0.03243618085980415,
+              "violence": 0.0015933029353618622,
+              "hate_speech": 0.0014937359374016523,
+              "dangerous_activities": 0.002345186425372958
+            }
+          },
+          "blip_description": {
+            "description": "a cartoon of a man in a lab",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "",
+            "extracted_items": [],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1755945734_Rick and Morty x PlayStation _ God of War Ragnarök_frame_8.jpg"
+        },
+        {
+          "timestamp": 4.0,
+          "frame_index": 8,
+          "visual_analysis": {
+            "category": "suggestive_content",
+            "confidence": 0.7734351754188538,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.08387802541255951,
+              "suggestive_content": 0.7734351754188538,
+              "artistic_adult_content": 0.07081425935029984,
+              "misinformation": 0.05864505469799042,
+              "violence": 0.0043449257500469685,
+              "hate_speech": 0.003739310195669532,
+              "dangerous_activities": 0.005143295507878065
+            }
+          },
+          "blip_description": {
+            "description": "a cartoon character standing in a room with a desk and a chair",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "",
+            "extracted_items": [],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1755945734_Rick and Morty x PlayStation _ God of War Ragnarök_frame_9.jpg"
+        },
+        {
+          "timestamp": 4.5,
+          "frame_index": 9,
+          "visual_analysis": {
+            "category": "suggestive_content",
+            "confidence": 0.8695821166038513,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.0342545323073864,
+              "suggestive_content": 0.8695821166038513,
+              "artistic_adult_content": 0.05433176830410957,
+              "misinformation": 0.0347689725458622,
+              "violence": 0.00230411347001791,
+              "hate_speech": 0.0019269140902906656,
+              "dangerous_activities": 0.002831621328368783
+            }
+          },
+          "blip_description": {
+            "description": "a cartoon character in a lab with a microscope",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "",
+            "extracted_items": [],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1755945734_Rick and Morty x PlayStation _ God of War Ragnarök_frame_10.jpg"
+        },
+        {
+          "timestamp": 5.0,
+          "frame_index": 10,
+          "visual_analysis": {
+            "category": "suggestive_content",
+            "confidence": 0.7387436032295227,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.11486680060625076,
+              "suggestive_content": 0.7387436032295227,
+              "artistic_adult_content": 0.06627567112445831,
+              "misinformation": 0.06406892091035843,
+              "violence": 0.005439893342554569,
+              "hate_speech": 0.004513497930020094,
+              "dangerous_activities": 0.006091610062867403
+            }
+          },
+          "blip_description": {
+            "description": "a cartoon character in a lab with a large amount of stuff",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "",
+            "extracted_items": [],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1755945734_Rick and Morty x PlayStation _ God of War Ragnarök_frame_11.jpg"
+        },
+        {
+          "timestamp": 5.5,
+          "frame_index": 11,
+          "visual_analysis": {
+            "category": "suggestive_content",
+            "confidence": 0.7769545316696167,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.03329429402947426,
+              "suggestive_content": 0.7769545316696167,
+              "artistic_adult_content": 0.12789836525917053,
+              "misinformation": 0.05297844111919403,
+              "violence": 0.0026943893171846867,
+              "hate_speech": 0.0024144770577549934,
+              "dangerous_activities": 0.0037654535844922066
+            }
+          },
+          "blip_description": {
+            "description": "a man in a lab with a microscope and a microscope",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "",
+            "extracted_items": [],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1755945734_Rick and Morty x PlayStation _ God of War Ragnarök_frame_12.jpg"
+        },
+        {
+          "timestamp": 6.0,
+          "frame_index": 12,
+          "visual_analysis": {
+            "category": "suggestive_content",
+            "confidence": 0.8478540778160095,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.029100531712174416,
+              "suggestive_content": 0.8478540778160095,
+              "artistic_adult_content": 0.0696326270699501,
+              "misinformation": 0.045099131762981415,
+              "violence": 0.0029898430220782757,
+              "hate_speech": 0.0021291691809892654,
+              "dangerous_activities": 0.0031945689115673304
+            }
+          },
+          "blip_description": {
+            "description": "a cartoon character in a lab with a large mouth",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "",
+            "extracted_items": [],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1755945734_Rick and Morty x PlayStation _ God of War Ragnarök_frame_13.jpg"
+        },
+        {
+          "timestamp": 6.5,
+          "frame_index": 13,
+          "visual_analysis": {
+            "category": "suggestive_content",
+            "confidence": 0.7190789580345154,
+            "violation_detected": true,
+            "all_probabilities": {
+              "safe_content": 0.08160405606031418,
+              "suggestive_content": 0.7190789580345154,
+              "artistic_adult_content": 0.10785975307226181,
+              "misinformation": 0.07671380043029785,
+              "violence": 0.0048929243348538876,
+              "hate_speech": 0.0040680840611457825,
+              "dangerous_activities": 0.0057824705727398396
+            }
+          },
+          "blip_description": {
+            "description": "rick rick rick rick rick rick rick rick rick rick rick rick rick rick rick rick rick rick rick rick rick",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "",
+            "extracted_items": [],
+            "ocr_available": true
+          },
+          "combined_violation": true,
+          "preview_path": "/static/frames/temp_1755945734_Rick and Morty x PlayStation _ God of War Ragnarök_frame_14.jpg"
+        }
+      ]
+    }
+  },
+  "rag_explanations": [
+    {
+      "type": "visual",
+      "frame": 1,
+      "timestamp": 0.0,
+      "category": "suggestive_content",
+      "confidence": 0.6184307336807251,
+      "blip": "rick rick rick rick rick rick rick rick rick rick rick rick rick rick rick rick rick rick rick rick rick",
+      "ocr": "TiMe",
+      "policy": {
+        "description": "Content showing dangerous or harmful activities",
+        "examples": [
+          "extreme stunts",
+          "self-harm",
+          "dangerous challenges"
+        ],
+        "severity_indicators": [
+          "life-threatening",
+          "copyable dangers",
+          "no safety warnings"
+        ],
+        "context_matters": [
+          "professional vs amateur",
+          "safety precautions shown"
+        ],
+        "action_required": "age_restriction_or_removal"
+      },
+      "action_required": "age_restriction_or_removal",
+      "examples": [
+        "extreme stunts",
+        "self-harm",
+        "dangerous challenges"
+      ],
+      "severity_indicators": [
+        "life-threatening",
+        "copyable dangers",
+        "no safety warnings"
+      ],
+      "context_factors": [
+        "professional vs amateur",
+        "safety precautions shown"
+      ],
+      "violation_detected": true
+    },
+    {
+      "type": "visual",
+      "frame": 2,
+      "timestamp": 0.5,
+      "category": "suggestive_content",
+      "confidence": 0.8290954828262329,
+      "blip": "a cartoon character with a gun in his hand",
+      "ocr": "TiMe",
+      "policy": {
+        "description": "Content depicting violence, weapons, or graphic imagery",
+        "examples": [
+          "fighting",
+          "weapons",
+          "blood",
+          "gore",
+          "combat"
+        ],
+        "severity_indicators": [
+          "realistic weapons",
+          "explicit violence",
+          "gore"
+        ],
+        "context_matters": [
+          "gaming violence vs real violence",
+          "educational vs gratuitous"
+        ],
+        "action_required": "human_review_required"
+      },
+      "action_required": "human_review_required",
+      "examples": [
+        "fighting",
+        "weapons",
+        "blood",
+        "gore",
+        "combat"
+      ],
+      "severity_indicators": [
+        "realistic weapons",
+        "explicit violence",
+        "gore"
+      ],
+      "context_factors": [
+        "gaming violence vs real violence",
+        "educational vs gratuitous"
+      ],
+      "violation_detected": true
+    },
+    {
+      "type": "visual",
+      "frame": 3,
+      "timestamp": 1.0,
+      "category": "suggestive_content",
+      "confidence": 0.9318300485610962,
+      "blip": "a cartoon character holding a knife in his hand",
+      "ocr": "TiMe",
+      "policy": {
+        "description": "Content depicting violence, weapons, or graphic imagery",
+        "examples": [
+          "fighting",
+          "weapons",
+          "blood",
+          "gore",
+          "combat"
+        ],
+        "severity_indicators": [
+          "realistic weapons",
+          "explicit violence",
+          "gore"
+        ],
+        "context_matters": [
+          "gaming violence vs real violence",
+          "educational vs gratuitous"
+        ],
+        "action_required": "human_review_required"
+      },
+      "action_required": "human_review_required",
+      "examples": [
+        "fighting",
+        "weapons",
+        "blood",
+        "gore",
+        "combat"
+      ],
+      "severity_indicators": [
+        "realistic weapons",
+        "explicit violence",
+        "gore"
+      ],
+      "context_factors": [
+        "gaming violence vs real violence",
+        "educational vs gratuitous"
+      ],
+      "violation_detected": true
+    },
+    {
+      "type": "visual",
+      "frame": 4,
+      "timestamp": 1.5,
+      "category": "suggestive_content",
+      "confidence": 0.4764086902141571,
+      "blip": "a cartoon character standing in a messy room",
+      "ocr": "",
+      "policy": {
+        "description": "Sexually suggestive content",
+        "examples": [
+          "provocative poses",
+          "sexual themes",
+          "suggestive clothing"
+        ],
+        "severity_indicators": [
+          "sexual focus",
+          "provocative dancing",
+          "sexual scenarios"
+        ],
+        "context_matters": [
+          "artistic vs explicit",
+          "age appropriateness"
+        ],
+        "action_required": "age_restriction"
+      },
+      "action_required": "age_restriction",
+      "examples": [
+        "provocative poses",
+        "sexual themes",
+        "suggestive clothing"
+      ],
+      "severity_indicators": [
+        "sexual focus",
+        "provocative dancing",
+        "sexual scenarios"
+      ],
+      "context_factors": [
+        "artistic vs explicit",
+        "age appropriateness"
+      ],
+      "violation_detected": true
+    },
+    {
+      "type": "visual",
+      "frame": 5,
+      "timestamp": 2.0,
+      "category": "suggestive_content",
+      "confidence": 0.5164267420768738,
+      "blip": "a man in a lab with a woman standing behind him",
+      "ocr": "",
+      "policy": {
+        "description": "Sexually suggestive content",
+        "examples": [
+          "provocative poses",
+          "sexual themes",
+          "suggestive clothing"
+        ],
+        "severity_indicators": [
+          "sexual focus",
+          "provocative dancing",
+          "sexual scenarios"
+        ],
+        "context_matters": [
+          "artistic vs explicit",
+          "age appropriateness"
+        ],
+        "action_required": "age_restriction"
+      },
+      "action_required": "age_restriction",
+      "examples": [
+        "provocative poses",
+        "sexual themes",
+        "suggestive clothing"
+      ],
+      "severity_indicators": [
+        "sexual focus",
+        "provocative dancing",
+        "sexual scenarios"
+      ],
+      "context_factors": [
+        "artistic vs explicit",
+        "age appropriateness"
+      ],
+      "violation_detected": true
+    },
+    {
+      "type": "visual",
+      "frame": 6,
+      "timestamp": 2.5,
+      "category": "suggestive_content",
+      "confidence": 0.6233639717102051,
+      "blip": "a cartoon character in a room with a lot of junk",
+      "ocr": "",
+      "policy": {
+        "description": "Content showing dangerous or harmful activities",
+        "examples": [
+          "extreme stunts",
+          "self-harm",
+          "dangerous challenges"
+        ],
+        "severity_indicators": [
+          "life-threatening",
+          "copyable dangers",
+          "no safety warnings"
+        ],
+        "context_matters": [
+          "professional vs amateur",
+          "safety precautions shown"
+        ],
+        "action_required": "age_restriction_or_removal"
+      },
+      "action_required": "age_restriction_or_removal",
+      "examples": [
+        "extreme stunts",
+        "self-harm",
+        "dangerous challenges"
+      ],
+      "severity_indicators": [
+        "life-threatening",
+        "copyable dangers",
+        "no safety warnings"
+      ],
+      "context_factors": [
+        "professional vs amateur",
+        "safety precautions shown"
+      ],
+      "violation_detected": true
+    },
+    {
+      "type": "visual",
+      "frame": 7,
+      "timestamp": 3.0,
+      "category": "suggestive_content",
+      "confidence": 0.565861165523529,
+      "blip": "rick and mort in rick's room",
+      "ocr": "",
+      "policy": {
+        "description": "Content showing dangerous or harmful activities",
+        "examples": [
+          "extreme stunts",
+          "self-harm",
+          "dangerous challenges"
+        ],
+        "severity_indicators": [
+          "life-threatening",
+          "copyable dangers",
+          "no safety warnings"
+        ],
+        "context_matters": [
+          "professional vs amateur",
+          "safety precautions shown"
+        ],
+        "action_required": "age_restriction_or_removal"
+      },
+      "action_required": "age_restriction_or_removal",
+      "examples": [
+        "extreme stunts",
+        "self-harm",
+        "dangerous challenges"
+      ],
+      "severity_indicators": [
+        "life-threatening",
+        "copyable dangers",
+        "no safety warnings"
+      ],
+      "context_factors": [
+        "professional vs amateur",
+        "safety precautions shown"
+      ],
+      "violation_detected": true
+    },
+    {
+      "type": "visual",
+      "frame": 8,
+      "timestamp": 3.5,
+      "category": "suggestive_content",
+      "confidence": 0.8798917531967163,
+      "blip": "a cartoon of a man in a lab",
+      "ocr": "",
+      "policy": {
+        "description": "Content showing dangerous or harmful activities",
+        "examples": [
+          "extreme stunts",
+          "self-harm",
+          "dangerous challenges"
+        ],
+        "severity_indicators": [
+          "life-threatening",
+          "copyable dangers",
+          "no safety warnings"
+        ],
+        "context_matters": [
+          "professional vs amateur",
+          "safety precautions shown"
+        ],
+        "action_required": "age_restriction_or_removal"
+      },
+      "action_required": "age_restriction_or_removal",
+      "examples": [
+        "extreme stunts",
+        "self-harm",
+        "dangerous challenges"
+      ],
+      "severity_indicators": [
+        "life-threatening",
+        "copyable dangers",
+        "no safety warnings"
+      ],
+      "context_factors": [
+        "professional vs amateur",
+        "safety precautions shown"
+      ],
+      "violation_detected": true
+    },
+    {
+      "type": "visual",
+      "frame": 9,
+      "timestamp": 4.0,
+      "category": "suggestive_content",
+      "confidence": 0.7734351754188538,
+      "blip": "a cartoon character standing in a room with a desk and a chair",
+      "ocr": "",
+      "policy": {
+        "description": "Sexually suggestive content",
+        "examples": [
+          "provocative poses",
+          "sexual themes",
+          "suggestive clothing"
+        ],
+        "severity_indicators": [
+          "sexual focus",
+          "provocative dancing",
+          "sexual scenarios"
+        ],
+        "context_matters": [
+          "artistic vs explicit",
+          "age appropriateness"
+        ],
+        "action_required": "age_restriction"
+      },
+      "action_required": "age_restriction",
+      "examples": [
+        "provocative poses",
+        "sexual themes",
+        "suggestive clothing"
+      ],
+      "severity_indicators": [
+        "sexual focus",
+        "provocative dancing",
+        "sexual scenarios"
+      ],
+      "context_factors": [
+        "artistic vs explicit",
+        "age appropriateness"
+      ],
+      "violation_detected": true
+    },
+    {
+      "type": "visual",
+      "frame": 10,
+      "timestamp": 4.5,
+      "category": "suggestive_content",
+      "confidence": 0.8695821166038513,
+      "blip": "a cartoon character in a lab with a microscope",
+      "ocr": "",
+      "policy": {
+        "description": "Content showing dangerous or harmful activities",
+        "examples": [
+          "extreme stunts",
+          "self-harm",
+          "dangerous challenges"
+        ],
+        "severity_indicators": [
+          "life-threatening",
+          "copyable dangers",
+          "no safety warnings"
+        ],
+        "context_matters": [
+          "professional vs amateur",
+          "safety precautions shown"
+        ],
+        "action_required": "age_restriction_or_removal"
+      },
+      "action_required": "age_restriction_or_removal",
+      "examples": [
+        "extreme stunts",
+        "self-harm",
+        "dangerous challenges"
+      ],
+      "severity_indicators": [
+        "life-threatening",
+        "copyable dangers",
+        "no safety warnings"
+      ],
+      "context_factors": [
+        "professional vs amateur",
+        "safety precautions shown"
+      ],
+      "violation_detected": true
+    },
+    {
+      "type": "visual",
+      "frame": 11,
+      "timestamp": 5.0,
+      "category": "suggestive_content",
+      "confidence": 0.7387436032295227,
+      "blip": "a cartoon character in a lab with a large amount of stuff",
+      "ocr": "",
+      "policy": {
+        "description": "Sexually suggestive content",
+        "examples": [
+          "provocative poses",
+          "sexual themes",
+          "suggestive clothing"
+        ],
+        "severity_indicators": [
+          "sexual focus",
+          "provocative dancing",
+          "sexual scenarios"
+        ],
+        "context_matters": [
+          "artistic vs explicit",
+          "age appropriateness"
+        ],
+        "action_required": "age_restriction"
+      },
+      "action_required": "age_restriction",
+      "examples": [
+        "provocative poses",
+        "sexual themes",
+        "suggestive clothing"
+      ],
+      "severity_indicators": [
+        "sexual focus",
+        "provocative dancing",
+        "sexual scenarios"
+      ],
+      "context_factors": [
+        "artistic vs explicit",
+        "age appropriateness"
+      ],
+      "violation_detected": true
+    },
+    {
+      "type": "visual",
+      "frame": 12,
+      "timestamp": 5.5,
+      "category": "suggestive_content",
+      "confidence": 0.7769545316696167,
+      "blip": "a man in a lab with a microscope and a microscope",
+      "ocr": "",
+      "policy": {
+        "description": "Sexually suggestive content",
+        "examples": [
+          "provocative poses",
+          "sexual themes",
+          "suggestive clothing"
+        ],
+        "severity_indicators": [
+          "sexual focus",
+          "provocative dancing",
+          "sexual scenarios"
+        ],
+        "context_matters": [
+          "artistic vs explicit",
+          "age appropriateness"
+        ],
+        "action_required": "age_restriction"
+      },
+      "action_required": "age_restriction",
+      "examples": [
+        "provocative poses",
+        "sexual themes",
+        "suggestive clothing"
+      ],
+      "severity_indicators": [
+        "sexual focus",
+        "provocative dancing",
+        "sexual scenarios"
+      ],
+      "context_factors": [
+        "artistic vs explicit",
+        "age appropriateness"
+      ],
+      "violation_detected": true
+    },
+    {
+      "type": "visual",
+      "frame": 13,
+      "timestamp": 6.0,
+      "category": "suggestive_content",
+      "confidence": 0.8478540778160095,
+      "blip": "a cartoon character in a lab with a large mouth",
+      "ocr": "",
+      "policy": {
+        "description": "Content showing dangerous or harmful activities",
+        "examples": [
+          "extreme stunts",
+          "self-harm",
+          "dangerous challenges"
+        ],
+        "severity_indicators": [
+          "life-threatening",
+          "copyable dangers",
+          "no safety warnings"
+        ],
+        "context_matters": [
+          "professional vs amateur",
+          "safety precautions shown"
+        ],
+        "action_required": "age_restriction_or_removal"
+      },
+      "action_required": "age_restriction_or_removal",
+      "examples": [
+        "extreme stunts",
+        "self-harm",
+        "dangerous challenges"
+      ],
+      "severity_indicators": [
+        "life-threatening",
+        "copyable dangers",
+        "no safety warnings"
+      ],
+      "context_factors": [
+        "professional vs amateur",
+        "safety precautions shown"
+      ],
+      "violation_detected": true
+    },
+    {
+      "type": "visual",
+      "frame": 14,
+      "timestamp": 6.5,
+      "category": "suggestive_content",
+      "confidence": 0.7190789580345154,
+      "blip": "rick rick rick rick rick rick rick rick rick rick rick rick rick rick rick rick rick rick rick rick rick",
+      "ocr": "",
+      "policy": {
+        "description": "Sexually suggestive content",
+        "examples": [
+          "provocative poses",
+          "sexual themes",
+          "suggestive clothing"
+        ],
+        "severity_indicators": [
+          "sexual focus",
+          "provocative dancing",
+          "sexual scenarios"
+        ],
+        "context_matters": [
+          "artistic vs explicit",
+          "age appropriateness"
+        ],
+        "action_required": "age_restriction"
+      },
+      "action_required": "age_restriction",
+      "examples": [
+        "provocative poses",
+        "sexual themes",
+        "suggestive clothing"
+      ],
+      "severity_indicators": [
+        "sexual focus",
+        "provocative dancing",
+        "sexual scenarios"
+      ],
+      "context_factors": [
+        "artistic vs explicit",
+        "age appropriateness"
+      ],
+      "violation_detected": true
+    },
+    {
+      "type": "audio",
+      "category": "bad_words",
+      "keywords": [
+        "hate"
+      ],
+      "severity": "medium",
+      "transcript": " Rick, are you shaving your head? We're going on an epic adventure, Morty. What? God of War, Morty, ",
+      "policy": {
+        "description": "Content promoting hatred against protected groups",
+        "examples": [
+          "discriminatory symbols",
+          "hateful rhetoric",
+          "supremacist content"
+        ],
+        "severity_indicators": [
+          "nazi symbols",
+          "racial slurs",
+          "incitement"
+        ],
+        "context_matters": [
+          "historical education vs promotion",
+          "criticism vs hatred"
+        ],
+        "action_required": "immediate_removal"
+      },
+      "action_required": "immediate_removal",
+      "examples": [
+        "discriminatory symbols",
+        "hateful rhetoric",
+        "supremacist content"
+      ],
+      "severity_indicators": [
+        "nazi symbols",
+        "racial slurs",
+        "incitement"
+      ],
+      "context_factors": [
+        "historical education vs promotion",
+        "criticism vs hatred"
+      ]
+    },
+    {
+      "type": "audio",
+      "category": "violence",
+      "keywords": [
+        "blood",
+        "war"
+      ],
+      "severity": "medium",
+      "transcript": " Rick, are you shaving your head? We're going on an epic adventure, Morty. What? God of War, Morty, ",
+      "policy": {
+        "description": "Content depicting violence, weapons, or graphic imagery",
+        "examples": [
+          "fighting",
+          "weapons",
+          "blood",
+          "gore",
+          "combat"
+        ],
+        "severity_indicators": [
+          "realistic weapons",
+          "explicit violence",
+          "gore"
+        ],
+        "context_matters": [
+          "gaming violence vs real violence",
+          "educational vs gratuitous"
+        ],
+        "action_required": "human_review_required"
+      },
+      "action_required": "human_review_required",
+      "examples": [
+        "fighting",
+        "weapons",
+        "blood",
+        "gore",
+        "combat"
+      ],
+      "severity_indicators": [
+        "realistic weapons",
+        "explicit violence",
+        "gore"
+      ],
+      "context_factors": [
+        "gaming violence vs real violence",
+        "educational vs gratuitous"
+      ]
+    },
+    {
+      "type": "audio",
+      "category": "hate_speech",
+      "keywords": [
+        "hate"
+      ],
+      "severity": "medium",
+      "transcript": " Rick, are you shaving your head? We're going on an epic adventure, Morty. What? God of War, Morty, ",
+      "policy": {
+        "description": "Content promoting hatred against protected groups",
+        "examples": [
+          "discriminatory symbols",
+          "hateful rhetoric",
+          "supremacist content"
+        ],
+        "severity_indicators": [
+          "nazi symbols",
+          "racial slurs",
+          "incitement"
+        ],
+        "context_matters": [
+          "historical education vs promotion",
+          "criticism vs hatred"
+        ],
+        "action_required": "immediate_removal"
+      },
+      "action_required": "immediate_removal",
+      "examples": [
+        "discriminatory symbols",
+        "hateful rhetoric",
+        "supremacist content"
+      ],
+      "severity_indicators": [
+        "nazi symbols",
+        "racial slurs",
+        "incitement"
+      ],
+      "context_factors": [
+        "historical education vs promotion",
+        "criticism vs hatred"
+      ]
+    }
+  ]
+}

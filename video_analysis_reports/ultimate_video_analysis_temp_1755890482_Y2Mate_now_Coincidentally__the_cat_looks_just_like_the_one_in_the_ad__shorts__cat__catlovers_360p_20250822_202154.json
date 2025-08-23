@@ -1,0 +1,4732 @@
+{
+  "video_info": {
+    "path": "C:\\Users\\PC\\AppData\\Local\\Temp\\video_analysis\\temp_1755890482_Y2Mate.now_Coincidentally, the cat looks just like the one in the ad #shorts #cat #catlovers_360p.mp4",
+    "name": "temp_1755890482_Y2Mate.now_Coincidentally, the cat looks just like the one in the ad #shorts #cat #catlovers_360p.mp4",
+    "analysis_time": 8.518748760223389,
+    "timestamp": "2025-08-22T20:21:45.017039"
+  },
+  "frame_analysis": {
+    "total_frames": 16,
+    "violation_frames": 0,
+    "average_confidence": 0.8882216885685921,
+    "violation_categories": []
+  },
+  "audio_analysis": {
+    "transcript": " www.spin",
+    "language": "en",
+    "policy_flags": {
+      "safe": {
+        "keywords_found": [],
+        "severity": "none"
+      }
+    },
+    "whisper_available": true,
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 16.64,
+        "text": " www.spin",
+        "tokens": [
+          50364,
+          12520,
+          13,
+          4952,
+          259,
+          51196
+        ],
+        "temperature": 1.0,
+        "avg_logprob": -3.6663851056780135,
+        "compression_ratio": 0.5,
+        "no_speech_prob": 0.25461116433143616
+      }
+    ]
+  },
+  "overall_assessment": {
+    "overall_compliance": 85.0,
+    "visual_compliance": 100.0,
+    "audio_compliance": 70,
+    "status": "minor_violations",
+    "total_violations": 1,
+    "violation_categories": [
+      "safe"
+    ]
+  },
+  "detailed_frames": [
+    {
+      "timestamp": 0.0,
+      "frame_index": 0,
+      "visual_analysis": {
+        "category": "safe_content",
+        "confidence": 0.8964582681655884,
+        "violation_detected": false,
+        "all_probabilities": {
+          "safe_content": 0.8964582681655884,
+          "suggestive_content": 0.04305490851402283,
+          "artistic_adult_content": 0.005028063431382179,
+          "misinformation": 0.046366337686777115,
+          "violence": 0.002634227741509676,
+          "hate_speech": 0.0034224134869873524,
+          "dangerous_activities": 0.003035765141248703
+        }
+      },
+      "blip_description": {
+        "description": "a person holding a bag of kittens in their hands",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "So adbrable Pov: found out my cat's got secret job as an ad star",
+        "extracted_items": [
+          {
+            "text": "So adbrable",
+            "confidence": 0.6047853265913594,
+            "bbox": [
+              [
+                281,
+                39
+              ],
+              [
+                351,
+                39
+              ],
+              [
+                351,
+                55
+              ],
+              [
+                281,
+                55
+              ]
+            ]
+          },
+          {
+            "text": "Pov:",
+            "confidence": 0.9972806572914124,
+            "bbox": [
+              [
+                22,
+                66
+              ],
+              [
+                74,
+                66
+              ],
+              [
+                74,
+                92
+              ],
+              [
+                22,
+                92
+              ]
+            ]
+          },
+          {
+            "text": "found out my cat's got",
+            "confidence": 0.831109690106853,
+            "bbox": [
+              [
+                86,
+                66
+              ],
+              [
+                340,
+                66
+              ],
+              [
+                340,
+                96
+              ],
+              [
+                86,
+                96
+              ]
+            ]
+          },
+          {
+            "text": "secret job as an ad star",
+            "confidence": 0.7352859490154259,
+            "bbox": [
+              [
+                57,
+                96
+              ],
+              [
+                320,
+                96
+              ],
+              [
+                320,
+                126
+              ],
+              [
+                57,
+                126
+              ]
+            ]
+          }
+        ],
+        "ocr_available": true
+      },
+      "combined_violation": false,
+      "preview_path": "/static/frames/temp_1755890482_Y2Mate.now_Coincidentally, the cat looks just like the one in the ad #shorts #cat #catlovers_360p_frame_1.jpg"
+    },
+    {
+      "timestamp": 0.5,
+      "frame_index": 1,
+      "visual_analysis": {
+        "category": "safe_content",
+        "confidence": 0.8962218761444092,
+        "violation_detected": false,
+        "all_probabilities": {
+          "safe_content": 0.8962218761444092,
+          "suggestive_content": 0.04291835427284241,
+          "artistic_adult_content": 0.005161698441952467,
+          "misinformation": 0.046641845256090164,
+          "violence": 0.002682068385183811,
+          "hate_speech": 0.003381507471203804,
+          "dangerous_activities": 0.0029927282594144344
+        }
+      },
+      "blip_description": {
+        "description": "a person holding a cat in their hand",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "So ndordble Pov: found out my cat's got secret job as an ad star Mo?",
+        "extracted_items": [
+          {
+            "text": "So ndordble",
+            "confidence": 0.5349173992783125,
+            "bbox": [
+              [
+                281,
+                39
+              ],
+              [
+                351,
+                39
+              ],
+              [
+                351,
+                53
+              ],
+              [
+                281,
+                53
+              ]
+            ]
+          },
+          {
+            "text": "Pov:",
+            "confidence": 0.9972877502441406,
+            "bbox": [
+              [
+                22,
+                66
+              ],
+              [
+                74,
+                66
+              ],
+              [
+                74,
+                92
+              ],
+              [
+                22,
+                92
+              ]
+            ]
+          },
+          {
+            "text": "found out my cat's got",
+            "confidence": 0.9835942388222653,
+            "bbox": [
+              [
+                86,
+                66
+              ],
+              [
+                341,
+                66
+              ],
+              [
+                341,
+                97
+              ],
+              [
+                86,
+                97
+              ]
+            ]
+          },
+          {
+            "text": "secret job as an ad star",
+            "confidence": 0.991893740219485,
+            "bbox": [
+              [
+                59,
+                96
+              ],
+              [
+                320,
+                96
+              ],
+              [
+                320,
+                126
+              ],
+              [
+                59,
+                126
+              ]
+            ]
+          },
+          {
+            "text": "Mo?",
+            "confidence": 0.5968775845848208,
+            "bbox": [
+              [
+                168,
+                406
+              ],
+              [
+                248,
+                406
+              ],
+              [
+                248,
+                458
+              ],
+              [
+                168,
+                458
+              ]
+            ]
+          }
+        ],
+        "ocr_available": true
+      },
+      "combined_violation": false,
+      "preview_path": "/static/frames/temp_1755890482_Y2Mate.now_Coincidentally, the cat looks just like the one in the ad #shorts #cat #catlovers_360p_frame_2.jpg"
+    },
+    {
+      "timestamp": 1.0,
+      "frame_index": 2,
+      "visual_analysis": {
+        "category": "safe_content",
+        "confidence": 0.89705491065979,
+        "violation_detected": false,
+        "all_probabilities": {
+          "safe_content": 0.89705491065979,
+          "suggestive_content": 0.043281979858875275,
+          "artistic_adult_content": 0.005170454271137714,
+          "misinformation": 0.04573364183306694,
+          "violence": 0.0025339878629893064,
+          "hate_speech": 0.0033220164477825165,
+          "dangerous_activities": 0.0029029534198343754
+        }
+      },
+      "blip_description": {
+        "description": "a man is holding a cat in his hand",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "So ndorable Pov: found out my cat's got secret job as an ad star",
+        "extracted_items": [
+          {
+            "text": "So ndorable",
+            "confidence": 0.5581261018799383,
+            "bbox": [
+              [
+                281,
+                39
+              ],
+              [
+                351,
+                39
+              ],
+              [
+                351,
+                55
+              ],
+              [
+                281,
+                55
+              ]
+            ]
+          },
+          {
+            "text": "Pov:",
+            "confidence": 0.9972774982452393,
+            "bbox": [
+              [
+                22,
+                66
+              ],
+              [
+                74,
+                66
+              ],
+              [
+                74,
+                92
+              ],
+              [
+                22,
+                92
+              ]
+            ]
+          },
+          {
+            "text": "found out my cat's got",
+            "confidence": 0.8342284240432097,
+            "bbox": [
+              [
+                86,
+                66
+              ],
+              [
+                340,
+                66
+              ],
+              [
+                340,
+                96
+              ],
+              [
+                86,
+                96
+              ]
+            ]
+          },
+          {
+            "text": "secret job as an ad star",
+            "confidence": 0.8602096194149119,
+            "bbox": [
+              [
+                60,
+                96
+              ],
+              [
+                320,
+                96
+              ],
+              [
+                320,
+                126
+              ],
+              [
+                60,
+                126
+              ]
+            ]
+          }
+        ],
+        "ocr_available": true
+      },
+      "combined_violation": false,
+      "preview_path": "/static/frames/temp_1755890482_Y2Mate.now_Coincidentally, the cat looks just like the one in the ad #shorts #cat #catlovers_360p_frame_3.jpg"
+    },
+    {
+      "timestamp": 1.5,
+      "frame_index": 3,
+      "visual_analysis": {
+        "category": "safe_content",
+        "confidence": 0.8848713636398315,
+        "violation_detected": false,
+        "all_probabilities": {
+          "safe_content": 0.8848713636398315,
+          "suggestive_content": 0.04956870898604393,
+          "artistic_adult_content": 0.0061192382127046585,
+          "misinformation": 0.04936830699443817,
+          "violence": 0.002915903925895691,
+          "hate_speech": 0.0037247100844979286,
+          "dangerous_activities": 0.003431779332458973
+        }
+      },
+      "blip_description": {
+        "description": "a person is holding a cat in their hand",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "So ndbrable Pov: found out my cat's got secret job as an ad star",
+        "extracted_items": [
+          {
+            "text": "So ndbrable",
+            "confidence": 0.6192468942818876,
+            "bbox": [
+              [
+                281,
+                39
+              ],
+              [
+                351,
+                39
+              ],
+              [
+                351,
+                55
+              ],
+              [
+                281,
+                55
+              ]
+            ]
+          },
+          {
+            "text": "Pov:",
+            "confidence": 0.9972777962684631,
+            "bbox": [
+              [
+                22,
+                66
+              ],
+              [
+                74,
+                66
+              ],
+              [
+                74,
+                92
+              ],
+              [
+                22,
+                92
+              ]
+            ]
+          },
+          {
+            "text": "found out my cat's got",
+            "confidence": 0.833838908562694,
+            "bbox": [
+              [
+                86,
+                66
+              ],
+              [
+                340,
+                66
+              ],
+              [
+                340,
+                96
+              ],
+              [
+                86,
+                96
+              ]
+            ]
+          },
+          {
+            "text": "secret job as an ad star",
+            "confidence": 0.9907383495554526,
+            "bbox": [
+              [
+                59,
+                96
+              ],
+              [
+                320,
+                96
+              ],
+              [
+                320,
+                126
+              ],
+              [
+                59,
+                126
+              ]
+            ]
+          }
+        ],
+        "ocr_available": true
+      },
+      "combined_violation": false,
+      "preview_path": "/static/frames/temp_1755890482_Y2Mate.now_Coincidentally, the cat looks just like the one in the ad #shorts #cat #catlovers_360p_frame_4.jpg"
+    },
+    {
+      "timestamp": 2.0,
+      "frame_index": 4,
+      "visual_analysis": {
+        "category": "safe_content",
+        "confidence": 0.8864792585372925,
+        "violation_detected": false,
+        "all_probabilities": {
+          "safe_content": 0.8864792585372925,
+          "suggestive_content": 0.049175817519426346,
+          "artistic_adult_content": 0.005978544242680073,
+          "misinformation": 0.048491086810827255,
+          "violence": 0.002852523699402809,
+          "hate_speech": 0.003671187674626708,
+          "dangerous_activities": 0.0033515316899865866
+        }
+      },
+      "blip_description": {
+        "description": "a person is holding a cat in their hand",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "So ndbrable Pov: found out my cat's got secret job as an ad star",
+        "extracted_items": [
+          {
+            "text": "So ndbrable",
+            "confidence": 0.5868322920369036,
+            "bbox": [
+              [
+                281,
+                39
+              ],
+              [
+                351,
+                39
+              ],
+              [
+                351,
+                55
+              ],
+              [
+                281,
+                55
+              ]
+            ]
+          },
+          {
+            "text": "Pov:",
+            "confidence": 0.9972777962684631,
+            "bbox": [
+              [
+                22,
+                66
+              ],
+              [
+                74,
+                66
+              ],
+              [
+                74,
+                92
+              ],
+              [
+                22,
+                92
+              ]
+            ]
+          },
+          {
+            "text": "found out my cat's got",
+            "confidence": 0.8338100377466309,
+            "bbox": [
+              [
+                86,
+                66
+              ],
+              [
+                340,
+                66
+              ],
+              [
+                340,
+                96
+              ],
+              [
+                86,
+                96
+              ]
+            ]
+          },
+          {
+            "text": "secret job as an ad star",
+            "confidence": 0.8829299129715982,
+            "bbox": [
+              [
+                60,
+                96
+              ],
+              [
+                320,
+                96
+              ],
+              [
+                320,
+                126
+              ],
+              [
+                60,
+                126
+              ]
+            ]
+          }
+        ],
+        "ocr_available": true
+      },
+      "combined_violation": false,
+      "preview_path": "/static/frames/temp_1755890482_Y2Mate.now_Coincidentally, the cat looks just like the one in the ad #shorts #cat #catlovers_360p_frame_5.jpg"
+    },
+    {
+      "timestamp": 2.5,
+      "frame_index": 5,
+      "visual_analysis": {
+        "category": "safe_content",
+        "confidence": 0.87912517786026,
+        "violation_detected": false,
+        "all_probabilities": {
+          "safe_content": 0.87912517786026,
+          "suggestive_content": 0.05304267629981041,
+          "artistic_adult_content": 0.0066076237708330154,
+          "misinformation": 0.050682246685028076,
+          "violence": 0.0030330612789839506,
+          "hate_speech": 0.0038893772289156914,
+          "dangerous_activities": 0.0036198573652654886
+        }
+      },
+      "blip_description": {
+        "description": "a person is holding a cat in their hand",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "So adorable Pov: found out my cat's got secret job as an ad star MQ",
+        "extracted_items": [
+          {
+            "text": "So adorable",
+            "confidence": 0.6797791288610474,
+            "bbox": [
+              [
+                281,
+                39
+              ],
+              [
+                351,
+                39
+              ],
+              [
+                351,
+                55
+              ],
+              [
+                281,
+                55
+              ]
+            ]
+          },
+          {
+            "text": "Pov:",
+            "confidence": 0.9972777962684631,
+            "bbox": [
+              [
+                22,
+                66
+              ],
+              [
+                74,
+                66
+              ],
+              [
+                74,
+                92
+              ],
+              [
+                22,
+                92
+              ]
+            ]
+          },
+          {
+            "text": "found out my cat's got",
+            "confidence": 0.8336530695026209,
+            "bbox": [
+              [
+                86,
+                66
+              ],
+              [
+                340,
+                66
+              ],
+              [
+                340,
+                96
+              ],
+              [
+                86,
+                96
+              ]
+            ]
+          },
+          {
+            "text": "secret job as an ad star",
+            "confidence": 0.9908101177619938,
+            "bbox": [
+              [
+                59,
+                96
+              ],
+              [
+                320,
+                96
+              ],
+              [
+                320,
+                126
+              ],
+              [
+                59,
+                126
+              ]
+            ]
+          },
+          {
+            "text": "MQ",
+            "confidence": 0.5324258872893819,
+            "bbox": [
+              [
+                212,
+                386
+              ],
+              [
+                290,
+                386
+              ],
+              [
+                290,
+                434
+              ],
+              [
+                212,
+                434
+              ]
+            ]
+          }
+        ],
+        "ocr_available": true
+      },
+      "combined_violation": false,
+      "preview_path": "/static/frames/temp_1755890482_Y2Mate.now_Coincidentally, the cat looks just like the one in the ad #shorts #cat #catlovers_360p_frame_6.jpg"
+    },
+    {
+      "timestamp": 3.0,
+      "frame_index": 6,
+      "visual_analysis": {
+        "category": "safe_content",
+        "confidence": 0.8863764405250549,
+        "violation_detected": false,
+        "all_probabilities": {
+          "safe_content": 0.8863764405250549,
+          "suggestive_content": 0.04946281760931015,
+          "artistic_adult_content": 0.0059401895850896835,
+          "misinformation": 0.04836592450737953,
+          "violence": 0.0028115720488131046,
+          "hate_speech": 0.0036780473310500383,
+          "dangerous_activities": 0.0033649117685854435
+        }
+      },
+      "blip_description": {
+        "description": "a person holding a cat in their hand",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "So adorable Pov: found out my cat's got secret job as an ad star",
+        "extracted_items": [
+          {
+            "text": "So adorable",
+            "confidence": 0.5981847779597317,
+            "bbox": [
+              [
+                281,
+                39
+              ],
+              [
+                351,
+                39
+              ],
+              [
+                351,
+                55
+              ],
+              [
+                281,
+                55
+              ]
+            ]
+          },
+          {
+            "text": "Pov:",
+            "confidence": 0.9972777962684631,
+            "bbox": [
+              [
+                22,
+                66
+              ],
+              [
+                74,
+                66
+              ],
+              [
+                74,
+                92
+              ],
+              [
+                22,
+                92
+              ]
+            ]
+          },
+          {
+            "text": "found out my cat's got",
+            "confidence": 0.9836755240184782,
+            "bbox": [
+              [
+                86,
+                66
+              ],
+              [
+                341,
+                66
+              ],
+              [
+                341,
+                97
+              ],
+              [
+                86,
+                97
+              ]
+            ]
+          },
+          {
+            "text": "secret job as an ad star",
+            "confidence": 0.7554665186230388,
+            "bbox": [
+              [
+                57,
+                96
+              ],
+              [
+                320,
+                96
+              ],
+              [
+                320,
+                126
+              ],
+              [
+                57,
+                126
+              ]
+            ]
+          }
+        ],
+        "ocr_available": true
+      },
+      "combined_violation": false,
+      "preview_path": "/static/frames/temp_1755890482_Y2Mate.now_Coincidentally, the cat looks just like the one in the ad #shorts #cat #catlovers_360p_frame_7.jpg"
+    },
+    {
+      "timestamp": 3.5,
+      "frame_index": 7,
+      "visual_analysis": {
+        "category": "safe_content",
+        "confidence": 0.89068204164505,
+        "violation_detected": false,
+        "all_probabilities": {
+          "safe_content": 0.89068204164505,
+          "suggestive_content": 0.04532631114125252,
+          "artistic_adult_content": 0.005511047784239054,
+          "misinformation": 0.04855513945221901,
+          "violence": 0.0029145977459847927,
+          "hate_speech": 0.0036885470617562532,
+          "dangerous_activities": 0.003322360571473837
+        }
+      },
+      "blip_description": {
+        "description": "a person is holding a cat in their hand",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "So adordble Pov: found out my cat's got secret job as an ad star",
+        "extracted_items": [
+          {
+            "text": "So adordble",
+            "confidence": 0.5210788287621437,
+            "bbox": [
+              [
+                281,
+                39
+              ],
+              [
+                351,
+                39
+              ],
+              [
+                351,
+                53
+              ],
+              [
+                281,
+                53
+              ]
+            ]
+          },
+          {
+            "text": "Pov:",
+            "confidence": 0.9972708225250244,
+            "bbox": [
+              [
+                22,
+                66
+              ],
+              [
+                74,
+                66
+              ],
+              [
+                74,
+                92
+              ],
+              [
+                22,
+                92
+              ]
+            ]
+          },
+          {
+            "text": "found out my cat's got",
+            "confidence": 0.9837143301137768,
+            "bbox": [
+              [
+                86,
+                66
+              ],
+              [
+                341,
+                66
+              ],
+              [
+                341,
+                97
+              ],
+              [
+                86,
+                97
+              ]
+            ]
+          },
+          {
+            "text": "secret job as an ad star",
+            "confidence": 0.9231427591831634,
+            "bbox": [
+              [
+                57,
+                96
+              ],
+              [
+                320,
+                96
+              ],
+              [
+                320,
+                126
+              ],
+              [
+                57,
+                126
+              ]
+            ]
+          }
+        ],
+        "ocr_available": true
+      },
+      "combined_violation": false,
+      "preview_path": "/static/frames/temp_1755890482_Y2Mate.now_Coincidentally, the cat looks just like the one in the ad #shorts #cat #catlovers_360p_frame_8.jpg"
+    },
+    {
+      "timestamp": 4.0,
+      "frame_index": 8,
+      "visual_analysis": {
+        "category": "safe_content",
+        "confidence": 0.894618809223175,
+        "violation_detected": false,
+        "all_probabilities": {
+          "safe_content": 0.894618809223175,
+          "suggestive_content": 0.04414179176092148,
+          "artistic_adult_content": 0.0052192029543221,
+          "misinformation": 0.04663864150643349,
+          "violence": 0.0026951634790748358,
+          "hate_speech": 0.0035416465252637863,
+          "dangerous_activities": 0.0031447093933820724
+        }
+      },
+      "blip_description": {
+        "description": "a person holding a cat in their hand",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "So adorable Pov: found out my cat's got secret job as an ad star",
+        "extracted_items": [
+          {
+            "text": "So adorable",
+            "confidence": 0.7123438903010856,
+            "bbox": [
+              [
+                281,
+                39
+              ],
+              [
+                351,
+                39
+              ],
+              [
+                351,
+                55
+              ],
+              [
+                281,
+                55
+              ]
+            ]
+          },
+          {
+            "text": "Pov:",
+            "confidence": 0.9972708225250244,
+            "bbox": [
+              [
+                22,
+                66
+              ],
+              [
+                74,
+                66
+              ],
+              [
+                74,
+                92
+              ],
+              [
+                22,
+                92
+              ]
+            ]
+          },
+          {
+            "text": "found out my cat's got",
+            "confidence": 0.9837364690865242,
+            "bbox": [
+              [
+                86,
+                66
+              ],
+              [
+                341,
+                66
+              ],
+              [
+                341,
+                97
+              ],
+              [
+                86,
+                97
+              ]
+            ]
+          },
+          {
+            "text": "secret job as an ad star",
+            "confidence": 0.9397129480848944,
+            "bbox": [
+              [
+                57,
+                96
+              ],
+              [
+                320,
+                96
+              ],
+              [
+                320,
+                126
+              ],
+              [
+                57,
+                126
+              ]
+            ]
+          }
+        ],
+        "ocr_available": true
+      },
+      "combined_violation": false,
+      "preview_path": "/static/frames/temp_1755890482_Y2Mate.now_Coincidentally, the cat looks just like the one in the ad #shorts #cat #catlovers_360p_frame_9.jpg"
+    },
+    {
+      "timestamp": 4.5,
+      "frame_index": 9,
+      "visual_analysis": {
+        "category": "safe_content",
+        "confidence": 0.8883396983146667,
+        "violation_detected": false,
+        "all_probabilities": {
+          "safe_content": 0.8883396983146667,
+          "suggestive_content": 0.047261010855436325,
+          "artistic_adult_content": 0.005773765500634909,
+          "misinformation": 0.048580724745988846,
+          "violence": 0.00291990814730525,
+          "hate_speech": 0.003742591477930546,
+          "dangerous_activities": 0.003382207592949271
+        }
+      },
+      "blip_description": {
+        "description": "a person is holding a cat in their hand",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "So adorable Pov: found out my cat's got secret job as an ad star",
+        "extracted_items": [
+          {
+            "text": "So adorable",
+            "confidence": 0.6742023596818706,
+            "bbox": [
+              [
+                281,
+                39
+              ],
+              [
+                351,
+                39
+              ],
+              [
+                351,
+                55
+              ],
+              [
+                281,
+                55
+              ]
+            ]
+          },
+          {
+            "text": "Pov:",
+            "confidence": 0.9972708225250244,
+            "bbox": [
+              [
+                22,
+                66
+              ],
+              [
+                74,
+                66
+              ],
+              [
+                74,
+                92
+              ],
+              [
+                22,
+                92
+              ]
+            ]
+          },
+          {
+            "text": "found out my cat's got",
+            "confidence": 0.9837686987715893,
+            "bbox": [
+              [
+                86,
+                66
+              ],
+              [
+                341,
+                66
+              ],
+              [
+                341,
+                97
+              ],
+              [
+                86,
+                97
+              ]
+            ]
+          },
+          {
+            "text": "secret job as an ad star",
+            "confidence": 0.9410504951812321,
+            "bbox": [
+              [
+                57,
+                96
+              ],
+              [
+                320,
+                96
+              ],
+              [
+                320,
+                126
+              ],
+              [
+                57,
+                126
+              ]
+            ]
+          }
+        ],
+        "ocr_available": true
+      },
+      "combined_violation": false,
+      "preview_path": "/static/frames/temp_1755890482_Y2Mate.now_Coincidentally, the cat looks just like the one in the ad #shorts #cat #catlovers_360p_frame_10.jpg"
+    },
+    {
+      "timestamp": 5.0,
+      "frame_index": 10,
+      "visual_analysis": {
+        "category": "safe_content",
+        "confidence": 0.8744210600852966,
+        "violation_detected": false,
+        "all_probabilities": {
+          "safe_content": 0.8744210600852966,
+          "suggestive_content": 0.056271445006132126,
+          "artistic_adult_content": 0.007021614816039801,
+          "misinformation": 0.05144152790307999,
+          "violence": 0.0030989726074039936,
+          "hate_speech": 0.004006511531770229,
+          "dangerous_activities": 0.0037388980854302645
+        }
+      },
+      "blip_description": {
+        "description": "a person holding a cat in their hand",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "So adorable Pov: found out my cat's got secret job as an ad star",
+        "extracted_items": [
+          {
+            "text": "So adorable",
+            "confidence": 0.626852340315154,
+            "bbox": [
+              [
+                281,
+                39
+              ],
+              [
+                351,
+                39
+              ],
+              [
+                351,
+                55
+              ],
+              [
+                281,
+                55
+              ]
+            ]
+          },
+          {
+            "text": "Pov:",
+            "confidence": 0.9972708225250244,
+            "bbox": [
+              [
+                22,
+                66
+              ],
+              [
+                74,
+                66
+              ],
+              [
+                74,
+                92
+              ],
+              [
+                22,
+                92
+              ]
+            ]
+          },
+          {
+            "text": "found out my cat's got",
+            "confidence": 0.9836814135044247,
+            "bbox": [
+              [
+                86,
+                66
+              ],
+              [
+                341,
+                66
+              ],
+              [
+                341,
+                97
+              ],
+              [
+                86,
+                97
+              ]
+            ]
+          },
+          {
+            "text": "secret job as an ad star",
+            "confidence": 0.9417341749681785,
+            "bbox": [
+              [
+                59,
+                96
+              ],
+              [
+                320,
+                96
+              ],
+              [
+                320,
+                128
+              ],
+              [
+                59,
+                128
+              ]
+            ]
+          }
+        ],
+        "ocr_available": true
+      },
+      "combined_violation": false,
+      "preview_path": "/static/frames/temp_1755890482_Y2Mate.now_Coincidentally, the cat looks just like the one in the ad #shorts #cat #catlovers_360p_frame_11.jpg"
+    },
+    {
+      "timestamp": 5.5,
+      "frame_index": 11,
+      "visual_analysis": {
+        "category": "safe_content",
+        "confidence": 0.8711830973625183,
+        "violation_detected": false,
+        "all_probabilities": {
+          "safe_content": 0.8711830973625183,
+          "suggestive_content": 0.05720566585659981,
+          "artistic_adult_content": 0.0072993747889995575,
+          "misinformation": 0.05304966866970062,
+          "violence": 0.003244780469685793,
+          "hate_speech": 0.004129888955503702,
+          "dangerous_activities": 0.0038874493911862373
+        }
+      },
+      "blip_description": {
+        "description": "a person is holding a cat in their hand",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "So adorable Pov: found out my cat's got secret job as an ad star G",
+        "extracted_items": [
+          {
+            "text": "So adorable",
+            "confidence": 0.6617832709459999,
+            "bbox": [
+              [
+                281,
+                39
+              ],
+              [
+                351,
+                39
+              ],
+              [
+                351,
+                55
+              ],
+              [
+                281,
+                55
+              ]
+            ]
+          },
+          {
+            "text": "Pov:",
+            "confidence": 0.9972708225250244,
+            "bbox": [
+              [
+                22,
+                66
+              ],
+              [
+                74,
+                66
+              ],
+              [
+                74,
+                92
+              ],
+              [
+                22,
+                92
+              ]
+            ]
+          },
+          {
+            "text": "found out my cat's got",
+            "confidence": 0.8338745722837161,
+            "bbox": [
+              [
+                86,
+                66
+              ],
+              [
+                340,
+                66
+              ],
+              [
+                340,
+                96
+              ],
+              [
+                86,
+                96
+              ]
+            ]
+          },
+          {
+            "text": "secret job as an ad star",
+            "confidence": 0.9902935392189145,
+            "bbox": [
+              [
+                59,
+                96
+              ],
+              [
+                320,
+                96
+              ],
+              [
+                320,
+                126
+              ],
+              [
+                59,
+                126
+              ]
+            ]
+          },
+          {
+            "text": "G",
+            "confidence": 0.561108616194872,
+            "bbox": [
+              [
+                253,
+                431
+              ],
+              [
+                287,
+                431
+              ],
+              [
+                287,
+                443
+              ],
+              [
+                253,
+                443
+              ]
+            ]
+          }
+        ],
+        "ocr_available": true
+      },
+      "combined_violation": false,
+      "preview_path": "/static/frames/temp_1755890482_Y2Mate.now_Coincidentally, the cat looks just like the one in the ad #shorts #cat #catlovers_360p_frame_12.jpg"
+    },
+    {
+      "timestamp": 6.0,
+      "frame_index": 12,
+      "visual_analysis": {
+        "category": "safe_content",
+        "confidence": 0.8858299851417542,
+        "violation_detected": false,
+        "all_probabilities": {
+          "safe_content": 0.8858299851417542,
+          "suggestive_content": 0.04975826293230057,
+          "artistic_adult_content": 0.006128481589257717,
+          "misinformation": 0.04839705303311348,
+          "violence": 0.0028696837835013866,
+          "hate_speech": 0.0036694719456136227,
+          "dangerous_activities": 0.0033471304923295975
+        }
+      },
+      "blip_description": {
+        "description": "a person is holding a cat in their hand",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "So adorable Pov: found out my cat's got secret job as an ad star",
+        "extracted_items": [
+          {
+            "text": "So adorable",
+            "confidence": 0.5337737237433028,
+            "bbox": [
+              [
+                281,
+                39
+              ],
+              [
+                351,
+                39
+              ],
+              [
+                351,
+                55
+              ],
+              [
+                281,
+                55
+              ]
+            ]
+          },
+          {
+            "text": "Pov:",
+            "confidence": 0.9972708225250244,
+            "bbox": [
+              [
+                22,
+                66
+              ],
+              [
+                74,
+                66
+              ],
+              [
+                74,
+                92
+              ],
+              [
+                22,
+                92
+              ]
+            ]
+          },
+          {
+            "text": "found out my cat's got",
+            "confidence": 0.8360959902680436,
+            "bbox": [
+              [
+                86,
+                66
+              ],
+              [
+                340,
+                66
+              ],
+              [
+                340,
+                96
+              ],
+              [
+                86,
+                96
+              ]
+            ]
+          },
+          {
+            "text": "secret job as an ad star",
+            "confidence": 0.9913217965804607,
+            "bbox": [
+              [
+                59,
+                96
+              ],
+              [
+                320,
+                96
+              ],
+              [
+                320,
+                126
+              ],
+              [
+                59,
+                126
+              ]
+            ]
+          }
+        ],
+        "ocr_available": true
+      },
+      "combined_violation": false,
+      "preview_path": "/static/frames/temp_1755890482_Y2Mate.now_Coincidentally, the cat looks just like the one in the ad #shorts #cat #catlovers_360p_frame_13.jpg"
+    },
+    {
+      "timestamp": 6.5,
+      "frame_index": 13,
+      "visual_analysis": {
+        "category": "safe_content",
+        "confidence": 0.8880194425582886,
+        "violation_detected": false,
+        "all_probabilities": {
+          "safe_content": 0.8880194425582886,
+          "suggestive_content": 0.0480177104473114,
+          "artistic_adult_content": 0.005871823523193598,
+          "misinformation": 0.0483485572040081,
+          "violence": 0.0028206733986735344,
+          "hate_speech": 0.0036179395392537117,
+          "dangerous_activities": 0.0033039720728993416
+        }
+      },
+      "blip_description": {
+        "description": "a person is holding a cat in their hand",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "So adorable Pov: found out my cat's got secret job as an ad star",
+        "extracted_items": [
+          {
+            "text": "So adorable",
+            "confidence": 0.5710218912058129,
+            "bbox": [
+              [
+                281,
+                39
+              ],
+              [
+                351,
+                39
+              ],
+              [
+                351,
+                55
+              ],
+              [
+                281,
+                55
+              ]
+            ]
+          },
+          {
+            "text": "Pov:",
+            "confidence": 0.9972708225250244,
+            "bbox": [
+              [
+                22,
+                66
+              ],
+              [
+                74,
+                66
+              ],
+              [
+                74,
+                92
+              ],
+              [
+                22,
+                92
+              ]
+            ]
+          },
+          {
+            "text": "found out my cat's got",
+            "confidence": 0.8357597690961814,
+            "bbox": [
+              [
+                86,
+                66
+              ],
+              [
+                340,
+                66
+              ],
+              [
+                340,
+                96
+              ],
+              [
+                86,
+                96
+              ]
+            ]
+          },
+          {
+            "text": "secret job as an ad star",
+            "confidence": 0.9903954845615289,
+            "bbox": [
+              [
+                59,
+                96
+              ],
+              [
+                320,
+                96
+              ],
+              [
+                320,
+                126
+              ],
+              [
+                59,
+                126
+              ]
+            ]
+          }
+        ],
+        "ocr_available": true
+      },
+      "combined_violation": false,
+      "preview_path": "/static/frames/temp_1755890482_Y2Mate.now_Coincidentally, the cat looks just like the one in the ad #shorts #cat #catlovers_360p_frame_14.jpg"
+    },
+    {
+      "timestamp": 7.0,
+      "frame_index": 14,
+      "visual_analysis": {
+        "category": "safe_content",
+        "confidence": 0.8951762318611145,
+        "violation_detected": false,
+        "all_probabilities": {
+          "safe_content": 0.8951762318611145,
+          "suggestive_content": 0.04452192038297653,
+          "artistic_adult_content": 0.005341432988643646,
+          "misinformation": 0.04594364017248154,
+          "violence": 0.002610398456454277,
+          "hate_speech": 0.0034077344462275505,
+          "dangerous_activities": 0.002998667536303401
+        }
+      },
+      "blip_description": {
+        "description": "a cat is sitting on the floor and eating a bag of chips",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "So adorable Pov: found out my cat's got secret job as an ad star",
+        "extracted_items": [
+          {
+            "text": "So adorable",
+            "confidence": 0.5029032003195792,
+            "bbox": [
+              [
+                281,
+                39
+              ],
+              [
+                351,
+                39
+              ],
+              [
+                351,
+                55
+              ],
+              [
+                281,
+                55
+              ]
+            ]
+          },
+          {
+            "text": "Pov:",
+            "confidence": 0.9972708225250244,
+            "bbox": [
+              [
+                22,
+                66
+              ],
+              [
+                74,
+                66
+              ],
+              [
+                74,
+                92
+              ],
+              [
+                22,
+                92
+              ]
+            ]
+          },
+          {
+            "text": "found out my cat's got",
+            "confidence": 0.8354197229860185,
+            "bbox": [
+              [
+                86,
+                66
+              ],
+              [
+                340,
+                66
+              ],
+              [
+                340,
+                96
+              ],
+              [
+                86,
+                96
+              ]
+            ]
+          },
+          {
+            "text": "secret job as an ad star",
+            "confidence": 0.932369418739583,
+            "bbox": [
+              [
+                58,
+                96
+              ],
+              [
+                320,
+                96
+              ],
+              [
+                320,
+                128
+              ],
+              [
+                58,
+                128
+              ]
+            ]
+          }
+        ],
+        "ocr_available": true
+      },
+      "combined_violation": false,
+      "preview_path": "/static/frames/temp_1755890482_Y2Mate.now_Coincidentally, the cat looks just like the one in the ad #shorts #cat #catlovers_360p_frame_15.jpg"
+    },
+    {
+      "timestamp": 7.5,
+      "frame_index": 15,
+      "visual_analysis": {
+        "category": "safe_content",
+        "confidence": 0.8966893553733826,
+        "violation_detected": false,
+        "all_probabilities": {
+          "safe_content": 0.8966893553733826,
+          "suggestive_content": 0.042451921850442886,
+          "artistic_adult_content": 0.005045879166573286,
+          "misinformation": 0.04675954952836037,
+          "violence": 0.002670470392331481,
+          "hate_speech": 0.0033787605352699757,
+          "dangerous_activities": 0.003004120197147131
+        }
+      },
+      "blip_description": {
+        "description": "a person holding a cat in their hand",
+        "blip_available": true
+      },
+      "ocr_text": {
+        "text": "So adorable Pov: found out my cat's got secret job as an ad star",
+        "extracted_items": [
+          {
+            "text": "So adorable",
+            "confidence": 0.6924085156397869,
+            "bbox": [
+              [
+                281,
+                39
+              ],
+              [
+                351,
+                39
+              ],
+              [
+                351,
+                55
+              ],
+              [
+                281,
+                55
+              ]
+            ]
+          },
+          {
+            "text": "Pov:",
+            "confidence": 0.9972708225250244,
+            "bbox": [
+              [
+                22,
+                66
+              ],
+              [
+                74,
+                66
+              ],
+              [
+                74,
+                92
+              ],
+              [
+                22,
+                92
+              ]
+            ]
+          },
+          {
+            "text": "found out my cat's got",
+            "confidence": 0.8375072907961274,
+            "bbox": [
+              [
+                86,
+                66
+              ],
+              [
+                340,
+                66
+              ],
+              [
+                340,
+                96
+              ],
+              [
+                86,
+                96
+              ]
+            ]
+          },
+          {
+            "text": "secret job as an ad star",
+            "confidence": 0.7394578851191775,
+            "bbox": [
+              [
+                57,
+                96
+              ],
+              [
+                320,
+                96
+              ],
+              [
+                320,
+                126
+              ],
+              [
+                57,
+                126
+              ]
+            ]
+          }
+        ],
+        "ocr_available": true
+      },
+      "combined_violation": false,
+      "preview_path": "/static/frames/temp_1755890482_Y2Mate.now_Coincidentally, the cat looks just like the one in the ad #shorts #cat #catlovers_360p_frame_16.jpg"
+    }
+  ],
+  "recommendations": [
+    "🎵 Audio policy violations detected: safe",
+    "📝 Review transcript for policy-violating language",
+    "⚡ Minor violations detected - targeted edits recommended"
+  ],
+  "multi_modal_capabilities": {
+    "visual_model_accuracy": 97.48,
+    "blip_available": true,
+    "whisper_available": true,
+    "ocr_available": true
+  },
+  "text_issues": "So adbrable Pov: found out my cat's got secret job as an ad star, So ndordble Pov: found out my cat's got secret job as an ad star Mo?, So ndorable Pov: found out my cat's got secret job as an ad star, So ndbrable Pov: found out my cat's got secret job as an ad star, So ndbrable Pov: found out my cat's got secret job as an ad star, So adorable Pov: found out my cat's got secret job as an ad star MQ, So adorable Pov: found out my cat's got secret job as an ad star, So adordble Pov: found out my cat's got secret job as an ad star, So adorable Pov: found out my cat's got secret job as an ad star, So adorable Pov: found out my cat's got secret job as an ad star, So adorable Pov: found out my cat's got secret job as an ad star, So adorable Pov: found out my cat's got secret job as an ad star G, So adorable Pov: found out my cat's got secret job as an ad star, So adorable Pov: found out my cat's got secret job as an ad star, So adorable Pov: found out my cat's got secret job as an ad star, So adorable Pov: found out my cat's got secret job as an ad star",
+  "image": {
+    "details": {
+      "frame_preview_paths": [
+        "/static/frames/temp_1755890482_Y2Mate.now_Coincidentally, the cat looks just like the one in the ad #shorts #cat #catlovers_360p_frame_1.jpg",
+        "/static/frames/temp_1755890482_Y2Mate.now_Coincidentally, the cat looks just like the one in the ad #shorts #cat #catlovers_360p_frame_2.jpg",
+        "/static/frames/temp_1755890482_Y2Mate.now_Coincidentally, the cat looks just like the one in the ad #shorts #cat #catlovers_360p_frame_3.jpg",
+        "/static/frames/temp_1755890482_Y2Mate.now_Coincidentally, the cat looks just like the one in the ad #shorts #cat #catlovers_360p_frame_4.jpg",
+        "/static/frames/temp_1755890482_Y2Mate.now_Coincidentally, the cat looks just like the one in the ad #shorts #cat #catlovers_360p_frame_5.jpg",
+        "/static/frames/temp_1755890482_Y2Mate.now_Coincidentally, the cat looks just like the one in the ad #shorts #cat #catlovers_360p_frame_6.jpg",
+        "/static/frames/temp_1755890482_Y2Mate.now_Coincidentally, the cat looks just like the one in the ad #shorts #cat #catlovers_360p_frame_7.jpg",
+        "/static/frames/temp_1755890482_Y2Mate.now_Coincidentally, the cat looks just like the one in the ad #shorts #cat #catlovers_360p_frame_8.jpg",
+        "/static/frames/temp_1755890482_Y2Mate.now_Coincidentally, the cat looks just like the one in the ad #shorts #cat #catlovers_360p_frame_9.jpg",
+        "/static/frames/temp_1755890482_Y2Mate.now_Coincidentally, the cat looks just like the one in the ad #shorts #cat #catlovers_360p_frame_10.jpg",
+        "/static/frames/temp_1755890482_Y2Mate.now_Coincidentally, the cat looks just like the one in the ad #shorts #cat #catlovers_360p_frame_11.jpg",
+        "/static/frames/temp_1755890482_Y2Mate.now_Coincidentally, the cat looks just like the one in the ad #shorts #cat #catlovers_360p_frame_12.jpg",
+        "/static/frames/temp_1755890482_Y2Mate.now_Coincidentally, the cat looks just like the one in the ad #shorts #cat #catlovers_360p_frame_13.jpg",
+        "/static/frames/temp_1755890482_Y2Mate.now_Coincidentally, the cat looks just like the one in the ad #shorts #cat #catlovers_360p_frame_14.jpg",
+        "/static/frames/temp_1755890482_Y2Mate.now_Coincidentally, the cat looks just like the one in the ad #shorts #cat #catlovers_360p_frame_15.jpg",
+        "/static/frames/temp_1755890482_Y2Mate.now_Coincidentally, the cat looks just like the one in the ad #shorts #cat #catlovers_360p_frame_16.jpg"
+      ],
+      "frame_analysis": [
+        {
+          "timestamp": 0.0,
+          "frame_index": 0,
+          "visual_analysis": {
+            "category": "safe_content",
+            "confidence": 0.8964582681655884,
+            "violation_detected": false,
+            "all_probabilities": {
+              "safe_content": 0.8964582681655884,
+              "suggestive_content": 0.04305490851402283,
+              "artistic_adult_content": 0.005028063431382179,
+              "misinformation": 0.046366337686777115,
+              "violence": 0.002634227741509676,
+              "hate_speech": 0.0034224134869873524,
+              "dangerous_activities": 0.003035765141248703
+            }
+          },
+          "blip_description": {
+            "description": "a person holding a bag of kittens in their hands",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "So adbrable Pov: found out my cat's got secret job as an ad star",
+            "extracted_items": [
+              {
+                "text": "So adbrable",
+                "confidence": 0.6047853265913594,
+                "bbox": [
+                  [
+                    281,
+                    39
+                  ],
+                  [
+                    351,
+                    39
+                  ],
+                  [
+                    351,
+                    55
+                  ],
+                  [
+                    281,
+                    55
+                  ]
+                ]
+              },
+              {
+                "text": "Pov:",
+                "confidence": 0.9972806572914124,
+                "bbox": [
+                  [
+                    22,
+                    66
+                  ],
+                  [
+                    74,
+                    66
+                  ],
+                  [
+                    74,
+                    92
+                  ],
+                  [
+                    22,
+                    92
+                  ]
+                ]
+              },
+              {
+                "text": "found out my cat's got",
+                "confidence": 0.831109690106853,
+                "bbox": [
+                  [
+                    86,
+                    66
+                  ],
+                  [
+                    340,
+                    66
+                  ],
+                  [
+                    340,
+                    96
+                  ],
+                  [
+                    86,
+                    96
+                  ]
+                ]
+              },
+              {
+                "text": "secret job as an ad star",
+                "confidence": 0.7352859490154259,
+                "bbox": [
+                  [
+                    57,
+                    96
+                  ],
+                  [
+                    320,
+                    96
+                  ],
+                  [
+                    320,
+                    126
+                  ],
+                  [
+                    57,
+                    126
+                  ]
+                ]
+              }
+            ],
+            "ocr_available": true
+          },
+          "combined_violation": false,
+          "preview_path": "/static/frames/temp_1755890482_Y2Mate.now_Coincidentally, the cat looks just like the one in the ad #shorts #cat #catlovers_360p_frame_1.jpg"
+        },
+        {
+          "timestamp": 0.5,
+          "frame_index": 1,
+          "visual_analysis": {
+            "category": "safe_content",
+            "confidence": 0.8962218761444092,
+            "violation_detected": false,
+            "all_probabilities": {
+              "safe_content": 0.8962218761444092,
+              "suggestive_content": 0.04291835427284241,
+              "artistic_adult_content": 0.005161698441952467,
+              "misinformation": 0.046641845256090164,
+              "violence": 0.002682068385183811,
+              "hate_speech": 0.003381507471203804,
+              "dangerous_activities": 0.0029927282594144344
+            }
+          },
+          "blip_description": {
+            "description": "a person holding a cat in their hand",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "So ndordble Pov: found out my cat's got secret job as an ad star Mo?",
+            "extracted_items": [
+              {
+                "text": "So ndordble",
+                "confidence": 0.5349173992783125,
+                "bbox": [
+                  [
+                    281,
+                    39
+                  ],
+                  [
+                    351,
+                    39
+                  ],
+                  [
+                    351,
+                    53
+                  ],
+                  [
+                    281,
+                    53
+                  ]
+                ]
+              },
+              {
+                "text": "Pov:",
+                "confidence": 0.9972877502441406,
+                "bbox": [
+                  [
+                    22,
+                    66
+                  ],
+                  [
+                    74,
+                    66
+                  ],
+                  [
+                    74,
+                    92
+                  ],
+                  [
+                    22,
+                    92
+                  ]
+                ]
+              },
+              {
+                "text": "found out my cat's got",
+                "confidence": 0.9835942388222653,
+                "bbox": [
+                  [
+                    86,
+                    66
+                  ],
+                  [
+                    341,
+                    66
+                  ],
+                  [
+                    341,
+                    97
+                  ],
+                  [
+                    86,
+                    97
+                  ]
+                ]
+              },
+              {
+                "text": "secret job as an ad star",
+                "confidence": 0.991893740219485,
+                "bbox": [
+                  [
+                    59,
+                    96
+                  ],
+                  [
+                    320,
+                    96
+                  ],
+                  [
+                    320,
+                    126
+                  ],
+                  [
+                    59,
+                    126
+                  ]
+                ]
+              },
+              {
+                "text": "Mo?",
+                "confidence": 0.5968775845848208,
+                "bbox": [
+                  [
+                    168,
+                    406
+                  ],
+                  [
+                    248,
+                    406
+                  ],
+                  [
+                    248,
+                    458
+                  ],
+                  [
+                    168,
+                    458
+                  ]
+                ]
+              }
+            ],
+            "ocr_available": true
+          },
+          "combined_violation": false,
+          "preview_path": "/static/frames/temp_1755890482_Y2Mate.now_Coincidentally, the cat looks just like the one in the ad #shorts #cat #catlovers_360p_frame_2.jpg"
+        },
+        {
+          "timestamp": 1.0,
+          "frame_index": 2,
+          "visual_analysis": {
+            "category": "safe_content",
+            "confidence": 0.89705491065979,
+            "violation_detected": false,
+            "all_probabilities": {
+              "safe_content": 0.89705491065979,
+              "suggestive_content": 0.043281979858875275,
+              "artistic_adult_content": 0.005170454271137714,
+              "misinformation": 0.04573364183306694,
+              "violence": 0.0025339878629893064,
+              "hate_speech": 0.0033220164477825165,
+              "dangerous_activities": 0.0029029534198343754
+            }
+          },
+          "blip_description": {
+            "description": "a man is holding a cat in his hand",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "So ndorable Pov: found out my cat's got secret job as an ad star",
+            "extracted_items": [
+              {
+                "text": "So ndorable",
+                "confidence": 0.5581261018799383,
+                "bbox": [
+                  [
+                    281,
+                    39
+                  ],
+                  [
+                    351,
+                    39
+                  ],
+                  [
+                    351,
+                    55
+                  ],
+                  [
+                    281,
+                    55
+                  ]
+                ]
+              },
+              {
+                "text": "Pov:",
+                "confidence": 0.9972774982452393,
+                "bbox": [
+                  [
+                    22,
+                    66
+                  ],
+                  [
+                    74,
+                    66
+                  ],
+                  [
+                    74,
+                    92
+                  ],
+                  [
+                    22,
+                    92
+                  ]
+                ]
+              },
+              {
+                "text": "found out my cat's got",
+                "confidence": 0.8342284240432097,
+                "bbox": [
+                  [
+                    86,
+                    66
+                  ],
+                  [
+                    340,
+                    66
+                  ],
+                  [
+                    340,
+                    96
+                  ],
+                  [
+                    86,
+                    96
+                  ]
+                ]
+              },
+              {
+                "text": "secret job as an ad star",
+                "confidence": 0.8602096194149119,
+                "bbox": [
+                  [
+                    60,
+                    96
+                  ],
+                  [
+                    320,
+                    96
+                  ],
+                  [
+                    320,
+                    126
+                  ],
+                  [
+                    60,
+                    126
+                  ]
+                ]
+              }
+            ],
+            "ocr_available": true
+          },
+          "combined_violation": false,
+          "preview_path": "/static/frames/temp_1755890482_Y2Mate.now_Coincidentally, the cat looks just like the one in the ad #shorts #cat #catlovers_360p_frame_3.jpg"
+        },
+        {
+          "timestamp": 1.5,
+          "frame_index": 3,
+          "visual_analysis": {
+            "category": "safe_content",
+            "confidence": 0.8848713636398315,
+            "violation_detected": false,
+            "all_probabilities": {
+              "safe_content": 0.8848713636398315,
+              "suggestive_content": 0.04956870898604393,
+              "artistic_adult_content": 0.0061192382127046585,
+              "misinformation": 0.04936830699443817,
+              "violence": 0.002915903925895691,
+              "hate_speech": 0.0037247100844979286,
+              "dangerous_activities": 0.003431779332458973
+            }
+          },
+          "blip_description": {
+            "description": "a person is holding a cat in their hand",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "So ndbrable Pov: found out my cat's got secret job as an ad star",
+            "extracted_items": [
+              {
+                "text": "So ndbrable",
+                "confidence": 0.6192468942818876,
+                "bbox": [
+                  [
+                    281,
+                    39
+                  ],
+                  [
+                    351,
+                    39
+                  ],
+                  [
+                    351,
+                    55
+                  ],
+                  [
+                    281,
+                    55
+                  ]
+                ]
+              },
+              {
+                "text": "Pov:",
+                "confidence": 0.9972777962684631,
+                "bbox": [
+                  [
+                    22,
+                    66
+                  ],
+                  [
+                    74,
+                    66
+                  ],
+                  [
+                    74,
+                    92
+                  ],
+                  [
+                    22,
+                    92
+                  ]
+                ]
+              },
+              {
+                "text": "found out my cat's got",
+                "confidence": 0.833838908562694,
+                "bbox": [
+                  [
+                    86,
+                    66
+                  ],
+                  [
+                    340,
+                    66
+                  ],
+                  [
+                    340,
+                    96
+                  ],
+                  [
+                    86,
+                    96
+                  ]
+                ]
+              },
+              {
+                "text": "secret job as an ad star",
+                "confidence": 0.9907383495554526,
+                "bbox": [
+                  [
+                    59,
+                    96
+                  ],
+                  [
+                    320,
+                    96
+                  ],
+                  [
+                    320,
+                    126
+                  ],
+                  [
+                    59,
+                    126
+                  ]
+                ]
+              }
+            ],
+            "ocr_available": true
+          },
+          "combined_violation": false,
+          "preview_path": "/static/frames/temp_1755890482_Y2Mate.now_Coincidentally, the cat looks just like the one in the ad #shorts #cat #catlovers_360p_frame_4.jpg"
+        },
+        {
+          "timestamp": 2.0,
+          "frame_index": 4,
+          "visual_analysis": {
+            "category": "safe_content",
+            "confidence": 0.8864792585372925,
+            "violation_detected": false,
+            "all_probabilities": {
+              "safe_content": 0.8864792585372925,
+              "suggestive_content": 0.049175817519426346,
+              "artistic_adult_content": 0.005978544242680073,
+              "misinformation": 0.048491086810827255,
+              "violence": 0.002852523699402809,
+              "hate_speech": 0.003671187674626708,
+              "dangerous_activities": 0.0033515316899865866
+            }
+          },
+          "blip_description": {
+            "description": "a person is holding a cat in their hand",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "So ndbrable Pov: found out my cat's got secret job as an ad star",
+            "extracted_items": [
+              {
+                "text": "So ndbrable",
+                "confidence": 0.5868322920369036,
+                "bbox": [
+                  [
+                    281,
+                    39
+                  ],
+                  [
+                    351,
+                    39
+                  ],
+                  [
+                    351,
+                    55
+                  ],
+                  [
+                    281,
+                    55
+                  ]
+                ]
+              },
+              {
+                "text": "Pov:",
+                "confidence": 0.9972777962684631,
+                "bbox": [
+                  [
+                    22,
+                    66
+                  ],
+                  [
+                    74,
+                    66
+                  ],
+                  [
+                    74,
+                    92
+                  ],
+                  [
+                    22,
+                    92
+                  ]
+                ]
+              },
+              {
+                "text": "found out my cat's got",
+                "confidence": 0.8338100377466309,
+                "bbox": [
+                  [
+                    86,
+                    66
+                  ],
+                  [
+                    340,
+                    66
+                  ],
+                  [
+                    340,
+                    96
+                  ],
+                  [
+                    86,
+                    96
+                  ]
+                ]
+              },
+              {
+                "text": "secret job as an ad star",
+                "confidence": 0.8829299129715982,
+                "bbox": [
+                  [
+                    60,
+                    96
+                  ],
+                  [
+                    320,
+                    96
+                  ],
+                  [
+                    320,
+                    126
+                  ],
+                  [
+                    60,
+                    126
+                  ]
+                ]
+              }
+            ],
+            "ocr_available": true
+          },
+          "combined_violation": false,
+          "preview_path": "/static/frames/temp_1755890482_Y2Mate.now_Coincidentally, the cat looks just like the one in the ad #shorts #cat #catlovers_360p_frame_5.jpg"
+        },
+        {
+          "timestamp": 2.5,
+          "frame_index": 5,
+          "visual_analysis": {
+            "category": "safe_content",
+            "confidence": 0.87912517786026,
+            "violation_detected": false,
+            "all_probabilities": {
+              "safe_content": 0.87912517786026,
+              "suggestive_content": 0.05304267629981041,
+              "artistic_adult_content": 0.0066076237708330154,
+              "misinformation": 0.050682246685028076,
+              "violence": 0.0030330612789839506,
+              "hate_speech": 0.0038893772289156914,
+              "dangerous_activities": 0.0036198573652654886
+            }
+          },
+          "blip_description": {
+            "description": "a person is holding a cat in their hand",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "So adorable Pov: found out my cat's got secret job as an ad star MQ",
+            "extracted_items": [
+              {
+                "text": "So adorable",
+                "confidence": 0.6797791288610474,
+                "bbox": [
+                  [
+                    281,
+                    39
+                  ],
+                  [
+                    351,
+                    39
+                  ],
+                  [
+                    351,
+                    55
+                  ],
+                  [
+                    281,
+                    55
+                  ]
+                ]
+              },
+              {
+                "text": "Pov:",
+                "confidence": 0.9972777962684631,
+                "bbox": [
+                  [
+                    22,
+                    66
+                  ],
+                  [
+                    74,
+                    66
+                  ],
+                  [
+                    74,
+                    92
+                  ],
+                  [
+                    22,
+                    92
+                  ]
+                ]
+              },
+              {
+                "text": "found out my cat's got",
+                "confidence": 0.8336530695026209,
+                "bbox": [
+                  [
+                    86,
+                    66
+                  ],
+                  [
+                    340,
+                    66
+                  ],
+                  [
+                    340,
+                    96
+                  ],
+                  [
+                    86,
+                    96
+                  ]
+                ]
+              },
+              {
+                "text": "secret job as an ad star",
+                "confidence": 0.9908101177619938,
+                "bbox": [
+                  [
+                    59,
+                    96
+                  ],
+                  [
+                    320,
+                    96
+                  ],
+                  [
+                    320,
+                    126
+                  ],
+                  [
+                    59,
+                    126
+                  ]
+                ]
+              },
+              {
+                "text": "MQ",
+                "confidence": 0.5324258872893819,
+                "bbox": [
+                  [
+                    212,
+                    386
+                  ],
+                  [
+                    290,
+                    386
+                  ],
+                  [
+                    290,
+                    434
+                  ],
+                  [
+                    212,
+                    434
+                  ]
+                ]
+              }
+            ],
+            "ocr_available": true
+          },
+          "combined_violation": false,
+          "preview_path": "/static/frames/temp_1755890482_Y2Mate.now_Coincidentally, the cat looks just like the one in the ad #shorts #cat #catlovers_360p_frame_6.jpg"
+        },
+        {
+          "timestamp": 3.0,
+          "frame_index": 6,
+          "visual_analysis": {
+            "category": "safe_content",
+            "confidence": 0.8863764405250549,
+            "violation_detected": false,
+            "all_probabilities": {
+              "safe_content": 0.8863764405250549,
+              "suggestive_content": 0.04946281760931015,
+              "artistic_adult_content": 0.0059401895850896835,
+              "misinformation": 0.04836592450737953,
+              "violence": 0.0028115720488131046,
+              "hate_speech": 0.0036780473310500383,
+              "dangerous_activities": 0.0033649117685854435
+            }
+          },
+          "blip_description": {
+            "description": "a person holding a cat in their hand",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "So adorable Pov: found out my cat's got secret job as an ad star",
+            "extracted_items": [
+              {
+                "text": "So adorable",
+                "confidence": 0.5981847779597317,
+                "bbox": [
+                  [
+                    281,
+                    39
+                  ],
+                  [
+                    351,
+                    39
+                  ],
+                  [
+                    351,
+                    55
+                  ],
+                  [
+                    281,
+                    55
+                  ]
+                ]
+              },
+              {
+                "text": "Pov:",
+                "confidence": 0.9972777962684631,
+                "bbox": [
+                  [
+                    22,
+                    66
+                  ],
+                  [
+                    74,
+                    66
+                  ],
+                  [
+                    74,
+                    92
+                  ],
+                  [
+                    22,
+                    92
+                  ]
+                ]
+              },
+              {
+                "text": "found out my cat's got",
+                "confidence": 0.9836755240184782,
+                "bbox": [
+                  [
+                    86,
+                    66
+                  ],
+                  [
+                    341,
+                    66
+                  ],
+                  [
+                    341,
+                    97
+                  ],
+                  [
+                    86,
+                    97
+                  ]
+                ]
+              },
+              {
+                "text": "secret job as an ad star",
+                "confidence": 0.7554665186230388,
+                "bbox": [
+                  [
+                    57,
+                    96
+                  ],
+                  [
+                    320,
+                    96
+                  ],
+                  [
+                    320,
+                    126
+                  ],
+                  [
+                    57,
+                    126
+                  ]
+                ]
+              }
+            ],
+            "ocr_available": true
+          },
+          "combined_violation": false,
+          "preview_path": "/static/frames/temp_1755890482_Y2Mate.now_Coincidentally, the cat looks just like the one in the ad #shorts #cat #catlovers_360p_frame_7.jpg"
+        },
+        {
+          "timestamp": 3.5,
+          "frame_index": 7,
+          "visual_analysis": {
+            "category": "safe_content",
+            "confidence": 0.89068204164505,
+            "violation_detected": false,
+            "all_probabilities": {
+              "safe_content": 0.89068204164505,
+              "suggestive_content": 0.04532631114125252,
+              "artistic_adult_content": 0.005511047784239054,
+              "misinformation": 0.04855513945221901,
+              "violence": 0.0029145977459847927,
+              "hate_speech": 0.0036885470617562532,
+              "dangerous_activities": 0.003322360571473837
+            }
+          },
+          "blip_description": {
+            "description": "a person is holding a cat in their hand",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "So adordble Pov: found out my cat's got secret job as an ad star",
+            "extracted_items": [
+              {
+                "text": "So adordble",
+                "confidence": 0.5210788287621437,
+                "bbox": [
+                  [
+                    281,
+                    39
+                  ],
+                  [
+                    351,
+                    39
+                  ],
+                  [
+                    351,
+                    53
+                  ],
+                  [
+                    281,
+                    53
+                  ]
+                ]
+              },
+              {
+                "text": "Pov:",
+                "confidence": 0.9972708225250244,
+                "bbox": [
+                  [
+                    22,
+                    66
+                  ],
+                  [
+                    74,
+                    66
+                  ],
+                  [
+                    74,
+                    92
+                  ],
+                  [
+                    22,
+                    92
+                  ]
+                ]
+              },
+              {
+                "text": "found out my cat's got",
+                "confidence": 0.9837143301137768,
+                "bbox": [
+                  [
+                    86,
+                    66
+                  ],
+                  [
+                    341,
+                    66
+                  ],
+                  [
+                    341,
+                    97
+                  ],
+                  [
+                    86,
+                    97
+                  ]
+                ]
+              },
+              {
+                "text": "secret job as an ad star",
+                "confidence": 0.9231427591831634,
+                "bbox": [
+                  [
+                    57,
+                    96
+                  ],
+                  [
+                    320,
+                    96
+                  ],
+                  [
+                    320,
+                    126
+                  ],
+                  [
+                    57,
+                    126
+                  ]
+                ]
+              }
+            ],
+            "ocr_available": true
+          },
+          "combined_violation": false,
+          "preview_path": "/static/frames/temp_1755890482_Y2Mate.now_Coincidentally, the cat looks just like the one in the ad #shorts #cat #catlovers_360p_frame_8.jpg"
+        },
+        {
+          "timestamp": 4.0,
+          "frame_index": 8,
+          "visual_analysis": {
+            "category": "safe_content",
+            "confidence": 0.894618809223175,
+            "violation_detected": false,
+            "all_probabilities": {
+              "safe_content": 0.894618809223175,
+              "suggestive_content": 0.04414179176092148,
+              "artistic_adult_content": 0.0052192029543221,
+              "misinformation": 0.04663864150643349,
+              "violence": 0.0026951634790748358,
+              "hate_speech": 0.0035416465252637863,
+              "dangerous_activities": 0.0031447093933820724
+            }
+          },
+          "blip_description": {
+            "description": "a person holding a cat in their hand",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "So adorable Pov: found out my cat's got secret job as an ad star",
+            "extracted_items": [
+              {
+                "text": "So adorable",
+                "confidence": 0.7123438903010856,
+                "bbox": [
+                  [
+                    281,
+                    39
+                  ],
+                  [
+                    351,
+                    39
+                  ],
+                  [
+                    351,
+                    55
+                  ],
+                  [
+                    281,
+                    55
+                  ]
+                ]
+              },
+              {
+                "text": "Pov:",
+                "confidence": 0.9972708225250244,
+                "bbox": [
+                  [
+                    22,
+                    66
+                  ],
+                  [
+                    74,
+                    66
+                  ],
+                  [
+                    74,
+                    92
+                  ],
+                  [
+                    22,
+                    92
+                  ]
+                ]
+              },
+              {
+                "text": "found out my cat's got",
+                "confidence": 0.9837364690865242,
+                "bbox": [
+                  [
+                    86,
+                    66
+                  ],
+                  [
+                    341,
+                    66
+                  ],
+                  [
+                    341,
+                    97
+                  ],
+                  [
+                    86,
+                    97
+                  ]
+                ]
+              },
+              {
+                "text": "secret job as an ad star",
+                "confidence": 0.9397129480848944,
+                "bbox": [
+                  [
+                    57,
+                    96
+                  ],
+                  [
+                    320,
+                    96
+                  ],
+                  [
+                    320,
+                    126
+                  ],
+                  [
+                    57,
+                    126
+                  ]
+                ]
+              }
+            ],
+            "ocr_available": true
+          },
+          "combined_violation": false,
+          "preview_path": "/static/frames/temp_1755890482_Y2Mate.now_Coincidentally, the cat looks just like the one in the ad #shorts #cat #catlovers_360p_frame_9.jpg"
+        },
+        {
+          "timestamp": 4.5,
+          "frame_index": 9,
+          "visual_analysis": {
+            "category": "safe_content",
+            "confidence": 0.8883396983146667,
+            "violation_detected": false,
+            "all_probabilities": {
+              "safe_content": 0.8883396983146667,
+              "suggestive_content": 0.047261010855436325,
+              "artistic_adult_content": 0.005773765500634909,
+              "misinformation": 0.048580724745988846,
+              "violence": 0.00291990814730525,
+              "hate_speech": 0.003742591477930546,
+              "dangerous_activities": 0.003382207592949271
+            }
+          },
+          "blip_description": {
+            "description": "a person is holding a cat in their hand",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "So adorable Pov: found out my cat's got secret job as an ad star",
+            "extracted_items": [
+              {
+                "text": "So adorable",
+                "confidence": 0.6742023596818706,
+                "bbox": [
+                  [
+                    281,
+                    39
+                  ],
+                  [
+                    351,
+                    39
+                  ],
+                  [
+                    351,
+                    55
+                  ],
+                  [
+                    281,
+                    55
+                  ]
+                ]
+              },
+              {
+                "text": "Pov:",
+                "confidence": 0.9972708225250244,
+                "bbox": [
+                  [
+                    22,
+                    66
+                  ],
+                  [
+                    74,
+                    66
+                  ],
+                  [
+                    74,
+                    92
+                  ],
+                  [
+                    22,
+                    92
+                  ]
+                ]
+              },
+              {
+                "text": "found out my cat's got",
+                "confidence": 0.9837686987715893,
+                "bbox": [
+                  [
+                    86,
+                    66
+                  ],
+                  [
+                    341,
+                    66
+                  ],
+                  [
+                    341,
+                    97
+                  ],
+                  [
+                    86,
+                    97
+                  ]
+                ]
+              },
+              {
+                "text": "secret job as an ad star",
+                "confidence": 0.9410504951812321,
+                "bbox": [
+                  [
+                    57,
+                    96
+                  ],
+                  [
+                    320,
+                    96
+                  ],
+                  [
+                    320,
+                    126
+                  ],
+                  [
+                    57,
+                    126
+                  ]
+                ]
+              }
+            ],
+            "ocr_available": true
+          },
+          "combined_violation": false,
+          "preview_path": "/static/frames/temp_1755890482_Y2Mate.now_Coincidentally, the cat looks just like the one in the ad #shorts #cat #catlovers_360p_frame_10.jpg"
+        },
+        {
+          "timestamp": 5.0,
+          "frame_index": 10,
+          "visual_analysis": {
+            "category": "safe_content",
+            "confidence": 0.8744210600852966,
+            "violation_detected": false,
+            "all_probabilities": {
+              "safe_content": 0.8744210600852966,
+              "suggestive_content": 0.056271445006132126,
+              "artistic_adult_content": 0.007021614816039801,
+              "misinformation": 0.05144152790307999,
+              "violence": 0.0030989726074039936,
+              "hate_speech": 0.004006511531770229,
+              "dangerous_activities": 0.0037388980854302645
+            }
+          },
+          "blip_description": {
+            "description": "a person holding a cat in their hand",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "So adorable Pov: found out my cat's got secret job as an ad star",
+            "extracted_items": [
+              {
+                "text": "So adorable",
+                "confidence": 0.626852340315154,
+                "bbox": [
+                  [
+                    281,
+                    39
+                  ],
+                  [
+                    351,
+                    39
+                  ],
+                  [
+                    351,
+                    55
+                  ],
+                  [
+                    281,
+                    55
+                  ]
+                ]
+              },
+              {
+                "text": "Pov:",
+                "confidence": 0.9972708225250244,
+                "bbox": [
+                  [
+                    22,
+                    66
+                  ],
+                  [
+                    74,
+                    66
+                  ],
+                  [
+                    74,
+                    92
+                  ],
+                  [
+                    22,
+                    92
+                  ]
+                ]
+              },
+              {
+                "text": "found out my cat's got",
+                "confidence": 0.9836814135044247,
+                "bbox": [
+                  [
+                    86,
+                    66
+                  ],
+                  [
+                    341,
+                    66
+                  ],
+                  [
+                    341,
+                    97
+                  ],
+                  [
+                    86,
+                    97
+                  ]
+                ]
+              },
+              {
+                "text": "secret job as an ad star",
+                "confidence": 0.9417341749681785,
+                "bbox": [
+                  [
+                    59,
+                    96
+                  ],
+                  [
+                    320,
+                    96
+                  ],
+                  [
+                    320,
+                    128
+                  ],
+                  [
+                    59,
+                    128
+                  ]
+                ]
+              }
+            ],
+            "ocr_available": true
+          },
+          "combined_violation": false,
+          "preview_path": "/static/frames/temp_1755890482_Y2Mate.now_Coincidentally, the cat looks just like the one in the ad #shorts #cat #catlovers_360p_frame_11.jpg"
+        },
+        {
+          "timestamp": 5.5,
+          "frame_index": 11,
+          "visual_analysis": {
+            "category": "safe_content",
+            "confidence": 0.8711830973625183,
+            "violation_detected": false,
+            "all_probabilities": {
+              "safe_content": 0.8711830973625183,
+              "suggestive_content": 0.05720566585659981,
+              "artistic_adult_content": 0.0072993747889995575,
+              "misinformation": 0.05304966866970062,
+              "violence": 0.003244780469685793,
+              "hate_speech": 0.004129888955503702,
+              "dangerous_activities": 0.0038874493911862373
+            }
+          },
+          "blip_description": {
+            "description": "a person is holding a cat in their hand",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "So adorable Pov: found out my cat's got secret job as an ad star G",
+            "extracted_items": [
+              {
+                "text": "So adorable",
+                "confidence": 0.6617832709459999,
+                "bbox": [
+                  [
+                    281,
+                    39
+                  ],
+                  [
+                    351,
+                    39
+                  ],
+                  [
+                    351,
+                    55
+                  ],
+                  [
+                    281,
+                    55
+                  ]
+                ]
+              },
+              {
+                "text": "Pov:",
+                "confidence": 0.9972708225250244,
+                "bbox": [
+                  [
+                    22,
+                    66
+                  ],
+                  [
+                    74,
+                    66
+                  ],
+                  [
+                    74,
+                    92
+                  ],
+                  [
+                    22,
+                    92
+                  ]
+                ]
+              },
+              {
+                "text": "found out my cat's got",
+                "confidence": 0.8338745722837161,
+                "bbox": [
+                  [
+                    86,
+                    66
+                  ],
+                  [
+                    340,
+                    66
+                  ],
+                  [
+                    340,
+                    96
+                  ],
+                  [
+                    86,
+                    96
+                  ]
+                ]
+              },
+              {
+                "text": "secret job as an ad star",
+                "confidence": 0.9902935392189145,
+                "bbox": [
+                  [
+                    59,
+                    96
+                  ],
+                  [
+                    320,
+                    96
+                  ],
+                  [
+                    320,
+                    126
+                  ],
+                  [
+                    59,
+                    126
+                  ]
+                ]
+              },
+              {
+                "text": "G",
+                "confidence": 0.561108616194872,
+                "bbox": [
+                  [
+                    253,
+                    431
+                  ],
+                  [
+                    287,
+                    431
+                  ],
+                  [
+                    287,
+                    443
+                  ],
+                  [
+                    253,
+                    443
+                  ]
+                ]
+              }
+            ],
+            "ocr_available": true
+          },
+          "combined_violation": false,
+          "preview_path": "/static/frames/temp_1755890482_Y2Mate.now_Coincidentally, the cat looks just like the one in the ad #shorts #cat #catlovers_360p_frame_12.jpg"
+        },
+        {
+          "timestamp": 6.0,
+          "frame_index": 12,
+          "visual_analysis": {
+            "category": "safe_content",
+            "confidence": 0.8858299851417542,
+            "violation_detected": false,
+            "all_probabilities": {
+              "safe_content": 0.8858299851417542,
+              "suggestive_content": 0.04975826293230057,
+              "artistic_adult_content": 0.006128481589257717,
+              "misinformation": 0.04839705303311348,
+              "violence": 0.0028696837835013866,
+              "hate_speech": 0.0036694719456136227,
+              "dangerous_activities": 0.0033471304923295975
+            }
+          },
+          "blip_description": {
+            "description": "a person is holding a cat in their hand",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "So adorable Pov: found out my cat's got secret job as an ad star",
+            "extracted_items": [
+              {
+                "text": "So adorable",
+                "confidence": 0.5337737237433028,
+                "bbox": [
+                  [
+                    281,
+                    39
+                  ],
+                  [
+                    351,
+                    39
+                  ],
+                  [
+                    351,
+                    55
+                  ],
+                  [
+                    281,
+                    55
+                  ]
+                ]
+              },
+              {
+                "text": "Pov:",
+                "confidence": 0.9972708225250244,
+                "bbox": [
+                  [
+                    22,
+                    66
+                  ],
+                  [
+                    74,
+                    66
+                  ],
+                  [
+                    74,
+                    92
+                  ],
+                  [
+                    22,
+                    92
+                  ]
+                ]
+              },
+              {
+                "text": "found out my cat's got",
+                "confidence": 0.8360959902680436,
+                "bbox": [
+                  [
+                    86,
+                    66
+                  ],
+                  [
+                    340,
+                    66
+                  ],
+                  [
+                    340,
+                    96
+                  ],
+                  [
+                    86,
+                    96
+                  ]
+                ]
+              },
+              {
+                "text": "secret job as an ad star",
+                "confidence": 0.9913217965804607,
+                "bbox": [
+                  [
+                    59,
+                    96
+                  ],
+                  [
+                    320,
+                    96
+                  ],
+                  [
+                    320,
+                    126
+                  ],
+                  [
+                    59,
+                    126
+                  ]
+                ]
+              }
+            ],
+            "ocr_available": true
+          },
+          "combined_violation": false,
+          "preview_path": "/static/frames/temp_1755890482_Y2Mate.now_Coincidentally, the cat looks just like the one in the ad #shorts #cat #catlovers_360p_frame_13.jpg"
+        },
+        {
+          "timestamp": 6.5,
+          "frame_index": 13,
+          "visual_analysis": {
+            "category": "safe_content",
+            "confidence": 0.8880194425582886,
+            "violation_detected": false,
+            "all_probabilities": {
+              "safe_content": 0.8880194425582886,
+              "suggestive_content": 0.0480177104473114,
+              "artistic_adult_content": 0.005871823523193598,
+              "misinformation": 0.0483485572040081,
+              "violence": 0.0028206733986735344,
+              "hate_speech": 0.0036179395392537117,
+              "dangerous_activities": 0.0033039720728993416
+            }
+          },
+          "blip_description": {
+            "description": "a person is holding a cat in their hand",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "So adorable Pov: found out my cat's got secret job as an ad star",
+            "extracted_items": [
+              {
+                "text": "So adorable",
+                "confidence": 0.5710218912058129,
+                "bbox": [
+                  [
+                    281,
+                    39
+                  ],
+                  [
+                    351,
+                    39
+                  ],
+                  [
+                    351,
+                    55
+                  ],
+                  [
+                    281,
+                    55
+                  ]
+                ]
+              },
+              {
+                "text": "Pov:",
+                "confidence": 0.9972708225250244,
+                "bbox": [
+                  [
+                    22,
+                    66
+                  ],
+                  [
+                    74,
+                    66
+                  ],
+                  [
+                    74,
+                    92
+                  ],
+                  [
+                    22,
+                    92
+                  ]
+                ]
+              },
+              {
+                "text": "found out my cat's got",
+                "confidence": 0.8357597690961814,
+                "bbox": [
+                  [
+                    86,
+                    66
+                  ],
+                  [
+                    340,
+                    66
+                  ],
+                  [
+                    340,
+                    96
+                  ],
+                  [
+                    86,
+                    96
+                  ]
+                ]
+              },
+              {
+                "text": "secret job as an ad star",
+                "confidence": 0.9903954845615289,
+                "bbox": [
+                  [
+                    59,
+                    96
+                  ],
+                  [
+                    320,
+                    96
+                  ],
+                  [
+                    320,
+                    126
+                  ],
+                  [
+                    59,
+                    126
+                  ]
+                ]
+              }
+            ],
+            "ocr_available": true
+          },
+          "combined_violation": false,
+          "preview_path": "/static/frames/temp_1755890482_Y2Mate.now_Coincidentally, the cat looks just like the one in the ad #shorts #cat #catlovers_360p_frame_14.jpg"
+        },
+        {
+          "timestamp": 7.0,
+          "frame_index": 14,
+          "visual_analysis": {
+            "category": "safe_content",
+            "confidence": 0.8951762318611145,
+            "violation_detected": false,
+            "all_probabilities": {
+              "safe_content": 0.8951762318611145,
+              "suggestive_content": 0.04452192038297653,
+              "artistic_adult_content": 0.005341432988643646,
+              "misinformation": 0.04594364017248154,
+              "violence": 0.002610398456454277,
+              "hate_speech": 0.0034077344462275505,
+              "dangerous_activities": 0.002998667536303401
+            }
+          },
+          "blip_description": {
+            "description": "a cat is sitting on the floor and eating a bag of chips",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "So adorable Pov: found out my cat's got secret job as an ad star",
+            "extracted_items": [
+              {
+                "text": "So adorable",
+                "confidence": 0.5029032003195792,
+                "bbox": [
+                  [
+                    281,
+                    39
+                  ],
+                  [
+                    351,
+                    39
+                  ],
+                  [
+                    351,
+                    55
+                  ],
+                  [
+                    281,
+                    55
+                  ]
+                ]
+              },
+              {
+                "text": "Pov:",
+                "confidence": 0.9972708225250244,
+                "bbox": [
+                  [
+                    22,
+                    66
+                  ],
+                  [
+                    74,
+                    66
+                  ],
+                  [
+                    74,
+                    92
+                  ],
+                  [
+                    22,
+                    92
+                  ]
+                ]
+              },
+              {
+                "text": "found out my cat's got",
+                "confidence": 0.8354197229860185,
+                "bbox": [
+                  [
+                    86,
+                    66
+                  ],
+                  [
+                    340,
+                    66
+                  ],
+                  [
+                    340,
+                    96
+                  ],
+                  [
+                    86,
+                    96
+                  ]
+                ]
+              },
+              {
+                "text": "secret job as an ad star",
+                "confidence": 0.932369418739583,
+                "bbox": [
+                  [
+                    58,
+                    96
+                  ],
+                  [
+                    320,
+                    96
+                  ],
+                  [
+                    320,
+                    128
+                  ],
+                  [
+                    58,
+                    128
+                  ]
+                ]
+              }
+            ],
+            "ocr_available": true
+          },
+          "combined_violation": false,
+          "preview_path": "/static/frames/temp_1755890482_Y2Mate.now_Coincidentally, the cat looks just like the one in the ad #shorts #cat #catlovers_360p_frame_15.jpg"
+        },
+        {
+          "timestamp": 7.5,
+          "frame_index": 15,
+          "visual_analysis": {
+            "category": "safe_content",
+            "confidence": 0.8966893553733826,
+            "violation_detected": false,
+            "all_probabilities": {
+              "safe_content": 0.8966893553733826,
+              "suggestive_content": 0.042451921850442886,
+              "artistic_adult_content": 0.005045879166573286,
+              "misinformation": 0.04675954952836037,
+              "violence": 0.002670470392331481,
+              "hate_speech": 0.0033787605352699757,
+              "dangerous_activities": 0.003004120197147131
+            }
+          },
+          "blip_description": {
+            "description": "a person holding a cat in their hand",
+            "blip_available": true
+          },
+          "ocr_text": {
+            "text": "So adorable Pov: found out my cat's got secret job as an ad star",
+            "extracted_items": [
+              {
+                "text": "So adorable",
+                "confidence": 0.6924085156397869,
+                "bbox": [
+                  [
+                    281,
+                    39
+                  ],
+                  [
+                    351,
+                    39
+                  ],
+                  [
+                    351,
+                    55
+                  ],
+                  [
+                    281,
+                    55
+                  ]
+                ]
+              },
+              {
+                "text": "Pov:",
+                "confidence": 0.9972708225250244,
+                "bbox": [
+                  [
+                    22,
+                    66
+                  ],
+                  [
+                    74,
+                    66
+                  ],
+                  [
+                    74,
+                    92
+                  ],
+                  [
+                    22,
+                    92
+                  ]
+                ]
+              },
+              {
+                "text": "found out my cat's got",
+                "confidence": 0.8375072907961274,
+                "bbox": [
+                  [
+                    86,
+                    66
+                  ],
+                  [
+                    340,
+                    66
+                  ],
+                  [
+                    340,
+                    96
+                  ],
+                  [
+                    86,
+                    96
+                  ]
+                ]
+              },
+              {
+                "text": "secret job as an ad star",
+                "confidence": 0.7394578851191775,
+                "bbox": [
+                  [
+                    57,
+                    96
+                  ],
+                  [
+                    320,
+                    96
+                  ],
+                  [
+                    320,
+                    126
+                  ],
+                  [
+                    57,
+                    126
+                  ]
+                ]
+              }
+            ],
+            "ocr_available": true
+          },
+          "combined_violation": false,
+          "preview_path": "/static/frames/temp_1755890482_Y2Mate.now_Coincidentally, the cat looks just like the one in the ad #shorts #cat #catlovers_360p_frame_16.jpg"
+        }
+      ]
+    }
+  },
+  "rag_explanations": [
+    {
+      "type": "visual",
+      "frame": 1,
+      "timestamp": 0.0,
+      "category": "safe_content",
+      "confidence": 0.8964582681655884,
+      "blip": "a person holding a bag of kittens in their hands",
+      "ocr": "So adbrable Pov: found out my cat's got secret job as an ad star",
+      "policy": {
+        "description": "Content showing dangerous or harmful activities",
+        "examples": [
+          "extreme stunts",
+          "self-harm",
+          "dangerous challenges"
+        ],
+        "severity_indicators": [
+          "life-threatening",
+          "copyable dangers",
+          "no safety warnings"
+        ],
+        "context_matters": [
+          "professional vs amateur",
+          "safety precautions shown"
+        ],
+        "action_required": "age_restriction_or_removal"
+      },
+      "action_required": "age_restriction_or_removal",
+      "examples": [
+        "extreme stunts",
+        "self-harm",
+        "dangerous challenges"
+      ],
+      "severity_indicators": [
+        "life-threatening",
+        "copyable dangers",
+        "no safety warnings"
+      ],
+      "context_factors": [
+        "professional vs amateur",
+        "safety precautions shown"
+      ],
+      "violation_detected": false
+    },
+    {
+      "type": "visual",
+      "frame": 2,
+      "timestamp": 0.5,
+      "category": "safe_content",
+      "confidence": 0.8962218761444092,
+      "blip": "a person holding a cat in their hand",
+      "ocr": "So ndordble Pov: found out my cat's got secret job as an ad star Mo?",
+      "policy": {
+        "description": "Content showing dangerous or harmful activities",
+        "examples": [
+          "extreme stunts",
+          "self-harm",
+          "dangerous challenges"
+        ],
+        "severity_indicators": [
+          "life-threatening",
+          "copyable dangers",
+          "no safety warnings"
+        ],
+        "context_matters": [
+          "professional vs amateur",
+          "safety precautions shown"
+        ],
+        "action_required": "age_restriction_or_removal"
+      },
+      "action_required": "age_restriction_or_removal",
+      "examples": [
+        "extreme stunts",
+        "self-harm",
+        "dangerous challenges"
+      ],
+      "severity_indicators": [
+        "life-threatening",
+        "copyable dangers",
+        "no safety warnings"
+      ],
+      "context_factors": [
+        "professional vs amateur",
+        "safety precautions shown"
+      ],
+      "violation_detected": false
+    },
+    {
+      "type": "visual",
+      "frame": 3,
+      "timestamp": 1.0,
+      "category": "safe_content",
+      "confidence": 0.89705491065979,
+      "blip": "a man is holding a cat in his hand",
+      "ocr": "So ndorable Pov: found out my cat's got secret job as an ad star",
+      "policy": {
+        "description": "Content showing dangerous or harmful activities",
+        "examples": [
+          "extreme stunts",
+          "self-harm",
+          "dangerous challenges"
+        ],
+        "severity_indicators": [
+          "life-threatening",
+          "copyable dangers",
+          "no safety warnings"
+        ],
+        "context_matters": [
+          "professional vs amateur",
+          "safety precautions shown"
+        ],
+        "action_required": "age_restriction_or_removal"
+      },
+      "action_required": "age_restriction_or_removal",
+      "examples": [
+        "extreme stunts",
+        "self-harm",
+        "dangerous challenges"
+      ],
+      "severity_indicators": [
+        "life-threatening",
+        "copyable dangers",
+        "no safety warnings"
+      ],
+      "context_factors": [
+        "professional vs amateur",
+        "safety precautions shown"
+      ],
+      "violation_detected": false
+    },
+    {
+      "type": "visual",
+      "frame": 4,
+      "timestamp": 1.5,
+      "category": "safe_content",
+      "confidence": 0.8848713636398315,
+      "blip": "a person is holding a cat in their hand",
+      "ocr": "So ndbrable Pov: found out my cat's got secret job as an ad star",
+      "policy": {
+        "description": "Content showing dangerous or harmful activities",
+        "examples": [
+          "extreme stunts",
+          "self-harm",
+          "dangerous challenges"
+        ],
+        "severity_indicators": [
+          "life-threatening",
+          "copyable dangers",
+          "no safety warnings"
+        ],
+        "context_matters": [
+          "professional vs amateur",
+          "safety precautions shown"
+        ],
+        "action_required": "age_restriction_or_removal"
+      },
+      "action_required": "age_restriction_or_removal",
+      "examples": [
+        "extreme stunts",
+        "self-harm",
+        "dangerous challenges"
+      ],
+      "severity_indicators": [
+        "life-threatening",
+        "copyable dangers",
+        "no safety warnings"
+      ],
+      "context_factors": [
+        "professional vs amateur",
+        "safety precautions shown"
+      ],
+      "violation_detected": false
+    },
+    {
+      "type": "visual",
+      "frame": 5,
+      "timestamp": 2.0,
+      "category": "safe_content",
+      "confidence": 0.8864792585372925,
+      "blip": "a person is holding a cat in their hand",
+      "ocr": "So ndbrable Pov: found out my cat's got secret job as an ad star",
+      "policy": {
+        "description": "Content showing dangerous or harmful activities",
+        "examples": [
+          "extreme stunts",
+          "self-harm",
+          "dangerous challenges"
+        ],
+        "severity_indicators": [
+          "life-threatening",
+          "copyable dangers",
+          "no safety warnings"
+        ],
+        "context_matters": [
+          "professional vs amateur",
+          "safety precautions shown"
+        ],
+        "action_required": "age_restriction_or_removal"
+      },
+      "action_required": "age_restriction_or_removal",
+      "examples": [
+        "extreme stunts",
+        "self-harm",
+        "dangerous challenges"
+      ],
+      "severity_indicators": [
+        "life-threatening",
+        "copyable dangers",
+        "no safety warnings"
+      ],
+      "context_factors": [
+        "professional vs amateur",
+        "safety precautions shown"
+      ],
+      "violation_detected": false
+    },
+    {
+      "type": "visual",
+      "frame": 6,
+      "timestamp": 2.5,
+      "category": "safe_content",
+      "confidence": 0.87912517786026,
+      "blip": "a person is holding a cat in their hand",
+      "ocr": "So adorable Pov: found out my cat's got secret job as an ad star MQ",
+      "policy": {
+        "description": "Content showing dangerous or harmful activities",
+        "examples": [
+          "extreme stunts",
+          "self-harm",
+          "dangerous challenges"
+        ],
+        "severity_indicators": [
+          "life-threatening",
+          "copyable dangers",
+          "no safety warnings"
+        ],
+        "context_matters": [
+          "professional vs amateur",
+          "safety precautions shown"
+        ],
+        "action_required": "age_restriction_or_removal"
+      },
+      "action_required": "age_restriction_or_removal",
+      "examples": [
+        "extreme stunts",
+        "self-harm",
+        "dangerous challenges"
+      ],
+      "severity_indicators": [
+        "life-threatening",
+        "copyable dangers",
+        "no safety warnings"
+      ],
+      "context_factors": [
+        "professional vs amateur",
+        "safety precautions shown"
+      ],
+      "violation_detected": false
+    },
+    {
+      "type": "visual",
+      "frame": 7,
+      "timestamp": 3.0,
+      "category": "safe_content",
+      "confidence": 0.8863764405250549,
+      "blip": "a person holding a cat in their hand",
+      "ocr": "So adorable Pov: found out my cat's got secret job as an ad star",
+      "policy": {
+        "description": "Content showing dangerous or harmful activities",
+        "examples": [
+          "extreme stunts",
+          "self-harm",
+          "dangerous challenges"
+        ],
+        "severity_indicators": [
+          "life-threatening",
+          "copyable dangers",
+          "no safety warnings"
+        ],
+        "context_matters": [
+          "professional vs amateur",
+          "safety precautions shown"
+        ],
+        "action_required": "age_restriction_or_removal"
+      },
+      "action_required": "age_restriction_or_removal",
+      "examples": [
+        "extreme stunts",
+        "self-harm",
+        "dangerous challenges"
+      ],
+      "severity_indicators": [
+        "life-threatening",
+        "copyable dangers",
+        "no safety warnings"
+      ],
+      "context_factors": [
+        "professional vs amateur",
+        "safety precautions shown"
+      ],
+      "violation_detected": false
+    },
+    {
+      "type": "visual",
+      "frame": 8,
+      "timestamp": 3.5,
+      "category": "safe_content",
+      "confidence": 0.89068204164505,
+      "blip": "a person is holding a cat in their hand",
+      "ocr": "So adordble Pov: found out my cat's got secret job as an ad star",
+      "policy": {
+        "description": "Content showing dangerous or harmful activities",
+        "examples": [
+          "extreme stunts",
+          "self-harm",
+          "dangerous challenges"
+        ],
+        "severity_indicators": [
+          "life-threatening",
+          "copyable dangers",
+          "no safety warnings"
+        ],
+        "context_matters": [
+          "professional vs amateur",
+          "safety precautions shown"
+        ],
+        "action_required": "age_restriction_or_removal"
+      },
+      "action_required": "age_restriction_or_removal",
+      "examples": [
+        "extreme stunts",
+        "self-harm",
+        "dangerous challenges"
+      ],
+      "severity_indicators": [
+        "life-threatening",
+        "copyable dangers",
+        "no safety warnings"
+      ],
+      "context_factors": [
+        "professional vs amateur",
+        "safety precautions shown"
+      ],
+      "violation_detected": false
+    },
+    {
+      "type": "visual",
+      "frame": 9,
+      "timestamp": 4.0,
+      "category": "safe_content",
+      "confidence": 0.894618809223175,
+      "blip": "a person holding a cat in their hand",
+      "ocr": "So adorable Pov: found out my cat's got secret job as an ad star",
+      "policy": {
+        "description": "Content showing dangerous or harmful activities",
+        "examples": [
+          "extreme stunts",
+          "self-harm",
+          "dangerous challenges"
+        ],
+        "severity_indicators": [
+          "life-threatening",
+          "copyable dangers",
+          "no safety warnings"
+        ],
+        "context_matters": [
+          "professional vs amateur",
+          "safety precautions shown"
+        ],
+        "action_required": "age_restriction_or_removal"
+      },
+      "action_required": "age_restriction_or_removal",
+      "examples": [
+        "extreme stunts",
+        "self-harm",
+        "dangerous challenges"
+      ],
+      "severity_indicators": [
+        "life-threatening",
+        "copyable dangers",
+        "no safety warnings"
+      ],
+      "context_factors": [
+        "professional vs amateur",
+        "safety precautions shown"
+      ],
+      "violation_detected": false
+    },
+    {
+      "type": "visual",
+      "frame": 10,
+      "timestamp": 4.5,
+      "category": "safe_content",
+      "confidence": 0.8883396983146667,
+      "blip": "a person is holding a cat in their hand",
+      "ocr": "So adorable Pov: found out my cat's got secret job as an ad star",
+      "policy": {
+        "description": "Content showing dangerous or harmful activities",
+        "examples": [
+          "extreme stunts",
+          "self-harm",
+          "dangerous challenges"
+        ],
+        "severity_indicators": [
+          "life-threatening",
+          "copyable dangers",
+          "no safety warnings"
+        ],
+        "context_matters": [
+          "professional vs amateur",
+          "safety precautions shown"
+        ],
+        "action_required": "age_restriction_or_removal"
+      },
+      "action_required": "age_restriction_or_removal",
+      "examples": [
+        "extreme stunts",
+        "self-harm",
+        "dangerous challenges"
+      ],
+      "severity_indicators": [
+        "life-threatening",
+        "copyable dangers",
+        "no safety warnings"
+      ],
+      "context_factors": [
+        "professional vs amateur",
+        "safety precautions shown"
+      ],
+      "violation_detected": false
+    },
+    {
+      "type": "visual",
+      "frame": 11,
+      "timestamp": 5.0,
+      "category": "safe_content",
+      "confidence": 0.8744210600852966,
+      "blip": "a person holding a cat in their hand",
+      "ocr": "So adorable Pov: found out my cat's got secret job as an ad star",
+      "policy": {
+        "description": "Content showing dangerous or harmful activities",
+        "examples": [
+          "extreme stunts",
+          "self-harm",
+          "dangerous challenges"
+        ],
+        "severity_indicators": [
+          "life-threatening",
+          "copyable dangers",
+          "no safety warnings"
+        ],
+        "context_matters": [
+          "professional vs amateur",
+          "safety precautions shown"
+        ],
+        "action_required": "age_restriction_or_removal"
+      },
+      "action_required": "age_restriction_or_removal",
+      "examples": [
+        "extreme stunts",
+        "self-harm",
+        "dangerous challenges"
+      ],
+      "severity_indicators": [
+        "life-threatening",
+        "copyable dangers",
+        "no safety warnings"
+      ],
+      "context_factors": [
+        "professional vs amateur",
+        "safety precautions shown"
+      ],
+      "violation_detected": false
+    },
+    {
+      "type": "visual",
+      "frame": 12,
+      "timestamp": 5.5,
+      "category": "safe_content",
+      "confidence": 0.8711830973625183,
+      "blip": "a person is holding a cat in their hand",
+      "ocr": "So adorable Pov: found out my cat's got secret job as an ad star G",
+      "policy": {
+        "description": "Content showing dangerous or harmful activities",
+        "examples": [
+          "extreme stunts",
+          "self-harm",
+          "dangerous challenges"
+        ],
+        "severity_indicators": [
+          "life-threatening",
+          "copyable dangers",
+          "no safety warnings"
+        ],
+        "context_matters": [
+          "professional vs amateur",
+          "safety precautions shown"
+        ],
+        "action_required": "age_restriction_or_removal"
+      },
+      "action_required": "age_restriction_or_removal",
+      "examples": [
+        "extreme stunts",
+        "self-harm",
+        "dangerous challenges"
+      ],
+      "severity_indicators": [
+        "life-threatening",
+        "copyable dangers",
+        "no safety warnings"
+      ],
+      "context_factors": [
+        "professional vs amateur",
+        "safety precautions shown"
+      ],
+      "violation_detected": false
+    },
+    {
+      "type": "visual",
+      "frame": 13,
+      "timestamp": 6.0,
+      "category": "safe_content",
+      "confidence": 0.8858299851417542,
+      "blip": "a person is holding a cat in their hand",
+      "ocr": "So adorable Pov: found out my cat's got secret job as an ad star",
+      "policy": {
+        "description": "Content showing dangerous or harmful activities",
+        "examples": [
+          "extreme stunts",
+          "self-harm",
+          "dangerous challenges"
+        ],
+        "severity_indicators": [
+          "life-threatening",
+          "copyable dangers",
+          "no safety warnings"
+        ],
+        "context_matters": [
+          "professional vs amateur",
+          "safety precautions shown"
+        ],
+        "action_required": "age_restriction_or_removal"
+      },
+      "action_required": "age_restriction_or_removal",
+      "examples": [
+        "extreme stunts",
+        "self-harm",
+        "dangerous challenges"
+      ],
+      "severity_indicators": [
+        "life-threatening",
+        "copyable dangers",
+        "no safety warnings"
+      ],
+      "context_factors": [
+        "professional vs amateur",
+        "safety precautions shown"
+      ],
+      "violation_detected": false
+    },
+    {
+      "type": "visual",
+      "frame": 14,
+      "timestamp": 6.5,
+      "category": "safe_content",
+      "confidence": 0.8880194425582886,
+      "blip": "a person is holding a cat in their hand",
+      "ocr": "So adorable Pov: found out my cat's got secret job as an ad star",
+      "policy": {
+        "description": "Content showing dangerous or harmful activities",
+        "examples": [
+          "extreme stunts",
+          "self-harm",
+          "dangerous challenges"
+        ],
+        "severity_indicators": [
+          "life-threatening",
+          "copyable dangers",
+          "no safety warnings"
+        ],
+        "context_matters": [
+          "professional vs amateur",
+          "safety precautions shown"
+        ],
+        "action_required": "age_restriction_or_removal"
+      },
+      "action_required": "age_restriction_or_removal",
+      "examples": [
+        "extreme stunts",
+        "self-harm",
+        "dangerous challenges"
+      ],
+      "severity_indicators": [
+        "life-threatening",
+        "copyable dangers",
+        "no safety warnings"
+      ],
+      "context_factors": [
+        "professional vs amateur",
+        "safety precautions shown"
+      ],
+      "violation_detected": false
+    },
+    {
+      "type": "visual",
+      "frame": 15,
+      "timestamp": 7.0,
+      "category": "safe_content",
+      "confidence": 0.8951762318611145,
+      "blip": "a cat is sitting on the floor and eating a bag of chips",
+      "ocr": "So adorable Pov: found out my cat's got secret job as an ad star",
+      "policy": {
+        "description": "Content showing dangerous or harmful activities",
+        "examples": [
+          "extreme stunts",
+          "self-harm",
+          "dangerous challenges"
+        ],
+        "severity_indicators": [
+          "life-threatening",
+          "copyable dangers",
+          "no safety warnings"
+        ],
+        "context_matters": [
+          "professional vs amateur",
+          "safety precautions shown"
+        ],
+        "action_required": "age_restriction_or_removal"
+      },
+      "action_required": "age_restriction_or_removal",
+      "examples": [
+        "extreme stunts",
+        "self-harm",
+        "dangerous challenges"
+      ],
+      "severity_indicators": [
+        "life-threatening",
+        "copyable dangers",
+        "no safety warnings"
+      ],
+      "context_factors": [
+        "professional vs amateur",
+        "safety precautions shown"
+      ],
+      "violation_detected": false
+    },
+    {
+      "type": "visual",
+      "frame": 16,
+      "timestamp": 7.5,
+      "category": "safe_content",
+      "confidence": 0.8966893553733826,
+      "blip": "a person holding a cat in their hand",
+      "ocr": "So adorable Pov: found out my cat's got secret job as an ad star",
+      "policy": {
+        "description": "Content showing dangerous or harmful activities",
+        "examples": [
+          "extreme stunts",
+          "self-harm",
+          "dangerous challenges"
+        ],
+        "severity_indicators": [
+          "life-threatening",
+          "copyable dangers",
+          "no safety warnings"
+        ],
+        "context_matters": [
+          "professional vs amateur",
+          "safety precautions shown"
+        ],
+        "action_required": "age_restriction_or_removal"
+      },
+      "action_required": "age_restriction_or_removal",
+      "examples": [
+        "extreme stunts",
+        "self-harm",
+        "dangerous challenges"
+      ],
+      "severity_indicators": [
+        "life-threatening",
+        "copyable dangers",
+        "no safety warnings"
+      ],
+      "context_factors": [
+        "professional vs amateur",
+        "safety precautions shown"
+      ],
+      "violation_detected": false
+    },
+    {
+      "type": "audio",
+      "category": "safe",
+      "keywords": [],
+      "severity": "none",
+      "transcript": " www.spin",
+      "policy": {
+        "description": "Content showing dangerous or harmful activities",
+        "examples": [
+          "extreme stunts",
+          "self-harm",
+          "dangerous challenges"
+        ],
+        "severity_indicators": [
+          "life-threatening",
+          "copyable dangers",
+          "no safety warnings"
+        ],
+        "context_matters": [
+          "professional vs amateur",
+          "safety precautions shown"
+        ],
+        "action_required": "age_restriction_or_removal"
+      },
+      "action_required": "age_restriction_or_removal",
+      "examples": [
+        "extreme stunts",
+        "self-harm",
+        "dangerous challenges"
+      ],
+      "severity_indicators": [
+        "life-threatening",
+        "copyable dangers",
+        "no safety warnings"
+      ],
+      "context_factors": [
+        "professional vs amateur",
+        "safety precautions shown"
+      ]
+    }
+  ]
+}
