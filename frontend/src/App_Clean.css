@@ -1,0 +1,92 @@
+body,
+html,
+#root {
+    height: 100%;
+    margin: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #f5f6fa;
+}
+
+.app-container {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    width: 240px;
+    background: linear-gradient(180deg, #007cf0 0%, #00dfd8 100%);
+    color: #fff;
+    padding: 32px 16px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar h2 {
+    margin-bottom: 32px;
+    font-size: 1.2rem;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    margin: 16px 0;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.dashboard {
+    flex: 1;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+}
+
+.dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+.dashboard-header h1 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.start-btn {
+    background: #007cf0;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.dashboard-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 24px;
+}
+
+.card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+    padding: 24px;
+    min-height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card h3 {
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-size: 1.1rem;
+    color: #007cf0;
+}

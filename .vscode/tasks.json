@@ -1,0 +1,13 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Démarrer Backend IA",
+			"type": "shell",
+		"command": "python backend/main.py",
+			"group": "build",
+			"isBackground": true,
+			"problemMatcher": []
+		}
+	]
+}
