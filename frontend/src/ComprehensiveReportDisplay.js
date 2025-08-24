@@ -5,7 +5,27 @@ import AudiotrackIcon from '@mui/icons-material/Audiotrack';
 export default function ComprehensiveReportDisplay({ report }) {
     if (!report) return null;
 
-
+    // Model Metrics Card (top summary)
+    function ModelMetricsCard() {
+        return (
+            <Card sx={{ width: '100%', maxWidth: 1100, mb: 2, boxShadow: 3, borderRadius: 3, p: 2, background: '#e3f2fd' }}>
+                <CardContent>
+                    <Typography variant="h6" sx={{ fontWeight: 'bold', color: '#1976d2', mb: 1 }}>Model Metrics</Typography>
+                    <Box sx={{ display: 'flex', flexDirection: 'row', gap: 4, alignItems: 'center' }}>
+                        <Box>
+                            <Typography variant="body1"><b>Text Score:</b> {textScore || 'N/A'}%</Typography>
+                            <Typography variant="body1"><b>Audio Score:</b> {audioScore || 'N/A'}%</Typography>
+                            <Typography variant="body1"><b>Image Score:</b> {imageScore || 'N/A'}%</Typography>
+                        </Box>
+                        <Box>
+                            <Typography variant="body1"><b>Compliance Rate:</b> {complianceRate}%</Typography>
+                            <Chip label={complianceRate > 50 ? 'Compliant' : 'Non-Compliant'} color={complianceRate > 50 ? 'success' : 'error'} sx={{ fontWeight: 'bold', ml: 1 }} />
+                        </Box>
+                    </Box>
+                </CardContent>
+            </Card>
+        );
+    }
 
     // Helper styles
     const headerChipStyle = { fontWeight: 'bold', fontSize: 15, px: 2, py: 0.5, borderRadius: 2 };
@@ -73,94 +93,61 @@ export default function ComprehensiveReportDisplay({ report }) {
     }
 
     // RAG guideline summary logic
+    // Only show grouped policy explanations and summary, no frame-by-frame details
     const ragExplanations = (fields.rag_explanations || report.rag_explanations || []);
     const isCompliant = complianceRate > 50;
     let guidelineSummary = '';
     let guidelineReasons = [];
-    // Helper to get unique, relevant reasons
-    function getUniqueReasons(explanations, compliant) {
-        const seen = new Set();
-        return explanations
-            .map(exp => {
-                let reason = '';
-                if (exp.policy && exp.policy.description) {
-                    reason = exp.policy.description;
-                } else if (exp.explanation) {
-                    reason = exp.explanation;
-                } else if (typeof exp === 'string') {
-                    reason = exp;
-                } else {
-                    reason = JSON.stringify(exp);
-                }
-                return reason.trim();
-            })
-            .filter(r => r && !seen.has(r) && r.toLowerCase() !== 'safe content' && seen.add(r))
-            .slice(0, 5); // Limit to 5 reasons for clarity
-    }
-
     if (isCompliant) {
-        guidelineSummary = 'This video follows YouTube guidelines because:';
-        // Show enhanced RAG explanations (scraped policy)
-        // Deduplicate and personalize RAG policy explanations
-        let ragDetails = [];
-        if (Array.isArray(ragExplanations) && ragExplanations.length > 0) {
-            // If any explanation is 'Safe Content', show only that
-            const safeExp = ragExplanations.find(exp => exp.policy && exp.policy.category === 'Safe Content');
-            if (safeExp) {
-                ragDetails = [`- [${safeExp.policy.category}] ${safeExp.policy.description}`];
-            } else {
-                const seenPolicies = new Set();
-                ragDetails = ragExplanations
-                    .map((exp) => {
-                        if (exp.policy && exp.policy.description) {
-                            const key = `${exp.policy.category || ''}|${exp.policy.description}`;
-                            if (seenPolicies.has(key)) return null;
-                            seenPolicies.add(key);
-                            let line = `- [${exp.policy.category || 'Policy'}] ${exp.policy.description}`;
-                            if (exp.examples && exp.examples.length > 0) {
-                                line += ` (Examples: ${exp.examples.slice(0,2).join('; ')})`;
-                            }
-                            return line;
-                        }
-                        if (exp.explanation) {
-                            return `- ${exp.explanation}`;
-                        }
-                        return null;
-                    })
-                    .filter(Boolean);
-            }
-        }
-        // Get BLIP descriptions for more content, deduplicated
-        const blipDescs = Array.isArray(framesArr)
-            ? framesArr.map(f => f.blip_description?.description).filter(d => d && d.trim() && d !== 'No BLIP description available.')
-            : [];
-        const uniqueBlipDescs = [...new Set(blipDescs)].slice(0, 3); // Limit to 3 for clarity
-        guidelineReasons = [];
-        if (ragDetails.length > 0) {
-            guidelineReasons = ragDetails;
-        } else {
-            guidelineReasons = ['- No violations detected.'];
-        }
-        if (uniqueBlipDescs.length > 0) {
-            guidelineReasons.push('Frame Descriptions (AI visual summary):');
-            uniqueBlipDescs.forEach(desc => guidelineReasons.push(`- ${desc}`));
-        }
+        guidelineSummary = 'This video follows YouTube guidelines.';
+        guidelineReasons = ['No violations detected. Content is safe and suitable for YouTube.'];
     } else {
-        guidelineSummary = 'This video does not follow YouTube guidelines because:';
-        guidelineReasons = ragExplanations.length > 0
-            ? getUniqueReasons(ragExplanations, false)
-            : ['- Violations detected, but no detailed policy explanation available.'];
+        guidelineSummary = '';
+        // Group violations by type and action required, but do not show frame-by-frame details
+        const violationTypes = {};
+        ragExplanations.forEach(exp => {
+            const cat = exp.policy?.category || exp.category || 'Violation';
+            const action = exp.action_required || (exp.policy?.action_required ?? '');
+            if (!violationTypes[cat]) violationTypes[cat] = { count: 0, actions: new Set(), reasons: new Set() };
+            violationTypes[cat].count++;
+            if (action) violationTypes[cat].actions.add(action);
+            if (exp.policy?.description) violationTypes[cat].reasons.add(exp.policy.description);
+        });
+        guidelineReasons = [];
+        Object.entries(violationTypes).forEach(([cat, info]) => {
+            const mainReason = Array.from(info.reasons).join(' ');
+            const actions = Array.from(info.actions).join(', ');
+            guidelineReasons.push(
+                `${cat}: ${mainReason}${actions ? ' Action Required: ' + actions + '.' : ''}`
+            );
+        });
+        if (guidelineReasons.length === 0) {
+            guidelineReasons = ['Violations detected, but no detailed policy explanation available.'];
+        }
     }
 
     return (
         <Box sx={{ width: '100vw', minHeight: '100vh', maxHeight: '100vh', background: '#f7f8fa', display: 'flex', flexDirection: 'column', alignItems: 'center', p: 2, overflowY: 'auto' }}>
-            {/* Guideline summary section */}
-            <Box sx={{ width: '100%', maxWidth: 1100, mb: 2, p: 2, background: isCompliant ? '#e8f5e9' : '#ffebee', borderRadius: 3, boxShadow: 2 }}>
-                <Typography variant="h6" sx={{ fontWeight: 'bold', color: isCompliant ? '#43a047' : '#e53935', mb: 1 }}>{guidelineSummary}</Typography>
-                {guidelineReasons.map((reason, idx) => (
-                    <Typography key={idx} variant="body2" sx={{ mb: 0.5 }}>{reason}</Typography>
-                ))}
-            </Box>
+            {/* Model Metrics Card */}
+            <ModelMetricsCard />
+            {/* Guideline summary section - YouTube-style violation banner for non-compliance */}
+            {isCompliant ? (
+                <Box sx={{ width: '100%', maxWidth: 1100, mb: 2, p: 2, background: '#e8f5e9', borderRadius: 3, boxShadow: 2 }}>
+                    <Typography variant="h6" sx={{ fontWeight: 'bold', color: '#43a047', mb: 1 }}>{guidelineSummary}</Typography>
+                    {guidelineReasons.map((reason, idx) => (
+                        <Typography key={idx} variant="body2" sx={{ mb: 0.5 }}>{reason}</Typography>
+                    ))}
+                </Box>
+            ) : (
+                <Box sx={{ width: '100%', maxWidth: 1100, mb: 2, p: 2, background: '#ffebee', borderRadius: 3, boxShadow: 2, border: '2px solid #e53935' }}>
+                    <Typography variant="h5" sx={{ fontWeight: 'bold', color: '#e53935', mb: 1 }}>
+                        <span role="img" aria-label="warning">⚠️</span> This video does not follow YouTube guidelines
+                    </Typography>
+                    {guidelineReasons.map((reason, idx) => (
+                        <Typography key={idx} variant="body1" sx={{ mb: 1, color: '#e53935', fontWeight: 'bold' }}>{reason}</Typography>
+                    ))}
+                </Box>
+            )}
             {/* Header chips for source/analysis */}
             <Box sx={{ width: '100%', maxWidth: 1100, display: 'flex', flexDirection: 'row', gap: 2, mb: 1, justifyContent: 'center' }}>
                 <Chip label="Source: Model Output" sx={{ ...headerChipStyle, background: '#1976d2', color: '#fff' }} />

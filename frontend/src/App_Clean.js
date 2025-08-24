@@ -187,24 +187,7 @@ function App() {
   } else if (showRagPage) {
     mainContent = (
       <Box sx={{ width: '100%', height: '100%', p: 2, background: 'linear-gradient(120deg, #e3f2fd 60%, #fffde7 100%)', borderRadius: 4, boxShadow: 3 }}>
-        <Box sx={{ mb: 2 }}>
-          <Typography variant="h5" color="success.main" sx={{ fontWeight: 'bold', mb: 1 }}>
-            Safe Content Frames: {safeCount} / {totalFrames}
-          </Typography>
-          <LinearProgress variant="determinate" value={totalFrames ? (safeCount / totalFrames) * 100 : 0} sx={{ height: 10, borderRadius: 5, mt: 1 }} color="success" />
-          {parsedReport && (
-            <Card sx={{ mt: 2, boxShadow: 2, borderRadius: 2, background: '#fff' }}>
-              <CardContent>
-                <Typography variant="subtitle1" sx={{ fontWeight: 'bold', mb: 1 }} color="primary">
-                  Model Analysis Summary
-                </Typography>
-                <Typography variant="body2">Score: <b>{parsedReport?.image_score || 'N/A'}%</b></Typography>
-                <Typography variant="body2">Status: <b>{parsedReport?.overall || 'N/A'}</b></Typography>
-                <Typography variant="body2">Frames Analyzed: <b>{parsedReport?.frames_analyzed || 'N/A'}</b></Typography>
-              </CardContent>
-            </Card>
-          )}
-        </Box>
+        {/* Only show grouped policy explanations and summary, no frame-by-frame cards */}
         <RagAnalysisPage ragAnalysis={ragAnalysis} onBack={() => setShowRagPage(false)} />
       </Box>
     );
