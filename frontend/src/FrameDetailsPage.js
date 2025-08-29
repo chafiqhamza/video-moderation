@@ -4,6 +4,7 @@ import {
   Typography,
   Divider,
   Button,
+  TextField,
   Dialog,
   DialogTitle,
   DialogContent,
@@ -22,6 +23,8 @@ import CloseIcon from '@mui/icons-material/Close';
 const FrameDetailsPage = ({ frames = [], onBack = () => {} }) => {
   const [previewOpen, setPreviewOpen] = useState(false);
   const [previewSrc, setPreviewSrc] = useState('');
+  const [strengths, setStrengths] = useState({});
+  const [showOriginal, setShowOriginal] = useState({});
   const [toast, setToast] = useState({ open: false, severity: 'success', message: '' });
   const [blurLoading, setBlurLoading] = useState({});
   const [blurResults, setBlurResults] = useState({});
@@ -51,7 +54,17 @@ const FrameDetailsPage = ({ frames = [], onBack = () => {} }) => {
       const preview = frame.preview_path || frame.preview || null;
       if (!preview) return setToast({ open: true, severity: 'warning', message: 'No preview path available to blur' });
       setBlurLoading(prev => ({ ...prev, [idx]: true }));
-      const payload = { preview_path: preview, options: { strength: 12 } };
+  const strength = (strengths[idx] !== undefined) ? Number(strengths[idx]) : (frame.options && frame.options.strength) ? Number(frame.options.strength) : 12;
+  // include an explicit `frame` object so backend knows which frame/timestamp to use
+  const payload = {
+    preview_path: preview,
+    frame: {
+      preview_path: preview,
+      frame_index: frame.frame_index ?? idx,
+      timestamp: frame.timestamp ?? frame.ts ?? 0,
+      options: { strength: strength, return_original: !!showOriginal[idx] }
+    }
+  };
       // include video id if present
       if (vid) payload.video_id = vid;
       // Try to request an MP4 generation first so downloads produce a video instead of an image.
@@ -244,7 +257,16 @@ const FrameDetailsPage = ({ frames = [], onBack = () => {} }) => {
           // Prefer server-side MP4 generation: instruct backend to produce MP4 from the blur image
           // Use video id 0 as a safe default if caller doesn't have one
           const candidateUrl = url.startsWith('/') ? window.location.origin + url : url;
-          const convPayload = { preview_path: candidateUrl, frame: { blur_result: candidateUrl }, timestamp: 0 };
+          const convPayload = {
+            preview_path: candidateUrl,
+            frame: {
+              preview_path: candidateUrl,
+              frame_index: 0,
+              timestamp: 0,
+              blur_result: candidateUrl,
+              options: { strength: 12 }
+            }
+          };
           const convResp = await fetch(`/api/videos/${savedVideoId || '0'}/apply-frame-blur-to-video`, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(convPayload) });
           if (convResp.ok) {
             const j = await convResp.json();
@@ -320,7 +342,11 @@ const FrameDetailsPage = ({ frames = [], onBack = () => {} }) => {
             }
             // image data URI -> request server to convert and return an MP4
             try {
-              const convPayload = { blur_image_data: candidate, preview_path: undefined, timestamp: 0 };
+              const convPayload = {
+                blur_image_data: candidate,
+                preview_path: undefined,
+                frame: { preview_path: undefined, frame_index: 0, timestamp: 0, blur_result: candidate, options: { strength: 12 } }
+              };
               const convResp = await fetch(`/api/videos/${savedVideoId || '0'}/apply-frame-blur-embedded`, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(convPayload) });
               if (convResp.ok) {
                 const j = await convResp.json();
@@ -347,7 +373,10 @@ const FrameDetailsPage = ({ frames = [], onBack = () => {} }) => {
           if (isImageCandidate) {
             // attempt to produce MP4 via backend before downloading the image
             try {
-              const convPayload = { preview_path: candidateUrl, frame: { blur_result: candidateUrl }, timestamp: 0 };
+              const convPayload = {
+                preview_path: candidateUrl,
+                frame: { preview_path: candidateUrl, frame_index: 0, timestamp: 0, blur_result: candidateUrl, options: { strength: 12 } }
+              };
               const convResp = await fetch(`/api/videos/${savedVideoId || '0'}/apply-frame-blur-to-video`, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(convPayload) });
               if (convResp.ok) {
                 const j2 = await convResp.json();
@@ -634,15 +663,16 @@ const FrameDetailsPage = ({ frames = [], onBack = () => {} }) => {
   // Add helper to synchronously request an MP4 with the blur overlay and download it
   async function createBlurredVideoAndDownload(videoId, frame, options = {}) {
     try {
-      const payload = {
+    const payload = {
         // provide either a source video path or a preview image path if available
         preview_path: frame.preview_path || frame.preview || undefined,
         source_path: frame.source_path || undefined,
         frame: {
           blur_result: frame.blur_result,
           preview_path: frame.preview_path || frame.preview || undefined,
-          bbox: frame.bbox || undefined,
-          options: frame.options || options || undefined
+      bbox: frame.bbox || undefined,
+      // Merge provided options with any UI overrides (strength/return_original)
+      options: (frame.options || {}) || options || undefined
         },
         timestamp: (frame.timestamp !== undefined) ? frame.timestamp : (options.timestamp || 0)
       };
@@ -698,6 +728,7 @@ const FrameDetailsPage = ({ frames = [], onBack = () => {} }) => {
         preview_path: frame.preview_path || frame.preview || undefined,
         blur_result: frame.blur_result || undefined,
         bbox: frame.bbox || undefined,
+        // preserve any per-frame options; UI may have ephemeral overrides
         options: frame.options || {}
       },
       options: {
@@ -728,7 +759,7 @@ const FrameDetailsPage = ({ frames = [], onBack = () => {} }) => {
               if (isImage && videoId) {
                 try {
                   // request server to produce MP4 from the blur image
-                  const payload = { preview_path: rp, frame: { blur_result: rp }, timestamp: frame.timestamp || 0 };
+                  const payload = { preview_path: rp, frame: { preview_path: rp, frame_index: frame.frame_index ?? 0, timestamp: frame.timestamp || 0, blur_result: rp, options: frame.options || {} } };
                   const resp = await fetch(`/api/videos/${videoId}/apply-frame-blur-to-video`, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(payload) });
                   if (resp.ok) {
                     const j = await resp.json();
@@ -777,7 +808,7 @@ const FrameDetailsPage = ({ frames = [], onBack = () => {} }) => {
       const isImage = /\.(png|jpe?g|bmp|gif)(\?|$)/i.test(String(exportSelectedResult));
       if (isImage && vid) {
         // construct a minimal payload to create MP4 from the blurred image
-        const payload = { preview_path: exportSelectedResult, frame: { blur_result: exportSelectedResult }, timestamp: 0 };
+  const payload = { preview_path: exportSelectedResult, frame: { preview_path: exportSelectedResult, frame_index: 0, timestamp: 0, blur_result: exportSelectedResult, options: { strength: 12 } }, timestamp: 0 };
         try {
           const resp = await fetch(`/api/videos/${vid}/apply-frame-blur-to-video`, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(payload) });
           if (resp.ok) {
@@ -850,9 +881,21 @@ const FrameDetailsPage = ({ frames = [], onBack = () => {} }) => {
             <Typography variant="body2" sx={{ mb: 0.5 }}><strong>Frame Index:</strong> {frame.frame_index !== undefined ? frame.frame_index : idx}</Typography>
 
             <Box sx={{ mt: 1, display: 'flex', gap: 1 }}>
-              {frame.preview_path && <Button size="small" variant="outlined" onClick={() => (blurResults && blurResults[idx]) ? openBlurredPreview({ preview_path: blurResults[idx] }, idx) : openPreview(frame.preview_path)}>Preview</Button>}
+              {frame.preview_path && <Button size="small" variant="outlined" onClick={() => ((blurResults && blurResults[idx]) ? openBlurredPreview({ preview_path: blurResults[idx] }, idx) : (showOriginal[idx] ? openPreview(frame.preview_path) : openBlurredPreview(frame, idx, (strengths[idx] !== undefined ? strengths[idx] : (frame.options && frame.options.strength) ? frame.options.strength : 12))))}>Preview</Button>}
               {frame.preview_path && <Button size="small" variant="contained" onClick={() => copyToClipboard(frame.preview_path)}>Copy URL</Button>}
               {frame.preview_path && <Button size="small" variant="outlined" color="warning" onClick={() => handleBlur(frame, idx)} disabled={!!blurLoading[idx]}>{blurLoading[idx] ? 'Blurring...' : 'Blur'}</Button>}
+              <TextField
+                size="small"
+                label="Strength"
+                type="number"
+                value={(strengths[idx] !== undefined) ? strengths[idx] : (frame.options && frame.options.strength) ? frame.options.strength : 12}
+                onChange={(e) => setStrengths(prev => ({ ...prev, [idx]: e.target.value }))}
+                sx={{ width: 110 }}
+              />
+              <FormControlLabel
+                control={<Checkbox checked={!!showOriginal[idx]} onChange={(e) => setShowOriginal(prev => ({ ...prev, [idx]: e.target.checked }))} />}
+                label="Original"
+              />
               {blurResults[idx] && <Button size="small" variant="contained" color="secondary" onClick={() => openBlurredPreview({ preview_path: blurResults[idx] }, idx)}>View Blurred</Button>}
               <Box>
                 <Button size="small" variant="outlined" color="primary" onClick={() => openExportConfirm(frame, idx)} disabled={!!exportLoading[idx]}>
@@ -865,7 +908,7 @@ const FrameDetailsPage = ({ frames = [], onBack = () => {} }) => {
                       const isImage = /\.(png|jpe?g|bmp|gif)(\?|$)/i.test(String(candidate));
                       const vid = savedVideoId || null;
                       if (isImage && vid) {
-                        const payload = { preview_path: candidate, frame: { blur_result: candidate }, timestamp: frame.timestamp || 0 };
+                        const payload = { preview_path: candidate, frame: { preview_path: candidate, frame_index: frame.frame_index ?? 0, timestamp: frame.timestamp || 0, blur_result: candidate, options: frame.options || {} } };
                         try {
                           const resp = await fetch(`/api/videos/${vid}/apply-frame-blur-to-video`, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(payload) });
                           if (resp.ok) {
@@ -931,7 +974,9 @@ const FrameDetailsPage = ({ frames = [], onBack = () => {} }) => {
               const { frame, idx } = exportPending;
               closeExportConfirm();
               const vid = frame.video_id || frame.videoId || frame.video || savedVideoId || null;
-              await handleExportBlurredVideo(vid, frame, exportDownloadAfter);
+                    // Inject UI-level overrides (strength, return_original) into the frame options when present
+                    const patchedFrame = Object.assign({}, frame, { options: Object.assign({}, frame.options || {}, { strength: (strengths[idx] !== undefined ? Number(strengths[idx]) : (frame.options && frame.options.strength) ? Number(frame.options.strength) : undefined), return_original: !!showOriginal[idx] }) });
+                    await handleExportBlurredVideo(vid, patchedFrame, exportDownloadAfter);
             }
           }} variant="contained" color="primary">Confirm</Button>
         </DialogActions>
