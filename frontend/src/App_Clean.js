@@ -10,14 +10,23 @@ import {
   Toolbar,
   Typography,
   Box,
-  Card,
-  CardContent,
   Button,
   Alert,
   LinearProgress,
-  Paper
+  Paper,
+  Dialog,
+  DialogTitle,
+  DialogContent,
+  DialogActions,
+  List,
+  ListItem,
+  ListItemText,
+  IconButton,
+  Tooltip
 } from '@mui/material';
 import CloudUpload from '@mui/icons-material/CloudUpload';
+import ContentCopyIcon from '@mui/icons-material/ContentCopy';
+import DownloadIcon from '@mui/icons-material/Download';
 import VideoLibrary from '@mui/icons-material/VideoLibrary';
 import CheckCircle from '@mui/icons-material/CheckCircle';
 import Analytics from '@mui/icons-material/Analytics';
@@ -33,7 +42,7 @@ function App() {
   const [showHistory, setShowHistory] = useState(false);
   const [showFrameDetails, setShowFrameDetails] = useState(false);
   const [analysis, setAnalysis] = useState(null);
-  const [parsedReport, setParsedReport] = useState({});
+  const [parsedReport] = useState({});
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
   const [connectionStatus, setConnectionStatus] = useState('testing');
@@ -50,6 +59,96 @@ function App() {
   useEffect(() => {
     testConnection();
   }, []);
+
+  // --- recommendation generator (frontend) ---
+  function generateRecommendationsFromAnalysis(analysis) {
+    if (!analysis) return [];
+    const retrieved_docs = analysis.retrieved_docs || [];
+    const complianceRate = Math.round((analysis.compliance_rate || analysis.complianceRate || 0) * 100);
+    const pacingScore = analysis.pacing_rate || analysis.pacingRate || analysis.pacingScore || null;
+    const pacingDeviation = typeof pacingScore === 'number' ? Math.abs(pacingScore - 1) : null;
+    const pacingWarning = pacingDeviation !== null && pacingDeviation > 0.15;
+
+    const positiveCategories = new Set([
+      'safe content','educational content','entertainment content','news content',
+      'tutorials & how-to','community & family-friendly','artistic & creative expression','positive social impact'
+    ]);
+
+    const groups = {};
+    retrieved_docs.forEach(doc => {
+      const cat = String(doc.category || '').toLowerCase();
+      if (!cat) return;
+      if (!groups[cat]) groups[cat] = { count: 0, samples: [] };
+      groups[cat].count++;
+      if (groups[cat].samples.length < 3) groups[cat].samples.push({ frame: doc.frame, ts: doc.timestamp, text: doc.blip || doc.transcript || doc.ocr });
+    });
+
+    const violationCats = Object.keys(groups).filter(c => !positiveCategories.has(c));
+    const recommendations = [];
+    recommendations.push({ severity: 'info', text: `Overview: ${complianceRate}% compliance · ${retrieved_docs.filter(d => !positiveCategories.has(String(d.category||'').toLowerCase())).length} flagged frames · ${violationCats.length} issue categories` });
+    if (pacingWarning) recommendations.push({ severity: 'warning', text: `Pacing: detected unusual pacing (${typeof pacingScore === 'number' ? pacingScore.toFixed(2) : 'N/A'}). Consider adding short pauses, trimming dense speech, or adding captions.` });
+    violationCats.forEach(cat => {
+      const info = groups[cat];
+      let action = 'Review flagged frames and add clarifying text or remove/blur content.';
+      if (cat.includes('suggest') || cat.includes('sexual') || cat.includes('adult')) action = 'Blur or replace explicit visuals; add contextual intro or age gate.';
+      else if (cat.includes('misinform') || cat.includes('false')) action = 'Add on-screen corrections and cite authoritative sources in description/overlay.';
+      else if (cat.includes('bad') || cat.includes('profan')) action = 'Bleep, re-record or add a content warning; provide a cleaned transcript.';
+      else if (cat.includes('violence')) action = 'Blur graphic details, avoid close-ups, add a trigger warning/age gate.';
+      recommendations.push({ severity: 'high', text: `${cat.replace(/_/g,' ')}: ${action} (Detected in ${info.count} frame${info.count>1?'s':''})`, samples: info.samples });
+    });
+    recommendations.push({ severity: 'info', text: 'Quick wins: trim or replace top 1–2 high-impact flagged segments, add captions/subtitles, update video description with clarifying notes.' });
+    const order = { high: 0, warning: 1, info: 2 };
+    recommendations.sort((a,b) => (order[a.severity] - order[b.severity]));
+    return recommendations;
+  }
+
+  // helper removed — recommendations dialog is opened inline where used
+
+  const closeRecommendationsDialog = () => setRecDialogOpen(false);
+
+  const copyRecommendationsToClipboard = () => {
+    const text = dashboardRecommendations.map(r => `- ${r.text}`).join('\n');
+    if (navigator.clipboard) navigator.clipboard.writeText(text);
+  };
+
+  const downloadRecommendationsJSON = () => {
+    const blob = new Blob([JSON.stringify(dashboardRecommendations, null, 2)], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    const vid = (ragAnalysis && ragAnalysis.video_id) || 'video';
+    a.download = `recommendations_${vid}.json`;
+    a.click();
+    URL.revokeObjectURL(url);
+  };
+
+  const saveRecommendationsToBackend = async () => {
+    try {
+      const vid = (ragAnalysis && ragAnalysis.video_id);
+      if (!vid) return;
+    await fetch(`${API_BASE_URL}/api/videos/${vid}/recommendations`, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ recommendations: dashboardRecommendations }) });
+      setRecDialogOpen(false);
+    } catch (err) { console.error('Save failed', err); }
+  };
+
+  const [applyResult, setApplyResult] = useState(null);
+
+  const applyRecommendations = async () => {
+    try {
+      const vid = (ragAnalysis && ragAnalysis.video_id);
+      if (!vid) return;
+      const payload = { recommendations: dashboardRecommendations };
+      const resp = await fetch(`${API_BASE_URL}/api/videos/${vid}/apply`, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(payload) });
+      if (!resp.ok) throw new Error('Apply failed');
+      const data = await resp.json();
+      setApplyResult(data);
+    } catch (err) {
+      console.error('Apply failed', err);
+      setApplyResult({ error: err.message });
+    }
+  };
+
+  // note: openRecommendationsDialog removed (used inline in UI) to avoid unused-variable lint
 
   const testConnection = async () => {
     try {
@@ -135,10 +234,10 @@ function App() {
         frames_analyzed: analysis.analysis_json?.frame_analysis?.total_frames || ragFrames.length
       });
     } else if (analysis && analysis.full_report) {
-      const ragSectionMatch = analysis.full_report.match(/DETAILED POLICY VIOLATION EXPLANATIONS \(RAG\):([\s\S]*?)(?=\n\s*\n|$)/i);
+  const ragSectionMatch = analysis.full_report.match(/DETAILED POLICY VIOLATION EXPLANATIONS \(RAG\):([\s\S]*?)(?=\n\s*\n|$)/i);
       if (ragSectionMatch) {
         const ragText = ragSectionMatch[1];
-        const frameRegex = /- Frame (\d+) \(t=([\d\.]+)s\): ([^\n]+)\n([\s\S]*?)(?=(?:- Frame \d+ \(t=|$))/g;
+  const frameRegex = /- Frame (\d+) \(t=([\d.]+)s\): ([^\n]+)\n([\s\S]*?)(?=(?:- Frame \d+ \(t=|$))/g;
         const frames = [];
         let match;
         while ((match = frameRegex.exec(ragText)) !== null) {
@@ -170,9 +269,16 @@ function App() {
   const framesArr = Array.isArray(analysis?.frames) ? analysis.frames : [];
   const totalFrames = framesArr.length;
   const safeCount = framesArr.filter(f => String(f.category).toLowerCase().includes('safe')).length;
-  const unsafeCount = framesArr.filter(f => !String(f.category).toLowerCase().includes('safe')).length;
-
+  // Rounded compliance percent for dashboard and color bands
+  const compliancePct = totalFrames ? Math.round((safeCount / totalFrames) * 100) : 0;
+  let complianceColor = '#ffd54f'; // default (yellow)
+  if (compliancePct < 50) complianceColor = '#e53935'; // red
+  else if (compliancePct >= 50 && compliancePct < 70) complianceColor = '#fb8c00'; // orange (barely passing)
+  else if (compliancePct >= 90) complianceColor = '#a5d6a7'; // green
   const [sidebarOpen, setSidebarOpen] = useState(true);
+  // Recommendations dialog state
+  const [recDialogOpen, setRecDialogOpen] = useState(false);
+  const [dashboardRecommendations, setDashboardRecommendations] = useState([]);
   const sidebarOptions = [
     { label: 'SETTINGS', color: 'secondary', icon: <Analytics />, tooltip: 'Configure frame extraction and analysis settings', onClick: () => { setShowSettings(true); setShowHistory(false); setShowFrameDetails(false); setShowRagPage(false); } },
     { label: 'RAG ANALYSIS', color: 'info', icon: <CheckCircle />, tooltip: 'View policy violation explanations', onClick: () => { setShowRagPage(true); setShowSettings(false); setShowHistory(false); setShowFrameDetails(false); } },
@@ -194,7 +300,13 @@ function App() {
   } else if (showHistory) {
     mainContent = <UploadHistoryPage />;
   } else if (showFrameDetails) {
-    mainContent = <FrameDetailsPage frames={ragAnalysis?.retrieved_docs || []} onBack={() => setShowFrameDetails(false)} />;
+  // Prefer the rich `frame_details` produced by the backend (contains blip_description, ocr_text, etc.)
+  // Fallback order:
+  // 1) analysis.analysis_json.frame_details (newer backends)
+  // 2) analysis.frames (some backends return frames directly when video is safe)
+  // 3) ragAnalysis.retrieved_docs (legacy RAG-style payloads)
+  const frameSource = analysis?.analysis_json?.frame_details || analysis?.frames || ragAnalysis?.retrieved_docs || [];
+    mainContent = <FrameDetailsPage frames={frameSource} onBack={() => setShowFrameDetails(false)} />;
   } else {
     mainContent = (
       <Box sx={{ width: '100vw', height: '100vh', p: 0, m: 0, overflow: 'hidden', display: 'flex', flexDirection: 'column', alignItems: 'stretch', justifyContent: 'flex-start', background: 'linear-gradient(120deg, #e3f2fd 60%, #fffde7 100%)' }}>
@@ -261,6 +373,7 @@ function App() {
     );
   }
 
+  // recommendations dialog is rendered inside the returned JSX below
   return (
     <Box sx={{ display: 'flex', width: '100vw', height: '100vh', background: 'linear-gradient(120deg, #e3f2fd 60%, #fffde7 100%)' }}>
       {/* Sidebar */}
@@ -299,23 +412,67 @@ function App() {
             </Typography>
             {/* Summary widgets */}
             {ragAnalysis && (
-              <Box sx={{ display: 'flex', alignItems: 'center', gap: 2, ml: 4 }}>
-                <Typography variant="body1" sx={{ color: '#fff', fontWeight: 'bold' }}>
-                  Videos Analyzed: <span style={{ color: '#e3f2fd' }}>{totalFrames}</span>
-                </Typography>
-                <Typography variant="body1" sx={{ color: '#fff', fontWeight: 'bold' }}>
-                  Safe Frames: <span style={{ color: '#a5d6a7' }}>{safeCount}</span>
-                </Typography>
-                <Typography variant="body1" sx={{ color: '#fff', fontWeight: 'bold' }}>
-                  Compliance Rate: <span style={{ color: '#ffd54f' }}>{totalFrames ? ((safeCount / totalFrames) * 100).toFixed(1) : '0'}%</span>
-                </Typography>
-              </Box>
-            )}
+                  <Box sx={{ display: 'flex', alignItems: 'center', gap: 2, ml: 4 }}>
+                    <Typography variant="body1" sx={{ color: '#fff', fontWeight: 'bold' }}>
+                      Videos Analyzed: <span style={{ color: '#e3f2fd' }}>{totalFrames}</span>
+                    </Typography>
+                    <Typography variant="body1" sx={{ color: '#fff', fontWeight: 'bold' }}>
+                      Safe Frames: <span style={{ color: '#a5d6a7' }}>{safeCount}</span>
+                    </Typography>
+                    <Typography variant="body1" sx={{ color: '#fff', fontWeight: 'bold' }}>
+                      Compliance Rate: <span style={{ color: complianceColor }}>{compliancePct}%</span>
+                    </Typography>
+                    <Button variant="contained" color="secondary" sx={{ ml: 2 }} onClick={() => {
+                      // generate recommendations from current ragAnalysis
+                      const recs = generateRecommendationsFromAnalysis(ragAnalysis || analysis);
+                      setDashboardRecommendations(recs);
+                      setRecDialogOpen(true);
+                    }}>
+                      Generate Fixes & Recommendations
+                    </Button>
+                  </Box>
+                )}
           </Toolbar>
         </AppBar>
         <Box sx={{ flex: 1, overflow: 'auto', p: 0, m: 0 }}>
           {mainContent}
         </Box>
+        {/* Recommendations Dialog */}
+        <Dialog open={recDialogOpen} onClose={closeRecommendationsDialog} maxWidth="md" fullWidth>
+          <DialogTitle>Personalized Fixes & Recommendations</DialogTitle>
+          <DialogContent dividers>
+            <List>
+              {dashboardRecommendations && dashboardRecommendations.length > 0 ? dashboardRecommendations.map((r, i) => (
+                <ListItem key={i} alignItems="flex-start">
+                  <ListItemText primary={r.text} secondary={r.samples && r.samples.length > 0 ? `Examples: ${r.samples.map(s => (s.ts !== undefined ? `${s.ts}s` : (s.frame!==undefined ? `#${s.frame}` : ''))).join(', ')}` : null} />
+                </ListItem>
+              )) : <ListItem><ListItemText primary="No recommendations available." /></ListItem>}
+            </List>
+          </DialogContent>
+            <DialogActions>
+            <Tooltip title="Copy recommendations to clipboard">
+              <IconButton onClick={copyRecommendationsToClipboard}><ContentCopyIcon /></IconButton>
+            </Tooltip>
+            <Tooltip title="Download JSON">
+              <IconButton onClick={downloadRecommendationsJSON}><DownloadIcon /></IconButton>
+            </Tooltip>
+            <Button onClick={applyRecommendations} variant="contained" color="warning">Apply to Video</Button>
+            <Button onClick={saveRecommendationsToBackend} variant="contained" color="primary">Save to Backend</Button>
+            <Button onClick={closeRecommendationsDialog}>Close</Button>
+          </DialogActions>
+        </Dialog>
+        {applyResult && (
+          <Box sx={{ p: 2 }}>
+            {applyResult.error ? (
+              <Typography color="error">Apply failed: {applyResult.error}</Typography>
+            ) : (
+              <>
+                <Typography>Applied successfully. Result: </Typography>
+                <a href={applyResult.result_path} target="_blank" rel="noreferrer">{applyResult.result_path}</a>
+              </>
+            )}
+          </Box>
+        )}
       </Box>
     </Box>
   );

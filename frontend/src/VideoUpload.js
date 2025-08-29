@@ -1,6 +1,5 @@
 import React from 'react';
 import { Box, Card, CardContent, Typography, Button, Alert } from '@mui/material';
-import CloudUpload from '@mui/icons-material/CloudUpload';
 
 /**
  * VideoUpload component handles file selection, drag & drop, and upload button.

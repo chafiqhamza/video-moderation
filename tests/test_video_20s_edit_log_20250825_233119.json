@@ -1,0 +1,10 @@
+﻿{
+    "start":  14.5,
+    "end":  17,
+    "backup":  "D:\\video-moderation-second\\video-moderation-second\\tests\\test_video_20s.orig_20250825_233119.mp4",
+    "review":  "D:\\video-moderation-second\\video-moderation-second\\tests\\test_video_20s_review_14.0s_3.5s__20250825_233119.mp4",
+    "pad":  0.5,
+    "input":  "D:\\video-moderation-second\\video-moderation-second\\tests\\test_video_20s.mp4",
+    "created":  "2025-08-25T23:31:20.0991774+01:00",
+    "blurred":  "D:\\video-moderation-second\\video-moderation-second\\tests\\test_video_20s_blur_14.50-17.00_20250825_233119.mp4"
+}

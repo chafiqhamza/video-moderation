@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import { Container, Typography, Card, CardContent, Box, Chip, Button, TextField, Grid } from '@mui/material';
 import CheckCircle from '@mui/icons-material/CheckCircle';
 import Warning from '@mui/icons-material/Warning';
@@ -11,11 +11,7 @@ function UploadHistoryPage() {
     const [dateFilter, setDateFilter] = useState('');
     const [loading, setLoading] = useState(false);
 
-    useEffect(() => {
-        fetchHistory();
-    }, [dateFilter]);
-
-    const fetchHistory = async () => {
+    const fetchHistory = useCallback(async () => {
         setLoading(true);
         try {
             let url = `${API_BASE_URL}/videos`;
@@ -31,7 +27,11 @@ function UploadHistoryPage() {
         } finally {
             setLoading(false);
         }
-    };
+    }, [dateFilter]);
+
+    useEffect(() => {
+        fetchHistory();
+    }, [fetchHistory]);
 
     const handleBack = () => {
         if (typeof window !== 'undefined' && window.__react_app_back) {

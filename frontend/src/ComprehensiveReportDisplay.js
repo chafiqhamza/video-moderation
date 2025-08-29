@@ -60,9 +60,7 @@ export default function ComprehensiveReportDisplay({ report }) {
     const transcript = fields.audio_analysis?.transcript || fields.transcript || fallback.transcript || '';
     const ocrText = fields.ocr_results?.text || fields.text_in_video?.text || fallback.ocr_text || '';
     const ocrItems = fields.ocr_results?.extracted_items || fields.text_in_video?.extracted_items || fallback.ocr_items || [];
-    const blipDescriptions = Array.isArray(framesArr)
-        ? framesArr.map(f => f.blip_description?.description).filter(d => d && d.trim() && d !== 'No BLIP description available.')
-        : (fields.frame_analysis?.blip_descriptions || fallback.blip_descriptions || []);
+    // blipDescriptions removed (unused) to satisfy ESLint; keep extraction logic in place when needed.
     const copyrightCheck = report.copyright_check || null;
 
     // Scores and issues: use true model output fields if present
